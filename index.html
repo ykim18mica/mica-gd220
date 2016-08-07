@@ -3,16 +3,18 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+	{% assign count = '1' %}
+	{% for post in site.posts reversed %}
+		{% if post.title != null %}
+			{% if post.layout == "post" %}
+				<article class="post">
+		      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ count }}. {{ post.title }}</a></h1>
+		      <div class="summary">
+		        {% if post.summary %}{{ post.summary }}{% endif %}
+		      </div>
+	    	</article>
+	    	{% capture count %}{{ count | plus: '1' }}{% endcapture %}
+			{% endif %}
+		{% endif %}
+	{% endfor %}
 </div>

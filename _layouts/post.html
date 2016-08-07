@@ -10,7 +10,9 @@ layout: default
   </div>
 
   <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+    {% if page.date_edited %}
+    	edited on {{ page.date | date: "%B %e, %Y" }}
+    {% endif %}
   </div>
 
   {% include disqus.html %}
