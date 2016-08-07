@@ -33,18 +33,19 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $openSans;
   color: $darkerGray;
-  font-weight: bold;
+  //font-weight: bold;
 
-  line-height: 1.5;
-  margin: 1em 0 15px;
+  line-height: 1.4;
+  margin: 1.7em 0 15px;
   padding: 0;
 
   text-transform: capitalize;
 }
 
 h1 {
-  font-family: $davidLibre;
-  font-size: 28px;
+  font-family: $sourceSerifPro;
+  font-size: 24px;
+  letter-spacing: 0.3px;
 
   a {
     color: inherit;
@@ -53,15 +54,20 @@ h1 {
 
 h2 {
   margin-bottom: 0;
+  font-family: $sourceSerifPro;
   font-size: 18px;
 }
 
 h3 {
-  font-size: 18px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 12px;
 }
 
 p {
@@ -78,7 +84,7 @@ a {
 }
 
 ul, ol {
-  margin: 15px 0;
+  margin: 5px 0;
   padding-left: 30px;
 }
 
@@ -185,13 +191,14 @@ img {
   color: $black;
   cursor: pointer;
   font-family: $openSans;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
+  letter-spacing: 0;
 }
 
 .site-description {
   color: #999;
-  font-size: 18px;
+  font-size: 16px;
 
   @include mobile {
     //margin: 3px 0;
@@ -206,13 +213,12 @@ img {
   ol {
     margin: 0;
     padding: 0;
-    font-family: $davidLibre;
+    font-family: $sourceSerifPro;
     color: $darkerGray;
     font-size: 18px;
   }
 
   h1 {
-    letter-spacing: 0.8px;
     margin: 0.6em 0 0 0;
   }
 }
