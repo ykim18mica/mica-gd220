@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction
+title: Syllabus
 excerpt_separator: <!--more-->
 summary: General course information.
 categories:
