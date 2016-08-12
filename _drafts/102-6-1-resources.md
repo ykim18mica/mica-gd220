@@ -8,26 +8,42 @@ tags:
 date_edited:
 ---
 
+
 ## Learning Materials
 
-- Codecademy
-- 
+- [Codecademy](https://www.codecademy.com)
+- General Assembly Dash
+- A to Z CSS
+
+
 
 ## Tools
-
-- Codepen
-- Github
+- [Codepen](http://codepen.io)
+- [Github](http://github.com)
 - 
 
-## Web Typography
 
+
+## Web Typography
 - Typekit
 - Google Fonts
 
+
+
 ## Websites
+- Mozilla Developer Network
+- [A List Apart](http://alistapart.com)
+- 
+
+
 
 ## Inspirations
+-
 
+
+## Books
+- Type On Screen
+- A List Apart HTML5
 
 
 
