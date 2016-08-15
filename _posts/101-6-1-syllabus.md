@@ -3,9 +3,9 @@ layout: post
 title: Syllabus
 excerpt_separator: <!--more-->
 summary: General course information.
-categories:
+categories: syllabus
 tags:
-date_edited: Aug 11, 2016
+date_edited: Aug 14, 2016
 ---
 
 *You can also download the [PDF version]({{ site.baseurl }}/files/MICA-16FA-GD2-Syllabus.pdf) of the syllabus.*
@@ -51,14 +51,10 @@ There will be 3 main projects and additional assignments related to each project
 
 On any assignment, 
 
-“A” is given to a student who has gone beyond expectations. 
-
-“B” is given to a student with above-average work. 
-
-“C” means that a student meets the requirements for the assignment. 
-
-“D” shows that a student has not met the expectations. 
-
+“A” is given to a student who has gone beyond expectations.  
+“B” is given to a student with above-average work.  
+“C” means that a student meets the requirements for the assignment.  
+“D” shows that a student has not met the expectations.   
 “F” means a student failed to submit the assignment or has shown very little effort.
 
 All projects are due at the beginning of class. Work handed in more than 15 minutes after the beginning of class is marked late. Grades for late projects will be lowered a whole letter. After a full week, a project may not be handed in late and it will be awarded a failing grade.
@@ -123,7 +119,7 @@ Set up time during my office hours to talk one on one. You can also email me if 
 ## Attendance
 Attendance and participation is mandatory. Arrive on time to the start of each class and after each break. Failure to return from break will be considered as absence. Do not leave class early before it is completely dismissed. *Students who have the equivalent of more than 3 absences are no longer eligible to earn credit for the course.* If you are absent, it is your responsibility for gathering any material missed. I will not recap.
 
-Only a *serious* medical issue or family *emergency* situation with a documented proof will be excused. You will *not* be excused just because you emailed me about your absence.
+There are no *excused* absences. An absence is an absence. For illness or other causes for extended absences, refer to the MICA's academic policy.
 
 Tardiness is also not tolerated. If you arrive 10 minutes past the scheduled class start time or after returning from break,  this is considered tardy. *3 tardies will be counted as an absence. Arriving more than 30 minutes late will be marked as an absence.*
 
@@ -148,48 +144,51 @@ If there is any required material, it will be discussed ahead of time.
 
 ### Week 1 (Aug.29 - Sep.2)
 Introduction  
-
-### Week 2 (Sep.5 - 9) 
 Project 1 begins
 
-### Week 3 (Sep.12 - 16)
+### Week 2 (Sep.5 - 9) 
+Project 1 cont'd
 
+### Week 3 (Sep.12 - 16)
+Project 1 cont'd
 
 ### Week 4 (Sep.19 - 23)
-
+Project 1 cont'd
 
 ### Week 5 (Sep.26 - 30)
-
+Project 1 due
+Project 2 begins
 
 ### Week 6 (Oct.3 - 7)
-
+Project 2 cont'd
 
 ### Week 7 (Oct.10 - 14)
-
+Project 2 cont'd
 
 ### Week 8 (Oct.17 - 21)
-*Fall Break - no classes*
+Project 2 cont'd
 
 ### Week 9 (Oct.24 - 28)
-
+Project 2 cont'd
 
 ### Week 10 (Oct.31 - Nov.4)
-
+Project 2 due
+Project 3 begins
 
 ### Week 11 (Nov.7 - 11)
-
+Project 3 cont'd
 
 ### Week 12 (Nov.14 - 18)
-
+Project 3 cont'd
 
 ### Week 13 (Nov.21 - 25)
-
+*Thanksgiving - no class*
 
 ### Week 14 (Nov.28 - Dec.2)
-
+Project 3 cont'd
 
 ### Week 15 (Dec.5 - 9)
-
+Project 3 cont'd
 
 ### Week 16 (Dec.12 - 16)
 Project 3 due  
