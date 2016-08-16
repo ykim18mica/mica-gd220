@@ -16,3 +16,58 @@ layout: default
 	  {% endfor %}
   </ul>
 </div> 
+
+<div id="frame" style="position: fixed; top: 0; left: 0; z-index:-999;"></div>
+<script id="shader" type="x-shader/x-fragment">
+
+#define PI 3.141592653589	
+
+float draw_line(vec2 p, vec2 origin) {
+		float v = 1.-smoothstep(.0, 1.8, abs((origin.x-p.x) + (p.y-origin.y)*sin(time)*.4));
+		return v;
+}
+void main() {
+	vec2 p = gl_FragCoord.xy / resolution.xy;
+	p = p*2. - 1.;
+	vec2 mouse = mouse.xy / resolution.xy;
+	p *= .8;
+	float aspect = resolution.x / resolution.y;
+	p.x *= aspect;
+	vec3 col = vec3(.5);
+
+	float s = smoothstep( 0., 1., sin( (abs( 1.-pow(p.y + mouse.x, 2.) ) )*PI*10. + time ) );
+	col = vec3(s);
+
+	float v1 = draw_line( p, vec2(sin(time*.5)*2.) );
+	float v2 = draw_line( vec2(p.x*p.y, p.y*p.y), vec2(sin(time*.5), cos(time*.5 + p.y)) );
+
+	col *= vec3(v1);
+	col *= clamp(mix(col, vec3(v2), cos(-time)*10.), 0., .5);
+
+	gl_FragColor = vec4(1.-col, 1.0);
+}
+
+
+</script>
+
+<script>
+
+window.addEventListener('load', function() {
+	var q = new QuickShader({
+		shader: document.getElementById('shader').textContent,
+		width: window.innerWidth,
+		height: window.innerHeight,
+		parentNode: '#frame'
+	});
+
+	q.play();
+
+	var resize = function() {
+		q.size(window.innerWidth, window.innerHeight);
+	};
+
+	window.addEventListener('resize', resize);
+	resize();
+});
+
+</script>
