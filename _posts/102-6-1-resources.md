@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 summary: A list of useful resources.
 categories:
 tags:
-date_edited: Aug 14, 2016
+date_edited: Aug 21, 2016
 ---
 
 
