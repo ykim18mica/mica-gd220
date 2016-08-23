@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 summary: General course information.
 categories: syllabus
 tags:
-date_edited: Aug 14, 2016
+date_edited: Aug 21, 2016
 ---
 
 *You can also download the [PDF version]({{ site.baseurl }}/files/MICA-16FA-GD2-Syllabus.pdf) of the syllabus.*
@@ -133,7 +133,7 @@ If there is any required material, it will be discussed ahead of time.
 1. Adobe Creative Suite
 2. Back up solution (thumb drive, external hdd, etc.)
 3. Chrome web browser
-4. [Brackets code editor](http://brackets.io) or any other code editor of your choice.
+4. [Brackets](http://brackets.io) or any other code editor of your choice.
 5. Dropbox or Google Drive
 
 
@@ -156,7 +156,7 @@ Project 1 cont'd
 Project 1 cont'd
 
 ### Week 5 (Sep.26 - 30)
-Project 1 due
+Project 1 due  
 Project 2 begins
 
 ### Week 6 (Oct.3 - 7)
@@ -172,7 +172,7 @@ Project 2 cont'd
 Project 2 cont'd
 
 ### Week 10 (Oct.31 - Nov.4)
-Project 2 due
+Project 2 due  
 Project 3 begins
 
 ### Week 11 (Nov.7 - 11)
