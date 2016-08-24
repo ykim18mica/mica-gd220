@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 summary: A list of useful resources.
 categories:
 tags:
-date_edited: Aug 21, 2016
+date_edited: Aug 24, 2016
 ---
 
 
@@ -45,7 +45,9 @@ date_edited: Aug 21, 2016
 
 
 ## Inspirations
--
+- [Chrome Experiments](https://www.chromeexperiments.com)
+- [FWA](https://thefwa.com)
+
 
 
 
