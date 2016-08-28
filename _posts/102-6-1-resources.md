@@ -15,7 +15,7 @@ date_edited: Aug 24, 2016
 - [General Assembly Dash](https://dash.generalassemb.ly) - interactive lessons for the basic
 - [A to Z CSS](http://www.atozcss.com)
 - [Don't Fear The Internet](http://www.dontfeartheinternet.com/) - a series of video lessons
-
+- [Learn Layout](http://learnlayout.com)
 
 
 
