@@ -16,6 +16,7 @@ date_edited: Aug 24, 2016
 - [A to Z CSS](http://www.atozcss.com)
 - [Don't Fear The Internet](http://www.dontfeartheinternet.com/) - a series of video lessons
 - [Learn Layout](http://learnlayout.com)
+- [Khanacademy Intro to HTML and CSS](https://www.khanacademy.org/computing/computer-programming/html-css)
 
 
 
