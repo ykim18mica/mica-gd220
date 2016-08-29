@@ -81,6 +81,10 @@ $ traceroute -q 1 www.cnn.co.jp
 
 It will show you how your request is going through multiple servers and crosses the Pacific ocean to get the the website hosted in Japan. Fun stuff!
 
+### HTTP or HTTPS
+When you send a request to a server, you do it through HTTP or Hypertext Transfer Protocol. The thing is everything you type, including private information, is passed as a plain text, which means if anybody with a bad intention wanted to, they can steal the data very easily.
+
+Luckily for us, there is another protocol called HTTPS. That 'S' at the end stands for *Secure*. Of course, there are many ways to hack someone's personal computer, but make sure you at least check the website uses HTTPS when you buy somthing online next time.
 
 ### response from the server
 
@@ -93,18 +97,15 @@ curl http://www.google.com
 ```
 
 
-## HTTP or HTTPS
-When you send a request to a server, you do it through HTTP or Hypertext Transfer Protocol. The thing is everything you type, including private information, is passed as a plain text, which means if anybody with a bad intention wanted to, they can steal the data very easily.
-
-Luckily for us, there is another protocol called HTTPS. That 'S' at the end stands for *Secure*. Of course, there are many ways to hack someone's personal computer, but make sure you at least check the website uses HTTPS when you buy somthing online next time.
-
 
 
 
 ## Serving your website
-You can use your home computer to server your website. 
+You can use your home computer to server your website, but your computer may not be designed to be on 24/7 and your home internet connection is not very fast or stable for the job.
 
-### Domain Names
+We usually find a company who will host your website with a fee. There are two things you need to have before you will see your website live.
+
+### Domain Name
 
 ### Web hosting
 
