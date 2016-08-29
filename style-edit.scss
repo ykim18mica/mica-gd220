@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 16px/1.5 $openSans;
+  font: 16px/1.7 $openSans;
   color: $darkGray;
 }
 
@@ -120,6 +120,12 @@ strong, b {
 
 img {
   max-width: 100%;
+}
+
+code {
+  padding: 2px;
+  border-radius: 2px;
+  background-color: #efefef;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -245,7 +251,9 @@ img {
 
 .post {
   p a,
-  li a {
+  li a,
+  figure a,
+  .footnotes a {
     -webkit-box-shadow:inset  0px -10px 0px 0px #ffe2f3;
     -moz-box-shadow:inset     0px -10px 0px 0px #ffe2f3;
     box-shadow:inset          0px -10px 0px 0px #ffe2f3;
@@ -270,6 +278,23 @@ img {
 
   .comments {
     margin-top: 10px;
+  }
+
+  figure {
+    margin: 20px 0;
+  }
+
+  figure img {
+    display: block;
+    margin: 0 auto;
+    max-height: 400px;
+  }
+
+  figcaption {
+    color: $gray;
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
   }
 }
 
