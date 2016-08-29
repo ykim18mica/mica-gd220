@@ -115,8 +115,9 @@ We usually find a company who will host your website with a fee. There are two t
 
 
 ## Further Learning
-- [How the Inter Works in 5 Minutes](https://www.youtube.com/watch?v=7_LPdttKXPc)
+- [How the Internet Works in 5 Minutes](https://www.youtube.com/watch?v=7_LPdttKXPc)
 - [Web programming lecture notes from Harvard CS50](http://cdn.cs50.net/2015/fall/lectures/6/m/notes6m/notes6m.html#web_programming)
+- [Andrew Blum: What is the Internet, really?](https://www.youtube.com/watch?v=XE_FPEFpHt4) TED talk
 - Feynman's video lecture
 
 
