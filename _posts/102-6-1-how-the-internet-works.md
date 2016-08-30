@@ -2,10 +2,10 @@
 layout: post	
 title: How The Internet Works
 excerpt_separator: <!--more-->
-summary: 
+summary: Web browser, server & client, web address, etc.
 categories:
 tags:
-date_edited: Aug 29, 2016
+date_edited: Aug 30, 2016
 ---
 
 How does the internet work? What happens when you open up a browser and type in a website address? Before we learn how to design for the web, let's take a look at the underlying technologies.
@@ -31,17 +31,17 @@ No matter what people talk about the cloud or wireless computing, the Internet i
 ## Web Browser
 A web browser is a software that you use to access the Web. You can upload and download information. Popular browsers include Google Chrome, Mozilla Firefox, Apple Safari and Microsoft Internet Explorer. Browsers send a request to a server to retreive HTML pages. 
 
-If they are all retrieving the same pages, why are there so many web browsers? That's because the way these browsers interpret and display information varies. The HTML specifications are maintained by the W3C (World Wide Web Consortium), and the specs are constantly changing. Some browsers will adapt certain features while others will not. The browsers also have other features to make it easy to use the Web or develop for the Web.
+If they are all retrieving the same pages, why are there so many web browsers? That's because the way these browsers interpret and display information varies. The HTML specifications are maintained by the [W3C](http://www.w3.org) (World Wide Web Consortium), and the specs are constantly changing. Some browsers will adapt certain features while others will not. The browsers also have other features to make it easy to use the Web or develop for the Web.
 
 
 
 
 ## server and client
-A server is a special computer machine or software that is designed to be connected to the Internet and serve the information. A server is usually on 24/7 and waiting for any requests from the clients. A client is basically a computer that we use. We use it to connect to the Internet and request information --- it happend anytime we type in a URL or click a link.
+A server is a special computer machine or software that is designed to be connected to the Internet and serve the information. A server is usually on 24/7 and waiting for any requests from the clients. A client is basically a computer that we use. We use it to connect to the Internet and request information --- it happens anytime we type in a URL or click a link.
 
 
 ### Website address
-We typically type in a website address into a browser such as http://google.com or http://facebook.com. This is called a URL, which stands for Uniform Resource Locator. Every machine connected to the Internet has a unique address in the form of IP address that looks like `http://275.3.6.28`, but it is impossible for us to remember these numbers, so we instead use the words.
+We typically type in a website address into a browser such as `http://google.com` or `http://facebook.com`. This is called a URL, which stands for Uniform Resource Locator. Every machine connected to the Internet has a unique address in the form of IP address that looks like `http://275.3.6.28`, but it is impossible for us to remember these numbers, so we instead use the words.
 
 ### DNS
 A DNS (Domain Name System) server will then take the domain names and convert it to the IP address that is associated with it, or vice versa.
@@ -84,7 +84,7 @@ It will show you how your request is going through multiple servers and crosses 
 ### HTTP or HTTPS
 When you send a request to a server, you do it through HTTP or Hypertext Transfer Protocol. The thing is everything you type, including private information, is passed as a plain text, which means if anybody with a bad intention wanted to, they can steal the data very easily.
 
-Luckily for us, there is another protocol called HTTPS. That 'S' at the end stands for *Secure*. Of course, there are many ways to hack someone's personal computer, but make sure you at least check the website uses HTTPS when you buy somthing online next time.
+Luckily for us, there is another protocol called HTTPS. That *S* at the end stands for *Secure*. Of course, there are many ways to hack someone's personal computer, but make sure you at least check the website uses HTTPS when you buy somthing online next time.
 
 ### response from the server
 
@@ -109,10 +109,10 @@ We usually find a company who will host your website with a fee. There are two t
 There are many companies that you can buy domain names from. [Namecheap](http://namecheap.com) and [Google](https://domains.google) are a few examples. Type in your desired domain name and see if it is free or already taken. 
 
 ### Web hosting
-You have a domain name, which works like an address. Now, you need a space to store your files and contents. That is called web hosting. You will rent a hard drive space from a hosting company and connect your domain name with the space. Many companies offer both domain name and web storage hosting.
+You have a domain name, which works like an address. Now, you need a space to store your files and contents. That is called web hosting. You will rent a server space from a hosting company and connect your domain name with the space. Many companies offer both domain name and web storage hosting.
 
 ### Free options
-[Github Pages](https://pages.github.com) is a great free hosting option. you will get a domain name that looks like `http://yourusername.github.io` and store and host as many files as you want. 
+[Github Pages](https://pages.github.com) is a great free hosting option. you will get a domain name that looks like `http://yourusername.github.io` and host as many files as you want. 
 
 
 
