@@ -46,7 +46,7 @@ We typically type in a website address into a browser such as http://google.com 
 ### DNS
 A DNS (Domain Name System) server will then take the domain names and convert it to the IP address that is associated with it, or vice versa.
 
-If you to try, open up the Terminal app and type as below.
+If you want to try, open up the Terminal app and type as below.
 
 ```
 $ nslookup google.com
@@ -79,7 +79,7 @@ Open up the Terminal app, and type in as below:
 $ traceroute -q 1 www.cnn.co.jp
 ```
 
-It will show you how your request is going through multiple servers and crosses the Pacific ocean to get the the website hosted in Japan. Fun stuff!
+It will show you how your request is going through multiple servers and crosses the Pacific ocean to get to the website hosted in Japan. You can try other websites as well. Fun stuff!
 
 ### HTTP or HTTPS
 When you send a request to a server, you do it through HTTP or Hypertext Transfer Protocol. The thing is everything you type, including private information, is passed as a plain text, which means if anybody with a bad intention wanted to, they can steal the data very easily.
@@ -101,14 +101,18 @@ curl http://www.google.com
 
 
 ## Serving your website
-You can use your home computer to server your website, but your computer may not be designed to be on 24/7 and your home internet connection is not very fast or stable for the job.
+You can use your home computer to serve your website, but your computer may not be designed to be turned on 24/7 and your home internet connection may not be fast or stable enough for the job.
 
 We usually find a company who will host your website with a fee. There are two things you need to have before you will see your website live.
 
 ### Domain Name
+There are many companies that you can buy domain names from. [Namecheap](http://namecheap.com) and [Google](https://domains.google) are a few examples. Type in your desired domain name and see if it is free or already taken. 
 
 ### Web hosting
+You have a domain name, which works like an address. Now, you need a space to store your files and contents. That is called web hosting. You will rent a hard drive space from a hosting company and connect your domain name with the space. Many companies offer both domain name and web storage hosting.
 
+### Free options
+[Github Pages](https://pages.github.com) is a great free hosting option. you will get a domain name that looks like `http://yourusername.github.io` and store and host as many files as you want. 
 
 
 
