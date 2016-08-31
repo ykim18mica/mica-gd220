@@ -18,7 +18,7 @@ date_edited: Aug 30, 2016
 
 ### 2. Identify different structural/hierarchical elements from a print newspaper. Then, analyze the design decisions such as typography, color, image placement, etc.
 - How are different elements working under the same system?
-- Is any of the elements confusing or clear enough to understand?
+- Is any of the visual elements confusing or clear enough to understand?
 
 ### 3. What are the differences between print and web in terms of designing a system and user experience?
 - What are the similarities and differences?
