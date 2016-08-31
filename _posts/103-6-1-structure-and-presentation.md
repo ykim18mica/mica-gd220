@@ -25,6 +25,8 @@ date_edited: Aug 30, 2016
 - How is the user experience different?
 - What do you gain or lose by choosing one or the other?
 
+### 4. Look at the original articles and discuss and compare how they structured and presented the information.
+
 <!--
 ### 4. Recreate the same article with HTML and CSS.
 -->
