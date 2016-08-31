@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 summary: Visualize the song lyrics using HTML & CSS.
 categories: project
 tags:
-date_edited:
+date_edited: Aug 30, 2016
 ---
 
 
