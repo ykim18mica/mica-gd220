@@ -28,7 +28,7 @@ date_edited: Aug 30, 2016
 ### 4. Look at the original articles and discuss and compare how they structured and presented the information.
 
 <!--
-### 4. Recreate the same article with HTML and CSS.
+### 5. Recreate the same article with HTML and CSS.
 -->
 
 
