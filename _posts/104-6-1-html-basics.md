@@ -9,11 +9,6 @@ date_edited: Sep 7, 2016
 ---
 
 
-best way to learn html tags is by practicing and looking at other people's source code.
-
-chrome developer tool.
-
-
 
 
 ## HTML main structure
