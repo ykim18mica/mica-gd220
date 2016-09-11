@@ -2,7 +2,7 @@
 layout: post	
 title: Project 1 Template Walkthrough
 excerpt_separator: <!--more-->
-summary: How to use the provided CSS template 
+summary: How to use the CSS template 
 categories: project
 tags:
 date_edited: Sep 11, 2016
