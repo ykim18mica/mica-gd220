@@ -1,0 +1,214 @@
+---
+layout: post	
+title: Project 1 Template Walkthrough
+excerpt_separator: <!--more-->
+summary: How to use the provided CSS template 
+categories: project
+tags:
+date_edited: Sep 11, 2016
+---
+
+For the Lyrical Mapping project, you will build upon a CSS template provided. This template includes the support for responsive design and a few helpful classes to convert photoshop mockup to HTML/CSS codes.
+
+## Overview
+
+Download the Photoshop mockup template file [here](/files/p1-template-walkthrough/psd_mockup_template.psd). This PSD file has a 4-column grid system. You will see the guides set up to create small square block. Use them to guide your design.
+
+Download [HTML/CSS template file](/files/p1-template-walkthrough/p1-template.zip) and unzip to your prefered location. The `p1-template` folder will be created. Change the folder name to your name, `first-last`.
+
+In the folder, you will see `index.html` file, `images` folder and `css` folder. `index.html` is the file you will add your own code. `images` folder is where you will place your image files and link to your HTML page. `css` folder contains 2 files --- `reset.css` and `style.css`. `reset.css` is taken from [here](http://meyerweb.com/eric/tools/css/reset/). It resets all the CSS properties so that it will reduce browser inconsistencies and you can build your own design from a clean sheet. `style.css` contains the template codes and you will not edit this file, but rather, you will *override* some of the rules when necessary.
+
+Let's open up the project in Brackets. To open up a Brackets project, you don't double-click a file. Instead, drag and drop the entire folder --- *hopefully, you have already changed the folder name to your name* --- to Brackets.
+
+## Index file
+`index.html` contains the minimal HTML setup. This is where you will write your own HTML and CSS codes. Change the `<title>` to the song title you are working on. 
+
+```html
+<title>Safe and Sound</title>
+```
+
+Right after the title is two `<link>` tags.	
+
+```html
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+```
+This is how you link the external css files to your html page. You could directly place all the css rules directly within the html page, but it is harder to manage, especially if you have multiple html pages.
+
+The order of linking stylesheets are also important. In this case, we load `reset.css` first so that all the properties are reset, and then, on top of that, we add `style.css` to override with the template. After that you will write your own css within `<style>` block. Again, that will override any existing styles.
+
+```html
+<body>
+ 
+  <div class="container">
+    <!-- YOUR HTML CODE HERE -->
+    <div class="row">
+      <div class="col-25 quarter test"></div>
+      <div class="col-offset-25 col-25 quarter test"></div>
+    </div>
+  </div>
+  
+</body>
+```
+
+In the `<body>`, there are a few `<div>` already setup. You can safely delete all these. Here are a few rules that you have to follow in order for the template to work properly. 
+
+- All your contents must go inside the `.container`. `.container` sets the width of the whole page dynamically. It responds to different screen sizes.
+- Use `.row` for a group of horizontal columns. Anytime you want to move to the next row, create another div with the `.row` class.
+- Inside each `.row`, create `div`s with proper classes that contain your text and/or images.
+- All your contents must be marked up with HTML elements such as `div`, `h1`, `h2`, `p`, etc. Don not leave any text without markups.
+
+
+## Template Styles
+`style.css` contains a few useful class definitions to help your design. Do not change anything within this file. Instead, write your own CSS rules in `<style>` tag in `index.html` file.
+
+### .container
+```css
+.container {
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+}
+```
+`.container` has the margin of `0 auto`. It means that there are no top/bottom margins. `auto` means that left and right margins will be automatically calculated, and because both left and right are set to `auto`, they will be equal. This is a trick used to horizontally center any elements on a page.
+
+`width: 100%;` sets the width of `.container` same as its containing element, `body`. So, the width of `.container` is the same as the entire page width.
+
+`overflow: hidden` will hide any part of the elements that go out of `.container`.
+
+### .div
+```css
+div {
+    width: 100%;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+}
+```
+`div` is set to take up the 100% of its containing element, which is `.container`. But, we will override this rule later so that we can use smaller columns.
+
+`div` is a block level element, therefore, it takes up the entire width available by default and pushes down any elements after it. by using `float: left`, `div` will be floated to the left so that any remaining space can be used by an element that comes after it. This technique is used to create multi-column layouts.
+
+`box-sizing: border-box` will make sure that any border added to `div` will not increase the overall box size, which is a default behavior of `div`. Instead, borders will be placed inside the box.
+
+### column width
+```css
+/*  width */
+div.col-25 { width: 25%; }
+div.col-50 { width: 50%; }
+div.col-75 { width: 75%; }
+div.col-100 { width: 100%; }
+```
+The template is based on four column grid. Use these four classes to set the width of each column in your HTML. The `div` columns can also be nested.
+
+### column offset width
+```css
+/* offset */
+div.col-offset-25 { margin-left: 25%; }
+div.col-offset-50 { margin-left: 50%; }
+div.col-offset-75 { margin-left: 75%; }
+div.col-offset-100 { margin-left: 100%; } 
+```
+These classes can be used as a spacer in your grid. For instance, `<div class="col-offset-25 col-25 quarter"></div>` will create a small square with 25% space before it.
+
+### column height
+```css
+/* height */
+div.full { padding-top: 100%; }
+div.half { padding-top: 50%; }
+div.quarter { padding-top: 25%; }
+```
+Add these classes to your `div` to determine the height. For instance,
+`<div class="col-50 half"></div>` will create a 50% width square block.
+
+### Helper classes
+```css
+/* to see the box */
+.test { border: 1px solid red; }
+```
+You can temporarily add `.test` to see how big the box is for each element.
+
+```css
+/* center horizontally */
+.center-h {
+  width: 100%;
+  text-align: center;
+}
+/* center vertically */
+.center-v {
+  top: 50%;
+  transform: translateY(-50%);
+}
+```
+Use `.center-h` and `.center-v` to center text elements horizontally and vertically. Use them with text elements such as `h1`, `h2`, `p`, etc.
+
+```css
+/* how much to push down (in percentage) */
+.top-10 { top: 10%; }
+.top-20 { top: 20%; }
+.top-30 { top: 30%; }
+...
+.top-90 { top: 90%; }
+.top-100 { top: 100%; }
+```
+`.top-**` classes will help you find the vertical position of text elements. Because of how the text is positioned and everything is calculated using percentages, these ten classes may not be enough to position the way you want. You can always create your own classes for more control.
+
+
+
+
+## Add Your Own Styles
+Now, come back to `index.html`, and write your own codes. Feel free to use the classes provided in `style.css` and write your own CSS rules as well.
+
+A few things to remember.
+
+**Use relative units only.** Do not use `px` unit. `px` unit works great for a fixed layout, but it will not respond nicely to different screen sizes. Use `%` for column size and `vw` for font size.
+
+**Everything must be placed within `.container`.** No element should be placed outside `.container`.
+
+**Begin each row with `.row`.** The height of each row can be different depending on how tall columns are within the row.
+
+
+
+
+## Practice
+
+### Thinking about the structure
+One of the goals of this exercise is to get familiar with working with HTML/CSS structure. Before you start writing your code, look at your mockup layout and think about how you want to divide into columns and elements. Come up with the structure that makes it easy and flexible to work with.
+
+### Create Your Own Classes
+The classes that come with the CSS template are not enough to finish your design. You will have to create your own class rules for each column and each text element. It is a good practice to name your Photoshop mockup layers properly to match the names in your CSS.
+
+### Image placement
+To make the text and image work together nicely, we will use `background-image` CSS property instead of `img` HTML element. To give you an example of how it works.
+
+```
+<style>
+	.flower {
+		background-image: url(/images/flower.png);
+		background-size: cover;
+	}
+</style>
+```
+
+```html
+<div class="container">
+	<div class="row">
+		<div class="col-50 half flower"></div>
+	</div>
+</div>
+```
+
+As you can see from above, we do not place image directly in the HTML page, instead, we place the image as a background using CSS. Setting the size to `cover` will make sure the image will take up the entire space available.
+
+### Try Yourself
+Download [this image](/files/p1-template-walkthrough/p1-template-ex1.png) and see if you can create the same layout using HTML/CSS.
+
+![column grid layout for exercise](/files/p1-template-walkthrough/p1-template-ex1.png)
+
+
+
+## Further Learning
+
+
+
+

@@ -136,9 +136,23 @@ Web pages are linked to each other by hyperlinks. `<a>` or anchor tag is a way t
 <span></span>
 ```
 
-`div` and `span` do not have any meanings attached unlike headings, lists and other elements we saw. They are used to style either a single element or a group of elements together. They are normally used with a *class*.
+`div` and `span` do not have any meanings attached to them unlike headings, lists and other elements we saw. They are used to style either a single element or a group of elements together. They are normally used with a *class*.
 
 
+
+
+## Class
+```
+<div class="article">
+  <h2>The article title</h2>
+  <p>Some text.</p>
+</div>
+
+<div class="bio">
+  <p>Hi, my name is John. Nice to meet you.</p>
+</div>
+```
+We use `div`s to style contents. But if we style a `div` directly, every `div` element on the page will be affected. Use a class to target a specific element. (Of course, you can use classes with any other HTML elements.)
 
 
 
