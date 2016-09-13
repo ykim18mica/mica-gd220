@@ -156,6 +156,12 @@ Use `.center-h` and `.center-v` to center text elements horizontally and vertica
 
 
 
+## Nesting divs
+For a complex layout, you may nest `div` within another `div`. The containing or parent `div` should not have the height. So do not use the classes like `.full`, `.half` or `.quarter`. The height will be determined by the children elements.
+
+
+
+
 ## Add Your Own Styles
 Now, come back to `index.html`, and write your own codes. Feel free to use the classes provided in `style.css` and write your own CSS rules as well.
 
