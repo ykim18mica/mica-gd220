@@ -76,7 +76,7 @@ In the `<body>`, there are a few `<div>` already setup. You can safely delete al
 
 `overflow: hidden` will hide any part of the elements that go out of `.container`.
 
-### .div
+### div
 ```css
 div {
     width: 100%;
@@ -178,7 +178,7 @@ A few things to remember.
 
 ## Practice
 
-### Thinking about the structure
+### Think about the structure
 One of the goals of this exercise is to get familiar with working with HTML/CSS structure. Before you start writing your code, look at your mockup layout and think about how you want to divide into columns and elements. Come up with the structure that makes it easy and flexible to work with.
 
 ### Create Your Own Classes
