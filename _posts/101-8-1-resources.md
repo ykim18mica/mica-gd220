@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 summary: A list of useful resources.
 categories:
 tags:
-date_edited: Aug 24, 2016
+date_edited: Sep 21, 2016
 ---
 
 
@@ -18,6 +18,7 @@ date_edited: Aug 24, 2016
 - [Learn Layout](http://learnlayout.com)
 - [Khanacademy Intro to HTML and CSS](https://www.khanacademy.org/computing/computer-programming/html-css)
 - [code.tutsplus.com](http://code.tutsplus.com/)
+- [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)
 
 
 ## Tools
