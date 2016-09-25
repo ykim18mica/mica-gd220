@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 summary: A list of useful resources.
 categories:
 tags:
-date_edited: Sep 21, 2016
+date_edited: Sep 23, 2016
 ---
 
 
@@ -33,13 +33,14 @@ date_edited: Sep 21, 2016
 ## Web Typography
 - [Typekit](https://typekit.com)
 - [Google Fonts](https://typekit.com)
-- [Font Squirrel Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator)
+- [Font Squirrel Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator) - make sure you have to right to use the font on the web before you convert.
 
 
 
 
 ## Websites
-- [Mozilla Developer Network](https://developer.mozilla.org/en-US/) - a great reference
+- [Mozilla Developer Network](https://developer.mozilla.org/en-US/) - a great reference webiste
+- [W3Schools](http://w3schools.com)
 - [A List Apart](http://alistapart.com)
 - 
 

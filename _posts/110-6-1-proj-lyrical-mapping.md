@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 summary: Visualize the song lyrics using HTML & CSS.
 categories: project
 tags:
-date_edited: Aug 30, 2016
+date_edited: Sep 23, 2016
 ---
 
 
@@ -57,5 +57,10 @@ HTML/CSS coding
 HTML/CSS coding  
 
 ### Week 5 (Sep.28)
+HTML/CSS coding
+
+### Week 6 (Oct.5)
 Project 1 presentation  
-Project 2 begins  
+Projedt 2 begins
+
+
