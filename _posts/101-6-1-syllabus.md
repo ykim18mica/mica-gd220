@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 summary: General course information.
 categories: syllabus
 tags:
-date_edited: Aug 21, 2016
+date_edited: Sep 25, 2016
 ---
 
 *You can also download the [PDF version]({{ site.baseurl }}/files/MICA-16FA-GD2-Syllabus.pdf) of the syllabus.*
@@ -156,11 +156,11 @@ Project 1 cont'd
 Project 1 cont'd
 
 ### Week 5 (Sep.26 - 30)
-Project 1 due  
-Project 2 begins
+Project 1 cont'd
 
 ### Week 6 (Oct.3 - 7)
-Project 2 cont'd
+Project 1 due  
+Project 2 begins
 
 ### Week 7 (Oct.10 - 14)
 Project 2 cont'd
