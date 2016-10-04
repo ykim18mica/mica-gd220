@@ -17,7 +17,7 @@ Structure and organize your information clearly using multiple pages. What's the
 
 Create an engaging, exciting and memorable website that best represent your event. Ask yourself questions like, how to relate the visuals to the contents? How do you use the design elements such as typography, color, composition, hierarchy to create compelling visuals? How do you keep the consistency to unify different contents using multiple pages? How would the interaction help the experience?
 
-Make sure you are devoting enough time to learn different web technologies on your own, and apply them in your project. Do not just show off the design/technical skills. Think about how the design will support the purpose of the website.
+Make sure you are spending enough time to learn different web technologies on your own, and apply them in your project. Do not just show off the design/technical skills. Think about how the design will support the purpose of the website.
 
 
 
