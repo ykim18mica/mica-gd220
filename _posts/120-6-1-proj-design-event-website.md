@@ -67,12 +67,14 @@ Make sure you are spending enough time to learn different web technologies on yo
 - [The Lucerne Poster Festival](Poster Festival Lucerne)
 
 
+
+
 ## Schedule
 
 ### Week 6 (Oct.3 - 7)
 Project 1 due  
 Project 2 begins  
-research, sketches
+research
 
 ### Week 7 (Oct.10 - 14)
 Project 2 cont'd  
