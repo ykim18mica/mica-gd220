@@ -9,7 +9,7 @@ date_edited: Oct 3, 2016
 ---
 
 
-You will design a website for an one-day design event. You are the organizer of the event. There will be talks by 3 designers. Choose who you want to invite. There should be a consistency in what they are or what they present. When you have a strong theme and the contents for the event, think about the best way to present them.
+You will design a website for an imaginary one-day design event. You are the organizer of the event. There will be talks by 3 designers. Choose who you want to invite. There should be a consistency in what they are or what they present. When you have a strong theme and the contents for the event, think about the best way to present them.
 
 The goal for your website is to bring out more interests from people and give useful information about the event to the potential attendees. 
 
@@ -64,7 +64,7 @@ Make sure you are spending enough time to learn different web technologies on yo
 - [타이포잔치 / Typojanchi](http://typojanchi.org/2015/)
 - [AIGA Frontier Conference](http://frontier.aiga.org/)
 - [Golden Bee](http://2016.goldenbee.org/)
-
+- [The Lucerne Poster Festival](Poster Festival Lucerne)
 
 
 ## Schedule
@@ -97,9 +97,10 @@ Project 3 begins
 
 
 
-
-
 ## Further Learning
+- [The Top 20 Wireframing Tools](http://www.creativebloq.com/wireframes/top-wireframing-tools-11121302)
+- [Adobe Experience Design CC](http://www.adobe.com/products/experience-design.html)
+- [InVision](https://www.invisionapp.com/)
 
 
 
