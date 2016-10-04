@@ -63,7 +63,7 @@ Make sure you are devoting enough time to learn different web technologies on yo
 - [Graphic Design Festival Scotland](http://graphicdesignfestivalscotland.com/)
 - [타이포잔치 / Typojanchi](http://typojanchi.org/2015/)
 - [AIGA Frontier Conference](http://frontier.aiga.org/)
-
+- [Golden Bee](http://2016.goldenbee.org/)
 
 
 
@@ -81,7 +81,7 @@ develop wireframes/mockup
 
 ### Week 8 (Oct.17 - 21)
 Project 2 cont'd  
-present wireframes/mockup
+present wireframes/mockup  
 HTML/CSS coding  
 
 ### Week 9 (Oct.24 - 28)
