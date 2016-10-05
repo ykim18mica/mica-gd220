@@ -9,7 +9,7 @@ date_edited: Oct 3, 2016
 ---
 
 
-You will design a website for an imaginary one-day design event. You are the organizer of the event. There will be talks by 3 designers. Choose who you want to invite. There should be a consistency in what they are or what they present. When you have a strong theme and the contents for the event, think about the best way to present them.
+You will design a mini website for an imaginary one-day design event. You are the organizer of the event. There will be talks by 3 designers. Choose who you want to invite. There should be a consistency in what they are or what they present. When you have a strong theme and the contents for the event, think about the best way to present them.
 
 The goal for your website is to bring out more interests from people and give useful information about the event to the potential attendees. 
 
@@ -48,7 +48,7 @@ Make sure you are spending enough time to learn different web technologies on yo
 ## Deliverables
 - A zipped folder with HTML/CSS files that are properly linked together.
 - Submit both the mockups and the webpages.
-- Must include at least 5 pages
+- Must include at least 4 pages
 - The first webpage must be `index.html`.
 
 
