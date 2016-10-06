@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 summary: 
 categories: project
 tags:
-date_edited: Oct 3, 2016
+date_edited: Oct 5, 2016
 ---
 
 
@@ -64,7 +64,7 @@ Make sure you are spending enough time to learn different web technologies on yo
 - [타이포잔치 / Typojanchi](http://typojanchi.org/2015/)
 - [AIGA Frontier Conference](http://frontier.aiga.org/)
 - [Golden Bee](http://2016.goldenbee.org/)
-- [The Lucerne Poster Festival](Poster Festival Lucerne)
+- [The Lucerne Poster Festival](http://weltform.at/)
 
 
 
