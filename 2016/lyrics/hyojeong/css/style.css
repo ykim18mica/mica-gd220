@@ -1,0 +1,147 @@
+/*
+Project 1 CSS template
+-- do not change this file --
+*/
+
+/********** basic setup **********/
+.container {
+  margin: 0 ;
+  width: 100%;
+  overflow:hidden;
+}
+div {
+    width: 100%;
+    float:left;
+    position: relative;
+    box-sizing: border-box;
+}
+div.row,
+div.row:after {
+  margin:0;
+  padding: 0;
+}
+
+/*  width */
+div.col-25 { width: 25%; }
+div.col-33 {width: 33.333%; }
+div.col-50 { width: 50%; }
+div.col-75 { width: 75%; }
+div.col-100 { width: 100%; }
+
+/* offset */
+div.col-offset-25 { margin-left: 25%; }
+div.col-offset-50 { margin-left: 50%; }
+div.col-offset-75 { margin-left: 75%; }
+div.col-offset-100 { margin-left: 100%; } 
+
+/* height */
+div.full { padding-top: 100%; }
+div.thirty_one_point_one_two_five{padding-top:31.125%}
+div.half { padding-top: 50%;}
+div.sixty_two_point_five_percent{padding-top:62.5%}
+div.quarter {padding-top: 25%; }
+div.twenty {padding-top: 20%;}
+div.fourty {padding-top:41.6%;}
+
+h1, h2, h3, h4, h5, h6, p {
+    position: absolute;
+    top: 0;
+}
+
+/*color of div*/
+div.darkgrey{background-color: #535252;}
+div.lightgrey{background-color:#bcbcbc;}
+
+/********** helper **********/
+
+/* to see the box */
+.test { border: 1px solid red; }
+
+/* center horizontally */
+.center-h {
+  width: 100%;
+  text-align: center;
+}
+.center-h-25{
+    width: 25%;
+    text-align: center;
+}
+.center-h-33{
+    width: 33.3%;
+    text-align: center;
+}
+.center-h-50{
+    width: 50%;
+    text-align: center;
+}
+.center-h-75{
+    width: 75%;
+    text-align: center;
+}
+.center-h-125{
+    width: 125%;
+    text-align: center;
+}
+.center-h-150{
+    width: 150%;
+    text-align: center;
+}
+.center-h-166{
+    width: 166.6%;
+    text-align: center;
+}
+.center-h-175{
+    width: 175%;
+    text-align: center;
+}
+
+/* center vertically */
+.center-v {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/*font*/
+.font-size-50pt{font-size:4.16666666vw;}
+.font-size-72pt{font-size:6vw;}
+.font-size-85pt{font-size:7.08333333vw;}
+.font-size-100pt{font-size:8.3333333vw;}
+
+
+/* how much to push down (in percentage) */
+.top-10 { top: 10%; }
+.top-20 { top: 20%; }
+.top-30 { top: 30%; }
+.top-40 { top: 40%; }
+.top-50 { top: 50%; }
+.top-60 { top: 60%; }
+.top-70 { top: 70%; }
+.top-80 { top: 80%; }
+.top-90 { top: 90%; }
+.top-100 { top: 100%; }
+
+
+/*font-inside-of-the-boxes*/
+    
+    
+    
+           
+  
+   
+   
+    
+   
+   
+    
+    
+    
+    
+
+    
+ 
+
+
+
+/*rectangles*/
+
+

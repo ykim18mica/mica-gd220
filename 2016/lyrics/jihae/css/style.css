@@ -1,0 +1,363 @@
+/*
+Project 1 CSS template
+-- do not change this file --
+*/
+
+/********** basic setup **********/
+.container {
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+}
+div {
+    width: 100%;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+}
+div.row,
+div.row:after {
+  margin:0;
+  padding: 0;
+}
+
+/*  width */
+div.col-25 { width: 25%; }
+div.col-50 { width: 50%; }
+div.col-75 { width: 75%; }
+div.col-100 { width: 100%; }
+
+/* offset */
+div.col-offset-25 { margin-left: 25%; }
+div.col-offset-50 { margin-left: 50%; }
+div.col-offset-75 { margin-left: 75%; }
+div.col-offset-100 { margin-left: 100%; } 
+
+/* height */
+div.full { padding-top: 100%;}
+div.three-forth{padding-top:75%;}
+div.half { padding-top: 50%; }
+div.fourty{padding-top:45%}
+div.quarter { padding-top: 25%; }
+
+h1, h2, h3, h4, h5, h6, p {
+    position: absolute;
+    top: 0;
+}
+
+/********** helper **********/
+
+/* to see the box */
+.test { border: 1px solid red; }
+
+/* center horizontally */
+.center-h {
+  width: 100%;
+  text-align: center;
+}
+
+/* center vertically */
+.center-v {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* how much to push down (in percentage) */
+.top-10 { top: 10%; }
+.top-20 { top: 20%; }
+.top-30 { top: 30%; }
+.top-40 { top: 40%; }
+.top-50 { top: 50%; }
+.top-60 { top: 60%; }
+.top-70 { top: 70%; }
+.top-80 { top: 80%; }
+.top-90 { top: 90%; }
+.top-100 { top: 100%; }
+
+
+ /*my_own_variation*/
+        html{
+            font-family: 'Amatic SC', cursive; 
+            font-weight: bold;
+            color:#333;
+        }
+        
+        /*font_sizes*/
+        .font-size-100pt{font-size:8.3333333vw;}/*0.83333333333333333333*/
+        .font-size-72pt{font-size:6vw;}/*0.06*/
+        .font-size-48pt{font-size:4vw;}/*0.04*/
+        .font-size-140dot13pt{font-size:11.6775vw;} /*0.116775*/
+        .font-size-90pt{font-size: 7.5vw;}/*0.075*/
+        .font-size-87pt{font-size: 7vw;}
+        .font-size-80pt{font-size: 6.96vw;}
+        .font-size-60pt{font-size: 6.8vw;}/*0.05*/
+        .font-size-61pt{font-size: 5vw;}/*0.05*/
+        .font-size-70pt{font-size: 6.2vw;}
+        .font-size-120pt{font-size:10vw;}/*0.01*/
+        .font-size-40pt{font-size:3.333vw;}/*0.333333333333333*/
+        .font-size-160dot1pt{font-size:13.324vw;}/*0.13341667*/
+        .font-size-70pt{font-size:5.83vw;}/*0.0583333*/
+        .font-size-20pt{font-size:1.6666vw;} /*0.01666667*/
+        
+        /*lyric_attributes*/
+        .enter-sandman-black-0{
+            padding-top:21.7vw;
+            z-index:5;
+            letter-spacing: 0.09vw;
+        }
+
+        #enter-sandman-black-1{
+            padding-left: 6.9vw; /*100px divided by 1200px - 0.083333333*/
+        }
+        #enter-sandman-black-2{
+            padding-left:7.29vw;/*103px divided by 1200px - 0.085333*/
+        }
+        #enter-sandman-black-3{
+            padding-left:7.2vw; /*106px divided by 1200px*/
+            font-weight: normal;
+        }
+        
+        #enter-sandman-red{
+            padding-top:22.5vw;
+            padding-left:6.1vw;
+            color:#951414;
+            font-weight: normal;
+            letter-spacing: 0.07vw;
+            z-index: 2;
+        }
+
+        #metallica{
+            padding-top:30.9vw; /*680px divided by 1200px - 0.566666*/
+            left:35vw; /*420px divided by 1200px - 0.35*/
+        }
+        
+        #say-your-prayer-navy-1{
+            padding-top:0.001vw;
+            padding-left: 23vw;
+            color:#0b2b65;
+            z-index: 5;
+            line-height: 8vw;
+            transform: rotate(-1deg);
+        }
+        #say-your-prayer-navy-2{
+            padding-top:0.001;
+            padding-left:23.3vw;
+            z-index:5;
+            position:absolute;
+            line-height: 8vw;
+            transform: rotate(-1deg);
+        }
+        #say-your-prayer-khaki{
+            top: 1vw;
+            left:21.3vw;
+            color:#9d7010;
+            line-height: 8vw;
+            transform: rotate(2.1deg);
+            font-weight: normal;
+        }
+        
+        #sleep-with{
+            color:#f6b294;
+            font-size:4vw;
+            padding-left: 37.5%;
+            padding-top: 7%;
+        }
+        
+        #elen1-1{
+            color:#242853;
+            z-index: 5;
+            padding-left:50.2%;
+            padding-top:17%;
+        }
+        #elen1-2{
+            color:#226c6f;
+            padding-left:49.8%;
+            padding-top:17%;
+        }
+        
+        .take-my-hand{
+            color:#351d43;
+            padding-top:22vw;
+            z-index:5;
+            line-height: 5.88vw;
+            text-align: right;
+        }
+        
+        #take-my-hand-left-1{
+            padding-left:11vw;
+        }
+
+        #take-my-hand-left-2{
+            padding-left:11.1vw; 
+        }
+        
+        #take-my-hand-left-3{
+            padding-left:11.2vw;
+        }
+
+        #take-my-hand-pink{
+            color:#863cb1;
+            z-index:2;
+            font-weight: normal;
+            padding-left:5vw;
+            padding-top:21.5vw;
+        }
+        
+
+            #wave-text-1{
+                padding-top:19.76vw;
+                padding-left:73vw;
+            }
+            #wave-text-2{
+                padding-top:25.084vw; /*keep adding 5.324vw per lines*/
+                padding-left:73vw;
+            }
+            #wave-text-3{
+                padding-top:30.408vw;
+                padding-left:74.3vw;
+            }
+            #wave-text-4{
+                padding-top:35.732vw;
+                padding-left:75.9vw;
+            }
+            #wave-text-5{
+                padding-top:41.056vw;
+                padding-left:77.3vw;
+            }
+            #wave-text-6{
+                padding-top:46.38vw;
+                padding-left:80vw;
+            }
+            #wave-text-7{
+                padding-top:51.704vw;
+                padding-left:80.9vw;
+            }
+            #wave-text-8{
+                padding-top:57.028vw;
+                padding-left:79.9vw;
+            }
+            #wave-text-9{
+                padding-top:62.352vw;
+                padding-left:79.9vw;
+            }
+            #wave-text-10{
+                padding-top:67.676vw;
+                padding-left:78.7vw;
+            }
+            #wave-text-11{
+                padding-top:73vw;
+                padding-left:77vw;
+            }
+
+
+            .elen2-1{
+                color:#f4aaaa;
+                padding-top:13.5vw;
+                padding-left:63vw;
+                text-align: center;
+                z-index:5;
+            }
+            .elen2-2{
+                color:#f4aaaa;
+                padding-top:13.5vw;
+                padding-left:63.5vw;
+                text-align: center;
+                font-weight: normal;
+                z-index:5;
+            }
+
+            .elen2-green-1{
+                color:#082e14;
+                padding-top:13.3vw;
+                padding-left:67vw;
+                text-align: center;
+                z-index:2;
+                letter-spacing: 0.35vw
+            }
+
+            .elen2-green-2{
+                color:#082e14;
+                padding-top:22.6vw;
+                padding-left:63.6vw;
+                text-align: center;
+                z-index:2;
+                letter-spacing: 0.35vw
+            }
+            .take-my-hand-girl{
+                padding-top:33vw;
+                padding-left:68vw;
+                color: #f4aaaa;
+                text-align: right;
+                line-height: 3.6vw;
+            }
+
+
+            .elen3-1{
+                padding-top:19.9vw;
+                padding-left:29.3vw;
+            }
+            .elen3-2{
+                padding-top:19.5vw;
+                padding-left:29.6vw;
+                font-weight: normal;
+            }
+            .elen3-3{
+                padding-top:19.8vw;
+                padding-left:30vw;
+                font-weight: normal;
+            }
+            
+            .come-on-ppl-1{
+                padding-top:69.8vw;;
+                padding-left:53.45vw;
+                color:#0f1564;
+                transform: rotate(-6deg);
+                z-index: 5;
+            }
+            .come-on-ppl-2{
+                padding-top:69.8vw;
+                padding-left:53vw;
+                color:#1d27a0;
+                transform: rotate(-6deg);
+                font-weight: normal;
+                z-index: 5;
+            }
+            .we-are-off-1-1{
+                padding-top:31.3vw;
+                padding-left:50.5vw;
+                color:#601212;
+                transform: rotate(-3deg);
+                font-weight: normal;
+            }
+            .we-are-off-1-2{
+                padding-top:31.3vw;
+                padding-left:50.2vw;
+                color:#601212;
+                transform: rotate(-3deg);
+            }
+            .we-are-off-2-1{
+                padding-top:46.6vw;
+                padding-left:66.6vw;;
+                color:#af1616;
+            }
+            .we-are-off-2-2{
+                padding-top:46.6vw;
+                padding-left:66.4vw;
+                color:#af1616;
+            }
+            .we-are-off-3-1{
+                padding-top:56vw;
+                padding-left:85vw;
+                color:#d229fc;
+                transform: rotate(1.2deg);
+                letter-spacing: 0.02vw;
+            }
+            .we-are-off-3-2{
+                padding-top:56vw;
+                padding-left:85.1vw;
+                color:#d229fc;
+                transform: rotate(1.2deg);
+                font-weight: normal;
+                letter-spacing: 0.02vw;
+            }
+        .paragraph{position: absolute; z-index: 2;}
