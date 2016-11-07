@@ -54,7 +54,7 @@ design iterations
 design iterations
 
 ### Week 16 (Dec.12 - 16)
-Project 3 presentation
+Project 3 presentation  
 wrap up
 
 
