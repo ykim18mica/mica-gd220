@@ -17,7 +17,7 @@ We will focus on processes of interaction design and creating prototypes. Consid
 
 ## Process
 1. Develop an idea that is worth exploring as a mobile app.
-1. Research the users and subject with different methods - brand values, competitor analysis, survey, background information, news, articles, etc.
+1. Research the users and subject with different methods - competitor analysis, survey, background information, news, articles, etc.
 1. Develop wireframes, site maps and navigation systems.
 1. Use iterative design process, starting from low-fidelity prototypes with pencil and paper to high fidelity with refined graphic elements.
 1. Get feedback from user testing.
