@@ -61,6 +61,7 @@ wrap up
 ## Further Learning
 - Read the design guidelines for [iOS](https://developer.apple.com/ios/human-interface-guidelines/) or [Android](https://material.google.com/).
 - Adobe Experience Design tutorials ([1](https://www.youtube.com/watch?v=0XtfDvs_TCs), [2](https://www.youtube.com/watch?v=wrMBuqjtjpk), [3](https://www.youtube.com/watch?v=tYFa3P44efY&list=PLkiM1tZke4mivrZRPcqp_8oHFxlD8-IP5), [4](https://www.youtube.com/watch?v=2VkZFA9D8iM&list=PLn758IlVgCWbf92nELlapPANO2XemGpbK&index=1))
+- [10 Usability Heuristics by Jakob Nielsen Explained](http://www.slideshare.net/crafted/10-usability-heuristics-explained)
 
 
 
