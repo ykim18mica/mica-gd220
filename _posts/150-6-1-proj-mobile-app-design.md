@@ -1,6 +1,6 @@
 ---
 layout: post	
-title: Mobile App Design
+title: "Project: Mobile App Design"
 excerpt_separator: <!--more-->
 summary: 
 categories: project
