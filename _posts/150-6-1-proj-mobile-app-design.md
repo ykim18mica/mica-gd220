@@ -8,7 +8,7 @@ tags:
 date_edited: Nov 5, 2016
 ---
 
-For the last project, you will design a mobile app for smartphones. Your app will be about improving an aspect from our daily lives. Define a problem, constraints and audience for the app. What opportunities and limitations do you have for a *mobile* app? Make it useful to your target audience. 
+For the last project, you will design a mobile app for smartphones. Your app will be about improving an aspect from our daily lives. Define a problem, constraints and audience for the app. Ask questions of why and how. What opportunities and limitations do you have for a *mobile* app? Make it useful to your target audience. 
 
 We will focus on processes of interaction design and creating prototypes. Consider the technologies available on smartphones such as camera, sensors(gps, heart rate, brightness, motion, etc), phone, wifi, etc.
 
