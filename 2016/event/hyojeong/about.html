@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Com-Sim-About</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/template.css">
+    <style>
+    
+      html {
+        font-family: 'Rajdhani', sans-serif;
+        
+      }
+      
+      h1 { font-size: 14vw; }
+      h2 { font-size: 10vw; }
+      h3 { font-size: 8vw; }
+      p { font-size: 4vw; }
+      
+        .background{
+            background: url(images/comsim_0029_BACK-BACK.png);
+            width: 100%;
+            height: 125vw;
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size:cover;
+            z-index: 1;
+            }
+        .yellow-back{
+            background: url(images/comsim_0027_yellow-back.png);
+            width: 100%;
+            height: 80.16666666666vw;
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size:cover;
+            z-index: 1;
+            top:8.33333333333vw;
+            left: 0;
+        }
+        .red-back{
+            background: url("images/comsim_0028_red-back.png");
+            width: 100%;
+            height: 80.16666666666vw;
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size:cover;
+            z-index: 20;
+            top:8.33333333333vw;
+            left: 0;
+            opacity: 0;
+        }
+        .logo{
+            background: url("images/comsim_0024_logo-1.png");
+            width: 2.583333333vw;
+            height: 2.6666666666666vw;
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size:cover;
+            z-index: 5;
+            top: 4.2vw;
+            left: 3vw;
+            }
+        .facebook{
+            background: url(images/comsim_0009_facebook.png);
+            width: 2.25vw;
+            height: 3.5vw;
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size:cover;
+            z-index: 5;
+            top: 56.25vw;
+            left: 75.416666666vw;
+        }
+         .twitter{
+            background: url(images/comsim_0010_twiter.png);
+            width: 2.833333333vw;
+            height: 2.333333333vw;
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size:cover;
+            z-index: 5;
+            top: 57.3vw;
+            left: 81.0833333333vw;
+        }
+        .v{
+            background: url(images/comsim_0011_v.png);
+            width: 2.58333333333vw;
+            height: 2.25vw;
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size:cover;
+            z-index: 5;
+            top: 57.3vw;
+            left: 87.3vw;
+        }
+         .instar{
+            background: url(images/comsim_0012_instar.png);
+            width: 2.83333333333vw;
+            height: 2.83333333333vw;
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size:cover;
+            z-index: 5;
+            top: 57vw;
+            left: 93.4vw;
+        }
+        .lines{
+            background: url(images/comsim-lines.png);
+            width: 100%;
+            height: 100;
+            position:absolute;
+            background-repeat: no-repeat;
+            background-size:cover;
+            z-index: 10;
+            top:0;
+            left:0;
+        }
+        
+        
+        
+        
+       
+        
+    </style>
+  </head>
+  <body>
+   
+    <div class="container">
+        
+    <div class="row">
+      <div class="background"></div>
+      <div class="yellow-back"></div>
+      <div class="red-back"></div>
+      <div class="logo"></div>
+      <p class="logo-font">COM.SIM.</p>
+      <p class="month-font">NOV</p>
+      <p class="day-font">15-16</p>
+      <p class="year-font">2016</p>
+      <p class="museum-font">WHITHNEY MUSEUM</p>
+      <p class="newyork-font">NEW YORK</p>
+      <div class="facebook"></div>
+      <div class="twitter"></div>
+      <div class="v"></div>
+      <div class="instar"></div>
+      <p class="title-font">Complication but Simple...</p>
+      <div class="text-box">
+          <p id="text">“Com Sim” is an artist’s talk event, which focuses on how artists</br> simplify complicated situations in reality. There is no definite set of,</br> emotion such as anger, sadness, and happiness. However, our feeling</br>are always belong from combination of multiple emotions. The artists</br>will share thier story about how they understand thier complicated</br>emotional status and how they visually simplify thier feelings.
+            </p>
+      </div>
+      <div class="ticket-box">GET TICKETS</div>
+      
+      
+      
+    </div>
+      
+    </div>
+      <ul class="nav2">
+            <li><a class="nav-blue" href="about.html">ABOUT</a></li>            
+            <li><a class="nav-blue" href="artists.html">ARTISTS</a></li>            
+            <li><a class="nav-blue" href="location.html">LOCATION</a></li>            
+            <li><a class="nav-blue" href="#">SCHEDULE</a></li>            
+        </ul>
+    </div>
+    
+     <img src="images/comsim-lines.png" alt="lines" class="lines">
+    
+    
+    <!-- DO NOT CHANGE CODES BELOW-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.lazyload.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $('div').lazyload(
+          effect: "fadeIn"
+        );
+      });
+    </script>
+  </body>
+</html>

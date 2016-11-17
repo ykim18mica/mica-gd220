@@ -1,0 +1,748 @@
+/*-- HEADINGS ------------------------------------*/
+
+h1 {
+    height: 40px;
+    font-family: anton;
+    color: black;
+    padding-top: 0px;
+    padding-left: 0px;
+    font-size: 36px;    
+}
+
+h2 {
+    font-family: anton;
+    font-size: 27px;
+}
+
+h3 {
+    height: 50px;
+    font-family: anton;
+    font-size: 22px;
+    color: gray;
+}
+
+h4 {
+    height: 50px;
+    font-family: anton;
+    font-size: 22px;
+    color: black;
+}
+
+h5 {
+    height: 50px;
+    font-family: anton;
+    font-size: 18px;
+    color: rgb(153, 153, 153);
+    letter-spacing: 1px; 
+}
+
+h6 {
+    height: 50px;
+    font-family: anton;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px; 
+}
+
+p {
+    font-family: sanchez;
+    font-size: 18px;
+    line-height: 125%;
+}
+
+
+
+/*-- HEADER / NAV ------------------------------------*/
+
+.header {
+    height: 80px;
+    background-color: grey;
+}
+
+ul.nav {
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+ul.nav li {
+    display: inline-block;
+}
+
+ul.nav li a {
+    font-family: anton;
+    color: white;
+    letter-spacing: 1px; 
+    padding-top: 32px;
+    text-decoration: none;
+    display: block;
+    height: 80px;
+    width: 200px;
+    padding-left: 10px;
+}
+
+ul.nav li a:hover {
+    background-color: darkgray;
+}
+
+.rnw-home {
+    height: 80px;
+    font-family: anton;
+    color: darkgray;
+    padding-top: 22px;
+    padding-left: 30px;
+    font-size: 36px;
+}
+
+.logo {
+    color: cyan;
+}
+
+
+/*-- RNW INTRO / LOGO ------------------------------------*/
+
+.intro {
+    height: 1482px;
+    width: 1140px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-bottom: 10px solid rgb(102,102,102);
+    position: absolute;
+}
+
+.intro-logo {
+    height: 600px;
+    width: 750px;
+    border: 10px solid rgb(204,204,204);
+    margin-top: 100px;
+    position: relative;
+    left: 2%;
+}
+
+.intro-logo-blk1 {
+    height: 80px;
+    border-bottom: 10px solid rgb(204,204,204);
+    border-right: 10px solid rgb(204,204,204);
+    letter-spacing: 0.2px; 
+    color: white;
+    font-size: 37px;
+    font-family: anton;
+    padding-left: 27px;
+    padding-top: 17px;
+}
+
+.intro-logo-blk2 {
+    height: 80px;
+    border-bottom: 10px solid rgb(204,204,204);
+    color: white;
+    font-size: 17px;
+    font-family: sanchez;
+    padding-left: 28px;
+    padding-top: 28px;
+}
+
+.intro-logo-blk3 {
+    height: 425px;
+    border-bottom: 10px solid rgb(204,204,204);
+    color: white;
+    letter-spacing: -10px; 
+    font-size: 324px;
+    font-family: anton;
+    padding-left: 101px;
+    padding-top: 42px;
+}
+
+.intro-logo-blk4 {
+    height: 80px;
+    width: 500px;
+    border-right: 10px solid rgb(204,204,204);
+    color: white;
+    font-size: 25px;
+    font-family: sanchez;
+    padding-left: 45px;
+    padding-top: 28px;
+}
+
+.intro-logo-blk5 {
+    height: 80px;
+    width: 230px;
+    letter-spacing: 0.2px; 
+    color: white;
+    font-size: 37px;
+    font-family: anton;
+    padding-left: 43px;
+    padding-top: 19px;
+}
+
+.intro-margin {
+    height: 1200px;
+}
+
+.margin-1 {
+    height: 1000px;
+}
+
+.intro-text {
+    font-family: sanchez;
+    font-size: 24px;
+    color: white;
+    line-height: 125%;
+    padding-top: 00px;
+    position: relative;
+    width: 750px;
+    left: 30px;
+    top: 60px;
+}
+
+.img-pittsburgh-aerial {
+    background-image: url(images/pittsburgh-aerial.jpg);
+    background-size: cover;
+}
+
+.yellow-box1 {
+  width: 1200px;
+  height: 1108px;
+  background-color: yellow;
+  opacity: 0.45;
+  position: relative;
+  left: -30px;
+  top: -1080px;
+    
+}
+
+
+/*-- CITIES ------------------------------------*/
+
+.acronym-ticket1 {
+    width: 262px;
+    height: 180px;
+    font-size: 94px;
+    background-color: rgb(179, 179, 179);
+    color: white;
+    margin-left: 15px;
+    padding-left: 67px;
+    padding-top: 32px;
+    border: 10px solid rgb(102,102,102);
+    box-sizing: border-box;
+}
+
+.acronym-ticket2 {
+    width: 262px;
+    height: 180px;
+    font-size: 94px;
+    background-color: black;
+    color: white;
+    margin-left: 15px;
+    padding-left: 60px;
+    padding-top: 32px;
+    border: 10px solid rgb(102,102,102);
+    box-sizing: border-box;
+}
+
+.acronym-ticket-syr {
+    width: 262px;
+    height: 180px;
+    font-size: 94px;
+    background-color: black;
+    color: white;
+    margin-left: 15px;
+    padding-left: 55px;
+    padding-top: 32px;
+    border: 10px solid rgb(102,102,102);
+    box-sizing: border-box;
+}
+
+.cities {
+    height: 690px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 170px;
+}
+
+.sub-cities {
+    height: 620px;
+    font-family: Anton;
+    font-size: 22px;
+    margin-top: 40px;
+    border-right: 2px solid rgb(102,102,102);
+}
+
+.sub-cities-borderless {
+    height: 650px;
+    font-family: Anton;
+    font-size: 22px;
+    margin-top: 40px;
+    border-right: 0px solid rgb(102,102,102);
+}
+
+.sub-cities2 {
+    height: 470px;
+    font-family: Anton;
+    font-size: 22px;
+}
+
+.subcities-writeup {
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/*-- FOOTER --------------------------------------------*/
+
+.footer {
+    height: 50px;
+    width: 1200px;
+    background-color: grey;
+    font-family: Anton;
+    font-size: 14px;
+    color: white;
+    padding-top: 20px;
+    letter-spacing: 1.5px; 
+    margin: 0 auto;
+}
+
+
+/*-- RUBRIC --------------------------------------------*/
+
+.rubric {
+    height: 180px;
+    font-family: anton;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    width: 1140px;
+    border: 10px solid rgb(102,102,102);
+    padding-top: 0px;
+}
+
+.rubric-acronym {
+    height: 180px;
+    font-family: anton;
+    font-size: 94px;
+    background-color: rgb(190, 190, 190);
+    color: white;
+    margin: -10px;
+    padding-top: 30px;
+    padding-left: 70px;
+    border: 10px solid rgb(102,102,102);
+}
+
+.rubric-subhead {
+    height: 160px;
+    font-family: anton;
+    font-size: 36px;
+    padding-top: 42px;
+    padding-left: 70px;
+}
+
+.rubric-box {
+    height: 65px;
+    font-family: anton;
+    font-size: 20px;
+    padding-top: 24px;
+    padding-left: 30px;
+    background-color: black;
+    color: white;
+    letter-spacing: .75px; 
+}
+ 
+
+
+/*-- SPEAKERHEAD ------------------------------------------*/
+
+.speakerhead {
+    height: 150px;
+    font-family: anton;
+    background-color: rgb(255,255,60);
+    width: 1140px;
+    margin-left: 30px;
+    border-style: solid;
+    border-top-width: 10px;
+    border-bottom-width: 2px;
+    border-color: rgb(102,102,102);
+}
+
+.speakername {
+    font-family: anton;
+    font-size: 36px;
+    padding-top: 15px;
+    line-height: 115%;
+}
+
+.sub-speakerhead {
+    height: 138px;
+    font-family: anton;
+    color: grey;
+    background-color: rgb(255,255,60);
+    padding-top: 20px;
+    letter-spacing: 1.0px; 
+    line-height: 140%; 
+}
+
+
+/*-- SPEAKER PROFILES ------------------------------------*/
+
+
+.img-toni {
+    background-image: url(images/toni-griffin2.jpg);
+    background-size: cover;
+}
+
+.img-stephen {
+    background-image: url(images/stephen-powers.jpg);
+    background-size: cover;
+}
+
+.img-linda {
+    background-image: url(images/linda-hartsock.jpg);
+    background-size: cover;
+}
+
+.profile-bg1 {
+    height: 50px;
+    background-color: rgb(255,255,60);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.profile-bg1b {
+    height: 600px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(255,255,60);
+}
+
+.profile-bg1c {
+    height: 800px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(255,255,60);
+}
+
+.profile-bg2 {
+    height: 370px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 60px;
+}
+
+.profile-bg2b {
+    height: 390px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 60px;
+}
+
+.profile-text {
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.profile-text2 {
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.profile-pic-main {
+    height: 950px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+}
+
+.profile-pic-2 {
+    padding-right: 15px;
+    padding-top: 26px;
+        background-color: rgb(255,255,60);
+}
+
+.profile-pic-3 {
+    padding-left: 15px;
+    padding-top: 26px;
+        background-color: rgb(255,255,60);
+}
+
+.profile-portrait {
+    height: 600px;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+
+.caption {
+    font-family: sanchez;
+    font-size: 14px;
+    line-height: 125%;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+
+/*-- CAL-TABLE ------------------------------------------------*/
+
+.table-header {
+    height: 60px;
+    font-family: anton;
+}
+
+.sub-table-header {
+    height: 60px;
+    font-family: anton;
+        padding-top: 22px;
+}
+.thursday {
+    height: 210px;
+    font-family: anton;
+    background-color: yellow;
+}
+
+.sub-thursday {
+    height: 100px;
+    font-family: anton;
+    margin-top: 40px;
+    font-size: 36px;
+}
+
+.friday {
+    height: 1660px;
+    font-family: anton;
+    background-color: yellow;
+}
+
+.saturday {
+    height: 560px;
+    font-family: anton;
+    background-color: yellow;
+}
+
+.sub-day-gray {
+    height: 140px;
+    font-family: anton;
+    background-color: rgb(190, 190, 190);
+    margin-top: 40px;
+    padding-top: 10px;
+    color: white;
+    font-size: 36px;
+}
+
+.sub-day-white {
+    height: 140px;
+    font-family: anton;
+    background-color: white;
+    margin-top: 40px;
+    padding-top: 10px;
+    color: black;
+    font-size: 36px;
+}
+
+.sub-day-white2 {
+    height: 140px;
+    font-family: anton;
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+    color: black;
+    font-size: 36px;
+    line-height: 70%;
+}
+
+
+/*-- PITT -----------------------------------------------------*/
+
+
+.pitt-images-bg {
+    width: 100%; 
+    height: 1585px;
+    font-family: anton;
+}
+
+.img-stumptown {
+    background-color: grey;
+    width: 290px;
+    height: 350px;
+    margin-left: 2.5%;
+    top: 360px;
+    position: relative;
+}
+.butfirst {
+    width: 200px;
+    height: 50px;
+    top: -175px;
+    margin-left: 2.5%;
+    font-family: anton;
+    color: grey;
+    position: relative;
+}
+.destination1 {
+    width: 260px;
+    height: 165px;
+    top: -170px;
+    margin-left: 2.5%;
+    font-family: anton;
+    position: relative;
+}
+
+.img-ace {
+    width: 750px;
+    height: 570px;
+    margin-left: 18.75%;
+    top: -510px;
+    position: relative;
+    z-index: -1;
+}
+.destination2 {
+    width: 250px;
+    height: 120px;
+    top: -800px;
+   margin-left: 75%;
+    font-family: anton;
+    position: relative;
+}
+
+.img-fountain {
+    background-color: grey;
+    width: 380px;
+    margin-left: 65.8%;
+    top: -780px;
+    position: relative;
+}
+.destination3 {
+    width: 250px;
+    height: 120px;
+    top: -910px;
+    margin-left: 75%;
+    color: white;
+    font-family: anton;
+    text-align: right;
+    position: relative;
+}
+
+.img-bridge {
+    width: 520px;
+    margin-left: 37.8%;
+    top: -990px;
+    position: relative;
+    z-index: -1;
+}
+.destination4 {
+    width: 250px;
+    height: 120px;
+    top: -1250px;
+    left: 470px;
+    color: white;
+    font-family: anton;
+    position: relative;
+}
+
+.img-asylum {
+    width: 600px;
+    left: 225px;
+    top: -1240px;
+    position: relative;
+    z-index: -2;
+}
+.destination5 {
+    width: 250px;
+    height: 120px;
+    top: -1650px;
+    left: 120px;
+    font-family: anton;
+    position: relative;
+}
+
+.img-frick {
+    width: 360px;
+    left: 614px;
+    top: -1400px;
+    position: relative;
+    z-index: -3;
+}
+.destination6 {
+    width: 250px;
+    height: 120px;
+    top: -1720px;
+    left: 884px;
+    font-family: anton;
+    position: relative;
+}
+
+.pitt-intro {
+    height: 675px;
+    font-family: anton;
+    background-color: yellow;
+    z-index: -2;
+}
+
+.pitt-intro2 {
+    height: 450px;
+    font-family: anton;
+    background-color: yellow;
+}
+
+.intro-text-pitt {
+    font-family: sanchez;
+    font-size: 24px;
+    color: white;
+    line-height: 125%;
+    padding-top: 60px;
+     height: 630px;
+    border-bottom: 10px solid rgb(102,102,102);
+
+}
+
+.pitt-main-text {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+    z-index: 0;
+}
+
+.pitt-map {
+    width: 760px;
+    height: 520px;
+    font-family: anton;
+    padding-top: 30px;
+}
+
+.pitt-walking {
+    height: 660px;
+    padding-top: 140px;
+    
+    font-family: anton;
+}
+
+.sub-walking {
+    height: 440px;
+    font-family: Anton;
+    font-size: 22px;
+    margin-top: 40px;
+    border-right: 2px solid rgb(102,102,102);
+}
+
+.sub-walking-writeup {
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+
+
+
+
+/*-- UNUSED? --*/
+
+.sub-header {
+    height: 80px;
+    font-family: anton;
+    color: white;
+    padding-top: 32px;
+    letter-spacing: 1px; 
+}
+
+.bio {
+    height: 970px;
+    font-family: sanchez;
+}

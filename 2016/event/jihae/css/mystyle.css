@@ -1,0 +1,856 @@
+/*-- Add your styles here. --*/
+
+/*-------------------------------overall---------------------------------*/
+html{
+    margin:0;
+    padding:0;
+}
+
+/*------------------------------backgrounds------------------------------*/
+
+div.background-home{
+    height: 50vw;
+    background-color: #e1ceb8;
+}
+
+div.background-about{
+    margin-top: 22vw;
+    height: 65.6vw;
+    background-color: #e1ceb8;
+}
+
+div.background-schedule{
+    background-color: #e1ceb8;
+    height: 110vw;
+}
+
+div.background-location{
+    background-color: #e1ceb8;
+    height: 58.4vw;
+}
+
+div.background-artists{
+    background-color: #e1ceb8;
+    height: 315vw;
+}
+
+/*----------------------------lines-------------------------------------*/
+.line-1{
+    width: 0;
+    height: 6vw;
+    border-left: solid #c2afdb 0.67vw;
+    position: absolute; 
+    top:0;
+}
+.one{ left:0; }
+.two{ left: 1vw; }
+.three{ left:2vw; }
+.four { left: 3vw;}
+.five {left: 4vw;}
+.six { left: 5vw;}
+.seven{ left: 6vw;}
+.eight{ left: 7vw;}
+.nine{ left: 8vw;}
+.ten{ left: 9vw;}
+.eleven{ left: 10vw;}
+.twelve {left: 11vw;}
+.thirteen{ left: 12vw;}
+
+.line-2{ 
+    width: 0;
+    height: 12vw;
+    border-left: solid #c2afdb 0.67vw;
+    position: absolute;
+    top: 0;
+}
+
+.two-one{right: 0;}
+.two-two{right: 1vw;}
+.two-three{right: 2vw;}
+.two-four{right: 3vw;}
+.two-five{right: 4vw;}
+.two-six{ right: 5vw;}
+.two-seven{ right: 6vw;}
+.two-eight{ right: 7vw;}
+.two-nine{ right: 8vw;}
+.two-ten{right: 9vw;}
+.two-eleven { right: 10vw;}
+.two-twelve{ right: 11vw;}
+.two-thirteen{ right: 12vw;}
+.two-forteen{ right: 13vw;}
+.two-fifteen{ right: 14vw;}
+.two-sixteen{ right: 15vw;}
+.two-seventeen{right: 37vw;}
+.two-eighteen{ right: 16vw;}
+.two-ninteen{ right: 17vw;}
+.two-twenty{ right: 18vw;}
+.two-twentyone{ right: 19vw;}
+.two-twentytwo{ right: 20vw;}
+.two-twentythree{ right: 21vw;}
+.two-twentyfour{ right: 22vw;}
+.two-twentyfive{right: 23vw;}
+.two-twentysix{ right: 24vw;}
+.two-twentyseven{ right: 25vw;}
+.two-twentyeight{ right: 26vw;}
+.two-twentynine{ right: 27vw;}
+.two-thirty{right:28vw;}
+.two-thirtyone{right:29vw;}
+.two-thirtytwo{right:30vw;}
+.two-thirtythree{right:31vw;}
+.two-thirtyfour{right:32vw;}
+.two-thirtyfive{right:33vw;}
+.two-thirtysix{right:34vw;}
+.two-thirtyseven{right:35vw;}
+.two-thirtyeight{right:36vw;}
+
+.line-23{
+    width: 0;
+    height: 8.4vw;
+    border-left: solid #c2afdb 0.67vw;
+    position: absolute;
+    top: 79.1vw;
+    z-index: 20;
+}
+
+.three-one{left:0;}
+.three-two{left:1vw;}
+.three-three{left: 2vw;}
+.three-four{left:3vw;}
+.three-five{left:4vw;=}
+.three-six{left:5vw;}
+.three-seven{left:6vw;}
+.three-eight{left:7vw;}
+.three-nine{left: 8vw;}
+.three-ten{left: 9vw;}
+.three-eleven{left: 10vw;}
+.three-twelve{left: 11vw;}
+.three-thirteen{left: 12vw;}
+.three-fourteen{left: 13vw;}
+.three-fifteen{left:14vw;}
+.three-sixteen{left:15vw;}
+.three-seventeen{left:16vw;}
+.three-eightteen{left:17vw;}
+.three-nineteen{left:18vw;}
+.three-twenty{left:19vw;}
+
+/*------------------------extra offsets----------------------------------*/
+.col-offset-half {margin-left: 3.9%}
+
+/*-----------------------------fonts-------------------------------------*/
+.font1{font-family: 'Anton', sans-serif;}
+.font2{font-family: 'Sorts Mill Goudy', serif;}
+.font3{font-family: 'Archivo Black', sans-serif;}
+
+/*-------------------------------font-sizes------------------------------*/
+.font-s-1{font-size: 7vw;}
+.font-s-oneandhalf{font-size: 5vw;}
+.font-s-2{font-size: 2.3vw;}
+.font-s-4{font-size:1.6vw;}
+.font-s-5{font-size: 2.9vw;}
+.font-s-6{font-size: 1.2vw}
+
+/*-------------------------------font colors----------------------------*/
+.font-c-b{
+    color: #3543c9;
+}
+.font-c-w{
+    color:white;
+    z-index: 31;
+}
+.font-c-lb{
+    color: #368fac;
+    z-index: 31;
+}
+.font-c-brwn{
+    color: #3f4032;
+    z-index: 31;
+    
+}
+/*--------------------------homepage----------------------------------*/
+ul.nav{
+    list-style: none;
+    font-family: 'Archivo Black', sans-serif;
+    letter-spacing: 0.1vw;
+    font-size: 1.20vw;
+    position: relative;
+    left: 15vw;
+    z-index: 50;
+}
+ul.nav li {
+    display:inline-block;
+}
+
+ul.nav li a{
+    text-decoration: none;
+    display: block;
+    width:18vw;
+    padding-top: 2.3vw;
+    padding-left: 9.8vw
+}
+
+.nav li a:visited{
+    color: #3543c9;
+}
+.nav li a:hover{
+    color:#cd21af;
+}
+.pink-button-a{
+    color:white;
+    text-decoration: none;
+}
+.pink-button-a:visited{
+    color:white;
+}
+.blue-button-a{
+    color: white;
+    text-decoration: none;
+}
+.blue-button-a:visited{
+    color:white;
+}
+
+.homepage-text{
+    position: absolute;
+    margin-left: 5vw;
+    margin-top: 7vw;
+    z-index: 30;
+    letter-spacing: 0.01vw;
+}
+.homepage-location{
+    padding-top: 17.9vw;
+    line-height: 2.47vw;
+}
+
+.inter{
+    position: absolute;
+    top: 12.2vw;
+    left: 1vw;
+    letter-spacing: 0.7vw;
+    padding-left: -3vw;
+    z-index: 30;
+}
+.enter{
+    position:absolute;
+    top: 12.7vw;
+    left: 4vw;
+    padding-top: 6.4vw;
+    margin-left; -1
+    letter-spacing: 0.7vw;
+    z-index: 30;
+}
+
+.sample{
+    position: absolute; 
+    top: 0;
+    left:0vw;
+}
+
+.half-opacity-img-1{
+    position:absolute;
+    width: 38%;
+    top:41.5vw;
+    left: -0.59vw;
+}
+
+.half-opacity-img-2{
+    position:absolute;
+    width:40%;
+    top:1.5vw;
+    left:34.4vw;
+}
+
+.half-opacity-img-3{
+    position: absolute;
+    width: 20.09%;
+    top: 19.6vw;
+    left: 81.1vw;
+}
+.blue-blub{
+    position:absolute;
+    z-index: 10;
+    width:100%;
+    top:0;
+    left:0;  
+}
+.pink-button{
+    display: inline-block;
+    background-color: #cd21af;
+    font-size: 2vw;
+    padding-left: 3.2vw;
+    padding-right: 3.2vw;
+    padding-top: 0.6vw;
+    padding-bottom: 0.6vw;
+    position: absolute;
+    top:39vw;
+    left: 6.2vw;
+    text-align: center;
+    letter-spacing: 0.1vw
+}
+
+/*--------------------------about-page-----------------------------------*/
+.visitor{
+    width: 49vw;
+    margin-left: 52vw;
+    margin-top: 13.7vw;
+}
+
+/*about is shifting based on the size of the window!!!!*/
+h1.about{
+    letter-spacing: 0.53vw;
+    z-index: 30;
+    position: relative;
+    top: 8.9vw;
+    left: 3.3vw;
+}
+.about-text{
+    width: 55%;
+    position: absolute;
+    top: 90.5vw;
+    z-index: 30;
+}
+
+.event-description{
+    width: 44vw;
+    font-size: 2.2vw;
+    line-height: 3vw;
+    z-index: 30;
+}
+
+.event-description2{
+    width:44vw;
+    font-size: 2.2vw;
+    line-height: 3vw;
+    z-index: 30;
+    position: relative;
+    left: 3.9vw;
+}
+.blue-button{
+    width: 18.9vw;
+    height: 4vw;
+    background-color: #3543c9;
+    color:white;
+    padding-left: 3.7vw;
+    padding-top: 0.94vw;
+    position: relative;
+    left: 22.9vw;
+    top:-5vw ;
+    font-size: 2vw;
+    letter-spacing: 0.11vw;
+    z-index: 30;
+}
+
+/*----------------------------------footer-------------------------------*/
+.footer{
+    background-color: #3543c9;
+    height: 8vw;
+    position: relative;
+    top: 22.5vw;
+}
+.footer-text{
+    position: relative;
+    margin-left: 19.4%;
+    margin-top: 5.59%;
+}
+.footer-text-1{
+    display: inline-block;
+}
+.footer-text-2{
+    display: inline-block;
+    padding-left: 2.5vw;
+}
+.footer-text-3{
+    display: inline-block;
+    padding-left: 2.5vw;
+
+}
+.company-icon{
+    width: 2.7vw;
+    position: absolute;
+    left: -3.5vw;
+    top: -0.4vw;
+}
+.company-icon-art{
+    top: -0.1vw;
+    width: 2.7vw;
+    position: absolute;
+    left: -3.5vw;
+}
+.vertical-bar{
+    height: 2vw;
+    width:0;
+    border-left: white solid 0.5vw;
+    position: absolute;
+    top: 0vw;
+}
+.ver1{left: 11.6vw;}
+.ver2{left: 48.6vw;}
+
+/*----------------------------schedule-page-------------------------------*/
+
+.grid-img{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.grid-top1{
+    position: absolute;
+    top: 23.59vw;
+    left:36.9vw;
+    width:12vw;
+    letter-spacing: 0.2vw;
+}
+.grid-top-2{
+    position: absolute;
+    top: 24.59vw;
+    left: 59.5vw;
+    letter-spacing: 0.2vw;
+}
+.grid-left-1-1{
+    position: absolute;
+    top: 32.52vw;
+    left: 21vw;
+}
+.grid-left-1-2{
+    position: absolute;
+    top: 36vw;
+    left: 27.5vw;
+}
+.grid-artist1{
+    position: absolute;
+    top: 34vw;
+    left: 37.9vw;
+    letter-spacing: 0.2vw;
+}
+.grid-left-2-1{
+    position: absolute;
+    top: 41.6vw;
+    left: 21vw;
+}
+.grid-left-2-2{
+    position: absolute;
+    top: 45.4vw;
+    left: 27.5vw;
+}
+.grid-lunch{
+    position: absolute;
+    padding-top: 43.49vw;
+    padding-left:38.7vw;
+    letter-spacing: 0.2vw;
+}
+.grid-left-3-1{
+    position: absolute;
+    top: 51.1vw;
+    left: 21vw;
+}
+.grid-left-3-2{
+    position: absolute;
+    top: 54.3vw;
+    left:28.2vw;
+}
+.grid-artist2{
+    position: absolute;
+    top: 53.2vw;
+    left: 40vw;
+    letter-spacing: 0.9vw;
+}
+.grid-left-4-1{
+    position: absolute;
+    top: 60.7vw;
+    left: 21.4vw;
+}
+.grid-left-4-2{
+    position: absolute;
+    top: 63vw;
+    left: 28vw;
+}
+.grid-artist3{
+    position: absolute;
+    top: 61.7vw;
+    left: 39vw;
+    letter-spacing: 0.9vw;
+}
+.grid-left-5-1{
+    position: absolute;
+    top: 69.4vw;
+    left: 21.4vw;
+}
+.grid-left-5-2{
+    position: absolute;
+    top: 72.9vw;
+    left: 28vw;
+}
+.grid-left-6-1{
+    position: absolute;
+    top: 79vw;
+    left: 21.4vw;
+}
+.grid-left-6-2{
+    position: absolute;
+    top: 83vw;
+    left: 28vw;
+}
+.grid-left-7-1{
+    position: absolute;
+    top: 90vw;
+    left: 21.4vw;
+}
+.grid-left-7-2{
+    position: absolute;
+    top:93.8vw;
+    left: 28vw;
+}
+.grid-exhibition{
+    position: absolute;
+    top: 60vw;
+    left: 58.59vw;
+    letter-spacing: 0.4vw;
+    font-size: 3vw;
+}
+.grid-workshop{
+    position: absolute;
+    top: 80.9vw;
+    left: 37.8vw;
+    font-size: 3vw;
+    letter-spacing: 0.19vw;
+}
+
+.footer-sch{
+    position: absolute;
+    top: 110vw;
+}
+
+.company-icon-sch{
+    position: absolute;
+    top: -0.4vw;
+    width: 3vw;
+    left: -3.9vw;
+}
+/*----------------------------location-------------------------------*/
+.location-image-front{
+    width: 94%;
+    padding-top:3vw;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+.pink-blub{
+    width: 23vw;
+    position: absolute;
+    top: 48vw;
+    left: 60vw;
+    z-index: 50;
+}
+.frame{
+    width: 63.4vw;
+    height: 39vw;
+    border: solid #da472f 1.7vw;
+    z-index: 30vw;
+    position: absolute;
+    top: 15vw;
+    left: 15.3vw;
+}
+.text-location{
+    padding-left: 39.3vw;
+    padding-top: 8vw;
+}
+.location-lh-1{
+    line-height: 3.2vw;
+    letter-spacing: 0.1vw;
+}
+
+.lafayettest{
+    padding-top: 0.7vw;
+}
+
+.footer-for-location{
+    height: 5.6vw;
+    position: relative;
+    top: 10.5vw;
+    background-color: #3543c9;
+    z-index: 31vw;
+}
+
+.footer-text{
+position: absolute;
+top: -2.7vw;
+}
+
+.company-icon-2{
+    position: absolute;
+    width:2.4vw;
+    left: 7.8vw;
+    top: -1.3vw;
+}
+
+.footer-text-2-1{
+    font-size: 1.5vw;
+    position: relative;
+    left: 11vw;
+    top: -0.89vw;
+}
+.footer-text-2-2{
+    font-size: 1.5vw;
+    position: relative;
+    left: 20vw;
+    top: -2.28vw;
+}
+.footer-text-2-3{
+    font-size: 1.5vw;
+    position: relative;
+    left: 44.5vw;
+    top: -3.67vw;
+}
+
+.vertical-bar-2{
+    height: 1.4vw;
+    width:0;
+    border-left: white solid 0.5vw;
+    position: absolute;
+    top: -0.9vw;
+}
+.ver1-1{
+    left: 18.7vw;
+}
+.ver2-2{
+    left: 43.1vw;
+}
+
+/*------------------artists-page--------------------------*/
+.pawel{
+    z-index: 100;
+    position: absolute;
+    top: 17vw;
+    left: 11.3vw;
+    font-size: 4.5vw;
+    letter-spacing: 0.25vw;
+}
+.nolbert{
+    z-index: 100;
+    position: absolute;
+    top: 21.4vw;
+    left: 11.3vw;
+    font-size: 4.5vw;
+    letter-spacing: 0.5vw;
+}
+
+.maya-lin{
+    z-index: 100;
+    position: absolute;
+    letter-spacing: 0.5vw;
+    font-size: 4.5vw;
+    position: absolute;
+    top: 113vw;
+    left: 20vw;
+    
+}
+
+.artist-abs-shape{
+    z-index: 20;
+    position:absolute;
+    top:0;
+    left: 1.4vw;
+}
+.artists-img{
+    z-index: 10;
+    position: absolute;
+    top:0;
+    left:1.2vw;
+}
+
+.nav2{
+    position: absolute;
+    top:0;
+    z-index: 30vw;
+}
+
+.footer2{
+    position: absolute;
+    top: 307vw;
+}
+
+.line-3{
+    width: 5.9vw;
+    height: 0;
+    border-bottom: solid #c2afdb 0.67vw;
+    position: absolute; 
+    top: 106vw;
+}
+
+.four-1{ top: 42vw;}
+.four-2{ top: 43vw;}
+.four-3{ top: 44vw;}
+.four-4{ top: 45vw;}
+.four-5{ top: 46vw;}
+.four-6{ top: 47vw;}
+.four-7{ top: 48vw;}
+.four-8{ top: 49vw;}
+.four-9{ top: 50vw;}
+.four-10{ top: 51vw;}
+.four-11{ top: 52vw;}
+.four-12{ top: 53vw;}
+.four-13{ top: 54vw;}
+.four-14{ top: 55vw;}
+.four-15{ top: 56vw;}
+.four-16{ top: 57vw;}
+.four-17{ top: 58vw;}
+.four-18{ top: 59vw;}
+.four-19{ top: 60vw;}
+.four-20{ top: 61vw;}
+.four-21{ top: 62vw;}
+.four-22{ top: 63vw;}
+.four-23{ top: 64vw;}
+.four-24{ top: 65vw;}
+.four-25{ top: 66vw;}
+
+.line-4{
+    width: 0;
+    height: 30vw;
+    border-left: solid #c2afdb 0.67vw;
+    position: absolute;
+    top:110vw;
+    z-index: 90;
+}
+
+.fix-1{left: 5vw;}
+.fix-2{left: 6vw;}
+.fix-3{left: 7vw;}
+.fix-4{left: 8vw;}
+.fix-5{left: 9vw;}
+.fix-6{left: 10vw;}
+.fix-7{left: 11vw;}
+.fix-8{left: 12vw;}
+.fix-9{left: 13vw;}
+.fix-10{left: 14vw;}
+.fix-11{left: 15vw;}
+.fix-12{left: 16vw;}
+.fix-13{left: 17vw;}
+.fix-14{left: 18vw;}
+.fix-15{left: 19vw;}
+.fix-16{left: 20vw;}
+.fix-17{left: 21vw;}
+.fix-18{left: 22vw;}
+.fix-19{left: 23vw;}
+.fix-20{left: 24vw;}
+.fix-21{left: 25vw;}
+.fix-22{left: 26vw;}
+.fix-23{left: 27vw;}
+.fix-24{left: 28vw;}
+.fix-25{left: 29vw;}
+.fix-26{left: 30vw;}
+.fix-27{left: 31vw;}
+.fix-28{left: 32vw;}
+.fix-29{left: 33vw;}
+.fix-30{left: 34vw;}
+.fix-31{left: 35vw;}
+.fix-32{left: 36vw;}
+.fix-33{left: 37vw;}
+.fix-34{left: 38vw;}
+.fix-35{left: 39vw;}
+.fix-36{left: 40vw;}
+.fix-37{left: 41vw;}
+.fix-38{left: 42vw;}
+.fix-39{left: 43vw;}
+.fix-40{left: 44vw;}
+.fix-41{left: 45vw;}
+.fix-42{left: 46vw;}
+.fix-43{left: 47vw;}
+
+.quote1{
+    position: absolute;
+    left: 71.3vw;
+    top: 62.6vw;
+    font-size: 2.1vw;
+    line-height: 2.2vw;
+    z-index: 20;
+}
+
+.quote2{
+    position: absolute;
+    left:12vw;
+    top:140.7vw;
+    font-size: 2vw;
+    line-height: 2.2vw;
+}
+
+.quote3{
+    position:absolute;
+    top: 225vw;
+    left: 70vw;    
+    z-index: 100;
+    font-size: 2vw; 
+    line-height: 2.2vw;
+}
+
+.jinyo{
+     z-index: 100;
+    position: absolute;
+    letter-spacing: 0.5vw;
+    font-size: 4.5vw;
+    position: absolute;
+    top: 215vw;
+    left: 70vw;
+}
+
+.mok{
+    z-index: 100;
+    position: absolute;
+    letter-spacing: 0.5vw;
+    font-size: 4.5vw;
+    position: absolute;
+    top: 219vw;
+    left: 79.6vw;
+}
+
+.line-5{
+    width: 11vw;
+    height: 0vw;
+    border-bottom: solid #c2afdb 0.67vw;
+    position: absolute;
+    right:0;
+    z-index: 90;
+}
+
+.five-1{top:200vw;}
+.five-2{top:201vw;}
+.five-3{top:202vw;}
+.five-4{top:203vw;}
+.five-5{top:204vw;}
+.five-6{top:205vw;}
+.five-7{top:206vw;}
+.five-8{top:207vw;}
+
+.line-6{
+    width: 14vw;
+    height: 0;
+    border-bottom: solid #c2afdb 0.67vw;
+    position: absolute;
+    left:0;
+    z-index: 60;
+}
+
+.six-1{top:246vw;}
+.six-2{top:247vw;}
+.six-3{top:248vw;}
+.six-4{top:249vw;}
+.six-5{top:250vw;}
+.six-6{top:251vw;}
+.six-7{top:236vw;}
+.six-8{top:237vw;}
+.six-9{top:238vw;}
+.six-10{top:239vw;}
+.six-11{top:240vw;}
+.six-12{top:241vw;}
+.six-13{top:242vw;}
+.six-14{top:243vw;}
+.six-15{top:244vw;}
+.six-16{top:245vw;}
+.six-17{top:252vw;}
+.six-18{top:253vw;}
+.six-19{top:254vw;}
+.six-20{top:255vw;}
+.six-21{top:256vw;}
+.six-22{top:257vw;}
+.six-23{top:258vw;}
+.six-24{top:259vw;}
+.six-25{top:260vw;}
+

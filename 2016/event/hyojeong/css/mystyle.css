@@ -1,0 +1,421 @@
+/*-- Add your styles here. --*/
+ul.nav2{
+    list-style: none;
+    font-family: ;
+    font-size: 2vw;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+    top:4.7vw;
+    left: 40vw;
+    z-index: 100;
+
+}   
+ul.nav2 li {
+    display: inline-block;
+    }
+ul.nav2 li a{
+    text-decoration: none;
+    display:block;
+    width:8vw;
+    margin-left: 5vw;
+    z-index: 100;
+}
+
+.nav-blue{
+    color: #53c7d1;
+}
+
+.nav-red{
+    color: #df371b;
+}
+
+ul.nav2 li a:visit{
+    color: #53c7d1;
+}
+
+.nav2 li a:hover{
+    color:#df371b;
+}
+.nav-red{
+    color:#df371b;
+    text-decoration: underline; color:#df371b
+}
+.red-back:hover{
+    opacity: 100;
+}
+.logo-font{
+    font-size: 2vw;
+    position: absolute;
+    color: #df371b;
+    left:6.2vw;
+    top:4.7vw;
+    z-index:5;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.month-font{
+    font-size: 2.08333333vw;
+    position: absolute;
+    color: #53c7d1;
+    left:6.666666666666vw;
+    top:55.416666666666vw;
+    z-index:5;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.day-font{
+    font-size: 2.08333333vw;
+    position: absolute;
+    color: #53c7d1;
+    left:11.833333vw;
+    top:55.416666666666vw;
+    z-index:5;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.year-font{
+    font-size: 2.08333333vw;
+    position: absolute;
+    color: #53c7d1;
+    left:18.75vw;
+    top:55.416666666666vw;
+    z-index:5;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.museum-font{
+    font-size: 2.08333333vw;
+    position: absolute;
+    color: #53c7d1;
+    left:6.666666666666vw;
+    top:58.5vw;
+    z-index:5;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.newyork-font{
+    font-size: 2.08333333vw;
+    position: absolute;
+    color: #53c7d1;
+    left:32vw;
+    top:58.5vw;
+    z-index:5;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.title-font{
+    font-size: 4vw;
+    position: absolute;
+    color: #dba45f;
+    left:6.666666666666vw;
+    top:80.75vw;
+    z-index:5;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+ .text-box{
+     border:none;
+     width: 48vw;
+     height: 20vw;
+     position: absolute;
+     z-index: 11;
+     top: 91.91666666vw;
+     left: 6.666666666666vw;
+           
+        }
+#text{
+    font-size: 1.66666666vw;
+    color: #dba45f;
+    line-height: 2.5vw;
+    
+}
+.ticket-box{
+    border: solid #df371b 0.3vw;
+    color: #df371b;
+    font-size: 3vw;
+    font-weight: 600;
+    position: absolute;
+    top: 101.583333333vw;
+    left: 71.833333333vw;
+    padding:1vw;
+    z-index: 11;
+    
+}
+
+/*-----------------artist---------------------*/
+
+ul.nav3{
+    list-style: none;
+    font-family: ;
+    font-size: 2vw;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+    top:1vw;
+    left: 40vw;
+    z-index: 100;
+
+}   
+ul.nav3 li {
+    display: inline-block;
+    }
+ul.nav3 li a{
+    text-decoration: none;
+    display:block;
+    width:8vw;
+    margin-left: 5vw;
+    z-index: 100;
+}
+
+.nav-blue{
+    color: #53c7d1;
+}
+
+.nav-red{
+    color: #df371b;
+}
+
+ul.nav2 li a:visit{
+    color: #53c7d1;
+}
+
+.nav3 li a:hover{
+    color:#df371b;
+}
+.nav-red{
+    color:#df371b;
+    text-decoration: underline; color:#df371b
+}
+.lines{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: 20;
+}
+.lee-font{
+    font-size: 4vw;
+    position: absolute;
+    color: #53c7d1;
+    left:49.5vw;
+    top:39.58333333vw;
+    z-index:5;
+    font-weight: 600;
+    letter-spacing: 3px;
+    
+}
+.serra-font{
+    font-size: 4vw;
+    position: absolute;
+    color: #53c7d1;
+    left:12vw;
+    top:94.5vw;
+    z-index:5;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.ryman-font{
+    font-size: 4vw;
+    position: absolute;
+    color: #53c7d1;
+    left:48.58333333vw;
+    top:149vw;
+    z-index:5;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+#text1{
+    font-size: 2vw;
+    color: #53c7d1;
+    line-height: 3vw;
+    
+    
+}
+.text-box1{
+    border: none;
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    top: 49.5vw;
+    left: 49.5vw;
+    z-index: 11;
+    
+}
+#text1{
+    font-size: 2vw;
+    color: #53c7d1;
+    line-height: 3vw;
+    
+    
+}
+.text-box1{
+    border: none;
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    top: 49.5vw;
+    left: 49.5vw;
+    z-index: 11;
+    
+}
+
+
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------Location -----------------------------------------------*/
+
+ul.nav{
+    list-style: none;
+    font-family: ;
+    font-size: 2vw;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+    top:-79vw;
+    left: 40vw;
+    z-index: 100;
+
+}   
+ul.nav li {
+    display: inline-block;
+    }
+ul.nav li a{
+    text-decoration: none;
+    display:block;
+    width:8vw;
+    margin-left: 5vw;
+    z-index: 100;
+}
+
+.nav-blue{
+    color: #53c7d1;
+}
+
+.nav-red{
+    color: #df371b;
+}
+
+ul.nav li a:visit{
+    color: #53c7d1;
+}
+
+.nav li a:hover{
+    color:#df371b;
+}
+.nav-red{
+    color:#df371b;
+    text-decoration: underline; color:#df371b
+}
+
+
+
+
+
+
+.whitney-museum-font{
+        font-size: 4vw;
+        position: absolute;
+        color: #53c7d1;
+        left:58.5833333vw;
+        top:31vw;
+        z-index:5;
+        font-weight:600;
+        letter-spacing:4px;
+        }
+.american-arts-font{
+        font-size: 4vw;
+        position: absolute;
+        color: #53c7d1;
+        left:58.5833333vw;
+        top:35vw;
+        z-index:5;
+        font-weight:600;
+        letter-spacing:3px;
+        }
+.street-font{
+        font-size: 3vw;
+        position: absolute;
+        color: #53c7d1;
+        left:58.5833333vw;
+        top:43.833333333vw;
+        z-index:5;
+        font-weight:300;
+        letter-spacing:2px;
+        }
+.new-york-font{
+        font-size: 3vw;
+        position: absolute;
+        color: #53c7d1;
+        left:58.5833333vw;
+        top:47.5vw;
+        z-index:5;
+        font-weight:300;
+        letter-spacing:2px;
+        }
+    .number-font{
+        font-size: 3vw;
+        position: absolute;
+        color: #53c7d1;
+        left:58.5833333vw;
+        top:51.3vw;
+        z-index:5;
+        font-weight:300;
+        letter-spacing:2px;
+        }
+    .lines {
+        width: 100%;
+        position: absolute;
+        left:0;
+        top:0;
+        z-index: 10;
+        }
+    .line-1{
+        border-top: solid #53c7d1 0.4vw;
+        width: 33vw;
+        position: absolute;
+        z-index: 10;
+        left: 52vw;
+        top: 42vw;
+        }
+    .line-2{
+        border-top: solid #53c7d1 0.4vw;
+        width: 29vw;
+        position: absolute;
+        z-index: 10;
+        left: 68.5vw;
+        top: 59vw;
+        }
+    .map-box{
+        border: solid #df371b 0.3vw;
+        color: #df371b;
+        font-size: 2vw;
+        font-weight: 600;
+        position: absolute;
+        top: 72vw;
+        left: 58.5833333vw;
+        padding:0.5vw;
+        z-index: 11;
+        }
+ 

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Aritists</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/template.css">
+    <style>
+    
+      html {
+        font-family: 'Rajdhani', sans-serif;
+        
+      }
+      
+      h1 { font-size: 14vw; }
+      h2 { font-size: 10vw; }
+      h3 { font-size: 8vw; }
+      p { font-size: 4vw; }
+        
+        
+        .back {
+            
+            background: url(images/Artists_0025_back.png);
+            width: 100%;
+            height: 191.666666666vw;
+            position: absolute;
+            left:0;
+            top:0;
+            background-repeat: no-repeat;
+            background-size:cover;
+            z-index: 1;
+    
+}
+        .yellow-back{
+            background: url(images/Artists_0023_yellow-back.png);
+            width: 100%;
+            height: 73.416666666666vw;
+            position: absolute;
+            left:0;
+            top:8.33333333333vw;
+            background-repeat: no-repeat;
+            background-size:cover;
+            z-index: 3;
+        }
+        .lee{
+            background: url(images/Artists_0021_lee.png);
+            width: 27.916666666vw;
+            height: 41.666666666vw;
+            position: absolute;
+            left:12vw;
+            top:33.583333333vw;
+            background-repeat: no-repeat;
+            background-size:cover;
+            z-index: 3;
+        }
+        .serra{
+            background: url(images/Artists_0024_ri.png);
+            width: 27.916666666vw;
+            height: 41.666666666vw;
+            position: absolute;
+            left:61.25vw;
+            top:91.4166666666vw;
+            background-repeat: no-repeat;
+            background-size:cover;
+            z-index: 3;
+        }
+        .ryman{
+            background: url(images/Artists_0022_ry.png);
+            width: 27.916666666vw;
+            height: 41.666666666vw;
+            position: absolute;
+            left:9vw;
+            top:143.75vw;
+            background-repeat: no-repeat;
+            background-size:cover;
+            z-index: 3;
+        }
+
+        
+      
+        
+        
+        
+       
+        
+    </style>
+  </head>
+  <body>
+   
+    <div class="container">
+        
+    <div class="row">
+        <div class="back"></div>
+        <div class="yellow-back"></div>
+        <div class="lee"></div>
+        <div class="serra"></div>
+        <div class="ryman"></div>
+        <p class="lee-font">WOOHWAN LEE</p>
+        <p class="serra-font">RICHARD SERRA</p>
+        <p class="ryman-font">ROBERT RYMAN</p>
+        <div class="text-box1">
+            <p id="text1">“In 1978 and 1979, I drew 30 to 40 pieces a day at</br> maximum. Many exhibited works were not even</br>included in the work book. I used to sell my</br>painting to a gallery, but sometimes I did not</br>receive any money and the paintings were</br>missing. Frequently, I left space for a signature</br>a registration number empty for the gallery to fill in.”
+            </p>
+         </div>
+         <div class="text-box2">
+            <p id="text2">“I consider space to be a material. The</br>articulation of space has come to take</br>precedence over other concerns. I attempt to use</br>sculptural form to make space distinct.”</br>
+            “What interests me is the opportunity for all of</br>us to become something different from what we</br>are, by constructing spaces that contribute</br>something to the experience of who we are.”
+            </p>
+         </div>    
+        
+      
+      
+      
+      
+    </div>
+      
+    </div>
+      <ul class="nav3">
+            <li><a class="nav-blue" href="about.html">ABOUT</a></li>            
+            <li><a class="nav-blue" href="artists.html">ARTISTS</a></li>            
+            <li><a class="nav-blue" href="location.html">LOCATION</a></li>            
+            <li><a class="nav-blue" href="#">SCHEDULE</a></li>            
+        </ul>
+    </div>
+    
+   
+    <img src="images/Artists-lines.png" alt="lines" class="lines">
+    
+    <!-- DO NOT CHANGE CODES BELOW-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.lazyload.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $('div').lazyload(
+          effect: "fadeIn"
+        );
+      });
+    </script>
+  </body>
+</html>

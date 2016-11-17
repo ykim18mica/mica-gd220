@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Com-Sim-Location</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/template.css">
+    <style>
+      /* YOUR CSS CODE HERE */
+      html {
+        font-family: 'Rajdhani', sans-serif;
+        
+      }
+      
+      h1 { font-size: 14vw; }
+      h2 { font-size: 10vw; }
+      h3 { font-size: 8vw; }
+      p { font-size: 4vw; }
+        
+        
+        .background{
+            background: url(images/location_0013_back-texture.png);
+            width: 100%;
+            height: 83.75vw;
+            background-repeat: no-repeat;
+            background-size:cover;
+            z-index: 1;
+        }
+        .yellow-back{
+            background: url(images/location_0012_yellow-line-back.png);
+            width: 100%;
+            height: 36vw;
+            background-repeat: no-repeat;
+            background-size:cover;
+            position: absolute;
+            top:8.33333333333vw;
+            left: 0vw;
+            z-index: 3;
+        }
+        .picture{
+            background: url(images/location_0002_whitney.png);
+            width:45.58333333vw;
+            height: 46.41666666666vw;
+            background-repeat: no-repeat;
+            background-size:cover;
+            position: absolute;
+            top:29.166666666vw;
+            left: 5.8333333vw;
+            z-index: 4;
+        }
+        
+    </style>
+  </head>
+  <body>
+   
+    <div class="container">
+        
+      <!-- YOUR HTML CODE HERE -->
+    <div class="row">
+        <div class="background"></div>
+        <div class="yellow-back"></div>
+        <div class="picture"></div>
+        <p class="whitney-museum-font">WHITNEY MUSEUM</p>
+        <p class="american-arts-font">of AMERICAN ARTS</p>
+        <p class="street-font">99 Gansevoort Street</p>
+        <p class="new-york-font">New York, NY 10014</p>
+        <p class="number-font">(212) 570-3600</p>
+        <div class="line-1"></div>
+        <div class="line-2"></div>
+        <div class="map-box">VIEW IN GOOGLE MAPS</div>
+    </div>
+        <ul class="nav">
+            <li><a class="nav-blue" href="about.html">ABOUT</a></li>            
+            <li><a class="nav-blue" href="artists.html">ARTISTS</a></li>            
+            <li><a class="nav-red" href="location.html">LOCATION</a></li>            
+            <li><a class="nav-blue" href="#">SCHEDULE</a></li>            
+        </ul>
+    </div>
+    
+    
+    
+    <img src="images/location-line.png" alt="lines" class="lines">
+    
+    <!-- DO NOT CHANGE CODES BELOW-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.lazyload.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $('div').lazyload(
+          effect: "fadeIn"
+        );
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,237 @@
+/*-- Add your styles here. --*/
+body {
+    color: white;
+    
+}
+
+ul: {
+    
+}
+
+.sidebar {
+    height: 527px;
+    background-color: grey;
+    
+}
+
+.main_image {
+    height: 527px;
+    background-color: black;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+.footer {
+    height: 200pxpx;
+    box-sizing: 100px
+    
+}
+
+.nav-1.png {
+    background: cover;
+    margin: 0;
+}
+
+.nav-2.png {
+    background: cover;
+    margin: 0;
+    
+}
+
+.nav-3.png {
+    background: cover;
+    margin: 0;
+}
+
+
+
+.skate-tickets_02.jpg {
+    background: cover;
+    position: absolute;
+}
+
+.skate-event_01.jpg {
+    background: cover;
+}
+
+.index-main-image_01 {
+    background: cover;
+    
+}
+
+.index-main-image_04.png {
+    background: cover;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    
+
+    
+}
+body {
+    background-color: #264A7E;
+}
+
+.nav-text {
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    text-decoration: none;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px
+    
+}
+
+li {
+    text-decoration: none;
+    
+}
+
+.nav-tickets {
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    margin-top: 20px;
+    text-align: center;
+ 
+}
+
+.tickets-image {
+    height: 00px;
+    background-color: white
+}
+.tickets-content {
+    padding-left: 300px;
+}
+
+.tickets-events {
+    color: #4880C4;
+    background-color: white;
+    height: 500px;
+    font-family: 'Righteous', cursive
+}
+
+h1 {
+    font-size: 30px;
+    margin: 10px
+}
+
+#ticket-text {
+    color: black;
+    margin: 20px;
+    width: 400px
+}
+
+a:hover {
+    background-color: #4880C4;
+    color: white;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out; 
+    text-decoration: none;
+   
+}
+
+a:active  {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;    
+}
+
+.nav-tickets {
+    
+}
+.table-yellow {
+    margin: 30px;
+    margin: absolute;
+}
+
+#events-content: {
+    color: white;
+    margin: 40px;
+    font-family: 'Righteous', cursive;
+}
+
+.about-header {
+    height: 600px;
+    float: left;
+    position: relative;
+}
+
+#about-content {
+    margin:10px;
+    font-family: 'Righteous', cursive;
+    color: white;
+    
+    
+}
+
+#about-content2 {
+    margin:20px;
+    font-family: 'Righteous', cursive;
+    color: white;
+    margin-right: 0px 
+    
+}
+
+.about-people {
+    width: 200px
+}
+
+.about-colortext {
+    width: 400px;
+}
+
+#speaker-content {
+    font-family: 'Righteous', cursive;
+    line-height: 2;
+    margin: 10px;
+ 
+}
+
+#abouts-back {
+    background-color: white/;
+}
+
+
+#event-schedule {
+    
+}
+
+#schedule {
+    font-family: 'Righteous', cursive;
+    text-align: center
+}
+
+
+#yellow {
+    color: yellow;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    
+}
+
+#description {
+    font-family: 'Righteous', cursive;
+    font-size: 22px;
+    text-align: left;
+    
+}
+
+.column-color{
+    background-color: #4880C4;
+    text-align:center
+}
+
+.background {
+    position: relative;
+    width: 100%;
+}
+

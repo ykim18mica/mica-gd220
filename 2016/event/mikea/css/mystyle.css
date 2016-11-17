@@ -1,0 +1,472 @@
+/*-- Add your styles here. --*/
+
+
+/*-- Header Starts Here. --*/
+
+.grid-container{
+  width: 1200px; 
+  margin: 0 auto;
+}
+
+header {
+  background-color: orangered;
+}
+
+header ul {
+  list-style: none;
+  padding: 20px;
+  margin-left: 80px;
+}
+
+header ul li {
+  display:inline-block;
+  margin-left: 40px;
+  padding:  10px;
+  color:  white;
+  align-content: center;
+  font-size: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color:  white;
+  padding: 10px;
+}
+
+header ul li a:hover {
+  background-color: orange;
+}
+
+/*-- Header Ends Here. --*/
+
+
+
+/*-- Elements & Lines --*/
+
+
+
+/*-- Elements & Lines End --*/
+
+
+
+
+
+/*-- Jessica.Home --*/
+
+.rowJessica {
+  position: relative;
+  height: 600px;
+  column-width: 1200px;
+  padding-top: 20px;
+}
+
+.row1 .three {
+  background: white;
+  height: 600px;
+  column-width: 300px;
+  padding-top: 30px;
+  float: left
+}
+
+.row1 .three h1 {
+  font-size: 80px;
+  color:  orangered;
+  padding-top: 50px;
+  position: relative;
+}
+
+.row1 .three h2 {
+  color:  orangered;
+  font-size: 25px;
+  margin-left: 275px;
+}
+
+.row1 .three p {
+  color:  orangered;
+  line-height: 1.2;
+  column-width: 200px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.row1 .three h3 {
+  position: relative;
+  margin-left:250px;
+  padding-top: 40px;
+  font-size: 30px;
+  color:  orangered;
+}
+
+.row1 .three h4 {
+  font-size: 25px;
+  position: relative;
+  color: orangered;
+  margin-left: 0px;
+}
+
+
+/*-- View Work Link --*/
+
+.row1 .three h4 a {
+  text-decoration: none;
+  color:  orangered;
+}
+
+/*-- View Work Link --*/
+
+
+
+/*-- Jessica Home Ends. --*/
+
+
+
+/*-- Shepard. --*/
+
+.rowShepard {
+  position: relative;
+  height: 600px;
+  column-width: 1200px;
+  background: orangered;
+}
+
+.row2 img {
+  position: absolute;
+  margin-left: 1200px;
+  padding-top:  0px;
+}
+
+.row2 .three {
+  height: 600px;
+  float: left; 
+  margin-left: 20px;
+  padding-left: 175px;
+  padding-top: 20px;
+}
+
+.row2 .three h1{
+  font-size: 50px;
+  color:  white;
+  column-width: 600px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  float: left;
+}
+
+.row2 .three h2 {
+  color:  white;
+  margin-left: 510px;
+  font-size: 25px;
+}
+
+.row2 .three p {
+  color:  white;
+  line-height: 1.2;
+  column-width: 300px;
+  margin-top: 10px;
+  padding-top: 30px;
+  padding-left: 30px
+}
+
+.row2 .three h3 {
+  position: relative;
+  margin-left: 370px;
+  padding-top: 80px;
+  font-size: 30px;
+  color:  white;
+}
+
+.row2 .three h4 {
+  font-size: 25px;
+  position: absolute;
+  color: white;
+  margin-left: 100px;
+}
+
+
+/*-- View Work Link --*/
+
+.row2 .three h4 a {
+  text-decoration: none;
+  color:  white;
+}
+
+/*-- View Work Link --*/
+
+
+/*-- Shepard End. --*/
+
+
+
+/*-- Wim Crouwel. --*/
+
+.rowWim {
+  position: relative;
+  height: 900px;
+  column-width: 1200px;
+  padding-top: 20px;
+  padding-bottom: 300px;
+}
+
+.rowWim img {
+  position: absolute;
+  margin-left: 300px;
+  padding-top: 472px;
+}
+
+.rowWim h3 {
+  position: absolute;
+  margin-left: 570px;
+  padding-top: 300px;
+  font-size: 30px;
+  color:  orangered;
+}
+
+.row3 img {
+  position: absolute;
+  margin-left: 0px;
+  padding-top:  120px;
+}
+
+
+.row3 .three {
+  background: white;
+  height: 600px;
+  column-width: 300px;
+  padding-top: 30px;
+  float: left
+}
+
+.row3 .three h1{
+  font-size: 80px;
+  color:  orangered;
+  padding-top: 50px;
+  position: a;
+}
+
+.row3 .three h2 {
+  color:  orangered;
+  font-size: 25px;
+  margin-left: 305px; 
+}
+
+.row3 .three p {
+  color:  orangered;
+  line-height: 1.2;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.row3 .three h4 {
+  font-size: 25px;
+  position: relative;
+  color: orangered;
+  margin-left: 1px;
+  margin-top: 30px;
+}
+
+
+/*-- View Work Link --*/
+
+.row3 .three h4 a {
+  text-decoration: none;
+  color:  orangered;
+}
+
+/*-- View Work Link --*/
+
+
+/*-- Wim Crouwel End. --*/
+
+
+
+
+
+
+
+
+
+/*-- Information. --*/
+
+.rowInfo {
+  background: brown;
+  height: 125px;
+  column-width: 1200px;
+  position: relative;
+}
+
+
+.rowInfo .three button {
+  outline-color: orangered;
+  font-size: 20px;
+  color: orangered;
+  background: white;
+  padding: 10px;
+  margin-left: 990px;
+  position: absolute;
+}
+
+
+.rowInfo .three button a {
+  text-decoration: none;
+  color:  orangered;
+}
+
+
+.row4 .three {
+  background: white;
+  height: 200px;
+  column-width: 800px;
+}
+
+
+.row4 .three h3 {
+  color: orangered;
+  margin-left: 100px;
+  font-size: 20px;
+  line-height: 25px;
+  padding-bottom: 40px;
+  
+  border-bottom: 1px solid orangered;
+}
+
+
+/*-- Information End. --*/
+
+
+
+/*-- Social. --*/
+
+
+
+
+.rowSocial img {
+  position: absolute;
+  padding-left: 200px;
+  padding-top: 60px;
+  margin-left: 90px; 
+}
+
+    
+.rowSocial .three h5 {
+  font-size: 60px;
+  margin-left: 100px;
+  color: coral;
+} 
+.rowSocial .three h3 {
+  font-size: 20px;
+  color: orangered;
+  margin-left: 100px;
+  padding-top: 10px;
+}
+.rowSocial .three h3 a {
+  color: orangered;
+  text-decoration:none
+}
+
+
+/*-- Social. --*/
+
+
+
+/*-- Register. --*/
+
+.rowRegister {
+  position: relative;
+  height: 600px;
+  column-width: 1200px;
+  padding-top: 90px;
+  border-bottom: 1px solid orangered;
+}
+
+.rowReg .three {
+  background: white;
+  height: 500px;
+  column-width: 300px;
+  padding-top: 30px;
+  margin-left: 300px;
+  float:  left;
+  
+  
+}
+
+.rowReg .three h1 {
+  font-size: 80px;
+  color:  orangered;
+  padding-top: 50px;
+
+}
+
+.rowReg .three h2 {
+  color:  orangered;
+  font-size: 25px;
+}
+
+
+
+.rowReg .three h3 {
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  font-size: 40px;
+  color:  orangered;
+}
+
+.row1 .three h4 {
+  font-size: 25px;
+  position: relative;
+  color: orangered;
+  margin-left: 0px;
+}
+
+
+/*-- View Work Link --*/
+
+.row1 .three h4 a {
+  text-decoration: none;
+  color:  orangered;
+}
+
+/*-- View Work Link --*/
+
+
+
+/*-- Register Ends. --*/
+
+
+
+/*--Register Cost--*/
+
+
+
+.rowCost .Guest li {
+  column-width: 200px;
+  height: 200px;
+  background: white;
+  font-size: 15px;
+  margin-left: 70px;
+  padding-left: 10px;
+  padding-top: 40px;
+  display: inline-block;
+  color: orangered;
+  
+  
+}
+
+.rowCost .Guest li h1 {
+  font-size: 80px;
+  padding-top: 10px
+}
+
+.rowBrown h5 {
+  background: brown;
+  padding-bottom: 100px;
+  color: white;
+  padding-top: 40px;
+  
+}
+  
+    
+}
+
+
