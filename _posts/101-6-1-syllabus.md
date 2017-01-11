@@ -5,10 +5,10 @@ excerpt_separator: <!--more-->
 summary: General course information.
 categories: syllabus
 tags:
-date_edited: Sep 25, 2016
+date_edited: Jan 10, 2017
 ---
 
-*You can also download the [PDF version]({{ site.baseurl }}/files/MICA-16FA-GD2-Syllabus.pdf) of the syllabus.*
+*You can also download the [PDF version]({{ site.baseurl }}/files/MICA-17SP-GD2-Syllabus.pdf) of the syllabus.*
 
 
 
@@ -25,13 +25,18 @@ Class time will be split among lectures, work sessions, discussions, presentatio
 ## Course info
 
 - Course title: Graphic Design 2
-- Course number: GD220-01
+- Course number: GD220
 - Credits: 3
-- Time and Location: Wed 8:30am-2pm, F216 
 - Instructor: [Dae In Chung](http://paperdove.com)
 - Email: [dchung01@mica.edu](mailto:dchung01@mica.edu)
 - Office location: BR303
-- Office hours: Mon 2:30-4pm & Wed 2-3:30pm
+- Office hours: Tue 3-4:30pm & Wed 2:30-4pm (email for an appointment)
+
+### Section 2
+- Time and Location: Wed 8:30am-2pm, F216 
+
+### Section 4
+- Time and Location: Thu 9am-3pm, BR305
 
 
 
@@ -47,7 +52,7 @@ Class time will be split among lectures, work sessions, discussions, presentatio
 
 
 ## Grading
-There will be 3 main projects and additional assignments related to each project. *The assignments and projects are subject to change.* The final grades will be based on all projects/assignments, not only the final result but also the whole process throughout the semester.
+There will be 3 main projects(90%) and additional assignments(10%) related to each project. *The assignments and projects are subject to change.* The final grades will be based on all projects/assignments, not only the final result but also the whole process throughout the semester.
 
 On any assignment, 
 
@@ -133,8 +138,9 @@ If there is any required material, it will be discussed ahead of time.
 1. Adobe Creative Suite
 2. Back up solution (thumb drive, external hdd, etc.)
 3. Chrome web browser
-4. [Brackets](http://brackets.io) or any other code editor of your choice.
-5. Dropbox or Google Drive
+4. [Brackets](http://brackets.io) code editor.
+5. [Codepen](http://codepen.io) account (free)
+6. Dropbox or Google Drive
 
 
 
@@ -142,55 +148,53 @@ If there is any required material, it will be discussed ahead of time.
 ## Schedule
 *Weekly schedules and projects are subject to change. Detailed descriptions on each project will be provided in class.*
 
-### Week 1 (Aug.29 - Sep.2)
+### Week 1
 Introduction  
+
+### Week 2 
+html/css basics
+
+### Week 3
+html/css cont'd
+
+### Week 4
 Project 1 begins
 
-### Week 2 (Sep.5 - 9) 
+### Week 5
 Project 1 cont'd
 
-### Week 3 (Sep.12 - 16)
-Project 1 cont'd
+### Week 6
+Project 1 cont'd  
 
-### Week 4 (Sep.19 - 23)
-Project 1 cont'd
+### Week 7
+Project 1 due
 
-### Week 5 (Sep.26 - 30)
-Project 1 cont'd
-
-### Week 6 (Oct.3 - 7)
-Project 1 due  
+### Week 8
 Project 2 begins
 
-### Week 7 (Oct.10 - 14)
+### Week 9 
+*Spring break (no classes)*
+
+### Week 10 
+Project 2 cont'd 
+
+### Week 11 
 Project 2 cont'd
 
-### Week 8 (Oct.17 - 21)
-Project 2 cont'd
-
-### Week 9 (Oct.24 - 28)
-Project 2 cont'd
-
-### Week 10 (Oct.31 - Nov.4)
+### Week 12 
 Project 2 due  
 Project 3 begins
 
-### Week 11 (Nov.7 - 11)
+### Week 13 
 Project 3 cont'd
 
-### Week 12 (Nov.14 - 18)
+### Week 14 
 Project 3 cont'd
 
-### Week 13 (Nov.21 - 25)
-*Thanksgiving - no class*
-
-### Week 14 (Nov.28 - Dec.2)
+### Week 15 
 Project 3 cont'd
 
-### Week 15 (Dec.5 - 9)
-Project 3 cont'd
-
-### Week 16 (Dec.12 - 16)
+### Week 16
 Project 3 due  
 Wrap up
 
