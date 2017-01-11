@@ -33,7 +33,7 @@ Class time will be split among lectures, work sessions, discussions, presentatio
 - Office hours: Tue 3-4:30pm & Wed 2:30-4pm (email for an appointment)
 
 ### Section 2
-- Time and Location: Wed 8:30am-2pm, F216 
+- Time and Location: Wed 4-10pm, F216 
 
 ### Section 4
 - Time and Location: Thu 9am-3pm, BR305
