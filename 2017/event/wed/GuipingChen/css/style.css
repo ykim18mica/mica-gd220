@@ -1,0 +1,274 @@
+body {
+  height: 2500px;
+  background:pink; 
+}
+
+/* logo */
+.slogo {
+  position:absolute;
+  width: 30px;
+  margin-top:30px;
+}
+h1 {
+  position: absolute;
+  font-size:15px;
+  color:deeppink;
+  margin-left: 40px;
+  margin-top:50px;
+  font-family: 'Francois One', sans-serif;
+}
+
+/* menu */
+#menu {
+  margin-top: 47px;
+  float: right;
+}
+#menu ul {
+  list-style:none;
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0;
+}
+#menu ul a {
+  color:white;
+  text-decoration:none;
+  font-size: 15px;
+  line-height:20px;
+  padding:0 15px;
+  font-family: 'Francois One', sans-serif;
+}
+#menu ul li {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+#menu ul li a:hover {
+  color: deeppink;
+}
+
+
+h2 {
+  position: absolute;
+  font-size: 150px;
+  font-family: 'Francois One', sans-serif;
+  margin-top: 100px;
+  color: deeppink;
+}
+
+.blogo {
+  position: absolute;
+  width: 340px;
+  margin-top: 120px;
+  right: 0vw;
+  opacity:0;
+  animation: fadeout 4s infinite;
+}
+.bclogo {
+  position: absolute;
+  width: 325px;
+  margin-top: 190px;
+  right: 0.2vw;
+}
+
+@keyframes fadeout {
+        from { opacity:0;}
+        to { opacity:1;}
+      }
+
+.topyellow {
+  position: absolute;
+  width:150px;
+  margin-top:540px;
+  margin-left: 160px;
+  animation: fadeout 1s infinite;
+}
+
+.bdate {
+  position: absolute;
+  font-size: 70px;;
+  font-family: 'Francois One', sans-serif;
+  color:deepskyblue;
+  margin-top: 600px;
+  right:0; 
+}
+
+.bplace {
+  position: absolute;
+  font-size: 60px;
+  font-family: 'Francois One', sans-serif;
+  color:yellow;
+  margin-top: 675px;
+}
+
+.intro {
+  position: absolute;
+  top: 905px;
+  margin-left: 570px;
+}
+
+.slides {
+  position: absolute;
+  margin-top: 850px;
+  overflow: hidden;
+  height: 550px;
+  width:550px;
+}
+.photos{
+  width: 100%;
+}
+
+h3 {
+  position: absolute;
+  font-size:100px;
+  font-family: 'Francois One', sans-serif;
+  color: deepskyblue;
+  margin-top: 1060px;
+  margin-left: 140px;
+}
+.content {
+  margin-top: 12px;
+  font-size: 18px;
+  font-family: 'Libre Franklin', sans-serif;
+  line-height: 25px;
+  color:white;
+  width: 420px;
+}
+.dsj{
+  position: absolute;
+  width: 130px;
+  margin-top: 720px;
+  margin-left: 0px;
+  animation: fadeout 1s infinite;
+}
+
+
+
+.speech {
+  position: absolute;
+  font-family: 'Francois One', sans-serif;
+  margin-top: 1540px;
+  font-size: 40px;
+  color:deeppink;
+}
+
+.xly {
+  position: absolute;
+  margin-top: 1600px;
+  width: 333.33px;
+  height: 410px;
+}
+.xly:hover{
+  border: solid 10px deepskyblue;
+}
+.xly:hover + .xlyspeech{
+  font-family: 'Francois One', sans-serif;
+  background-color: deepskyblue;
+  color:white;
+  margin-top: 1980px;
+  height: 130px;
+  font-size: 30px;
+  padding-left: 15px;
+}
+.xlyspeech  {
+  position: absolute;
+  font-size: 20px;
+  font-family: 'Libre Franklin', sans-serif;
+  color:white;
+  line-height: 35px;
+  margin-top: 2000px;
+  width:333.33px;
+  height: 120px;
+  padding-top: 10px;
+}
+
+.taku {
+  position: absolute;
+  margin-top: 1600px;
+  left: 33.4%;
+}
+.taku:hover{
+  border: solid 10px deepskyblue; 
+}
+.taku:hover + .takuspeech{
+  font-family: 'Francois One', sans-serif;
+  background-color: deepskyblue;
+  color:white;
+  margin-top: 1980px;
+  height: 130px;
+  font-size: 30px;
+  padding-left: 15px;
+}
+.takuspeech {
+  position: absolute;
+  font-size: 20px;
+  font-family: 'Libre Franklin', sans-serif;
+  color:white;
+  line-height: 35px;
+  margin-top: 2000px;
+  margin-left: 333.33px;
+  padding-top: 10px;
+}
+
+.yael {
+  position: absolute;
+  margin-top: 1600px;
+  right: 0;
+}
+.yael:hover{
+  border: solid 10px deepskyblue; 
+}
+.yael:hover + .yaelspeech{
+  font-family: 'Francois One', sans-serif;
+  background-color: deepskyblue;
+  color:white;
+  margin-top: 1980px;
+  height: 130px;
+  font-size: 30px;
+  padding-left: 15px;
+}
+.yaelspeech {
+  position: absolute;
+  font-size: 25px;
+  font-family: 'Libre Franklin', sans-serif;
+  color:white;
+  line-height: 35px;
+  margin-top:  2000px;
+  margin-left:666.7px;
+  padding-top: 10px;
+}
+
+.face {
+  width: 100%;  
+}
+
+.line {
+  background-color: deeppink;
+  height: 5px;
+  position: absolute;
+  margin-top: 2300px;
+}
+.pinksj {
+  position: absolute;
+  width: 1000px;
+  height: 100px;
+  margin-top: 2204px;
+  animation: fadeout 2s infinite;
+}
+.micalogo{
+  position: absolute;
+  width: 150px;
+  margin-top: 2350px;
+}
+.webdesigner{
+  position: absolute;
+  margin-top: 2365px;
+  right: 0;
+  color: white;
+  font-family: 'Francois One', sans-serif;
+  font-size: 15px;
+}
+
+
+

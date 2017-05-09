@@ -1,0 +1,256 @@
+<!doctype html>
+<html>
+<head>
+	<title>Speakers</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		
+		.speakers {
+			font-family: "Space Mono";
+			font-size: 12vw;
+			font-weight: 600;
+			color: #30AA87;
+			text-align: center;
+			margin-top: 30vw;
+		}
+		
+		
+		.simonpan {
+			width: 100vw;
+			height: 300vw;
+		}
+		
+		.tobias {
+			width: 100vw;
+			height: 80vw;
+		}
+		
+		.brynn {
+			width: 100vw;
+			height: 80vw;
+		}
+		
+		
+		.bio {
+			float: right;
+			width: 30vw;
+			margin-left: 10vw;
+			position: relative;
+			margin-right: 20vw;
+			margin-top: 20vw;
+			overflow: auto;
+		}
+		
+		
+		.name {
+			font-family: Karla, sans-serif;
+			font-weight: 600;
+			font-size: 3.5vw;
+			line-height: 4.5vw;
+		}
+		
+		.city {
+			font-family: Space Mono, monospace;
+			font-size: 2vw;
+			line-height: 6vw;
+		}
+		
+		.description {
+			position: relative;
+			font-family: Karla, sans-serif;
+			font-size: 1.5vw;
+			line-height: 2vw;
+			letter-spacing: .04vw;
+		}
+		
+		.banner {
+			height: 40vw;
+			background-color: #EAEAEA;
+			margin-top: 40vw;
+		}
+		
+		/* image styling */
+		
+		.simonpanimage {
+			height: 42vw;
+			margin-top: 10vw;
+			margin-left: 6vw;
+			z-index: 100;
+		}
+		
+		.simonpanimage:hover {
+			content: url(images/simonpan-illustration.png);
+			height: 42vw;
+			margin-top: 10vw;
+			margin-left: 6vw;
+			animation: fadein 1s forwards;
+		}	
+		
+		.yellowline {
+			position: absolute;
+			height: 20%;
+		}
+	
+		.tobiasimage {
+			height: 42.6vw;
+			margin-top: 20vw;
+			margin-left: 6vw;
+		}
+		
+		.tobiasimage:hover {
+			content: url(images/tobias-drawing.png);
+			height: 43.12vw;
+			margin-top: 20vw;
+			margin-left: 6vw;
+			animation: fadein 1s forwards;
+		}
+		
+		.brynnimage {
+			width: 32vw;
+			margin-left: 6vw;
+			margin-top: 20vw;
+			z-index: 3000;
+		}
+		
+		.brynnimage:hover {
+			content: url(images/brynn-drawing.png);
+			width: 32vw;
+			margin-left: 6vw;
+			margin-top: 20vw;
+		}
+		
+		
+		.test {
+			outline: 1px solid red;
+		}
+		
+		@keyframes fadein {
+			from { opacity: .9; }
+			to { opacity: 1; }
+		}
+		
+		.clearfix {
+			overflow: auto;
+		}
+		
+		.touch {
+			width: 100%;
+			bottom: 0;
+		}
+		
+	</style>
+</head>
+<body>
+	<nav role="navigation">
+  <div id="menuToggle">
+		
+		<input type="checkbox" />
+	
+	  <span></span>
+    <span></span>
+    <span></span>
+		
+	
+   <ul id="menu">
+      <a href="/schedule.html"><li>Schedule</li></a>
+      <a href="/speakers.html"><li>Speakers</li></a>
+      <a href="/about.html"><li>About</li></a>
+      <a href="/rsvp.html"><li>RSVP</li></a>
+    </ul>
+</nav>
+	
+	<p>
+		<a href="/index.html">
+		<img src="images/logo.png" id="home">
+		</a>
+	</p>
+	
+		<div class="designtitle">
+			Designing Society
+		</div>
+	</div>
+	
+	<div class="title">
+			<p class="speakers">
+				SPEAKERS
+			</p>
+	</div>
+	
+	<div class="simonpan clearfix">
+		<img src="images/simonpan.png" class="simonpanimage">
+		<p class="bio">
+			<span class="name">
+				Simon Pan
+			</span><br>
+			<span class="city">
+				San Francisco, CA
+			</span><br>
+			<span class="description">	
+				Simon is a Product Designer and
+				UI Designer based in California.
+				His portfolio boasts names like
+				Amazon Prime Music, Uber, and
+				Medium—where he resides right
+				now. He has a Bachelor's Degree
+				of Computer Science, and loves
+				traveling and living abroad.
+			</span>
+			
+		</p>
+		
+
+	
+		<div class="tobias clearfix">
+			<img src="images/tobias-picture.png" class="tobiasimage">
+			<p class="bio">
+				<span class="name">
+					Tobias Van Schneider
+				</span><br>
+				<span class="city">
+					New York City, NY
+				</span><br>
+				<span class="description">	
+					Tobias is a German designer living
+					and working in New York City, NY.
+					He's formerly worked at Spotify
+					as the Lead Product Designer and
+					Art Director, and is currently
+					serving on the AIGA Board of 
+					Directors in New York. He's worked with
+					Red Bull, Wacom, Google, and Ralph Lauren. 
+					He currently works on Semplice, a portfolio 
+					website that makes displaying your work both
+					simple and beautiful.
+				</span>
+			</p>
+		</div>
+		
+		
+		<div class="brynn clearfix">
+			<img src="images/brynn-picture.png" class="brynnimage">
+			<p class="bio">
+				<span class="name">
+					Brynn Evans
+				</span><br>
+				<span class="city">
+					San Francisco, CA
+				</span><br>
+				<span class="description">
+					Brynn is an user experience designer at
+					Google, a 7th-gen Californian, and Stanford alum.
+					She runs thinking workshops at Google, and
+					previously at Apple, McAfee, Esteé Lauder,
+					and a few organizations abroad. She began her
+					UX career as a researcher; otherwise, she's a 
+					self-taught designer. 
+				</span>
+			</p>
+		</div>
+
+	<img src="images/touch.gif" class="touch">
+		
+	</div>
+	
+</body>
+
+</html>

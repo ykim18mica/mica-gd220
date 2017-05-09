@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Show Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Lato:100|Lato:300|Montserrat:100|Montserrat:200|Montserrat:300|Roboto+Slab:100" rel="stylesheet">
+     
+    <style>
+      
+			/* grid hight */ 
+      
+      .oneh{
+        height:100px;
+      }
+      
+      .sixh{
+        height:600px;
+      }
+      
+      /* text back*/
+      
+       .textback{
+      position: fixed;
+       width: 1280px;
+       height: 620px;
+       top:180px;
+       background-image: url(picture/dohu/dohutextbackground.png);
+       background-size: contain;  
+       opacity:0;
+       z-index:1;
+       transition: opacity 1s;
+      }
+      
+      /*text*/
+        .orangeheading{
+        position: relative;
+        left: 420px;
+        z-index: 2;
+        font-size: 25px;
+        font-family:Roboto Slab,sans-serif;
+        font-weight: 100;
+        margin-top: 15px;
+        top:50px;
+        color:rgb(210,111,71);
+        }
+      
+       .orangelineart{width: 400px;
+        position:absolute;
+        left:420px;
+        top:80px;
+        z-index:2;
+        border-top: solid 1px rgb(210,111,71);}
+      
+      .staircase{
+        position: relative;
+        left: 420px;
+        top:50px;
+        z-index: 2;
+        font-size: 18px;
+        font-family:Montserrat,sans-serif;
+        font-weight: 200;
+        margin-top: 10px;
+        color:rgb(210,111,71);
+       }
+      
+      .art02{
+        position: relative;
+        left: 420px;
+        top:50px;
+      }
+      
+      /*side bar interviews taxt*/
+      .interviewsdo{
+      position: fixed;
+       width: 1280px;
+       height: 620px;
+       top:180px;
+       background-image:url(picture/dohu/dohutextbackground.png);
+       background-size: contain;  
+       opacity:0;
+       z-index:1;
+        transition: opacity 1s;
+       }
+      
+      .interheading02{
+        position:absolute;
+        left: 150px;
+        z-index: 2;
+        font-size: 25px;
+        font-family:Roboto Slab,sans-serif;
+        font-weight: 200;
+        margin-top: 15px;
+        top:35px;
+        color:rgb(210,111,71);
+      }
+      
+      .orangelineinter{
+        width: 400px;
+        position:absolute;
+        left:150px;
+        top:85px;
+        z-index:2;
+        border-top: solid 1px rgb(210,111,71);
+      }
+      
+      .question001p{
+        position: absolute;
+        left:150px;
+        top:80px;
+      }
+      
+      .inter001{
+        position: absolute;
+        left: 150px;
+        top:105px;
+      }
+      
+      .question002p{
+        position: absolute;
+        left: 150px;
+        top:250px;
+      }
+      
+      .inter002{
+        position: absolute;
+        left: 150px;
+        top:290px;
+      }
+      
+      .question003p{
+       position: absolute;
+        left:650px;
+        top:80px;
+      }
+      
+      .inter003{
+        position: absolute;
+        left:650px;
+        top:105px
+      }
+      
+      /*side bar animation*/
+      .artworkho:hover ~.textback {
+       opacity: 1;
+      }
+ 
+      .interho:hover ~ .interviewsdo{
+      opacity: 1;
+      }
+      
+			/* img */
+
+      .dohuback {
+        background-image: url(picture/dohu/dohubackground-01.png);
+        background-size: cover;
+      }
+      
+    </style>
+  </head>
+  <body>
+   
+    <div class="grid-container">
+    
+    	<div class="row">
+
+    	<div class="container">
+       
+  <!-- navigation -->
+    	  <div class="col-12 oneh menu ">
+        <img src="picture/homepage/NavigationBar-01.png" width=1280px>
+         <ul class="homenavi">
+          <li class="Home"><a href="index.html">HOME</a></li>
+         <li class="about"><a href="About.html">ABOUT </a></li>
+         <li class="speakers"><a href="speakers.html">SPEAKER</a></li>
+         </ul>
+         <div class="circle"></div>
+    <!--contact information-->
+         <div class="blackline"></div>
+         <div class="contact">Contact us</div>
+         <div class="share">Share with friends</div>
+         <div class="facebook"><img src="picture/icon/facebook%20icon.png" width=20px></div>
+         <div class="email"><img src="picture/icon/google%20email%20icon.png" width=20px></div>
+         <div class="twitter"><img src="picture/icon/twitter%20icon.png" width=20px></div>
+         
+        </div>
+    	  </div>
+    	
+    	  
+    	  <div class="col-12 eighth dohuback">
+    	  
+    	    <div class="artworkho side">Artworks</div>
+    	    <div class="interho side">Interview</div>
+    	  
+    	  
+    	    <div class="textback">
+           <heading class="orangeheading">Artworks</heading>
+           <div class="orangelineart"></div>
+           <h1 class="staircase">Staircase</h1>
+           <p class="art02">A site-specific installation meticulously stitched out of a translucent red nylon fabric -- is a monumental and powerfully abstract rendering of Do-Ho Suh's New York apartment staircase in 1:1 scale. Born in Korea in 1962, Do-Ho Suh moved to New York in 1993, and in 1994 began focusing on a series of installations known as The Perfect Home. Made from silk and nylon fabrics and based on full-scale models of his home in Korea and the United States, these Homes are sensuous installations recalling tents and other forms of movable architecture, evoking the nostalgia of journey, migration, identity, and perhaps, most importantly, displacement. </p>
+    	    </div>
+    	    
+    	    <!--interviews side bar -->
+    	   <div class="interviewsdo">
+    	     <heading class="interheading02">Interviews</heading>
+    	     <div class="orangelineinter"></div>
+    	     <h1 class="question question001p">What is the significance of the color of the piece?</h1>
+    	     <p class="inter001"> SUH: The color of Seoul Home/L.A. Home is a kind of light jade color, or celadon color. I just picked the color from the ceiling paper in the traditional Korean house. In the traditional house, you hang white papers on the wall. And on the ceiling, you have this sky-blue- or jade-colored wallpaper. It symbolizes the sky or universe. That house is for the scholar, so when they study in that room, the color allows them to think about the universe or a bigger space, things like that. So, I used that color for my piece.</p>
+    	     
+    	     <h1 class="question question002p">Can you talk about the process of making the Korean house project?</h1>
+    	     <p class="inter002">SUH: The Seoul Home/L.A. Home project is actually the first kind of project that I’ve collaborated on with so many people—and not just numbers of people, but also people from different fields. My mom helped me to find right fabric. She introduced me to many different fabric manufacturers. So, for that piece, the fabric was custom-made. I couldn’t find the right color, so we produced for that specific color. And also, she knows a lot of seamstresses, old ladies—“national treasures.”  And those old ladies helped me to make small ornaments on the pieces. And they taught me how to sew certain seams. I mean, it’s hard to see the difference, but there are many different kinds of sewing. And my main assistant—he studied industrial design at college, and he worked with me at the planning stage.</p>
+    	     
+    	     <h1 class="question question003p">What was that experience in your studio about?</h1>
+    	     <p class="inter003"> The experience was about transporting space from one place to the other—a way of dealing with cultural displacement. And I don’t really get homesick, but I’ve noticed that I have this longing for this particular space, and I want to recreate that space or bring that space wherever I go. So, the choice of the material, which was fabric, was for many reasons. I had to make something that’s light and transportable, something that you can fold and put in a suitcase and bring with you all the time.
+           That’s actually what happened when I first made that piece, the Korean house project. I brought that piece in my suitcase—two suitcases—to L.A., where I showed that piece for the first time, at the L.A. Korean Culture Center. It was about challenging this notion of site-specificity because the piece was made inside the house. Everything was made in that space, so it was a site-specific installation. But once you take that piece down from its own site and display and transport it in a different place, this idea of the site-specific becomes highly questionable and [debatable]. And that’s what I was really interested in, because in my mind, I think this notion—home is something that you can infinitely repeat.</p>
+    	   </div>
+    	  
+    	  
+    	  
+    	  </div>
+    	  
+    		
+    	</div>
+			
+    </div>
+    
+    
+  </body>
+</html>

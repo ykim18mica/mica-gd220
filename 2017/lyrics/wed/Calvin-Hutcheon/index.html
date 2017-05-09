@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ACROSS THE UNIVERSE</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <style>
+      /* YOUR CSS CODE HERE */
+    
+      html {
+        font-family: "Roboto Slab", sans-serif;
+        font-weight: 900;
+      }
+      
+    /*the rules for the body of the lyrics*/
+      .lyric {
+        width: 100%;
+        font-size: 2vw;
+        color: blue;
+        line-height: 130%;
+      }
+      
+      
+      /*alpha-words are the words within the first section*/  
+      #alpha-words-1 {
+        padding-top: 15vw;
+        padding-left: 6vw;
+      }
+      #alpha-words-2 {
+        padding-top: 10vw;
+        padding-left: 6vw;
+        
+      }
+      #alpha-words-3{
+        padding-top: 40vw;
+        padding-left: 6vw;
+      }
+      #alpha-words-4{
+        padding-top: 12vw;
+        padding-left: 8vw;
+      }
+      #alpha-words-5{
+        width: 100%;
+        padding-top: 10vw;
+        padding-left: 2vw;
+        text-align: center;
+      }
+      
+      
+      /*beta-words are the words within the second section*/
+      #beta-words-1{
+        padding-top: 10vw;
+      }
+      #beta-words-2{
+        width: 90%;
+        padding-top: 7vw;
+        padding-right: 2vw;
+        text-align: right;
+      }
+      #beta-words-3{
+        width: 90%;
+        padding-top: 10vw;
+        padding-right: 2vw;
+        text-align: right;
+      }
+      #beta-words-4{
+        width: inherit;
+        padding-top: 8vw;
+        padding-left: 10vw;
+      }
+      #beta-words-5{
+        width: inherit;
+        padding-top: 35vw;
+        text-align: center;
+      }
+      
+      
+      /*charlie-words are the words within the third section*/
+      #charlie-words-1{
+        padding-top: 8vw;
+      }
+      #charlie-words-2{
+        width: 90%;
+        padding-top: 8vw;
+        text-align: right;
+      }
+      #charlie-words-3{
+        padding-top: 12vw;
+        padding-left: 5vw;
+        
+      }
+      #charlie-words-4{
+        width: 220%;
+        padding-top: 6vw;
+        padding-left: 8vw;
+        z-index: 1;
+        
+      }
+      #charlie-words-5{
+        padding-top: 35vw;
+        text-align: center;
+      }
+      .song-title{
+        background-image: url(images/song-title.gif);
+        background-size: cover;
+      }
+      
+      
+      /*first image of the chorus*/
+      #big-head {
+        background-image: url(images/nothings-going-to-change-my-world1.gif);
+        background-size: cover;
+      }
+      
+      
+      /*gif in alpha section*/
+      .words-are-flowing {
+        background-image: url(images/images-are-flowing.gif);
+        background-size: cover;
+      }
+      
+      
+      /*second image of the chorus*/
+       #jai-guru {
+        background-image: url(images/jai-guru.gif);
+        background-size: cover;
+      }
+      h1 { font-size: 14vw; }
+      h2 { font-size: 10vw; }
+      h3 { font-size: 8vw; }
+      p { font-size: 4vw; }
+      
+      
+      /*alpha-# are the images within the background of the first section*/
+      #alpha-1{
+        background-image: url(images/images/alpha-1.jpg);
+        background-size: cover;
+      }
+      #alpha-2{
+        background-image: url(images/images/alpha-2.jpg);
+        background-size: cover;
+      }
+      #alpha-3{
+        background-image: url(images/images/alpha-3.jpg);
+        background-size: cover;
+      }
+      #alpha-4{
+        background-image: url(images/images/alpha-4.jpg);
+        background-size:cover;
+      }
+      
+      
+      /*beta-# are the images within the background of the second section*/
+      #beta-1 {
+        background-image: url(images/images/beta-1.jpg);
+        background-size:cover;
+      }
+      #beta-2 {
+        background-image: url(images/images/beta-2.jpg);
+        background-size: cover;
+      }
+      #beta-3 {
+        background-image: url(images/images/beta-3.jpg);
+        background-size: cover;
+      }
+      #images-of-light {
+        background-image: url(images/images-of-flashing-light.gif);
+        background-size:cover;
+      }
+      
+      
+      /*charlie-# are the background images within the charlie section*/
+      #charlie-1{
+        background-image: url(images/images/charlie-1.jpg);
+        background-size:cover;
+      }
+      #charlie-2 {
+        background-image: url(images/images/charlie-2.jpg);
+        background-size: cover;
+      }
+      #charlie-3 {
+        background-image: url(images/images/charlie-3.jpg);
+        background-size: cover;
+      }
+      
+      
+      /*gif within the charlie section*/
+      #undying-love {
+        background-image:url(images/undying-love.gif);
+        background-size: cover;
+      }
+      
+      
+      /*third image of the chorus*/
+      #nothings-going-to-change {
+        background-image: url(images/nothings-going-to-change.gif);
+        background-size: cover;
+      }
+      
+      
+      /*instructions for the chorus*/
+      .chorus {
+        width: 98%;
+        color: white;
+        font-family: "Arial black", sans-serif;
+        font-weight: 800;
+        font-size: 3vw;
+        line-height: 6vw;
+        padding-top: 55vw;
+        text-align: right;
+      }
+      
+      
+      /*instructions for the hidden text*/
+      .hidden-text{
+        color: transparent;
+        font-size: 2vw;
+        z-index: 2;
+        line-height: 130%;
+      }
+      #hidden-1{
+        width: 80%;
+        padding-top: 9vw;
+        padding-left: 2vw;
+      }
+      #hidden-2{
+        padding-top: 1vw;
+        padding-left: 4vw;
+        width: 75%;
+      }
+      #hidden-3{
+        width: 48%;
+        padding-top: 13vw;
+        padding-left: 13vw;
+      }
+      #hidden-4{
+        width: 73%;
+        padding-top: 8vw;
+        padding-left: 1vw;
+        text-align: right;
+      }
+      #hidden-5{
+        width: 80%;
+        padding-top: 6vw;
+        padding-left: 8vw;
+      }
+      #hidden-6{
+        width: 55%;
+        padding-top: 7vw;
+        padding-left: 29vw;
+        text-align: right;
+      }
+      #hidden-7{
+        width: 34%;
+        padding-top: 8vw;
+        padding-left: 17vw;
+      }
+      #hidden-8{
+        padding-top: 4vw;
+        padding-right: 4vw;
+        padding-left: 17vw;
+        text-align: right;
+      }
+      #hidden-9{
+        padding-top: 6vw;
+        padding-right: 2vw;
+        padding-left: 60vw;
+        
+      }
+      #hidden-10{
+        width: 44%;
+        padding-top: 24vw;
+        padding-left: 30vw;
+        
+      }
+      #hidden-11{
+        width: 62%;
+        padding-top: 5vw;
+        padding-left: 28vw;
+        text-align: right;
+      }
+      #hidden-12{
+        width: 30%;
+        padding-top: 15vw;
+        padding-left: 5vw;
+        
+      }
+      #hidden-13{
+        padding-top: 4vw;
+        padding-right: 8vw;
+        padding-left: 8vw;
+        
+      }
+      #hidden-14{
+        width: 160%;
+        padding-top: 2vw;
+        padding-left: 4vw;
+        
+        
+      }
+      #hidden-15{
+        padding-top: 32vw;
+        padding-left: 4vw;
+        
+      }
+      .hidden-text:hover {
+        color: #ec008c;
+      }
+      .title-big{
+        width: 100%;
+        color: white;
+        font-family: "Arial black", sans-serif;
+        font-weight: 800;
+        font-size: 5vw;
+        text-align: center;
+        padding-top: 30vw;
+      }
+      
+    </style>
+  </head>
+  <body>
+   
+    <div class="container">
+      
+      
+      <!--banner gif and title of song-->
+      <div class="row">
+        <div class=" col-100 three-fourths song-title"><p class="title-big">ACROSS THE UNIVERSE</p></div>
+      </div>
+      
+      
+      <!--alpha section ie the first verse-->
+      <div class="row">
+        <div class=" col-25 quarter" ></div>
+        <div class=" col-50 quarter " id="alpha-1"><p class="lyric" id="alpha-words-1">words are flowing out like</p><a><p class="hidden-text" id="hidden-1">A cold wind hit my body, but stood in the rain, on the bow of the boat, crossing the Bosphorus. I watched how the wave caps disappeared into the distance and reappeared as white crashing onto the shores of countless tiny islands.
+</p></a></div>
+        <div class=" col-25 quarter"></div>
+      </div>
+      <div class="row">
+        <div class=" col-50 three-fourths" id="alpha-2"><p class="lyric" id="alpha-words-2">endless rain inside a paper cup</p><p class="hidden-text" id="hidden-2">Jesus Christ, I think, I was out there on the rocks, in the headwaters of the Ganges, with my father and I still remember the path down, between the urine soaked walls. And the temples, sticky underfoot after celebrations, smelling of sweat and diesel and old fruit.
+</p><p class="lyric" id="alpha-words-3">they slither wildly as they slip away acrss the universe</p></div>
+        <div class=" col-50 half words-are-flowing"><p class="hidden-text" id="hidden-3">Sitting in the courtyard, the shadows still holding snow, Zelda and I spoke in quiet voices. That metal fence, I thought, that is the metal fence she climbed. That's how she ran away.</p></div>
+        <div class=" col-50 quarter" id="alpha-3"><p class="lyric" id="alpha-words-4">pools of sorrow waves of joy</p><p class="hidden-text" id="hidden-4">Jacob called. He said his parents were getting divorced. I walked around the block six times, listening. “How are you doing?” I asked. “Fine.” he said. 
+</p></div>
+      </div>
+      <div class="row">
+        <div class=" col-25 quarter"></div>
+        <div class=" col-50 quarter" id="alpha-4"><p class="lyric" id="alpha-words-5">are slipping through my open mind<br>possessing and caressing me</p><p class="hidden-text" id="hidden-5">I looked out the window. Those are the hills of Tamil Nadu. No those are the hills of the Mekong. No of Nyungwe. I have no picture. I can't tell you.
+</p></div>
+        <div class=" col-25 quarter"></div>
+      </div>
+      
+      
+      <!--first chorus-->
+      <div class="row">
+        <div class="col-100 three-fourths" id="big-head"><p class="chorus">NOTHINGS GOING TO CHANGE MY WORLD<br>NOTHINGS GOING TO CHANGE MY WORLD<br>NOTHINGS GOING TO CHANGE MY WORLD</p></div>
+      </div>
+      
+      
+      <!--beta section ie the second verse-->
+      <div class="row">
+        <div class=" col-25 quarter"></div>
+        <div class=" col-75 quarter" id="beta-1"><p class="lyric" id="beta-words-1">images of broken light</p><p class="hidden-text" id="hidden-6">And I was suddenly at the edge of town. The lights ended. The houses stopped. Beyond were rice fields and banana trees and sweet parsley and cassava, but only in smell. The night obscured all but the reflections in the shallow ride paddies.
+</p></div>
+      </div>
+      <div class="row">
+        <div class=" col-50 half" id="images-of-light"><p class="hidden-text" id="hidden-7">From Zelda's hospital room, I could see the place where, three years earlier, I had gotten out of a car after five days of hitchhiking.
+</p></div>
+        <div class=" col-50 quarter"><p class="lyric" id="beta-words-2">which dance beofre me like a million eyes</p></div>
+        <div class=" col-50 quarter" id="beta-2"><p class="lyric" id="beta-words-3">they call me on and on<br>across the universe</p><p class="hidden-text" id="hidden-8">On the faces of the eastern mountains, I could see red scars, great chimneys rising from the mines. This is what he saw, I thought, when he was five years old, standing barefoot on the front porch, feeling the morning sun warm the buttons of his overalls. 
+</p></div>
+      </div>
+      <div class="row">
+        <div class=" col-100 half" id="beta-3"><p class="lyric" id="beta-words-4">thoughts meander like a restless wind<br>inside a letter box</p><p class="lyric" id="beta-words-5">they tumble blindly as they make<br>their way across the universe</p><p class="hidden-text" id="hidden-9">Sick, I bought a ticket to Tanzania and slept through the flight. I argued with a taxi driver and locked my hotel room. I looked in the mirror. God. I'm so white. My eyes are so gaunt.
+</p><p class="hidden-text" id="hidden-10">David Sir Wallace was standing asleep with his arm around me and a guitar strapped to his back when I felt a hand in my pocket. A pickpocket! I pushing the hand away. He thought I was as drunk as David and tried again. I pushed him harder. David stagger as my weight shifted. “Ce n'est pas Bastille,” he muttered from his drunken slumber.
+</p></div>
+      </div>
+      
+      
+      <!--second chorus-->
+      <div class="row">
+        <div class="col-100 three-fourths" id="jai-guru"><p class="chorus">NOTHINGS GOING TO CHANGE MY WORLD<br>NOTHINGS GOING TO CHANGE MY WORLD<br> NOTHINGS GOING TO CHANGE MY WORLD</p></div>
+      </div>
+      
+      
+      <!--charlie section ie third verse-->
+      <div class="row">
+        <div class=" col-25 quarter"></div>
+        <div class=" col-50 quarter"><p class="lyric" id="charlie-words-1">sounds of laughter, shades of life</p><p class="hidden-text" id="hidden-11">I thought my life had ended, but there I was on the back of a motorcycle, shivering in the morning cold, still dark, hills of tea, green in the predawn, rolling further than I could see. 
+</p></div>
+        <div class=" col-25 quarter" id="charlie-1"></div>
+      </div>
+      <div class="row">
+        <div class=" col-100 quarter" id="charlie-2"><p class="lyric" id="charlie-words-2">are ringing through my opened ears<br>inciting and inviting me</p><p class="hidden-text" id="hidden-12">I watched the city become material, as the plane approached for landing. I knew the spires. The Haghia Sophia! I had seen it in a painting. From this angle! Where?
+</p></div>
+      </div>
+      <div class="row">
+        <div class=" col-50 quarter"><p class="lyric" id="charlie-words-3">limitless undying love</p></div>
+        <div class=" col-50 quarter" id="undying-love"><p class="hidden-text" id="hidden-13">The calvary station above town was deserted. Only the wooden wall remained. Rain came in one cloud, through the same pass that had stocked the outpost. I was soaked in desert rain by the time I reached shelter.
+</p></div>
+      </div>
+      <div class="row">
+        <div class=" col-25 half"><p class="lyric" id="charlie-words-4">which shines around me like a million suns</p><p class="hidden-text" id="hidden-14">She was gone, but I remember climbing in bed. Are the shadows painted on the wall, I wondered. Is that rain on the roof? How far is Vashon Island? How far is Lummi Island?
+</p></div>
+        <div class=" col-50 half" id="charlie-3"><p class="lyric" id="charlie-words-5">it calls me on across the universe</p><p class="hidden-text" id="hidden-15">I sing to myself. The radio doesn't work in the car. It's been hours. Hours. The sun is warm. It was warm. I sing the same words again and again. I could be in California
+</p></div>
+        <div class=" col-25 half"></div>
+      </div>
+      
+      
+      <!--third chorus-->
+      <div class="row">
+        <div class="col-100 three-fourths" id="nothings-going-to-change"><p class="chorus">NOTHINGS GOING TO CHANGE MY WORLD<br>NOTHINGS GOING TO CHANGE MY WORLD<br> NOTHINGS GOING TO CHANGE MY WORLD</p></div>
+      </div>
+      
+      
+      
+      <!-- YOUR HTML CODE HERE -->
+      
+    </div>
+    
+    
+    <!-- DO NOT CHANGE CODES BELOW-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.lazyload.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $('div').lazyload(
+          effect: "fadeIn"
+        );
+      });
+    </script>
+  </body>
+</html>

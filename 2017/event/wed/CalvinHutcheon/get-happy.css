@@ -1,0 +1,667 @@
+div {
+  box-sizing: border-box;
+}
+
+[class*="row-"] {
+  position: relative;
+  width: 100%;
+}
+
+.row-item {
+  display: inline-block;
+  width: 33.0%;
+
+  color: blue;
+  height: 25vw;
+  position: relative;
+}
+
+
+/* header*/
+
+
+.header {
+  position: absolute;
+  width: 210px;
+  left: 7%;
+  top: 4%;
+}
+
+
+.nav{ 
+  width: auto;
+  height: 20px;
+}
+.icon {
+  top: -10px;
+  width: 40px;
+  z-index: 1;
+  position: absolute;
+  transition: opacity .5s;
+}
+
+.nav-bar {
+  text-decoration: none;
+  color: blue;
+  font-family: arial, sans-serif;
+}
+
+.nav:hover .icon {
+  opacity: 0;
+}
+
+.menu {
+  position: absolute;
+  left: 0;
+  display: hidden;
+  opacity: 0;
+  z-index: 2;
+}
+
+.menu:hover {
+  font-weight: 600;
+}
+
+.nav:hover .menu {
+  display: inline;
+}
+
+.home {
+  transition: left 0.5s, opacity 01s;
+}
+
+.nav:hover .home {
+  left: 0px;
+  opacity: 1;
+}
+
+.event {
+  transition: left .75s, opacity 1s;
+}
+
+.nav:hover .event {
+  left: 50px;
+  opacity: 1;
+}
+
+.about {
+  transition: left 1s, opacity 1s;
+}
+
+.nav:hover .about {
+  left: 100px;
+  opacity: 1;
+}
+
+.hack {
+  transition: left 1.25s, opacity 1s;
+}
+
+.nav:hover .hack {
+  left: 150px;
+  opacity: 1;
+}
+
+
+/*body*/
+
+
+.body {
+  position: relative;
+  top: 3vw;
+}
+
+.img-bed {
+  position: absolute;
+  top: 23.5%;
+  left: 20%;
+  height: 12vw;
+  width: 18vw;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  transition: background-size 2s;
+}
+.item-one {
+  background-image: url(images/ak.jpg);
+  
+}
+
+.item-two {
+  background-image: url(images/meditate.jpg);
+}
+
+.item-three {
+  background-image: url(images/chip-bag.jpg);
+}
+
+.item-four {
+  background-image: url(images/ski-mask.jpg);
+}
+
+.item-five {
+  background-image: url(images/monitor.jpg);
+}
+
+.snap-shot {
+  height: 12vw;
+  margin: auto;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 23.5%;
+  left: 20%;
+  height: 12vw;
+  width: 18vw;
+  overflow-x: hidden;
+  background: blue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, blue, deeppink); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left top, blue, deeppink); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left top, blue, deeppink); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left top, blue, deeppink); /* Standard syntax */
+  z-index: 1;
+  opacity: 0;
+  color: white;
+  font-family: 'UnifrakturCook', serif;
+  font-size: 2vw;
+  transition: opacity 1s;
+  padding: 5px;
+  padding-top: 0px;
+}
+
+
+.title {
+  position: absolute;
+  top: 37%;
+  left: 15%;
+  width: 70%;
+  font-family: arial, sans-serif;
+  font-size: 4.5vw; 
+  font-weight: 700;
+}
+
+.img-overlay:hover {
+  opacity: 0.8; 
+}
+
+.img-overlay:hover +.img-bed {
+   background-size: 300px;
+   background-position: center;
+}
+
+
+.april{
+  width: 70%;
+  margin: auto;
+  font-size: 2vw;
+  text-align: center;
+  margin-top: 25%;
+}
+
+.location {
+  width: 16vw;
+  margin: auto;
+  position: relative;
+  top: 4vw;
+  
+}
+
+.kill {
+  width: 400px;
+}
+
+.show {
+  position: absolute;
+  top: 7vw;
+  width: 400px;
+  z-index: 2;
+  opacity: 0;
+}
+
+.show:hover {
+
+  opacity: 1;
+}
+
+
+.announce {
+  position: absolute;
+  font-size: 1.8vw;
+  top: -1vw;
+  left: 1vw;
+}
+
+.sub-announce {
+  position: absolute;
+  top: 5vw;
+  left: 1vw;
+  font-family: arial, sans-serif;
+  font-size: 1.2vw;
+  font-weight: 600;
+}
+
+.more-info {
+  width: 6vw;
+  height: 2vw;
+  position: absolute;
+  right: 1vw;
+  top: 9vw;
+  background-color: none;
+  color: white;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 3px;
+  outline: 2px solid white;
+}
+
+.timing {
+  position: absolute;
+  top: 8vw;
+  left: 1vw;
+  font-family: arial, sans-serif;
+  font-size: 1vw;
+}
+
+.events-link {
+  text-decoration: none;
+  color: white;
+}
+
+.more-info:hover {
+  font-weight: 600;
+  background-color: white;
+}
+
+.more-info:hover .events-link {
+  color: blue;
+}
+
+
+/*css about the speakers*/
+
+
+.speaker-photo {
+  position: absolute;
+  top: 5vw;
+  left: 18vw;
+}
+
+.speaker-info {
+  position: absolute;
+  width: 40vw;
+  top: 5vw;
+  right: 18vw;
+}
+
+.speaker-img {
+  position: absolute;
+  width: 30vw;
+  left: 2.5vw;
+  top: 2vw;
+  
+}
+
+.speaker-overlay {
+  position: absolute;
+  width: 23.5vw;
+  height: 23.5vw;
+  overflow: hidden;
+  opacity: 0;
+  z-index: 2;
+  background-image: url(images/speakers/watermark.png);
+  background-size: contain;
+  transition: opacity 0.5s;
+}
+
+.speaker-overlay:hover {
+  opacity: 1.0;
+}
+
+.over-layed {
+  width: 300px;
+}
+
+.row-speaker {
+  position: relative;
+  height: 58vw;
+}
+
+.speaker-name {
+  position: absolute;
+  top: 2vw;
+  width: 100%;
+  height: 3vw;
+  background: blue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, blue, deeppink); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left top, blue, deeppink); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left top, blue, deeppink); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left top, blue, deeppink); /* Standard syntax */
+  color: white;
+  font-family: arial, sans-serif;
+  font-size: 2vw;
+  text-align: center;
+  padding: 3px;
+}
+
+.event-title {
+  position: absolute;
+  top: 6vw;
+  width: 100%;
+  height: 4vw;
+  background: blue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, blue, deeppink); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left top, blue, deeppink); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left top, blue, deeppink); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left top, blue, deeppink); /* Standard syntax */
+  color: white;
+  font-family: 'UnifrakturCook', serif;
+  font-size: 2.5vw;
+  padding: 3px;
+  text-align: center;
+}
+
+.about-speaker {
+  position: relative;
+  top: 14vw;
+  margin: auto;
+  width:23vw;
+  color: blue;
+}
+
+.gif-hub {
+  position: relative;
+  width: 80px;
+  margin: auto;
+  top: 25vw;
+}
+
+.little-gif {
+  height: 80px;
+}
+
+.head-shot {
+  width: 230px;
+}
+
+[class*="speaker-time"] {
+  position: absolute;
+  top: 15vw;
+  width:8vw;
+  height: 2.3vw;
+  background-color: blue;
+  padding: 3px;
+  text-align: center;
+  font-family: arial, sans-serif;
+  color: white;
+  font-size: 1.75vw;
+  font-weight: 100;
+}
+
+[class*="pink-bar"] {
+  position: relative;
+  top: 6vw;
+  width: 100%;
+  height: 25vw;
+  background-color: deeppink;
+}
+
+[class*='kill-it'] {
+  position: relative;
+  width: 40vw;
+  margin: auto;
+  top: 8vw;
+}
+
+.speaker-time-two {
+  position: absolute;
+  left: 14vw;
+  top: 15vw;
+  width:8vw;
+  height: 2.3vw;
+  z-index: 3;
+  color: deeppink;
+  background-color: white;
+}
+
+.hackathon-info {
+  position: relative; 
+  width: 20vw;
+  top: 20vw; 
+  margin: auto;
+  text-align: center;
+  color: deeppink;
+}
+
+.register-happening {
+  position: relative;
+  top: 25vw;
+}
+
+.row-five {
+  position: relative;
+  top: 8vw;
+}
+
+.kill-capitalism {
+  text-decoration: none;
+}
+
+/* manifesto page*/
+
+
+.pink-bar-two {
+  position: relative;
+  top: 13vw;
+  /*
+  background: blue; 
+    background: -webkit-linear-gradient(left top, blue, deeppink); 
+    background: -o-linear-gradient(left top, blue, deeppink); 
+    background: -moz-linear-gradient(left top, blue, deeppink); 
+    background: linear-gradient(left top, blue, deeppink); 
+  */
+  
+  background: none;
+}
+
+
+.hackathon {
+  position: relative;
+  top: 9vw;
+  width: 12vw;
+  margin: auto;
+  font-family: arial, sans-serif;
+  color: white;
+  font-size: 1.5vw;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hack-paragraph {
+  position: relative;
+  top: 16vw;
+  width: 28vw;
+  margin: auto;
+  color: deeppink;
+  text-align: center;
+}
+
+[class*="register"] {
+  width: 120px;
+  height: 30px;
+  margin: auto;
+  outline: 2px solid deeppink;
+  color: deeppink;
+  font-family: arial, sans-serif;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.register {
+  position: relative;
+  top: 5vw;
+  clear: all;
+}
+
+[class*="register"]:hover {
+  background-color: deeppink;
+  color: white;
+}
+
+.row-hack {
+  height: 55vw;
+}
+
+[class*="kill-it"] {
+  position: relative;
+  left: 4vw;
+}
+
+/*css for footer*/
+
+
+.media-icn {
+  widows: 100%;
+  height: 7vw;
+  background-color: blue;
+  position: relative;
+}
+
+.row-four {
+  height: 60vw;
+}
+
+
+.icn {
+  width: 70px;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+}
+
+.money {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 0px;
+  padding: 10px;
+  font-family: arial, sans-serif;
+  font-size: 1.75vw;
+  text-align: center;
+  color: white;
+  background-color: blue;
+  z-index: 1;
+  opacity: 0;
+}
+
+.bottom-icn {
+  z-index: 2;
+}
+
+.money:hover {
+  opacity: 1;
+}
+
+.no-link {
+  text-decoration: none;
+  color: white;
+}
+
+.little-pic {
+  width: 35px;
+}
+
+.social-rap {
+  width: 230px;
+  position: absolute;
+  right: 3vw;
+  top: 2vw;
+}
+
+/*no page*/
+
+.no {
+  width: 20px;
+  margin: auto;
+  position: relative;
+  top: 10vw;
+}
+
+.nice-try {
+  width: 20px;
+  margin: auto;
+  position: relative;
+  top: 10vw;
+}
+
+.hack-footer {
+  position: relative;
+  top: 20vw;
+}
+
+.about-footer {
+  position: relative;
+  bottom: -25vw;
+}
+
+/*about page*/
+
+.manifesto {
+  width:45vw;
+  margin: auto;
+  position: relative;
+  top: 10vw;
+  color: blue;
+}
+
+.manifesto-pic {
+  margin-right: 2vw;
+  margin-bottom: 1.7vw;
+  width: 20vw;
+}
+
+.manifest {
+  width: 18vw;
+}
+
+.manifesto-body {
+  z-index: 1;
+  text-align: center;
+}
+
+
+.under-star {
+  position: absolute;
+  top: -2vw;
+  left: -10vw;
+  z-index: -1;
+  transform: rotate(0.15turn);
+}
+
+.pink-star {
+  width: 18vw;
+}
+
+.see-lineup {
+  width: 120px;
+  height: 30px;
+  margin: auto;
+  outline: 2px solid blue;
+  color: blue;
+  font-family: arial, sans-serif;
+  text-align: center;
+  padding-top: 5px;
+  position: relative;
+  top: 8vw;
+  
+}
+
+.see-lineup:hover {
+  background-color: blue;
+  color: white;
+}
+
+.see-lineup-link {
+  text-decoration: none;
+}

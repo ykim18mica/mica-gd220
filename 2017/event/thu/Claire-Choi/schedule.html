@@ -1,0 +1,457 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Fashion Magazine Cover Design Festival</title>
+	  <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="speakers.html">
+    <link rel="stylesheet" href="schedule.html">
+    <link rel="stylesheet" href="information.html">
+    <link rel="stylesheet" href="index.html">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	
+	<style>
+		
+		body,html {
+			background-color: gainsboro;
+			font-family: 'Montserrat', sans serif;
+		}
+		.grid-container {
+			overflow-y: hidden;
+			overflow-x: hidden;
+		}
+		
+		.white {
+			background-color: white;
+			height: 2830px
+		}
+		
+		/* heights */
+
+		.h-310 {
+			height: 310px;
+		}
+
+
+
+
+		ul.nav {
+			width: 100%;	
+		}
+		ul.nav li {
+			display: inline-block;
+		}
+		ul.nav li a {
+			position: relative;
+			text-decoration: none;
+			text-transform: uppercase;
+			display: block;
+			color: black;
+			top: 35px;
+			padding-left: 20px;
+			left: 35px;
+		}
+		ul.nav li a:hover {
+			color: gainsboro;
+		}
+		@keyframes animateText {
+  			0% {left: 20%; opacity: 0}
+  			50% {opacity:1}
+  			80% {left: 0.5%;}
+  			100% {left: -8%;}
+			}
+		
+		/* title */
+		
+		.title {
+			position: relative;
+			font-size: 40px;
+			top: 150px;
+			left: 100px;
+			font-weight: bold;
+			animation: animateText 3s alternate;
+		}
+		
+		
+		
+		/* vogue */
+
+		.img-8 {
+			position: relative;
+			top: 140px;
+		}
+		
+		.box-1 {
+			position: relative;
+			background-color: black;
+			width: 400px;
+			height: 466px;
+			left: 800px;
+			bottom: 320px;
+		}
+		
+		.in-box-1 {
+			position: relative;
+			width: 1200px;
+			height: 466px;
+			border: 3px solid black;	
+		  float: right;
+			bottom: 785px;
+		}
+		
+		.year-1 {
+			position: relative;
+			color: white;
+			font-size: 17px;
+			bottom: 1220px;
+			font-weight: bold;
+			left: 830px;
+		}
+		.day-1 {
+			position: relative;
+			color: white;
+			font-size: 17px;
+			font-weight: bold;
+			bottom: 1215px;
+			left: 830px;
+		}
+		.talks-1 {
+			position: relative;
+			color: white;
+			font-size: 36px;
+			font-weight: bold;
+			line-height: 42px;
+			bottom: 1175px;
+			left: 830px;
+		}
+		.editor-1 {
+			position: relative;
+			color: white;
+			font-size: 24px;
+			font-style: italic;
+			line-height: 30px;
+			bottom: 1145px;
+			left: 830px;
+		}
+		.free-1 {
+			position: relative;
+			color: white;
+			font-size: 24px;
+			font-weight: 900;
+			line-height: 30px;
+			bottom: 1105px;
+			left: 830px;
+		}
+		.address-1 {
+			position: relative;
+			color: white;
+			font-size: 14px;
+			font-weight: 900;
+			line-height: 20px;
+			bottom: 1070px;
+			left: 830px;	
+		}
+		
+		/* instyle */
+
+		.img-9 {
+			position: relative;
+			bottom: 600px;
+			left: 370px;
+			z-index: 3;
+		}
+		.box-2 {
+			position: relative;
+			width: 1200px;
+			height: 466px;
+			background-color: black;
+			bottom:1050px;
+		}
+		.box-2-2 {
+			position: relative;
+			width: 830px;
+			height: 460px;
+			border: 3px solid white;
+			left: 367px;
+			top: 3px;
+			z-index: 1;
+		}
+		
+		.day-2 {
+			position: relative;
+			color: white;
+			font-size: 17px;
+			font-weight: bold;
+			line-height: 24px;
+			bottom: 435px;
+			left: 30px;
+		}
+		.talks-2 {
+			position: relative;
+			color: white;
+			font-size: 36px;
+			font-weight: bold;
+			line-height: 42px;
+			bottom: 390px;
+			left: 30px;
+		}
+		.editor-2 {
+			position: relative;
+			color:white;
+			font-size: 24px;
+			font-style: italic;
+			line-height: 30px;
+			bottom: 350px;
+			left: 30px;
+		}
+		.free-2 {
+			position: relative;
+			color: white;
+			font-size: 24px;
+			font-weight: 900;
+			bottom: 320px;
+			left: 30px;
+		}
+		.address-2 {
+			position: relative;
+			color: white;
+			font-size: 14px;
+			font-weight: 900;
+			line-height: 20px;
+			bottom: 295px;
+			left: 30px;
+		}
+		
+		
+		/* elle */
+		.blank {
+			position: relative;
+			background-color: white;
+			bottom: 159px;
+		}
+		.blank-1 {
+			position: relative;
+			background-color: white;
+			width: 1200px;
+			height: 235px;
+			bottom: 1162px;
+			float: right;
+		}
+		.blank-2 {
+			position: relative;
+			bottom: 1162px;
+			width: 814px;
+			height: 22px;
+			background-color: white;
+			right: 800px;
+		}
+		.inside {
+			position: absolute;
+			top: 2250px;
+			width: 1200px;
+			height: 468px;
+			border: 3px solid black;
+			right: 0px;
+		}
+		.box-3 {
+			position: relative;
+			background-color: black;
+			width: 400px;
+			height: 466px;
+			left: 800px;
+			top: px;
+		}
+		.img-10 {
+			position: relative;
+			bottom: 600px;
+		}
+		.year-3 {
+			position: relative;
+			color: white;
+			font-size: 17px;
+			font-weight: bold;
+			line-height: 24px;
+			bottom: 435px;
+			left: 830px;
+		}
+		.talks-3 {
+			position: relative;
+			color: white;
+			font-size: 36px;
+			font-weight: bold;
+			line-height: 42px;
+			bottom: 385px;
+			left: 830px;
+		}
+		.editor-3 {
+			position: relative;
+			color: white;
+			font-size: 24px;
+			font-style: italic;
+			line-height: 30px;
+			bottom: 360px;
+			left: 830px;
+		}
+		.free-3 {
+			position: relative;
+			color: white;
+			font-size: 24px;
+			font-weight: 900;
+			bottom: 330px;
+			left: 830px;
+		}
+		.address-3 {
+			position: relative;
+			color: white;
+			font-size: 14px;
+			font-weight: 900;
+			line-height: 20px;
+			bottom: 300px;
+			left: 830px;
+		}
+		
+		/* footenote */
+		.footnote {
+			position: relative;
+			font-size: 12px;
+			font-weight: bold;
+			bottom: 1260px;
+		}
+		.one {
+			position: relative;
+			font-size: 12px;
+			font-weight: bold;
+			top: 750px;
+			left: 226px;
+		}
+		.one:hover {
+			color: gainsboro
+		}
+		.two {
+			position: relative;
+			font-size: 12px;
+			font-weight: bold;
+			top: 738px;
+			left: 335px;
+		}
+		.two:hover {
+			color: gainsboro
+		}
+		.three {
+			position: relative;
+			font-size: 12px;
+			font-weight: bold;
+			top: 726px;
+			left: 428px;
+		}
+		.three:hover {
+			color: gainsboro
+		}
+		.four {
+			position: relative;
+			font-size: 12px;
+			font-weight: bold;
+			top: 714px;
+			left: 590px;
+		}
+		.five {
+			position: relative;
+			font-size: 12px;
+			font-weight: bold;
+			top: 702px;
+			left: 720px;
+		}
+		.five:hover {
+			color: gainsboro
+		}
+		.four:hover {
+			color: gainsboro
+		}
+		.six {
+			position: relative;
+			font-size: 12px;
+			font-weight: bold;
+			top: 690px;
+			left: 854px;
+		}
+		.six:hover {
+			color: gainsboro
+		}
+		.case {
+			position: relative;
+			top: 266px;
+		}
+		
+	</style>
+</head>
+<body>
+
+	<div class="grid-container">
+  
+   <div class="row top white">
+   	<ul class="nav">
+  		<li class="home"><a href="index.html">HOME</a></li>
+  		<li class="information"><a href="information.html">INFORMATION</a></li>
+			<li class="schedule"><a href="schedule.html">SCHEDULE</a></li>
+			<li class="speakers"><a href="speakers.html">SPEAKERS</a></li>
+			</ul>
+			 
+		<div class="white col-12 h-310">
+			<div class="title">SCHEDULE AND TICKETS</div>
+
+		</div>
+		
+		
+  	
+  	 <img class="img-8" src="images/img-8.jpg">
+    	<div class="box-1"></div>
+    	<div class="in-box-1"></div>
+    	<div class="year-1">2017</div>
+    	<div class="day-1">May 01 ( 5pm )</div>
+    	<div class="talks-1">ANNA WINTOUR<br>TALKS</div>
+    	<div class="editor-1">Vogue Magazine<br>Editor in Cheif</div>
+    	<div class="free-1">For FREE</div>
+    	<div class="address-1">Saatchi &amp; Saatchi<br>New York City, New Yor<br>United States</div>
+    	
+		
+  	
+   	<div class="row-about-instyle">
+    	
+				<img class="img-9" src="images/img-9.jpg">
+   				<div class="box-2">
+   				<div class="box-2-2"></div>
+   				<div class="day-2">2017<br>May 01 ( 7pm )</div>
+   				<div class="talks-2">LAURA BROWN<br>TALKS</div>
+   				<div class="editor-2">Instyle Magazine<br>Editor in Cheif</div>
+   				<div class="free-2">For Free</div>
+   				<div class="address-2">Saatchi &amp; Saatchi<br>New York City, New Yor<br>United States</div>
+   				</div> 
+  				
+  	</div>
+			
+				<img class="img-10" src="images/img-10.jpg">
+				<div class="inside">
+				<div class="box-3"></div>
+					<div class="year-3">2017<br>May 01 ( 9am )</div>
+					<div class="talks-3">ROBERTA-<br>MYERS TALKS</div>
+					<div class="editor-3">Elle Magazine<br>Editor in Cheif</div>
+					<div class="free-3">For Free</div>
+					<div class="address-3">Saatchi &amp; Saatchi<br>New York City, New Yor<br>United States</div>
+				</div>
+					<div class="footnote">
+   					<div class="one">CONTACT US</div>
+					<div class="two">SUBSCRIBE</div>		
+					<div class="three">EVENTS &amp; PROMOTION</div>
+					<div class="four">DIGITAL EDITION</div>
+					<div class="five">ABOUT OUR ADS</div>
+					<div class="six">CUSTOMER SERVICE</div>
+   					
+				</div>
+			</div>	
+			
+		
+	</div>
+</body>
+</html>
+	

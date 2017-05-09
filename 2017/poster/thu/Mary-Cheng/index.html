@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>LI YU</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700" rel="stylesheet">
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+   <link href="https://fonts.googleapis.com/css?family=Playball|VT323" rel="stylesheet">
+		
+    <style>
+			
+			.container {
+				width: 1200px;
+				height: 2000px;
+				margin: 0 auto;
+			}
+			.h-200{
+				height: 200px;
+			}
+			.h-300{
+				height: 300px;
+			}
+			.h-400{
+				height: 400px;
+			}
+			.h-600{
+				height: 600px;
+			}
+			.img-1{
+				background-image: url(images/GD2_Filmaker-copy_01.jpg);
+				background-size: cover;
+				
+			}
+			.img-2{
+				background-image: url(images/GD2_Filmaker-copy_02.jpg);
+				background-size: cover;
+				
+			}
+			/* animation for elephant*/
+			.elephant{
+				z-index: 1;
+				position: absolute;
+				top: 310px;
+				left: 650px;
+				opacity: 0;
+			}
+			.circle-3:hover + .elephant{
+				animation: fadeInOut 1s forwards;
+			}
+			@keyframes fadeInOut {
+        0%   { opacity: 0; }
+        
+        100% { opacity: 1; }
+      }
+			
+			/* animaition for fishes*/
+			.fish-1{
+				z-index: 3;
+				position: absolute;
+				top: 400px;
+				left: 740px;
+				opacity: 1;
+				animation: move1 3s infinite linear;
+			}
+			
+			@keyframes move1 {
+				0% { left: 740px; 
+				     top: 400px;}
+				25% { left: 795px;
+				      top: 350px;}
+				50% { left: 750px;
+				      top: 310;}
+				75% { left: 670px;
+				      top: 330px;}
+				100% {left: 740px;
+					    top: 400px;}
+			}
+			.fish-2{
+				z-index: 3;
+				position: absolute;
+				top: 350px;
+				left: 795px;
+				opacity: 1;
+				animation: move2 3s infinite linear;
+			}
+			@keyframes move2 {
+				0% { left: 795px; 
+				     top: 350px;}
+				25% { left: 750px;
+				      top: 310px;}
+				50% { left: 670px;
+				      top: 330;}
+				75% { left: 740px;
+				      top: 400px;}
+				100% {left: 795px;
+					    top: 350px;}
+			}
+			.fish-3{
+				z-index: 3;
+				position: absolute;
+				top: 310px;
+				left: 750px;
+				opacity: 1;
+				animation: move3 3s infinite linear;
+			}
+			@keyframes move3 {
+				0% { left: 795px; 
+				     top: 310px;}
+				25% { left: 670px;
+				      top: 330px;}
+				50% { left: 740px;
+				      top: 400;}
+				75% { left: 795px;
+				      top: 350px;}
+				100% {left: 795px;
+					    top: 310px;}
+			}
+			.fish-4{
+				z-index: 3;
+				position: absolute;
+				top: 330px;
+				left: 670px;
+				opacity: 1;
+				animation: move4 3s infinite linear;
+			}
+			@keyframes move4 {
+				0% { left: 670px; 
+				     top: 330px;}
+				25% { left: 740px;
+				      top: 400px;}
+				50% { left: 795px;
+				      top: 350;}
+				75% { left: 750px;
+				      top: 310px;}
+				100% {left: 670px;
+					    top: 330px;}
+			}
+			
+			.img-3{
+				background-image: url(images/GD2_Filmaker-copy_03.jpg);
+				background-size: cover;
+				
+			}
+			.img-4{
+				background-image: url(images/GD2_Filmaker-copy_04.jpg);
+				background-size: cover;
+				
+			}
+			.img-5{
+				background-image: url(images/GD2_Filmaker-copy_05.jpg);
+				background-size: cover;
+				
+			}
+			.img-6{
+				background-image: url(images/GD2_Filmaker-copy_06.jpg);
+				background-size: cover;
+				
+			}
+			/*images*/
+			
+			.box{
+				z-index: 2;
+        position: fixed;
+				border: 1px solid rgb(152,129,187);
+				width: 1000px;
+				height: 0px;
+				top: 100px;
+				left: 100px;
+				}
+			.title-1{
+				z-index: 2;
+				position: fixed;
+				height: 200px;
+				font-family: 'Roboto', sans-serif;
+				font-size: 30px;
+				color: rgb(158,134,156); 
+				top: 40px;
+				left: 600px;
+				}
+			.title-2{
+				z-index: 2;
+				position: fixed;
+				height: 200px;
+				font-family: 'Playball', cursive;
+				font-size: 25px;
+				font-weight: 100;
+				color: white; 
+				top: 73px;
+				left: 500px;
+				}
+			.title-3{
+				z-index: 2;
+				position: fixed;
+				height: 200px;
+				font-size: 30px;
+				font-weight: 300;
+				color: rgb(158,134,156); 
+				top: 105px;
+				left: 603px;
+				}
+			.date-1{
+				z-index: 2;
+				position: fixed;
+				height: 300px;
+				font-style: italic;
+				font-family: 'Roboto', sans-serif;
+				font-size: 38px;
+				font-weight: 300;
+				color: rgb(206, 194, 206); 
+				top: 100px;
+				left: 930px;
+				transform: rotate(90deg);
+			}
+			.date-2{
+				z-index: 2;
+				position: fixed;
+				height: 300px;
+				font-style: italic;
+				font-family: 'Roboto', sans-serif;
+				font-size: 15px;
+				font-weight: 300;
+				color: rgb(206, 150, 206); 
+				top: 100px;
+				left: 910px;
+				transform: rotate(90deg);
+			}
+			.address-1{
+				width: 400px;
+				z-index: 2;
+				position: fixed;
+				height: 300px;
+				font-style: italic;
+				font-family: 'Roboto', sans-serif;
+				font-size: 36px;
+				font-weight: 300;
+				color: rgb(206, 194, 206); 
+				top: 300px;
+				left: 2px; 
+				transform: rotate(270deg);
+			}
+			.address-2{
+				width: 400px;
+				z-index: 2;
+				position: fixed;
+				height: 300px;
+				font-style: italic;
+				font-family: 'Roboto', sans-serif;
+				font-size: 15px;
+				font-weight: 300;
+				color: rgb(206, 150, 206); 
+				top: 250px;
+				left: 37px;
+				transform: rotate(270deg);
+			}
+			.web{
+				z-index: 2;
+				position: absolute;
+				font-family: 'Roboto', sans-serif;
+				font-size: 12px;
+				color: white; 
+				top: 1950px;
+				left: 600px;
+			}
+			.circle-1:before {
+        content: ' \25CF';
+        font-size: 20px;
+				top: 1947px;
+				left: 580px;
+			  color: rgb(206,163,206);
+				position: absolute;
+				
+      }
+			.circle-2:before {
+        content: ' \25CF';
+        font-size: 20px;
+				top: 1947px;
+				left: 730px;
+			  color: rgb(206,163,206);
+				position: absolute;
+				
+      }
+			.circle-3:before {
+        content: ' \25CF';
+        font-size: 30px;
+				top: 426px;
+				left: 575px;
+			  color: rgb(206,163,206);
+				position: absolute;
+				
+      }
+			.circle-4:before {
+        content: ' \25CF';
+        font-size: 30px;
+				top: 780px;
+				left: 240px;
+			  color: rgb(206,163,206);
+				position: absolute;
+				
+      }
+			.circle-5:before {
+        content: ' \25CF';
+        font-size: 30px;
+				top: 1030px;
+				left: 420px;
+			  color: rgb(206,163,206);
+				position: absolute;
+				
+      }
+			.circle-6:before {
+        content: ' \25CF';
+        font-size: 30px;
+				top: 1243px;
+				left: 817px;
+			  color: rgb(206,163,206);
+				position: absolute;
+				
+      }
+			.circle-7:before {
+        content: ' \25CF';
+        font-size: 30px;
+				top: 1670px;
+				left: 315px;
+			  color: rgb(206,163,206);
+				position: absolute;
+				
+      }
+			.day1{
+				z-index: 2;
+				position: fixed;
+				font-family: 'Roboto', sans-serif;
+				font-size: 13px;
+				color: white; 
+				top: 434px;
+				left: 600px;
+				position: absolute;
+			}
+			.time1{
+				z-index: 2;
+				position: fixed;
+				font-weight: 300;
+				font-family: 'Roboto', sans-serif;
+				font-size: 13px;
+				color: rgb(206,163,206);
+				top: 455px;
+				left: 600px;
+				position: absolute;
+			}
+			
+			.name1{
+				z-index: 2;
+				position: fixed;
+				font-weight: 300;
+				font-family: 'VT323', monospace;
+				font-size: 30px;
+				color: rgb(206,163,206);
+				top: 460px;
+				left: 645px;
+				position: absolute;
+			}
+			.day2{
+				z-index: 2;
+				position: fixed;
+				font-family: 'Roboto', sans-serif;
+				font-size: 13px;
+				color: white; 
+				top: 789px;
+				left: 264px;
+				position: absolute;
+			}
+			
+			.time2{
+				z-index: 2;
+				position: fixed;
+				font-weight: 300;
+				font-family: 'Roboto', sans-serif;
+				font-size: 13px;
+				color: rgb(206,163,206);
+				top: 810px;
+				left: 264px;
+				position: absolute;
+			}
+
+      .name2{
+				z-index: 2;
+				position: fixed;
+				font-weight: 300;
+				font-family: 'VT323', monospace;
+				font-size: 30px;
+				color: rgb(206,163,206);
+				top: 820px;
+				left: 320px;
+				position: absolute;
+			}
+			/*animation for beijing*/
+			.beijing{
+				z-index: 2;
+				position: absolute;
+				top: 670px;
+				left: 310px;
+				opacity: 0;
+				
+			}
+			.circle-4:hover + .beijing{
+				animation: fadeInOut 1s forwards;
+			}
+			@keyframes fadeInOut {
+        0%   { opacity: 0; }
+        
+        100% { opacity: 1; }
+      }
+			
+			/*animation for building*/
+			.b1{
+				position: absolute;
+				left: 312px;
+				top: 759px;
+				animation: m1 2s infinite;
+				}
+			.b2{
+				position: absolute;
+				left: 331px;
+				top: 720px;
+				animation: m1 2s infinite;
+				animation-delay: 0.2s;
+			}
+			.b3{
+				position: absolute;
+				left: 360px;
+				top: 660px;
+				animation: m2 2s infinite;
+				animation-delay: 0.2s;
+			}
+			.b4{
+				position: absolute;
+				left: 383px;
+				top: 735px;
+				animation: m1 2s infinite;
+				animation-delay: 0.4s;
+			}
+			.b5{
+				position: absolute;
+				left: 403px;
+				top: 700px;
+				animation: m1 2s infinite;
+				animation-delay: 0.6s;
+			}
+			.b6{
+				position: absolute;
+				left: 424px;
+				top: 750px;
+				animation: m1 2s infinite;
+				animation-delay: 0.1s;
+			}
+			.b7{
+				position: absolute;
+				left: 445px;
+				top: 630px;
+				animation: m2 2s infinite;
+				animation-delay: 0.8s;
+			}
+			.b8{
+				position: absolute;
+				left: 470px;
+				top: 714px;
+				animation: m1 2s infinite;
+				animation-delay: 0.7s;
+			}
+			.b9{
+				position: absolute;
+				left: 488px;
+				top: 750px;
+				animation: m1 2s infinite;
+				animation-delay: 1s;
+			}
+			@keyframes m1 {
+       0%   { top: 759px; }
+       50%  { top: 700px; }
+       100% { top: 759px; }
+      }
+			@keyframes m2 {
+       0%   { top: 660px; }
+       50%  { top: 600px; }
+       100% { top: 660px; }
+      }
+			
+			
+			.day3{
+				z-index: 2;
+				position: fixed;
+				font-family: 'Roboto', sans-serif;
+				font-size: 13px;
+				color: white; 
+				top: 1038px;
+				left: 444px;
+				position: absolute;
+			}
+			.time3{
+				z-index: 2;
+				position: fixed;
+				font-weight: 300;
+				font-family: 'Roboto', sans-serif;
+				font-size: 13px;
+				color: rgb(206,163,206);
+				top: 1060px;
+				left: 444px;
+				position: absolute;
+			}
+			.name3{
+				z-index: 2;
+				position: fixed;
+				font-weight: 300;
+				font-family: 'VT323', monospace;
+				font-size: 30px;
+				color: rgb(206,163,206);
+				top: 1100px;
+				left: 515px;
+				position: absolute;
+			}
+			
+			/*animation for mountain*/
+			.mountain{
+				z-index: 2;
+				position: absolute;
+				top: 970px;
+				left: 500px;
+				opacity: 0;
+			}
+			.circle-5:hover + .mountain{
+				animation: fadeInOut 1s forwards;
+			}
+			@keyframes fadeInOut {
+        0%   { opacity: 0; }
+        
+        100% { opacity: 1; }
+      }
+			/*animation for moon*/
+			.moon{
+				z-index: 1;
+				position: absolute;
+				top: 905px;
+				left: 510px;
+				opacity: 1;
+			}
+			.moon {
+        animation: fadeOut 4s infinite;
+      }
+			
+			.day4{
+				z-index: 2;
+				position: fixed;
+				font-family: 'Roboto', sans-serif;
+				font-size: 13px;
+				color: white; 
+				top: 1251px;
+				left: 840px;
+				position: absolute;
+			}
+			.time4{
+				z-index: 2;
+				position: fixed;
+				font-weight: 300;
+				font-family: 'Roboto', sans-serif;
+				font-size: 13px;
+				color: rgb(206,163,206);
+				top: 1270px;
+				left: 840px;
+				position: absolute;
+			}
+		  .name4{
+				z-index: 2;
+				position: fixed;
+				font-weight: 300;
+				font-family: 'VT323', monospace;
+				font-size: 30px;
+				color: rgb(206,163,206);
+				top: 1300px;
+				left: 900px;
+				position: absolute;
+			}
+			
+			/*animation for face*/
+			
+			.face1{
+				z-index: 1;
+				position: absolute;
+				top: 1160px;
+				left: 900px;
+				opacity: 0;
+			}
+			.face2{
+				z-index: 1;
+				position: absolute;
+				top: 1160px;
+				left: 1000px;
+				opacity: 1;
+			}
+			.circle-6:hover + .face1,.face2{
+				animation: fadeInOut 1s forwards;
+			}
+			.face2 {
+        animation: moving 2s infinite;
+      }
+			
+			@keyframes fadeInOut {
+        0%   { opacity: 0; }
+        
+        100% { opacity: 1; }
+      }
+			@keyframes moving {
+        0%   { left: 1000px; }
+        50%  { left: 950px; }
+        100% { left: 1000px; }
+      }
+			.day5{
+				z-index: 2;
+				position: fixed;
+				font-family: 'Roboto', sans-serif;
+				font-size: 13px;
+				color: white; 
+				top: 1678px;
+				left: 338px;
+				position: absolute;
+			}
+			.time5{
+				z-index: 2;
+				position: fixed;
+				font-weight: 300;
+				font-family: 'Roboto', sans-serif;
+				font-size: 13px;
+				color: rgb(206,163,206);
+				top: 1699px;
+				left: 338px;
+				position: absolute;
+			}
+			.name5{
+				z-index: 2;
+				position: fixed;
+				font-weight: 300;
+				font-family: 'VT323', monospace;
+				font-size: 30px;
+				color: rgb(206,163,206);
+				top: 1690px;
+				left: 370px;
+				position: absolute;
+			}
+			/*animation for body*/
+			.body{
+				z-index: 1;
+				position: absolute;
+				top: 1528px;
+				left: 570px;
+				opacity: 0;
+			}
+			
+			.circle-7:hover + .body{
+				animation: fadeInOut 1s forwards;
+			}
+			@keyframes fadeInOut {
+        0%   { opacity: 0; }
+        
+        100% { opacity: 1; }
+      }
+			
+			/*animation for heart*/
+			.heart1{
+				z-index: 2;
+				position: absolute;
+				top: 1600px;
+				left: 450px;
+				opacity: 1;
+			}
+			.heart2{
+				z-index: 1;
+				position: absolute;
+				top: 1590px;
+				left: 440px;
+				opacity: 1;
+			}
+			.heart1 {
+        animation: fadeOut 4s infinite;
+      }
+			.heart2 {
+        animation: fadeIn 4s infinite;
+      }
+			@keyframes fadeIn {
+       0% { opacity: 0; }
+       50% { opacity: 1; }
+       100% { opacity: 0; }
+      }
+      @keyframes fadeOut {
+       0% { opacity: 1; }
+       50% { opacity: 0; }
+       100% { opacity: 1; }
+      }
+
+			
+    </style>
+  </head>
+	
+  <body>
+		<div class="grid-container">
+			<div class="row">
+				<div class="col-12 h-200 img-1">
+			    <p class="title-1">
+						LI YU
+					</p>
+					<p class="title-2">
+					  “It is time to break the silence”
+					</p>
+					<p class="title-3">
+					  李 玉
+					</p>
+					</div>
+				<div class="box"></div>
+			</div>
+			
+			<div class="row">
+			  <div class="col-12 h-400 img-2">
+			    <p class="date-1">
+					3/10 - 3/14
+					</p>
+					<p class="date-2">
+					Enjoy your movie night
+					</p>
+					<p class="address-1">
+						THE CHARLES THEATRE
+					</p>
+					<p class="address-2">
+						1711 N Charles St, Baltimore, MD 21201
+					</p>
+					<p class="day1">
+					  3/10
+					</p>
+					<p class="time1">
+					  7pm
+					</p>
+					<p class="name1">
+					FISH AND ELEPHANT
+					</p>
+				  <div class="circle-3"></div>
+					<div class="elephant"> 
+						<img src="images/Asset%201.png">
+					</div>
+					<div class="fish-1">
+					  <img src="images/Asset%202.png">
+					</div>
+					<div class="fish-2">
+					  <img src="images/Asset%204.png">
+					</div>
+					<div class="fish-3">
+					  <img src="images/Asset%205.png">
+					</div>
+					<div class="fish-4">
+					  <img src="images/Asset%206.png">
+					</div>
+							 
+			 </div>
+			</div>
+			<div class="row">
+			  <div class="col-12 h-300 img-3">
+			    <p class="day2">
+					3/11
+					</p>
+					<p class="time2">
+					7pm
+					</p>
+					<p class="name2">
+					LOST IN BEIJING
+					</p>
+					<div class="circle-4"></div>
+					<div class="beijing">
+					<img src="images/beijing.png">
+					</div>
+					<div class="building">
+					  <img class="b1" src="images/building.png">
+					  <img class="b2" src="images/b2.png">
+						<img class="b3" src="images/b2.png">
+						<img class="b4" src="images/building.png">
+						<img class="b5" src="images/b2.png">
+						<img class="b6" src="images/b2.png">
+						<img class="b7" src="images/b2.png">
+						<img class="b8" src="images/building.png">
+						<img class="b9" src="images/b2.png">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+			  <div class="col-12 h-300 img-4">
+			    <p class="day3">
+					3/12
+					</p>
+					<p class="time3">
+					7pm
+					</p>
+					<p class="name3">
+					BUDDHA MOUNTAIN
+					</p>
+					<div class="circle-5"></div>
+					<div class="mountain">
+					<img src="images/moutain.png"></div>
+				</div>
+				<div class="moon">
+				<img src="images/moon.png">
+				</div>
+				</div>
+			<div class="row">
+			  <div class="col-12 h-200 img-5">
+			    <p class="day4">
+					3/13
+					</p>
+					<p class="time4">
+					7pm
+					</p>
+					<p class="name4">
+					DOUBLE XPOSURE
+					</p>
+					<div class="circle-6"></div>
+					<div class="face1">
+					<img src="images/face1.png">
+					</div>
+					<div class="face2">
+					<img src="images/face2.png">
+					</div>
+				</div>
+		  </div>
+			
+      <div class="row">
+				<div class="circle-7"></div>
+				<div class="body">
+				<img src="images/body.png">
+				</div>
+			  <div class="heart">
+				<img class="heart1" src="images/heart1.png">
+				<img class="heart2" src="images/heart2.png">
+				</div>
+			  <div class="col-12 h-600 img-6">
+			    <p class="web">
+            http://thecharles.com/					
+					</p>
+			  </div>
+				  <p class="day5">
+					3/14
+					</p>
+					<p class="time5">
+					7pm
+					</p>
+					<p class="name5">
+					EVER SINCE WE LOVE
+					</p>
+				
+			  <span class="circle-1"></span>
+				<span class="circle-2"></span>
+				
+				
+			</div>
+		</div>
+    </body>
+</html>

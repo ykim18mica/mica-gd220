@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Design of Communication</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    
+    <style>
+			/* your css rules below */
+      body {
+        background-color: black;
+      }
+      .background {
+        background-image: url(images/background1.png);
+        height: 200px;
+        animation: spinner2 6s infinite linear;
+      }
+      .ball {
+        background-image: url(images/ball1.png);
+        height: 250px;
+        margin-top: -200px;
+        animation: shining 6s infinite;
+      }
+      .headball {
+        background-image: url(images/ball1.png);
+        height: 250px;
+        animation: spinner1 6s infinite linear;
+      }
+      .chipball {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: #c60000;
+        margin-left: 90px;
+        position: absolute;
+        animation: movingball 3s infinite;
+      }
+      .line1 {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 120px;
+        width: 2px;
+        height: 129px;
+        background-color: white;
+      }
+      .chip1 {
+        background-image: url(images/chip1.png);
+        position: absolute;
+        margin-left: 135px;
+        margin-top: 20px;
+        height: 129px;
+        width: 129px;
+      }
+      .chipwork {
+        background-image: url(images/lostworld.png);
+        width: 233px;
+        height: 310px;
+        margin-left: 320px;
+        margin-top: 20px;
+        position: absolute;
+      }
+      .worktext {
+        position: absolute;
+        color: darkgrey;
+        font-family: Gill Sans;
+        font-style: italic;
+        font-size: 10px;
+        line-height: 15px;
+        font-weight: 100;
+        margin-top: 350px;
+        margin-left: 320px;
+        width: 170px;
+      }
+      .introhead {
+        color: white;
+        font-family: Avenir;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 600px;
+      }
+      .introtext {
+        position: absolute;
+        color: darkgrey;
+        font-family: Gill Sans;
+        font-size: 13px;
+        line-height: 20px;
+        width: 300px;
+        margin-left: 600px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        font-weight: 100;
+      }
+      /* index */
+      .line2 {
+        position: fixed;
+        margin-left: 80%;
+        z-index: 999;
+        width: 2px;
+        height: 122px;
+        background-color: white;
+      }
+      .paulaball {
+        height: 18px;
+        width: 18px;
+        border-radius: 50%;
+        background-color: #ffe200;
+        margin-left: 81%;
+        position: fixed;
+      }
+      .paulaballtext {
+        position: fixed;
+        color: white;
+        font-family: Avenir;
+        font-size: 13px;
+        margin-left: 84%;
+        margin-top: 4px;
+      }
+      .stevenball {
+        height: 18px;
+        width: 18px;
+        border-radius: 50%;
+        background-color: #3bbf00;
+        margin-left: 81%;
+        margin-top: 50px;
+        position: fixed;
+      }
+      .stevenballtext {
+        position: fixed;
+        color: white;
+        font-family: Avenir;
+        font-size: 13px;
+        margin-left: 84%;
+        margin-top: 53px;
+      }
+      .homeball {
+        height: 18px;
+        width: 18px;
+        border-radius: 50%;
+        background-color: #001dff;
+        margin-left: 81%;
+        margin-top: 100px;
+        position: fixed;
+      }
+      .homeballtext {
+        position: fixed;
+        color: white;
+        font-family: Avenir;
+        font-size: 13px;
+        margin-left: 84%;
+        margin-top: 104px;
+      }
+      /* link */
+      a:link {
+        color: white; 
+        background-color: transparent; 
+        text-decoration: none;
+      }
+      a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:hover {
+        color: darkgrey;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      .root {
+        position: absolute;
+        color: grey;
+        font-family: Gill Sans;
+        font-size: 10px;
+        font-weight: 100;
+        height: 40px;
+        width: 1200px;
+        text-align: center;
+        margin-top: 670px;
+      }
+      hr {
+        width: 700px;
+        border-top: 1px solid grey;
+        border-bottom: 0px solid black;
+        margin-top: 660px;
+      }
+      /* animation*/
+      @keyframes shining {
+        0% { opacity: 1; }
+        50% { opacity: 0; }
+        100% { opacity 1; }
+      }
+      @keyframes spinner1 {
+        from { transform: rotateX(0deg); }
+        to { transform: rotateX(-360deg); }
+      }
+      @keyframes spinner2 {
+        from { transform: rotateX(-360deg); }
+        to { transform: rotateX(0deg); }
+      }
+      @keyframes movingball {
+        0% { margin-top: 20px; }
+        50% { margin-top: 130px; }
+        100% { margin-top: 20px;}
+    </style>
+  </head>
+  <body>
+    <div class="grid-container headball"></div>
+    <div class="grid-container background"></div>
+    <div class="grid-container ball"></div>
+    <div class="chipball"></div>
+    <div class="line1"></div>
+    <div class="chip1"></div>
+    <div class="chipwork"></div>
+    <div class="worktext">
+    <p>In 1995</p>
+    <p>Design for The Lost World</p>
+    <p>Michael Crichton’s name is at the top as usual. Colors are red, black, and white—the colors that have been used for the covers of several Crichton's novels. </p>
+    </div>
+    <div class="introhead">Chip Kidd</div>
+    <div class="introtext">
+      <p>Charles (Chip) Kidd (born September 12, 1964) is an American graphic designer, best known for his innovative book covers. Based in New York city, Kidd has become one of the most famous book cover designers to date.Throughout his career, Kidd has been a graphic designer, book designer, editor, author, lecturer and musician. According to Graphic Design: American Two, he has been credited with “helping to spawn a revolution in the art of America book packaging in the last ten years.” One of the most consistent characteristics of Kidd’s revolutionary style is the fact that his book covers don’t carry one signature look, as he states: “A signature look is crippling… because the simplest and effective solutions aren’t dictated by style.”</p>
+      <p>Kidd is currently the associate art director at Knopf, an imprint of Random House. He first joined the Knopf design team in 1986, when he was hired as a junior assistant. Turning out jacket designs at an average of 75 covers a year, Kidd has freelanced for Amazon, Doubleday, Farrar Straus and Giroux, Grove Press, HarperCollins, Penguin/Putnam, Scribner and Columbia University Press, in addition to his work for Knopf. Kidd also supervised graphic novels at Pantheon, and in 2003 he collaborated with Art Spiegelman on a biography of cartoonist Jack Cole, Jack Cole and Plastic Man: Forms Stretched to Their Limits.Publishers Weekly described his book jackets as “creepy, striking, sly, smart, unpredictable covers that make readers appreciate books as objects of art as well as literature.” USA Today also called him “the closest thing to a rock star” .</p>
+    </div>
+    <div class="grid-container root">©2009-2017 Design of Communication. All rights reserved.</div>
+    <div class="line2"></div>
+    <div class="paulaball"></div>
+    <div class="paulaballtext"><a href="paula.html">Paula Scher</a></div>
+    <div class="stevenball"></div>
+    <div class="stevenballtext"><a href="steven.html">Steven Heller</a></div>
+    <div class="homeball"></div>
+    <div class="homeballtext"><a href="index.html">Home</a></div>
+    <hr>
+  </body>
+</html>

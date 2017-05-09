@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Show Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100|Montserrat:100|Montserrat:200|Roboto+Slab:100 " rel="stylesheet">
+
+    <style>
+      
+      /* button */
+      
+      .button {
+        position:fixed;
+        z-index: 2;
+        top:310px;
+        left:1100px;
+        font-family: 'Roboto Slab',serif;
+        font-weight:300;
+        text-align: center;
+        font-size: 12px;
+      }
+      
+      .number {
+        margin: 30px;
+        transform: rotate(90deg);
+        color: grey;
+      }
+    
+      
+      /* speakers name class*/
+      
+      .okiname{
+        color: rgb(75,114,178);
+        position:relative;
+        top:250px;
+        left:140px;
+        }
+      
+      .name {
+        font-size: 38px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 100;
+        z-index: 2;
+      }
+      
+      .dohuname{
+        color:rgb(210,111,71);
+        position:relative;
+        top: 200px;
+        left: 120px;
+      }
+      
+      .swinename {
+        color:rgb(100,157,108);
+        position:relative;
+        top: 150px;
+        left: 180px;
+        line-height: 1.2;
+      }
+        
+      /* Text about the speaker*/
+      
+      .biotitle{
+        z-index: 2;
+        position: relative;
+        left:400px;
+        top:-250px;
+        color: rgb(75,114,178)
+      }
+      
+      .biotitle2{
+        z-index: 2;
+        position: relative;
+        left:400px;
+        top:-250px;
+        color: rgb(210,111,71);
+      }
+      
+      .biotitle3{
+        z-index: 2;
+        position: relative;
+        left:400px;
+        top:-250px;
+        color: rgb(100,157,108);
+      }
+      .spnumb {
+        font-size: 72px;
+        font-family: lato,sans-serif;
+      }
+      
+      .bio {
+        font-size: 20px;
+        font-family:Montserrat,sans-serif;
+        font-weight: 100;
+        margin-top: 15px;
+      }
+      
+      .biotext {
+        z-index: 2;
+        position: relative;
+        left:400px;
+        top:-250px;
+        font-size: 13px;
+        font-family:Montserrat,sans-serif;
+        font-weight: 200;
+        margin-top: 15px;
+        width:320px;
+        letter-spacing: 0.5px;
+        line-height: 1.3
+      }
+      
+      .more {
+        z-index: 2;
+        position: relative;
+        left:560px;
+        top:-230px;
+        font-family:Montserrat,sans-serif;
+        font-size: 12px;
+        text-decoration: underline;
+        }
+      
+      /* img */
+      
+      .speakerphoto {
+        position:relative;
+        top:120px;
+        left:60px;}
+      
+      
+    </style>
+  </head>
+  <body>
+   
+    <div class="grid-container">
+    
+    	<div class="row">
+
+    	<div class="container">
+    	<!-- page 01 oki sato--> 
+    	 <div class="col-12 oneh " id=photo1></div>
+    	
+      <!-- navigation -->
+    	  <div class="col-12 oneh menu  ">
+        <img src="picture/homepage/NavigationBar-01.png" width=1280px>
+         <ul class="homenavi">
+         <li class="Home"><a href="index.html">HOME</a></li>
+         <li class="about"><a href="About.html">ABOUT </a></li>
+         <li class="speakers"><a href="speakers.html">SPEAKER</a></li>
+         </ul>
+         <div class="circle"></div>
+         
+         <div class="blackline"></div>
+         <div class="contact">Contact us</div>
+         <div class="share">Share with friends</div>
+         <div class="facebook"><img src="picture/icon/facebook%20icon.png" width=20px></div>
+         <div class="email"><img src="picture/icon/google%20email%20icon.png" width=20px></div>
+         <div class="twitter"><img src="picture/icon/twitter%20icon.png" width=20px></div>
+         
+        </div>
+    	  
+      <!-- swich button -->
+    	  <div class="col-2 col-offset-10 sevenh menu  ">
+          <ul class="button">
+            <li class="number"><a href=#photo1>01</a></li>
+            <li class="number"><a href=#photo2>02</a></li>
+            <li class="number"><a href=#photo3>03</a></li>
+          </ul>
+        </div>	      
+    	  
+     <!-- okisato page-->
+       
+        <div class="col-2 sevenh ">
+          <heading class="okiname name">Oki Sato</heading>
+        </div>
+    	  <div class="col-8 sevenh " >
+    	   <img class="speakerphoto" src="picture/speaker/okiphoto.jpg" width=280px >
+    	   
+    	   <h1 class="spnumb biotitle">01</h1>
+    	   <div class="blueline"></div>
+    	   
+    	   <h1 class="biotitle bio">Product Designer, Architect </h1> 
+    	   <div class="blueline02"></div>
+    	   
+    	   <h1 class="biotitle bio">Japan</h1>
+    	   <div class="blueline03"></div>
+
+    	   
+    	   <!-- text--> 
+    	   <p  class="biotext">Oki Sato, born in 1977 in Toronto, Canada, studied architecture at Waseda University in Tokyo. He obtained his Master's degree in 2002. In the same year, the nendo studio was born in Tokyo. Now he has taken up the international stage, with offices in Tokyo and Milan.</p>
+         
+          <p class="more"><a href="okisato.html"> see more information</a></p> 
+    	  </div>
+    	  <div class="col-2 sevenh "></div>
+    	  
+      
+      
+      <!-- page 02 do ho --> 
+  
+        <div class="col-12 oneh " id=photo2></div>
+        <div class="col-2 sevenh ">
+          <heading class="dohuname name">Do Ho Suh</heading>
+        </div>
+        <div class="col-8 sevenh ">
+          <img class="speakerphoto" src="picture/speaker/dohophoto.jpg" width=260px>
+          <h1 class="spnumb biotitle2">02</h1>
+          <div class="orangeline"></div>
+          
+          <h1 class="biotitle2 bio">Artist, Sculptor </h1>
+           <div class="orangeline02"></div>
+           
+          <h1 class="biotitle2 bio">Korea</h1>
+           <div class="orangeline03"></div>
+          
+          <!-- text --> 
+          <p class="biotext">Suh was born in Seoul, South Korea in 1962. After earning his Bachelor of Fine Arts from Seoul National University, and fulfilling his term of mandatory service in the South Korean military, Suh relocated to the United States to continue his studies at the Rhode Island School of Design and Yale University. Suh leads an itinerant life, hopping from his family home in Seoul (where his father, Suh Se-ok is a major influence in Korean traditional painting) to his working life in New York. </p>
+          
+          <p class="more"><a href="Dohosuh.html">see more information</a></p>
+        </div>
+        
+      <!-- page 03 swine studio-->
+       
+        <div class="col-12 oneh "  id=photo3></div>
+        <div class="col-2 sevenh ">
+          <heading class="swinename name">Swine Studio</heading>
+        </div>
+        <div class="col-8 sevenh ">
+          <img class="speakerphoto" src="picture/speaker/swinephoto.png" width=280px>
+          <h1 class="spnumb biotitle3">03</h1>
+          <div class="greenline"></div>
+          
+          <h1 class="bio biotitle3">Artist, Sculptor </h1>
+          <div class="greenline02"></div>
+          
+          <h1 class="bio biotitle3">Japan, The United Kingdom</h1>
+          <div class="greenline03"></div>
+          
+          <!-- text-->
+          <p class="biotext">Studio Swine is a collaboration between Japanese Architect Azusa Murakami and British Artist Alexander Groves. Creating works that span across disciplines of art, design and film, Studio Swine explores themes of regional identity and the future of resources in the context of globalisation. Studio Swine work manifests a deep research into materials and modern industrialisation. </p>
+          
+          <p class="more"><a href="swinestudio.html"> see more information</a></p>
+          
+        </div>
+    	  
+    	  
+    	</div>
+    		
+    	</div>
+			
+    </div>
+    
+    
+  </body>
+</html>

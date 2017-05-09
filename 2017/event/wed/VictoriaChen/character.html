@@ -1,0 +1,408 @@
+<!doctype html>
+<html>
+	<head>
+	 <meta charset="utf-8">
+	 
+	 <title>character</title>
+	
+	
+<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC|Didact+Gothic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+	
+
+
+<style>
+		
+	html{background-color: black;}
+
+	.icon{
+				z-index: 4;
+				position: fixed;
+				top:40px;
+				left: 40px;
+		      }	
+	.date{
+			    color: whitesmoke;
+			    font-family:'Roboto-MediumItalic', sans-serif;
+			    z-index: 4;
+			    position: fixed;
+			    top: 120px;
+			    left: 40px;
+				font-size: 10px;
+				letter-spacing: 3px;
+			}	
+		
+	ul.nav { 
+				width: 100px;
+				position: absolute;
+		}
+					
+	ul.nav li a { 
+				text-decoration: none;
+			 	text-transform:up;
+			 	left: 0px;
+			 	top: 250px;
+			  	font-size: 12px;
+			 	position: relative;
+			  	padding: 15px;
+			  	color: aliceblue;
+			  	display: block; // for top-bottom paddings
+			  	text-align: center;
+			  	font-family: 'Roboto-Bold', sans-serif;
+			 	letter-spacing: 3px;
+			  	z-index: 3;
+				font-size: 15px;
+				width: 200px;
+				left: 60px;
+			  }
+	
+	ul.nav a:hover {border: 1px solid;
+       			box-shadow: inset 0 0 10px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+      			outline-color: rgba(255, 255, 255, 0);
+       			outline-offset: 15px;
+				text-shadow: 1px 1px 2px #427388; }
+		                 	
+		
+	.p1{
+		font-family:'VT323', monospace;
+		color: aliceblue;
+		font-size: 70px;
+		margin-left: 300px;
+		position: absolute;
+		text-decoration: overline;
+		text-shadow: 40px 5px 6px #427380;
+		z-index: 3;
+		letter-spacing: 3px;
+		top: 90px;
+	}
+	
+	.p2{
+		font-family:'VT323', monospace;
+		color: aliceblue;
+		font-size: 70px;
+		left: 300px;
+		position: absolute;
+		text-decoration: overline;
+		text-shadow: 40px 5px 6px #427380;
+		z-index: 3;
+		letter-spacing: 3px;
+		top: 710px;
+	}
+	
+	.p3{
+		font-family:'VT323', monospace;
+		color: aliceblue;
+		font-size: 70px;
+		left: 300px;
+		position: absolute;
+		text-decoration: overline;
+		text-shadow: 40px 5px 6px #427380;
+		z-index: 3;
+		letter-spacing: 3px;
+		top: 1350px;
+	}
+	
+	
+	.container1{
+		width: 300px;
+		height: 200px;
+		position: absolute;
+		z-index: 2;
+		color: aliceblue;
+		font-family: 'Maven Pro', sans-serif;
+		top: 340px;
+		left: 310px;
+	}
+	
+	.container2{
+		width: 300px;
+		height: 200px;
+		position: absolute;
+		z-index: 2;
+		color: aliceblue;
+		font-family: 'Maven Pro', sans-serif;
+		top: 1000px;
+		left: 300px;
+	}
+	
+	.container3{
+		width: 320px;
+		height: 190px;
+		position: absolute;
+		z-index: 2;
+		color: aliceblue;
+		font-family: 'Maven Pro', sans-serif;
+		top: 1600px;
+		left: 300px;
+	}
+	
+		
+	.plt{
+		position: absolute;
+		z-index: 2;
+		left: 670px;
+		width: 450px;
+		height: 350px;
+		top: 180px;
+	}
+	
+	@keyframes animate-blur {
+  0% {
+    -webkit-filter: blur(0px);
+  }
+  5% {
+    -webkit-filter: blur(0.25px);
+  }
+  10% {
+    -webkit-filter: blur(0.5px);
+  }
+  15% {
+    -webkit-filter: blur(0.75px);
+  }
+  20% {
+    -webkit-filter: blur(1px);
+  }
+  25% {
+    -webkit-filter: blur(1.25px);
+  }
+  30% {
+    -webkit-filter: blur(1.5px);
+  }
+  35% {
+    -webkit-filter: blur(1.75px);
+  }
+  40% {
+    -webkit-filter: blur(2px);
+  }
+  45% {
+    -webkit-filter: blur(2.25px);
+  }
+  50% {
+    -webkit-filter: blur(2.5px);
+  }
+  55% {
+    -webkit-filter: blur(2.25px);
+  }
+  60% {
+    -webkit-filter: blur(2px);
+  }
+  65% {
+    -webkit-filter: blur(1.75px);
+  }
+  70% {
+    -webkit-filter: blur(1.5px);
+  }
+  75% {
+    -webkit-filter: blur(1.25px);
+  }
+  80% {
+    -webkit-filter: blur(1px);
+  }
+  85% {
+    -webkit-filter: blur(0.75px);
+  }
+  90% {
+    -webkit-filter: blur(0.5px);
+  }
+  95% {
+    -webkit-filter: blur(0.25px);
+  }
+  100% {
+    -webkit-filter: blur(0px);
+  }
+}
+
+.plt {
+  animation: animate-blur 3s;
+  animation-iteration-count: infinite;
+}
+	
+	.plt2{
+		position: absolute;
+		z-index: 2;
+		left: 670px;
+		width: 450px;
+		height: 350px;
+		top: 850px;
+		}
+	
+.plt2 {
+  animation: animate-blur 3s;
+  animation-iteration-count: infinite;
+}
+	
+	.plt3{
+		position: absolute;
+		z-index: 2;
+		left: 690px;
+		width: 350px;
+		height: 350px;
+		top: 1490px;
+	}
+	
+.plt3 {
+  animation: animate-blur 3s;
+  animation-iteration-count: infinite;
+}
+	
+	.container8{
+		width: 200px;
+		height: 200px;
+		left: 100px;
+		top: 1750px;
+		color: black;
+		position: absolute;
+	}
+	
+	
+	*{
+  padding:0;
+  margin:0;
+}
+.container {
+  width: 120px;
+  height: 120px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -520px;
+  margin-top: -300px;
+  perspective: 800px;
+
+}
+
+.cube {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation-name: rotating;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform-style: preserve-3d;
+  color: aliceblue;
+}
+
+.slide {
+  position: absolute;
+  width: 118px;
+  height: 118px;
+  line-height: 118px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  
+}
+
+.slide.front {
+   transform: translate3d(0,0, 60px);
+}
+.slide.right{
+  transform: rotateY(90deg) translateZ(60px);
+}
+.slide.back{
+  transform: translate3d(0,0, -60px);
+}
+.slide.left{
+  transform: rotateY(-90deg) translate3d(0,0, 60px);
+}
+
+
+@keyframes rotating {
+  from { transform:rotateX(-34deg) rotateY(0);}
+  to { transform:rotateX(-34deg) rotateY(360deg);}
+}
+
+
+		
+
+		
+		
+		
+		</style>
+		
+	</head>
+		
+	
+<body>
+
+<div class="icon">
+	<a href="index.html"><img src="images/1.png">
+</div>
+
+<div class="date">
+	<p>06.17.2017</p> 
+</div>
+	
+	<ul class="nav link">
+	 <li class="c1"><a href="character.html">character</a></li>
+	 <li class="c2"><a href="lecure.html">the lecture</a></li>
+	 <li class="c3"><a href="contact.html">contact us</a></li>
+		</ul>
+			
+	<div class="p1">
+		<p>Melchior <br>
+		   <br>
+           Imboden</p>
+	</div>
+	<div class="p2">
+		<p>Stephan<br>
+		   <br> 
+		   Bundi</p>
+	</div>
+	<div class="p3">
+		<p>Andrew<br>
+		   <br> 
+		   Lewis</p>
+	</div>
+	
+	<img src="images/p1.jpg" alt="" class="plt"/> 
+	<img src="images/p2.jpg" alt="" class="plt2"/> 
+	<img src="images/p3.jpeg" alt="" class="plt3"/> 
+
+	
+	
+	<div class="container1">
+		<p>Melchior Imboden was born in Stans, Switzerland, in 1956. He lives and works in Buochs in Central Switzerland. In 1972 Melchior Imboden began his studies as an interior designer and worked in this profession subsequent to the completion of his studies until 1984. It was during this period that he discovered his interest in design and typography. In 1980 his first photographic works were created during his travels throughout the Mediterranean.</p> 
+		<br>
+		<hr>
+	</div>
+	
+	<div class="container2">
+		<p>Stephan Bundi is a graduate of the Bern School of Design (University of the Arts). He later studied book design and illustration at the State Academy of Art and Design in Stuttgart before going into business for himself.</p>
+		<br>
+		<hr>
+	</div>
+	
+	<div class="container3">
+		<p>Andrew Lewis, is an internationally recognized Canadian art director-designer acknowledged for award-winning corporate identities, branding, packaging, poster art and multimedia applications. A wide-ranging portfolio of prestigious clients includes such well known companies as Canada Post, the Royal Canadian Mint, Scotiabank, Perrier, Starbucks Coffee, the Converse, and VISA.</p>
+		<br>
+		<hr>
+	</div>
+	
+<div class="container">
+  <div class="cube">
+    <div class="slide front">the</div>
+    <div class="slide right">power</div>
+    <div class="slide back">of</div>
+    <div class="slide left">poster</div>
+ </div>
+</div>
+	
+	
+	<div class="container8">
+		<p>hello</p>
+	</div>
+	
+</body>
+
+
+</html>
+
+
+
+
+	

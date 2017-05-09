@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TSUI HACK</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa:300" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+
+    
+    <style>
+			.test{
+			 border-style: none;
+			}
+			.name {
+				position: relative;
+				left: 400px;
+				top: 100px;
+				height: 90px;
+				font-family:PT sans, sans-serif;
+				font-size: 100px;
+				animation: fadeout 7s linear infinite, colorchanging 3s linear infinite;
+			}
+			.line{
+				position: relative;
+				left: -10px;
+				top: -40px;
+				height: 50%;
+				animation: fadein 7s linear infinite;
+			}
+			@keyframes fadeout{
+				0% { opacity: 0px;}
+				50% { opacity: 1px;}
+				100% { opacity: 0px;}
+			}
+			@keyframes fadein{
+				0% { opacity: 1px;}
+				50% { opacity: 0px;}
+				100% { opacity: 1px;}
+			}
+			@keyframes colorchanging{
+				0% { color: plum;}
+				25% { color: coral;}
+				50% { color: peachpuff;}
+				75% { color: lightblue;}
+				100% { color: lightcoral;}
+			}
+			.location {
+				position: relative;
+				font-family: Monaco, monospace;
+				font-size: 12px;
+				height: 30px;
+				left: 610px;
+				top:60px;
+			}
+			.number1  {
+				height: 40px;
+				position: relative;
+				font-family: Lithos Pro, cursive;
+				font-size: 40px;
+				top: 350px;
+				left: 10px;
+				color: lightcoral;
+			}
+			.number2{
+				height: 40px;
+				position: relative;
+				font-family: Lithos Pro, cursive;
+				font-size: 40px;
+				top: 680px;
+				left: 50px;
+				color: thistle;
+			}
+			.number3{
+				height: 40px;
+				position: relative;
+				font-family: Lithos Pro, cursive;
+				font-size: 40px;
+				top: 1105px;
+				left:90px;
+				color: skyblue;
+			}
+			.number4{
+				height: 40px;
+				position: relative;
+				font-family: Lithos Pro, cursive;
+				font-size: 40px;
+				top: 1450px;
+				color:yellow;
+			}
+			.number5{
+				height: 40px;
+				position: relative;
+				font-family: Lithos Pro, cursive;
+				font-size: 40px;
+				top: 1750px;
+				left: 5px;
+				color: brown;
+			}
+			.film1{
+				position: relative;
+				font-family: PT sans, sans-serif;
+				font-size: 35px;
+				top:175px;
+				left: 125px;
+			}
+			.line1{
+				position: relative;
+				width: 60%;
+				height: 60%;
+				left: -132px;
+				top: -30px;
+			}
+			.liangzhu{
+				position: relative;
+				width: 20%;
+				height: 20%;
+				left: -385px;
+			}
+			.date{
+				position: relative;
+				font-family: PT sans, sans-serif;
+				font-size: 20px;
+				top: 100px;
+				left: -50px;
+				color: lightslategray;
+			}
+			.lover{
+				position: relative;
+				width: 50%;
+				height: 50%;
+				top: 200px;
+				left: -200px;
+        animation: slide1 3s linear infinite;
+			}
+			@keyframes slide1{
+				0%{
+					top: 200px;
+					left: -200px;
+				}
+				25%{
+					top: 20px;
+					left: -100px;
+				}
+				50%{
+					top: 50px;
+					left: 400px;
+				}
+				75%{
+					top: 400px;
+					left: 200px;
+				}
+				100%{
+					top: 200px;
+					left: -200px;
+				}
+			}
+			.film2{
+				position: relative;
+				font-family: PT sans, sans-serif;
+				font-size: 25px;
+				top: 640px;
+				left: -230px;
+			}
+			.line2{
+				position: relative;
+				width:80%;
+				height:80%;
+				top: -280px;
+				left: -138px;
+			}
+			.kingdom{
+				position: relative;
+				width: 30%;
+				height: 30%;
+				top: -300px;
+				left: -105px;
+			}
+			.dee{
+				position: relative;
+				width: 50%;
+				height: 50%;
+				top: 30px;
+				left: 100px;
+				animation: fadeout 5s linear infinite;
+			}
+			.date2{
+				position: relative;
+				font-family: PT sans, sans-serif;
+				font-size: 20px;
+				top: -350px;
+				left: 400px;
+				color: lightslategray;
+			}
+			@keyframes fadeout{
+				0%{
+					opacity: 1;
+				}
+				50%{
+					opacity:0.5;
+				}
+				100&{
+					opacity: 1;
+				}
+			}
+			.film3{
+				position: relative;
+				font-family: PT sans, sans-serif;
+				font-size: 30px;
+				top: 465px;
+				left: 405px;
+			}
+			.line3{
+				position: relative;
+				width: 80%;
+				height: 80%;
+				top: -190px;
+				left: -157px;
+			}
+			.qijian{
+				position:relative;
+				width: 20%;
+				height: 20%;
+				top: -220px;
+				left: -76px;
+			}
+			.mountain{
+				position: relative;
+				width: 50%;
+				height: 50%;
+				top: 240px;
+				left: -280px;
+			}
+			.swords{
+				position: relative;
+				width: 30%;
+				height: 30%;
+				animation: slid 2s linear infinite;
+			}
+			.date3{
+				position: relative;
+				font-family: PT sans, sans-serif;
+				font-size: 20px;
+				top: -180px;
+				left: -200px;
+				color: lightslategray;
+			}
+			@keyframes slid{
+				0%{
+					top: 10px;
+					left:30px;
+				}
+				50%{
+					top: 140px;
+					left: 100px;
+				}
+				100%{
+					top: 10px;
+					left: 30px;
+				}
+			}
+			.film4{
+				position: relative;
+				font-family: PT sans, sans-serif;
+				font-size: 25px;
+				top: 880px;
+				left: -90px;
+			}
+			.line4{
+				position: relative;
+				width: 100%;
+				height: 100%;
+				top: -380px;
+				left: -129px;
+			}
+			.hushan{
+				position: relative;
+				width: 30%;
+				height: 30%;
+				top: -300px;
+				left: -80px;
+			}
+			.mountain1{
+				position: relative;
+				width: 30%;
+				height: 30%;
+				top: 250px;
+				left: -298px;
+			}
+			.hand{
+				position: relative;
+				width: 80%;
+				height: 80%;
+				left: 2px;
+				animation: rotate 2s linear infinite;
+			}
+			.date4{
+				position: relative;
+				font-family: PT sans, sans-serif;
+				font-size: 20px;
+				top: -210px;
+				left: -60px;
+				color:lightslategray;
+			}
+			@keyframes rotate{
+				0%{
+					transform:rotate(45deg);
+				}
+				50%{
+					transform:rotate(0deg);
+				}
+				100%{
+					transform:rotate(45deg);
+				}
+			}
+			.film5{
+				position: relative;
+				font-family: PT sans, sans-serif;
+				font-size: 30px;
+				top: 721px;
+				left: 640px;
+			}
+			.line5{
+				position: relative;
+				top: -380px;
+				left: -270px;
+			}
+			.longwang{
+				position: relative;
+				width: 30%;
+				height: 30%;
+				top: -420px;
+				left: -100px;
+			}
+			.dragon{
+				position: relative;
+				width: 40%;
+				height:40%;
+				top: 50px;
+				animation: slide 3s linear infinite;
+			}
+			@keyframes slide{
+				0%{
+					top: 50px;
+					left: 0px;
+				}
+				50%{
+					top: 50px;
+					left: -300px;
+				}
+				100%{
+					top: 50px;
+					left: 0px;
+				}
+			}
+			.young{
+				position: relative;
+				top: 55px;
+				animation: moveback 3s linear infinite;
+			}
+			.date5{
+				position: relative;
+				font-family:PT sans, sans-serif;
+				font-size: 20px;
+				top:  -390px;
+				left: 200px;
+				color: lightslategray;
+			}
+			@keyframes moveback{
+				0%{
+					top: 55px;
+					left: 0px;
+				}
+				50%{
+					top: 55px;
+					left: 300px;
+				}
+				100%{
+					top: 55px;
+					left: 0px;
+				}
+			}
+		
+    </style>
+  </head>
+  <body>
+    
+    <div class="grid-container">
+			
+			<div class="row">
+				<div class="col-4 name"><h1>TSUI HACK</h1>
+					<img class="line" src="images/images_03.png">
+				</div>
+				<div class="col-5 location">The Charles Theatre<br>1711 N Charles St, Baltimore,MD 21207<br>
+				<a href="http://thecharles.com/">Website:thecharles.com</a>
+				</div>
+			</div>
+		
+			
+			<div class="row">
+				<div class="col-1 number1">01</div>
+				<div class="col-1 number2">02</div>
+				<div class="col-1 number3">03</div>
+				<div class="col-1 number4">04</div>
+				<div class="col-1 number5">05</div>
+			</div>
+			
+			<div class="row">
+			  <div class="col-5 film1">The Lovers
+				<img class="lover" src="images/images_07.png">
+				<img class="line1" src="images/images_012.png">
+				<img class="liangzhu" src="images/images_011.png">
+				<div class="date">3.10 7:00pm</div>
+				</div>
+				<div class="col-7 film2">Detectives Dee and<br> The Mystery of the Phantom Flame
+				<img class="dee" src="images/images_11.png">
+				<img class="line2" src="images/images_010.png">
+				<img class="kingdom" src="images/images_21.png">
+				<div class="date2">3.11 7:00pm</div>
+				</div>
+				<div class="col-5 film3">The Seven Swords
+				<img class="mountain" src="images/images_08.png">
+				<img class="swords" src="images/images_12.png">
+				<img class="line3" src="images/images_012.png">
+				<img class="qijian" src="images/images_13.png">
+				<div class="date3">3.12 7:00pm</div>
+				</div>
+				<div class="col-5 film4">The Taking of Tiger Mountain
+				<img class="mountain1" src="images/images_08.png">
+				<img class="hand" src="images/images_22.png">
+				<img class="hushan" src="images/images_06.png">
+				<img class="line4" src="images/images_010.png">
+				<div class="date4">3.13 7:00pm</div>
+				</div>
+				<div class="col-6 film5">Young Detective Dee:Raise of The Sea Dragon
+				<img class="dragon" src="images/images_24.png">
+				<img class="young" src="images/images_04.png">
+				<img class="line5" src="images/images_012.png">
+				<img class="longwang" src="images/images_25.png">
+				<div class="date5">3.14 7:00pm</div>
+				</div>
+		</div>
+    </div>
+    
+    
+  </body>
+</html>

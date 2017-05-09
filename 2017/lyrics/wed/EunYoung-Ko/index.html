@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lifted</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Gentium+Basic:400i|Montserrat:300i|Muli:400i" rel="stylesheet">
+    <style>
+      /* YOUR CSS CODE HERE */
+
+        
+    html {
+        font-family: 'Muli', sans-serif;
+        font-weight: 900;
+        color: royalblue;
+    }
+    
+    p{
+        line-height: 1.4    
+        }    
+        
+    .lg-1 {
+         font-size:12vw;   
+    }
+    
+    .lg-2 {
+          font-size:8vw;   
+    }
+    
+    .md-1 {
+            font-size: 6vw;
+    }
+    
+    .md-2 {
+            font-size: 4vw;
+    }
+    .sm-1 {
+            font-size: 3vw; 
+    }
+        
+
+        .span-1 {
+            left:3%;
+        }
+        .span-2 { 
+            position:relative;
+            left:5%;
+        }
+        .span-3 {
+            position:relative;
+            left:15%;
+        }
+        .span-4 {
+            position:absolute;
+            left:30%;
+        }
+        .span-5 {
+            position:absolute;
+            left:38%;
+        }
+        .upside {
+            left:20%;
+            
+        }
+        
+
+    .image-top1 {
+        background-image: url(images/image-top1.png);
+        background-size: cover;
+    }
+        
+    .image-lifted-title {
+        background-image: url(images/image-lifted-title.png);
+        background-size: cover;
+    }
+        
+    .image-cl {
+        background-image: url(images/image-cl.png);
+        background-size: cover;
+    }
+    .image-birds {
+        background-image: url(images/image-birds.png);
+        background-size: cover;
+    }
+    .image-sky-down1 {
+        background-image: url(images/image-sky-down1.png);
+        background-size: cover;
+    }
+        
+    .image-sky-down-2-last {
+        background-image: url(images/image-sky-down-2-last.png);
+        background-size: cover;
+    }
+        
+      
+    </style>
+  </head>
+  <body>
+   
+    <div class="container">
+        <div class="row"> 
+          <div class="col-100 quarter image-top1">
+            </div>
+        </div>
+          
+        <div class="row"> 
+          <div class="col-100 half image-lifted-title">
+          </div>
+            
+        </div>
+            
+        <div class="row">
+          <div class="col-100 quarter image-cl">
+            </div>
+        </div>
+                
+        <div class="row">
+          <div class="col-100 full image-birds"> 
+            <p class="sm-1 top-70 span-1">
+                Hey, you, get off my cloud<br>
+                <span class="span-2">You don't know me, and you don't know my style </span><br>
+                <span class="span-3">Gettin' lifted, never comin' down</span><br>
+                <span class="span-4">Gettin' lifted</span><br>
+            </p> 
+              
+        </div>
+            
+        <div class="row">    
+          <div class="col-100 full image-sky-down1"> </div>
+            <p class="sm-1 center-h">
+                <span class="span-1">Gettin’ dumb on the drum</span><br>
+                <span class="span-2">rum-pum-pum-pum-pum</span><br>
+                <span class="span-3">Better run, when I come, what a Bomb Bomb</span><br>
+                <span class="span-5">Sippin’ on coke and rum, gettin’ so drunk</span><br>
+                <span class="span-2">Everyone wonderin where she come from?</span><br>
+            </p>
+            <p class="sm-1 top-30 span-1"> 
+                <span class="span-3">Got gold on my necklace, and gold on my wrist</span><br>
+                <span class="span-2">Girls gettin’ mad cause their boys want a kiss</span><br>
+                <span class="span-1">Fast with the cash, I just throw it in the bag</span><br>
+                <span class="span-2">Everything I wanna have</span><br> 
+                <span class="span-4">well I think you get the gist</span><br>
+            </p>
+            <p class="sm-1 center-h top-60 upside"> 
+                <span class="span-1">Upside downside, inside outside</span><br>
+                <span class="span-5">Hittin’ you from every angle,</span><br>
+                <span class="span-2">there’s no doubt</span><br>
+                <span class="span-1">Poetry in motion, coast to coast and</span><br>
+                <span class="span-1">Rube it in your skin like lotion</span><br>
+            </p>
+            <p class="sm-1 top-80 span-1"> 
+                <span class="span-5">I got myself a 40</span><br>
+                <span class="span-4">I got myself a shorty</span><br>
+                <span class="span-2">And I’m about to go get lifted</span><br>
+                <span class="span-1">Yes, I’m about to go get lifted</span><br>
+            </p>
+        </div>    
+            
+        <div class="row">    
+          <div class="col-100 half image-sky-down-2-last"> </div>
+        </div>
+            
+    
+     
+      <!-- YOUR HTML CODE HERE -->
+      
+      
+
+    <!-- DO NOT CHANGE CODES BELOW-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.lazyload.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $('div').lazyload(
+          effect: "fadeIn"
+        );
+      });
+    </script>
+  </body>
+</html>

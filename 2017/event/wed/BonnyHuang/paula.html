@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Design of Communication</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    
+    <style>
+			/* your css rules below */
+      body {
+        background-color: black;
+      }
+      .background {
+        background-image: url(images/background1.png);
+        height: 200px;
+        animation: spinner2 6s infinite linear;
+      }
+      .ball {
+        background-image: url(images/ball1.png);
+        height: 250px;
+        margin-top: -200px;
+        animation: shining 6s infinite;
+      }
+      .headball {
+        background-image: url(images/ball1.png);
+        height: 250px;
+        animation: spinner1 6s infinite linear;
+      }
+      .paulaball {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: #ffe200;
+        margin-left: 90px;
+        position: absolute;
+        animation: movingball 3s infinite;
+      }
+      .line1 {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 120px;
+        width: 2px;
+        height: 129px;
+        background-color: white;
+      }
+      .paula1 {
+        background-image: url(images/paula1.png);
+        position: absolute;
+        margin-left: 135px;
+        margin-top: 20px;
+        height: 129px;
+        width: 129px;
+      }
+      .paulawork {
+        background-image: url(images/theater.png);
+        width: 233px;
+        height: 310px;
+        margin-left: 320px;
+        margin-top: 20px;
+        position: absolute;
+      }
+      .paulaworktext {
+        position: absolute;
+        color: darkgrey;
+        font-family: Gill Sans;
+        font-style: italic;
+        font-size: 10px;
+        line-height: 15px;
+        font-weight: 100;
+        margin-top: 350px;
+        margin-left: 320px;
+        width: 170px;
+      }
+      .paulaintrohead {
+        color: white;
+        font-family: Avenir;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 600px;
+      }
+      .paulaintrotext {
+        position: absolute;
+        color: darkgrey;
+        font-family: Gill Sans;
+        font-size: 13px;
+        line-height: 20px;
+        width: 300px;
+        margin-left: 600px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        font-weight: 100;
+      }
+      /* index */
+      .line2 {
+        position: fixed;
+        margin-left: 80%;
+        z-index: 999;
+        width: 2px;
+        height: 122px;
+        background-color: white;
+      }
+      .chipball {
+        height: 18px;
+        width: 18px;
+        border-radius: 50%;
+        background-color: #c60000;
+        margin-left: 81%;
+        position: fixed;
+      }
+      .chipballtext {
+        position: fixed;
+        color: white;
+        font-family: Avenir;
+        font-size: 13px;
+        margin-left: 84%;
+        margin-top: 4px;
+      }
+      .stevenball {
+        height: 18px;
+        width: 18px;
+        border-radius: 50%;
+        background-color: #3bbf00;
+        margin-left: 81%;
+        margin-top: 50px;
+        position: fixed;
+      }
+      .stevenballtext {
+        position: fixed;
+        color: white;
+        font-family: Avenir;
+        font-size: 13px;
+        margin-left: 84%;
+        margin-top: 53px;
+      }
+      .homeball {
+        height: 18px;
+        width: 18px;
+        border-radius: 50%;
+        background-color: #001dff;
+        margin-left: 81%;
+        margin-top: 100px;
+        position: fixed;
+      }
+      .homeballtext {
+        position: fixed;
+        color: white;
+        font-family: Avenir;
+        font-size: 13px;
+        margin-left: 84%;
+        margin-top: 104px;
+      }
+      /* link */
+      a:link {
+        color: white; 
+        background-color: transparent; 
+        text-decoration: none;
+      }
+      a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:hover {
+        color: darkgrey;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      .root {
+        position: absolute;
+        color: grey;
+        font-family: Gill Sans;
+        font-size: 10px;
+        font-weight: 100;
+        height: 40px;
+        width: 1200px;
+        text-align: center;
+        margin-top: 670px;
+      }
+      hr {
+        width: 700px;
+        border-top: 1px solid grey;
+        border-bottom: 0px solid black;
+        margin-top: 660px;
+      }
+      /* animation*/
+      @keyframes shining {
+        0% { opacity: 1; }
+        50% { opacity: 0; }
+        100% { opacity 1; }
+      }
+      @keyframes spinner1 {
+        from { transform: rotateX(0deg); }
+        to { transform: rotateX(-360deg); }
+      }
+      @keyframes spinner2 {
+        from { transform: rotateX(-360deg); }
+        to { transform: rotateX(0deg); }
+      }
+      @keyframes movingball {
+        0% { margin-top: 20px; }
+        50% { margin-top: 130px; }
+        100% { margin-top: 20px;}
+    </style>
+  </head>
+  <body>
+    <div class="grid-container headball"></div>
+    <div class="grid-container background"></div>
+    <div class="grid-container ball"></div>
+    <div class="paulaball"></div>
+    <div class="line1"></div>
+    <div class="paula1"></div>
+    <div class="paulawork"></div>
+    <div class="paulaworktext">
+    <p>In 1995</p>
+    <p>Design for the Public Theater</p>
+    <p>The style of expressive typography has been widely imitated in the years since it debuted.</p>
+    </div>
+    <div class="paulaintrohead">Paula Scher</div>
+    <div class="paulaintrotext">
+      <p>Paula Scher (born October 6, 1948, Washington D.C) is an American graphic designer, painter and art educator in design, and the first female principal at Pentagram, which she joined in 1991.</p>
+      <p>In 1994, Paula Scher was the first designer to create a new identity and promotional graphics system for The Public Theater, a program that become the turning point of identity in designs that influence much of the graphic design created for theatrical promotion and for cultural institutions in general.</p>
+      <p>Based on the challenge to raise public awareness and attendance at the Public Theater along with trying to appeal to a more diverse crowd, Scher created a graphic language that reflected street typography and graffiti-like juxtapostion. In 1995, Paula Scher and her Pentagram team created promotional campaigns for The Public Theater’s production of Savion Glover’s Bring in’Da Noise, Bring in ‘Da Funk that featured the wood typefaces used throughout The Public Theater’s identity. Scher was inspired by Rob Ray Kelly’s American Wood Types and the Victorian theater’s poster when she created the cacophony of disparate wood typefaces, silhouetted photographs and bright flat colors for the theater’s posters and billboard. Scher limited her colors to two or three while highlighted the play’s title and theater logo that surrounded the tap artist in a typographical be-bop. The design was to appeal to a broad audience from the inner cities to the outer boroughs, especially those who hadn’t been attracted to theater.</p>
+    </div>
+    <div class="grid-container root">©2009-2017 Design of Communication. All rights reserved.</div>
+    <div class="line2"></div>
+    <div class="chipball"></div>
+    <div class="chipballtext"><a href="chip.html">Chip Kidd</a></div>
+    <div class="stevenball"></div>
+    <div class="stevenballtext"><a href="steven.html">Steven Heller</a></div>
+    <div class="homeball"></div>
+    <div class="homeballtext"><a href="index.html">Home</a></div>
+    <hr>
+  </body>
+</html>

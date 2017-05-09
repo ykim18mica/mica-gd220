@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Faded</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+    <style>
+      /* YOUR CSS CODE HERE */
+      html {
+        font-family: 'Nothing You Could Do', cursive;
+        
+      }
+      
+      h1 { font-size: 14vw; }
+      h2 { font-size: 10vw; }
+      h3 { font-size: 8vw; }
+      p { font-size: 4vw; }
+      
+      .grey {
+        background-color: grey;
+      }
+      
+      .lightgrey {
+        background-color: lightgrey;
+      }
+      
+      .img-surface {
+        background-image: url(images/img-surface.png);
+        background-size: cover;
+      }
+      
+      .img-under {
+        background-image: url(images/img-under.png);
+        background-size: cover;
+      }
+      
+      .img-hair {
+        background-image: url(images/img-hair.png);
+        background-size: cover;
+      }
+      
+       .img-face {
+        background-image: url(images/img-face.png);
+        background-size: cover;
+      }
+      
+      .img-mouth {
+        background-image: url(images/img-mouth.png);
+        background-size: cover;
+      }
+      
+       .img-shoulder {
+        background-image: url(images/img-shoulder.png);
+        background-size: cover;
+      }
+      
+       .img-blue {
+        background-image: url(images/img-blue.png);
+        background-size: cover;
+      }
+      
+       .img-hand {
+        background-image: url(images/img-hand.png);
+        background-size: cover;
+      }
+      
+       .img-body {
+        background-image: url(images/img-body.png);
+        background-size: cover;
+      }
+      
+       .img-water {
+        background-image: url(images/img-water.png);
+        background-size: cover;
+      }
+      
+       .img-dark {
+        background-image: url(images/img-dark.png);
+        background-size: cover;
+      }
+      
+       .img-darkest {
+        background-image: url(images/img-darkest.png);
+        background-size: cover;
+      }
+      
+      .text-title {
+        color: white;
+        font-size: 7vw;
+        top: 35%;
+        letter-spacing: 3vw;
+      }
+      .text-f {
+        margin-right: -1.8%; 
+      }
+      
+      .text-shadow {
+        color:rgba(225,225,225,0.7);
+        font-size:2vw;
+        top: 3%;
+        line-height: 3vw;
+      }
+      .text-alive {
+        color: white;
+        font-size: 3vw;
+        top: 85%;
+        letter-spacing: 3vw;
+      }
+      
+      .text-where1 {
+        color: rgba(225,225,225,0.8);
+        font-size: 2.5vw;
+        top: 25%;
+      }
+      .text-where2 {
+        color: rgba(225,225,225,0.5);
+        font-size: 2.5vw;
+        top: 65%;
+        letter-spacing: 0.5vw;
+      }
+      
+      .text-question1 {
+        color: white;
+        font-size:2.2vw;
+        top:5%;
+        left:5%;
+      }
+      .text-question2 {
+        color: rgba(225,225,225,0.8);
+        font-size:2vw;
+        top:15%;
+        left:5%;
+      }
+      .text-question3 {
+        color: rgba(225,225,225,0.6);
+        font-size:1.8vw;
+        top:30%;
+        left:5%;
+        letter-spacing: 0.8vw;
+      }
+      .text-question4 {
+        color: rgba(225,225,225,0.4);
+        font-size:1.5vw;
+        top:55%;
+        left:5%;
+        letter-spacing: 0.7vw;
+      }
+      .text-question5 {
+        color: rgba(225,225,225,0.4);
+        font-size:1.2vw;
+        top:90%;
+        left:5%;
+        letter-spacing: 1.5vw;
+      }
+      
+      .text-atlantis {
+        color: white;
+        font-size: 2vw;
+        top: 80%;
+        left:5%;
+        letter-spacing: 3.8vw;
+      }
+      
+      .text-under1 {
+        color: slategray;
+        font-size: 2.5vw;
+        top: 25%;
+      }
+      .text-under2 {
+        color:slategrey;
+        font-size: 1vw;
+        top:80%;
+        letter-spacing: 0.8vw;
+      }
+      
+      .text-dream1 {
+        color:rgba(225,225,225,0.7);
+        font-size: 2.2vw;
+        top: 5%;
+        right: 5%;
+      }
+      .text-dream2 {
+        color:rgba(225,225,225,0.5);
+        font-size: 3vw;
+        top: 35%;
+        right: 5%;
+      }
+      .text-dream3 {
+        color:rgba(225,225,225,0.4);
+        font-size: 1vw;
+        top: 85%;
+        right: 5%;
+        letter-spacing: 0.1vw;
+      }
+      
+      .text-faded1 {
+        color:rgba(225,225,225,0.7);
+        font-size: 3.2vw;
+        top: 45%;
+        right: 5%;
+      }
+      
+      .text-faded2 {
+        color:rgba(225,225,225,0.5);
+        font-size: 2.5vw;
+        top: 45%;
+        right: 6.7%;
+      }
+      
+      .text-lost1 {
+        color:rgba(225,225,225,0.4);
+        font-size: 1.2vw;
+        top: 45%;
+        right: 7.5%;
+      }
+      
+      .text-im {
+        color:rgba(225,225,225,0.6);
+        font-size: 4vw;
+        top: 8%;
+      }
+      .text-fad {
+        color:rgba(225,225,225,0.5);
+        font-size: 2vw;
+        top: 35%;
+      }
+      .text-so {
+        color:rgba(225,225,225,0.4);
+        font-size: 5.5vw;
+        top: 60%;
+      }
+      .text-lo {
+        color:rgba(225,225,225,0.4);
+        font-size: 2.3vw;
+        top: 95%;
+      }
+      
+      .text-i {
+        color:rgba(225,225,225,0.4);
+        font-size: 3vw;
+        top: 60%;
+      }
+      .text-am {
+        color:rgba(225,225,225,0.3);
+        font-size: 2vw;
+        top: 75%;
+      }
+      .text-fa {
+        color:rgba(225,225,225,0.2);
+        font-size: 3vw;
+        top: 85%;
+      }
+    </style>
+  </head>
+  <body>
+   
+    <div class="container">
+     
+      <!-- YOUR HTML CODE HERE -->
+      <div class="raw">  
+        <div class="col-100 half grey img-surface ">
+        <p class="text-title center-h">
+          <span class="text-f">F</span>ADED
+        </p>
+        </div>
+        
+        </div>
+      </div>
+      
+      <div class="raw">  
+        <div class="col-100 quarter lightgrey img-under "></div>
+        <p class="text-shadow center-h">
+          You were the shadow in my light<br>
+          Did you feel us?<br>
+          Another Star<br>
+          You fade away<br>
+          Afaid our aim is out of sight<br>
+          Wanna see us
+        </p>
+        <p class="text-alive center-h">Alive</p>
+      </div>
+      
+       <div class="raw">  
+        <div class="col-100 quarter grey img-hair"></div>
+        <p class="text-where1 center-h">
+          Where are you now? 
+        </p>
+        <p class="text-where2 center-h">
+          Where are you now?
+        </p>
+      </div>
+      
+       <div class="raw">  
+        <div class="col-100 half lightgrey img-face"></div>
+         <P class="text-question1">Where are you now?</P>
+         <P class="text-question2">Was it all in my fantasy</p>
+         <p class="text-question3">Where are you now?</p>
+         <p class="text-question4">Were you only imaginary?</p>
+         <p class="text-question5">Where are you now?</p>
+         
+      </div>
+      
+      <div class="raw">  
+        <div class="col-100 quarter grey img-mouth"></div> 
+        <p class="text-atlantis ">Atlantis</p>
+      </div>
+      
+      <div class="raw">  
+        <div class="col-100 half lightgrey img-shoulder"></div>
+        <p class="text-under1 center-h">Under the sea</p>
+        <p class="text-under2 center-h">Under the sea</p>
+      </div>
+      
+      <div class="raw">  
+        <div class="col-100 half grey img-blue"></div>
+        <p class="text-dream1">Where are you now?</p>
+        <p class="text-dream2">Another dream</p>
+        <p class="text-dream3">The monster's running wild inside of me</p> 
+      </div>
+      
+      <div class="raw">  
+        <div class="col-100 quarter lightgrey img-hand"></div> 
+        <p class="text-faded1">I'm faded</p>
+      </div>
+      
+      <div class="raw">  
+        <div class="col-100 quarter grey img-body "></div>
+        <p class="text-faded2">I'm faded</p>
+      </div>
+      
+      <div class="raw">  
+        <div class="col-100 quarter lightgrey img-water"></div> 
+        <p class="text-lost1">So lost, I'm faded</p>
+      </div>
+      
+      <div class="raw">  
+        <div class="col-100 half grey img-dark"></div>
+        <p class="text-im center-h">I'm</p>
+        <p class="text-fad center-h">faded</p>
+        <p class="text-so center-h">so</p>
+        <p class="text-lo center-h">lost</p>
+      </div>
+      
+      <div class="raw">  
+        <div class="col-100 quarter lightgrey img-darkest"></div> 
+        <p class="text-i center-h">I</p>
+        <p class="text-am center-h">am</p>
+        <P class="text-fa center-h">faded</P>
+      </div>
+    
+      <div class="raw">  
+        <div class="col-100 full lightgrey img-darkest"></div> 
+      </div>
+      
+    </div>
+    
+    
+    <!-- DO NOT CHANGE CODES BELOW-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.lazyload.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $('div').lazyload(
+          effect: "fadeIn"
+        );
+      });
+    </script>
+  </body>
+</html>

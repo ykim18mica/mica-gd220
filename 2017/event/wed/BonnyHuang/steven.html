@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Design of Communication</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    
+    <style>
+			/* your css rules below */
+      body {
+        background-color: black;
+      }
+      .background {
+        background-image: url(images/background1.png);
+        height: 200px;
+        animation: spinner2 6s infinite linear;
+      }
+      .ball {
+        background-image: url(images/ball1.png);
+        height: 250px;
+        margin-top: -200px;
+        animation: shining 6s infinite;
+      }
+      .headball {
+        background-image: url(images/ball1.png);
+        height: 250px;
+        animation: spinner1 6s infinite linear;
+      }
+      .stevenball {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: #3bbf00;
+        margin-left: 90px;
+        position: absolute;
+        animation: movingball 3s infinite;
+      }
+      .line1 {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 120px;
+        width: 2px;
+        height: 129px;
+        background-color: white;
+      }
+      .steven1 {
+        background-image: url(images/steven1.png);
+        position: absolute;
+        margin-left: 135px;
+        margin-top: 20px;
+        height: 129px;
+        width: 129px;
+      }
+      .stevenwork {
+        background-image: url(images/typography.png);
+        width: 233px;
+        height: 310px;
+        margin-left: 320px;
+        margin-top: 20px;
+        position: absolute;
+      }
+      .worktext {
+        position: absolute;
+        color: darkgrey;
+        font-family: Gill Sans;
+        font-style: italic;
+        font-size: 10px;
+        line-height: 15px;
+        font-weight: 100;
+        margin-top: 350px;
+        margin-left: 320px;
+        width: 170px;
+      }
+      .introhead {
+        color: white;
+        font-family: Avenir;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 600px;
+      }
+      .introtext {
+        position: absolute;
+        color: darkgrey;
+        font-family: Gill Sans;
+        font-size: 13px;
+        line-height: 20px;
+        width: 300px;
+        margin-left: 600px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        font-weight: 100;
+      }
+      /* index */
+      .line2 {
+        position: fixed;
+        margin-left: 80%;
+        z-index: 999;
+        width: 2px;
+        height: 122px;
+        background-color: white;
+      }
+      .paulaball {
+        height: 18px;
+        width: 18px;
+        border-radius: 50%;
+        background-color: #ffe200;
+        margin-left: 81%;
+        position: fixed;
+      }
+      .paulaballtext {
+        position: fixed;
+        color: white;
+        font-family: Avenir;
+        font-size: 13px;
+        margin-left: 84%;
+        margin-top: 4px;
+      }
+      .chipball {
+        height: 18px;
+        width: 18px;
+        border-radius: 50%;
+        background-color: #c60000;
+        margin-left: 81%;
+        margin-top: 50px;
+        position: fixed;
+      }
+      .chipballtext {
+        position: fixed;
+        color: white;
+        font-family: Avenir;
+        font-size: 13px;
+        margin-left: 84%;
+        margin-top: 53px;
+      }
+      .homeball {
+        height: 18px;
+        width: 18px;
+        border-radius: 50%;
+        background-color: #001dff;
+        margin-left: 81%;
+        margin-top: 100px;
+        position: fixed;
+      }
+      .homeballtext {
+        position: fixed;
+        color: white;
+        font-family: Avenir;
+        font-size: 13px;
+        margin-left: 84%;
+        margin-top: 104px;
+      }
+      /* link */
+      a:link {
+        color: white; 
+        background-color: transparent; 
+        text-decoration: none;
+      }
+      a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:hover {
+        color: darkgrey;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      .root {
+        position: absolute;
+        color: grey;
+        font-family: Gill Sans;
+        font-size: 10px;
+        font-weight: 100;
+        height: 40px;
+        width: 1200px;
+        text-align: center;
+        margin-top: 670px;
+      }
+      hr {
+        width: 700px;
+        border-top: 1px solid grey;
+        border-bottom: 0px solid black;
+        margin-top: 660px;
+      }
+      /* animation*/
+      @keyframes shining {
+        0% { opacity: 1; }
+        50% { opacity: 0; }
+        100% { opacity 1; }
+      }
+      @keyframes spinner1 {
+        from { transform: rotateX(0deg); }
+        to { transform: rotateX(-360deg); }
+      }
+      @keyframes spinner2 {
+        from { transform: rotateX(-360deg); }
+        to { transform: rotateX(0deg); }
+      }
+      @keyframes movingball {
+        0% { margin-top: 20px; }
+        50% { margin-top: 130px; }
+        100% { margin-top: 20px;}
+    </style>
+  </head>
+  <body>
+    <div class="grid-container headball"></div>
+    <div class="grid-container background"></div>
+    <div class="grid-container ball"></div>
+    <div class="stevenball"></div>
+    <div class="line1"></div>
+    <div class="steven1"></div>
+    <div class="stevenwork"></div>
+    <div class="worktext">
+    <p>In 2011</p>
+    <p>Design for Typography Sketchbooks</p>
+    <p>This book was written by Steven Heller himself. He thought that no design is successful without successful typography. </p>
+    </div>
+    <div class="introhead">Steven Heller</div>
+    <div class="introtext">
+      <p>Steven Heller wears many hats (in addition to the New York Yankees): For 33 years he was an art director at the New York Times, originally on the OpEd Page and for almost 30 of those years with the New York Times Book Review. Currently, he is co-chair of the MFA Designer as Author Department, Special Consultant to the President of SVA for New Programs, and writes the Visuals column for the New York Times Book Review.He is the co-founder and co-chair (with Lita Talarico) of the MFA Designer as Author program at the School of Visual Arts, New York, where he lectures on the history of graphic design. Prior to this, he lectured for 14 years on the history of illustration in the MFA Illustration as Visual Essay program at the School of Visual arts. He also was director for ten years of SVA’s Modernism and Eclecticism: A History of American Graphic Design symposiums.</p>
+      <p>With Seymour Chwast he has directed Push Pin Editions, a packager of visual books, and with his wife Louise Fili he has produced over twenty books and design products for Chronicle Books and other publishers.</p>
+      <p>For over two decades he has been contributing editor to Print, Eye, Baseline, and I.D. magazines, has had contributed hundreds of articles, critical essays, and columns (including his interview column “Dialogue” in PRINT) to a score of other design and culture journals. As editor of the AIGA Journal of Graphic Design he published scores of critical and journalistic writers on design, and currently as editor of Online Journal of Design, he continues to help build a critical vocabulary.</p>
+    </div>
+    <div class="grid-container root">©2009-2017 Design of Communication. All rights reserved.</div>
+    <div class="line2"></div>
+    <div class="paulaball"></div>
+    <div class="paulaballtext"><a href="paula.html">Paula Scher</a></div>
+    <div class="chipball"></div>
+    <div class="chipballtext"><a href="chip.html">Chip Kidd</a></div>
+    <div class="homeball"></div>
+    <div class="homeballtext"><a href="index.html">Home</a></div>
+    <hr>
+  </body>
+</html>

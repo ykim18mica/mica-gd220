@@ -1,0 +1,1019 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600');
+
+html{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1200px;
+    margin: auto;
+}
+
+header-image{
+    background-image: url(images/people.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.row:before, 
+.row:after {
+  content:"";
+  display: table ;
+  clear:both;
+}
+
+div.row,
+div.row:after {
+  margin:0;
+  padding: 0;
+}
+
+/**Navigation Bar**/
+.above{
+    height: 100%;
+}
+
+header.home-navigation{
+    position: relative;
+    height: 250px;
+		margin-top: 0px;
+}
+
+home-logo{
+    position: relative;
+}
+.big-logo{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 59px;
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
+    line-height: 63px;
+    position: absolute;
+    left: 115px;
+    top: 0px;
+}
+nav.navigation{
+    position: absolute;
+    right: 115px;
+    top: 65px;
+}
+ul.nav{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+li.menu-items{
+    float: left;
+    margin-left: 50px;
+}
+
+li.menu-items a{
+    display: block;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
+}
+
+li .active{
+  border-bottom: 3px solid #fff;
+}
+
+li a:hover{
+  animation: borderappear 3s 1;
+}
+
+@keyframes borderappear{
+   from {
+    border-bottom: 3px solid transparent;
+   }  
+   to {
+    opacity: 1;
+    border-bottom: 3px solid #fff;
+}
+}
+
+/* JULY 17 9AM–4PM */
+.above{
+  height: 680px;
+}
+.date-place{
+    position: relative;
+}
+.date-place:after{
+    content:"";
+    display: table ;
+    clear:both;
+}
+div.date{
+    position: absolute;
+    left: 170px;
+}
+p.home-date{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFFFFF;
+    letter-spacing: 7.5px;
+    text-align: right;
+}
+/* ALICE TULLY HALL */
+div.place{
+    position: absolute;
+    left: 420px;
+    top: 20px;
+}
+.home-place{
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 3.73px;
+    line-height: 24px;  
+}
+
+.home-place span{
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+.arrow{
+    background-image: url(/images/arrow.png);
+    width: 43px;
+    height: 24px;
+    background-size: cover;
+    left: 50%;
+    cursor: pointer;
+    background-position: center;
+    bottom: 50px;
+    position: absolute;
+    animation: appear 8s infinite;
+}
+
+@keyframes appear{
+  0% {
+  opacity: 0;
+  }
+  50% {
+  opacity: 1;
+  }
+  100% {
+  opacity: 0;
+  }
+}
+
+
+/* DESIGN SECTION*/
+.information{
+  height: 800px;
+  position: relative;
+}
+.design{
+    position: relative;
+}
+.info{
+  position: absolute;
+  left: 115px;
+}
+p.what-is-design{
+  font-family: Montserrat;
+	font-weight: 400;
+  font-size: 40px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  margin-bottom: 11px;
+}
+p.what-is-design-text{
+  width: 535px;
+  font-family: Montserrat;
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  font-weight: 300;
+}
+p.learn-more{
+  font-family: Montserrat;
+  font-size: 23px;
+  font-weight: 300;
+  color: #FFFFFF;
+  letter-spacing: 2.6px;
+  line-height: 28px;
+  width: 230px;
+  margin-top: 40px;
+}
+p.learn-more span{
+  font-size: 25px;
+}
+a.learn-more{
+  font-family: Montserrat;
+  font-size: 23px;
+  font-weight: 300;
+  color: #FFFFFF;
+  letter-spacing: 2.6px;
+  line-height: 28px;
+  width: 230px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+  display: block;
+}
+a.learn-more:hover{
+  color: #571573;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #571573;
+  animation: fadetopurple 3s forwards;
+}
+
+@keyframes fadetopurple{
+   from {
+    color: #ffffff;
+    border-bottom: 1px solid #fff;
+   }
+   to {
+    color: #571573;
+    border-bottom: 1px solid #571573;
+}
+}
+
+.equation{
+  position: absolute;
+  right: 130px;
+  top: 400px;
+}
+.state-of-mind{
+  font-family: Montserrat;
+	font-weight: 500;
+  font-size: 53px;
+  color: #FFFFFF;
+  letter-spacing: 1.59px;
+  line-height: 67px;
+}
+.state-of-mind span{
+  line-height: 80px;
+}
+/** Speaker Photos + Details **/
+.alexa{
+  position: relative;
+  height: 700px;
+}
+
+.alexa-image{
+  background-image: url(/images/alexa-bnw.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: #DF7CB1;
+  height: 400px;
+  width: 308px;
+  position: absolute;
+  top: 200px;
+  left: 165px;
+}
+
+.alexa-image:hover{
+  background-blend-mode: screen;
+  background-color: #DF7CB1;
+}
+
+.alexa-info{
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  left: 525px;
+  top: 400px;
+}
+
+.joe-info{
+  width: 460px;
+  height: 200px;
+  position: absolute;
+  right: 525px;
+  top: 250px;
+  text-align: right;
+}
+
+.braden-info{
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  left: 525px;
+  top: 300px;
+}
+
+p.founder{
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 18px;
+  color: #571573;
+  letter-spacing: 1.61px;
+}
+
+p.quote{
+  font-family: Montserrat;
+  font-size: 20px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  line-height: 34px;
+}
+
+.name{
+  font-family: Montserrat;
+	font-weight: 500;
+  font-size: 80px;
+  color: #FFFFFF;
+  letter-spacing: 2.49px;
+  line-height: 89px;
+}
+
+.left-title {
+  position: absolute;
+  left: 435px;
+  top: 200px;
+}
+
+.right-title{
+  position: absolute;
+  left: 300px;
+  top: 130px;
+}
+
+.joe{
+  position: relative;
+  height: 600px;
+}
+
+.joe-image{
+  background-image: url(/images/joe-bnw.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: #F27D96;
+  height: 400px;
+  width: 308px;
+  position: absolute;
+  top: 100px;
+  right: 165px;
+}
+
+.joe-image:hover{
+  background-blend-mode: screen;
+  background-color: #F27D96;
+}
+
+.braden-image{
+  background-image: url(/images/brandon-bnw.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: #F48A89;
+  height: 400px;
+  width: 308px;
+  position: absolute;
+  top: 100px;
+  left: 165px;
+}
+
+.braden-image:hover{
+  background-blend-mode: screen;
+  background-color: #F48A89;
+}
+
+.left-title2 {
+  position: absolute;
+  left: 435px;
+  top: 110px;
+}
+
+/** Call to action button **/
+
+.call-to-action{
+  text-align: center;
+}
+
+a.button{
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 20px;
+  color: #FFFFFF;
+  letter-spacing: 1.85px;
+  text-decoration: none;
+  line-height: 50px;
+  padding: 20px 60px 20px 60px;
+  border: 3px solid #FFFFFF;
+}
+
+a.button:hover{
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 20px;
+  color: #571573;
+  letter-spacing: 1.85px;
+  text-decoration: none;
+  line-height: 50px;
+  padding: 20px 60px 20px 60px;
+  border: 3px solid #571573;
+  animation: ctabutton 3s 1;
+}
+
+@keyframes ctabutton{
+   from {
+    color: #ffffff;
+    border: 3px solid #FFFFFF;
+   }
+   to {
+    color: #571573;
+    border: 3px solid #571573;
+}
+}
+
+
+/** Footer **/
+footer {
+  height: 255px;
+  margin-top: 150px;
+  background-color: #634FAD;
+  position: relative;
+}
+
+div.footer-logo{
+  width: 200px;
+  position: absolute;
+  top: 20px;
+  left: 120px;
+}
+
+.footer-logo {
+  font-family: Montserrat;
+	font-weight: 500;
+  font-size: 40px;
+  color: #F7F0FF;
+  letter-spacing: 0.93px;
+  line-height: 44px;
+}
+
+.links-table{
+  width: 1000px;
+  height: 40px;
+  position: absolute;
+  bottom: 50px;
+  left: 120px;
+}
+table{
+  width: 100%;
+}
+th, td {
+  color: #fff;
+  text-align: right;
+  padding: 12px;
+  padding-left: 30px;
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 15px;
+  color: #FFFFFF;
+  letter-spacing: 0.82px;
+}
+
+th.spon{
+  text-align: left;
+  padding-left: 0px;
+  font-weight: 400;
+  
+}
+.sponsor {
+  width: 300px;
+  height: 50px;
+  position: relative;
+  left: 120px;
+  top: 180px;
+  display: block;
+  z-index: 1;
+}
+.sponsor-text {
+  color: #fff;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+  color: #FFFFFF;
+  letter-spacing: 0.82px;
+  height: 40px;
+  width: 300px;
+  display: block;
+  z-index: 1;
+}
+footer a{
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover{
+  color: #F8A372;
+  text-decoration: none;
+}
+.socialmedia {
+  position: absolute;
+  text-align: right;
+  bottom: 100px;
+  right: 90px;
+  width: 135px;
+  height: 30px;
+}
+.socialmedia img{
+  padding: 15px;
+}
+
+.about-bg {
+  background-image: url(/images/people.jpg);
+  background-size: cover;
+}
+
+.small-logo {
+  font-family: Montserrat;
+	font-weight: 500;
+  font-size: 40px;
+  color: #fff;
+  letter-spacing: 0.93px;
+  line-height: 44px;
+  position: absolute;
+  left: 115px;
+  top: 0px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.27);
+}
+
+/** About Page **/
+
+a.home{
+  color: #fff;
+  text-decoration: none;
+}
+
+div.above-text {
+  width: 785px;
+  height: 141px;
+  position: absolute;
+  left: 115px;
+  top: 150px;
+}
+
+p.above-text{
+  font-family: Montserrat;
+	font-weight: 500;
+  font-size: 35px;
+  color: #FFFFFF;
+  letter-spacing: 1.05px;
+  line-height: 47px;
+  text-shadow: 1px 2px 5px rgba(0,0,0,0.38);
+}
+.about {
+  position: relative;
+  left: 110px;
+  top: 80px;
+  width: 400px;
+}
+
+.subtitle {
+  /* ABOUT: */
+  font-family: Montserrat;
+	font-weight: 500;
+  font-size: 30px;
+  color: #2C2C2C;
+  letter-spacing: 2.6px;
+  line-height: 32px;
+  margin-bottom: 60px;
+}
+
+.subtitle span{
+  font-size: 45px;
+  position: relative; 
+  top: 3px;
+}
+.about-info {
+  font-family: Montserrat;
+  font-size: 18px;
+  color: #571573;
+  line-height: 28px;
+}
+
+.shadow {
+text-shadow: 0 2px 4px rgba(0,0,0,0.57);
+}
+
+.about-img {
+  position: absolute;
+  top: 60px;
+  left: 465px;
+}
+
+.thequote {
+  /* A company that is de: */
+  font-family: Montserrat;
+	font-weight: 400;
+  font-size: 25px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 43px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  width: 920px;
+  top: 95px;
+}
+
+.thequote span{
+  font-size: 80px;
+}
+
+.about-block {
+  height: 750px;
+  position: relative;
+}
+
+.blockquote {
+  position: relative;
+}
+
+
+.design-centric {
+  height: 650px;
+  position: relative;
+  background-image: linear-gradient(-129deg, #F05D81 0%, #FF975B 100%);   
+}
+
+.line-shadow {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.57);
+}
+
+.thequote span.move {
+    position: relative;
+    top: 70px;
+}
+
+.katiedill {
+  /* — Katie Dill Head of: */
+  font-family: Montserrat;
+	font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 0.6px;
+  line-height: 32px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: 185px;
+  width: 380px;
+}
+
+span.katiedill-who {
+  /* — Katie Dill Head of: */
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 15px;
+  color: #FFFFFF;
+  letter-spacing: 0.6px;
+  line-height: 32px;
+}
+
+.placepadding {
+  margin-top: 80px;
+}
+
+.grey {
+  color: #2C2C2C;
+}
+
+b {
+ letter-spacing: 1px; 
+}
+
+.about-info a{
+  color: #571573;
+  text-decoration: none;
+}
+
+.about-info a:hover{
+  color: #F8A372;
+}
+
+/** Orange Call to action button **/
+a.button-orange {
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 20px;
+  color: #E68A55;
+  letter-spacing: 1.85px;
+  text-decoration: none;
+  line-height: 50px;
+  padding: 20px 60px 20px 60px;
+  border: 3px solid #E68A55;
+}
+
+a.button-orange:hover{
+  animation: orangetopurple 2s forwards;
+}
+
+@keyframes orangetopurple{
+   from {
+    color: #E68A55;
+    border: 3px solid #E68A55;
+   }
+   to {
+    color: #571573;
+    border: 3px solid #571573;
+}
+}
+
+.sponsors-text {
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.82px;
+  height: 50px;
+  width: 300px; 
+}
+
+/** above fold images **/
+.speaker-bg {
+  background-image: url(/images/stage.png);
+  background-size: cover;
+}
+
+.stage-bg {
+  background-image: url(/images/speakers-page.jpg);
+  background-size: cover;
+}
+
+/** Speaker Page **/
+.alexa-color {
+  background-image: url(/images/alexa.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 308px;
+  position: absolute;
+  top: 200px;
+  left: 165px;
+}
+
+.orangetitle {
+  color: #F8965E;
+}
+
+.name-orange {
+  font-family: Montserrat;
+	font-weight: 500;
+  font-size: 80px;
+  color: #F8965E;
+  letter-spacing: 2.49px;
+  line-height: 89px;
+}
+
+.alexa-info-2 {
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  left: 525px;
+  top: 400px;
+}
+
+
+.about-speaker {
+  font-family: Montserrat;
+  font-size: 14px;
+  color: #2C2C2C;
+  line-height: 25px;
+}
+
+.shorter {
+  top: 30px;
+}
+
+.shorter2 {
+  top: 220px;
+}
+
+.joe-color {
+  background-image: url(/images/joe.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 308px;
+  position: absolute;
+  top: 5px;
+  right: 165px;
+}
+
+.braden-image-2 {
+  background-image: url(/images/brandon.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 308px;
+  position: absolute;
+  top: 20px;
+  left: 165px;
+}
+
+.shorter1 {
+  top: 130px;
+}
+
+.shorter-braden {
+  top: 30px;
+}
+
+.joe2 {
+  position: relative;
+  height: 500px;
+}
+
+.shorterspeaker {
+  top: 180px;
+}
+
+/** Speaker Page **/
+
+.noshadow {
+  text-shadow: none;
+}
+
+.schedule-break {
+  background-color: #fff;
+  height: 250px;
+  position: relative;
+}
+
+.schedule-info {
+  position: relative;
+  left: 260px;
+  top: 50px;
+  width: 850px;
+}
+
+.schedule-time {
+  font-family: Montserrat;
+	font-weight: 500;
+  font-size: 44px;
+  color: #571573;
+  letter-spacing: 2.53px;
+}
+
+.schedule-title {
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 20px;
+  color: #571573;
+  letter-spacing: 1.61px;
+  margin-top: -30px; 
+}
+
+.schedule-kowitz {
+  height: 370px;
+  margin-top: -45px;
+  position: relative;
+}
+
+.white {
+  color: #fff;
+}
+
+.schedule-details {
+  font-family: Montserrat;
+	font-weight: 400;
+  font-size: 18px;
+  color: #131313;
+  line-height: 28px;
+  width: 800px;
+}
+
+.purple {
+  color: #571573;
+}
+
+a.orangehover{
+  color: #571573;
+  text-decoration: none;
+}
+
+a.orangehover:hover{
+  color: #fff;
+}
+
+.schedule-lunches {
+  background-color: #fff;
+  height: 270px;
+  position: relative;
+  margin-top: -45px;
+}
+
+.height-270 {
+  height: 270px;
+}
+
+.height-450 {
+  height: 400px;
+}
+
+.button-margin {
+  position: relative;
+  top: 100px;
+  height: 140px;
+}
+
+.schedule-line{
+  position: absolute;
+  height: 2370px;
+  left: 170px;
+  top: 290px;
+  border-right: 8px solid #581573;
+  z-index: 1;
+}
+
+.bulletpoint {
+  color: #571573;
+  position: absolute;
+  font-size: 150px;
+  left: 154px;
+  top: -27px;
+  z-index: 1;
+}
+
+.speakerlink {
+  color: white;
+  text-decoration: none;
+}
+
+.speakerhover {
+  color: #571573;
+  text-decoration: none;
+}
+
+.speakerhover:hover{
+  color: #F27B98;
+}
+
+.rightalign {
+  text-align: right;
+}
+
+.shorts {
+	top: -30px;
+}
+
+a.alicetully {
+	text-decoration: none;
+	color: #fff;
+}
+
+a.alicetully:hover{
+	color: #F8A372;
+}
+
+.twitter{
+	float: left;
+	margin-right: 40px;
+	margin-top: 2px;
+	background-image: url(/images/twitter.png);
+	background-size: cover;
+	width: 20px;
+	height: 17px;
+}
+.twitter:hover {
+	background-image: url(/images/twitter_hover.png);
+	background-size: cover;
+	width: 20px;
+	height: 17px;
+}
+
+.fb{
+	float: left;
+	margin-right: 40px;
+	background-image: url(/images/fb.png);
+	background-size: cover;
+	width: 11px;
+	height: 20px;
+}
+.fb:hover{
+	background-image: url(/images/fb_hover.png);
+	background-size: cover;
+	width: 11px;
+	height: 20px;
+}
+
+.paddings {
+	
+}
+
+.insta {
+	float: left;
+	background-image: url(/images/insta.png);
+	background-size: cover;
+	width: 20px;
+	height: 20px;
+}
+
+.insta:hover{
+	float: left;
+	background-image: url(/images/insta_hover.png);
+	background-size: cover;
+	width: 20px;
+	height: 20px;
+}

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html class="html">
+  <head>
+    <meta charset="utf-8">
+    <title>Show Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="guests.html">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="readmore.html">
+ 		<link rel="stylesheet" href="shcedule.html">
+    <link href="https://fonts.googleapis.com/css?family=Asap|Dancing+Script|Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Balthazar" rel="stylesheet">
+    
+  </head>
+  <style>
+		.html {
+			height:1200px;
+		}
+		.head {
+				height:119px;
+				background-color:darksalmon;
+		}
+		
+		ul.nav{
+				width:100%;
+				display:inline-block;
+				text-decoration: none;
+				font-family: 'Asap', sans-serif;
+				font-size:23px;
+		}
+		
+		ul.nav li a{
+				text-decoration:none; 
+				display:block;
+				top:45px;
+				text-align:center;
+				position:relative;
+				color:white;
+		}
+		ul.nav li a:hover{
+				background-color:crimson;
+		}
+		
+		.title_text{
+				position:relative;
+				font-family: 'Dancing Script', cursive;
+				text-align:center;
+				bottom:356px;
+				font-size:200px;
+				animation:fadein 10s alternate;
+			}
+		.cake{
+				position:relative;
+				right:40px;
+				bottom:730px;
+				animation: move1 5s alternate;
+		}
+		.fork{
+				position:relative;
+				right:-450px;
+				bottom:500px;
+				animation: move2 5s alternate;
+		}
+		.content1{
+				width:594px; 
+				height:451px;
+				position:relative;
+				bottom:528px;
+		}
+		.hand {
+				width:250px; 
+				height:auto;
+				position:relative;
+				bottom:320px;
+		}
+		.hand:hover{
+				animation:move3 3s alternate;
+		}
+		.content2{
+				width:606px; 
+				height:451px;
+				position:relative;
+				bottom:830px;
+				left:50px;
+		}
+		.box1{
+				position:relative;
+				width:400px; 
+				height:200px;
+				border: 3px solid #b998c6; 
+				border-radius: 14px;
+				background-color:white;
+				bottom:320px; left:110px;
+				font-family: 'Balthazar', serif;
+				font-size: 25pt; 
+				text-align: center;
+		}
+		.box2{
+				position:relative;
+				width:200px; 
+				height:45px;
+				border: 3px solid #b998c6; 
+				border-radius: 20px;
+				background-color:#b998c6;
+				bottom:390px; 
+				left:210px;
+		}
+		.box2text a{
+				position:relative;
+				text-decoration:none;
+				font-family: 'Balthazar', serif;
+				font-size: 15pt; 
+				text-align: center;
+				color:white;
+				left:60px;
+				bottom:-7px;
+		}
+		.box2:hover{
+				background-color:cornflowerblue;
+		}
+		.guestbg{
+				position:absolute;
+				width:1200px; 
+				height:574px;
+				top:1072px;
+		}
+		.guests{
+			  position:absolute;
+				width:700px;
+				height:100px;
+				background:black;
+				bottom:35vw;
+				left:20vw;
+		}
+
+		.guest1{
+				position:absolute;
+				width:500px;
+ 				top:85vw;
+				left:60px;
+		}
+		.guest2{
+				position:absolute;
+				width:370px;
+				top:88vw;
+				left:415px;
+		}
+		.guest3{
+				position:absolute;
+				width:400px;
+				top:95vw;
+				left:800px;
+		}
+		.box3{
+				position:absolute;
+				width:1200px;
+				height:574px;
+				background-color:bisque;
+				bottom:1px;
+				opacity:0.5;
+			
+		}
+		.name1{
+				position:absolute;
+				width:250px;
+				height:60px;
+				background-color:white;
+				color:black;
+				bottom:14vw;
+				left:9vw;
+				padding-left:40px;
+				padding-top:20px;
+				opacity:0.7;
+		}
+		.name1 a{
+			text-decoration:none;
+			color:black;
+			font-family: 'Balthazar', serif;
+			font-size: 15pt;	
+		}
+		.name1 :hover{
+				background-color:aquamarine;
+		}
+		.name2{
+				position:absolute;
+				width:250px;
+				height:60px;
+				background-color:white;
+				bottom:14vw;
+				left:38vw;
+				padding-left:50px;
+				padding-top:20px;
+				opacity:0.7;
+		}
+		.name2 a{
+				text-decoration:none;
+				color:black;
+				font-family: 'Balthazar', serif;
+				font-size: 15pt;
+		}
+		.name2 :hover{
+				background-color:aquamarine;
+		}
+		.name3{
+				position:absolute;
+				width:250px;
+				height:60px;
+				background-color:white;
+				bottom:14vw;
+				left:66vw;
+				padding-left:80px;
+				padding-top:20px;
+				opacity:0.7;
+		}
+		.name3 a{
+				text-decoration:none;
+				color:black;
+				font-family: 'Balthazar', serif;
+				font-size: 15pt;
+		}
+		.name3 :hover{
+				background-color:aquamarine;
+		}
+		@keyframes move1 {
+    from {left: -300px;}
+    to {left: -20px;}
+		}
+		@keyframes move2 {
+    from {right: -800px;}
+    to {right: -450px;}
+		}
+		@keyframes fadein {
+		0%   { opacity: 0; }
+		100% { opacity: 1; }
+		}
+		@keyframes move3 {
+    from {bottom:-200px;}
+    to {bottom: 300px;}
+		}
+
+	</style>
+  <body>
+   
+    <div class="grid-container">
+    
+    <div class="row head">
+			<ul class="nav">
+				<li class="col-3"><a href="index.html">HOME</a></li>
+				<li class="col-3"><a href="guests.html">GUESTS</a></li>
+				<li class="col-3"><a href="Readmore.html">INFORMATION</a></li>
+				<li class="col-3"><a href="#">SCHEDULE</a></li>
+			</ul>
+   	
+    </div>
+    
+    <div class="row title">
+				<img src="images/title1.png" alt="">
+		<div class=title_text>Foodie
+    </div>
+      	<img class="cake" src="images/cake.png" alt="">
+      	<img class="fork" src="images/fork.png" alt="">
+    </div>
+      
+    <div class="row content1">
+      	<img src="images/content1.png" alt="">
+      	<img class="hand col-offset-1"
+      	src="images/hand2.png" alt="">
+    <div class="content2 col-offset-11">
+      	<img src="images/content2.png" alt="">
+    <div class="box1">
+      	<br>A FOOD DESIGNER?<br> WHAT'S THAT?
+    </div>
+    <div class="box2">
+    <div class="box2text"><a href="Readmore.html">
+				SEE MORE</a>
+    </div>
+		</div>
+		</div>
+		</div>
+    <div class="guestbg">
+     	<img src="images/guests/guestbg.png" alt="">
+    	<img class="guests" src="images/guests/guests.png" alt="">
+		</div>
+    	
+     	<img class="guest1" src="images/guests/Cynthia%20Groseclose.png" alt="">
+    <div class="name1">
+    	<a href="guests.html">
+				CYNTIA GROSCLOSE</a>
+    </div>
+     	<img class="guest2" src="images/guests/B%C3%A9atrice%20Peltre%201.png" alt="">
+     <div class="name2">
+    	<a href="guests.html">BÉATRICE PELTRE
+				</a>
+    </div>
+     	<img class="guest3" src="images/guests/julie%20lee.png" alt="">
+     <div class="name3">
+    	<a href="guests.html">JULIE LEE
+				</a>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Abdellatif Kechiche</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    
+    <style>
+    
+      
+      .h-300{
+        height: 300px;
+      }
+      .h-600{
+        height: 600px;
+      }
+      .title{
+        font-size: 42px;
+        font-family: 'Roboto Mono', monospace;
+        position: fixed;
+        top: 55px;
+        z-index: 2;
+      }
+      .title:hover {
+        animation: disappear 1s 1 forwards;
+      }
+      .name{
+        font-size: 42px;
+        font-family: 'Roboto Mono', monospace;
+        position: fixed;
+        top: 55px;
+        z-index: 1;
+        opacity: 0;
+        }
+      .name:hover {
+        animation: appear 1s 1;
+      }
+      .title:hover + .name{
+        animation: appear 1s 1 forwards;
+        animation-delay: 1s;
+      }
+      @keyframes appear{
+        0%{
+          opacity: 0;
+        }
+        100%{
+          opacity: 1;
+        }
+      }
+      @keyframes disappear{
+        0%{
+          opacity: 1;
+        }
+        100%{
+          opacity: 0;
+        }        
+      }
+    
+      .address{
+        font-family: 'Roboto Mono', monospace;
+        position: fixed;
+        font-size: 12px;
+        bottom: 50px;
+        z-index: 2;
+      }
+      .website{
+        font-family: 'Roboto Mono', monospace;
+        position: fixed;
+        font-size: 12px;
+        bottom: 62px; 
+        z-index: 1;
+        opacity: 0;
+      }
+      .address:hover {
+        animation: disappear 1s 1 forwards;
+      }
+      .address:hover + .website{
+        animation: appear 1s 1 forwards;
+        animation-delay: 1s;
+      }
+      .numerical{
+        font-size: 42px;
+        font-family: 'Roboto Mono', monospace;
+        position: relative;
+        top: 300px;
+      }
+      .circle{
+        width: 10px;
+        height: 10px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+        background: black;
+        position: fixed;
+        top: 70px;
+      }
+      .c1{
+        right: 130px;
+      }
+      .c2{
+        right: 160px;
+      }
+      .c3{
+        right: 190px;
+      }
+      @keyframes loop1{
+        0%{
+          left: 40px;
+          top: 275px;
+        }
+        25%{
+          left: 400px;
+          top: 175px;
+        }
+        50%{
+          left: 850px;
+          top: 275px;
+        }
+        75%{
+          left: 400px;
+          top: 375px;
+        }
+        100%{
+          left: 40px;
+          top:275px;
+        }
+      }
+      .round-square{
+        width: 100px;
+        height: 100px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 10px;
+        background: #FFD494;
+        position: relative;
+        top: 275px;
+        left: 40px;
+        animation: loop1 3s infinite;
+      }
+      @keyframes horizontalmove{
+        0%{
+          left: 135px;
+        }
+        50%{
+          left: 780px;
+        }
+        100%{
+          left: 135px;
+        }
+      }
+      .round-circle{
+        width: 100px;
+        height: 100px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 50px;
+        background: #71D0F6;
+        position: relative;
+        top: 275px;
+        left: 135px;
+        animation: horizontalmove 3s infinite;
+      }
+      @keyframes loop2{
+        0%{
+          left:230px;
+          top: 260px;
+        }
+        33.3%{
+          left: 650px;
+          top: 130px;
+        }
+        66.6%{
+          left: 650px;
+          top: 390px;
+        }
+        100%{
+          left: 230px;
+          top: 260px;
+        }
+      }
+      .round-triangle, .round-triangle:before, .round-triangle:after { width: 120px; height: 120px; }
+      .round-triangle {
+        overflow: hidden;
+        position: relative;
+        top: 260px;
+        left: 230px;
+        border-radius: 20%;
+        transform: translateY(50%) rotate(30deg) skewY(30deg) scaleX(.866);
+        cursor: pointer;
+        pointer-events: none;
+        animation: loop2 3s infinite;
+      } 
+      .round-triangle:before, .round-triangle:after {
+        position: absolute;
+        background: #F6D4E6;
+        pointer-events: auto;
+        content: '';
+      }
+      .round-triangle:before {
+        border-radius: 20% 20% 20% 53%;
+        transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-42.3%) 
+            skewX(30deg) scaleY(.866) translateX(-24%);
+      }
+      .round-triangle:after {
+        border-radius: 20% 20% 53% 20%;
+        transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-42.3%) 
+            skewX(-30deg) scaleY(.866) translateX(24%);
+      }
+      @keyframes loop3{
+        0% {top: 280px; left:325px;}
+        20% {top:180px; left: 135px; }
+        40% {top: 180px; left: 550px;}
+        60% {top: 380px; left: 700px;}
+        80% {top: 380px; left: 250px;}
+        100% {top: 280px; left: 325px;}
+      }
+      .round-rec{
+        width: 130px;
+        height: 80px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 10px;
+        background: #FFD494;
+        position: relative;
+        top: 280px;
+        left: 325px;
+        animation: loop3 3s infinite;
+      }
+        @-webkit-keyframes spin1 {
+        0% { -webkit-transform: rotate(0deg);}
+        25% {-webkit-transform: rotate(90deg);}
+        50%{ -webkit-transform: rotate(180deg);}
+        75% {-webkit-transform: rotate(270deg);}
+        100% { -webkit-transform: rotate(360deg);}
+        }
+        
+      .half-circle {
+        display: block;
+        position: relative;
+        height: 400px;
+        top: 130px;
+        left: 450px;
+        width: 60px;
+        overflow: hidden;
+        transform: rotate(180deg);
+        -webkit-animation: spin1 3s infinite ;
+        }
+      .half-circle:before {
+        content: '';
+        position: absolute;
+        height: 130px;
+        width: 130px;
+        border-radius: 50%;
+        bottom: 0;
+        background: #71D0F6;
+      }
+      .date{
+        transform: rotate(90deg);
+        position: fixed;
+        top: 400px;
+        font-family: 'Roboto Mono', monospace; 
+        font-size: 25px;
+        white-space: nowrap;
+        margin: -30px;       
+      }
+      .time{
+        position: relative;
+        top: 560px;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 25px;
+        right: -340px;        
+      }
+      .time1{
+        position: relative;
+        top: 530px;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 25px;
+        right: -340px; 
+      }
+      
+      @keyframes movecenter1{
+        0%{
+          left: 90px;
+        }
+        100%{
+          left: 400px;
+        }
+      }
+      .movie1{
+        font-family: 'Roboto Mono', monospace; 
+        font-size: 25px;
+        position: relative;
+        line-height: 35px;
+        top: 195px;
+        left: 90px;
+      }
+      .movie1:hover {
+        animation: movecenter1 1s 1 forwards;
+      }
+      @keyframes movecenter2{
+        0%{
+          left: 180px;
+        }
+        100%{
+          left: 400px;
+        }
+      }      
+      .movie2{
+        font-family: 'Roboto Mono', monospace; 
+        font-size: 25px;
+        position: relative;
+        line-height: 35px;
+        top: 195px;
+        left: 180px;
+      }
+      .movie2:hover {
+        animation: movecenter2 1s 1 forwards;
+      } 
+      @keyframes movecenter3{
+        0%{
+          left: 285px;
+        }
+        100%{
+          left: 400px;
+        }
+      }   
+      .movie3:hover {
+        animation: movecenter3 1s 1 forwards;
+      }
+      .movie3{
+        font-family: 'Roboto Mono', monospace; 
+        font-size: 25px;
+        position: relative;
+        line-height: 35px;
+        top: 190px;
+        left: 285px;
+      }
+      @keyframes movecenter4{
+        0%{
+          left: 390px;
+        }
+        100%{
+          left: 400px;
+        }
+      }   
+      .movie4:hover {
+        animation: movecenter4 1s 1 forwards;
+      }      
+      .movie4{
+        font-family: 'Roboto Mono', monospace; 
+        font-size: 25px;
+        position: relative;
+        line-height: 35px;
+        top: 205px;
+        left: 390px;
+      }
+      @keyframes movecenter5{
+        0%{
+          left: 500px;
+        }
+        100%{
+          left: 400px;
+        }
+      }   
+      .movie5:hover {
+        animation: movecenter5 1s 1 forwards;
+      }      
+      .movie5{
+        font-family: 'Roboto Mono', monospace; 
+        font-size: 25px;
+        position: relative;
+        line-height: 35px;
+        bottom: 105px;
+        left: 500px;
+      }
+      a:link{
+        color: black;
+        text-decoration: none;
+      }
+      a:visited{
+        color: black;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+   
+    <div class="grid-container">
+			
+			<div class="row">
+				<div class="col-1 h-300 numerical "> 01</div>
+        <div class="col-5 h-600 "> 
+          <div class="title">Abdellatif Kechiche</div>
+          <div class="name">Blue Society</div>
+          <div class="address">
+            <a href="https://thecharles.com/">
+              The Charles Theatre</a><br>
+            1711 N Charles St Baltimore MD 21202
+          </div>
+          <div class="website">thecharles.com</div>
+          <div class="round-square"></div>
+          <div class="movie1">
+            Poetical<br>
+            Refugee
+          </div>
+        </div>
+				<div class="col-5 h-600 ">
+          <div class="circle c1"></div>
+          <div class="circle c2"></div>
+          <div class="circle c3"></div>
+          <div class="time">3.10  19:00</div>
+        </div>
+        <div class="col-1 h-600 ">
+          <div class="date">3.10 >>> 3.14</div>
+        </div>
+			</div>
+			
+			<div class="row">
+				<div class="col-1 h-300 numerical">02</div>
+				<div class="col-5 h-600 ">
+          <div class="round-circle"></div>
+          <div class="movie2">
+            Games of Love<br> 
+            and Chance
+          </div>
+        </div>
+        <div class="col-5 h-600 ">
+          <div class="time">3.11  19:00</div>
+        </div>
+        <div class="col-1 h-600 "></div>
+			</div>
+      
+    	<div class="row">
+				<div class="col-1 h-300 numerical ">03</div>
+				<div class="col-5 h-600 ">
+          <div class="round-triangle"></div>
+          <div class="movie3">
+            The Secret<br> 
+            of the Grain
+          </div>
+        </div>
+        <div class="col-5 h-600 ">
+          <div class="time">3.12  19:00</div>
+        </div>
+        <div class="col-1 h-600 "></div>
+			</div>
+			
+      <div class="row">
+				<div class="col-1 h-300 numerical ">04</div>
+				<div class="col-5 h-600 ">
+          <div class="round-rec"></div>
+          <div class="movie4">
+            Black<br>
+            Venus
+          </div>
+        </div>
+        <div class="col-5 h-600 ">          
+          <div class="time">3.13  19:00</div>
+        </div>
+        <div class="col-1 h-600 "></div>
+			</div>
+      
+      <div class="row">
+				<div class="col-1 h-300 numerical ">05</div>
+				<div class="col-5 h-600 ">
+          <div class="half-circle"></div>
+          <div class="movie5">
+            Blue Is the<br>
+            Warmest Color
+          </div>
+        </div>
+        <div class="col-5 h-600 ">
+          <div class="time1">3.14  19:00</div>
+        </div>
+        <div class="col-1 h-600 "></div>
+			</div>
+      
+      
+    </div>
+    
+    
+  </body>
+</html>

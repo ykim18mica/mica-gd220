@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sense the Film</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    
+    <style>
+    .grid-container {
+        position: relative;
+    }
+        
+    .col-12 {
+        width: 100%;
+    }
+        .h-518 {
+            height:518;
+        }
+    .h-644
+        {
+/*            height: 644px;*/
+        }
+    .h-497
+        {
+            height: 497px;
+        }
+        
+    .h-578
+        {
+            height: 578px;
+        }
+        
+        
+ 
+    html {
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 600;
+        color: dimgray;
+    }
+        
+     p{
+        line-height: 1.1    
+        }    
+        
+    .lg-1 {
+         font-size:5em;
+    }
+    
+    .lg-2 {
+          font-size:3em;   
+    }
+    
+    .lg-3 {
+            font-size: 2em;
+    }
+    
+    .lg-4 {
+            font-size: 1em;
+    }
+    .lg-5 {
+            font-size: 0.3em;
+    }
+    .lg-6 {
+            font-size: 2.3em;
+    }
+    
+        .span-1 {
+            position:relative; 
+            left:3%;
+        }
+        .span-2 {
+            
+            position: absolute;
+            left:5%;
+        }
+        .span-3 {
+            position:absolute;
+            left:15%;
+        }
+        .span-4 {
+            position:absolute;
+            left:24%;
+        }
+        .span-5 {
+            position:relative;
+            left:30%;
+        }
+        .span-6 {
+            position:absolute;
+            left:17%;
+        }
+        .span-7 {
+           position:absolute;
+            left:32%; 
+        }
+        .span-8 {
+           position:absolute;
+            left:28%; 
+        }
+        .span-9 {
+           position:absolute;
+            left:19%; 
+        }
+        .span-10 {
+            position:absolute;
+            left:18%;
+        }
+        .span-11 {
+            position:absolute; 
+            left:1%;
+        }
+        .span-12 {
+           position:absolute;
+            left:68%; 
+        }
+        .span-13 {
+           position:absolute;
+            left:11%; 
+        }
+        .span-14 {
+           position:absolute;
+            left:70%; 
+        }
+        .span-15 {
+           position:absolute;
+            left:75%; 
+        }
+        .span-16 {
+           position:absolute;
+            left:40%; 
+        }
+        
+        
+.top-01 { top: -10%; }         
+.top-0 { top: -5%; }        
+.top-5 { top: 5%; }        
+.top-10 { top: 10%; }        
+.top-17 { top: 17.5%; }
+.top-15 { top: 15%; }
+.top-20 { top: 20%; }
+.top-25 { top: 25%; }
+.top-26 { top: 26%; }
+.top-30 { top: 30.5%; }
+.top-39 { top: 39%; }
+.top-40 { top: 40%; }
+.top-42 { top: 42.5%; }        
+.top-45 { top: 45%; }
+.top-50 { top: 50%; }
+.top-59 { top: 59%; }
+.top-60 { top: 60%; }
+.top-61 { top: 61%; }
+.top-70 { top: 70%; }
+.top-80 { top: 80%; }
+.top-86 { top: 86%; }
+.top-90 { top: 90%; }
+.top-93 { top: 93%; }
+.top-94 { top: 94%; }
+.top-100 { top: 100%; }    
+
+    
+    .img-background1 {
+        background-image: url(images/background_01.png);
+        background-size: cover;
+    }
+    .img-background2 {
+        background-image: url(images/background_02.png);
+        background-size: cover;
+    }
+    .img-background3 {
+        background-image: url(images/background_03.png);
+        background-size: cover;
+    }
+   .img-hole {
+        background-image: url(images/hole_02.png);
+        background-size: cover;
+       position: absolute;
+       top: 1px;
+       left: -120px; 
+    }
+    .blood {
+        background-size: cover;
+        position: absolute;
+       top: 145px;
+       left: -23px; 
+        
+    }
+    .blood {
+        animation: fadeout 5s infinite,
+                    fadein 5s infinite; 
+    }    
+    .blush {
+        background-size: cover;
+        position: absolute;
+       top: 160px;
+       left: 5px; 
+    }
+        
+    .blush {
+        animation: fadeout 5s infinite,
+                    fadein 5s infinite; 
+    }
+        
+    .bell {
+       background-size: cover;
+       position: absolute;
+        top:30px;
+        left: 70px
+ 
+    }
+    .bell {
+        animation: fadeout 5s infinite,
+                    fadein 5s infinite; 
+        }
+
+    .train {
+        background-size: cover;
+        position: relative;
+       top: -1000px;
+       left: 200px;
+    }
+    .train {
+        animation: fadeout 5s infinite,
+                    fadein 5s infinite; 
+        }
+
+    .octopus {
+        background-size: cover;
+        position: absolute;
+       top: 520px;
+       left: 400px; 
+    }
+    .octopus {
+        animation: fadeout 5s infinite,
+                    fadein 5s infinite; 
+        }
+        
+        @keyframes fadeout{
+            from { opacity: 1; }
+            to { opacity: 0; }
+        }
+            
+        @keyframes fadein{
+            from { opacity: 0; }
+            to { opacity: 1; }
+            
+        
+        }
+    </style>
+  </head>
+  
+    <body>
+   
+      
+    <div class="grid-container">
+        <div class="row"> 
+          <div class="col-12 h-644 img-background1">
+               <p class= "lg-1 top-10 span-5">
+                    <span class="span-8"> Sense the Film
+                   </span></p>
+                <p class= "lg-2 top-30 span-5">
+                   <span class="span-8">Chan-Wook Park's Films
+                   </span><br>
+              </p>
+              <p class= "lg-6 top-40 span-5">
+                   <span class="span-8">Website: http://thecharles.com/
+                   </span><br>
+              </p>
+              <p class= "lg-3 top-30 span-1">
+                   <span class="">Thirst
+                   </span><br>
+              </p>
+              <p class= "lg-5 top-17 span-13">
+                   <span class="">March 10th
+                   </span><br>
+              </p>
+              <p class= "lg-3 top-60 span-5">
+                   <span class="span-6">Miss Hongdangmu
+                   </span>
+                <p class= "lg-5 top-30 span-12">
+                   <span class="">March 11th
+                   </span><br>
+              </p>
+              <p class="col-12 h-644 img-hole">
+            </p>
+              <p class="col-12 h-644 img-blood"><img class="blood" src="images/blood_02.png">
+            </p>
+              <p class="col-12 h-644 img-blush"><img class="blush" src="images/blush_02.png">
+            </p>
+              <p class="col-12 h-644"><img class="train" src="images/train_03.png">
+            </p>
+              <p class="col-12 h-644 img-blush"><img class="octopus" src="images/octopus_03.png">
+            </p>
+
+    </div>
+        
+        <div class="row"> 
+          <div class="col-12 h-497 width-1200 img-background2">
+                <p class= "lg-3 top-15 span-5">
+                   <span class="span-5">Old Boy
+                   </span>
+              </p><br>  
+              <p class= "lg-5 top-42 span-14">
+                   <span class="">March 12th
+                   </span><br>
+              </p>
+                <p class= "lg-3 top-61 span-5">
+                   <span class="span-5">Snowpiercer
+                   </span>
+              </p>  
+              <p class= "lg-5 top-59 span-15">
+                   <span class="">March 13th
+                   </span><br>
+              </p>
+                  </div>
+
+    </div>  
+        
+        <div class="row"> 
+          <div class="h-578 width-1200 img-background3">
+              <img class="bells" src="images/bells_03.png">
+              <p class= "lg-3 top-01 span-1">
+                   <span class="span-6">The Handmaiden
+                   </span>
+              </p> 
+              <p class= "lg-5 top-94 span-16">
+                   <span class="">March 14th
+                   </span><br>
+              </p>
+              <p class= "lg-6 top-89 span-1">
+                   <span class="span-1"> Location : The Charles Theatre, 1711 N Charles St, Baltimore, MD 21201
+                   </span> 
+              </p>  
+            </div>
+            
+    </div>
+    
+    
+  </body>
+</html>

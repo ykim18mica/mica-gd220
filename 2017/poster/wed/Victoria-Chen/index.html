@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Miyazaki Hayao</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    
+    <style>
+	  
+	  html{
+		font-family:"RobotoMono-ThinItalic", sans-serif;
+		
+	  }
+
+	  .img-1{
+		background-image: url(images/web-poster-mockup-template_01.gif);
+		background-size:cover;
+		height: 100px;
+		
+	  }	
+	  .img-2{
+		background-image: url(images/web-poster-mockup-template_02.gif);
+		background-size:cover;
+		height: 199px;
+	  }
+	  .img-3{
+		background-image: url(images/web-poster-mockup-template_03.gif);
+		background-size:cover;
+		height: 299px;
+	  }
+	  .img-4{
+		background-image: url(images/web-poster-mockup-template_04.gif);
+		background-size:cover;
+		height: 100px;
+		}
+	  .img-5{
+		background-image: url(images/web-poster-mockup-template_05.gif);
+		background-size:cover;
+		height: 202px;
+	  }
+	  .img-6{
+		background-image: url(images/web-poster-mockup-template_06.gif);
+		background-size:cover;
+		height: 300px;
+	  }
+	  
+	  .img-7{
+		background-image: url(images/web-poster-mockup-template_07.gif);
+		background-size:cover;
+		height: 297px;
+	  }
+	  
+	   .img-8{
+		background-image: url(images/web-poster-mockup-template_08.jpg);
+		height: 95px;
+		background-size:cover;
+	  }
+		
+	  .gongqijun{color: white;
+				 font-size:90px;
+				 left: 120px;
+				 position: absolute;
+		       ;}	
+		
+		.riyu{color: black;
+				 font-size:55px;
+				 left: 120px;
+				position: absolute; 
+				top: 200px;}  
+		
+		.riyu2{
+			color: black;
+				 font-size:55px;
+				 left: 600px;
+				position: absolute; 
+				top: 200px;}  
+		
+		.monvshijian{
+			font-size: 15px;
+			color: white;
+			position: absolute;
+			line-height: 20px;
+			left:900px;
+			top:420px;
+		    }
+		
+		 
+		.monvriyu{
+			font-size: 15px;
+			color: black;
+			position: absolute;
+			left:900px;
+			top:465px;
+			}
+		
+		.skycity{
+			font-size: 15px;
+			color: white;
+			position: absolute;
+			line-height: 20px;
+			left: 990px;
+			top: 790px;
+		}
+		
+		.skycityriyu{
+			font-size: 15px;
+			color: black;
+			position: absolute;
+			line-height: 20px;
+			left: 990px;
+			top: 833px;
+		}
+		
+		.longmao{
+			font-size: 15px;
+			color: white;
+			position: absolute;
+			line-height: 20px;
+			left: 140px;
+			top: 590px;
+		}
+		
+		.longmaoriyu{
+			font-size: 15px;
+			color: black;
+			position: absolute;
+			left: 140px;
+			top: 635px;
+		}
+		
+		.qian{
+			font-size: 15px;
+			color: white;
+			position: absolute;
+			line-height: 20px;
+			left: 110px;
+			top: 1100px;
+		}
+		
+		.qianriyu{
+			font-size: 15px;
+			color: black;
+			position: absolute;
+			left: 110px;
+			top: 1148px;
+		}
+		
+		.hong{
+			z-index: 1;
+			font-size: 15px;
+			color: white;
+			position: absolute;
+			line-height: 20px;
+			left: 900px;
+			top: 1300px;
+		}
+		
+		.hongriyu{
+			font-size: 15px;
+			color: black;
+			position: absolute;
+			left: 900px;
+			top: 1348px;
+			z-index: 1;
+		}
+		
+		.longmaobody{
+			left: 287px;
+			position: absolute;
+			top:500px;
+			}
+		.longmaoeye{
+			left: 352px;
+			position: absolute;
+			top:555px;
+			animation: fadeIn 1s infinite;
+		}
+		
+		.yun1{
+				position: fixed;
+				left: 840px;
+			
+		}
+		
+		.yun2{
+			position: fixed;
+			left: 100px;
+			top: 300px;
+			}
+		
+		.yun3{
+			position: fixed;
+			left: 400px;
+			top: 480px;
+		}
+		
+		.wangzhi{
+			font-family: serif;
+			font-size: 15px;
+			left: 540px;
+			position: absolute;
+			top: 1500px;
+		}
+		.dizhi{
+			font-family: serif;
+			font-size: 15px;
+			left: 430px;
+			position: absolute;
+			top: 1520px;
+		}
+		
+		@keyframes fadeIn {
+  			0% { opacity: 0; }
+  			50% { opacity: 1; }
+  			100% { opacity: 0; }
+        }
+		
+		.xian1{
+			position: absolute;
+			left: 900px;
+			top: 470px;
+			animation: move 1.5s infinite;
+			  animation-delay: 0.1s;
+		}
+		
+		.xian2{
+			position: absolute;
+			left: 900px;
+			top: 520px;
+			animation: move 2s infinite;
+			animation-delay: 0.2s;
+		}
+		
+		.xian3{
+			animation: move 2s infinite;
+			animation-delay: 0.4s;
+			position: absolute;
+			left: 900px;
+			top: 580px;
+		}
+		
+		@keyframes move {
+     0%   { left: 900px; }
+     50%  { left: 970px; }
+     100% { left: 900px; }
+		}
+			
+		
+		.bi{
+		   left: 240px;
+			top:1100px;
+			position: absolute;
+		    }
+
+		.li{
+			left: 271.2px;
+			top: 1104px;
+			position: absolute;
+			animation: fadeIn 4s infinite;
+			}
+	
+		.nvhai{
+			position: absolute;	
+			left: 840px;	
+			top:1150px;
+			animation: move1 3.5s infinite linear;
+			}
+	@keyframes move1 {
+     0%   { left: 840px;
+		    top: 1150px;}
+	 25%  {left: 920px;
+			top: 1200px;}
+	 50%  { left: 1000px; 
+			top: 1320px}
+	 75%  {left: 820px;
+			top: 1350px;}
+     100% { left: 840px;
+		  top: 1150px;}
+		}
+		
+		.feng1{
+			z-index: 1;
+			position: absolute;	
+			left: 460px;
+			top: 533px;
+			animation: move2 5s infinite linear;
+		}
+		@keyframes move2 {
+     0%   { left: 460px;
+		    top: 533px;}
+	 25%  {left: 400px;
+			top: 540px;}
+	 50%  {left: 350px;
+			top: 600px;}
+	 100% { left: 380px;
+		  top: 690px;}
+		}
+		
+		.feng3{
+			position: absolute;
+			z-index: 1;
+			left: 500px;
+			top: 600px;
+			animation: move3 infinite linear 4s;
+			}
+		
+		
+		.feng2{
+			z-index: 1;
+			position: absolute;	
+			left: 480px;
+			top: 550px;
+			animation: move3 infinite linear 6s;
+		}
+		@keyframes move3 {
+     0%   { left: 480px;
+		    top: 550px;}
+	 25%  {left: 400px;
+			top: 580px;}
+	 50%  {left: 320px;
+			top: 620px;}
+	 100% { left: 280px;
+		  top: 650px;}
+		
+			
+
+  </style>
+  </head>
+  <body>
+   
+    <div class="grid-container">
+			
+			<div class="row">
+			  <div class="col-12 img-1 "></div>
+				
+			</div>
+	  		<div class="row">
+				<div class="col-12 img-2">
+					<p class="gongqijun">MIYAZAKI HAYAO</p>
+					<p class="riyu">みやざき</p>
+					<p class="riyu2">はやお</p>
+					<img class="yun1" src="images/yun1.png">
+					
+				</div>
+	        </div>
+	  		<div class="row">
+	        <div class="col-12  img-3 ">
+					<p class="monvshijian">March 10 / 6pm/<br>
+										   Kiki's Delivery Service<br>
+																</p>
+				<p class="monvriyu"> 魔女の宅急便</p>
+				</div>
+			    
+				<div class="fengye">
+				<img class="feng1" src="images/yezi1.png">
+				<img class="feng2" src="images/yezi2.png">
+				<img class="feng3" src="images/yezi3.png">
+				</div>
+				<img class="yun2" src="images/yun2.png">
+		
+		
+		
+		</div>
+	  		
+	  		<div class="row">
+	        <div class="col-12 img-4 ">
+				<p class="longmao">March 12 / 8pm/<br>
+                                   Tonari no Totoro<br>
+				</p>
+				<p class="longmaoriyu">となりのトトロ</p>
+			    <div class="longmaobody">
+				<img src="images/l1.png"></div>
+				<div class="longmaoeye">
+					<img src="images/eyes.png"></div>
+				<div class="weiqi">
+				<img class="xian1" src="images/xian1.png">
+				<img class="xian2" src="images/xian2.png">
+				<img class="xian3" src="images/xian3.png">
+				</div>
+				</div>
+				
+				
+				
+	        </div> 
+	  
+	  		<div class="row">
+	        <div class="col-12  img-5 ">
+				<p class="skycity">March 13/ 3pm/<br>
+								   Laputa<br></p>
+				<p class="skycityriyu">天空の城ラピュタ</p>
+				</div>
+				<img class="yun3" src="images/yun3.png">
+	        </div> 
+	  
+	  		<div class="row">
+	        <div class="col-12  img-6 ">
+				<p class="qian">March 11 / 5pm/<br>
+                                Spirited Away<br>
+				</p>
+				<p class="qianriyu">千と千尋の神隠し</p>
+				<div class="bi">
+				<img src="images/heihei_2.png">
+				</div>
+				<div class="li">
+				<img src="images/lian.png">
+				</div>
+				</div>
+				
+	        </div> 
+	  
+	  		<div class="row">
+	        <div class="col-12  img-7 ">
+				<p class="hong">March 14/ 10pm/<br>
+                                Whisper of the Heart<br>
+				</p>
+				<p class="hongriyu">耳をすませば</p>
+				<div class="nvhai1">
+				<img class="nvhai" src="images/xiaonvhai_1.png">
+				</div>
+	        </div>
+				<p class="wangzhi"> http://thecharles.com/
+									</p>
+				<p class="dizhi">The Charles Theatre, 1711 N Charles St, Baltimore, MD 21201</p>
+				</div> 
+			
+	  
+	  		<div class="row">
+	        <div class="col-12  img-8 "></div>
+				
+	        </div> 
+	  
+			
+			
+			
+    </div>
+    
+    
+  </body>
+</html>

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>YOUTH</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      html{
+        font-family: helvetica, sans-serif;
+        font-size: 120%;
+        color: white;
+      }
+      .vertical-grey1{
+        height: 350%;
+        border-left: .1em solid lightgrey;
+        top: 50%;
+        left: 25%;
+        position: absolute;
+      }
+      .vertical-grey2{
+        height: 350%;
+        border-left: .1em solid lightgrey;
+        top: 50%;
+        left: 37.5%;
+        position: absolute;
+      }
+     .vertical-grey3{
+        height: 350%;
+        border-left: .1em solid lightgrey;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+      }
+     .vertical-grey4{
+        height: 350%;
+        border-left: .1em solid lightgrey;
+        top: 50%;
+        left: 62.5%;
+        position: absolute;
+      }
+      .vertical-grey5{
+        height: 350%;
+        border-left: .1em solid lightgrey;
+        top: 50%;
+        left: 75%;
+        position: absolute;
+      }
+      .horizontal-red1{
+        border-top: .1em solid red;
+        top: 25.1%;
+        left: 0%;
+        position: absolute;
+        width: 50%;  
+      } 
+      .horizontal-red2{
+        border-top: .1em solid red;
+        top: 40.4%;
+        left: 50%;
+        position: absolute;
+        width: 50%;  
+      } 
+      .horizontal-red3{
+        border-top: .1em solid red;
+        top: 69.78%;
+        left: 25%;
+        position: absolute;
+        width: 25%;  
+      }   
+      .horizontal-red4{
+        border-top: .1em solid red;
+        top: 84.65%;
+        right: 0%;
+        position: absolute;
+        width: 37.5%;  
+      } 
+      .horizontal-red5{
+        border-top: .1em solid red;
+        top: 100%;
+        left: 0%;
+        position: absolute;
+        width: 25%;  
+      }    
+      .horizontal-red6{
+        border-top: .1em solid red;
+        top: 150%;
+        left: 0%;
+        position: absolute;
+        width: 100%;  
+      }        
+      .vertical-red1{
+        height: 87%;
+        border-left: .1em solid red;
+        bottom: 35%;
+        left: 25%;
+        position: absolute;
+      }
+      .vertical-red2{
+        height: 87%;
+        border-left: .1em solid red;
+        bottom: 35%;
+        left: 37.5%;
+        position: absolute;
+      }      
+      .vertical-red3{
+        height: 87%;
+        border-left: .1em solid red;
+        bottom: 35%;
+        left: 50%;
+        position: absolute;
+      }   
+      .vertical-red4{
+        height: 87%;
+        border-left: .1em solid red;
+        bottom: 35%;
+        left: 62.5%;
+        position: absolute;
+      }
+      .vertical-red5{
+        height: 87%;
+        border-left: .1em solid red;
+        bottom: 35%;
+        left: 75%;
+        position: absolute;
+      }      
+      .img-oldman{
+        background-image: url(/images/oldman.png);
+        background-size: cover;
+        }
+        
+      .img-part1{
+        background-image: url(/images/part1.png);
+        background-size: cover;
+      }
+      .img-part2{
+        background-image: url(/images/part2.png);
+        background-size: cover;
+      }
+      .textyouth1{
+        color: white;
+        font-weight:bold;
+        letter-spacing: 7.37em;
+        position: absolute;
+        left: 24.5%;
+        top: 47.4%;
+      }
+      .text-p1{
+        position: absolute;
+        font-weight: thin;
+        top: 22.3%;
+        left: 39%;
+        letter-spacing: .2em;
+      }
+      .text-p2{
+        position: absolute;
+        font-weight: thin;
+        top: 27%;
+        left: 51.5%;
+        letter-spacing: .1em;
+        line-height: 1.5em;
+      }
+      .text-p3{
+        position: absolute;
+        font-weight: thin;
+        top: 42%;
+        left: 76.5%;
+        letter-spacing: .1em;
+        line-height: 1.5em;
+      }
+      .text-p4{
+        position: absolute;
+        font-weight: thin;
+        top: 55.5%;
+        left: 26.5%;
+        letter-spacing: .1em;
+        line-height: 1.5em;
+      }
+     .text-p5{
+        position: absolute;
+        font-weight: thin;
+        top: 71.5%;
+        left: 64%;
+        letter-spacing: .1em;
+        line-height: 1.5em;
+      }
+     .text-p6{
+        position: absolute;
+        font-weight: thin;
+        top: 86.5%;
+        left: 51.5%;
+        letter-spacing: .1em;
+        line-height: 1.5em;
+      }
+     .text-p7{
+        position: absolute;
+        font-weight: thin;
+        top: 3.5%;
+        left: 14.5%;
+        letter-spacing: .1em;
+        line-height: 1.5em;
+      }
+     .text-p8{
+        position: absolute;
+        font-weight: thin;
+        top: 32%;
+        left: 39.5%;
+        letter-spacing: .1em;
+        line-height: 1.5em;
+      }
+     .text-p9{
+        position: absolute;
+        font-weight: thin;
+        top: 65.5%;
+        left: 64.5%;
+        letter-spacing: .1em;
+        line-height: 1.5em;
+      }
+      .text-p10{
+        position: absolute;
+        font-weight: thin;
+        color: red;
+        top: 43%;
+        line-height: 4.8em;
+        letter-spacing: .2em;
+      }
+      .fly1{
+        position: absolute;
+        font-weight: thin;
+        color: red;
+        top: 28%;
+        letter-spacing: 5.3em;
+        right:3.5%;
+      }
+      .high1{
+        position: absolute;
+        font-weight: thin;
+        color: red;
+        top: 56%;
+        letter-spacing: 5.3em;
+        right: -6.2%;
+        -webkit-transform: rotate(90deg);
+      }
+      .high2{
+        position: absolute;
+        font-weight: thin;
+        color: red;
+        top: 47.8%;
+        letter-spacing: 5.3em;
+        left: -8%;
+        -webkit-transform: rotate(270deg);
+      }
+      .fly2{
+        position: absolute;
+        font-weight: thin;
+        color: red;
+        letter-spacing: 5.3em;
+        left: 1.6%;
+        top: 78%;
+        -webkit-transform: scaleX(-1);
+      }
+      .text-p11{
+        position: absolute;
+        font-weight: thin;
+        color: red;
+        top: 0%;
+        line-height: 4.8em;
+        letter-spacing: .2em;        
+      }
+      .text-p12{
+        position: absolute;
+        font-weight: thin;
+        color: red;
+        top: 20%;
+        right: 33%;
+        letter-spacing: .1em;
+        line-height: 1.5em 
+      }
+      .text-p13{
+        position: absolute;
+        font-weight: thin;
+        color: red;
+        top: 20%;
+        left: 74%;  
+        letter-spacing: .1em;
+        line-height: 1.5em;
+      }
+      .text-p14{
+        position: absolute;
+        font-weight: thin;
+        color: red;
+        top: 28%;
+        left: 74% ;
+        letter-spacing: .1em;
+        line-height: 1.5em; 
+      }   
+      .text-p15{
+        position: absolute;
+        font-weight: thin;
+        color: red;
+        top: 48%;
+        left:6%;  
+        letter-spacing: .1em;
+        line-height: 1.5em;
+      }    
+      .text-p16{
+        position: absolute;
+        font-weight: thin;
+        color: red;
+        top: 59%;
+        left:6%;  
+        letter-spacing: .1em;
+        line-height: 1.5em;
+      }       
+      .textyouth2{
+        color: red;
+        font-weight: bold;
+        letter-spacing: 7.37em;
+        position: absolute;
+        left: 24.5%;
+        top: 64.8%;
+      }
+      .img-child1{
+        background-image: url(/images/child1.png);
+        background-size: cover;
+      }
+      .img-child2{
+        background-image: url(/images/child2.png);
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+   
+    <div class="container">
+     
+
+      <audio controls autoplay>
+        <source src="song/Youth.mp3" type="audio/mpeg">
+      </audio>
+      
+      <div class="row">
+        <div class="col-100 half img-oldman"></div>
+        <div class="vertical-grey1"></div>
+        <div class="vertical-grey2"></div>
+        <div class="vertical-grey3"></div>
+        <div class="vertical-grey4"></div>
+        <div class="vertical-grey5"></div>
+        <p class="textyouth1">YOUTH</p>
+      </div>
+      
+      <div class="row">
+        <div class="col-100 full img-part1"></div>
+        <div class="horizontal-red1"></div>
+        <div class="horizontal-red2"></div>
+        <div class="horizontal-red3"></div>
+        <div class="horizontal-red4"></div>
+        <div class="horizontal-red5"></div>
+        <div class="horizontal-red6"></div>
+        <p class="text-p1">BOY</p>
+        <p class="text-p2">
+          WHEN I<br>
+          LEFT YOU<br>
+          YOU WERE<br>
+          YOUNG
+        </p>
+        <p class="text-p3">
+          I WAS<br>
+          GONE<br>
+          BUT<br>
+          NOT MY<br>
+          LOVE 
+        </p>
+        <p class="text-p4">
+          YOU<br>
+          WERE<br>
+          CLEARLY<br>
+          MEANT<br>
+          FOR<br>
+          MORE
+        </p>
+        <p class="text-p5">
+          THAN<br>
+          A LIFE<br>
+          LOST<br>
+          IN THE<br>
+          WAR
+        </p>
+        <p class="text-p6">
+          ALL I<br>
+          WANT'S<br>
+          YOU<br>
+          TO BE<br>
+          HAPPY
+        </p>
+      </div>
+     
+      <div class="row">
+        <div class="col-75 half img-part2"></div>
+        <p class="text-p7">
+          FREE TO<br>
+          RUN<br>
+          GET<br>
+          DIZZY ON<br>
+          CAFFEINE
+        </p>
+        <p class="text-p8">
+          FUNNY<br>
+          FRIENDS<br>
+          THAT<br>
+          MAKE<br>
+          YOU<br>
+          LAUGH
+        </p>
+        <p class="text-p9">
+          AND<br>
+          MAYBE<br>
+          YOU'RE<br>
+          JUST A<br>
+          LITTLE<br>
+          BIT<br>
+          DAPPY
+        </p>
+        
+      </div>
+      <div class="row">
+        <div class="col-100 full"></div>
+        <P class="text-p10 center-h">
+          FEEL YOUR MOTHER AT YOUR SIDE<br>
+          DON'T YOU KNOW YOU GOT MY EYES<br>
+          I'LL MAKE YOU
+        </P>
+        <p class="fly1">FLY</p>
+        <p class="high1">HIGH</p>
+        <p class="fly2">FLY</p>
+        <p class="high2">HIGH</p>
+      </div>
+      <div class="row">
+        <div class="col-100 half"></div>
+        <p class="text-p11 center-h">
+          YOU'LL BE HAPPY ALL THE TIME<br>
+          I KNOW YOU CAN MAKE IT RIGHT
+        </p>
+      </div>
+      
+      <div class="row">
+        <div class="col-100 threequarter img-child1"></div>
+        <p class="text-p12">BOY</p>
+        <p class="text-p13">
+          NOW YOUR LIFE IS<br>
+          BACK TO FUN
+        </p>
+        <p class="text-p14">
+          BUT YOU SEE THAT'S<br>
+          NOT FOR LONG<br>
+        </p>
+        <p class="text-p15">
+          CAUSE I KNOW<br>
+          YOU'LL FEEL THE<br>
+          GHOST
+        </p>
+        <p class="text-p16">
+          OF THE MEMORY<br>
+          SO WARM
+        </p>
+      </div>
+      
+      <div class="row">
+        <div class="col-100 threequarter img-child2"></div>
+        <div class="vertical-red1"></div>
+        <div class="vertical-red2"></div>
+        <div class="vertical-red3"></div>
+        <div class="vertical-red4"></div>
+        <div class="vertical-red5"></div>
+        <p class="textyouth2">YOUTH</p>
+      </div>
+      
+    </div>
+    
+    
+    <!-- DO NOT CHANGE CODES BELOW-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.lazyload.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $('div').lazyload(
+          effect: "fadeIn"
+        );
+      });
+    </script>
+  </body>
+</html>

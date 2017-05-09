@@ -1,0 +1,192 @@
+    .header{
+        height:20px;
+        background-color: deepskyblue;
+      }
+      ul.nav li{
+        display: inline;
+        padding: 74px;
+        
+      }
+      
+      ul.nav{
+        background-color: deepskyblue;
+        height:30px;
+      }
+      
+      ul.nav li a{
+        text-decoration: none;
+        color: white;
+				top: 20%;
+        
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body, figure { 
+        margin: 0; background: white;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 10;
+      }
+      .profilemac{
+        margin-top: 100px;
+        }
+			.profiletext{
+				 font-family: 'Open Sans Condensed', sans-serif;
+					padding-left: 400px;
+					margin-top: -400px;
+					line-height: 25px;
+					color: white;
+					font-size: 15px;
+				}
+      body{
+        background-color:rgb(248,181,184);
+      }
+      .text1{
+        padding: 0px;
+				line-height: 30px;
+        margin-top: 10px;
+        color:white;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 20px;
+        }
+      }
+      .men2{
+        margin-top: 55px;
+      }
+      .Jolbytitle{
+        font-family: 'Open Sans Condensed', sans-serif;
+				padding-left: 350px;
+				color:white;
+				margin-top: -640px;
+				font-size: 20px;
+      }
+		.Jolbytext{
+        font-family: 'Open Sans Condensed', sans-serif;
+				padding-left: 350px;
+				margin-top: 50px;
+				color: white;
+				font-size: 15px;
+      }
+      .Jolbytext2{
+        font-family: 'Open Sans Condensed', sans-serif;
+				margin-left: 350px;
+				margin-top: 70px;
+				color: white;
+				font-size: 15px;
+				line-height: 20px;
+      }
+      .man1{
+       margin-left: 750px;
+				margin-top: -380px;
+      }
+      .man{
+       margin-left: 750px;
+			margin-top: 20px;
+      }
+      .man1text{
+				 font-family: 'Open Sans Condensed', sans-serif;
+        margin-top:-332px;
+        margin-left: 620px;
+				color: white;
+				font-size: 14px;
+      }
+       .mantext{
+					font-family: 'Open Sans Condensed', sans-serif;
+        margin-top:190px;
+       	 margin-left: 620px;
+				color: white;
+				font-size: 14px;
+      }
+      .men3{
+        margin-top: 70px;
+        margin-left: 30px;
+        }
+      .underwaretitle{
+				 font-family: 'Open Sans Condensed', sans-serif;
+        margin-top: -700px;
+				margin-left: 330px;
+				color: white;
+				font-size: 20px;
+        }
+      .underwaretext{
+        margin-top: 30px;
+        margin-left: 330px;
+				color: white;
+				line-height: 20px;
+        }
+      .underwaretext1{
+       margin-top: 20px;
+        margin-left: 330px;
+				color: white;
+				line-height: 20px;
+      }
+      .creativetext{
+			 font-family: 'Open Sans Condensed', sans-serif;
+      margin-top: -700px;
+			margin-left: 250px;
+			color: white;
+			font-size: 15px;
+			line-height: 20px;
+      }
+      .creativetext1{
+        margin-top: 50px;
+        margin-left: 250px;
+				font-size: 15px;
+				color: white;
+				line-height: 20px;
+      }
+      .ticketinfo{
+			font-family: 'Open Sans Condensed', sans-serif;
+       margin-top: -200px;
+        margin-left: 350px;
+				color: white;
+				font-size: 15px;
+				line-height: 25px;
+      }
+      .ticket{
+        margin-top: 100px;
+				margin-left: 300px;
+}
+			.date{
+				font-family: 'Open Sans Condensed', sans-serif;
+				font-size: 40px;
+				margin-left: 700px;
+				padding-top: 30px;
+				color: white;
+			}
+			.text2{
+				margin-left: 800px;
+				margin-top: -550px;
+			}
+       .text1{
+				margin-top: 400px;
+			}
+			.text3{
+				margin-top: -700px;
+				margin-left:100px;
+				line-height: 30px;
+				color: white;
+			}
+			.text4{
+				font-family: 'Open Sans Condensed', sans-serif;
+				margin-right: 270px;
+				margin-top: -10px;
+				color: white;
+				font-size: 17px;
+				line-height: 25px;
+				text-align: right
+	
+}
+				.threemen{
+				margin-left: 550px;
+}
+
+				.logo {
+				width: auto}
+				
+
+.logo:hover {
+	transition: all .2s ease-in-out;
+  			transform: scale(1.1);
+}
+			

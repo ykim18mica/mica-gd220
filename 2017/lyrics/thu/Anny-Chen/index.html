@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Technicolor Beat</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
+    
+    <style>
+      
+      /* YOUR CSS CODE HERE */
+      html {
+        font-family: 'Reenie Beanie', cursive;
+        
+        /* gradient animation */
+        background: linear-gradient(315deg, #ecc113, #e46093);
+        background-size: 400% 400%;
+        -webkit-animation: AnimationName 13s ease infinite;
+        -moz-animation: AnimationName 13s ease infinite;
+        -o-animation: AnimationName 13s ease infinite;
+        animation: AnimationName 13s ease infinite;
+      }
+      
+      @-webkit-keyframes AnimationName {
+        0%{background-position:11% 0%}
+        50%{background-position:90% 100%}
+        100%{background-position:11% 0%}
+      }
+      @-moz-keyframes AnimationName {
+        0%{background-position:11% 0%}
+        50%{background-position:90% 100%}
+        100%{background-position:11% 0%}
+      }
+      @-o-keyframes AnimationName {
+        0%{background-position:11% 0%}
+        50%{background-position:90% 100%}
+        100%{background-position:11% 0%}
+      }
+      @keyframes AnimationName {
+        0%{background-position:11% 0%}
+        50%{background-position:90% 100%}
+        100%{background-position:11% 0%}
+      }
+      
+      /* type */
+      .sm {
+        font-size: 3vw;
+      }
+      
+      .md-1 {
+        font-size: 4vw;
+      }
+      
+      .md-2 {
+        font-size: 5vw;
+      }
+      
+      .lg {
+        font-size: 6vw;
+      }
+      
+      .white {
+        color: white;
+      }
+      
+      .black {
+        color: black;
+      }
+      
+      .text-come {
+        top: 85%;
+      }
+      
+      .text-settle1 {
+        top: 5%;
+        left: 15%;
+      }
+      
+      .text-settle2 {
+        top: 85%;
+        left: 15%;
+      }
+      
+      .text-let-loose {
+        left: 60%;
+      }
+      
+      .text-and-i-feel {
+        left: 18%;
+      }
+      
+      .text-love {
+        left: 30%;
+      }
+      
+      .text-safe {
+        left:30%;
+        top: 83%;
+      }
+      
+      .text-jump{
+        left: 10%;
+      }
+      
+      .text-into{
+        left: 25%;
+      }
+      
+      .text-the{
+        left: 40%;
+      }
+      
+      .text-heat{
+        left: 55%;
+      }
+      
+      .text-spinning {
+        left: 49%;
+        line-height: 5vw;
+      }
+      
+      .text-beat1 {
+        line-height: 5vw;
+        top: 65%;
+      }
+      
+      .text-warm-love {
+        left: 15%;
+        top: 53%;
+      }
+      
+      .text-spinning-on {
+        left: 76%;
+        top: 25%;
+      }
+      
+      .text-tech-beat {
+        left: 28%;
+        top: 55%;
+        text-align: center;
+      }
+      
+      .text-beat-beat {
+        top: 75%;
+        left: 55%;
+      }
+      
+      .text-shadow-white {
+        text-shadow: .7vw .7vw 0vw #FFF;
+      }
+      
+      .text-shadow-black {
+        text-shadow: .7vw .7vw 0vw #000;
+      }
+      
+      .text-waiting {
+        top: 5%;
+        left: 3%;
+      }
+      
+      .text-jump-into {
+        top: 12%;
+        left: 50%;
+      }
+      
+      .text-falling {
+        top: 13%;
+        left: 51%;
+      }
+      
+      .text-moving {
+        top: 19%;
+        left: 71%;
+      }
+      
+      .text-spinning2 {
+        top: 18%;
+        left: 70%;
+      }
+      
+      .text-found-another {
+        top: 27%;
+        left: 17%;
+      }
+      
+      .text-in-a-tech {
+        top: 26%;
+        left: 3%;
+      }
+      
+      .text-spinning3 {
+        left: 25%;
+      }
+      
+      .text-in-a-tech-beat {
+        left: 70%;
+        top: 84%;
+        line-height: 3.5vw;
+      }
+      
+      .text-beat3 {
+        left: 60%;
+        top:20%;
+      }
+      
+      /* images */
+      .img-bed-nude {
+        background-image: url(images/img-bed-nude.png);
+        background-size: cover;
+      }
+      
+      .img-bed1 {
+        background-image: url(images/img-bed1.png);
+        background-size: cover;
+      }
+      
+      .img-clouds-vertical {
+        background-image: url(images/img-clouds-vertical.png);
+        background-size: cover;
+      }
+      
+      .img-water {
+        background-image: url(images/img-water.png);
+        background-size: cover;
+      }
+      
+      .img-hands {
+        background-image: url(images/img-hands.png);
+        background-size: cover;
+      }
+      
+      .img-hazy-skyline {
+        background-image: url(images/img-hazy-skyline.png);
+        background-size: cover;
+      }
+      
+      .img-star-hands {
+        background-image: url(images/img-star-hands.png);
+        background-size: cover;
+      }
+      
+      .img-light {
+        background-image: url(images/img-lights-on-person.png);
+        background-size: cover;
+      }
+      
+      .img-bed2 {
+        background-image: url(images/img-bed2.png);
+        background-size: cover;
+      }
+      
+      .img-collage-bed {
+        background-image: url(images/img-collage-bed-nude-stars.png);
+        background-size: cover;
+      }
+      
+      .img-t1 {
+        background-image: url(images/img-transparent-part1.png);
+        background-size: cover;
+      }
+      
+      .img-t2 {
+        background-image: url(images/img-transparent-part2.png);
+        background-size: cover;
+      }
+      
+    </style>
+  </head>
+  
+  <body>
+    <div class="container">
+      
+      <div class="row">
+        <div class="col-25 quarter img-bed-nude">
+        </div>
+        
+        <div class="col-25 quarter">
+          <p class="center-h center-v sm">
+            lay
+          </p>
+        </div>
+        
+        <div class="col-25 quarter">
+          <p class="center-h center-v sm">
+            down
+          </p>
+        </div>
+        
+        <div class="col-25 half img-clouds-vertical">
+          <p class="center-h top-22 sm">
+            your
+          </p>
+          <p class="center-h top-62 sm">
+            slow
+          </p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-offset-25 col-25 quarter img-bed1">
+          <p class="center-h top-80 sm white">
+            come settle down
+          </p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-offset-25 col-25 quarter">
+          <p class="center-h sm text-come">
+            come settle down
+          </p>
+        </div>
+        <div class="col-50 quarter img-hazy-skyline">
+          <p class="text-settle1 sm">
+            settle down
+          </p>
+          <p class="text-let-loose center-v md-1 white">
+            let loose<br>
+            your glow
+          </p>
+          <p class="text-settle2 sm white">
+            settle down
+          </p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-25 half img-water">
+          <p class="text-and-i-feel top-10 md-1">
+            and I feel<br>
+            life for<br>
+            the very<br>
+            first time
+          </p>
+        </div>
+        <div class="col-50 half">
+          <p class="text-love top-50 md-1">
+            love in my arms<br>
+            and the sun in my eyes
+          </p>
+        </div>
+        <div class="col-25 half">
+          <p class="text-safe sm">
+            I feel safe<br>
+            in the 5AM light
+          </p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-offset-25 col-25 quarter img-hands">
+        </div>
+        <div class="col-50 quarter">
+        <p class="center-h center-v md-1">
+          you carry my fears as<br>
+          as the heavens set fire
+        </p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-50 quarter sm white">
+          <p class="text-jump top-50">jump</p>
+          <p class="text-into top-60">into</p>
+          <p class="text-the top-70">the</p>
+          <p class="text-heat top-80">heat</p>
+        </div>
+        
+        <div class="col-50 quarter img-star-hands">
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-75 half img-light">
+          <p class="text-spinning md-1 white">
+            spinning on our feet in a technicolor beat<br>
+            you and me caught up in a dream in a technicolor beat
+          </p>
+        </div>
+        <div class="col-25 half">
+          <p class="text-beat1 sm white">
+            beat<br>
+            beat<br>
+            beat
+          </p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-25 quarter">
+          <p class="sm text-warm-love">
+            warm, unalone<br>
+            come settle down,<br>
+            settle down
+          </p>
+        </div>
+        
+        <div class="col-25 quarter">
+          <p class="sm text-warm-love">
+            swing me your bones<br>
+            come settle down,<br>
+            settle down
+          </p>
+        </div>
+        
+        <div class="col-25 quarter">
+          <p class="sm text-warm-love">
+            and I feel life<br>
+            for the very<br>
+            first time
+          </p>
+        </div>
+        
+        <div class="col-25 quarter img-bed2">
+          <p class="sm text-warm-love white">
+            love in my arms,<br>
+            and the sun<br>
+            in my eyes
+          </p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-50 quarter img-collage-bed">
+        </div>
+        <div class="col-50 quarter">
+        <p class="md-1 white center-h top-70">
+            I feel safe in the 5AM light
+        </p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-100 quarter">
+          <p class="lg white center-h top-30">
+            you carry my fears<br>
+            as the heavens set fire
+          </p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-100 half img-t1">
+          <p class="text-jump top-10 white sm">jump</p>
+          <p class="text-spinning-on white sm">spinning on our feet</p>
+          <p class="text-into top-20 white sm">into</p>
+          <p class="text-the top-30 white sm">the</p>
+          <p class="text-heat top-40 white sm">heat</p>
+          <p class="text-tech-beat white sm">
+            in a technicolor <span class="black">beat</span><br>
+            you and me<br>
+            caught up in a <span class="black">dream</span><br>
+            <span class="black">in a technicolor</span>
+          </p>
+          <p class="text-beat-beat md-2 text-shadow-white">
+            beat<br>
+          </p>
+          <p class="md-2 center-h top-90">
+            give me one drop, I can feel you make me lose control
+          </p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-100 full img-t2">
+          <p class="white sm text-waiting">
+            we'll be walking in the water<br>
+            when we're <span class="text-shadow-black">moving in a technicolor beat</span>
+          </p>
+          <p class="text-falling sm">
+            falling off the ceiling
+          </p>
+          <p class="text-jump-into white sm">
+            jump into the heat
+          </p>
+          <p class="text-moving sm">
+            we're moving
+          </p>
+          <p class="text-spinning2 sm white">
+            spinning on our feet
+          </p>
+          <p class="text-found-another sm">
+            found another feeling
+          </p>
+          <p class="text-in-a-tech white sm">
+            in a technicolor beat you and me
+          </p>
+          <p class="md-2 center-h top-36 white">
+            caught up in a dream, in a technicolor beat
+          </p>
+          <p class="text-jump top-80 white md-1">
+            jump<br>
+            into<br>
+            the<br>
+            heat
+          </p>
+          <p class="top-80 text-spinning3 md-1">
+            spinning on our feet
+          </p>
+          <p class="top-80 text-in-a-tech-beat white sm">
+            in a technicolor beat<br>
+            you and me<br>
+            caught up in a dream<br>
+            in a technicolor beat
+          </p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-100 quarter">
+          <p class="text-beat3 white md-2">
+            beat<br>
+            beat<br>
+            beat
+          </p>
+        </div>
+      </div>
+      
+    <!-- container closing div -->
+    </div>
+    
+    
+    <!-- DO NOT CHANGE CODES BELOW-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.lazyload.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $('div').lazyload(
+          effect: "fadeIn"
+        );
+      });
+    </script>
+  </body>
+</html>

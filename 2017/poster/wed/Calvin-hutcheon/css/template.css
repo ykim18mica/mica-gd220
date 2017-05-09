@@ -1,0 +1,393 @@
+/*-- all elements will use border-box --*/
+html {
+  box-sizing: border-box;
+}
+*, :before, :after {
+  box-sizing: inherit; 
+}
+
+/*-- container for all the columns --*/
+.grid-container{
+  width: 1200px; 
+  margin: 0 auto;
+}
+
+/*-- our cleafix hack -- */ 
+.row:before, 
+.row:after {
+  content:"";
+  display: table ;
+  clear:both;
+}
+
+/*-- this is some smart stuff bellow. See how it selects all with "these" characteristics!--*/
+
+[class*='col-'] {
+  float: left; 
+  min-height: 1px; 
+  width: 8.33%; 
+    
+  /*-- our gutter -- */
+  padding: 0 0px; /* top-bottom right-left */
+}
+
+/*-- columns with different widths --*/
+.col-1{ width: 8.333333%; }
+.col-2{ width: 16.666666%; }
+.col-3{ width: 25%;    }
+.col-4{ width: 33.333333%; }
+.col-5{ width: 41.666667%; }
+.col-6{ width: 50%; }
+.col-7{ width: 58.333333%; }
+.col-8{ width: 66.666666%; }
+.col-9{ width: 75%; }
+.col-10{ width: 83.333333%; }
+.col-11{ width: 91.666667%; }
+.col-12{ width: 100%;   }
+
+/*-- use thse to offset columns --*/
+.col-offset-1 { margin-left: 8.333333%; }
+.col-offset-2 { margin-left: 16.666666%; }
+.col-offset-3 { margin-left: 25%; }
+.col-offset-4 { margin-left: 33.333333%; }
+.col-offset-5 { margin-left: 41.666667%; }
+.col-offset-6 { margin-left: 50%; }
+.col-offset-7 { margin-left: 58.333333%; }
+.col-offset-8 { margin-left: 66.666666%; }
+.col-offset-9 { margin-left: 75%; }
+.col-offset-10 { margin-left: 83.333333%; }
+.col-offset-11 { margin-left: 91.666667%; }
+
+
+/*-- helpers --*/
+.test,
+.outline {
+  outline: 1px solid red; 
+}
+
+/*background gif */
+
+.back-gif {
+  height: 675px;
+  width: 100%;
+  max-width: 1200px;
+  background-image: url(/images/blankback.gif);
+  background-size: cover;
+}
+
+/* rules for the box which contains the scroll */
+
+.scroll-box {
+  position: absolute;
+  margin: 0 auto;
+  top: ;
+  left: ;
+  width: 100vw;
+  max-width: 1200px;
+  height: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.bounded {
+  width: 3600px;
+}
+
+
+
+/*animation for arrow */
+
+.title-work {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  z-index: 3;
+}
+
+.title-work:hover + .arrow-right {
+  opacity: 1;
+}
+
+.arrow-right {
+  position: fixed;
+  right: 5vw;
+  top: 23vw;
+  
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-left: 40px solid #d8bd86;
+  
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: .5s;
+  transition-timing-function: linear;
+}
+
+/*
+title-work:hover + .arrow-right {
+  opacity: 0;
+}
+*/
+
+
+/*
+@keyframes trasnparency {
+  0% {
+    opacity: 1.0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+*/
+/* Title text*/
+
+.banner-text {
+  width:1200px;
+  height: 60vw;
+}
+
+.title {
+  font-family: "DIN Condensed";
+  font-size: 14vw;
+  color: #d8bd86;
+}
+
+.ing {
+  position: absolute;
+  top: 6.5vw;
+  left: 6.5vw;
+  
+}
+
+.mar {
+  position: absolute;
+  top: 16vw;
+  left: 53vw;
+}
+
+.berg {
+  position: absolute;
+  top: 27vw;
+  left: 50vw;
+}
+
+.man{
+  position: absolute;
+  top: 36vw;
+  left: 2vw;
+}
+
+.dash{
+  position: absolute;
+  top: 20vw;
+  left: 9vw;
+}
+
+.hosted {
+  position: relative;
+  top: -19vw;
+  left: 3vw;
+  font-family: "DIN Alternate";
+  font-size: 1.75vw;
+  color: #473f32;
+  z-index: 2;
+  
+}
+
+/* date and location */
+
+.mind-map {
+  position: relative;
+  top: 20%;
+}
+
+.date-location {
+  position: absolute;
+  width: 1000px;
+  height: 60vw;
+  left: 123%;
+  top: 0px;
+}
+
+.infomat {
+  position: absolute;
+  top: 23vw;
+  font-family: "DIN Condensed";
+}
+
+.n-charles {
+  position: relative;
+  left: 130%;
+  top: -3vw;
+}
+
+.five-films {
+  position: relative;
+  top: 17vw;
+  left: 6vw;
+}
+
+.march-ten {
+  position: relative;
+  top: 17.5vw;
+  left: 8vw;
+}
+
+.local {
+  font-size: 1.5vw;
+  color: #d8bd86;
+}
+
+.five-nights {
+  font-size: 3.15vw;
+  color: #473f32;
+}
+
+.dates {
+  font-size: 1.5vw;
+  color: #d8bd86;
+}
+
+/* Calendar */
+
+.outline {
+  width: 1200px;
+  position: absolute;
+  top: 0px;
+  left: 2400px;
+}
+
+.cycle {
+  position: absolute;
+  top: -4vw;
+}
+
+.cal-box {
+  position: absolute;
+  top: 0;
+  left: 66%;
+  width:33.33333%;
+  height: 60vw;
+}
+
+.cal-item {
+  position: relative;
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 15%;
+}
+
+.all-da-info {
+  display: inline-block;
+  height: 100%;
+  width:30%;
+  background-color: #d8bd86;
+  padding: 2vw;
+  text-align: center;
+}
+
+.big-date {
+  font-family: "DIN Condensed";
+  font-size: 4vw;
+  line-height: 2vw;
+}
+
+.little-date {
+  font-family: "DIN alternate";
+  font-size: 2vw;
+}
+
+.little-time {
+  font-family: "DIN Condensed";
+  font-size: 2vw;
+}
+
+.film-info {
+  clear: none;
+  float: right;
+  height: 100%;
+  width:70%;
+  background-color: #181818;
+  padding-top: 2vw;
+}
+
+.film-title {
+  font-family: "DIN Condensed";
+  text-align: center;
+  font-size: 2.5vw;
+  color:#473f32;
+}
+
+.info-wars {
+  position: relative;
+  top: 1.5vw;
+  left: 33.333%;
+  width: 33.333%;
+  height: 1.5vw;
+  border-radius: 8px;
+  border: 1px solid #d8bd86;
+  padding: .35vw;
+  font-family: "DIN Condensed";
+  font-size: 1vw;
+  color: #d8bd86;
+  text-align: center;
+}
+
+.info-wars:hover {
+  background-color: #d8bd86;
+  color: #181818;
+}
+
+/* the front gif */
+
+.head-gif {
+  position:absolute;
+  padding-top: 100%;
+  width: 110%;
+  top: -10%;
+  left: 10%;
+  z-index: 1;
+  overflow-y: hidden;
+  background-image: url(/images/headgif.2.gif);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* footer*/
+
+.foote {
+  position: relative;
+  padding: .5vw;
+  width: 100vw;
+  max-width: 1200px;
+  text-align: right;
+  clear: left;
+  background-color: #d8bd86;
+  font-family: "DIN alternate";
+  z-index: 4;
+}
+
+.linked {
+  text-decoration: none;
+  color: #181818;
+}
+
+.linked:hover {
+  color: #473f32;
+  text-decoration: underline;
+}
+
+/* scrolling instructions */
+
+.instructions {
+  position: absolute;
+  margin: auto;
+  padding: .5vw;
+  left: 3vw;
+  background-color: #d8bd86;
+  font-family: "DIN condensed";
+  font-size: 1vw;
+  color:#473f32;
+}

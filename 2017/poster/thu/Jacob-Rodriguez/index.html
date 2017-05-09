@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Show Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <script type="javascript" src="jquery-3.1.1.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+
+	
+		
+	
+    <style>
+			
+			.full-page {
+				height: 100vw;
+				width:100vw;
+			background-color:black;
+				
+			}
+			
+			
+					#star {
+				font-weight: 900;
+				font-size: 5vw;
+				color: yellow;
+				top: -5vw;
+				left: 0vw;
+				text-align: center;
+				position: absolute;
+				letter-spacing: 20PX;
+				line-height: 9vw;
+				width: 10vw;
+				text-transform: uppercase;
+				font-family: 'Bowlby One SC', cursive;
+			animation: fade 45s linear infinite;
+				-webkit-animation: fadeinout 45s linear infinite;
+			}
+			
+			#mar {
+				
+				font-weight: 500;
+				font-size: 1vw;
+				color: yellow;
+				top: 10vw;
+				left: 4vw;
+				text-align: center;
+				position: absolute;
+				letter-spacing: 20PX;
+				line-height: 9vw;
+				width: 10vw;
+				text-transform: uppercase;
+				font-family: 'Bowlby One SC', cursive;
+			animation: fade 50s linear infinite;
+				-webkit-animation: fadeinout 50s linear infinite;
+				
+			}
+			#date {
+				font-weight: 900;
+				font-size: 1.3vw;
+				color: yellow;
+				top: 38vw;
+				left: 70vw;
+				text-transform: uppercase;
+				text-align: left;
+				position: absolute;
+				letter-spacing: 1.3PX;
+				line-height: 3vw;
+				z-index: 3000;
+				text-align: left;
+			
+				height: 20px;
+				text-transform: case;
+				font-family: 'noto sans', sans-serif;
+					animation: fade 60s linear infinite;
+				-webkit-animation: fadeinout 60s linear infinite;
+				
+				
+				
+			}
+			
+			
+			#website {
+				font-weight: 900;
+				font-size: 1.3vw;
+				color: yellow;
+				top: 37vw;
+				-webkit-transform: rotate(90deg);
+				left: 83vw;
+				text-transform: lowercase;
+				text-align: left;
+				position: absolute;
+				letter-spacing: 8PX;
+				line-height: 3vw;
+				z-index: 3500;
+				text-align: left;
+				
+				height: 20px;
+				
+				text-transform: case;
+				font-family: 'noto sans', sans-serif;
+					animation: fade 15s linear infinite;
+				-webkit-animation: fadeinout 15s linear infinite;
+				
+				
+				
+				
+			}
+			#dir {
+				
+					font-weight: 800;
+				font-size: 1.1vw;
+				color: yellow;
+				top: 28vw;
+				left: 70vw;
+				text-align: left;
+				position: absolute;
+				letter-spacing: 2PX;
+				line-height: 3vw;
+				z-index: 2000;
+				text-align: left;
+				width:1vw;
+				height: 20px;
+				font-style: italic;
+				text-transform: case;
+				font-family: 'noto sans', sans-serif;
+					animation: fade 30s linear infinite;
+				-webkit-animation: fadeinout 30s linear infinite;
+		
+			}
+			
+			
+			.movie_titles {
+				position: absolute;
+				color: red;
+				font-family: 'Noto Sans', sans-serif; 
+				font-size: 1vw;
+				letter-spacing: 9px;
+				line-height: 40px;
+				top:10vw;
+				height: 1vw;
+				left:70vw;
+				width: 30vw;
+				z-index: 3000;
+				padding: 0px;
+
+
+			}
+			
+			.ep {
+				font-family: 'Noto Sans', sans-serif; 
+				color: azure;
+				text-transform: case;
+				font-size: 2vw;
+				letter-spacing: .6vw;
+				
+				
+			}
+			
+			
+			#episode_one:hover, #episode_two:hover, #episode_three:hover, #episode_four:hover, #episode_five:hover {
+				text-decoration: line-through;
+				display: block;
+				animation: pause;
+				-webkit-animation: pause;
+
+			}
+			
+			
+			#episode_one {
+						
+				color: cornflowerblue;
+				position: absolute;
+				top: 32vw;
+				text-decoration: line-through
+				font-weight: 600;
+				letter-spacing: 10px;
+						animation: fade 30s linear infinite;
+				-webkit-animation: fadeinout 30s linear infinite;
+			}
+		
+			
+						
+			#episode_two {
+
+							animation: fade 5s linear infinite;
+				-webkit-animation: fadeinout  linear infinite;
+					color: mintcream;
+				position: absolute;
+				top: 38vw;
+				animation: fade 30s linear infinite;
+				-webkit-animation: fadeinout 30s linear infinite;
+				font-weight: 800;}			
+		
+					#episode_three {
+							animation: fade 35s linear infinite;
+				-webkit-animation: fadeinout 35s linear infinite;
+					color: aqua;
+				position: absolute;
+				top: 46vw;
+					
+				font-weight: 100
+			
+			}			
+			
+			#episode_four {
+		animation: fade 40s linear infinite;
+				-webkit-animation: fadeinout 40s linear infinite;
+					color: salmon;
+				position: absolute;
+				top: 54vw;
+				font-weight: 100			
+			}
+					#episode_five {
+						animation: fade 42s linear infinite;
+				-webkit-animation: fadeinout 42s linear infinite;					color: yellow;
+				position: absolute;
+				top: 62vw;
+					
+				font-weight: 100			
+			}
+			
+		
+			
+			
+			@keyframes fade {
+  		0%,100% { opacity: 0 }
+  		50% { opacity: 1 }
+			}
+			
+			@-webkit-keyframes fadeinout {
+  		0%,100% { opacity: 0; }
+  		50% { opacity: 1; }
+			}
+
+			@keyframes fadeinout {
+  		0%,100% { opacity: 0; }
+  		50% { opacity: 1; }
+			}
+			
+					
+			@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+			
+			}
+			@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+			}
+			
+		
+			@keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+			
+			}
+			@-webkit-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+			}
+			
+					.saber-2:active {
+				transform: rotate(145deg);
+			}
+			
+			
+			
+			.saber-4 {
+				width: 30vw;
+				border: solid 4px blue;
+				position:absolute;
+				top:25vw;
+				opacity: 1;
+				left:37vw;
+				transform: rotate(90deg);
+				z-index: 3000;
+			}
+			#myCanvas {
+				background-color: black;
+				position: fixed;
+				z-index: 2000;
+			}
+			
+			
+			
+			
+			
+			.saber-blue-highlight {
+				width: 25vw;
+				position: relative;
+				border: solid 10px green;
+				opacity: .3;
+				height: 2vw;;
+				top:-40vw;
+				left:0vw;
+				transform: rotate(0deg);	
+				z-index: 100;
+			}
+			
+	
+			
+			
+			.saber-1 {
+				display:block;
+				width: 300px;
+				border: solid 2px red;
+				position:absolute;
+				top:30vw;
+				left:50vw;
+				transform: rotate(65deg);				
+			}
+			
+			.saber-red-highlight {
+				display:block;
+				width: 310px;
+				border: solid 7px red;
+				position:absolute;
+				opacity: .7;
+				height: 0vw;;
+				top:-.9vw;
+				left:-1vw;
+				transform: rotate(0deg);				
+			}
+			
+			#follower{
+  position : relative;
+  background-color : yellow;
+  width:25px;
+  height:15px;
+  border-radius:50px;
+}
+
+			
+			
+			.
+			
+    </style>
+  </head>
+	
+	
+	
+  <body>
+		
+		<section class="full-page" data-viewport-height="100">
+		
+    <canvas id="myCanvas" width="1400" height="1250">
+			</canvas>
+    		<div id="container">
+			<div class="saber-blue"> 
+				<div class="saber-2"> </div>
+								<div class="saber-3"> </div>
+												<div class="saber-4"> </div>
+				</div>
+			</div>
+			<div id="date">March 10th - march 14th </div>
+			<div id="website">
+http://thecharles.com/</div>
+			<div id="dir">George lucas</div>
+			<div class=movie_titles>
+				<div id="star">Star Wars</div> <div id="mar">Marathon </div> <div id="episode_one"><hr><div class="ep">Episode One:</div> weds @7pm</div><br>
+				<div id="episode_two">	<br><hr><div class="ep"> Episode Two:</div> Thur @7pm</div><br>
+				<div id="episode_three"> <br><hr><div class="ep"> Episode Three:</div> Fri @7pm</div>
+				<div id="episode_four"><br><hr><div class="ep"> Episode Four:</div> Sat @7pm</div><br>
+				<div id="episode_five"><br><hr><div class="ep"> Episode Five: </div> Sun @7pm</div>
+			</div><br>
+
+		</section>
+			
+			
+				<script>
+		
+$(document).mousemove(function(e){
+    $(".saber-2").css({left:e.pageX, top:e.pageY});
+});
+		</script>
+		
+		
+		<script type="text/javascript">
+var mainCanvas = document.getElementById("myCanvas");
+    var mainContext = mainCanvas.getContext('2d');
+ 
+    var circles = [];
+ 
+    function Circle(radius, speed, width, xPos, yPos) {
+      this.radius = radius;
+      this.speed = speed;
+      this.width = width;
+      this.xPos = xPos;
+      this.yPos = yPos;
+      this.opacity = 0.05 + Math.random() * 0.5;
+ 
+      this.counter = 0;
+ 
+      var signHelper = Math.floor(Math.random() * 2);
+ 
+      if (signHelper == 1) {
+        this.sign = -1;
+      } else {
+        this.sign = 1;
+      }
+    }
+ 
+    Circle.prototype.update = function() {
+ 
+      this.counter += this.sign * this.speed;
+ 
+      mainContext.beginPath();
+ 
+      mainContext.arc(this.xPos + Math.cos(this.counter / 150) * this.radius,
+        this.yPos + Math.sin(this.counter / 150) * this.radius,
+        this.width,
+        0,
+        Math.PI * 2,
+        false);
+ 
+      mainContext.closePath();
+ 
+      mainContext.fillStyle = 'rgba(255, 255, 255,' + this.opacity + ')';
+      mainContext.fill();
+    };
+ 
+    function drawCircles() {
+      for (var i = 0; i < 600; i++) {
+        var randomX = Math.round(-200 + Math.random() * 1500);
+        var randomY = Math.round(-200 + Math.random() * 1500);
+        var speed = 0.01 + Math.random() * 3;
+        var size = 1 + Math.random() * 1500;
+ 
+        var circle = new Circle(300, .4, 2, randomX, randomY);
+        circles.push(circle);
+      }
+      draw();
+    }
+    drawCircles();
+ 
+			
+			
+    function draw() {
+      mainContext.clearRect(0, 0, 2100, 2100);
+ 
+      for (var i = 20; i < circles.length; i++) {
+        var myCircle = circles[i];
+        myCircle.update();
+      }
+      requestAnimationFrame(draw);
+    }
+			
+			
+			
+			
+			
+			
+  </script>
+		
+    
+  </body>
+</html>

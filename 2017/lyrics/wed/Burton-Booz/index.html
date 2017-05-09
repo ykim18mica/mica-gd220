@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Song Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <style>
+      /* YOUR CSS CODE HERE */
+			
+			
+			
+      html {
+        font-family: "Lato", sans-serif;
+        font-weight: 900;
+				font-size: 12px;
+      }
+			
+			/* TYPE TREATMENT */
+			
+			.txt-1 {
+				font-size: 1vw /* .7vw */;
+				line-height: 1.2;
+				letter-spacing: 1.3px;
+			}
+			
+			.txt-color-white {
+				color:antiquewhite;
+			}
+			
+			.leading1{
+				line-height:1vw;
+			}
+			
+			.leading2 {
+				line-height:1.5vw;
+			}
+			
+			.leading3{
+				line-height: 2;
+			}
+			
+			.leading4 {
+				line-height:2.5;
+			}
+		
+			
+			/*.text-neptuneestate {
+				font-family: "Tungsten", Arial, sans-serif;
+				letter-spacing: 40px;
+				font-size:70%;
+				font-weight: lighter;
+				padding-left:20px;
+			} */
+			
+			/* ***GRID DIMENSIONS*** */
+			
+			/* Padding For Full-length Row */
+			
+			.column1-col100 {
+				padding-left:3%;
+			}
+			
+			.column2-col100 {
+				padding-left:28%;
+			}
+			
+			.column3-col100 {
+				padding-left:53%;
+			}
+			
+			.column4-col100 {
+				padding-left:78%;
+			}
+			
+			/* Padding For Half-length Row */
+			
+			.column1-col50 {
+				padding-left: 6%
+			}
+			
+			.column2-col50 {
+				padding-left: 31%
+			}
+			
+			.column3-col50 {
+				padding-left: 56%
+			}
+			
+			.column4-col50 {
+				padding-left: 81%
+			}
+			
+			/* Padding For Quarter-length Row */
+			
+			.column1-col25 {
+				padding-left:12%;
+			}
+			
+			/* SPECIFIC CLASSES */
+			
+			.layinside-number6 {
+				left: 25;
+			}
+			
+			.beabused-number1 {
+				top:53%;
+				left:32%
+			}
+			
+			.bareonemore-number2 {
+				top:80%;
+			}
+			
+			.text-ihopeyoufeel {
+				line-height:3;
+				
+			}
+			
+			.text-mushymushy {
+				left:40%;
+				top:30%;
+				width: 100%;
+			}
+			
+			.credits {
+				background-color: antiquewhite;
+				width: 100%;
+				height:3vw;
+				z-index: 2;
+				bottom: ;
+				font-size: 12%;
+			}
+			
+			.credits-text-title {
+				font-size: 1vw;
+				top: 35%;
+				left: 3%;
+				font-weight:100;
+				letter-spacing:1vw;	
+			}
+			
+			/** Over Step **/
+			
+			.lg-1 {
+				padding-left: 25%;
+			}
+			
+			.lg-2 {
+				padding-top:24%;
+				z-index: 1;
+			}
+			
+			/** IMAGES **/
+			
+			.img-Background-top-bar {
+        background-image: url(images/Background-top-bar.png);
+				background-size: cover;}
+			
+			.img-Background-fetal {
+        background-image: url(images/Background-fetal.png);
+				background-size: cover;}
+			
+			.img-Background-left-bar {
+        background-image: url(images/Background-left-bar.png);
+				background-size: cover;}
+			
+			.img-Background-right-bar {
+        background-image: url(images/Background-right-bar.png);
+				background-size: cover;}
+			
+			.img-Middleground-horizon1 {
+        background-image: url(images/Middleground-horizon1.png);
+				background-size: cover;}
+			
+			.img-Middleground-fetal {
+        background-image: url(images/Middleground-fetal.png);
+				background-size: cover;}
+			
+			.img-Middleground-middle-bar {
+        background-image: url(images/Middleground-middle-bar.png);
+				background-size: cover;}
+			
+			.img-Middleground-left-bar {
+        background-image: url(images/Middleground-left-bar.png);
+				background-size: cover;}
+			
+			.img-Middleground-smoking {
+        background-image: url(images/Middleground-smoking.png);
+				background-size: cover;}
+			
+			.img-Middleground-right-bar {
+        background-image: url(images/Middleground-right-bar.png);
+				background-size: cover;}
+			
+			.img-Middleground-left-bar-sub {
+        background-image: url(images/Middleground-left-bar-sub.png);
+				background-size: cover;}
+			
+			.img-smoking-sub {
+        background-image: url(images/smoking-sub.png);
+				background-size: cover;}
+			
+			.img-Middleground-right-bar-sub {
+        background-image: url(images/Middleground-right-bar-sub.png);
+				background-size: cover;}
+			
+			.img-Foreground-horizon2 {
+        background-image: url(images/Foreground-horizon2.png);
+				background-size: cover;}
+			
+			.img-Foreground-middle-bar {
+        background-image: url(images/Foreground-middle-bar.png);
+				background-size: cover;}
+			
+			.img-Foreground-left-bar {
+        background-image: url(images/Foreground-left-bar.png);
+				background-size: cover;}
+			
+			.img-Foreground-fetal {
+        background-image: url(images/Foreground-fetal.png);
+				background-size: cover;}
+			
+			.img-Foreground-right-bar {
+        background-image: url(images/Foreground-right-bar.png);
+				background-size: cover;}
+			
+			.img-Foreground-bottom-bar {
+        background-image: url(images/Foreground-bottom-bar.png);
+				background-size: cover;}
+			
+			.img-Foreground-bottom-bar-sub {
+        background-image: url(images/Foreground-bottom-bar-sub.png);
+				background-size: cover;}
+    						
+      
+      h1 { font-size: 14vw; }
+      h2 { font-size: 10vw; }
+      h3 { font-size: 8vw; }
+      p { font-size: 4vw; }
+      
+    </style>
+  </head>
+  <body>
+   
+    <div class="container">
+     
+      <!-- YOUR HTML CODE HERE -->
+   
+        
+			<div class="row">
+				<div class="col-100 quarter img-Background-top-bar">
+						<!-- <p class=" text-neptuneestate col-50 half center-h center-v test">NEPTUNE ESTATE</p> -->
+						
+						<p class="column1-col100 txt-1  top-10">I can lay inside</p>
+						<p class="column2-col100 txt-1  top-10">I can lay inside</p>
+						<p class="column3-col100 txt-1  top-10">I can lay inside</p>
+						<p class="column4-col100 txt-1  top-10">I can lay inside</p>
+					
+						<p class="column4-col100 txt-1  top-50">Can't you bare just <br> one more night</p>
+					
+					</div>
+			</div>
+				
+			<div class="row">
+				<div class="col-25 half img-Background-left-bar">
+					
+					<p class="column1-col25 txt-1  ">I can lay inside</p>
+					<p class="column1-col25 txt-1  top-50">I wanna be with you</p>
+					<p class="column1-col25 txt-1  beabused-number1">I wanna be used</p>
+					
+				</div>
+					
+				<div class="col-50 half  img-Background-fetal">
+					
+						<p class="column1-col50 txt-1 ">I can lay inside</p>
+					
+				</div>
+				
+				<div class="col-25 half img-Background-right-bar">
+					
+					<p class="column1-col25 txt-1  bareonemore-number2">
+						Can't you bare just 
+						<br> one more night
+					</p>
+					
+				</div>
+				
+			</div>
+			
+			<div class="row">
+				<div class="col-100 half img-Middleground-horizon1">
+					
+					<p class="column1-col100 txt-1 top-10">
+						I can lay inside
+					</p>
+					
+					<p class="txt-1 column2-col100 top-40 leading3">
+						You know I'll hold you tight
+						<br>Can't you bare just one more night?
+					</p>
+					
+					<p class="txt-1 column3-col100 top-70 leading4">
+						I wanna be with you
+						<br> I wanna be used
+					</p>
+				
+					
+					<!-- <div class="col-offset-25 col-25 quarter">
+						<p class="lg-3 test text-ihopeyoufeel center-h top-">
+							I hope <br> 
+							you feel <br> 
+							used
+						</p>
+					</div> -->
+					
+				</div>
+			
+			</div>
+				
+			<!-- <div class="row">
+				<div class="test col-50 quarter">
+					<p class="lg-1 test text-mushymushy"> MUSHY MUSHY</p>
+				
+				</div>
+				
+				<div class="test col-50 quarter">
+				</div>
+				
+			</div> -->
+				
+			<div class="row">
+				
+				<div class="col-100 quarter img-Middleground-fetal"></div>
+				
+			</div>
+			
+			<div class="row">
+				<div class="col-100 quarter img-Middleground-middle-bar">
+					
+					<p class="column1-col100 txt-1 txt-color-white leading3" >
+						I hope you feel used
+						<br>And cope the way you do
+						<br>Should conjure up abuse
+						<br>Select your loss, slip to lose
+						<br>Just to get the muse
+					</p>
+					
+					<p class="txt-1 txt-color-white column4-col100 lg-2 leading3">
+						There's <br> no <br> new <br> news <br> here
+					</p>
+					
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-25 half img-Middleground-left-bar">
+					<p class="column1-col25 txt-1 txt-color-white leading3 top-30">
+						This world, 
+						<br>it doesn't hold a fear
+					</p>
+					<p class="column1-col25 txt-1 txt-color-white leading3 top-50">
+						This girl, 
+						<br> she doesn't hold a tear 
+						<br> in my head
+					</p>
+					<p class="column1-col25 txt-1 txt-color-white leading3 top-80">
+						The brain lives on 
+						<br>but the vibes are dead
+					</p>
+				</div>
+				
+				<div class="col-50 half img-Middleground-smoking"></div>
+				
+				<div class="col-25 half img-Middleground-right-bar">
+					<p class="column1-col25 txt-1 txt-color-white leading3 top-80 lg-2">
+						Corrosively tread 
+						<br>through emotionally 
+						<br>spoon 
+						<br>fed 
+						<br>purpose
+					</p>
+				</div>
+			</div>
+			
+			<div class="row">
+			
+				<div class="col-25 quarter img-Middleground-left-bar-sub">
+					<p class="column1-col25 txt-1 txt-color-white leading3 top-50">
+						Hel' me as the worthless
+					</p>
+					<p class="column1-col25 txt-1 txt-color-white leading3 top-90">
+						Hel' me as the worthless
+					</p>
+				</div>
+				
+				<div class="col-50 quarter img-smoking-sub"></div>
+				
+				<div class="col-25 quarter img-Middleground-right-bar-sub">
+					<p class="column1-col25 txt-1 txt-color-white leading3 top-50">
+						A surplus, blank, white surface
+					</p>
+					
+					<p class="column1-col25 txt-1 txt-color-white leading3 top-90">
+						A surplus, blank, white surface
+					</p>
+				</div>
+				
+			</div>
+			
+			<div class="row">
+				
+				<div class="col-100 full img-Foreground-horizon2">
+					
+					<p class="column2-col100 txt-1 leading3 top-10">
+						I can lay inside
+					</p>
+					
+					<p class="column3-col100 txt-1 leading3 top-10">
+						I can lay inside
+					</p>
+					
+					<p class="column2-col100 txt-1 leading3 top-20">
+						Can't you bare just 
+						<br> one more night?
+					</p>
+					
+					<p class="column2-col100 txt-1 leading3 top-30">
+						I can lay inside
+					</p>
+					
+					<p class="column3-col100 txt-1 leading3 top-30">
+						I can lay inside
+					</p>
+					
+					<p class="column2-col100 txt-1 leading3 top-40">
+						Can't you bare just 
+						<br> one more night?
+					</p>
+					
+					<p class="column2-col100 txt-1 leading3 top-50">
+						I can lay inside
+					</p>
+					
+					<p class="column2-col100 txt-1 leading3 top-60">
+						I wanna be with. you I wanna be used.
+					</p>
+					
+					<p class="column3-col100 txt-1 leading3 top-70">
+						Can't you bare just 
+						<br>one more night?
+					</p>
+					
+					<p class="column2-col100 txt-1 leading3 top-80">
+						I can lay inside
+							<br>You know I'll hold you tight
+							<br>Can't you bare just one more night?
+					</p>
+					
+					<p class="column4-col100 txt-1 txt-color-white leading3 top-70 lg-2">
+						I wanna be with you
+						<br>I wanna be used
+					</p>
+					
+				</div>
+				
+			</div>
+				
+			<div class="row">
+				
+				<div class="col-100 quarter img-Foreground-middle-bar">
+					<p class="column1-col100 txt-1 txt-color-white leading3 top-10">
+						I can stay in your mind
+						<br>Wish me to stay away
+						<br>But no sign tells me to stay, when others say
+					</p>
+					
+					<p class="column3-col100 txt-1 txt-color-white leading3 top-50">
+						Some cats flee to see
+						<br>On the lap of deceit
+					</p>
+					
+				</div>
+				
+			</div>
+			
+			<div class="row">
+			
+				<div class="col-25 half img-Foreground-left-bar">
+					<p class="column1-col25 txt-1 txt-color-white top-10 leading3">
+						When true blue love means
+					</p>
+					
+					<p class="column1-col25 txt-1 txt-color-white top-30 leading3">
+						This melting control can be solved
+					</p>
+					
+					<p class="column1-col25 txt-1 txt-color-white top-70">
+						To one another, dear lover
+					</p>
+					
+					<p class="column1-col25 txt-1 txt-color-white top-90">
+						Dear brother
+					</p>
+					
+					<p class="column1-col25 txt-1 txt-color-white top-90 lg-2">
+						Dear brother
+					</p>
+					
+				</div>
+				
+				<div class="col-50 half img-Foreground-fetal"></div>
+				
+				<div class="col-25 half img-Foreground-right-bar">
+					<p class="column1-col25 txt-1 txt-color-white top-10">This faithful dissolve
+					</p>
+					
+					<p class="column1-col25 txt-1 txt-color-white leading3 top-30">
+						The soft touch,
+						<br>the hopes,
+						<br>the souls
+					</p>
+				</div>
+				
+			</div>
+			
+			<div class="row">
+			
+				<div class="col-100 half img-Foreground-bottom-bar">
+					<p class="column1-col100 txt-1 txt-color-white top-30">
+						Cause there's still life to be lived in hell
+					</p>
+					
+					<p class="column3-col100 txt-1 txt-color-white top-30">
+						Can we lose our emotions and still live well?
+					</p>
+					
+					<p class="column1-col100 txt-1 txt-color-white top-50">
+						Cause there's still life to be lived in hell
+					</p>
+					
+					<p class="column3-col100 txt-1 txt-color-white top-50">
+						Can you tell that this face is changed?
+					</p>
+					
+					<p class="column4-col100 txt-1 txt-color-white top-70 leading3">
+						This heart, <br>brain, <br>pain, 
+						<br>two separate ways
+					</p>
+					
+					<p class="column4-col100 txt-1 txt-color-white top-50 leading3 lg-2">
+						This heart, <br>brain, <br>pain, 
+						<br>two separate ways
+					</p>
+					
+				</div>
+			
+			</div>
+			
+			<div class="row">
+				
+				<div class="col-100 quarter img-Foreground-bottom-bar-sub">
+					<p class="column1-col100 txt-1 txt-color-white leading3 top-10">
+						I could stay in your mind
+						<br>Wish me to stray away
+						<br>But leave me no sign, tell me to stay, 
+						<br>when others say
+					</p>
+					
+					<p class="column2-col100 txt-1 txt-color-white leading3 top-30">
+						I could stay in your mind
+						<br>Wish me to stray away
+						<br>But leave me no sign, tell me to stay, 
+						<br>when others say
+					</p>
+					
+					<p class="column3-col100 txt-1 txt-color-white leading3 top-50">
+						I could stay in your mind
+						<br>Wish me to stray away
+						<br>But leave me no sign, tell me to stay, 
+						<br>when others say
+					</p>
+					
+					<p class="column4-col100 txt-1 txt-color-white top-50">
+						I could stay in your mind
+					</p>
+					
+					
+					
+					<p class="column4-col100 txt-1 txt-color-white top-70">
+						I could stay in your mind
+					</p>
+					
+					
+					
+				</div>
+				
+				<div class="credits">
+						<p class="credits-text-title">NEPTUNE ESTATE</p>
+						<p class="txt-1 top-30 column4-col100">by King Krule</p>
+				</div>
+
+			</div>	
+
+        <!-- <div class="col-offset-25 col-25 quarter test"></div> -->
+      </div>
+			
+			
+			
+			
+      
+    
+    
+    
+    <!-- DO NOT CHANGE CODES BELOW-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.lazyload.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $('div').lazyload(
+          effect: "fadeIn"
+        );
+      });
+    </script>
+  </body>
+</html>

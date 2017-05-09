@@ -1,0 +1,287 @@
+.container{
+  position:absolute;
+  z-index: 100;
+}
+
+/*top navigation*/
+.header {
+  height: 50px;  
+	font-weight:500;
+	font-size: 23px;
+	font-family: 'Heebo', sans-serif;
+	width:1200px;
+	}
+.date{
+	width:200px;
+	text-align: left;
+	padding: 15px;
+	margin-left:55px;
+	
+	
+}
+.buyticket { 
+  position:absolute;
+	right:15px;
+	text-align: center;
+}
+
+/*title*/
+
+.title{
+	position:relative;
+  width: 45%;
+  height: 500px; 
+	font-family: 'Heebo', sans-serif;
+	font-size:130px;
+	font-weight: 500;
+	text-align: center;
+	padding-top:20%;
+	color:white;
+	animation-name: moving;
+	animation-duration:1.5s;
+	
+}
+.title2{
+	position:absolute;
+	top:40px;
+	left:40%;
+	width:25%;
+  height: 500px; 
+	font-family: 'Heebo', sans-serif;
+	font-size:150px;
+	font-weight: 500;
+	text-align: center;
+	padding-top:20%;
+	color:white;
+	z-index: 100;
+}
+.title3 {
+	position:absolute;
+	top:40px;
+	left:58%;
+	width: 40%;
+  height: 500px; 
+	font-family: 'Heebo', sans-serif;
+	font-size:130px;
+	font-weight: 500;
+	text-align: center;
+	padding-top:20%;
+	color:white;
+	animation-name:moving2;
+	animation-duration:1.5s; 
+}
+
+/*inroduction*/
+.infomation { 
+width: 50%;
+height:700px;  
+float:left;
+margin-left:20px;
+font-weight: 500;
+font-family: 'Heebo', sans-serif;
+font-size: 34px;
+}
+.add {
+width:300px;;
+margin-left: 850px;
+height:80px;
+font-family: 'Heebo', sans-serif;
+font-size:28px;
+padding-top: 600px;
+color:white;
+}
+.buyticket {
+  position:absolute; 
+  left:80%;
+  top:1%;
+  
+}
+
+/*speaker's img*/
+.b {
+	background: url(image/Beatie_Wolfejpg.jpg);
+	width:400px;
+	height:400px;
+	position:absolute;
+	left:780px;
+	top:1900px;
+	font-size:25px;
+	font-family: 'Poppins', sans-serif;
+	color:white;
+	padding-left:10px;
+	}
+.b:hover {
+	opacity: 0.5;
+}
+.p {
+	background: url(image/Peter_Saville.jpg);
+	width:300px;
+	height:300px;
+	margin-top: 240px;
+	margin-left:138px;
+	font-family: 'Poppins', sans-serif;
+	color:black;
+	font-size:25px;
+	padding-left:10px;
+	}
+
+.p:hover {
+	opacity:0.5;
+}
+
+.s {
+	background: url(image/Stefan_Sagmeister.jpg);
+	width:290px;
+	height:300px;
+	position:absolute;
+	left:250px;
+	top:2190px;
+	font-family: 'Poppins', sans-serif;
+	color:white;
+	padding-left:10px;
+}
+.s:hover {
+	opacity:0.5;
+	
+}
+
+/*animation*/
+
+@keyframes moving {
+	from{left:-370px;}
+	to {left:1px;}
+}
+
+@keyframes moving2 {
+	from {left:1200px;}
+	to {left:58%;}
+}
+
+
+/*contact-info*/
+
+#contact-info {
+	position:absolute;
+	left:136px;
+	top:2624px;
+	width:19px;
+}
+
+#contact-info2 {
+	position:absolute;
+	left:218px;
+	top:2615px;
+	width:23px;
+}
+
+#contact-info-dec {
+	position:absolute;
+	left:115px;
+	top:2620px;
+	width:60px;
+}
+
+#contact-info-dec-2 {
+	position:absolute;
+	top:2620px;
+	left:200px;
+	width:60px;
+}
+
+
+#add2 {
+	position:absolute;
+	left:113px;
+	top:2700px;
+	width:520px;
+	color:white;
+	font-family: 'Heebo', sans-serif;
+	font-size:25px;
+	font-weight:500;
+	}
+
+
+
+/*background animation*/
+.holder,
+    .first,
+    .second,
+    .third {
+      height: 2860px;
+      width: 100%;
+    }
+    .first,
+    .second,
+    .third {
+      position: absolute;
+    }
+    .second,
+    .third {
+      opacity: 0;
+    }
+    .holder {
+      height: 2860px;
+			width:100%;
+      position: absolute;
+      top:-40px;
+      z-index: 7;
+    }
+    .first {
+      animation: first 10s infinite;
+      background: linear-gradient(#5ff8ca, #60e08c);
+      z-index: 10;
+    }
+      @keyframes first {
+        0% {opacity: 1.0;}
+        10% {opacity: 0.8;}
+        20% {opacity: 0.6;}
+        30% {opacity: 0.4;}
+        40% {opacity: 0.2;}
+        50% {opacity: 0.1;}
+        60% {opacity: 0.2;}
+        70% {opacity: 0.4;}
+        80% {opacity: 0.6;}
+        90% {opacity: 0.8;}
+        100% {opacity: 1.0;}
+      }
+
+    .second {
+      animation: second 10s infinite; animation-delay: 2s;
+      background: linear-gradient(#19eaa6, #00a1f0);
+      z-index: 1;
+    }
+      @keyframes second {
+        0% {opacity: 0;}
+        10% {opacity: 0.2;}
+        20% {opacity: 0.4;}
+        30% {opacity: 0.6;}
+        40% {opacity: 0.8;}
+        50% {opacity: 1.0;}
+        60% {opacity: 0.8;}
+        70% {opacity: 0.6;}
+        80% {opacity: 0.4;}
+        90% {opacity: 0.2;}
+        100% {opacity: 0;}
+      }
+
+    .third {
+      animation: third 10s infinite;
+      animation-delay: 8s;
+      background: linear-gradient(#aab7f8, #ff75c6);
+      z-index: 2;
+    }
+      @keyframes third {
+        0% {opacity: 0;}
+        10% {opacity: 0.2;}
+        20% {opacity: 0.4;}
+        30% {opacity: 0.6;}
+        40% {opacity: 0.8;}
+        50% {opacity: 1.0;}
+        60% {opacity: 0.8;}
+        70% {opacity: 0.6;}
+        80% {opacity: 0.4;}
+        90% {opacity: 0.2;}
+        100% {opacity: 0;}
+      }
+
+

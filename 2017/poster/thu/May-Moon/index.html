@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Show Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Special+Elite" rel="stylesheet">
+		<link
+		href="http://thecharles.com/">
+    
+    <style>
+			.body{background-color: black;}
+			/*-- text --*/
+			
+			.text1{
+				color:whitesmoke;
+				font-family: 'archer',sans-serif;
+				font-size:25px;
+				left:370px;
+				top:85px;
+				position:relative;
+				animation: moveleft 3s infinite; 
+			}
+			.text2{
+			   z-index: 50;
+  			animation:hop .75s infinite;
+				position:relative;
+				left:100px;
+				top:100px;
+				font-size:60px;
+				font-family: 'Permanent Marker', cursive;
+				color:antiquewhite;
+}
+			.text2-1{
+				animation: type 5s steps(10, end) infinite alternate;
+				position:relative; 
+				left:150px; 
+				top:110px;
+				font-size:50px;
+				font-family:'Permanent Marker', cursive;
+				color:beige;
+}
+
+			.text3{
+				z-index: 50;
+  			animation:hop .75s infinite;
+				font-size:60px;
+				position:relative;
+				left:710px;
+				top:150px;
+				font-family: 'Permanent Marker', cursive;
+				color:antiquewhite;
+			}
+			.text3-1{
+				font-size:50px;
+				position:relative;
+				left:710px;
+				top:100px;
+				font-family: 'Permanent Marker', cursive;
+				color:beige;
+			}
+			.text4{
+				z-index: 50;
+  			animation:hop2 .75s infinite;
+				font-size:60px;
+				position:relative;
+				left:230px;
+				top:100;
+				font-family: 'Permanent Marker', cursive;
+				color:antiquewhite;
+			}
+				.text4-1{
+				font-size:50px;
+				position:relative;
+				left:230px;
+				top:280px;
+				font-family: 'Permanent Marker', cursive;
+				color:beige;
+			}
+			.text5-1{
+				z-index: 50;
+  			animation:hop3 .75s infinite;
+				font-size:60px;
+				position:relative;
+				left:230px;
+				top:600px;
+				font-family: 'Permanent Marker', cursive;
+				color:antiquewhite;
+			}
+				.text5-2{
+				font-size:50px;
+				position:relative;
+				left:230px;
+				top:600px;
+				font-family: 'Permanent Marker', cursive;
+				color:beige;
+			}
+			.text6{
+				z-index: 50;
+  			animation:hop4 .75s infinite;
+				font-size:60px;
+				position:relative;
+				left:800px;
+				top:800px;
+				font-family: 'Permanent Marker', cursive;
+				color:antiquewhite;
+			}
+					.text6-1{
+				font-size:50px;
+				position:relative;
+				left:870px;
+				top:810px;
+				font-family: 'Permanent Marker', cursive;
+				color:beige;
+			}
+			
+			/*-- images and elements--*/
+			
+			.title {
+				background-image: url(images/title.png);
+				background-size: cover;
+				height: 288px;
+				animation: fadeOut 1s infinite; 
+			}
+			.first {
+				position
+				background-image: url(images/first.png);
+				background-size: cover;
+				height: 300px;
+			}
+			
+			.second {
+				background-image: url(images/second.png);
+				background-size: cover;
+				height: 299px;
+			}
+			.three {
+				background-image: url(images/three.png);
+				background-size: cover;
+				height: 300px;
+			}
+				.four {
+				background-image: url(images/four.png);
+				background-size: cover;
+				height: 603px;
+			}
+				.five {
+				background-image: url(images/five.png);
+				background-size: cover;
+				height: 289px;
+			}
+			#axis:hover .move-ne {
+    transform: translate(350px,-350px);
+}
+			#axis2:hover .move-ne2 {
+    transform: translate(-350px,350px);
+}
+			.six{
+				position:absolute;
+				right:300px;
+			}
+				.location{
+				position: absolute;
+				font-family:archer,sans-serif; 
+				width: 1200px;
+				height: 288px;
+				bottom:150px;
+				background-color: black;
+				opacity:0.5;
+				color:aliceblue;
+			  font-size:90px;
+				text-align:center;
+				padding:100px;
+			}
+				.location{
+					z-index: 2;
+					animation: fadeOut 6s infinite;
+				}
+				.location2 {
+								position: absolute;
+				font-family:archer,sans-serif; 
+				width: 1200px;
+				height: 288px;
+				bottom:150px;
+				background-color: black;
+				opacity:0.5;
+				color:aliceblue;
+			  font-size:60px;
+				text-align:center;
+				padding:100px;
+				}
+				.location2 {
+					animation: fadeIn 6s infinite;
+				}
+
+			
+			.line{
+				width:550px;
+				height:4px;
+				background-color:red;
+				position:relative;
+				top:70px;
+				left:300px;
+			}
+	  	.line2{
+				width:550px;
+				height:4px;
+				background-color:red;
+				position:relative;
+				top:130px;
+				left:300px;
+			}
+	@keyframes moveleft{
+  0%   { left: 0; }
+  100%  { left: 300px; }
+	}
+	@keyframes moveright{
+  0%   { right: 0; }
+  100%  { right: 300px; }
+	}
+	@keyframes moveleft-back {
+  0%   { left: 0; }
+  100%  { left: 200px; }
+	}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes hop{
+  from {top:40px;}
+  to {top:20px;}
+}
+@keyframes hop2{
+  from {top:230px;}
+  to {top:190px;}
+}
+@keyframes hop3{
+  from {top:550px;}
+  to {top:510px;}
+}
+@keyframes hop4{
+  from {top:800px;}
+  to {top:720px;}
+}
+			
+		</style>
+  </head>
+	
+  <body class="body">
+		
+    <div class="grid-container">
+			
+			<div class="row">
+				<div class="col-12 title"></div>
+			</div> 
+			<div class="row">
+				<div class="line"></div>
+				<div class="line2"></div>
+				<div class="text1">CHAN WOOK PARK'S FILM SHOW</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-12 first"></div>
+			</div>
+			<div class="row">
+				<div class="text2">MAR 10, 7pm</div>
+				<div class="text2-1">Old Boy</div>
+			
+				<div class="row">
+				<div class="text3">MAR 11, 7pm</div>
+			</div>
+				<div class="text3-1">The Handmaiden</div>
+			</div>
+					<div class="row">
+				<div class="text4">MAR 12, 7pm</div>
+				<div class="text4-1">Crush and Blush</div>
+				<div class="text5-1">MAR 13, 7pm</div>
+			<div class="text5-2">Sympathy For<br>
+			Lady Vengeance</div>
+			<div class="text6">MAR 14, 7pm</div>
+			<div class="text6-1">Thirst</div>
+			
+			</div>
+			<div class="row">
+				<div class="col-12 second"></div>
+				<div id="axis2" class="six">
+			<img class="bat2 move-ne2" src="images/bat2.png"/>
+			</div>
+			</div>
+			
+			 <div cass="row">
+				<div class="col-12 three"></div>
+			</div>
+				<div id="axis" class="five">
+			<img class="bat1 move-ne" src="images/bat1.png"/>
+			</div>
+				 <div cass="row">
+				<div class="col-12 four"></div>
+				<div cass="row">
+				<div class="col-12 five"></div>
+			</div>
+					 <div class="location"> CEHCK THE LOCATION 
+				<a href=" http://thecharles.com/"> click </a>
+        </div>
+					<div class="location2"> The Charles Theatre, 1711 N Charles St, Baltimore, MD 21201
+        </div>
+			</div>
+		</div>
+  </body>
+</html>

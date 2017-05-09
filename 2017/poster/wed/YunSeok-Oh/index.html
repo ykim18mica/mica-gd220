@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>NOLAN</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+
+    
+    <style type="text/css">
+	.grid-container{
+      position: relative;
+      }	
+
+		@keyframes Move {
+  		0% {
+    		left: 0;
+  			}
+  		50% {
+			left: 50px;
+  			}
+  		100% {
+			left: 0;
+  			}
+			}
+      
+   
+		@keyframes fadeout {
+			0% {opacity 1.0;}
+			50% {opacity: 0.5;}
+			100% {opacity: 0;}
+		}
+        @keyframes fadein {
+          0% {opacity 1.0;}
+          50% {opacity: 0.5;}
+          1005{opacity: 1.0;}
+        }
+        
+        @keyframes spin { 
+        from { 
+            transform: rotate(0deg); 
+        } to { 
+            transform: rotate(360deg); 
+        }
+        }
+       
+      
+        .title {
+			background-image: url(images/title.png);
+			background-size: auto;
+			height: 1080px;
+			width: 1080px;
+			margin-top: -400px;
+            position: absolute;
+            align-content: center;
+            
+		}
+         
+        
+        .info {
+          font-size:50px;
+          margin-left:0px;
+          margin-top:400px;
+          color:palevioletred;
+          position: absolute;
+          font-family: fantasy;
+     
+        }
+        .info2 {
+          font-size:50px;
+          margin-left:850px;
+          margin-top: 750px;
+          color:palevioletred;
+          position: absolute;
+          font-family: fantasy;
+        
+        }
+        .info3 {
+          font-size:50px;
+          margin-left:100px;
+          margin-top:1200px;
+          color:palevioletred;
+          position: absolute;
+          font-family: fantasy;
+        }
+        .info4{
+          font-size:50px;
+          margin-left:750px;
+          margin-top:1450px;
+          color:palevioletred;
+          position:absolute;
+          font-family: fantasy;
+        }
+        .info5{
+          font-size:50px;
+          margin-left:50px;
+          margin-top:1850px;
+          color:palevioletred;
+          position:absolute;
+          font-family: fantasy;
+        }
+        .info6{
+          font-size:20px;
+          margin-left:500px;
+          margin-top:2100px;
+          color:palevioletred;
+          position:absolute;
+          font-family: fantasy;
+        }
+        
+   
+		
+		.whysoserious {
+			background-image: url(images/whysoserious.png);
+			background-size: auto;
+			height: 30px;
+			width: 173px;
+			margin-left:220px;
+			margin-top: 400px;
+			position: absolute;
+            animation: Move 5s infinite;
+			
+		}	
+		
+		.catwoman {
+			background-image: url(images/catwoman.png);
+			background-size: auto;
+			height: 19px;
+			width: 81px;
+			margin-left:700px;
+			margin-top: 650px;
+			position: absolute;
+            animation: spin 4s infinite;
+            
+			
+		}
+   	    .Lbatman{
+			background-image: url(images/Lbatman.png);
+			background-size: auto;
+			height: 426px;
+			width: 734px;
+			margin-left: 100px;
+			margin-top:600px;
+			position: absolute;
+            animation: fadein 3s infinite;
+		}
+		.joker {
+			background-image: url(images/Joker.png);
+			background-size:auto;
+			height: 25px;
+			width: 46px;
+			margin-left: 400px;
+			margin-top: 600px;
+			position: absolute;
+			animation: fadeout 3s infinite; 
+		}
+		
+		.cat{
+			background-image: url(images/Cat.png);
+			background-size: auto;
+			height: 32px;
+			width: 45px;
+			margin-left: 850px;
+			margin-top: 1050px;
+			animation: Move 3s infinite;
+			position: absolute;
+  				
+		}
+   	    .facts{
+			background-image: url(images/Facts.png);
+			background-size:auto;
+			height: 63px;
+			width: 102px;
+			margin-left: 0px;
+			margin-top: 1050px;
+			animation: Move 7s infinite;
+			position: absolute;
+  			
+		}
+		
+		.dont {
+			background-image: url(images/Dont.png);
+			background-size: auto;
+			height: 82px;
+			width: 176px;
+			margin-left: 400px;
+			margin-top: 1150px;
+			animation: fadeout 5s infinite;
+			position: absolute;
+  		
+		}
+		
+		.dream {
+			background-image: url(images/dream.png);
+			background-size:auto;
+			height: 36px;
+			width: 49px;
+			margin-left: 600px;
+			margin-top: 1650px;
+			animation: Move 10s infinite;
+			position: absolute;
+  			
+		}
+
+		.joseph {
+			background-image: url(images/Joseph.png);
+			background-size:auto;
+			height: 33px;
+			width: 65px;
+			margin-left: 700px;
+			margin-top: 1100px;
+			position: absolute;
+          
+
+		}
+        .pange {
+			background-image: url(images/pange.png);
+			background-size: auto;
+			height: 144px;
+			width: 97px;
+			margin-left: 900px;
+			margin-top: 1150px;
+			position: absolute;
+			animation: spin 5s infinite;
+			
+		}
+  				
+		.Mbatman {
+			background-image: url(images/Mbatman.png);
+			background-size: auto;
+			height: 184px;
+			width: 321px;
+			margin-left: 150px;
+			margin-top: 1400px;
+			position: absolute;
+            animation: fadeout 3s infinite;
+			
+		}
+				
+		.planet {
+			background-image:url(images/planet.png);
+			background-size: auto;
+			height: 49px;
+			width: 99px;
+			margin-left: 0px;
+			margin-top: 1650px;
+			position: absolute;
+			animation: Move 10s infinite;
+		}
+		
+		.smbatman {
+			background-image: url(images/smbatman.png);
+			background-size: auto;
+			height: 65px;
+			width: 105px;
+			margin-left: 700px;
+			margin-top: 1950px;
+			position:absolute;
+            animation: Move 5s infinite, spin 6s infinite;
+		}
+		
+		.kick {
+			background-image: url(images/kick.png);
+			background-size: auto;
+			height: 29px;
+			width: 33px;
+			margin-left: 900px;
+			margin-top: 1740px;
+			position:absolute;
+			animation: Move 3s infinite;
+			
+		}
+		
+		
+			
+		
+			
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+    <div class="title"></div>
+    <div class="info">
+      <h1>Dark <br>
+          Knight <br>
+          March 10 <br>
+          7pm 
+      </h1>
+    </div>
+    <div class="info2">
+      <h1>Dark <br>
+          Knight <br>
+          Rise <br>
+          March 11 <br>
+          7pm
+      </h1>
+    </div>
+    <div class="info3">
+      <h1>Memento <br>
+          March 12 <br>
+          7pm
+      </h1>
+    </div>
+    <div class="info4">
+      <h1>Inception <br>
+          March 13 <br>
+          7pm
+      </h1>
+    </div>
+    <div class="info5">
+      <h1>Interstella <br>
+          March 14 <br>
+          7pm
+      </h1>
+    </div>
+    <div class="info6">
+      <p>Christopher Nolan <br>
+         Location:The Charles Theatre, 1711 N Charles St, Baltimore, MD 21201 <br>
+         Website:http://thecharles.com/
+      </p>
+      
+    </div>
+   
+    <div class="whysoserious"></div>
+    <div class="cat"></div>
+    <div class="catwoman"></div>
+    <div class="dont"></div>
+    <div class="facts"></div>
+    <div class="joker"></div>
+    <div class="joseph"></div>
+    <div class="kick"></div>
+    <div class="Lbatman"></div>
+    <div class="Mbatman"></div>
+    <div class="pange"></div>
+    <div class="planet"></div>
+    <div class="smbatman"></div>
+    <div class="dream"></div>
+    
+    </div>
+  </body>   
+  
+ 
+</html>

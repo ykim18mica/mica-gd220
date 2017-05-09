@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>We graphic design - speakers</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Press+Start+2P|Quicksand:300,400,500,700|Reenie+Beanie|Syncopate:400,700" rel="stylesheet">
+	
+		<style>
+			.col-2 {
+					height: 200px;
+					border: 4px solid black;
+					position: relative;
+					color: transparent;
+				}
+			.first {
+					border-left: 8px solid black;	
+				}
+				
+			.last {
+					border-right: 8px solid black;
+				}
+			
+				[class*="box"] {
+					border: 8px solid black;
+					position: absolute;
+				}
+				
+			.speakers-box {
+					width: 718px;
+					height: 192px;
+					top: 53px;
+					left: 51px;
+					background-color: white;
+					z-index: 1;
+					font-family: 'Press Start 2P', cursive;
+					font-size: 60pt;
+					padding: 35px;
+					padding-top: 50px;
+				}
+			 [class*="-img"] {
+				width: 192px;
+				z-index: 50;
+			}
+			
+			.pink {
+				width: 192px;
+				height: 192px;
+				background-color: #FF58DF;
+				opacity: .38;
+				position: absolute;
+				z-index: 300;
+				animation: pulse 3s infinite;
+			}
+			
+			.pink:hover {
+				background-color: transparent;
+			}
+			.pink:hover ~.pinkappear {
+				background-color: #FF58DF;
+			}
+			.pink:hover ~.hi {
+				visibility: visible;
+			}
+			.pink:hover ~.bh-info {
+				color: #FF58DF;
+			}
+		
+			
+			.hi {
+				position: absolute;
+				z-index: 400;
+				top: -60px;
+				left: -60px;
+				visibility: hidden;
+			}
+			
+			.yellow {
+				width: 192px;
+				height: 192px;
+				background-color: #FFF853;
+				opacity: .38;
+				position: absolute;
+				z-index: 300;
+				animation: pulse 2s infinite;
+			}
+			.yellow:hover {
+				background-color: transparent;
+			}
+			.yellow:hover ~.welcome {
+				visibility: visible;
+			}
+			.yellow:hover ~.yellowappear {
+				background-color: #FFF853;
+			}
+			
+			.welcome {
+				position: absolute;
+				z-index: 500;
+				top: -180px;
+				left: 80px;
+				visibility: hidden;
+			}
+			
+			
+			.blue {
+				width: 192px;
+				height: 192px;
+				background-color: #53FFF2;
+				opacity: .38;
+				position: absolute;
+				z-index: 300;
+				animation: pulse 4s infinite;
+			}
+			.blue:hover {
+				background-color: transparent;
+			}
+			.blue:hover ~.havefun {
+				visibility: visible;
+			}
+			.blue:hover ~.blueappear {
+				background-color: #53FFF2;
+			}
+			.havefun {
+				position: absolute;
+				z-index: 500;
+				top: 95px;
+				left: 70px;
+				visibility: hidden
+			}
+			
+			[class*="-info"] {
+				position: absolute;
+				background-color: white;
+				z-index: 400;
+				font-family: 'Quicksand', sans-serif;
+				font-size: 16pt;
+				line-height: 1.8;
+			}
+			
+			.bh-info {
+				height: 400px;
+				border: 8px solid black;
+				top: 400px;
+				padding: 45px;
+				padding-top: 75px;
+				color: black;
+			}
+			
+			.bold {
+				font-family: 'Quicksand', sans-serif;
+				font-weight: 500;
+			}
+			
+			.cs-infobox {
+				height: 334px;
+				width: 512px;
+				top: 832px;
+				left: 244px;
+				padding: 40px;
+			}
+			
+			.jw-info {
+				height: 400px;
+				top: 1200px;
+				border: 8px solid black;
+				padding: 45px;
+				padding-top: 75px;
+				
+			}
+			
+			ul.menu-bar li a:hover {
+				display: inline;
+				color: #53FFF2;
+			}
+			
+			[class*='sangja'] {
+				position: absolute;
+				width: 192px;
+				height: 192px;
+				opacity: .83;
+			}
+			
+			.sangja-1 {
+				top: -200px;
+				left: 0x;
+				z-index: -1;
+			}
+			.sangja-2 {
+				left: -200px;
+				z-index: -1;
+			}
+			.sangja-3 {
+				top: 200px;
+				z-index: -1;
+			}
+			.sangja-4 {
+				top: -200px;
+			}
+			.sangja-5 {
+				left: 200px;
+			}
+			.sangja-6 {
+				left: -800px;
+			}
+			.sangja-7 {
+				top: -200px;
+			}
+			.sangja-8 {
+				left: -200px;
+			}
+			.sangja-9 {
+				top: 200px;
+			}
+			@keyframes pulse {
+				0% {opacity: .38;}
+				50% {opacity: .8;}
+				}
+				100% {opacity:.38 }
+			
+		</style>
+	</head>
+	
+	<body>
+		<div class="grid-container">
+			<div class="row-1">
+				<div class="speakers-box">SPEAKERS</div>
+				<div class="col-2 first"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2 last">
+					<ul class="menu-bar">
+    				<li><a href="index.html" class="menu-home">Home</a></li>
+    				<li><a href="about.html" class="menu-about">About</a></li>
+    				<li><a href="speakers.html" class="menu-speakers">Speakers</a></li>
+    				<li><a href="activites.html" class="menu-activities">Activities</a></li>
+    			</ul>
+				</div>
+			</div>
+			
+			<div class="row-2">
+				<div class="col-2 first"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2 last"></div>
+			</div>
+			
+			<div class="row-3">
+				<div class="col-2 first"></div>
+				<div class="col-2">
+					<div class="pink"></div>
+					<div class="sangja-1 pinkappear"></div>
+					<div class="sangja-2 pinkappear"></div>
+					<div class="sangja-3 pinkappear"></div>
+					<img class="bh-img" src=/img/BH.png>
+					<img class="hi" src=/img/hi.png>
+				</div>
+				<div class="col-6 col-offset-4 bh-info"><span class="bold">Brockett Horne</span> is a designer, educator, and writer.<br> She serves as chair of graphic design at Maryland Institute College of Art, where she teaches fierce sophomores and daring juniors. Her creative work is inspired by a desire to encourage the spectator to learn while looking.</div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2 last"></div>
+			</div>
+			
+			<div class="row-4">
+				<div class="col-2 first"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2 last"></div>
+			</div>
+			
+			<div class="row-5">
+				<div class="col-2 first"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2 last"></div>
+			</div>
+			
+			<div class="row-6">
+				<div class="col-2 first"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="cs-infobox cs-info"><p><span class="bold">Chris Spooner</span> is a massive name in the world of online graphic designers.<br> Chris’s blogs are full of inspiration, ideas, techniques and tutorials that can help even the most accomplished graphic and web designers improve.</p></div>
+				<div class="col-2">
+					<div class="yellow"></div>
+					<div class="sangja-4 yellowappear"></div>
+					<div class="sangja-5 yellowappear"></div>
+					<div class="sangja-6 yellowappear"></div>
+					<img class="cs-img" src=/img/CS.png>
+					<img class="welcome" src=/img/welcome.png>
+				</div>
+				<div class="col-2 last"></div>
+			</div>
+			
+			<div class="row-7">
+				<div class="col-2 first"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2 last"></div>
+			</div>
+			
+			<div class="row-8">
+				<div class="col-2 first"></div>
+				<div class="col-2">
+					<div class="blue"></div>
+					<div class="sangja-7 blueappear"></div>
+					<div class="sangja-8 blueappear"></div>
+					<div class="sangja-9 blueappear"></div>
+					<img class="jw-img" src=/img/JW.png>
+					<img class="havefun" src="img/havefun.png">
+				</div>
+				<div class="col-6 col-offset-4 jw-info"><span class="bold">Jessica Walsh</span> is an graphic designer, art director, illustrator, and a partner at creative agency Sagmeister &amp; Walsh. Blending handcraft, photography and painting with digital design, Walsh works primarily on branding, typography, website design and art installations. 
+				</div>	
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2 last"></div>
+			</div>
+			
+			<div class="row-9">
+				<div class="col-2 first"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2 last"></div>
+			</div>
+
+		</div>
+		
+	</body>
+	
+</html>

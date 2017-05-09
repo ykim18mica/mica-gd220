@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>How Should We Live</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+
+    
+    <style>
+		/* your css rules below */
+			.body { height: 1860px; }
+			
+			.grid-container { overflow-x: hidden; }
+			
+			* {margin: 0; padding: 0; }
+        /* navigation------------------------------------------- */
+			.topbar {
+				position: fixed; 
+				height: 70px; 
+				box-shadow: 0px 1px 20px gray; 
+				background-color:white; 
+				width: 1200px; 
+				z-index: 1; 
+			}
+			
+			.nav {
+				position: absolute; 
+				margin: 0; 
+				padding: 0; 
+				list-style-type: none; 
+				text-align: left; 
+				top: 10px; 
+				font-size: 14px; 
+				text-transform: uppercase;  
+				font-family: 'Whitney' , sans-serif;
+				color: solid black; 
+                margin-left: 630px;
+			}
+            
+            .colorbar {
+				position: fixed; 
+				height: 5px; 
+				background-color: #2F47FF; 
+                width: 40px;
+                margin-left: 660px;
+                margin-top: 50px;
+			}
+        
+			ul.nav li {
+				display: inline-block; 
+			}
+			ul.nav li a{
+    		    padding: 20px 30px 0px 30px;
+				text-decoration: none; 
+				display: block; 
+				color: #95989A; 
+			}
+			ul.nav li a:hover {
+				color: #2F47FF; 
+			}
+			ul.nav li a:active {
+				color: #1F6C89; 
+			}
+
+            .logo{
+            background-image: url(image/logo.png)
+            background-size: cover;
+            margin-left: 60px;
+            margin-top: 10px;
+            }
+        
+            /* section1------------------------------------------- */
+        
+    		.page1 {
+				position: relative; 
+				height: 650px; 
+				background-color: white; 
+			}    
+        
+	
+			.intro {
+				position: absolute; 
+				text-align: left;
+				color: #95989A; 
+				font-family: 'Apercu' , sans-serif; 
+				font-weight: 300; 
+				font-size: 14px; 
+				width: 28%; 
+				line-height: 1.5;  
+				left: 130px; 
+				top: 400px; 
+			}   
+        
+            .chair{
+                background-image: url(image/chair.png);
+                background-size: cover;
+                margin-left: 50px;
+                margin-top: 100Ppx;
+            }
+        
+
+
+
+            .move{
+                position:relative;
+                top: 200px;
+                left:250px;
+                animation: move 3s infinite;
+                animation-delay: 0.8s;
+                z-index: 1;
+                margin-left: 100px;
+
+            }
+
+            @keyframes move {
+                0%   { left: 160px; }
+                50%  { left: 300px; }
+                100% { left: 160px; }
+            }
+
+
+
+			
+			.header1 {
+				position: absolute; 
+				text-align: left; 
+				color: #2F47FF; 
+				width: 1200px; 
+				font-family: 'circular' , sans-serif; 
+				font-weight: 300; 
+				font-size: 35px; 
+				text-align:left; 
+				top: 280px; 
+                margin-left: 120px;
+                letter-spacing: 2px;
+			}
+			
+
+
+			
+						
+			/*section333333333--------------------------*/
+            .page3 {
+				position: relative; 
+				height: 650px; 
+				background-color: white; 
+                
+			}
+        
+        	.heading {
+             
+                position:absolute; 
+				width: 400px;
+				color: black; 
+				font-size: 26px;
+				left: 100px; 
+				padding: 5px; 
+                margin-top: 200px;
+                margin-left: 0px;
+				font-family: 'circular', sans-serif;
+                letter-spacing: 2px;
+                line-height: 1.2
+			}		
+    
+			
+			.descriptiopn {
+				position: absolute; 
+				text-align: left;
+				color: #95989A; 
+				font-family: 'Apercu' , sans-serif; 
+				font-weight: 300; 
+				font-size: 14px; 
+				width: 37%; 
+				line-height: 1.5;  
+				margin-left:  100px; 
+				top: 350px; 
+			}
+			
+			
+                 .chair{
+                background-image: url(image/chair.png);
+                background-size: cover;
+                margin-left: 800px;
+                margin-top: 100px;
+                width: 40px;
+                position: absolute;
+            }
+        
+      
+        
+                .furniture{
+                background-image: url(image/furniture.jpg)
+                background-size: cover;
+                margin-left: 400px;
+                margin-top: 80px;
+                width: 40px;
+                position: absolute;
+            }
+
+
+			/*section------------------------------********/
+            .page2 {
+				position: relative; 
+				height: 450px; 
+				background-color: white; 
+			}
+
+			.speaker1, 
+			.speaker2, 
+			.speaker3 {
+                
+				width: 220px; 
+				height: 550px; 
+				top: 90px; 
+				position: absolute; 
+                text-align: center;
+			}
+			
+			.speaker1 {
+				margin-left: 50px;   
+			}
+			.speaker2 {
+				margin-left: 250px; 
+			}
+			.speaker3 {
+				margin-left: 450px; 
+            }
+
+        
+        
+            .box1, 
+			.box2, 
+			.box3 {
+                
+				width: 400px; 
+				height: 550px; 
+				top: 210px; 
+				position: absolute; 
+                font-family: "apercu",sans-serif;
+                font-size: 20px; 
+                color: #2F47FF;
+			}
+			
+			.box1 {
+				margin-left: 50px;
+			}
+			.box2 {
+				margin-left: 250px; 
+			}
+			.box3 {
+				margin-left: 450px; 
+			}
+			
+
+        
+                @keyframes fade-out {
+                  from { opacity: 1; }
+                  to { opacity: 0; }
+                }
+        
+            .read {
+                
+				position: relative; 
+				text-align: left; 
+				margin: 0px 40px 80px 40px; 
+				padding: 5px 30px 5px 30px;  
+                margin-top: 550px;
+                margin-left: 70px;
+                font-family:'apercu', sans-serif;
+               
+			}
+			
+			a {
+				text-decoration: none; 
+				color: #2F47FF; 
+			}
+			
+			a:hover {
+				color: black; 
+			}
+			
+			a:active {
+				     color: #2F47FF;
+
+			}
+        
+            .shape2{
+                
+            background-image: url(image/shape2.png);
+            background-size: cover;
+            margin-left: 50px;
+            width: 40px;
+            position: absolute;
+            margin-top: 510px;
+                
+            }
+        
+        
+			/********foot bar********/
+			
+			.footbar {
+				position: relative; 
+				height: 60px;  
+				background-color: black; 
+				width: 1200px; 
+                margin-left: 0px;
+			}
+			.ftitle {
+				font-size: 15px; 
+				position:absolute; 
+				color: white; 
+				font-family: 'apercu', sans-serif;
+				text-align: left; 
+				width: 1200px; 
+				top: 15px; 
+                margin-left: 50px;
+                margin-top: 8px;
+			}
+			.ftitle2 {
+				font-size: 15px; 
+				position:absolute; 
+				color: white; 
+				font-family: 'apercu', sans-serif;
+				text-align: left; 
+				width: 1200px; 
+				top: 15px; 
+                margin-left: 1000px;
+                margin-top: 8px;
+			}
+			
+			
+			
+    </style>
+  </head>
+  <body>
+
+   	<!-- text -->
+    <div class="grid-container">
+    	
+
+    	<div class="row topbar">
+            <div class="colorbar"></div>
+            <div class="logo"><img src="image/logo.png" width="60px"></div>
+        
+    		<ul class="nav">
+    			<li><a href="index.html" class="t1">Home</a></li>
+    			<li><a href="speaker.html" class="t2">Speaker</a></li>
+    			<li><a href="exhi.html" class="t3">Exhibition</a></li>
+    			<li><a href="location.html" class="t4">Location</a></li>
+    		</ul>
+    
+    		
+    	</div>
+    	
+    	<!--------section1-------->
+    	<div class="row page1 col-12" id="page1">
+    	   <div class="move"><img src="image/logo.png" width="200px"></div>
+    		<div class="header1"><strong>How Should We Live?</strong></div>
+            <div class="chair"><img src="image/chair.png" width="300px"></div>
+    		<div class="intro">
+					How Should We Live? Propositions for the Modern Interior Conference will be on view September 23, 2017 at The New Museum. The exhibition will examine a range of environments - interiors, exhibition displays, and furnitue designs - with the aim of exploring the complex collaborative partnerships, materials, and processes that have shaped the modernist interior.  <br>
+					<br>
+					
+    		</div>
+ 
+    
+    			</div>
+    		
+    		
+   
+    	
+    	<!-------section2-------->
+    	
+    	<div class="row page2 col-12" id="page2">
+    		<div class="speaker1">
+    		<div class="speaker1"><img src="image/speaker1.jpg" width="220px"></div>
+            </div>
+    	    <div class="speaker2">
+    		<div class="speaker2"><img src="image/speaker2.jpg" width="220px"></div>
+            </div>
+    	    <div class="speaker3">
+    		<div class="speaker3"><img src="image/speaker3.jpg" width="220px"></div>
+            </div>	
+    
+            <div class="box1">
+    		<div class="box1"><b>Kråkvik, D’Orazio</b></div>
+            </div>
+    	    <div class="box2">
+    		<div class="box2">Oki Sato</div>
+            </div>
+    	    <div class="box3">
+    		<div class="box3">Michael Anastassiades</div>
+            </div>	
+    	</div>
+    	
+    	<!--------section3-------->
+    	<div class="row page3 col-12" id="page3">
+    	<div class="colorbar3"></div>
+    		
+        <div class="heading">Unveiling The Best In Norwegian Craft And Design</div>
+        <div class="furniture">
+    	<div class="furniture"><img src="image/furniture.jpg" width="300px"></div>
+        </div>	
+    	<div class="descriptiopn">Structure is a forthcoming exhibition for Milan Design Week showcasing contemporary Norwegian craft and design. The exhibition, curated by Kråkvik & D’Orazio and Hanna Nova Beatrice, will take place over the course of five days and make its debut on April 12th at the Ventura Lambrate exhibition space. </div>	
+    	<div class="shape2"><img src="image/shape2.png" width="200px"></div>
+
+    	<div class="read"><a href="exhi.html">Read More</a></div>
+    	
+    	</div>
+    	
+    	
+     	<!--------foot bar-------->
+    	<div class="row footbar col-12">
+    		
+    		<div class="ftitle">Follow us on instagram</div>
+    		<div class="ftitle2">Follow us on facebook</div>
+    		<div class="fcolorbar"></div>
+    		
+    	</div>
+    
+   </div> 
+  </body>
+</html>

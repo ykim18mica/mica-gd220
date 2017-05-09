@@ -1,0 +1,361 @@
+/*contact information*/
+   .blackline{
+        width:1020px;
+        position:fixed;
+        left:140px;
+        top:670px;
+        z-index:2;
+        border-top: solid 1px black;
+      }
+      
+      .contact{
+        font-family:Montserrat,sans-serif;
+        font-weight: 100;
+        margin-top:10px;
+        letter-spacing: 0.5px;
+        font-size: 13px;
+        position: fixed;
+        top:670px;
+        left:180px;
+        color: gray;
+      }
+      
+      .share{
+        font-family:Montserrat,sans-serif;
+        font-weight: 100;
+        margin-top:10px;
+        letter-spacing: 0.5px;
+        font-size: 13px;
+        position: fixed;
+        top:670px;
+        left:900px;
+        color:gray;
+      }
+      
+      .facebook{
+        position: fixed;
+        top:670px;
+        margin-top:6px;
+        left:1030px;
+      }
+      
+      .email{
+         position: fixed;
+        top:670px;
+        margin-top: 6px;
+        left:1060px;
+      }
+      
+      .twitter{
+         position: fixed;
+        top:670px;
+        margin-top: 6px;
+        left:1090px;
+      }
+/* speaker page side bar*/
+
+.artworkho {
+        width:100px;
+        height: 50px;
+        margin: 40px;
+        padding: 10px;
+        position:fixed;
+        text-align: center;
+        font-family: roboto slab,serif;
+        font-size: 15px;
+        left:1100px;
+        top:280px;
+      }
+
+.side{
+       transform: rotate(90deg);
+       color:gray;
+      z-index: 2;
+      }
+
+.interho{
+        width: 100px;
+        height: 50px;
+        margin: 40px;
+        padding: 10px;
+        position:fixed;
+        text-align: center;
+        font-family: roboto slab,serif;
+        font-size: 15px;
+        left:1100px;
+        top:420px;
+      }
+
+ p{
+        z-index: 2;
+        font-size: 12px;
+        font-family:Montserrat,sans-serif;
+        font-weight: 200;
+        margin-top:20px;
+        width:400px;
+        letter-spacing: 0.4px;
+        line-height: 1.2;
+        opacity: 1;
+      }
+
+ .question{
+        z-index:2;
+        font-size: 13px;
+        font-family:Montserrat,sans-serif;
+        font-weight: 300;
+        margin-top: 20px;
+        width: 400px;
+      }
+
+/* The navigation css  */
+
+.menu {
+        position:fixed;
+        z-index: 3;
+      }
+
+.homenavi {
+        position:fixed;
+        z-index: 3;
+        left:38%;
+        font-family: 'Roboto Slab',serif;
+        font-weight:100;
+        text-align: center;
+        font-size: 13px;
+      }
+
+   .circle {
+        position:fixed;
+        left: 490px;
+        top:-208px;
+        opacity: 0.1;
+        width: 300px;
+	      height: 300px;
+	      border: solid 1px black;
+	      -moz-border-radius: 150px;
+	      -webkit-border-radius: 150px;
+	      border-radius: 150px;
+        animation: gelatine 2s infinite;
+}
+     @keyframes gelatine {
+  from, to { transform: scale(0.9, 0.9); }
+  25% { transform: scale(0.8, 1); }
+  50% { transform: scale(1, 0.8); }
+  75% { transform: scale(0.85, 0.95); }
+    }
+      
+/* link*/
+      
+      a:link {
+        color:black;
+        text-decoration: none
+      }
+     
+      a:hover {
+        text-decoration: underline;
+}
+    
+       a:active{
+       text-decoration: underline;
+}
+      
+      a:visited{
+        color:black;
+      }
+      
+/* navigation */
+
+      .Home {
+        position: fixed;
+        top:105px;
+        left:620px;
+      }
+
+      .about {
+        transform: rotate(45deg);
+        top:40px;
+        position: fixed;
+        left:460px;
+      }
+      
+      .speakers{
+        transform: rotate(-45deg);
+        position: fixed;
+        top: 40px;
+        left:760px;
+      }
+      
+ 
+
+      /*side button*/
+
+     
+
+   
+
+/* grid height */
+
+ 
+      .oneh{
+        height:100px;
+      }
+      
+      .sevenh{
+        height:700px;
+      }
+      
+      .eighth {
+        height:800px;
+      }
+
+/*text line decoration*/
+      
+      .blueline{
+        width: 300px;
+        position: relative;
+        left:400px;
+        top:-240px;
+        z-index:2;
+        border-top: solid 1px rgb(75,114,178);
+      }
+      
+      .blueline02{
+        width: 300px;
+        position: relative;
+        left:400px;
+        top:-240px;
+        z-index:2;
+        border-top: solid 1px rgb(75,114,178);
+      }
+      
+      .blueline03{
+        width: 300px;
+        position: relative;
+        left:400px;
+        top:-240px;
+        z-index:2;
+        border-top: solid 1px rgb(75,114,178);
+      }
+      
+       .orangeline{
+        width: 300px;
+        position: relative;
+        left:400px;
+        top:-240px;
+        z-index:2;
+        border-top: solid 1px rgb(210,111,71);
+      }
+      
+       .orangeline02{
+        width: 300px;
+        position: relative;
+        left:400px;
+        top:-240px;
+        z-index:2;
+        border-top: solid 1px rgb(210,111,71);
+      }
+      
+       .orangeline03{
+        width: 300px;
+        position: relative;
+        left:400px;
+        top:-240px;
+        z-index:2;
+        border-top: solid 1px rgb(210,111,71);
+      }
+      
+      .greenline{
+        width: 300px;
+        position: relative;
+        left:400px;
+        top:-240px;
+        z-index:2;
+        border-top: solid 1px rgb(100,157,108);
+      }
+      
+      .greenline02{
+        width: 300px;
+        position: relative;
+        left:400px;
+        top:-240px;
+        z-index:2;
+        border-top: solid 1px rgb(100,157,108);
+      }
+      
+      .greenline03{
+        width: 300px;
+        position: relative;
+        left:400px;
+        top:-240px;
+        z-index:2;
+        border-top: solid 1px rgb(100,157,108);
+      }
+        
+
+
+
+/*-- all elements will use border-box --*/
+html {
+  box-sizing: border-box;
+}
+*, :before, :after {
+  box-sizing: inherit; 
+}
+
+/*-- container for all the columns --*/
+.grid-container{
+  width:100%; 
+  margin: 0 auto;
+	position: relative;
+}
+
+/*-- our cleafix hack -- */ 
+.row:before, 
+.row:after {
+  content:"";
+  display: table ;
+  clear:both;
+}
+
+[class*='col-'] {
+  float: left; 
+  min-height: 1px; 
+  width: 8.33%; 
+    
+  /*-- our gutter -- */
+  padding: 0 0px; /* top-bottom right-left */
+}
+
+/*-- columns with different widths --*/
+.col-1{ width: 8.333333%; }
+.col-2{ width: 16.666666%; }
+.col-3{ width: 25%;    }
+.col-4{ width: 33.333333%; }
+.col-5{ width: 41.666667%; }
+.col-6{ width: 50%; }
+.col-7{ width: 58.333333%; }
+.col-8{ width: 66.666666%; }
+.col-9{ width: 75%; }
+.col-10{ width: 83.333333%; }
+.col-11{ width: 91.666667%; }
+.col-12{ width: 100%;   }
+
+/*-- use thse to offset columns --*/
+.col-offset-1 { margin-left: 8.333333%; }
+.col-offset-2 { margin-left: 16.666666%; }
+.col-offset-3 { margin-left: 25%; }
+.col-offset-4 { margin-left: 33.333333%; }
+.col-offset-5 { margin-left: 41.666667%; }
+.col-offset-6 { margin-left: 50%; }
+.col-offset-7 { margin-left: 58.333333%; }
+.col-offset-8 { margin-left: 66.666666%; }
+.col-offset-9 { margin-left: 75%; }
+.col-offset-10 { margin-left: 83.333333%; }
+.col-offset-11 { margin-left: 91.666667%; }
+
+
+/*-- helpers --*/
+.test,
+.outline {
+  outline: 1px solid red; 
+}

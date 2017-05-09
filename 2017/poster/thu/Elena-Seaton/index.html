@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movie Marathon </title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		
+		<style>
+				body {
+				background-color: black;
+				}
+			
+			.info {
+				color: white;
+				font-family: 'Montserrat', sans-serif;
+				font-size: 18px relative;
+				text-align: center;
+				letter-spacing: 1px;
+				padding: 40px;
+				}
+			.info:hover {
+				color: deepskyblue;
+			}
+			
+			.subtitle {
+				color: white;
+				font-family: 'Montserrat', sans-serif;
+				font-size: 30px;
+				text-align: center;		
+				padding-top: 30px;
+				}
+			.subtitle:hover {
+				color: limegreen;
+			}
+			
+			
+			.title {
+				color: deepskyblue;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				font-size: 125px ;
+				text-align: center;		
+				padding: 20px;
+			}
+			
+			.row {
+				height: 200px;
+				
+			}
+			
+			div.box-pinky {
+				width: 150px;
+				height: 150px;
+				background-color: deeppink;
+				top: 25px;
+				left: 50px;
+				position: relative;
+			}
+			div.box-pinky: hover {
+				animation: rotator 1s infinite;
+			}
+			
+			div.box-pinkier {
+				width: 150px;
+				height: 150px;
+				background-color: hotpink;
+				top: -125px;
+				left: 250px;
+				position:relative;
+			}
+			div.box-pinkier:hover {
+				background-color: yellow;
+			}
+			
+			div.idkhso {
+				width: 350px;
+				height: 175px;
+				background-color: white;
+				top: -125px;
+				left: 250px;
+				position:relative;
+			}
+			div.idkhso:hover {
+				background-color: deeppink;
+			}
+			
+			.box-hot-pink {
+				width: 150px;
+				height: 150px;
+				background-color: hotpink;
+				top: 25px;
+				left: 50px;
+				position:relative;
+			}	
+			.box-hot-pink:hover {
+				background-color: yellow;
+			}
+				
+			div.box-pinki {
+				width: 150px;
+				height: 150px;
+				background-color: deeppink;
+				top: 25px;
+				left: 50px;
+				position: relative;
+			}
+			div.box-pinki:hover {
+				animation: rotate 1s infinite;
+			}
+			
+			div.idkhto {
+				width: 350px;
+				height: 175px;
+				background-color: white;
+				top: -150px;
+				left: 250px;
+				position:relative;
+			}
+			div.idkhto:hover {
+				background-color: hotpink;
+			}
+			
+			div.box-sun {
+				width: 150px;
+				height: 150px;
+				background-color: yellow;
+				top: -300px;
+				left: 650px;
+				position: relative;	
+			}
+			div.box-sun:hover {
+				background-color: orange;
+			}
+			
+			div.box-bp {
+				width: 150px;
+				height: 150px;
+				background-color: hotpink;
+				top: 25px;
+				left: 50px;
+				position: relative;
+			}
+			div.box-bp:hover {
+				background-color: yellow;
+			}
+			
+			div.box-lp {
+				width: 150px;
+				height: 150px;
+				background-color: deeppink;
+				top: -125px;
+				left: 250px;
+				position: relative;
+			}	
+			div.box-lp:hover {
+				animation: fadeout .5s infinite;
+			}
+			
+			div.box-syellow {
+				width: 150px;
+				height: 150px;
+				background-color: yellow;
+				top: -275px;
+				left: 450px;
+				position: relative;
+			}	
+			div.box-syellow:hover {
+				background-color: orange;
+			}
+			
+			div.box-fiorng {
+				width: 150px;
+				height: 150px;
+				background-color: orange;
+				top: -425px;
+				left: 650px;
+				position: relative;
+			}
+			div.box-fiorng:hover {
+			animation: fadeout 3s infinite;
+			}
+			
+			div.box-seorng {
+				width: 150px;
+				height: 150px;
+				background-color: orange;
+				top: 25px;
+				left: 450px;
+				position: relative;
+			}
+			div.box-seorng:hover{
+				animation: rotate 1s infinite;
+			}
+			
+			div.idk17o {
+				width: 350px;
+				height: 175px;
+				background-color: white;
+				top: -125px;
+				left: 650px;
+				position:relative;
+			}
+			div.idk17o:hover {
+				background-color: yellow;
+			}
+			
+			div.anotherp {
+				width: 150px;
+				height: 150px;
+				background-color: deeppink;
+				top: 25px;
+				left: 50px;
+				position: relative;
+			}
+			div.anotherp:hover {
+				animation: rotate 2s infinite;
+			}
+			
+			div.andanotherp {
+				width: 150px;
+				height: 150px;
+				background-color: hotpink;
+				top: -125px;
+				left: 250px;
+				position: relative;
+			}
+			div.andanotherp:hover {
+				background-color: dodgerblue;
+			}
+			
+			div.box-yellur {
+				width: 150px;
+				height: 150px;
+				background-color: yellow;
+				top: -275px;
+				left: 450px;
+				position: relative;
+			}
+			div.box-yellur:hover {
+				background-color: deeppink;
+			}
+			
+			div.idk17t {
+				width: 350px;
+				height: 175px;
+				background-color: white;
+				top: -450px;
+				left: 650px;
+				position:relative;
+			}
+			div.idk17t:hover {
+				background-color: orange;
+			}
+			
+			div.box-dblue {
+				width: 150px;
+				height: 150px;
+				background-color: dodgerblue;
+				top: 25px;
+				left: 50px;
+				position: relative;
+			}
+			div.box-dblue:hover {
+				background-color: yellow;
+			}
+			
+			div.box-lblue {
+				width: 150px;
+				height: 150px;
+				background-color: deepskyblue;
+				top: -125px;
+				left: 250px;
+				position: relative;
+			}
+			div.box-lblue:hover {
+				background-color: deeppink;
+			}
+			div.box-orangewb {
+				width: 150px;
+				height: 150px;
+				background-color: orange;
+				top: -275px;
+				left: 450px;
+				position: relative;
+			}
+			div.box-orangewb:hover {
+			background-color: dodgerblue;
+			}
+			
+			div.bovero {
+				width: 150px;
+				height: 150px;
+				background-color: deepskyblue;
+				top: -425px;
+				left: 650px;
+				position: relative;
+			}
+			div.bovero:hover {
+				background-color: limegreen;
+				animation: rotate 1s infinite;
+			}
+			
+			div.box-alpb {
+				width: 150px;
+				height: 150px;
+				background-color: hotpink;
+				top: 25px;
+				left: 50px;
+				position: relative;
+			}
+			div.box-alpb:hover {
+				background-color: deepskyblue;
+			}
+			
+			div.idksto {
+				width: 350px;
+				height: 175px;
+				background-color: white;
+				top: -125px;
+				left: 250px;
+				position:relative;
+			}
+			div.idksto:hover {
+				background-color: dodgerblue;
+			}
+			
+			div.blu {
+				width: 150px;
+				height: 150px;
+				background-color: dodgerblue;
+				top: -300px;
+				left: 650px;
+				position: relative;
+			}
+			div.blu:hover {
+				background-color: orange;
+			}
+			
+			div.lg {
+				width: 150px;
+				height: 150px;
+				background-color: limegreen;
+				top: -450px;
+				left: 850px;
+				position: relative;
+			}
+			div.lg:hover {
+				background-color: deeppink;
+			}
+			
+			div.dg {
+				width: 150px;
+				height: 150px;
+				background-color: forestgreen;
+				top: -600px;
+				left: 1050px;
+				position: relative;
+			}
+			div.dg:hover {
+				background-color: yellow;
+			}
+			
+			div.darkb {
+				width: 150px;
+				height: 150px;
+				background-color: dodgerblue;
+				top: 25px;
+				left: 50px;
+				position: relative;
+			}
+			div.darkb:hover {
+				animation: rotate 1s infinite;
+			}
+			
+			div.idksut{
+				width: 350px;
+				height: 175px;
+				background-color: white;
+				top: -150px;
+				left: 250px;
+				position:relative;
+			}
+			div.idksut:hover {
+				background-color: hotpink;
+			}
+			
+			div.randomyellow {
+				width: 150px;
+				height: 150px;
+				background-color: yellow;
+				top: -300px;
+				left: 650px;
+				position: relative;
+			}
+			div.randomyellow:hover {
+				background-color: hotpink;
+			}
+			
+			div.darkerg {
+				width: 150px;
+				height: 150px;
+				background-color: forestgreen;
+				top: -450px;
+				left: 850px;
+				position: relative;
+			}
+			div.darkerg:hover {
+				background-color: orange;
+				animation: fadeout 1s infinite;
+			}	
+			
+			div.lighterg {
+				width: 150px;
+				height: 150px;
+				background-color: limegreen;
+				top: -600px;
+				left: 1050px;
+				position: relative;
+			}
+			div.lighterg:hover {
+				background-color: deepskyblue;
+			}
+			
+			div.lightb {
+				width: 150px;
+				height: 150px;
+				background-color: deepskyblue;
+				top: 25px;
+				left: 50px;
+				position: relative;
+			}
+			div.lightb:hover {
+				background-color: yellow;
+			}
+			
+			div.justanotherpink {
+				width: 150px;
+				height: 150px;
+				background-color: deeppink;
+				top: -125px;
+				left: 250px;
+				position: relative;
+			}
+			div.justanotherpink:hover {
+				background-color: limegreen;
+			}
+			
+			div.justanotherblue {
+				width: 150px;
+				height: 150px;
+				background-color: deepskyblue;
+				top: -275px;
+				left: 450px;
+				position: relative;
+			}
+			div.justanotherblue:hover {
+				animation: fadeout 4s infinite;
+			}
+			
+			div.omganotherblue {
+				width: 150px;
+				height: 150px;
+				background-color: dodgerblue;
+				top: -425px;
+				left: 650px;
+				position: relative;
+			}
+			div.omganotherblue:hover {
+				background-color: orange;
+			}
+			div.lgreeen {
+				width: 150px;
+				height: 150px;
+				background-color: limegreen;
+				top: -575px;
+				left: 850px;
+				position: relative;
+			}
+			div.lgreeen:hover {
+				background-color: hotpink;
+			}
+			
+			div.dodblue {
+				width: 150px;
+				height: 150px;
+				background-color: dodgerblue;
+				top: -725px;
+				left: 1050px;
+				position: relative;
+			}
+			div.dodblue:hover {
+				background-color: yellow;
+			}
+			
+			div.pppink {
+				width: 150px;
+				height: 150px;
+				background-color: deeppink;
+				top: 25px;
+				left: 50px;
+				position: relative;
+			}
+			div.pppink:hover {
+				background-color: forestgreen;
+				animation: fadeout 2s infinite;
+			}
+			
+			div.hottpink {
+				width: 150px;
+				height: 150px;
+				background-color: hotpink;
+				top: -125px;
+				left: 250px;
+				position: relative;
+			}
+			div.hottpink:hover {
+				background-color: dodgerblue;
+			}
+			div.ontp {
+				width: 150px;
+				height: 150px;
+				background-color: orange;
+				top: -275px;
+				left: 450px;
+				position: relative;
+			}
+			div.ontp:hover {
+				background-color: deeppink;
+			}
+			
+			div.idklso {
+				width: 350px;
+				height: 175px;
+				background-color: white;
+				top: -425px;
+				left: 650px;
+				position:relative;
+			}
+			div.idklso:hover {
+				background-color: forestgreen;
+			}
+			
+			div.omgmoreb {
+				width: 150px;
+				height: 150px;
+				background-color: deepskyblue;
+				top: -600px;
+				left: 1050px;
+				position: relative;
+			}
+			div.omgmoreb:hover {
+				background-color: deeppink;
+				animation: rotate .5s infinite;
+			}
+			div.sheeshlb {
+				width: 150px;
+				height: 150px;
+				background-color: deepskyblue;
+				top: 25px;
+				left: 450px;
+				position: relative;
+			}
+			div.sheeshlb:hover {
+				background-color: yellow;
+				animation: rotate 1s infinite;
+			}
+			
+			div.idklst {
+				width: 350px;
+				height: 175px;
+				background-color: white;
+				top: -150px;
+				left: 650px;
+				position:relative;
+			}
+			div.idklst:hover {
+				background-color: limegreen;
+			}
+			
+			div.rdgreen {
+				width: 150px;
+				height: 150px;
+				background-color: green;
+				top: -300px;
+				left: 1050px;
+				position: relative;
+			}
+			div.rdgreen:hover {
+				background-color: hotpink;
+			}
+			div.ttlb {
+				width: 150px;
+				height: 150px;
+				background-color: dodgerblue;
+				top: 25px;
+				left: 450px;
+				position: relative;
+			}
+			div.ttlb:hover {
+				background-color: orange;
+			}
+			
+			div.ryellow {
+				width: 150px;
+				height: 150px;
+				background-color: yellow;
+				top: -125px;
+				left: 650px;
+				position: relative;
+			}
+			div.ryellow:hover {
+				background-color: hotpink;
+				animation: fadeout 5s infinite;
+			}
+			div.stlb {
+				width: 150px;
+				height: 150px;
+				background-color: dodgerblue;
+				top: -275px;
+				left: 850px;
+				position: relative;
+			}
+			div.stlb:hover {
+				background-color: deeppink;
+			}
+			
+			div.lastbluebox {
+				width: 150px;
+				height: 150px;
+				background-color: deepskyblue;
+				top: -425px;
+				left: 1050px;
+				position: relative;
+			}
+			div.lastbluebox:hover {
+				background-color: orange;
+			}
+			
+			div.idkbso {
+				width: 350px;
+				height: 175px;
+				background-color: white;
+				top: 25px;
+				left: 250px;
+				position:relative;
+			}
+			div.idkbso:hover {
+				background-color: yellow;
+			}
+			
+			div.orangeby {
+				width: 150px;
+				height: 150px;
+				background-color: orange;
+				top: -150px;
+				left: 650px;
+				position: relative;
+			}
+			div.orangeby:hover {
+				background-color: forestgreen;
+			}
+			div.stlg {
+				width: 150px;
+				height: 150px;
+				background-color: limegreen;
+				top: -300px;
+				left: 850px;
+				position: relative;
+			}
+			div.stlg:hover {
+				background-color: deepskyblue;
+			}
+			div.lgreenbox {
+				width: 150px;
+				height: 150px;
+				background-color: forestgreen;
+				top: -450px;
+				left: 1050px;
+				position: relative;
+			}
+			div.lgreenbox:hover {
+				background-color: yellow;
+				animation: rotate 2s infinite;
+			}
+			
+			div.idkbst {
+				width: 350px;
+				height: 175px;
+				background-color: white;
+				top: 0px;
+				left: 250px;
+				position:relative;
+			}
+			div.idkbst:hover {
+				background-color: orange;
+			}
+			
+			div.singley {
+				width: 150px;
+				height: 150px;
+				background-color: yellow;
+				top: -150px;
+				left: 650px;
+				position: relative;
+			}
+			div.singley:hover {
+				animation: fadeout 2s infinite;
+			}
+			
+			div.ttly {
+				width: 150px;
+				height: 150px;
+				background-color: yellow;
+				top: 25px;
+				left: 450px;
+				position: relative;
+			}
+			div.ttly:hover {
+				animation: fadeout 1s infinite;
+			}
+			
+			div.ttlo {
+				width: 150px;
+				height: 150px;
+				background-color: orange;
+				top: -125px;
+				left: 650px;
+				position: relative;
+			}
+			div.ttlo:hover {
+				animation: fadeout 1s infinite;
+			}
+				
+			div.ttlpink {
+				width: 150px;
+				height: 150px;
+				background-color: hotpink;
+				top: 25px;
+				left: 250px;
+				position: relative;
+			}
+			div.ttlpink:hover {
+				animation: fadeout .5s infinite;
+			}
+				
+			div.stlo {
+				width: 150px;
+				height: 150px;
+				background-color: orange;
+				top: -125px;
+				left: 450px;
+				position: relative;
+			}
+			div.stlo:hover {
+				animation: fadeout .5s infinite;
+			}
+			
+			div.stly {
+				width: 150px;
+				height: 150px;
+				background-color: yellow;
+				top: -275px;
+				left: 650px;
+				position: relative;
+			}
+			div.stly:hover {
+				animation: fadeout .5s infinite;
+			}
+			
+			div.ttlg {
+				width: 150px;
+				height: 150px;
+				background-color: limegreen;
+				top: -425px;
+				left: 850px;
+				position: relative;
+			}
+			div.ttlg:hover {
+				animation: fadeout .5s infinite;
+			}
+			
+			div.stlp {
+				width: 150px;
+				height: 150px;
+				background-color: hotpink;
+				top: 25px;
+				left: 50px;
+				position: relative;
+			}
+			div.stlp:hover {
+			animation: fadeout .25s infinite;
+			}
+			
+			div.lastpink {
+				width: 150px;
+				height: 150px;
+				background-color: deeppink;
+				top: -125px;
+				left: 250px;
+				position: relative;
+			}
+			div.lastpink:hover {
+				animation: fadeout .25s infinite;
+			}
+			
+			div.lastyellow {
+				width: 150px;
+				height: 150px;
+				background-color: yellow;
+				top: -275px;
+				left: 450px;
+				position: relative;
+			}
+			div.lastyellow:hover {
+				animation: fadeout .25s infinite;
+			}
+			
+			div.lastorange {
+			width: 150px;
+				height: 150px;
+				background-color: orange;
+				top: -425px;
+				left: 650px;
+				position: relative;
+			}
+			div.lastorange:hover {
+				animation: fadeout .25s infinite;
+			}
+			
+			div.stlgreen {
+				width: 150px;
+				height: 150px;
+				background-color: forestgreen;
+				top: -575px;
+				left: 850px;
+				position: relative;
+			}
+			div.stlgreen:hover {
+				animation: fadeout .25s infinite;
+			}
+			
+			div.lastgreen {
+				width: 150px;
+				height: 150px;
+				background-color: limegreen;
+				top: -725px;
+				left: 1050px;
+				position: relative;
+			}
+			div.lastgreen:hover {
+				animation: fadeout .25s infinite;
+			}
+			
+			div.linezero {
+				width: 1050px;
+				height: 50px;
+				top: 10px;
+				background-color: black;
+				margin-left: 100px
+			}
+			div.lineone {
+				width: 950px;
+				height: 25px;
+				top: 10px;
+				background-color: deepskyblue;
+				margin-left: 150px;
+			}
+			
+			div.linetwo {
+				width: 750px;
+				height: 25px;
+				top: 50px;
+				background-color: dodgerblue;
+				margin-left: 250px;
+			}
+			div.linetwo:hover {
+				animation: fadeout 3s infinite;
+			}
+			
+			div.linethree {
+				width: 550px;
+				height: 25px;
+				top: 50px;
+				background-color: deepskyblue;
+				margin-left: 350px;
+			}
+			
+			
+			@keyframes rotate {
+			0% {transform: rotate(-45deg);	}
+			100% { transform: rotate(-405deg); }
+			}
+			
+			@keyframes fadeout {
+			from {
+				opacity: 1;
+			}
+			to {
+				opacity:0;
+			}
+
+			@keyframes moveleft {
+  			from { left: 0; }
+  			to { left: 120px; }
+			}
+			
+			@keyframes moveleft-back {
+				0%   { left: 0; }
+				50%  { left: 120px; }
+				100% { right: 0; }
+			}
+
+			@keyframes rotator {
+				0%   { transform: rotateX(0deg)    rotateY(0deg);    }
+				100% { transform: rotateX(1080deg) rotateY(360deg);  }
+			}
+			
+			@keyframes pop {
+			0% { transform: scale(1); }
+			3% { transform: scale(0.9); }
+			6% { transform: scale(1); }
+			8% { transform: scale(0.8); }
+			12% { transform: scale(1); }
+				
+				
+			.img-hairsprayone {
+				top: -20px;
+				width: 150px;
+				height: 150px;
+			background-image: url(images/img-Hairspray.png);
+			}
+		
+		</style>
+	</head>
+<body>
+		<div class="container"></div>
+			<div class ="info">Location: The Charles Theatre, 1711 N Charles St, Baltimore, MD 21201  |  Website: http://thecharles.com/  |  Date: March 10th - 14th
+			</div>
+			<div class="subtitle">Movie Marathon With</div>
+			<div class= "title">ADAM SHANKMAN</div>
+		<div class="row  ">
+			<div class="box-pinky"></div>
+			<div class="box-pinkier"></div>
+		</div>
+		<div class="row ">
+			<div class="box-hot-pink"></div>
+			<div class="idkhso"></div>
+	
+		</div>
+		<div class="row  ">
+			<div class="box-pinki">Hairspray / March 10</div>
+			<div class="idkhto"></div>
+			<div class="box-sun"></div>
+		</div>
+		<div class="row ">
+			<div class="box-bp"></div>
+			<div class="box-lp"></div>
+			<div class="box-syellow"></div>
+			<div class="box-fiorng"></div>
+		</div>
+		<div class="row ">
+			<div class="box-seorng"></div>
+			<div class="idk17o"></div>
+		</div>
+		<div class="row ">
+			<div class="anotherp"></div>
+			<div class="andanotherp"></div>
+			<div class="box-yellur"> 17 Again / March 11</div>
+			<div class="idk17t"></div>
+		</div>
+		<div class="row ">
+			<div class="box-dblue"></div>
+			<div class="box-lblue"></div>
+			<div class="box-orangewb"></div>
+			<div class="bovero"></div>
+		</div>
+		<div class="row">
+			<div class="box-alpb"></div>
+			<div class="idksto"></div>
+			<div class="blu"></div>
+			<div class="lg"></div>
+			<div class="dg"></div>
+		</div>
+		<div class="row ">
+			<div class="darkb"></div>
+			<div class="idksut"></div>
+			<div class="randomyellow">Step Up / March 12</div>
+			<div class="darkerg"></div>
+			<div class="lighterg"></div>
+		</div>
+		<div class="row ">
+			<div class="lightb"></div>
+			<div class="justanotherpink"></div>
+			<div class="justanotherblue"></div>
+			<div class="omganotherblue"></div>
+			<div class="lgreeen"></div>
+			<div class="dodblue"></div>
+		</div>
+		<div class="row ">
+			<div class="pppink"></div>
+			<div class="hottpink"></div>
+			<div class="ontp">Last Song / March 13</div>
+			<div class="idklso"></div>
+			<div class="omgmoreb"></div>
+		</div>
+		<div class="row ">
+			<div class="sheeshlb"></div>
+			<div class="idklst"></div>
+			<div class="rdgreen"></div>
+		</div>
+		<div class="row">
+			<div class="ttlb"></div>
+			<div class="ryellow"></div>
+			<div class="stlb"></div>
+			<div class="lastbluebox"></div>
+		</div>
+		<div class="row ">
+			<div class="idkbso"></div>
+			<div class="orangeby">Bedtime Stories / March 14</div>
+			<div class="stlg"></div>
+			<div class="lgreenbox"></div>
+		</div>
+		<div class="row ">
+			<div class="idkbst"></div>
+			<div class="singley"></div>
+		</div>
+		<div class="row ">
+			<div class="ttly"></div>
+			<div class="ttlo"></div>
+		</div>
+		<div class="row ">
+			<div class="ttlpink"></div>
+			<div class="stlo"></div>
+			<div class="stly"></div>
+			<div class="ttlg"></div>
+		</div>
+		<div class="row ">
+			<div class="stlp"></div>
+			<div class="lastpink"></div>
+			<div class="lastyellow"></div>
+			<div class="lastorange"></div>
+			<div class="stlgreen"></div>
+			<div class="lastgreen"></div>
+		</div>
+		<div class="row ">
+			<div class="linezero"></div>
+			<div class="lineone"></div>
+			<div class="linetwo"></div>
+			<div class="linethree"></div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Show Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet"> 
+    <style>
+			
+	.sibai { height: 400px;}
+	.sanbai { height: 300px;}
+	.h-300 { height: 500px; }
+        
+        
+        
+
+        
+			.img-pink{
+					background-image: url(images/pink.png);
+					background-size: cover;
+				}	
+			.img-blue{
+					background-image: url(images/blue.png);
+					background-size: cover;
+				}
+			.img-green{
+					background-image: url(images/green.png);
+					background-size: cover;	
+				}
+			.img-yellow{
+					background-image: url(images/yellow.png);
+					background-size: cover;	
+				}	
+			.img-purple{
+					background-image: url(images/purple.png);
+					background-size: cover;	
+				}	
+           .img-filmmaker{
+                    background-image: url(images/filmmaker.png);
+                    background-size: cover;
+                }
+        
+        
+        .address{
+        font-size: 20px;
+        font-family: 'Roboto Mono', monospace;
+        position: fixed;
+        top: 100px;
+        left: 1100px;
+        z-index: 2;  
+        }
+ 
+        .film1{
+        font-size: 8px;
+        font-family: 'Roboto Mono', monospace;
+        position: fixed;
+        top: 390px;
+        left: 1400px;
+        z-index: 2;
+        animation: moveout 3s infinite;    
+        }   
+
+        
+        .film2{
+        font-size: 16px;
+        font-family: 'Roboto Mono', monospace;
+        position: fixed;
+        top: 720px;
+        left: 800px;
+        z-index: 2;
+        animation: moveout 3s infinite;    
+        }          
+ 
+        .film3{
+        font-size: 16px;
+        font-family: 'Roboto Mono', monospace;
+        position: fixed;
+        top: 700px;
+        left: 1470px;
+        z-index: 2;
+        animation: moveout 3s infinite;    
+        }       
+        
+        
+        .film4{
+        font-size: 16px;
+        font-family: 'Roboto Mono', monospace;
+        position: fixed;
+        top: 930px;
+        left: 870px;
+        z-index: 2;
+        animation: moveout 3s infinite;    
+        }      
+
+        
+        .film5{
+        font-size: 16px;
+        font-family: 'Roboto Mono', monospace;
+        position: fixed;
+        top: 950px;
+        left: 1450px;
+        z-index: 2;
+        animation: moveout 3s infinite;    
+        }
+        
+        .date{
+        font-size: 20px;
+        font-family: 'Roboto Mono', monospace;
+        position: fixed;
+        top: 1100px;
+        left: 800px;
+        z-index: 1;
+           
+        }
+        
+
+        .pinkbox {
+        position:relative;
+        top: 5px;
+        left:150px;
+        animation: move 3s infinite;
+        animation-delay: 0.8s;
+        z-index: 1;
+
+        }
+        
+        @keyframes move {
+        0%   { left: 160px; }
+        50%  { left: 190px; }
+        100% { left: 160px; }
+        }
+            
+            
+            
+       .yellowbox {
+        position:relative;
+        top: 50px;
+        left: 9px;
+        animation: loop 3s infinite ;
+        animation-delay: 0.2s;
+        z-index: 8;
+        width:100px;
+        height:300px;
+        }
+      
+        
+        @keyframes moveout {
+        0% {opacity: 1;}
+        100% {opacity: 0}
+        }
+       
+        @keyframes appear{
+        0% {opacity: 0;}
+        100%{ opacity: 1; }
+        }
+   
+            
+        .greenbox {
+        position:relative;
+        top: 20px;
+        left:70px;
+        animation: appear 3s infinite;
+        animation-delay: 0.2s;
+        z-index: 1;
+        width:100px;
+        height:500px;
+        }
+
+        @keyframes loop{
+        0% {left: 0px; top: 25px;}
+        25% {left: 20px; top: 15px;}
+        50% {left: 80px; top: 85px;}
+     
+        100% {left: 40px; top:105px;}
+        }
+
+        .bluebox {
+        position:absolute;
+        font-family:'Source Sans Pro', sans-serif;
+        font-size: 160px;
+        font-weight: 300;
+        text-align: center;
+        top: 720px;
+        left:600px;
+        animation: moveout 3s infinite;
+        animation-delay: 0.2s;
+        z-index: 1;
+        width:100px;
+        height:500px;
+        }
+     
+        .purplebox {
+        position:relative;
+        top: 0px;
+        left: 0px;
+        animation: loop2 3s infinite;
+        animation-delay: 0.2s;
+        z-index: 1;
+        width:100px;
+        height:500px;
+        }
+     
+        @keyframes loop2{
+        0% {left: 40px; top: 25px;}
+        100% {left: 40px; top:105px;}
+        }  
+        
+        .box {
+        width: 250px;
+        height:200px;
+        border: 3px solid black;
+        background-color: white
+        z-index:2;
+        position:absolute;
+        top:190px;
+        left:910px;
+        opacity: ;
+        padding: 10px;
+        padding-top: 30px;
+         animation: moveout 3s infinite; 
+        }
+
+        .box2 {
+        width: 300px;
+        height:00px;
+        border: 2px solid black;
+        background-color: white
+        z-index:2;
+        position:absolute;
+        top:1100px;
+        left:1420px;
+        padding: 10px;
+        padding-top: 10px;
+        }
+
+  
+
+      
+    </style>
+  </head>
+  <body>
+   
+    <div class="grid-container">
+			
+    <div class="row">
+
+        <div class="col-5 sibai img-filmmaker">
+            <div class="address">
+           The Charles Theatre
+            1711 N Charles St Baltimore MD 21202
+            </div>
+        </div>
+         
+      
+        <div class="col-7 sibai img-pink">
+             <div class="pinkbox">
+             <img src="images/pinkbox.png" width="700px">
+             </div>
+             <div class="film1"> A Bride for Rip Van Winkle </div>      
+                    
+                    
+        </div>  
+
+                
+        
+    </div>
+			
+    <div class="row">
+			<div class="col-5 sanbai img-yellow">
+                <div class="yellowbox">
+                <img src="images/yellowbox.png" width="550px"></div>
+                <div class="film2"> April Story </div>  
+                
+            </div>
+			<div class="col-7 sanbai img-green">
+                <div class="greenbox">
+                <img src="images/greenbox.png" width="700px"></div>
+                 <div class="film3"> All About Lily Chou-Chou </div>  
+                
+                
+            </div>
+    </div>			
+
+	<div class="row">
+			<div class="col-5 sanbai img-blue">
+                <div class="bluebox">
+                <img src="images/bluebox.png" width="700px"></div>
+                <div class="date"> March 10th ~ March 14th</div>
+                <div class="film4"> Love Letter</div>  
+                
+                
+            </div>
+			<div class="col-7 sanbai img-purple">
+                <div class="purplebox">
+                <img src="images/purplebox.png" width="700px"></div>
+                <div class="film5"> Hana and Alice </div>  
+            
+            </div>
+            <div class="box"></div>
+            <div class="box2"></div>
+	</div>		
+			
+ </div>
+    
+    
+  </body>
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Nightmare</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Lakki+Reddy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911" rel="stylesheet">
+    
+    <style>
+      body {
+        background-color: black;
+      }
+      /*-- pictures --*/
+      .moon1 {
+        background-image: url(images/moon1.png);
+		height: 600px;
+        animation: shining 4s infinite;
+      }
+      .moon2 {
+        background-image: url(images/moon2.png);
+        height: 800px;
+        animation: shining 5s infinite;
+      }
+      .moon3 {
+        background-image: url(images/moon3.png);
+        position: relative;
+        top: -200px;
+        height: 500px;
+        animation: shining 3s infinite;
+      }
+      .moon4 {
+        background-image: url(images/moon4.png);
+        height: 700px;
+        animation: shining 4s infinite;
+      }
+      .moon5 {
+        background-image: url(images/moon5.png);
+        position: relative;
+        top: -400px;
+        height: 600px;
+        animation: shining 5s infinite;
+      }
+      .nightmare {
+        background-image: url(images/nightmare.png);
+        position: relative;
+        top: -2100px;
+        height: 600px;
+        opacity: 0;
+        transition: opacity 1s;
+      }
+      .wedding {
+        background-image: url(images/wedding.png);
+        position: relative;
+        height: 800px;
+        top: -2102px;
+        opacity: 0;
+        transition: opacity 1s;
+      }
+      .bigfish {
+        background-image: url(images/bigfish.png);
+        position: relative;
+        height: 500px;
+        top: -2300px;
+        opacity: 0;
+        transition: opacity 1s;      
+      }
+      .edwood {
+        background-image: url(images/edwood.png);
+        position: relative;
+        height: 700px;
+        top: -2100px;
+        opacity: 0;
+        transition: opacity 1s; 
+      }
+      .alice {
+        background-image: url(images/alice.png);
+        position: relative;
+        height: 500px;
+        top: -2500px;
+        opacity: 0;
+        transition: opacity 1s; 
+      }
+      .title {
+        position: relative;
+        color: white;
+        top: -2400px;
+        font-family: 'Lakki Reddy', cursive;
+        font-size: 110px;
+        text-align: center;
+        text-shadow: 0px 0px 0px white;
+        transition: text-shadow 2s, color 2s;
+      }
+      .secondary-title {
+        position: relative;
+        color: white;
+        top: -2400px;
+        font-family: 'Goudy Bookletter 1911', serif;
+        font-size: 50px;
+        text-align: center;
+        transition: letter-spacing 2s;
+      }
+      .address {
+        position: relative;
+        color: white;
+        top: -2380px;
+        font-family: 'Goudy Bookletter 1911', serif;
+        font-size: 25px;
+        left: 300px;
+        transition: left 2s;
+      }
+      .website {
+        position: relative;
+        color: white;
+        top: -2370px;
+        font-family: 'Goudy Bookletter 1911', serif;
+        font-size: 20px;
+        left: 480px;
+        transition: left 2s;
+      }
+      .date {
+        position: relative;
+        color: white;
+        top: -2330px;
+        font-family: 'Goudy Bookletter 1911', serif;
+        font-size: 25px;
+        text-align: center;
+        transform: rotate(180deg);
+        transition: transform 2s;
+      }
+      .place {
+        position: relative;
+        color: white;
+        top: -2300px;
+        font-family: 'Goudy Bookletter 1911', serif;
+        font-size: 25px;
+        text-align: center;
+        line-height: 150%;
+        text-shadow: 0px 0px 20px white;
+        color: black;
+        transition: text-shadow 2s, color 2s;
+      }
+      /*-- animation --*/
+      @keyframes shining {
+        0% { filter: drop-shadow(0px 0px 15px white); }
+        50% { filter: drop-shadow(0px 0px 40px white); }
+        100% { filter: drop-shadow(0px 0px 15px white); }
+      }
+      .nightmare:hover {
+        opacity: 1;
+      }
+      .wedding:hover {
+        opacity: 1;
+      }
+      .bigfish:hover {
+        opacity: 1;
+      }
+      .edwood:hover {
+        opacity: 1;
+      }
+      .alice:hover {
+        opacity: 1;
+      }
+      .title:hover {
+        text-shadow: 0px 0px 20px white;
+        color: #8B0000;
+      }
+      .secondary-title:hover {
+        letter-spacing: 10px;
+      }
+      .address:hover {
+        left: 400px;
+      }
+      .address:hover + .website {
+        left: 300px;
+      }
+      .date:hover {
+        transform: rotate(360deg);
+      }
+      .place:hover {
+        text-shadow: 0px 0px 0px white;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+   
+    <div class="grid-container">
+      <div class="row">
+		<div class="col-5 col-offset-1 moon1"></div>
+		<div class="col-6 moon2"></div>
+        <div class="col-5 col-offset-1 moon3"></div>
+        <div class="col-6 moon4"></div>
+        <div class="col-5 col-offset-1 moon5"></div>
+      </div>
+      <div class="row">
+        <div class="col-5 col-offset-1 nightmare"></div>
+        <div class="col-6 wedding"></div>
+        <div class="col-5 col-offset-1 bigfish"></div>
+        <div class="col-6 edwood"></div>
+        <div class="col-5 col-offset-1 alice"></div>
+      </div>
+      <div class="row">
+        <p class="title">The Nightmare</p>
+        <p class="secondary-title">Tim Burton</p>
+        <p class="address">The Charles Theatre, 1711 N Charles St, Baltimore, MD 21201</p>
+        <p class="website">Website: http://thecharles.com/</p>
+        <p class="date">Date: March 10th ~ March 14th</p>
+        <p class="place">
+          Corpse Bride &nbsp; &nbsp; &nbsp; Mar. 10th/7pm<br>
+          Edward Scissorhands &nbsp; &nbsp; &nbsp; Mar. 11th/7pm<br>
+          Alice in Wonderland &nbsp; &nbsp; &nbsp; Mar. 12th/7pm<br>
+          The Nightmare before Chrsitmas &nbsp; &nbsp; &nbsp; Mar. 13th/7pm<br>
+          Big Fish &nbsp; &nbsp; &nbsp; Mar. 14th/7pm<br>
+        </p>
+      </div>
+    
+    </div>
+    
+    
+  </body>
+</html>

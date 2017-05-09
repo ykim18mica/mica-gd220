@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>tim-burton</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+    
+    <style>
+		
+        .grid-container {
+            position: relative;
+					background-color: aquamarine;
+			
+        }
+			
+        
+		/** keyframes **/
+			
+			.main {
+				background-image: url(images/main.png);
+				height: 660px;
+				width: 466px;
+				margin-left: 350px;
+				
+			}
+			.main:hover {
+				background-image: url(images/main-1.png);
+				height: 660px;
+				width: 470px;
+				margin-left: 350px;
+				
+			}
+			
+			@keyframes a1 {
+				0% { top: -780px;
+							left: 400px;}
+				50% { top: -800px;
+							left: 450px;}
+				100% {top: -780px;
+							left: 400px;}
+			}
+			
+			@keyframes a2 {
+				0% {top: -780px;
+						left: 350px;}
+				50% {top: -790px;
+							left: 300px;}
+				100% {top: -780px;
+							left: 350px;}
+			}
+			
+			@keyframes a3 {
+				0% {top: -770px;
+						left: 350px;}
+				50% {top: -780px;
+							left: 330px;}
+				100% {top: -770px;
+							left: 350px;}
+			}
+			
+			@keyframes a4 {
+				0% {top: -760px;
+						left: 380px;}
+				50% {top: -780px;
+							left: 400px;}
+				100% {top: -760px;
+							left: 380px;}
+			}
+			
+			@keyframes a5 {
+				0% {top: -780px;
+						left: 300px;}
+				50% {top: -790px;
+							left: 350px;}
+				100% {top: -780px;
+							left: 300px;}
+			}
+			
+			@keyframes a6 {
+				0% {top: -760px;
+						left: 420px;}
+				50% {top: -780px;
+							left: 370px;}
+				100% {top: -760px;
+							left: 420px;}
+			}
+			
+		
+			
+			@keyframes moveright{
+				from {left: 250px;
+						}
+				to {left:  345px;
+							}
+				
+			}
+			
+			@keyframes s1 {
+				0% {
+					transform: rotate(0deg);
+				}
+				50% {
+					transform: rotate(45deg);
+				}
+				100% {
+					transform: rotate(0deg);
+				}
+			}
+			
+			@keyframes s2 {
+				0% {
+					transform: rotate(0deg);
+				}
+				50% {
+					transform: rotate(-45deg);
+				}
+				100% {
+					transform: rotate(0deg);
+				}
+			}
+			
+				@keyframes s3 {
+				0% {
+					transform: rotate(0deg);
+				}
+				50% {
+					transform: rotate(90deg);
+				}
+				100% {
+					transform: rotate(0deg);
+				}
+			}
+			
+			@keyframes s4 {
+				0% {
+					transform: rotate(0deg);
+				}
+				50% {
+					transform: rotate(-90deg);
+				}
+				100% {
+					transform: rotate(0deg);
+				}
+			}
+			
+				@keyframes s5 {
+				0% {
+					transform: rotate(0deg);
+				}
+				50% {
+					transform: rotate(180deg);
+				}
+				100% {
+					transform: rotate(0deg);
+				}
+			}
+			
+			@keyframes s6 {
+				0% {
+					transform: rotate(0deg);
+				}
+				50% {
+					transform: rotate(360deg);
+				}
+				100% {
+					transform: rotate(0deg);
+				}
+			}
+			
+			@keyframes s7 {
+				0% {
+					transform: rotate(0deg);
+				}
+				50% {
+					transform: rotate(-360deg);
+				}
+				100% {
+					transform: rotate(0deg);
+				}
+			}
+			
+		@keyframes moveupdown {
+			0% {
+					bottom: -580px;
+			
+			}
+			50%	{
+					bottom: -450px;
+			}
+			100% {
+					bottom: -580px;
+			}
+		}
+		
+		@keyframes scale {
+			0% {
+				transform: scale(1.5);
+				
+			}
+			50% {
+				transform: scale(1);
+			}
+			
+			100%{
+				transform: scale(1.5);
+			}
+		}
+		
+		@keyframes fadeout {
+			0% {opacity: 0.5;}
+			50% {opacity: 1.0;}
+			100% {opacity: 0.5;}
+		}
+			
+		@keyframes fadeout1 {
+			0% {opacity: 1.0;}
+			80%   { opacity: 1.0;}
+			100% {opacity: 0.1;}
+			}
+			
+			@keyframes fadeout2 {
+				0% {opacity: 1.0;}
+				50% {opacity: 0;}
+				100% {opacity: 1.0;}
+			}
+		
+		@keyframes scalesmall {
+			0% {
+				transform: scale(0.5);
+				
+			}
+			50% {
+				transform: scale(1);
+			}
+			
+			100% {
+				transform: scale(0.5);
+			}
+		}
+		
+		
+        /** alphabet **/
+        
+        .tim {
+            background-image: url(images/tim.jpg);
+            height: 584px;
+            width: 543px;
+            position: relative;
+            margin-left: 500px;
+			margin-top: -430px;
+						animation: moveupdown 3s infinite;
+        }
+        
+        .b {
+            background-image: url(images/B.png);
+            height:213px;
+            width: 261px;
+            position: relative;
+            margin-top:0px;
+            left: 200px;
+						animation: moveupdown 3s infinite;
+						animation-delay: 0.4s;
+        }
+        
+        .ur {
+            background-image: url(images/RU.png);
+            height: 339px;
+            width: 620px;
+            position: relative;
+            left: -200px;
+            margin-top: 300px;
+						animation: moveupdown 3s infinite;
+						animation-delay: 0.8s;
+        }
+        
+        .t {
+            background-image: url(images/T.png);
+            height: 252px;
+            width: 612px;
+            position: relative;
+			left: 175px;
+			margin-top: 100px;
+						animation: moveupdown 3s infinite;
+						animation-delay: 1.2s;
+        }
+        
+        .o {
+            background-image: url(images/O.png);
+            height: 315px;
+            width: 466px;
+            position: relative;
+			margin-top: 450px;
+			left: -480px;
+						animation: moveupdown 3s infinite;
+						animation-delay: 1.6s;
+			
+        }
+        
+        .n {
+            background-image: url(images/N.png);
+            height: 561px;
+            width: 954px;
+            position: relative;
+			margin-top: 100px;
+			left: 50px;
+						animation: moveupdown 3s infinite;
+						animation-delay: 2.0s;
+        }
+        
+        /** shadow **/
+        
+        .tim-shadow {
+            background-image: url(images/tim-shadow.png);
+            height: 270px;
+            width: 428px;
+            position: absolute;
+			top: 830px;
+			left: 470px;
+						animation: scale 3s infinite;
+						animation-delay: 0.4s;
+        }
+        
+        .b-shadow {
+            background-image: url(images/B-shadow.png);
+            height: 147px;
+            width: 249px;
+            position: absolute;
+			top: 1300px;
+			left: 190px;
+						animation: scale 3s infinite;
+						animation-delay: 0.4s;
+        }
+        
+        .u-shadow {
+            background-image: url(images/U-shadow.png);
+            height: 141px;
+            width: 222px;
+            position: absolute;
+			top: 1600px;
+			left: 390px;
+						animation: scale 3s infinite;
+						animation-delay: 0.8s;
+        }
+        
+        .r-shadow {
+            background-image: url(images/R-shadow.png);
+            height: 148px;
+            width: 206px;
+            position: absolute;
+			top: 1640px;
+			left: 120px;
+						animation: scale 3s infinite;
+						animation-delay: 0.8s;
+        }
+        
+        .t-shadow {
+            background-image: url(images/T-shadow.png);
+            height: 157px;
+            width: 218px;
+            position: absolute;
+			top: 2000px;
+			left: 180px;
+						animation: scale 3s infinite;
+						animation-delay: 1.2s;
+        }
+        
+        .o-shadow {
+            background-image: url(images/O-shadow.png);
+            height: 141px;
+            width: 196px;
+            position: absolute;
+			top: 2350px;
+			left: 150px;
+						animation: scale 3s infinite;
+						animation-delay: 1.6s;
+        }
+        
+        .n-shadow {
+            background-image: url(images/N-shadow.png);
+            height: 183px;
+            width: 214px;
+            position: absolute;
+			top: 2750px;
+			left: 55px;
+						animation: scale 3s infinite;
+						animation-delay: 2.0s;
+        }
+        
+        /** elements**/
+		
+		.vincent {
+			background-image: url(images/vincent.png);
+			height: 79px;
+			width: 75px;
+			position: relative;
+			margin-top: 400px;
+			left: -500px;
+			animation: moveupdown 3s infinite, scalesmall 6s infinite, fadeout 6s infinite;
+			animation-delay: 2.0s;
+		}
+		
+		.monster {
+			background-image: url(images/monster.png);
+			height: 364px;
+			width: 308px;
+			position: relative;
+			margin-top: -450px;
+			left: 435px;
+			animation: moveupdown 3s infinite, scale 6s infinite;
+			animation-delay: 2.0s;
+		}
+		
+		.ghost {
+			background-image: url(images/ghost.png);
+			height: 102px;
+			width: 59px;
+			position: relative;
+			margin-top: 360px;
+			left: -820px;
+			animation: moveupdown 5s infinite;
+			animation-delay: 1.6s;
+			
+		}
+		
+		/**people**/
+		
+		.people-1 {
+			background-image: url(images/people-1.png);
+			height: 66px;
+			width: 60px;
+			position:relative;
+			margin-top: -2489px;
+			left: 553px;
+			animation: moveupdown 3s infinite;
+			
+			
+		}
+			.people-1:hover {
+				background-image: url(images/person-1.png);
+				height: 66px;
+				width: 60px;
+				position: relative;
+				margin-top: -2489px;
+				left: 553px;
+				animation: moveupdown 3s infinite;
+				
+			}
+		
+		.people-2 {
+			background-image: url(images/people-2.png);
+			height:75px;
+			width: 52px;
+			position: relative;
+			margin-top: -2474px;
+			left: 618px;
+			animation: moveupdown 3s infinite;
+		}
+			
+			.people-2:hover {
+				background-image: url(images/person-2.png);
+				height:75px;
+				width: 52px;
+				position: relative;
+				margin-top: -2474px;
+				left: 618px;
+				animation: moveupdown 3s infinite;
+				
+			}
+		
+		.people-3 {
+			background-image: url(images/people-3.png);
+			height: 108px;
+			width: 79px;
+			position: relative;
+			margin-top: -2480px;
+			left: 665px;
+			animation: moveupdown 3s infinite;
+		}
+			
+			.people-3:hover {
+				background-image: url(images/person-3.png);
+				height: 108px;
+				width: 79px;
+				position: relative;
+				margin-top: -2480px;
+				left: 665px;
+				animation: moveupdown 3s infinite;
+			}
+		
+		.people-4 {
+			background-image: url(images/people-4.png);
+			height: 83px;
+			width: 76px;
+			position: relative;
+			margin-top: -2440px;
+			left: 745px;
+			animation: moveupdown 3s infinite;
+		}
+			
+			.people-4:hover {
+				background-image: url(images/person-4.png);
+				height: 83px;
+				width: 76px;
+				position: relative;
+				margin-top: -2440px;
+				left: 745px;
+				animation: moveupdown 3s infinite;
+				}
+		
+		.people-5 {
+			background-image: url(images/people-5.png);
+			height: 97px;
+			width: 75px;
+			position: relative;
+			margin-top: -2402px;
+			left: 815px;
+			animation: moveupdown 3s infinite;
+		}
+			.people-5:hover {
+				background-image: url(images/person-5.png);
+				height: 97px;
+				width: 75px;
+				position: relative;
+				margin-top: -2402px;
+				left: 815px;
+				animation: moveupdown 3s infinite;
+				}
+        
+		.people-6 {
+			background-image: url(images/people-6.png);
+			height: 111px;
+			width: 52px;
+			position: relative;
+			margin-top: -2361px;
+			left: 915px;
+			animation: moveupdown 3s infinite;
+		}
+			
+			.people-6:hover {
+				background-image: url(images/person-6.png);
+				height: 111px;
+				width: 52px;
+				position: relative;
+				margin-top: -2361px;
+				left: 915px;
+				animation: moveupdown 3s infinite;
+			}
+			
+		.people-7 {
+			background-image: url(images/people-7.png);
+			height: 109px;
+			width: 108px;
+			position: relative;
+			margin-top: -2358px;
+			left: 965px;
+			animation: moveupdown 3s infinite;
+		}
+			.people-7:hover {
+			background-image: url(images/person-7.png);
+			height: 109px;
+			width: 108px;
+			position: relative;
+			margin-top: -2358px;
+			left: 965px;
+			animation: moveupdown 3s infinite;
+			}
+		
+		.people-8 {
+			background-image: url(images/people-8.png);
+			height: 91px;
+			width: 73px;
+			position: relative;
+			margin-top: -2345px;
+			left: 710px;
+			animation: moveupdown 3s infinite;
+			
+		}
+			
+			.people-8:hover {
+				background-image: url(images/person-8.png);
+				height: 91px;
+				width: 73px;
+				position: relative;
+				margin-top: -2345px;
+				left: 710px;
+				animation: moveupdown 3s infinite;
+			}
+		
+		.people-9 {
+			background-image: url(images/people-9.png);
+			height: 97px;
+			width: 85px;
+			position: relative;
+			margin-top: -2300px;
+			left: 810px;
+			animation: moveupdown 3s infinite;
+		}
+			.people-9:hover {
+				background-image: url(images/person-9.png);
+				height: 97px;
+				width: 85px;
+				position: relative;
+				margin-top: -2300px;
+				left: 810px;
+				animation: moveupdown 3s infinite;
+			}
+			
+		/** shoes **/
+			
+		
+		
+		.shoe-1 {
+				background-image: url(images/shoe-1.png);
+				height: 21px;
+				width: 37px;
+				position: relative;
+				margin-top: -1750px;
+				left: 220px;
+				animation: moveupdown 3s infinite, s1 3s infinite;
+				animation-delay: 0.8s;
+			}
+			
+			.shoe-2 {
+				background-image: url(images/shoe-2.png);
+				height: 21px;
+				width:38px;
+				position: relative;
+				margin-top: -1730px;
+				left: 218px;
+				animation: moveupdown 3s infinite, s6 3s infinite;
+				animation-delay: 0.8s;
+			}
+			
+			.shoe-3 {
+				background-image: url(images/shoe-3.png);
+				height: 29px;
+				width: 30px;
+				position: relative;
+				margin-top: -1732px;
+				left: 282px;
+				animation: moveupdown 3s infinite, s3 3s infinite;
+				animation-delay: 0.8s;
+			}
+			
+			.shoe-4 {
+				background-image: url(images/shoe-4.png);
+				height: 16px;
+				width: 36px;
+				position: relative;
+				margin-top: -1724px;
+				left: 309px;
+				animation: moveupdown 3s infinite, s7 3s infinite;
+				animation-delay: 0.8s;
+			}
+			
+			.shoe-5 {
+				background-image: url(images/shoe-5.png);
+				height: 18px;
+				width: 31px;
+				position: relative;
+				margin-top: -1704px;
+				left: 309px;
+				animation: moveupdown 3s infinite, s1 3s infinite;
+				animation-delay: 0.8s;
+				
+			}
+			
+			.shoe-6 {
+				background-image: url(images/shoe-6.png);
+				height: 35px;
+				width: 28px;
+				position: relative;
+				margin-top: -1717px;
+				left: 348px;
+				animation: moveupdown 3s infinite, s1 3s infinite;
+				animation-delay: 0.8s;
+			}
+			
+			.shoe-7 {
+				background-image: url(images/shoe-7.png);
+				height: 51px;
+				width: 24px;
+				position: relative;
+				margin-top: -1717px;
+				left: 400px;
+				animation: moveupdown 3s infinite, s4 3s infinite;
+				animation-delay: 0.8s;
+			}
+			
+			.shoe-8 {
+				background-image: url(images/shoe-8.png);
+				height: 27px;
+				width: 29px;
+				position: relative;
+				margin-top: -1710px;
+				left: 430px;
+				animation: moveupdown 3s infinite, s4 3s infinite;
+				animation-delay: 0.8s;
+			}
+			
+			.shoe-9 {
+				background-image: url(images/shoe-9.png);
+				height: 22px;
+				width: 23px;
+				position: relative;
+				margin-top: -1681px;
+				left: 433px;
+				animation: moveupdown 3s infinite, s3 3s infinite;
+				animation-delay: 0.8s;
+			}
+			
+			.shoe-10 {
+				background-image: url(images/shoe-10.png);
+				height: 17px;
+				width: 39px;
+				position: relative;
+				margin-top: -1683px;
+				left: 455px;
+				animation: moveupdown 3s infinite, s5 3s infinite;
+				animation-delay: 0.8s;
+			}
+			
+			.shoe-11 {
+				background-image: url(images/shoe-11.png);
+				height: 14px;
+				width: 17px;
+				position: relative;
+				margin-top: -1656px;
+				left: 467px;
+				animation: moveupdown 3s infinite, s1 3s infinite;
+				animation-delay: 0.8s;
+			}
+			
+			.shoe-12 {
+				background-image: url(images/shoe-12.png);
+				height: 29px;
+				width: 42px;
+				position: relative;
+				margin-top: -1710px;
+				left: 506px;
+				animation: moveupdown 3s infinite, s6 3s infinite;
+				animation-delay: 0.8s;
+			}
+			
+			.shoe-13 {
+				background-image: url(images/shoe-13.png);
+				height: 24px;
+				width: 43px;
+				position: relative;
+				margin-top: -1687px;
+				left: 508px;
+				animation: moveupdown 3s infinite, s7 3s infinite;
+				animation-delay: 0.8s;
+			}
+			
+			
+			/**alice**/
+		
+			.alice {
+				background-image: url(images/alice.png);
+				height: 80px;
+				width: 109px;
+				position: relative;
+				margin-top: -1295px;
+				left: 200px;
+				animation: moveupdown 3s infinite, moveright 5s infinite, fadeout1 5s infinite;
+				animation-delay: 1.2s;
+			}
+		
+			.heart {
+				background-image: url(images/heart.png);
+				height: 12px;
+				width: 10px;
+				position: relative;
+				animation: a1 2s infinite, fadeout2 0.5s infinite;
+				animation-delay: 1.2s;
+				
+			}
+			
+			.heart1 {
+				background-image: url(images/heart.png);
+				height: 12px;
+				width: 10px;
+				position: relative;
+				animation: a2 4s infinite, fadeout2 0.5s infinite;
+				animation-delay: 1.2s;
+			}
+			
+			.spade {
+				background-image: url(images/spade.png);
+				height: 14px;
+				width: 9px;
+				position: relative;
+				animation: a3 2s infinite, fadeout2 0.5s infinite;
+				animation-delay: 1.2s;
+			}
+			
+			.diamond{
+				background-image: url(images/diamond.png);
+				height: 13px;
+				width: 7px;
+				position: relative;
+				animation: a4 2s infinite, fadeout2 0.5s infinite;
+				animation-delay: 1.2s;
+			}
+			
+			.clover{
+				background-image: url(images/clover.png);
+				height: 11px;
+				width: 9px;
+				position: relative;
+				animation: a5 2s infinite, fadeout2 0.5s infinite;
+				animation-delay: 1.2s;
+			}
+			
+			.clover1{
+				background-image: url(images/clover.png);
+				height: 11px;
+				width: 9px;
+				position: relative;
+				animation: a6 2s infinite, fadeout2 0.5s infinite;
+				animation-delay: 1.2s;
+			}
+			
+			
+			
+			.info {
+				position: absolute;
+				font-family: 'Playfair Display SC', serif;
+				font-size: 40px;
+				font-weight: bold;
+				text-align: center;
+				margin-top: 570px;
+				left: 500px;
+				
+			}
+		.info-date {
+				position: absolute;
+				font-family: 'Playfair Display SC', serif;
+				font-size: 22px;
+				text-align: center;
+				margin-top: 620px;
+				left: 600px;
+		}
+		
+		.info-2 {
+				position: absolute;
+				font-family: 'Playfair Display SC', serif;
+				font-size: 15px;
+				text-align: left;
+				margin-top: 660px;
+				left: 500px;
+				
+			}
+		
+		.website {
+			
+				position: absolute;
+				font-family: 'Playfair Display SC', serif;
+				font-size: 15px;
+				text-align: left;
+				margin-top: 660px;
+				left: 800px;
+			
+		}
+		
+    </style>
+  </head>
+  <body>
+   
+    <div class="grid-container">
+			
+		
+				
+				<div class="col-12 tim "></div>
+				
+					
+					
+					<div class="col-12 tim-shadow">  </div>
+                
+			
+		
+		
+                <div class="col-12 b "></div>
+					<div class="col-12 b-shadow">  </div>
+                
+            
+		
+    
+                <div class="col-12 ur "> </div>
+					<div class="col-12 u-shadow">  </div>
+					<div class="col-12 r-shadow">  </div>
+		  
+		
+		
+			
+				<div class="col-12 t "> </div>
+					<div class="col-12 t-shadow">  </div>
+			
+		
+		
+		
+			
+				<div class="col-12 o"> </div>
+					<div class="col-12 ghost ">  </div>
+					<div class="col-12 o-shadow ">  </div>
+		
+		
+		
+		
+				<div class="col-12 n ">  </div>
+					<div class="col-12 n-shadow ">  </div>
+					<div class="col-12 vincent "> </div>
+					<div class="col-12 monster ">  </div>
+		
+		
+			<div class="col-1 people-1 "> </div>
+			<div class="col-1 people-2 "> </div>	
+			<div class="col-1 people-3 "> </div>
+			<div class="col-1 people-4"> </div>
+			<div class="col-1 people-5 "> </div>
+			<div class="col-1 people-6 "> </div>
+			<div class="col-1 people-7 "> </div>
+			<div class="col-1 people-8 "> </div>
+			<div class="col-1 people-9 "> </div>
+			
+			
+			
+			<div class="shoes">
+			<div class="col-1 shoe-1">  </div>
+			<div class="col-1 shoe-2">  </div>
+			<div class="col-1 shoe-3">  </div>
+			<div class="col-1 shoe-4">  </div>
+			<div class="col-1 shoe-5">  </div>
+			<div class="col-1 shoe-6">  </div>	
+			<div class="col-1 shoe-7">  </div>
+			<div class="col-1 shoe-8">  </div>
+			<div class="col-1 shoe-9">  </div>
+			<div class="col-1 shoe-10">  </div>
+			<div class="col-1 shoe-11">  </div>
+			<div class="col-1 shoe-12">  </div>
+			<div class="col-1 shoe-13">  </div>
+			
+			<div class="col-3 alice">  </div>
+			<div class="col-1 heart">  </div>
+			<div class="col-1 heart1">  </div>
+			<div class="col-1 spade">  </div>
+			<div class="col-1 diamond">  </div>
+			<div class="col-1 clover">  </div>
+			<div class="col-1 clover1">  </div>
+				</div>
+			
+			
+			
+			<div class="col-6 movie-info"> 
+				<p class="info">
+				the film of tim burton<br>
+				
+				
+				
+				</p>
+				
+				<p class="info-date">
+				
+				March 10th ~ March 14
+				
+				</p>
+				
+				<p class="info-2">
+				
+				
+				The Charles Theatre,<br> 1711 N Charles St,<br>
+				Baltimore, MD 21201<br><br>
+					
+				
+				 
+				</p>
+				
+				<p class="website">
+				
+				http://thecharles.com/<br><br>
+				
+				</p>
+			
+			</div>
+			
+			
+			
+		
+		
+		
+		
+		
+				
+		
+		
+		
+	
+		
+        
+			
+			
+            
+            
+                
+            
+        </div>
+			
+    
+    
+    
+  </body>
+</html>

@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Just One Last Dance</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+	  <link href="https://fonts.googleapis.com/css?family=Alegreya:700|Lora:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Yrsa:300" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather:300i" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+
+    <style>
+      /* YOUR CSS CODE HERE */
+			html{
+				font-family: Alegreya,Lora,Open-Sans,Nunito,Yrsa;
+			}
+			.test{
+				border-style:none;
+			}
+			.container{
+				margin: 0 auto;
+				width: 100%;
+				overflow: hidden;
+			}
+			.div{
+				width:100%;
+				float: left;
+				position: relative;
+				box-sizing:border-box;
+			}
+			.grey{
+				background-color: grey:
+			}
+			.lightgrey{
+				background-color: lightgrey;
+			}
+			.blue{
+				color:#63b6e6;
+			}
+			.img-blue{
+				background-image: url(images/img-blue.png);
+				background-size: cover;
+			}
+			.img-water{
+				background-image: url(images/img-water.png);
+				background-size: cover;
+			}
+			.img-light{
+				background-image: url(images/img-light.png);
+				background-size:cover;
+			}
+			.img-lightgrey{
+				background-image: url(images/img-lightgrey.png);
+				background-size: cover;
+			}
+			.img-wine{
+				background-image: url(images/img-wine.png);
+				background-size: cover;
+			}
+			.img-smallgrey{
+				background-image: url(images/img-smallgrey.png);
+				background-size: cover;
+			}
+			.img-grey{
+				background-image: url(images/img-grey.png);
+				background-size: cover;
+			}
+			.img-black{
+				background-image: url(images/img-black.png);
+				background-size: cover;
+			}
+			.img-dance{
+				background-image: url(images/img-dance.png);
+				background-size: cover;
+			}
+			
+      html {
+        font-family: "Arial Black", sans-serif;
+        font-weight: 900;
+      }
+      
+      h1 { font-size: 14vw; }
+      h2 { font-size: 10vw; }
+      h3 { font-size: 8vw; }
+      p { font-size: 4vw; }
+      
+			
+			.lg-title{
+				top: 13vw;
+				font-size:9vw;
+				color:azure;
+				font-family: Alegreya;
+			}
+			.md-lyrics-1{
+				top: 7vw;
+				left: 35vw;
+				font-size: 6vw;
+				font-family: Nunito;
+				color:lightcyan;
+			}
+			.md-lyrics-2{
+				top: 13vw;
+				left: 50vw;
+				font-size: 6vw;
+				font-family: Nunito;
+				color:lightcyan;
+			}
+			.md-lyrics-3{
+				left: 60vw;
+				top: 9vw;
+				font-family: Nunito;
+				color:cyan;
+				opacity: 0.5;
+			}
+			.md-1{
+				left: 10vw;
+				font-size:5vw;
+				font-family: Nunito;
+				color:lightsteelblue;
+			}
+			.md-2{
+				left:5vw;
+				top:4vw;
+				font-family: pt-serif;
+				font-size: 5vw;
+				color:lightsteelblue;
+				opacity: 0.8;
+				word-spacing: 0.3vw;
+			}
+			.md-3{
+				top: 13vw;
+				left: 19vw;
+				font-family: pt-serif;
+				font-size: 3vw;
+				color:lightsteelblue;
+				opacity: 0.7;
+				word-spacing: 0.3vw;
+			}
+			.md-4{
+				top: 20vw;
+				left: 47vw;
+				font-family: pt-serif;
+				font-size: 3vw;
+				color:lightsteelblue;
+				opacity: 0.6;
+				word-spacing: 0.3vw;
+			}
+			.md-5{
+				top: 25vw;
+				left: 60vw;
+				font-family: pt-serif;
+				font-size: 3vw;
+				color:lightsteelblue;
+				opacity: 0.6;
+				word-spacing: 0.3vw;
+			}
+			.md-6{
+				top: 33vw;
+				font-family: pt-serif;
+				font-size: 3vw;
+				color:lightsteelblue;
+				opacity: 0.5;
+				word-spacing: 0.3vw;
+			}
+			.md-7{
+				top: 42vw;
+				font-family: pt-serif;
+				font-size: 5vw;
+				color:lightsteelblue;
+				opacity: 0.8;
+				word-spacing: 0.3vw;
+			}
+			.md-8{
+				top: 3vw;
+				font-family: pt-serif;
+				font-size: 4vw;
+				color:lightsteelblue;
+				opacity: 0.8;
+				word-spacing:0.3vw;
+			}
+			.md-9{
+				top: 3vw;
+				left: 5vw;
+				font-family: Nunito;
+				font-size: 3vw;
+				color:azure;
+				word-spacing: 0.3vw;
+			}
+			.md-10{
+				top: 13vw;
+				left: 23vw;
+				font-family: Nunito;
+				font-size: 2vw;
+				color: azure;
+				opacity: 0.9;
+				word-spacing: 0.3vw;
+			}
+			.md-11{
+				top: 19vw;
+				left: 55vw;
+				font-family: Nunito;
+				font-size: 2vw;
+				color:azure;
+				opacity: 0.7;
+				word-spacing: 0.3vw;
+			}
+			.md-12{
+				top: 23vw;
+				left: 65vw;
+				font-family: Nunito;
+				font-size: 2vw;
+				color:azure;
+				opacity: 0.7;
+				word-spacing: 0.3vw;
+			}
+			.md-13{
+				top: 29vw;
+				font-family: Nunito;
+				font-size: 3vw;
+				color: azure;
+				opacity: 0.9;
+				word-spacing: 0.3vw;
+			}
+			.md-14{
+				top: 39vw;
+				left: 19vw;
+				font-family: Nunito;
+				font-size: 6vw;
+				color:azure;
+				word-spacing: 0.3vw;
+			}
+			.md-15{
+				top: 3vw;
+				font-family: PT-SERIF;
+				font-size: 6vw;
+				color: aliceblue;
+				word-spacing: 0.3vw;
+			}
+			.md-16{
+				top: 15vw;
+				left: 3vw;
+				font-family: pt-serif;
+				color:aliceblue;
+				opacity: 0.9;
+				word-spacing: 0.3vw;
+				font-size: 4vw;
+			}
+			.md-17{
+				top: 25vw;
+				left: 40vw;
+				font-family: pt-serif;
+				font-size: 3vw;
+				color:aliceblue;
+				opacity: 0.7;
+				word-spacing: 0.3vw;
+			}
+			.md-18{
+				top: 29vw;
+				left: 53vw;
+				font-family: pt-serif;
+				font-size: 3vw;
+				color:aliceblue;
+				opacity: 0.7;
+				word-spacing: 0.3vw;
+			}
+			.md-19{
+				top: 36vw;
+				font-family: pt-serif;
+				font-size: 3vw;
+				color:aliceblue;
+				opacity: 0.9;
+				word-spacing: 0.3vw;
+			}
+			.md-20{
+				top: 45vw;
+				left: 4vw;
+				font-family: pt-serif;
+				font-size: 4vw;
+				color:aliceblue;
+				word-spacing: 0.3vw;
+			}
+			.md-21{
+				top: 55vw;
+				left: 16vw;
+				font-family: pt-serif;
+				font-size: 3vw;
+				color:aliceblue;
+				opacity: 0.8;
+				word-spacing: 0.3vw;
+			}
+			.md-22{
+				top: 65vw;
+				left: 7vw;
+				font-family: pt-serif;
+				font-size: 3vw;
+				color: aliceblue;
+				opacity: 0.8;
+				word-spacing: 0.3vw;
+			}
+			.md-23{
+				top: 75vw;
+				left: 29vw;
+				font-family: pt-serif;
+				font-size: 3vw;
+				color:aliceblue;
+				word-spacing: 0.3vw;
+			}
+			.sm-1{
+				top: 38vw;
+				font-size: 2vw;
+				font-family: Merriweather;
+				color:#f9f9fa;
+				opacity: 0.5;
+				word-spacing: 0.5vw;
+			}
+			.sm-2{
+				top: 14vw;
+				left: 5vw;
+				font-family: Nunito;
+				font-size: 3vw;
+				color:lightsteelblue;
+				word-spacing:0.3vw;
+			}
+			.sm-3{
+				top: 24vw;
+				left: 15vw;
+				font-family: Nunito;
+				font-size: 3vw;
+				color:lightsteelblue;
+				word-spacing: 0.3vw;
+			}
+			.sm-4{
+				top: 2vw;
+				left: 23vw;
+				font-family: Nunito;
+				font-size:3vw;
+				color:lightcyan;
+				word-spacing: 0.3vw;
+			}
+			.sm-5{
+				top: 10vw;
+				left: 3vw;
+				font-family: Nunito;
+				font-size: 3vw;
+				color:ghostwhite;
+				opacity: 0.8;
+				word-spacing: 0.3vw;
+			}
+			.sm-6{
+				top: 20vw;
+				left: 14vw;
+				font-family: Nunito;
+				font-size: 3vw;
+				color:ghostwhite;
+				opacity: 0.6;
+				word-spacing: 0.5vw;
+			}
+			.sm-7{
+				top: 30vw;
+				left: 37vw;
+				font-family: Nunito;
+				font-size: 3vw;
+				color:ghostwhite;
+				opacity: 0.7;
+				word-spacing: 0.3vw;
+			}
+			.sum-8{
+				top: 40vw;
+				font-family: Nunito;
+				font-size: 7vw;
+				color: white;
+				word-spacing: 0.5vw;
+			}
+			.lg-1{
+				top: 34vw;
+				left: 22vw;
+				font-family: Nunito;
+				font-size: 9vw;
+				color:lightsteelblue;
+				opacity: 0.9;
+				word-spacing: 0.3vw;
+			}
+			.lg-2{
+				top:85vw;
+				font-family: pt-serif;
+				font-size: 7vw;
+				color: aliceblue;
+				word-spacing: 0.3vw;
+			}
+			.lg-3{
+				top: 1vw;
+				font-family: pt-serif;
+				font-size: 6vw;
+				color: aliceblue;
+				word-spacing: 0.3vw;
+			}
+			.lg-4{
+				top: 11vw;
+				font-family: pt-serif;
+				font-size: 5vw;
+				color: aliceblue;
+				word-spacing: 0.3vw;
+			}
+			.lg-5{
+				top: 21vw;
+				font-family: pt-serif;
+				font-size: 4vw;
+				color: aliceblue;
+				word-spacing: 0.3vw;
+			}
+			.lg-6{
+				top: 31vw;
+				font-family: pt-serif;
+				font-size: 3vw;
+				color: aliceblue;
+				word-spacing: 0.3vw;
+			}
+			.lg-7{
+				top: 41vw;
+				font-family: pt-serif;
+				font-size: 2vw;
+				color: aliceblue;
+				word-spacing: 0.3vw;
+			}
+			.bold-1{
+				top: 73vw;
+				left: 3vw;
+				font-size:4vw;
+				font-family: Alegreya;
+				color:lightblue;
+				opacity: 0.6;
+				word-spacing: 0.3vw;
+			}
+			.bold-2{
+				top: 85vw;
+				left: 40vw;
+				font-size: 4vw;
+				font-family: Alegreya;
+				color:lightblue;
+				opacity: 0.6;
+				word-spacing: 0.3vw;
+			}
+    </style>
+  </head>
+  <body>
+   
+    <div class="container">
+     
+      <!-- YOUR HTML CODE HERE -->
+			<div class="row">
+			  <div class="col-100 quarter img-blue test"></div>
+				<p class="lg-title center-h top-20">Just One Last Dance</p>
+			</div>
+			<div class="row">
+			  <div class="col-100 quarter img-blue test"></div>
+				<p class="md-lyrics-1 top-20">Oh</p>
+				<p class="md-lyrics-2 top-50">baby</p>
+			</div>
+			
+      <div class="row">
+        <div class="col-100 full img-water test"></div>
+				<p class="md-lyrics-3 top">just one last dance</p>
+				<p class="md-1 top-20">Oh</p>
+				<p class="sm-1 center-h">
+					We meet in the night in the spanish cafe <br>
+					<br>
+					I look in your eyes just don’t know what to say<br>
+					<br>
+					It feels like I’m drowning in salty water <br>
+					<br>
+					A few hours left till the sun’s gonna rise<br>
+					<br>
+					tomorrow will come and it’s time to realize<br>
+					<br>
+					our love has finished forever</p>
+				<p class="bold-1">How I wish to come with you</p>
+				<p class="bold-2">How I wish we make it through</p>
+      </div>
+			<div class="row">
+			  <div class="col-100 half img-light test"></div>
+				<p class="md-2">Just one last dance</p>
+				<p class="md-3">before we say goodbye</p>
+				<p class="md-4">when we sway and turn around </p>
+				<p class="md-5">and round and round</p>
+				<p class="md-6 center-h top-40">it's like the first time</p>
+				<p class="md-7 center-h">Just one more chance</p>
+			</div>
+			<div class="row">
+			  <div class="col-100 half img-lightgrey test"></div>
+				<p class="md-8 center-h">hold me tight and keep me warm</p>
+				<p class="sm-2">cause the night is getting cold</p>
+				<p class="sm-3">and I don't know where I belong</p>
+				<p class="lg-1">Just one last dance</p>
+			</div>
+			 <div class="row">
+			  <div class="col-75 half img-wine test"></div>
+				<div class="col-25 half img-smallgrey test"></div>
+				 <p class="sm-4">The wine and lights and the spanish cafe</p>
+				 <p class="sm-5">I will never forget how romantic they are</p>
+				 <p class="sm-6">but I know tomorrow I'll lose the one i love</p>
+				 <p class="sm-7">there's no way to come with you</p>
+				 <p class="sum-8 center-h">It's the only way to do</p>
+			</div>
+			<div class="row">
+			  <div class="col-100 half img-grey test"></div>
+				<p class="md-9">Just one last dance</p>
+				<p class="md-10">before we say goodbye</p>
+				<p class="md-11">when we sway and turn around </p>
+				<p class="md-12">and round and round</p>
+				<p class="md-13 center-h top-40">it's like the first time</p>
+				<p class="md-14 center-h">Just one more chance</p>
+			</div>
+			<div class="row">
+			  <div class="col-100 full img-black test"></div>
+				<p class="md-15 center-h">Just one last dance</p>
+				<p class="md-16">before we say goodbye</p>
+				<p class="md-17">when we sway and turn around </p>
+				<p class="md-18">and round and round</p>
+				<p class="md-19 center-h">it's like the first time</p>
+				<p class="md-20 ">Just one more chance</p>
+				<p class="md-21 center-h">hold me tight and keep me warm</p>
+				<p class="md-22">cause the night is getting cold</p>
+				<p class="md-23">and I don't know where I belong</p>
+				<p class="lg-2 center-h">Just one last dance</p>
+			</div>
+			 <div class="row">
+			   <div class="col-100 half img-dance test"></div>
+				 <p class="lg-3 center-h"> Just one last dance</p>
+				 <p class="lg-4 center-h"> Just one last dance</p>
+				 <p class="lg-5 center-h"> Just one more dance</p>
+				 <p class="lg-6 center-h"> Just one more dance</p>
+				 <p class="lg-7 center-h"> Just one last dance</p>
+			 </div>
+		</div>
+    
+    <!-- DO NOT CHANGE CODES BELOW-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.lazyload.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $('div').lazyload(
+          effect: "fadeIn"
+        );
+      });
+    </script>
+  </body>
+</html>

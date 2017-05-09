@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Show Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+		<link href="https://fonts.googleapis.com/css?family=Buda:300|Elsie:400,900|Expletus+Sans:400,500,600,700|Metamorphous|Nosifer|Stardos+Stencil" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:300,400,600,700|Oxygen:300,400,700|PT+Sans:400,700" rel="stylesheet">
+    
+    <style>
+			.grid-container {
+				background: linear-gradient(black,rgb(26,95,146) 60%); 
+				height: 1150px; 
+			}
+			/** Font**/
+			/***
+font-family: 'Nosifer', cursive;
+font-family: 'Stardos Stencil', cursive;
+font-family: 'Expletus Sans', cursive;
+font-family: 'Metamorphous', cursive;
+font-family: 'Elsie', cursive;
+font-family: 'Buda', cursive;
+***/
+			
+			.row1 {
+				height: 500px; 
+			}
+			
+			.roll {
+				width: 1000px; 
+				position: absolute; 
+				height: 483px; 
+				animation: updown-back 4s infinite; 
+				top: 0px; 
+				left: 200px;
+			}
+			@keyframes updown-back {
+				0% {top: 0px;}
+				50% {top: -300px;}
+				100% {top: 0px;}
+			}
+			
+			.fantasy,
+			.is,
+			.reality {
+				position: relative; 
+				width: 200px; 
+				font-size: 110px; 
+				color: white; 
+				font-family: 'Buda', cursive;
+				text-shadow: 2px 2px rgb(90,148,46); 
+				top: 85px; 
+				left: 40px; 
+				line-height: 1.5; 
+			}
+			.fantasy {
+				animation: slide 4s infinite;
+  			animation-delay: 0s;
+			}
+			.is {
+				animation: slide 4s infinite;
+  			animation-delay: 0.5s;
+			}
+			.reality {
+				animation: slide 4s infinite;
+  			animation-delay: 1s;
+			}
+			@keyframes slide {
+				0% {left: 40px;}
+				50% {left: 800px;}
+				100% {left: 40px;}
+			}
+			
+			.info {
+				font-family: 'Open Sans', sans-serif;
+				color: white; 
+				font-size: 8px; 
+				position: relative; 
+				text-align: left;
+				float: left; 
+				width: 700px; 
+				top: 58px;
+				left: -248px;
+			}
+			.addr {
+				position: relative; 
+				left: 100px; 
+			}
+			.web {
+				position: relative; 
+				left: 200px;
+			}
+			
+			.tim {
+				position: relative; 
+				font-size: 45px; 
+				float:right; 
+				font-family: 'Elsie', cursive;
+				color: white; 
+				width: 300px; 
+				top: 20px;
+				right: 0px;
+				text-shadow: 1.5px 1.5px rgb(90,148,46); 
+				animation: fade 4s infinite; 
+			}
+			@keyframes fade {
+				0% {opacity: 1;}
+				50% {opacity: 0.2;}
+				100% {opacity: 1;}
+			}
+			
+			.space {
+				height: 70px; 
+			}
+			
+			/**************IMG**************/
+			
+			.d1 {
+				position: relative; 
+			}
+			
+			.d2 {
+				position: relative; 
+				top: 300px; 
+				left: -100px; 
+			}
+			
+			.d3 {
+				position: relative;
+				top: 30px; 
+			}
+			
+			.d4 {
+				position: relative; 
+				width: 25%; 
+				top: 300px; 
+				height: 200px; 
+			}
+			
+			.d5 {
+				position: relative; 
+				width: 25%; 
+				top: -200px; 
+				height: 200px; 
+			}
+			/***font***/
+			/***
+font-family: 'Open Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Oxygen', sans-serif;***/
+			.m1,
+			.m2,
+			.m3,
+			.m4,
+			.m5 {
+				position: relative; 
+				color: white; 
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 300; 
+				font-size: 18px; 
+				z-index: 3; 
+			}
+			@keyframes updown {
+				0% {transform: translateY(0);}
+				50% {transform: translateY(5px);}
+				100% {transform: translateY(0);}
+			}
+			.m1:hover,
+			.m2:hover,
+			.m3:hover,
+			.m4:hover,
+			.m5:hover {
+				animation: swing 0.5s ease; 
+				animation-iteration-count: 1; 
+			}
+			@keyframes swing {
+				15% {transform: translateX(5px);}
+				30% {transform: translateX(-5px);}
+				50% {transform: translateX(3px);}
+				65% {transform: translateX(-3px);}
+				80% {transform: translateX(2px);}
+				100% {transform: translateX(0);}
+			}
+			
+			.date1,
+			.date2,
+			.date3,
+			.date4,
+			.date5 {
+				position: relative; 
+				color: white; 
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 300; 
+				font-size: 14px; 
+				transform: rotate(90deg); 
+				width: 80px; 
+			}
+			@keyframes updown-d {
+				0% {transform: translateY(0) rotate(90deg);}
+				50% {transform: translateY(5px) rotate(90deg); }
+				100% {transform: translateY(0) rotate(90deg); }
+			}
+			
+			.img1,
+			.img2,
+			.img3,
+			.img4,
+			.img5 {
+				opacity: 0.5; 
+				position: relative; 
+			}
+			
+			@keyframes pulse {
+				0% {transform: scale(0.9)}
+				50% {transform: scale(1)}
+				100% {transform: scale(0.9)}
+			}
+			/********1********/
+			.m1 {
+				top: -165px; 
+				width: 125px;
+				left: 50px;
+				animation: updown 1.5s infinite; 
+				animation-delay: 0.5s; 
+			}
+			.date1 { 
+				top: -134px; 
+				left: 145px;
+				animation: updown-d 1.5s infinite; 
+				animation-delay: 0.6s; 
+			}
+			.img1 {
+				animation: pulse 2s infinite ; 
+				position: relative; 
+				animation-delay: 0s; 
+				transition: opacity 1s; 
+			}
+			
+			/********2********/	
+			.m2 {
+				top: -95px; 
+				left: 50px; 
+				animation: updown 1.5s infinite;
+				animation-delay: 0.3s; 
+			}
+			.date2 {
+				top: -64px; 
+				left: 199px; 
+				animation: updown-d 1.5s infinite; 
+				animation-delay: 0.4s; 
+			}
+			.img2 {
+				animation: pulse 2.1s infinite ; 
+				position: relative; 
+				animation-delay: 0.3s; 
+			} 
+			
+			/********3********/
+			.m3 {
+				top: -232px;
+				left: 70px; 
+				animation: updown 1.5s infinite; 
+				animation-delay: 0s; 
+			}
+			.date3 {
+				top: -201px; 
+				left: 103px; 
+				animation: updown-d 1.5s infinite; 
+				animation-delay: 0.1s; 
+			}
+			.img3 {
+				animation: pulse 2.4s infinite ; 
+				position: relative; 
+				animation-delay: 0s; 
+			}
+			
+			/********4********/
+			.m4 {
+				top: -95px; 
+				left: 60px; 
+				animation: updown 1.5s infinite; 
+				animation-delay: 0.6s; 
+			}
+			.date4 {
+				top: -64px; 
+				left: 200px; 
+				animation: updown-d 1.5s infinite; 
+				animation-delay: 0.7s; 
+			}
+			.img4 {
+				animation: pulse 2.1s infinite ; 
+				position: relative; 
+				animation-delay: 0s; 
+			}
+			
+			/********5********/
+			.m5 {
+				top: -165px; 
+				left: 85px; 
+				animation: updown 1.5s infinite; 
+				animation-delay: 0.9s; 
+			}
+			.date5 {
+				top: -134px; 
+				left: 229px; 
+				animation: updown-d 1.5s infinite; 
+				animation-delay: 1s; 
+			}
+			.img5 {
+				animation: pulse 2s infinite ; 
+				position: relative; 
+				animation-delay: 0.3s; 
+			}
+			
+			/*****
+			.m1:hover .img1,
+			.m2:hover .img2,
+			.m3:hover .img3,
+			.m4:hover .img4,
+			.m5:hover .img5 {
+				animation: move 2s forwards; 				
+			}
+			@keyframes move {
+				from:  {opacity: 0.5; transform: scale(1); }
+				to {opacity: 1; transform: scale(1.5); }
+			}****/
+			
+			.img1:hover,
+			.img2:hover,
+			.img3:hover,
+			.img4:hover,
+			.img5:hover {
+				animation: change 1s forwards; 				
+			}
+			@keyframes change {
+				from:  {opacity: 0.5; transform: scale(1); }
+				to {opacity: 1; transform: scale(1.8); }
+			}
+			
+    </style>
+  </head>
+  <body>
+   
+    <div class="grid-container">
+			
+			<div class="row row1">
+				<img src="img/img-b.png" class="roll">
+				<div class="col-3">
+					<div class="fantasy">Fantasy</div>
+					<div class="is">is</div>
+					<div class="reality">Reality</div>
+				</div>
+				
+				<div class="info">
+					<span class="march">March 10 - March 14</span>
+					<span class="addr">The Charles Theatre, 1711 N Charles St, Baltimore, MD 21201</span>
+					<span class="web">http://thecharles.com/</span>
+				</div>
+				
+				<div class="tim col-1">TIM BURTON</div>
+				
+    	</div>
+			
+			<div class="space"></div>
+			
+			<div class="row">
+				<div class="d1 col-2 col-offset-1 ">
+					<div class="img1"><img src="img/img_01.png"></div>
+					<div class="m1">Frankenweenie</div>
+					<div class="date1">3.10 7pm</div>
+				</div>
+				
+				<div class="d2 col-2 ">
+					<div class="img2"><img src="img/img_02.png"></div>
+					<div class="m2 ">Charlie And<br>
+						The Chocolate Factory</div>
+					<div class="date2">3.11 7pm</div>
+				</div>
+				
+				<div class="d3 col-2 ">
+					<div class="img3"><img src="img/img_03.png"></div>
+					<div class="m3">Big Fish</div>
+					<div class="date3">3.12 7pm</div>
+				</div>
+				
+				<div class="d4 col-2 ">
+					<div class="img4"><img src="img/img_04.png"></div>
+					<div class="m4">Miss Peregrine's Home<br>
+						For Peculiar Children</div>
+					<div class="date4">3.13 7pm</div>
+				</div>
+				
+				<div class="d5 col-2 col-offset-1 ">
+					<div class="img5"><img src="img/img_05.png"></div>
+					<div class="m5">Edward Scissorhands</div>
+					<div class="date5">3.14 7pm</div>
+				</div>
+				
+			</div>
+			
+			
+			
+		</div>
+	</body>
+</html>

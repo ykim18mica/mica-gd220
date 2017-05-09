@@ -1,0 +1,127 @@
+/*
+DO NOT ADD ANYTHING ON THIS FILE!!!
+Add your own css on index.html
+*/
+
+/*-- all elements will use border-box --*/
+html {
+  box-sizing: border-box;
+}
+*, :before, :after {
+  box-sizing: inherit; 
+}
+/*
+  Simple CSS navigation bar with fading inactive links
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,500);
+
+/*
+  pad the body and set default font styles
+*/
+body {
+ padding: 25px; 
+ font: 300 16px/1.2 Lato;
+}
+
+/*
+  navigation
+*/
+.nav {
+  list-style: none;
+}
+
+/*
+  nav list items
+  1. side by side
+  2. needed for circle positioning
+*/
+.nav li {
+  float: left; /*1*/
+}
+
+/*
+  nav link items
+*/
+.nav > li a {
+  display: block; /*1*/
+  padding: 12px 18px; /*2*/
+  text-decoration: none; /*3*/
+  color: #999; /*4*/
+  border-bottom: 1px solid #eee;
+  transition: all ease .5s;
+}
+
+/*
+  fade out all links on ul hover
+*/
+.nav:hover > li a {
+  opacity: .5;
+  transition: all ease .5s;
+}
+
+/*
+  override previous rule to highlight current link
+*/
+.nav > li:hover a {
+  opacity: 1;
+  color: #E74C3C;
+  border-color: #E74C3C;
+}
+/*-- container for all the columns --*/
+.grid-container{
+  width: 1200px; 
+  margin: 0 auto;
+	position: relative; /* this is needed for any children to use position absolute */
+}
+
+/*-- our cleafix hack -- */ 
+.row:before, 
+.row:after {
+  content:"";
+  display: table ;
+  clear:both;
+}
+
+[class*='col-'] {
+  float: left; 
+  min-height: 1px; 
+  width: 8.33%; 
+    
+  /*-- our gutter -- */
+  padding: 0 0px; /* top-bottom right-left */
+}
+
+/*-- columns with different widths --*/
+.col-1{ width: 8.333333%; }
+.col-2{ width: 16.666666%; }
+.col-3{ width: 25%;    }
+.col-4{ width: 33.333333%; }
+.col-5{ width: 41.666667%; }
+.col-6{ width: 50%; }
+.col-7{ width: 58.333333%; }
+.col-8{ width: 66.666666%; }
+.col-9{ width: 75%; }
+.col-10{ width: 83.333333%; }
+.col-11{ width: 91.666667%; }
+.col-12{ width: 100%;   }
+
+/*-- use thse to offset columns --*/
+.col-offset-1 { margin-left: 8.333333%; }
+.col-offset-2 { margin-left: 16.666666%; }
+.col-offset-3 { margin-left: 25%; }
+.col-offset-4 { margin-left: 33.333333%; }
+.col-offset-5 { margin-left: 41.666667%; }
+.col-offset-6 { margin-left: 50%; }
+.col-offset-7 { margin-left: 58.333333%; }
+.col-offset-8 { margin-left: 66.666666%; }
+.col-offset-9 { margin-left: 75%; }
+.col-offset-10 { margin-left: 83.333333%; }
+.col-offset-11 { margin-left: 91.666667%; }
+
+
+/*-- helpers --*/
+.test,
+.outline {
+  outline: 1px solid red; 
+}

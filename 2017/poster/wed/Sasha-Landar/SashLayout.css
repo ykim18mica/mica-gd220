@@ -1,0 +1,216 @@
+body {
+margin: 0;
+}
+
+.poster {
+background-color: orange;
+border: 1px solid black;
+height: 300vh;
+width: 100%;
+position: absolute;
+left: 50%;
+top: 0%;
+transform: translate(-50%, 0%);  
+}
+
+
+.title {
+height: 30vh;
+width: 100%;
+background: orange;
+position: absolute;
+padding-top: 20vh;
+padding-bottom: 5vh;
+font-size: 5vh;
+margin-right: 17vh; 
+font-family:serif;
+}
+
+.content {
+height: 240vh;
+width: 100%;
+position: absolute;
+top: 40vh;
+}
+
+.footer {
+height: 20vh;
+width: 100%;
+position: absolute;
+bottom: 0;
+
+}
+
+.blood1, .blood2, .blood3, .blood4 {
+width: 90vh;
+height: 80vh;
+position: absolute;
+background-size: cover;
+} 
+
+.blood1 {
+background-image: url(SashStuff/blood1.png);
+left: 0;
+top: 0;
+    }
+
+.blood2 {
+background-image: url(SashStuff/blood2.png);
+left: 0;
+bottom: 0;
+}
+
+.blood3 {
+background-image: url(SashStuff/blood3.png);
+right: 0;
+top: 0;
+}
+
+.blood4 {
+background-image: url(SashStuff/blood4.png);
+right: 0;
+bottom: 0;
+}
+
+.director {
+width: 135vh;
+height: 135vh;
+position: absolute;
+background-size: cover;
+background-image: url(SashStuff/Director.png);
+left: 40%;
+top: 12%;
+transform: translate(-50%, 20%); 
+}
+
+.django {
+position: absolute;
+background-size: cover;
+opacity: 1;
+transition: .5s;
+/*-----ADJUST ME----*/
+background-image: url(SashStuff/django.png);
+width: 40vh;
+height: 40vh;
+left: 49%;
+top: 4.8%;
+/*-----ADJUST ME----*/
+}
+
+.movie1 {
+position:absolute;
+right: 0vh;
+top: 5vh;
+opacity: 0;
+transition: .5s;
+}
+
+.django:hover .movie1 {
+opacity: 1;
+}
+
+
+.killbill {
+position: absolute;
+background-size: cover;
+opacity: 1;
+transition: .5s;
+/*-----ADJUST ME----*/
+background-image: url(SashStuff/killbill.png);
+width: 35vh;
+height: 35vh;
+left: 75%;
+top: 24.3%;
+/*-----ADJUST ME----*/
+}
+
+.movie2 {
+position:absolute;
+right: -10vh;
+top: 5vh;
+opacity: 0;
+transition: .5s;
+}
+
+.killbill:hover .movie2 {
+opacity: 1;
+}
+
+.pulp {
+position: absolute;
+background-size: cover;
+opacity: 1;
+transition: .5s;
+/*-----ADJUST ME----*/
+background-image: url(SashStuff/pulp.png);
+width: 35vh;
+height: 35vh;
+left: 19%;
+top: 43.3%;
+/*-----ADJUST ME----*/
+}
+
+.movie3 {
+position:absolute;
+right: vh;
+top: vh;
+opacity: 0;
+transition: .5s;
+}
+
+.pulp:hover .movie3 {
+opacity: 1;
+}
+
+.resdogs {
+position: absolute;
+background-size: cover;
+opacity: 1;
+transition: .5s;
+/*-----ADJUST ME----*/
+background-image: url(SashStuff/resdogs.png);
+width: 63vh;
+height: 54vh;
+left: 15%;
+top: 74%;
+/*-----ADJUST ME----*/
+}
+
+.movie4 {
+position:absolute;
+right: 30vh;
+top: 47vh;
+opacity: 0;
+transition: .5s;
+}
+
+.resdogs:hover .movie4 {
+opacity: 1;
+}
+
+.ingbast {
+position: absolute;
+background-size: cover;
+opacity: 1;
+transition: .5s;
+/*-----ADJUST ME----*/
+background-image: url(SashStuff/ingbast.png);
+width: 40vh;
+height: 40vh;
+left: 87%;
+top: 67.6%;
+/*-----ADJUST ME----*/
+}
+
+.movie5 {
+position:absolute;
+right: 10vh;
+top: 40vh;
+opacity: 0;
+transition: .5s;
+}
+
+.ingbast:hover .movie5 {
+opacity: 1;
+}
+

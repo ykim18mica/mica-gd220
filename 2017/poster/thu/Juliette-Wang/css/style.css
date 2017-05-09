@@ -1,0 +1,122 @@
+/********** basic setup **********/
+
+div.row,
+div.row:after {
+  margin:0;
+  padding: 0;
+}
+
+/*  width */
+div.col-25 { width: 25%; }
+div.col-50 { width: 50%; }
+div.col-75 { width: 75%; }
+div.col-100 { width: 100%; }
+
+/* offset */
+div.col-offset-25 { margin-left: 25%; }
+div.col-offset-50 { margin-left: 50%; }
+div.col-offset-75 { margin-left: 75%; }
+div.col-offset-100 { margin-left: 100%; } 
+
+/* height */
+div.full { padding-top: 100%; }
+div.half { padding-top: 50%; }
+div.quarter { padding-top: 25%; }
+
+h1, h2, h3, h4, h5, h6, p {
+    position: absolute;
+    top: 0;
+}
+
+/********** helper **********/
+
+/* to see the box */
+.test { border: 1px solid red; }
+
+/* center horizontally */
+.center-h {
+  width: 100%;
+  text-align: center;
+}
+
+/* center vertically */
+.center-v {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* how much to push down (in percentage) */
+.top-5 { top: 5%; }
+.top-9 { top: 9%; }
+.top-10 { top: 10%; }
+.top-15 { top: 15%; }
+.top-19 { top: 18%; }
+.top-20 { top: 20%; }
+.top-22 { top: 22%; }
+.top-23-5 { top: 23.5%; }
+.top-25 { top: 25%; }
+.top-27 { top: 27%; }
+.top-28 { top: 28%; }
+.top-30 { top: 30%; }
+.top-31 { top: 31%; }
+.top-32 { top: 32%; }
+.top-35 { top: 35%; }
+.top-36 { top: 36%; }
+.top-37 { top: 37%  }
+.top-40 { top: 40%; }
+.top-43 { top: 43%; }
+.top-44 { top: 44%; }
+.top-44-4 { top: 45%; }
+.top-46-1 { top: 46.1%; }
+.top-45 { top: 47%; }
+.top-50 { top: 50%; }
+.top-55 { top: 55%; }
+.top-60 { top: 60%; }
+.top-62 { top: 62%; }
+.top-65 { top: 65%; }
+.top-67 { top: 69%; }
+.top-70 { top: 70%; }
+.top-71-6 { top: 71.6%; }
+.top-71-8 { top: 71.8%; }
+.top-72-5 { top: 72.5%; }
+.top-73 { top: 73%; }
+.top-75 { top: 75%; }
+.top-77-1 { top: 77.1%; }
+.top-80 { top: 80%; }
+.top-85 { top: 85%; }
+.top-90 { top: 90%; }
+.top-100 { top: 100%; }
+
+/* how much to push left(in percentage) */
+.left-2 { left: -6%; }
+.left-1 { left: -3.4%; }
+.left-3-4 { left: 3.4%; }
+.left-8-2 { left: 8.2%; }
+.left-7 { left: 7%; }
+.left-10 { left: 10%; }
+.left-15 { left: 15%; }
+.left-20 { left: 20%; }
+.left-22 { left: 22%; }
+.left-25 { left: 25%; }
+.left-30 { left: 30%; }
+.left-31 { left: 31%; }
+.left-35 { left: 35%; }
+.left-40 { left: 40%; }
+.left-44 { left: 44.6%; }
+.left-45 { left: 45%; }
+.left-50 { left: 50%; }
+.left-57-5 { left: 57.5%; }
+.left-60 { left: 60%; }
+.left-60-5 { left: 60.5%; }
+.left-63 { left: 63%; }
+.left-64 { left: 64%; }
+.left-67-1 { left: 67.1%; }
+.left-68-5 { left: 68.5%; }
+.left-70 { left: 70%; }
+.left-71-5 { left: 71.5%; }
+.left-75 { left: 75%; }
+.left-80 { left: 80%; }
+.left-86 { left: 86%; }
+.left-90 { left: 90%; }
+.left-95 { left: 95%; }
+.left-100 { left: 100%; }

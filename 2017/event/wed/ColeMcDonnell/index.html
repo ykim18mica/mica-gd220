@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+	<title>Designing Society</title>
+	<link rel="stylesheet" href="style.css">
+	
+	<style>
+		/* typography */
+		
+		.designing-society {
+			font-family: "Space Mono";
+			font-size: 12vw;
+			font-weight: 600;
+			color: #30AA87;
+			text-align: center;
+			margin-top: 60vw;
+		}
+		
+		.info {
+			font-family: Karla;
+			position: absolute;
+			font-size: 1.3vw;
+			color: black;
+			letter-spacing: .02vw;
+			margin-left: 14%;
+			margin-top: -60%;
+		}
+		
+		.designing-society:hover {
+			color: #ECD54E;
+			animation: fadeout 1s forwards;
+			cursor: pointer;
+		}
+		
+		.designing-society:hover + .info {
+			animation: fadein 1s forwards;
+		}
+		
+		
+		/* images */
+		.eyechip {
+			position: absolute;
+			height: 20vw;
+			margin-left: 57.5vw;
+			margin-top: -35vw;
+		}
+		
+		
+		.glitch {
+			position: absolute;
+			height: 60vw;
+			width: 400vw;
+			margin-left: -18vw;
+			margin-top: 60vw;
+		}
+		
+		@keyframes fadein {
+				from { opacity: 0; }
+				to { opacity: 1; }
+			}
+		
+		@keyframes fadeout {
+			from { opacity: 1; }
+			to { opacity: .5; }
+		}
+		
+		
+	</style>
+</head>
+<body>
+	<nav role="navigation">
+  <div id="menuToggle">
+		
+	<input type="checkbox"/>
+	
+	  <span></span>
+    <span></span>
+    <span></span>
+	
+   <ul id="menu">
+      <a href="/schedule.html"><li>Schedule</li></a>
+      <a href="/speakers.html"><li>Speakers</li></a>
+      <a href="/about.html"><li>About</li></a>
+      <a href="/rsvp.html"><li>RSVP</li></a>
+    </ul>
+  </div>
+</nav>
+	
+	<p>
+		<a href="/index.html">
+			<img src="images/logo.png" id="home">
+		</a>
+	</p>
+	
+	<div class="designtitle">
+	Designing Society
+	</div>
+	
+	<div id="title">
+		<img src="images/eyechip.gif" class="eyechip">
+		<img src="images/glitch.gif" class="glitch">
+		<p class="designing-society">ONE DAY ONLY<br>
+		</p>
+	</div>
+	
+	<div class="info">
+		We believe it's essential to stay aware<br>
+		that design shapes our modern society.<br>
+		We gather in Los Angeles, CA to recognize<br>
+		how we contribute to the branding of a<br>whole new generation.
+	</div>
+	
+</body>
+
+</html>

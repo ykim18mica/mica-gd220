@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Show Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Lustria" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:500" rel="stylesheet">
+    <style>
+      
+			
+			.wubai {
+				height: 500px;
+			}
+			.sibai {
+				height: 400px;
+			}
+			.yiqian {
+				height: 1000px;
+        
+			}
+      
+      .img01 {background-image: url(images/images/background_01.png);background-size: cover;}
+      .img02 {background-image: url(images/images/background_02.png);background-size: cover;}
+      .img03 {background-image: url(images/images/background_03.png);background-size: cover;}
+      .img04 {background-image: url(images/images/background_04.png);background-size: cover;}
+      .img05 {background-image: url(images/images/background_05.png);background-size: cover;}
+      .img06 {background-image: url(images/images/background_06.png);background-size: cover;}
+      .img07 {background-image: url(images/images/background_07.png);background-size: cover;}
+      .img08 {background-image: url(images/images/background_08.png);background-size: cover;}
+      
+      .shortline1 {
+        position:relative;
+        font-family:'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        top:150px;
+        left:180px;
+        animation: move 2s infinite;
+        animation-delay: 0.2s;
+        z-index: 1;
+        width:100px;
+        height:50px;
+        }
+      
+      .locationbox {
+        width: 200px;
+        height:100px;
+        border: 3px solid black;
+        background-color: rgb(235,236,236);
+        z-index:2;
+        position:absolute;
+        top:130px;
+        left:700px;
+        opacity: 0;
+        padding: 10px;
+        padding-top: 30px;
+        font-family: 'Lustria', serif;
+        font-weight: 300;
+        font-size: 12px;
+        text-align:center;
+        line-height: 17px
+      }
+      
+      div.shortline1:hover + div.locationbox {
+        animation: moveout 20s infinite;
+      }
+      
+      div.shortline1:hover {
+        animation: stay 20s infinite;
+      }
+       
+      @keyframes moveout {
+        0% {opacity: 1;}
+        100% {opacity: 1}
+        
+      }
+      
+       @keyframes stay {
+        0% {left:170px;font-weight: 600}
+        100% {left:170px;font-weight: 600}
+      }
+      
+      @keyframes move {
+        0%   { left: 160px; }
+        50%  { left: 190px; }
+        100% { left: 160px; }
+      }
+     
+        .shortline2 {
+        position:relative;
+        font-family:'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        top:190px;
+        left:180px;
+        animation: move 2s infinite;
+        z-index: 1;
+        width:100px;
+        height:50px;
+        }
+      
+     
+  
+      a:link {
+        color:black;
+        text-decoration: none;
+        }
+      
+      a:visited {
+        color:black;
+        text-decoration: none;
+      }
+    
+      a:hover {
+       text-decoration: underline;
+      }
+      
+      a:active {
+        color:black;
+        text-decoration: none;
+      }
+      
+      div.shortline2:hover {
+        animation: stay 20s infinite;
+      }
+      
+      .shortline3 {
+        position:relative;
+        font-family:'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        top:230px;
+        left:180px;
+        animation: move 2s infinite;
+        animation-delay: 0.4s;
+        z-index: 1;
+        width:100px;
+        height:50px;
+        }
+      
+      .datebox{
+        width: 200px;
+        height:100px;
+        border: 3px solid black;
+        background-color: rgb(235,236,236);
+        z-index:2;
+        position:absolute;
+        top:300px;
+        left:700px;
+        opacity: 0;
+        padding: 10px;
+        padding-top: 40px;
+        font-family: 'Lustria', serif;
+        font-weight: 300;
+        font-size: 12px;
+        text-align: center;
+      }
+      
+      div.shortline3:hover + div.datebox {
+        animation: moveout 20s infinite;
+      }
+      
+      div.shortline3:hover {
+        animation: stay 20s infinite;
+      }
+      
+      .name {
+        font-family:'Ubuntu',sans-serif;
+        font-size:15px;
+        font-weight: 300;
+        line-height: 18px;
+        
+      }
+      .subtitle {
+        font-family:'Source Sans Pro', sans-serif;
+        font-size:15px;
+        font-weight: 300;
+        line-height: 30px;
+      }
+      
+      .text {
+        font-family: 'Lustria', serif ;
+        font-size:13px;
+        font-weight: 300;
+        line-height: 15px;
+        text-decoration: underline
+      }
+      
+      .element {
+        position:relative;
+        top:30px;
+        left:500px;
+        z-index:2;
+        border: 4px solid black;
+        width:258px;
+        height: 258px;
+      }
+      .elementbox {
+        position:relative;
+        z-index:1;
+        width: 180px;
+        height: 180px;
+        border: 4px solid black;
+        background-color: rgb(235,236,236);
+        top:-190px;
+        left:480px;
+        padding-top:20px;
+        padding-left: 30px;
+        }
+      
+      div.element:hover {
+        animation: blueframe 15s infinite;
+      }
+      
+      @keyframes blueframe {
+       0% {border: 4px solid black;}
+       1% {border: 4px solid rgb(80,142,205);}
+       60% {border: 4px solid rgb(80,142,205);} 
+      }
+      
+      div.element:hover + div.elementbox {
+        animation: moveleft 15s infinite;
+      }
+      
+       
+      @keyframes moveleft {
+        0% {left:480px}
+        15% {left:280px}
+        80% {left:280px}
+      }
+      
+      
+      div.element:hover + div.elementname {
+        animation: elename 15s infinite;
+      }
+      
+      @keyframes elename {
+        0% {left:680px}
+        5% {left:715px}
+        100% {left:715px}
+      }
+      
+      .colombiana {
+        position:relative;
+        top:240px;
+        left:120px;
+        z-index:2;
+        border: 4px solid black;
+        width:258px;
+        height: 258px;
+      }
+      .colombianabox {
+        position:relative;
+        z-index:1;
+        width: 180px;
+        height:180px;
+        border: 4px solid black;
+        background-color: rgb(235,236,236);
+        z-index:1;
+        top:70px;
+        left:210px;
+        padding-top:20px;
+        padding-left: 20px;
+      }
+      
+      div.colombiana:hover {
+        animation: orangeframe 15s infinite;
+      }
+      
+      @keyframes orangeframe {
+       0% {border: 4px solid black;}
+       1% {border: 4px solid rgb(206,120,73);}
+       60% {border: 4px solid rgb(206,120,73);} 
+      }
+      
+      div.colombiana:hover + div.colombianabox {
+        animation: movedown 15s infinite;
+      }
+      
+      @keyframes movedown {
+        0% {top:70px}
+        15% {top:260px}
+        80% {top:260px}
+      }
+      
+      .leon {
+        position:relative;
+        left:400px;
+        z-index:2;
+        border: 4px solid black;
+        width:258px;
+        height: 258px;
+      }
+      
+      .leonbox {
+        position:relative;
+        z-index:1;
+        width: 180px;
+        height:180px;
+        border: 4px solid black;
+        background-color: rgb(235,236,236);
+        z-index:1;
+        top:-165px;
+        left:380px;
+        padding-top:20px;
+        padding-left: 20px;
+      }
+      
+      
+      div.leon:hover {
+        animation: whiteframe 15s infinite;
+      }
+      
+      
+      @keyframes whiteframe {
+       0% {border: 4px solid black;}
+       1% {border: 4px solid rgb(218,201,166);}
+       60% {border: 4px solid rgb(218,201,166);} 
+      }
+      
+      div.leon:hover + div.leonbox {
+        animation: moveleftle 15s infinite;
+      }
+      
+      @keyframes moveleftle {
+        0% {left:380px;top:-165px}
+        15% {left:200px;top:10px}
+        80% {left:200px;top:10px}
+      }
+        
+      .family {
+        position:relative;
+        top:120px;
+        left:90px;
+        z-index:2;
+        border: 4px solid black;
+        width:258px;
+        height: 258px;
+      }
+      .familybox {
+         position:relative;
+        z-index:1;
+        width: 180px;
+        height:180px;
+        border: 4px solid black;
+        background-color: rgb(235,236,236);
+        z-index:1;
+        left:180px;
+        top:-50px;
+        padding-top:20px;
+        padding-left: 20px;
+      }
+      
+      div.family:hover {
+        animation: redframe 15s infinite;
+      }
+      
+      @keyframes redframe {
+       0% {border: 4px solid black;}
+       1% {border: 4px solid rgb(141,0,19);}
+       60% {border: 4px solid rgb(141,0,19);} 
+      }
+      
+      div.family:hover + div.familybox {
+        animation: moverightfa 15s infinite;
+      }
+      
+      @keyframes moverightfa {
+        0% {left:180px}
+        15% {left:360px}
+        80% {left:360px}
+      }
+      
+      .adventure {
+        position:relative;
+        left:100px;
+        top:80px;
+        z-index:2;
+        border: 4px solid black;
+        width:258px;
+        height: 258px;
+      }
+      .adventurebox {
+         position:relative;
+        z-index:1;
+        width: 180px;
+        height:180px;
+        border: 4px solid black;
+        background-color: rgb(235,236,236);
+        z-index:1;
+        left:190px;
+        top:-135px;
+        padding-top:20px;
+        padding-left: 20px;
+      }
+      
+      div.adventure:hover {
+        animation: greenframe 15s infinite;
+      }
+      
+      @keyframes greenframe {
+       0% {border: 4px solid black;}
+       1% {border: 4px solid rgb(144,180,75);}
+       60% {border: 4px solid rgb(144,180,75);} 
+      }
+      
+      div.adventure:hover + div.adventurebox {
+        animation: moveright 15s infinite;
+      }
+      
+      @keyframes moveright {
+        0% {left:190px}
+        15% {left:380px}
+        80% {left:380px}
+      }
+      
+      .bluedot {
+        position:absolute;
+        top:250px;
+        left:510px;
+        animation:blueorange 3s infinite;
+        }
+      
+      @keyframes blueorange {
+        0% {left:510px}
+        50% {left:660px}
+        100% {left:510px}
+      }
+      
+      .reddot {
+        position:absolute;
+        top:250px;
+        left:560px;
+        animation:redgreen 3s infinite;
+        animation-delay: 0.5s;
+      }
+      
+      @keyframes redgreen {
+        0% {left:560px}
+        50% {left:710px}
+        100% {left:560px}
+      }
+      
+      .whitedot {
+        position:absolute;
+        top:250px;
+        left:610px;
+        animation: whitedot 4s infinite;
+      }
+      
+      @keyframes whitedot {
+        0% {left:610px}
+        25% {left:510px}
+        
+        75% {left:710px}
+        100% {left:610px}
+      }
+      
+      .orangedot {
+        position:absolute;
+        top:250px;
+        left:660px;
+        animation:orangeblue 3s infinite;
+      }
+      
+      @keyframes orangeblue {
+        0% {left:660px}
+        50% {left:510px}
+        100% {left:660px}
+      }
+     
+      
+      .greendot {
+        position:absolute;
+        top:250px;
+        left:710px;
+        animation: greenred 3s infinite;
+        animation-delay: 0.5s;
+      }
+      
+      @keyframes greenred {
+        0% {left: 710px}
+        50% {left: 560px}
+        100% {left: 710px}
+        
+      }
+      
+      .bluec {
+        position: relative;
+        left:940px;
+        top:-300px;
+        width:45px;
+        animation: zoomout 2s infinite;
+      }
+      
+      @keyframes zoomout {
+        0% {left:935px}
+        50% {left:945px}
+        100% {left:935px}
+      }
+      
+      
+      div.bluec:hover div.elementill-01{
+        animation: elementmove 15s infinite;
+      }
+      
+      div.bluec:hover div.elementill-02{
+        animation: elementmove 15s infinite;
+        animation-delay: 0.2s;
+      }
+      
+      div.bluec:hover div.elementill-03{
+        animation: elementmove 15s infinite;
+        animation-delay: 0.4s;
+      }
+      
+      div.bluec:hover div.elementillbox {
+        animation: elementmove2 15s infinite;
+        animation-delay: 0.6s;
+      }
+    
+      @keyframes elementmove {
+        0%{left:-1400px;opacity:0}
+        20% {left:-550px;opacity:0.9}
+        100% {left:-550px;opacity:1}
+      }
+      
+      @keyframes elementmove2 {
+        0%{left:-1400px;opacity: 0}
+        20% {left:-800px;opacity: 0.9}
+        100% {left:-800px;opacity: 1}
+      }
+      
+      .elementill-01,
+      .elementill-02,
+      .elementill-03
+      {
+        position:absolute;
+        z-index: 3;
+        top:-270px;
+        left:-1400px;
+        opacity: 0;
+      }
+      
+     .elementillbox {
+        position:absolute;
+        z-index: 2;
+        top:-185px;
+        left:-1430px;
+        opacity:0 ;
+      }
+      
+      .leoncr {
+        position:relative;
+        left:500px;
+        top:-30px;
+        width:45px;
+        animation:leonzoomout 2s infinite;
+      }
+      
+      @keyframes leonzoomout {
+        0% {left:495px}
+        50% {left:505px}
+        100% {left:495px}
+      }
+      
+      .leonill-01,
+      .leonill-02{
+        position:absolute;
+        z-index:3;
+        top:-500px;
+        left:200px;
+        opacity:0
+      }
+      
+      .leonill-03 {
+        position:absolute;
+        z-index:2;
+        top:-500px;
+        left:200px;
+        opacity:0
+      }
+      
+      div.leoncr:hover div.leonill-01 {
+        animation: leonmove 15s infinite;
+      }
+      
+      div.leoncr:hover div.leonill-02 {
+        animation: leonmove 15s infinite;
+        animation-delay: 0.2s;
+      }
+      
+      div.leoncr:hover div.leonill-03 {
+        animation: leonmove 15s infinite;
+        animation-delay: 0.4s;
+      }
+      
+      @keyframes leonmove {
+        0% {left:200px;opacity:0}
+        10% {left:-200px;opacity:1}
+        100% {left:-200px;opacity:1}
+      }
+      
+      .combcr {
+        position:relative;
+        left:240px;
+        top:-350px;
+        width:45px;
+        animation: combshake 2s infinite;
+      }
+      
+      @keyframes combshake {
+        0% {top:-355px}
+        50% {top:-345px}
+        100% {top:-355px}
+      }
+      
+      .combill-01,
+      .combill-02{
+       position:absolute;
+        z-index: 3;
+        left:-800px;
+        top:-10px;
+        opacity: 0
+      }
+      
+      .combill-03 {
+        position:absolute;
+        z-index: 2;
+        left:-800px;
+        top:-10px;
+        opacity: 0
+      }
+      
+      div.combcr:hover div.combill-01 {
+        animation:combmove 15s infinite;
+      }
+      
+       div.combcr:hover div.combill-02 {
+        animation:combmove 15s infinite;
+         animation-delay: 0.2s
+      }
+      
+       div.combcr:hover div.combill-03 {
+        animation:combmove 15s infinite;
+         animation-delay: 0.4s
+      }
+      
+      @keyframes combmove {
+        0% {left:-800px;opacity:0}
+        20% {left:-250px;opacity:1}
+        100% {left:-250px;opacity: 1}
+      }
+      
+      .familycr {
+        position: relative;
+        width:45px;
+        top:-200px;
+        left:-150px;
+        animation: familyshake 2s infinite;
+      }
+      
+      @keyframes familyshake {
+        0% {top:-195px}
+        50% {top:-205px}
+        100% {top:-195px}
+      }
+      
+      .familyill-01,
+      .familyill-02 {
+        position:absolute;
+        z-index: 4;
+        top:-250px;
+        left:900px;
+        opacity: 0;
+       }
+      
+      .familyill-03 {
+        position: absolute;
+        z-index: 3;
+        top:-250px;
+        left:900px;
+        opacity: 0;
+      }
+      
+      div.familycr:hover div.familyill-01 {
+        animation: familymove 15s infinite;
+      }
+      
+       div.familycr:hover div.familyill-02 {
+        animation: familymove 15s infinite;
+        animation-delay: 0.15s
+      }
+      
+       div.familycr:hover div.familyill-03 {
+        animation: familymove 15s infinite;
+         animation-delay: 0.3s
+      }
+      
+      @keyframes familymove {
+        0% {left:900px;opacity: 0}  
+        15% {left:120px;opacity: 0.9}
+        100% {left:120px;opacity: 1}
+      }
+      
+      
+      .magiccr {
+        position:relative;
+        top:-250px;
+        left:600px;
+        width:45px;
+        animation: magicshake 2s infinite;
+      }
+      
+      @keyframes magicshake {
+        0% {left:595px}
+        50% {left:605px}
+        100% {left:595px}
+      }
+      
+      .magicill-01,
+      .magicill-02 {
+        position:absolute;
+        top:-220px;
+        left:-1300px;
+        z-index: 4;
+        opacity: 0;
+      }
+      
+      .magicill-03 {
+        position:absolute;
+        top:-220px;
+        left:-1300px;
+        z-index: 3;
+        opacity: 0;
+      }
+      
+      div.magiccr:hover div.magicill-01 {
+        animation:magicmove 15s infinite;
+      }
+      
+       div.magiccr:hover div.magicill-02 {
+        animation:magicmove 15s infinite;
+         animation-delay: 0.2s;
+      }
+      
+       div.magiccr:hover div.magicill-03 {
+        animation:magicmove 15s infinite;
+         animation-delay: 0.4s;
+      }
+      
+      @keyframes magicmove {
+        0% {left:-1300px;opacity: 0}
+        15% {left:-600px;opacity: 1}
+        100% {left:-600px;opacity: 1}
+      }
+      
+    </style>
+  </head>
+  <body>
+   
+    <div class="grid-container">
+			
+			<div class="row">
+				<div class="col-2 wubai img01 "> </div>
+        <div class="col-6 wubai img02 "> 
+          <div class="bluedot">
+            <img src="images/bluedot.png" width="20px"></div>
+          
+          <div class="reddot">
+            <img src="images/reddot-01.png" width="20px"></div>
+          
+          <div class="whitedot">
+            <img src="images/whitedot.png" width="20px"></div>
+          
+          <div class="orangedot">
+            <img src="images/orangedot-01.png" width="20px"></div>
+          
+          <div class="greendot">
+            <img src="images/greendot-01.png" width="20px"></div>
+          
+        </div>
+        
+        <div class="col-4 wubai img03 "> 
+          <div class="shortline1">
+            <p>Location</p>
+            <img src="images/shortline-01.png" width="50px"></div>
+          
+          <div class="locationbox">
+          The Charles Theatre,  1711 N Charles St,Baltimore, MD 21201
+          </div>
+          
+          <div class="shortline2">
+            <p><a href="http://thecharles.com/">Website</a></p>
+            <img src="images/shortline-01.png" width="50px"></div>
+          
+          
+          <div class="shortline3">
+            <p>Date</p>
+            <img src="images/shortline-01.png" width="50px"></div>
+          
+          <div class="datebox">
+          March 10th ~ March 14th
+          </div>
+        </div>
+        
+      
+        
+			</div>
+			
+			
+      <div class="row">
+				<div class="col-12 sibai img04 "> 
+          
+          <div class="element">
+            <img src="images/element.jpg" width=250px></div>
+          
+          <div class="elementbox">
+            <h1 class="name">The Fifth Element</h1>
+            <h2 class="subtitle">Screening date:</h2> 
+            <p class="text">March, 10</p>
+            <h2 class="subtitle">Time:</h2>
+            <p class="text">7:00pm</p>
+          </div>
+          
+          <div class="elementname">
+             
+            </div>
+          
+          <div class="bluec">
+           <img src="images/elementill/elementcir-01.png" width=40px>
+          
+            
+            <div class="elementill-01">
+             <img src="images/elementill/elementill-01.png" width=500px >
+            </div>
+          
+            <div class="elementill-02">
+             <img src="images/elementill/elementill-02.png" width=500px>
+            </div>
+          
+            <div class="elementill-03">
+             <img src="images/elementill/elementill-03.png" width=500px>
+            </div>
+          
+            <div class="elementillbox">
+             <img src=images/elementill/elementill-04.png width=650px height=400px >
+            </div>
+          </div>
+        </div>
+
+			
+			  <div class="row">
+        
+				<div class=" col-4 yiqian img05 "> 
+          <div class="colombiana">
+            <img src="images/Colombiana.jpg" width=250px></div>
+          <div class="colombianabox">
+            
+            <h1 class="name">Colombiana</h1>
+            <h2 class="subtitle">Screening date:</h2> 
+            <p class="text">March, 12</p>
+            <h2 class="subtitle">Time:</h2>
+            <p class="text">7:00pm</p>
+          </div>
+          
+          <div class="combcr">
+           <img src="images/combill/combbox-01.png" width=40px>
+             <div class="combill-01">
+               <img src="images/combill/combill-01-01.png" width=500px>
+             </div>
+            
+            <div class="combill-02">
+             <img src="images/combill/combill-02-01.png" width=500px>
+            </div>
+            
+            <div class="combill-03">
+             <img src="images/combill/combill-03-01.png" width=500px>
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="col-8 wubai img06 "> 
+          <div class="leon">
+            <img src="images/leon.jpg" width=250px></div>
+          <div class="leonbox">
+            
+            <h1 class="name">Léon:<br>The Professional</h1>
+            <h2 class="subtitle">Screening date:</h2> 
+            <p class="text">March, 11</p>
+            <h2 class="subtitle">Time:</h2>
+            <p class="text">7:00pm</p>
+          </div>
+        
+          
+          <div class="leoncr">
+            <img src="images/leonill/leonbox-01.png" width=40px>
+            
+            <div class="leonill-01">
+              <img src="images/leonill/leonill-01-01.png" width=450px>
+            </div>
+            
+            <div class="leonill-02">
+             <img src="images/leonill/leonill-02-01.png" width=450px>
+            </div>
+            
+            <div class="leonill-03">
+             <img src="images/leonill/leonill-03.png" width=450px>
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="col-8 wubai img07 "> 
+          <div class="family">
+            <img src="images/family.jpg" width=250px></div>
+          <div class="familybox">
+            <h1 class="name">The Family</h1>
+            <h2 class="subtitle">Screening date:</h2> 
+            <p class="text">March, 13</p>
+            <h2 class="subtitle">Time:</h2>
+            <p class="text">7:00pm</p>
+          </div>
+          
+          <div class="familycr">
+           <img src="images/familyill/familycr-01.png" width=40px>
+            
+           <div class="familyill-01">
+            <img src="images/familyill/familyill-01-01.png" width=500px>
+           </div>
+            
+            <div class="familyill-02">
+             <img src="images/familyill/familyill-02-01.png" width=500px>
+            </div>
+            
+            <div class="familyill-03">
+             <img src="images/familyill/familyill-03-01.png" width=500px>
+            </div>
+            
+          </div>
+          
+        </div>
+
+			</div>
+      
+      
+      <div class="row">
+         <div class="col-12 wubai img08 "> 
+          <div class="adventure">
+            <img src="images/adventure.jpg" width=250px></div>
+          <div class="adventurebox">
+            
+            <h1 class="name">The Extraordinary Adventures of Adèle Blanc-Sec</h1>
+            <h2 class="subtitle">Screening date:</h2> 
+            <p class="text">March, 14</p>
+            <h1 class="subtitle">Time:</h1>
+            <p class="text">7:00pm</p>
+           </div>
+           
+           <div class="magiccr">
+             <img src="images/magicill/magiccr-01.png" width=40px>
+             <div class="magicill-01">
+               <img src="images/magicill/magicill-01-01.png" width=480px>
+              </div>
+             
+             <div class="magicill-02">
+              <img src="images/magicill/magicill-02-01.png" width=480px>
+             </div>
+            
+             <div class="magicill-03">
+             <img src="images/magicill/magicill-03-01.png" width=480px>
+             </div>
+             
+           </div>
+        </div>
+      
+      </div>
+      
+      
+    </div>
+    
+    
+  </body>
+</html>

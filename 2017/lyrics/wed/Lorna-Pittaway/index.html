@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WHITE FERRARI</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lusitana" rel="stylesheet">
+    
+    <!-- CSS -->
+    
+    <style>
+      html {
+        font-family: 'Lusitana', serif;
+        background-color: #f4f4f4;
+        text-transform: uppercase;
+      }
+      
+      .grey {
+        background-color: #f4f4f4;
+      }
+      
+      /* IMAGE CLASSES */
+      
+      .img-gradient-1 {
+        background-image: url(images/img-gradient1.png);
+        background-size: cover;
+      }
+      
+      .img-gradient-2 {
+        background-image: url(images/img-gradient2.png);
+        background-size: cover;
+      }
+      
+      .img-gradient-3 {
+        background-image: url(images/img-gradient3.png);
+        background-size: cover;
+      }
+      
+      .img-gradient-4 {
+        background-image: url(images/img-gradient4.png);
+        background-size: cover;
+      }
+      
+      .img-blue {
+        background-image: url(images/img-blue.png);
+        background-size: cover;
+      }
+      
+      .img-clouds {
+        background-image: url(images/img-clouds.png);
+        background-size: cover;
+      }
+      
+      .img-cells {
+        background-image: url(images/img-cells-and-lines.png);
+        background-size: cover;
+      }
+      
+      .img-dark {
+        background-image: url(images/img-dark.png);
+        background-size: cover;
+      }
+      
+      .img-blue-blur {
+        background-image: url(images/img-blue-blur.png);
+        background-size: cover;
+      }
+      
+      
+      /* SIZES & SPACING */
+      
+      .top-5  { top: 5%;  }
+      .top-6  { top: 6%;  }
+      .top-21 { top: 21%; }
+      .top-27 { top: 27%; }
+      .top-42 { top: 42%; }
+      .top-48 { top: 48%; }
+      .top-63 { top: 63%; }
+      .top-69 { top: 69%; }
+      .top-88 { top: 88%; }
+      
+      div.threequarter { padding-top: 75%; }
+      
+      
+      /* TEXT SIZES & SPACING */
+      
+      .text-sml1 {
+        font-size: 1.5vw;
+      }
+      
+      .text-sml2 {
+        font-size: 1.86vw;
+      }
+      
+      .text-lg1 {
+        font-size: 2.9vw;
+      }
+      
+      .text-lg2 {
+        font-size: 2.5vw;
+      }
+      
+      .spacing-norm {
+      word-spacing: 0.7em; 
+      }
+      
+      .spacing-wide {
+        word-spacing: 1.3em; 
+      }
+      
+      .fulljustify {
+        text-align: justify;
+      }
+      
+      .fulljustify:after {
+        content: "";
+        display: inline-block;
+        width: 100%;
+      }
+      
+      .text-extra-space {
+        word-spacing: 1.7em;
+      }
+      
+      .text-indent {
+        width: 100%;
+        padding-left: 22%;  
+      }
+      
+      /* SPECIFIC TEXT CLASSES*/
+      
+      .text-white {
+        left: 8%;
+        top: 16%;
+      }
+      
+      .text-ferrari {
+        right: 8%;
+        top: 16%;
+        text-align: right;
+        width: 100%;
+      }
+      
+      .text-frank {
+        left: 8%;
+        top: 77%;
+      }
+      
+      .text-ocean {
+        right: 8%;
+        top: 77%;
+        text-align: right;
+        width: 100%;
+      }
+      
+      .text-bad-luck {
+        left: 8.3%;
+        top: 2%;
+        word-spacing: 0.5em;
+        line-height: 1.5em; 
+        width: 100%;
+        
+      }
+      
+      .text-on-these {
+        top: 2%;
+        word-spacing: 0.5em;
+        line-height: 1.4em; 
+        width: 100%;
+        text-align: right;
+        
+      }
+      
+      .text-sweet-16 {
+        left: 16%;
+        top: 18%;
+      }
+      
+      .text-i-let {
+        left: 8.3%;
+        top: 5%;
+        word-spacing: 0.5em;
+        line-height: 1.5em; 
+        width: 100%;
+      }
+      
+      .text-at-central {
+        top: 10%;
+        word-spacing: 0.5em;
+        line-height: 1.4em; 
+        width: 100%;
+        text-align: right;
+        right: 100%;
+        
+      }
+      
+      .text-stick-by {
+        line-height: 1.25em;
+        top: 5%;
+      }
+      
+      .text-i-care {
+        text-transform: none;
+        left: 8.3%;
+        top: 5%;
+        word-spacing: 0.5em;
+        line-height: 2.6em; 
+        width: 100%;
+      }
+      
+      .text-life {
+        width: 100%;
+        top: 70%;
+        line-height: 2.6em;
+      }
+      
+      .text-life2 {
+        width: 100%;
+        top: 87%;
+        line-height: 2.6em;
+      }
+      
+      .text-clouds { 
+        left: 6%;
+        right: 6%;
+        line-height: 1.8em;
+        
+      }
+      
+      .text-clouds2 {
+        top: 20%; 
+        left: 9%;
+        right: 9%;
+        
+      }
+      
+      .text-ooh {
+        top: 6%;
+        text-transform: none;
+        width: 100%;
+        
+      }
+      
+      .text-im-sure {
+        top: 9%;
+        left: 18%;
+        text-transform: none;
+        line-height: 5.4em;
+      }
+      
+      .text-you-say {
+        top: 17%;
+        text-transform: none;
+        line-height: 5.4em;
+        text-align: center;
+        width: 100%;
+      }
+      
+      .text-in-another {
+        top: 9%;
+        right: 18%;
+        text-transform: none;
+        line-height: 5.4em;
+        text-align: right;
+        width: 100%;
+      }
+      
+      .text-you-dream {
+        top: 20%;
+        left: 18%;
+        text-transform: none;
+        line-height: 5.4em;
+      }
+      
+      .text-primal {
+        top: 0%;
+        text-transform: none;
+        line-height: 5.4em;
+        text-align: center;
+        width: 100%;
+      }
+      
+      .text-hold-us {
+        top: 20%;
+        right: 18%;
+        text-transform: none;
+        line-height: 5.4em;
+        text-align: right;
+        width: 100%;
+      }
+      
+    </style>
+  </head>
+  <body>
+    
+    <div class="container">
+      
+      <!-- TITLE -->
+      
+      <div class="row">
+        <div class="col-50 quarter">
+          <p class="text-white text-lg2">white</p>
+        </div>
+        <div class="col-50 quarter">
+          <p class="text-ferrari text-lg2">ferrari</p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-50 quarter">
+          <p class="text-frank text-lg2">frank</p>
+        </div>
+        <div class="col-50 quarter">
+          <p class="text-ocean text-lg2">ocean</p>
+        </div>
+      </div>
+      
+      
+      <!-- SECTION 1 -->
+  
+      <div class="row">
+        <div class="col-50 quarter"></div>
+      </div>  
+      
+      <div class="row">
+        <div class="col-100 quarter img-gradient-1"></div>
+      </div>
+      
+      <div class="row img-gradient-2">
+        <div class="col-50 quarter">
+          <p class="text-bad-luck text-sml1">
+            bad luck to talk <br><br>
+            mine on the road <br><br><br>
+            <span class="text-indent">watch the clouds float</span><br><br><br>
+            white ferrari 
+          </p>
+        </div>  
+        <div class="col-25 quarter">
+          <p class="text-on-these text-sml1">
+            on these rides <br><br>
+            your dilated eyes <br><br><br><br><br><br> 
+            had a good time
+          </p>
+        </div>
+      </div>
+      
+      <div class="row img-gradient-3">
+        <div class="col-100 quarter">
+          <p class="text-sweet-16 text-sml1">sweet 16, how was I supposed to know anything?</p>
+        </div>
+      </div>
+      
+      <div class="row img-gradient-4">
+        <div class="col-50 half">
+          <p class="text-i-let text-sml1">
+            I let you out<br><br>
+            I didn't care <br><br><br>
+            <span class="text-indent">kept my mouth closed</span><br><br><br><br>
+            We're both so familiar<br><br><br>
+            White Ferrari<br><br>
+          </p>
+        </div>
+        <div class="col-25 quarter">
+          <p class="text-sml1 text-at-central">
+            at central <br><br>
+            I didn't care <br><br><br><br><br><br><br><br><br><br><br> 
+            Had a good time
+          </p>
+        </div> 
+      </div>
+      
+      
+      <!-- SECTION 2.1 -->
+      
+      <div class="row">
+        <div class="col-offset-50 col-25 quarter">
+          <p class="text-stick-by text-sml2 spacing-wide"><span class="text-extra-space">stick by</span><br><br>
+            close by <br><br>
+            you <br><br>
+            you
+          </p>
+        </div>
+        <div class="col-25 quarter">
+          <p class="text-stick-by text-sml2 spacing-wide">me<br><br>
+            me <br><br>
+            were fine <br><br>
+            fine here
+          </p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-25 half img-blue"></div>
+        <div class="col-offset-25 col-50">
+          <p class="text-stick-by text-sml2 spacing-norm">
+            that's just a slow body <br><br>
+            left when I forgot to speak <br><br>
+          </p>
+        </div>
+        <div class="col-offset-25 col-25 threequarter">
+          <p class="text-stick-by text-sml2 spacing-norm">
+            <br><br><br><br>
+            so I text the<br><br>
+            lesser <br><br>
+            texas <br><br>
+            yes. <br><br><br>
+            takes its toll<br><br><br>
+            yes.<br><br><br>
+            ah on me <br><br><br>
+            yes.
+          </p>
+        </div>
+        <div class="col-25 threequarter">
+          <p class="text-stick-by text-sml2 spacing-wide">
+            <br><br><br><br>
+            speed <br><br>
+            speed <br><br>
+            speech<br><br><br><br><br>
+            on me <br>
+            'ventually
+            <br><br><br><br><br>
+            'ventually
+            'ventually
+            'ventually  
+          </p>
+        </div>
+      </div>  
+      
+      
+      <!-- SECTION 2.2 -->
+ 
+      <div class="row">
+        <div class="col-50 quarter">
+          <p class="text-i-care text-sml1">
+            I care for you still and I will forever <br>
+            That was my part of the deal, honest <br>
+            We got so familiar <br>
+            Spending each day of the year, <br>
+            White ferrari, good times
+          </p>
+        </div> 
+      </div>
+
+      <div class="row">
+        <div class="col-offset-25 col-50 quarter">
+          <p class="text-life text-sml2 fulljustify">in this life
+          </p> 
+          <br>
+          <p class="text-life2 text-sml2 fulljustify">in this life
+          </p>
+        </div>  
+      </div>
+       
+      
+      <!-- SECTION 3 -->
+
+      <div class="row">
+        <div class="col-100 quarter"></div>
+      </div>
+      
+      <div class="row">
+        <div class="col-100 full img-clouds"></div>
+          <p class="text-clouds text-lg1 fulljustify top-6">one too many years</p>
+          <p class="text-clouds text-lg1 fulljustify top-21">some tattooed eyelids</p>
+          <p class="text-clouds text-lg1 fulljustify top-27">on a facelift</p>
+          <p class="text-clouds text-lg1 fulljustify top-42">mind over matter is magic</p> 
+          <p class="text-clouds text-lg1 fulljustify top-48">i do magic</p>
+          <p class="text-clouds text-lg1 fulljustify top-63">if you think about it it'll be</p>
+          <p class="text-clouds text-lg1 fulljustify top-69">over in no time</p> 
+          <p class="text-clouds text-lg1 fulljustify top-88">and that's life</p>
+      </div>
+      
+      <div class="row">
+        <div class="col-100 quarter"></div>
+      </div>
+      
+      
+      <!-- SECTION 4 -->
+        
+      <div class="row">
+        <div class="col-offset-25 col-50 quarter">
+          <p class="text-ooh text-sml2 fulljustify">Ooh, ooh, oooh, ooh</p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-offset-25 col-50 half img-cells"></div>
+      </div>
+      
+      <div class="row">
+        <div class="col-100 quarter"></div>
+      </div>
+      
+      <div class="row">
+        <div class="col-offset-25 col-50 quarter img-dark"></div>
+      </div>
+      
+      <div class="row">
+        <div class="col-100 quarter"></div>
+      </div>
+      
+      <div class="row">
+        <div class="col-25 half">
+          <p class="text-im-sure text-sml1">
+            I'm sure we're taller <br>
+            Not worth the mention <br>
+            We could vacay there's <br>
+            All that there is <br>
+            But we're so okay here,
+          </p>
+        </div>
+        <div class="col-50 half">
+          <p class="text-you-say text-sml1">
+            You say we're small and <br>
+            your body's aching <br>
+            clearly this isn't <br>
+            been given
+          </p>
+        </div>
+        <div class="col-25 half">
+          <p class="text-in-another text-sml1">
+            in another dimension <br>
+            you're tired of movin' <br>
+            places to go <br>
+            can't take what's </br>
+            we're going fine
+          </p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-25 quarter">
+          <p class="text-you-dream text-sml1">
+            You dream of walls that <br>
+            That's what they call it <br>
+          </p>
+        </div>
+        <div class="col-50 quarter">
+          <p class="text-sml1 text-primal">
+            Primal and naked <br>
+            it's just a skull, least
+          </p>
+        </div>
+        <div class="col-25 quarter">
+          <p class="text-sml1 text-hold-us">
+            Hold us imprisoned <br>
+            and we're free to roam.
+          </p>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="col-100 threequarter img-blue-blur"></div>
+      </div>
+    
+    </div>
+    
+    
+    <!-- DO NOT CHANGE CODES BELOW-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.lazyload.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $('div').lazyload(
+          effect: "fadeIn"
+        );
+      });
+    </script>
+  </body>
+</html>

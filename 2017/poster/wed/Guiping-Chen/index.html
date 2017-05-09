@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Living in the dream</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+    
+    <style>
+      P {
+        font-family: 'Cormorant Garamond', serif;
+      }
+      .background {
+        position:fixed;
+        height: 100%;
+        margin-left:0;
+        padding:0;
+      }
+      .elements {
+        position:absolute;
+        width: 100%;
+        margin-left: -4.2vw;
+        margin-top:1.5vw;
+      }
+      
+      .film {
+        font-size:2vw;
+        color:lightpink;
+        font-family: 'Playfair Display SC', serif;
+      }
+      .time {
+        font-size: 2vw;
+        color:whitesmoke;
+      }
+      .yourname {
+        position: absolute;
+        top:31vw;
+        left: 6vw;
+        animation: fadein 2s infinite;
+        animation-delay: 1s;
+      }
+      .yourname:hover {
+        animation: none;
+        opacity:1;
+      }
+      .child {
+        position: absolute;
+        top:48vw;
+        left: 21vw;
+        animation: fadein 2s infinite;
+        animation-delay: 1.2s;
+
+      }
+      .child:hover {
+        animation: none;
+        opacity:1;
+      }
+      .second {
+        position: absolute;
+        top:34vw;
+        left: 48vw;
+        animation: fadein 2s infinite;
+        animation-delay: 0.7s;
+      }
+      .second:hover {
+        animation: none;
+        opacity:1;
+      }
+      .garden {
+        position: absolute;
+        top:67vw;
+        left: 14vw;
+        animation: fadein 2s infinite;
+        animation-delay: 0.5s;
+      }
+      .garden:hover {
+        animation: none;
+        opacity:1;
+      }
+      .cat {
+        position: absolute;
+        top:55vw;
+        left: 73vw;
+        animation: fadein 2s infinite;
+        animation-delay: 1.7s;
+      }
+      .cat:hover {
+        animation: none;
+        opacity:1;
+      }
+      
+      .living {
+        position: absolute;
+        top:5vw;
+        left:5vw;
+        font-size:6vw;
+        color: white;
+        font-family: 'Playfair Display SC', serif;
+      }
+      .in {
+        position:absolute;
+        top:15vw;
+        left:34vw;
+        font-size:6vw;
+        color: white;
+        font-family: 'Playfair Display SC', serif;
+      }
+      .the {
+        position: absolute;
+        top:25vw;
+        left:52vw;
+        font-size:6vw;
+        color: white;
+        font-family: 'Playfair Display SC', serif;
+      }
+      .dream {
+        position: absolute;
+        top:35vw;
+        left:74vw;
+        font-size:6vw;
+        color: white;
+        font-family: 'Playfair Display SC', serif;
+      }
+      
+      .makoto {
+        position: absolute;
+        color: lightpink;
+        font-size: 5vw;
+        top:5vw;
+        right:5vw;
+        animation: smove 15s infinite;
+      }
+      .introduction {
+        width: 21vw;
+        height: 10vw;
+        position: absolute;
+        color:white;
+        font-size:1.43vw;
+        top:15vw;
+        right:4vw;
+        animation: fadein 2s infinite;
+      }
+      .introduction:hover {
+        animation: none;
+        opacity:1;
+      }
+      
+      .info {
+        position: absolute;
+        color:white;
+        font-size:1.5vw;
+        top:78vw;
+        margin-left: 15vw;
+      }
+      .info2{
+        margin-left: 5vw;
+      }
+      .date {
+        position:absolute;
+        top:45vw;
+        color:white;
+        font-size: 2.5vw;
+        animation: move 15s infinite;
+        font-family: 'Kaushan Script', cursive;
+      }
+      
+      @keyframes fadein {
+        from { opacity:0.3;}
+        to { opacity:0;}
+      }
+      
+      @keyframes move {
+        0% { left:41vw;}
+        50% { left:71vw;}
+        100% {left:41vw;}
+      }
+      
+      @keyframes smove {
+        0% { right:10vw;}
+        50% { right:25vw;}
+        100% {right:10vw;}
+      }
+		
+			
+    </style>
+  </head>
+  <body>
+   
+    <div class="grid-container">
+      
+        <div class="row">
+          <img class="background col-12" src="images/img-background.png">
+          <img class="elements" src="images/img-allelements.png">
+        </div>
+      
+		<div class="row">
+          <div class="yourname">
+            <p class="film ">your name</p>
+            <P class="time">March 10th<br>7:00 ~ 8:47</P>
+          </div>
+        </div>
+      
+        <div class="row">
+          <div class="child">
+            <p class="film">children who <br>chase lost voices</p>
+            <P class="time">March 12th<br>7:00 ~ 8:56</P>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="second">
+            <p class="film">5 centimeters <br>per cecond</p>
+            <P class="time">March 11th<br>7:00 ~ 8:03</P>
+          </div>
+        </div>
+      
+        <div class="row">
+          <div class="garden">
+            <p class="film">the garden <br>of words</p>
+            <P class="time">March 13th<br>7:00 ~ 7:46</P>
+          </div>
+        </div>
+      
+        <div class="row">
+          <div class="cat">
+            <p class="film">she and her cat</p>
+            <P class="time">March 14th<br>7:00 ~ 8:30</P>
+          </div>
+        </div>
+      
+        <div class="row">
+            <p class="living">LIVING</p>
+            <P class="in">IN</P>
+            <p class="the">THE</p>
+            <p class="dream">DREAM</p>
+        </div>
+        
+        <div class="row">
+          <div class="director">
+            <p class="makoto">Makoto<br>Shinkai</p>
+            <p class="introduction">
+              Makoto Shinkai, born as Makoto Niitsu
+              (born February 9, 1973), is a Japanese
+              director, writer, producer, animator, editor, cinematographer, voice actor, manga artist and former graphic designer. 
+            </p>
+          </div>
+        </div>
+      
+        <div class="row">
+          <div class="info">
+            <p><span class="info1">Location: The Charles Theatre, 1711 N Charles St, Baltimore, MD 21201</span><span class="info2">Website:<a href="Website: http://thecharles.com/"> http://thecharles.com/</a></span>
+          </div>
+        </div>
+        
+        <div class="date">
+          <div class="row">
+            <p>March 10th ~ March 14th</p>
+          </div>
+        </div>
+      
+			
+			
+    </div>
+    
+    
+  </body>
+</html>

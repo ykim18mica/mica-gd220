@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>kubrick.</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    
+    <style>
+			
+			/* STRUCTURE */
+			
+			.kubrick {
+				height: 300px;
+				border: black solid thick;
+			}
+		
+			.where {
+				height: 800px;
+				padding-top: 100px;
+			}
+			
+			.when-structure {
+				height: 800px;
+				padding-top: 100px;
+			}
+	
+			.where-title {
+				font-family: Theinhardt;
+				text-align: center;
+				font-size: 40px;
+				font-weight: 700;
+				padding-top: 100px;
+			}
+			
+			.where-content {
+				position: absolute;
+				font-family: Theinhardt;
+				font-weight: 500;
+				margin-left: 160px;
+  			display: none;
+  			font-size: 40px;
+  			padding-top: 150px;
+			}
+
+			.when-title {
+				font-family: Theinhardt;
+				text-align: center;
+				font-size: 40px;
+				font-weight: 700;
+				padding-top: 100px;
+			}
+			
+			.when-content {
+				position: absolute;
+				font-family: Theinhardt;
+				font-weight: 500;
+				margin-left: 175px;
+  			display: none;
+  			font-size: 40px;
+  			padding-top: 150px;
+			}
+	
+			.blank {
+				height: 1400px;
+			}
+			
+			.bottom {
+				height: 500px;
+				background-color: indianred;
+			}
+			
+			.blank-2 {
+				height: 50px;
+			}
+
+			
+			/* TEXT */
+			
+		
+			.main-header {
+				font-family: Theinhardt, sans-serif;
+				font-weight: 700;
+				font-size: 100px;
+				text-align: center;
+				padding-top: 70px;
+				color: indianred;
+			}
+			
+			.sub-header {
+				font-family: Theinhardt, sans-serif;
+				font-weight: 400;
+				font-size: 25px;
+				text-align: center;
+				padding-top: 30px;
+			}
+			
+			.when {
+				font-family: Theinhardt, sans-serif;
+				font-weight: 500;
+				font-size: 40px;
+				text-align: center;
+			}
+			
+			.theshining-info {
+				position: absolute;
+				text-align: center;
+				font-family: Theinhardt, sans-serif;
+				font-weight: 500;
+				font-size: 20px;
+				margin-left: 435px;
+				padding-top: 100px;
+				line-height: 25px;
+				opacity: 0;
+			}
+			
+			.clockwork-content {
+				position: absolute;
+				text-align: center;
+				font-family: Theinhardt, sans-serif;
+				font-weight: 500;
+				font-size: 20px;
+				margin-left: 315px;
+				padding-top: 100px;
+				line-height: 25px;
+				opacity: 0;
+			}
+			
+			.spaceodyssey-info {
+				position: absolute;
+				text-align: center;
+				font-family: Theinhardt, sans-serif;
+				font-weight: 500;
+				font-size: 20px;
+				margin-left: 330px;
+				padding-top: 100px;
+				line-height: 25px;
+				opacity: 0;
+			}
+			
+			.lolita-info {
+				position: absolute;
+				text-align: center;
+				font-family: Theinhardt, sans-serif;
+				font-weight: 500;
+				font-size: 20px;
+				margin-left: 540px;
+				padding-top: 100px;
+				line-height: 25px;
+				opacity: 0;
+			}
+			
+			.eyeswideshut-info {
+				position: absolute;
+				text-align: center;
+				font-family: Theinhardt, sans-serif;
+				font-weight: 500;
+				font-size: 20px;
+				margin-left: 410px;
+				padding-top: 80px;
+				line-height: 25px;
+				opacity: 0;
+			}
+			
+			#title { 
+				font-family: Theinhardt, sans-serif;
+				font-weight: 800;
+				font-size: 50px;
+			}
+			
+			.charles-theater {
+				font-family: Theinhardt, sans-serif;
+				font-weight: 400;
+				font-size: 20px;
+				line-height: 23px;
+				padding-top: 400px;
+				padding-left: 50px;
+				color: white;
+			}
+			
+			.website {
+				position: absolute;
+				font-family: Theinhardt, sans-serif;
+				font-weight: 400;
+				font-size: 20px;
+				line-height: 23px;
+				padding-top: 400px;
+				padding-left: 900px;
+				color: white;
+			}
+			
+			.the-shows {
+				text-align: center;
+				font-family: Theinhardt, sans-serif;
+				font-weight: 800;
+				font-size: 50px;
+				padding-top: 500px;
+			}
+			
+			.comeplay {
+				text-align: center;
+				font-family: Theinhardt, sans-serif;
+				font-weight: 700;
+				font-size: 40px;
+				padding-top: 700px;
+			}
+			
+			/* IMAGE PROPERTIES */
+			
+			#axe {
+				position: relative;
+				padding-top: 350px;
+				margin-left: 415px;
+				height: 30%;
+				width: 30%;
+			}
+			
+			#clockwork {
+				position: relative;
+				padding-top: 500px;
+				margin-left: 480px;
+				height: 20%;
+				width: 20%;
+			}
+			
+			#astronaut {
+				position: relative;
+				padding-top: 500px;
+				margin-left: 550px;
+				height: 10%;
+				width: 10%;
+			}
+			
+			#lolita {
+				position: relative;
+				padding-top: 500px;
+				margin-left: 530px;
+				height: 15%;
+				width: 15%;
+			}
+			
+			#eyeswideshut {
+				position: relative;
+				padding-top: 500px;
+				margin-left: 560px;
+				height: 10%;
+				width: 10%;
+			}
+			
+			/* HOVER PROPERTIES */
+			
+			.where-title:hover {
+				color: indianred;
+			}
+			
+			.when-title:hover {
+				color: indianred;
+			}
+			
+			.where-title:hover .where-content {
+  			display: block;
+				color: black;	
+			}
+			
+			.when-title:hover .when-content {
+  			display: block;
+				color: black;
+			}
+			
+			#axe:hover {
+				content: url(images/axe-red.png);
+				height: 30%;
+				width: 30%;
+			}
+			
+			#axe:hover + .theshining-info {
+				animation: fadein 1s forwards;
+			}
+			
+			#clockwork:hover {
+				content: url(images/clockwork-orange.png);
+				height: 20%;
+				width: 20%;
+			}
+			
+			#clockwork:hover + .clockwork-content {
+				animation: fadein 1s forwards;
+			}
+		
+			#astronaut:hover {
+				content: url(images/red-astronaut.png);
+				height: 10.5%;
+				width: 10.5%;
+			}
+			
+			#astronaut:hover + .spaceodyssey-info {
+				animation: fadein 1s forwards;
+			}
+			
+			#lolita:hover {
+				content: url(images/lolita-red.png);
+				height: 15%;
+				width: 15%;
+			}
+			
+			#lolita:hover + .lolita-info {
+				animation: fadein 1s forwards;
+			}
+			
+			#eyeswideshut:hover {
+				content: url(images/eyeswide-red.png);
+				height: 10%;
+				width: 10%;
+			}
+			
+			#eyeswideshut:hover + .eyeswideshut-info {
+				animation: fadein 1s forwards;
+			}
+			
+			.comeplay:hover {
+				animation: moveright 2s forwards;
+			}
+			
+			@keyframes fadein {
+				from { opacity: 0; }
+				to { opacity: 1; }
+			}
+			
+			@keyframes moveright {
+				from { left: 0; }
+				to { left: 1300px; }
+			}
+    </style>
+  </head>
+  <body>
+   
+    <div class="grid-container">
+			
+			<!--KUBRICK HEADER-->
+			<div class="row">
+				<div class="col-12 kubrick">
+				<p class="main-header">
+					KUBRICK
+				</p>
+				<p class="sub-header">
+					Master of the Frame.	
+				</p>
+				</div>
+			</div>
+			
+			<!--WHERE AND WHEN-->
+			<div class="row">
+				<div class="where-title col-6">
+					<p>
+						WHERE?
+					</p>
+					<p class="where-content">
+						Charles Theater
+					</p>
+				</div>
+				<div class="when-title col-6">
+					<p>
+						WHEN?
+					</p>
+					<p class="when-content">
+						March 10–14
+					</p>
+				</div>
+				
+			<div class="blank-2">
+			</div>
+			
+			<div class="row">
+				<div class="col-12 the-shows">
+				SCREENINGS
+				</div>	
+			</div>
+				
+			<div class="row">
+				<div class="col-12">
+					<img src="images/axe.png" id="axe">
+						<p class="theshining-info">
+							<span id="title">THE SHINING
+						</span><br>
+							March 10<br>
+							7PM
+						</p>
+				</div>
+			</div>
+				
+				
+			<div class="row">
+				<div class="col-12">
+					<img src="images/clockwork.png" id="clockwork">
+						<p class="clockwork-content">
+							<span id="title"> A CLOCKWORK ORANGE</span><br>
+							March 11<br>
+							7PM
+					</p>
+				</div>
+			</div>
+				
+			<div class="row">
+				<div class="col-12">
+					<img src="images/astronaut.png" id="astronaut">
+					<p class="spaceodyssey-info">
+						<span id="title">2001: A SPACE ODYSSEY</span><br>
+						March 12<br>
+						7PM
+					</p>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-12">
+					<img src="images/lolita-glasses.png" id="lolita">
+					<p class="lolita-info">
+						<span id="title">LOLITA</span><br>
+						March 13<br>
+						7PM
+					</p>
+				</div>
+			</div>
+				
+			<div class="row">
+				<div class="eyeswideshut col-12">
+					<img src="images/eyeswideshut.png" id="eyeswideshut">
+					<p class="eyeswideshut-info">
+						<span id="title">EYES WIDE SHUT</span><br>
+						March 14<br>
+						7PM
+					</p>
+				</div>
+			</div>
+    
+			<div class="row">
+				<div class="col-12 blank">
+				<div class="comeplay">
+				Come and play with us, Danny.
+				</div>
+				</div>
+			</div>
+    
+			<div class="row">
+				<div class="col-12 bottom charles-theater">
+					Charles Theater<br>
+					1711 N Charles St<br>
+					Baltimore, MD 21201<br>
+				</div>
+				<div class="website">
+					Kubrick<br>
+					March 10–14<br>
+					www.thecharles.com
+				</div>
+			</div>
+				
+			<div class="blank-2">
+			</div>
+  </body>
+</html>

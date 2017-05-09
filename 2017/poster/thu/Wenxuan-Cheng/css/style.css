@@ -1,0 +1,95 @@
+/********** basic setup **********/
+
+.container {
+	width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+div {
+    width: 100%;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+}
+div.row,
+div.row:after {
+  margin:0;
+  padding: 0;
+}
+
+/*  width */
+div.col-25 { width: 25%; }
+div.col-50 { width: 50%; }
+div.col-75 { width: 75%; }
+div.col-100 { width: 100%; }
+
+/* offset */
+div.col-offset-25 { margin-left: 25%; }
+div.col-offset-50 { margin-left: 50%; }
+div.col-offset-75 { margin-left: 75%; }
+div.col-offset-100 { margin-left: 100%; } 
+
+/* height */
+div.full { padding-top: 100%; }
+div.half { padding-top: 50%; }
+div.quarter { padding-top: 25%; }
+
+h1, h2, h3, h4, h5, h6, p {
+    position: absolute;
+    top: 0;
+}
+
+/********** helper **********/
+
+/* to see the box */
+.test { border: 1px solid red; }
+
+/* center horizontally */
+.center-h {
+  width: 100%;
+  text-align: center;
+}
+
+/* center vertically */
+.center-v {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* how much to push down (in percentage) */
+.top-10 { top: 10%; }
+.top-20 { top: 20%; }
+.top-30 { top: 30%; }
+.top-40 { top: 40%; }
+.top-50 { top: 50%; }
+.top-60 { top: 60%; }
+.top-70 { top: 70%; }
+.top-80 { top: 80%; }
+.top-90 { top: 90%; }
+.top-100 { top: 100%; }
+
+
+.top-13 { top: 13%; }
+.top-15 { top: 15%; }
+.top-22 { top: 22%; }
+.top-28 { top: 28%; }
+.top-25 { top: 25%; }
+.top-33 { top: 33%; }
+.top-35 { top: 35%; }
+.top-43 { top: 43%; }
+.top-47 { top: 47%; }
+.top-55 { top: 55%; }
+.top-75 { top: 75%; }
+.top-78 { top: 78%; }
+
+.left-5 { left: 5%; }
+.left-10 { left: 10%; }
+.left-20 { left: 20%; }
+.left-30 { left: 30%; }
+.left-40 { left: 40%; }
+.left-50 { left: 50%; }
+.left-60 { left: 60%; }
+.left-70 { left: 70%; }
+.left-80 { left: 80%; }
+.left-90 { left: 90%; }
+.left-100 { left: 100%; }

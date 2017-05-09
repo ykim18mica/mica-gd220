@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Almost Surreal with Park Chan-wook</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Rajdhani:300,400,500,600,700" rel="stylesheet">
+		
+    <style>
+
+			/* maybe put blur animation! 지지직 거리는거
+			html {
+				background-image: url(img/halftone.png);
+				background-size: cover;
+			}
+			*/
+		
+			/* images */
+			
+				html {
+				background-image: url(img/halftone.png);
+				background-size: cover;
+				animation: blurry 6s 1 forwards;
+			}
+			
+			
+			.h-bg {
+				height: 1196px;
+			}
+			
+			.img-halftone {
+				background-image: url(img/halftone.png);
+				background-size: cover;
+			}
+			
+			.eye {
+				position: relative;
+				width: 1200px;
+				top: 200px;
+				margin-left: 50px;
+				z-index: 1;
+			}
+			/* hover eye or title -> backround blurry
+			.eye:hover+.html {
+				animation: blurry 6s 2 forwards;
+			}
+			*/
+			
+			.black-brush {
+				position: absolute;
+				top: -630px;
+				left: -450px;
+				z-index: 2;
+				opacity: 0;
+				animation: fadeIn 5s ease-out forwards,
+					brush-stroke 3s ease-out forwards;
+				animation-delay: 4s;
+			}
+			
+			.blue-splatter {
+				position: absolute;
+				left: 900px;
+				bottom: 40px;
+				z-index: 6;
+				opacity: 0.9;
+			}
+			.blue-splatter:hover ~ .red-splatter-effect {
+				animation: zoomIn .2s ease-out forwards;
+  			animation-fill-mode: both; 
+			}
+			
+			.zoomIn {
+        animation-name: zoomIn;
+			}
+			
+			.red-splatter {
+				position: absolute;
+				left: 500px; 
+				z-index: 4;
+				opacity: 0.9;	
+			}
+			
+			.red-splatter-1 {
+				position: absolute;
+				left: 900px;
+				top: 930px;
+				z-index: 5;
+				opacity: 0.9;
+			}
+			
+			.small-splatter {
+				position: absolute;
+				top: 400px;
+				left: 670px;
+				z-index: 3;
+				opacity: 0.9; 
+			}
+			
+			.website {
+				position: absolute;
+				z-index: 8;
+				top: 503px;
+				left: 810px;
+				width: 90px; 
+				animation: rotate 8s linear infinite;
+			}
+			.website:hover {animation-play-state: paused}
+			
+			.small-1 {
+				position: absolute;
+				top: 85px;
+				left: 1155px;
+				width: 200px;
+				transform: rotate(30deg);
+				opacity: 0;
+				z-index: 5;
+			}
+			
+			.small-2 {
+				position: absolute;
+				top: 455px;
+				left: 1050px;
+				width: 100px;
+				transform: rotate(150deg);
+				opacity: 0;
+				z-index: 5;
+			}
+			
+			.small-3 {
+				position: absolute;
+				top: 700px;
+				left: 1220px;
+				width: 150px;
+				transform: rotate(120deg);
+				opacity: 0;
+				z-index: 7;
+			}
+			
+			.small-4 {
+				position: absolute;
+				top: 700px;
+				left: 520px;
+				width: 120px;
+				transform: rotate(-80deg);
+				z-index: 6;
+				opacity: 0;
+			}
+			
+			.small-5 {
+				position: absolute;
+				top: 1050px;
+				left: 800px;
+				width: 100px;
+				transform: rotate(200deg);
+				opacity: 0;
+			}
+			/* text */
+			
+			[class*='title-'] {
+				position: absolute;
+				color: white;
+				z-index: 7;
+				font-family: 'Rajdhani', sans-serif;
+			}
+			
+			[class*='main'] {
+				font-size: 100pt;
+			}
+			
+			.title-main {
+				line-height: 0.8;
+				top: 100px;
+				left: 55px;
+				color: darkred;
+			}
+			
+			/* maybe animation! */
+			.title-main-2 {
+				line-height: 0.8;
+				top: 105px;
+				left: 65px;
+				font-weight: 600
+			}
+			.title-main-2:hover ~ .blue-splatter {
+				animation: zoomIn .2s ease-out forwards;
+  			animation-fill-mode: both; 
+			}
+			/*
+			.title-main-2:after ~ .blue-splatter {
+				animation: zoomIn paused;
+			}
+			*/
+			
+			.title-director {
+				font-size: 56pt;
+				top: 330px;
+				left: 250px;
+			}
+			
+			.surreal {
+				position: relative;
+				left: 180px;
+			}
+			
+			.title-address {
+				left: 60px;
+				top: 420px;
+				font-size: 18pt;
+			}
+			
+			[class*='movie'] {
+				position: absolute;
+				font-family: 'Rajdhani', sans-serif;
+				font-weight: 500;
+				color: white;
+				z-index: 7;
+				font-size: 30pt;
+				line-height: 1.2;
+			}
+			
+			.movie-3-10 {
+				top: 220px;
+				left: 1070px;
+			}
+			.movie-3-10:hover ~ .appear-1 {
+				animation: fadein 1s forwards
+			}
+			
+			.movie-3-11 {
+				top: 350px;
+				left: 1000px;
+			}
+			.movie-3-11:hover ~ .appear-2 {
+				animation: fadein 1s forwards
+			}
+			
+			.movie-3-12 {
+				top: 570px;
+				left: 1200px;
+			}
+			.movie-3-12:hover ~ .appear-3 {
+				animation: fadein 1s forwards
+			}
+			
+			.movie-3-13 {
+				top: 830px;
+				left: 670px;
+			}
+			.movie-3-13:hover ~ .appear-4 {
+				animation: fadein 1s forwards
+			}
+
+			.movie-3-14 {
+				top: 955px;
+				left: 940px;
+			}
+			.movie-3-14:hover ~ .appear-5 {
+				animation: fadein 1s forwards
+			}
+
+			.movie-time {
+				top: 1000px;
+				left: 540px;
+			}
+			
+			[class*='info'] {
+				position: absolute;
+				font-family: 'Lora', serif;
+				font-weight: 500;
+				color: darkred;
+				z-index: 20;
+				font-size: 12pt;
+				line-height: 1.2;
+				width: 200px;
+				height: 100px;
+				padding: 20px;
+				box-sizing: border-box;
+				opacity: 0;
+			}
+			
+			.info-3-10 {
+				top: 155px;
+				left: 1155px;
+			}
+			.info-3-11 {
+				top: 430px;
+				left: 995px;
+			}
+			.info-3-12 {
+				width: 100px;
+				top: 730px;
+				left: 1250px;
+				color: mediumaquamarine;
+			}
+			.info-3-13 {
+				width: 100px;
+				height: 80px;
+				top: 750px;
+				left: 550px;
+				color: mediumaquamarine;
+			}
+			.info-3-14 {
+				width: 100px;
+				height: 80px;
+				top: 1070px;
+				left: 815px;
+				color: mediumaquamarine;
+			}
+			
+			/* animation 
+			splatter -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-animation-duration: .2s;
+  animation-duration: .2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; 
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+			
+			@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+			
+			@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+            transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}*/
+			
+			@keyframes blurry {
+				0% {opacity: 0}
+				30% {opacity: 0.3}
+				50% {opacity: 0.7}
+				80% {opacity: 0.4}
+				100% {opacity: 1}
+			}
+			
+			@keyframes fadein {
+  			from { opacity: 0; }
+  			to { opacity: 1; }	
+			}
+			
+			@keyframes rotate {
+				from {transform: rotate(0deg)}
+				to {transform: rotate(360deg)}
+			}
+			
+			@keyframes brush-stroke {
+				from {
+					opacity: 0;
+					top: -4000px;
+					left: 800px;
+				}
+				
+				to {
+					opacity: 1;
+					top: -650px;
+					left: -450px;
+				}
+			}
+			
+
+			@keyframes fadeIn {
+  			0% {opacity: 0;}
+  			100% {opacity: 1;}
+			}
+			
+			@keyframes zoomIn {
+  			0% {
+  			opacity: 0;
+				transform: scale3d(.3, .3, .3);
+  			}
+				
+  			50% {
+  			opacity: 1;
+  			}
+			}
+			
+			/*
+			@keyframes coming {
+				0% {
+					transform: scale(1,1)
+				}
+				
+				100% {
+					transform: scale(2,2)
+				}
+			}
+			*/
+			
+    </style>
+		
+  </head>
+  <body>
+   
+    <div class="grid-container">
+			
+			<div class="row h-bg img-halftone">
+				<h2 class="title-main"><em>ALMOST <br><span class='surreal'>SURREAL</span></em></h2>
+				<h2 class="title-main-2"><em>ALMOST <br><span class='surreal'>SURREAL</span></em></h2>
+				<div class="title-director">Park, Chan-wook</div>
+				<div class="title-address">The Charles Theatre, 1711 <br>N Charles St, Baltimore, MD 21201</div>
+				<div class="movie-3-10">Mar <br>10th</div>
+				<div class="info-3-10 appear-1">Sympathy for <br>Mr. Vengeance</div>
+				<img class="small-1 appear-1 " src="img/blue-splatter-small.png">
+				<div class="movie-3-11">Mar <br>11th</div>
+				<div class="info-3-11 appear-2">Sympathy for <br>Lady Vengeance</div>
+				<img class="small-2 appear-2" src="img/blue-splatter-small.png">
+				<div class="movie-3-12">Mar <br>12th</div>
+				<div class="info-3-12 appear-3">Old Boy</div>
+				<img class="small-3 appear-3" src="img/red-splatter-1.png">
+				<div class="movie-3-13">Mar <br>13th</div>
+				<div class="info-3-13 appear-4">Thirst</div>
+				<img class="small-4 appear-4" src="img/red-splatter-1.png">
+				<div class="movie-3-14">Mar <br>14th</div>
+				<div class="info-3-14 appear-5">Stoker</div>
+				<img class="small-5 appear-5" src="img/red-splatter-1.png">
+				<div class="movie-time">3.10 - 3.14 <br>7pm</div>
+				<a href=https://thecharles.com target="_blank"><img class="website" src="img/website.png"></a>
+				<img class="black-brush" src="img/black-brush.png">
+				<img class="eye" src="img/eye.png">
+				<img class="blue-splatter" src="img/blue-splatter.png">
+				<img class="red-splatter red-splatter-effect" src="img/red-splatter.png">
+				<img class="red-splatter-1 red-splatter-effect" src="img/red-splatter-1.png">
+				<img class="small-splatter red-splatter-effect" src="img/small-splatter.png">
+			</div>
+			
+		<!-- end -->	
+    </div>
+    
+    
+  </body>
+</html>

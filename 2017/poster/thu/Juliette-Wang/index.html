@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Step Up and Cry</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+		<link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Amiko:400,600,700" rel="stylesheet">
+    <style>
+			html{
+				background-color: #F6E5D5;
+				font-family: 'Amiko', sans-serif;
+				font-weight: 800;
+			}
+			/*-- background colors --*/
+			.bg-darkblue{
+				background-color: #0E1E43;
+			}
+			.bg-cream{
+				background-color: #F6E5D5;
+			}
+			.bg-pink{
+				background-color: #B05B7F;
+			}
+			/*-- height of div --*/
+			.height-1054{
+				height: 1054px;
+			}
+			.height-750{
+				height: 750px;
+			}
+			.height-550{
+				height: 550px;
+			}
+			.height-730{
+				height: 730px;
+			}
+			.height-855{
+				height: 855px;
+			}
+			.height-661{
+				height: 661px;
+			}
+			.height-1018{
+				height: 1018px;
+				position: relative;
+			}
+			/*-- font --*/
+			.fontsize-245{
+				font-size: 245px;
+				letter-spacing: -3px;
+			}
+			.fontsize-145{
+				font-size: 135px;
+				letter-spacing: -5px;
+			}
+			.huge{
+				font-size: 160px;
+				letter-spacing: -3px;
+				line-height: 0.9;
+			}
+			.large{
+				font-size: 100px;
+				letter-spacing: -3px;
+			}
+			.medium{
+				font-size: 60px;
+			}
+			.medium2{
+				font-size: 42px;
+			}
+			.small{
+				font-size: 30px;
+				letter-spacing: 0.3px;
+			}
+			.rightalign{
+				text-align: right;
+			}
+			.purple{
+				color: #6C2D53;
+			}
+			.pink{
+				color: #EE368D;
+			}
+			.lightpink{
+				color: #E578A4;
+			}
+			.white{
+				color: #FBF4ED;
+			}
+			.gray{
+				color: #929497;
+			}
+			.cream{
+				color: #F6E5D5;
+			}
+			.darkblue{
+				color: #0E1E43;
+			}
+			.yellow{
+				color: #FFE039;
+			}
+			.transparent{
+				color: transparent;
+			}
+			.stroke{
+				-webkit-text-stroke: 4px #fff;
+			}
+			/*--background images--*/
+			.img-city{
+				background-image: url(images/img-city.png);
+				background-size: cover;
+			}
+			.img-boombox1{
+				background-image: url(images/img-boombox1.png);
+				background-size: 100%;
+				position: relative;
+			}
+			.img-boomboxes{
+				background-image: url(images/img-boomboxes.png);
+				background-size: 100%;
+				position: relative;
+			}
+			.img-lights{
+				background-image: url(images/img-lights.gif);
+				background-size: 100%;
+				position: relative;
+			}
+			.img-transition{
+				background-image: url(images/img-transition.png);
+				background-size: 100%;
+				position: relative;
+			}
+			.img-music{
+				background-image: url(images/img-music.gif);
+				background-size: 100%;
+				position: relative;
+			}
+			.img-telescopelight{
+				background-image: url(images/img-telescopelight.gif);
+				background-size: 100%;
+				position: relative;
+				height: 1000px;
+			}
+			.img-telescope{
+				background-image: url(images/img-telescope.png);
+				background-size: 100%;
+				position: relative;
+				height: 658px;
+			}
+			/*-- images --*/
+			
+			.boombox{
+				background-image: url(images/boombox-01.png);
+				width: 254px;
+				height: 120px;
+				background-position: center;
+				position: absolute;
+			}
+			.boombox:hover{
+				width: 254px;
+				height: 120px;
+				position: absolute;
+				background-position: center;
+				animation: boomboxin 2s infinite linear, boomboxzoom 0.5s infinite;
+			}
+			.boomboxin{
+				background-image: url(images/boombox-01.png);
+				width: 254px;
+				height: 120px;
+				position: absolute;
+				animation: boomboxin 1s infinite linear;
+			}
+			.for-ronnie{
+				background-image: url(images/forronnie-05.png);
+				width: 170px;
+				height: 185px;
+				position: absolute;
+			}
+			.sparks{
+				background-image: url(images/sparks-01.png);
+				width: 51px;
+				height: 51px;
+				position: absolute;
+				animation: flash 5s infinite;
+			}
+			.sparkdot{
+				background-image: url(images/sparks-02.png);
+				width: 51px;
+				height: 51px;
+				position: absolute;
+				animation: flash 5s infinite;
+			}
+			.yellowspark{
+				background-image: url(images/yellowspark.png);
+				width: 51px;
+				height: 52px;
+				position: absolute;
+				animation: flash 5s infinite;
+			}
+			.yellowspark2{
+				background-image: url(images/yellowspark2.png);
+				width: 51px;
+				height: 52px;
+				position: absolute;
+				animation: flash 5s infinite;
+			}
+			.confetti{
+				background-image: url(images/confetti.png);
+				width: 140px;
+				height: 83px;
+				position: absolute;
+				animation: confetti 3s infinite linear;
+			}
+			.confetti1{
+				background-image: url(images/confetti.png);
+				width: 140px;
+				height: 83px;
+				position: absolute;
+				animation: confetti1 3s infinite linear;
+			}
+			.creamconfetti{
+				background-image: url(images/confetti2.png);
+				width: 141px;
+				height: 83px;
+				position: absolute;
+				animation: creamconfetti 3s infinite linear;
+			}
+			.creamconfetti1{
+				background-image: url(images/confetti2-1.png);
+				width: 141px;
+				height: 83px;
+				position: absolute;
+				animation: creamconfetti1 3s infinite linear;
+			}
+			.hat{
+				background-image: url(images/hat.png);
+				width: 230px;
+				height: 168px;
+				position: absolute;
+			}
+			.hat2{
+				background-image: url(images/hat2.png);
+				width: 230px;
+				height: 168px;
+				position: absolute;
+			}
+			/*-- animations --*/
+			.rotate{
+				transform: rotate(270deg);
+			}
+			.rotate2{
+				transform: rotate(90deg);
+			}
+			.hat:hover{
+				-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+			}
+			.hat2:hover{
+				-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+			}
+			flip{
+				-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+			}
+			.movetitle{
+				animation: slideright 1.5s 1;
+			}
+			.delay-2{
+				animation-delay: 0.2s;
+			}
+			.delay-2s{
+				animation-delay: 2s;
+			}
+			.delay-3s{
+				animation-delay: 3s;
+			}
+			.delay-5s{
+				animation-delay: 5s;
+			}
+			.appear{
+				opacity: 0;
+				animation: appear 4s 1 forwards;
+				animation-delay: 1.7s;
+			}
+			.child{
+				opacity: 0;
+			}
+			.parent:hover .child{
+				opacity: 0;
+				animation: appear 4s 1 forwards;
+			}
+			.neonsign{
+				animation: neon 0.9s infinite;
+			}
+			@keyframes boomboxin {
+				0% {background-image: url(images/boombox-01.png);}
+				50% {background-image: url(images/boombox-02.png);}
+				100% {background-image: url(images/boombox-01.png);}
+			}
+			@keyframes boomboxzoom{
+				0% {transform: scale(1);}
+				50% {transform: scale(1.1);}
+				100% {transform: scale(1);}
+			}
+			@keyframes slideright {
+				0% {left: 8.333333%;}
+				80% {left: 35%;}
+				100% {left: 8.333333%;}
+			}
+			@keyframes appear{
+				0% {opacity: 0;}
+				100% {opacity: 1;}
+			}
+			@keyframes flash{
+				0% {opacity: 0;}
+				50% {opacity: 1;}
+				100% {opacity: 0;}
+			}
+			@keyframes neon{
+				0% {-webkit-text-stroke: 4px #fff;}
+				25% {-webkit-text-stroke: 4px #FFE039;}
+				50% {-webkit-text-stroke: 4px #fff;}
+				75% {-webkit-text-stroke: 4px #EE368D;}
+				100% {-webkit-text-stroke: 4px #fff;}
+			}
+			@keyframes confetti{
+				0% { background-image: url(images/confetti.png);}
+				50% { background-image: url(images/confetti1.png);}
+				100%{ background-image: url(images/confetti.png);}
+				}
+			@keyframes confetti1{
+				0% { background-image: url(images/confetti1.png);}
+				50% { background-image: url(images/confetti.png);}
+				100%{ background-image: url(images/confetti1.png);}
+				}
+			@keyframes creamconfetti{
+				0% { background-image: url(images/confetti2.png);}
+				50% { background-image: url(images/confetti2-1.png);}
+				100%{ background-image: url(images/confetti2.png);}
+				}
+			@keyframes creamconfetti1{
+				0% { background-image: url(images/confetti2-1.png);}
+				50% { background-image: url(images/confetti2.png);}
+				100%{ background-image: url(images/confetti2-1.png);}
+				}
+			}
+    </style>
+  </head>
+  <body>
+   
+    <div class="grid-container">
+			
+			<div class="row img-city bg-darkblue">
+				<div class="col-4 col-offset-1 height-750 ">
+					<h1 class="movetitle large purple top-9">STEP UP</h1>
+					<h1 class="movetitle title-2 medium purple top-22">AND CRY</h1>
+					<p class="small appear top-32 pink">ADAM SHANKMAN'S</p>
+					<p class="small appear top-37 pink">MOST POPULAR FILMS</p>
+				</div>
+				</div>
+			
+			<div class="row bg-darkblue">
+				<div class="parent col-12 height-550 img-boombox1">
+					<div class="boomboxin rotate2" style="top: 62.6%; left: 83.6%;"></div>
+					<div class="boombox  top-46-1 left-8-2"></div>
+					<div class="boombox  top-71-8 left-44"></div>
+					<div class="boomboxin top-71-6"></div>
+					<div class="boomboxin top-75 left-22"></div>
+					<div class="boomboxin top-77-1 left-67-1"></div>
+					<p class="child small lightpink top-9 left-71-5">1711 N Charles St</p>
+					<p class="medium pink top-15 left-45">CHARLES THEATER</p>
+					<p class="medium2 white top-27 left-57-5">MARCH 10TH - 14TH</p>
+					</div>
+				</div>
+			
+			<div class="row bg-darkblue" style="overflow:hidden;">
+				<div class="col-12 height-730 img-boomboxes">
+					<div class="boomboxin rotate top-31 left-3-4"></div>
+					<div class="boomboxin" style="top: 23.3%; left: 28.8%;"></div>
+					<div class="boomboxin" style="top: 19.1%; left: -14%;"></div>
+					<div class="boomboxin" style="top: 61.3%; left: 12.4%;"></div>
+					<div class="boombox" style="top: 80.2%; left: 12.4%;"></div>
+					<div class="boomboxin" style="top: 78.9%; left: 80.6%;"></div>
+					<div class="boombox" style="top: 70%; left: 35.3%;"></div>
+					<div class="boombox" style="top: 42.4%; left: 21.2%;"></div>
+					<div class="boomboxin" style="top: 85%; left: 58%;"></div>
+					<div class="boombox" style="top: 2%; left: 56.7%;"></div>
+					<div class="boombox" style="top: 3.4%; left: 79%;"></div>
+					<p class="small lightpink top-5 left-10">7 PM</p>
+					<p class="medium2 white top-10 left-10">MARCH 10TH</p>
+					<p class="large purple top-31 left-60-5">STEP UP</p>
+					<p class="large white top-30 left-60">STEP UP</p>
+					<p class="fontsize-245 purple top-44 left-64">3D</p>
+					<p class="fontsize-245 white top-43 left-63">3D</p>
+				</div>
+			</div>
+			
+			<div class="row bg-darkblue">
+				<div class="col-12 img-lights height-855">
+					<p class="small lightpink top-20 center-h">8 PM</p>
+					<p class="medium2 white top-25 center-h">MARCH 11TH</p>
+					<p class="huge center-h top-45 transparent stroke neonsign">
+						ROCK<br>
+						OF THE<br>
+						AGES</p>
+				</div>
+			</div>
+			
+			<div class="row bg-darkblue">
+				<div class="col-12 img-transition height-661">
+					<div class="sparks delay-3s top-50 left-10"></div>
+					<div class="sparks top-30 left-95"></div>
+					<div class="sparks delay-3s top-45 left-70"></div>
+					<div class="sparks delay-2s top-80 left-30"></div>
+					<div class="sparkdot top-50 left-30"></div>
+					<div class="sparkdot delay-2s top-70 left-60"></div>
+				</div>
+			</div>
+			
+			<div class="row bg-cream">
+				<div class="col-12 parent img-music height-1054">
+					<div class="sparkdot top-5 left-7"></div>
+					<div class="sparkdot delay-2s top-30 left-40"></div>
+					<div class="sparkdot top-60 left-60"></div>
+					<div class="sparkdot delay-3s top-60 left-15"></div>
+					<div class="sparks top-75 left-50"></div>
+					<div class="sparks delay-2s top-90 left-30"></div>
+					<div class="sparks top-85 left-80"></div>
+					<p class="small lightpink top-20 left-10">6 PM</p>
+					<p class="medium2 gray top-23-5 left-10">MARCH 12TH</p>
+					<p class="fontsize-145 purple top-30 left-10">THE<br>
+						LAST SONG</p>
+					<div class="for-ronnie child delay-5s top-70 left-10"></div>
+				</div>
+			</div>
+			
+			<div class="row bg-pink">
+				<div class="col-12 img-telescopelight">
+					<div class="sparkdot top-5 left-7"></div>
+					<div class="sparkdot delay-2s top-20 left-40"></div>
+					<div class="sparkdot left-75"></div>
+					<div class="sparkdot delay-3s top-5 left-30"></div>
+					<div class="sparks top-20 left-20"></div>
+					<div class="sparks delay-2s left-50"></div>
+					<div class="sparks top-85 left-80"></div>
+					<div class="yellowspark left-30 top-50"></div>
+					<div class="yellowspark delay-2 left-75 top-20"></div>
+					<div class="yellowspark delay-2 left-50 top-60"></div>
+					<div class="yellowspark delay-2 left-95 top-7"></div>
+					<div class="yellowspark2 delay-2 left-50 top-35"></div>
+					<div class="yellowspark2 delay-2s left-90 top-35"></div>
+					<div class="yellowspark2 delay-3s left-70 top-45"></div>
+					<div class="yellowspark2 delay-2s left-20 top-80"></div>
+					<div class="yellowspark delay-2s left-40 top-90"></div>
+					<p class="small cream top-55 left-86">8 PM</p>
+					<p class="medium2 darkblue top-60 left-68-5">MARCH 12TH</p>
+					<p class="large white rightalign top-70 left-45">A WALK TO<br> REMEMBER<br>
+				</div>
+			</div>
+			
+			<div class="row bg-pink" style="overflow:hidden;">
+				<div class="col-12 img-telescope">
+					<div class="yellowspark left-15 top-5"></div>
+					<div class="yellowspark delay-2 left-60 top-45"></div>
+					<div class="yellowspark delay-2 left-95 top-7"></div>
+					<div class="yellowspark2 delay-2 left-45 top-10"></div>
+					<div class="yellowspark2 delay-2s left-90 top-35"></div>
+					<div class="yellowspark2 delay-3s left-70 top-10"></div>
+					<div class="yellowspark2 delay-2s left-25 top-30"></div>
+					<div class="confetti delay-2 flip top-50 left-35"></div>
+					<div class="confetti1 top-60 left-90"></div>
+					<div class="confetti top-80 left-20"></div>
+					<div class="hat top-70 left-60"></div>
+				</div>
+			</div>
+			
+			<div class="height-1018 bg-pink" style="overflow:hidden;">
+				<div class="col-12">
+					<div class="confetti delay-2s flip top-9 left-50"></div>
+					<div class="confetti1 delay-2 top-40 left-80"></div>
+					<div class="confetti1 delay-3s top-15"></div>
+					<div class="confetti1 top-40 left-2"></div>
+					<div class="creamconfetti delay-2s flip top-65 left-60"></div>
+					<div class="creamconfetti1 delay-2 top-15 left-90"></div>
+					<div class="creamconfetti1 delay-3s top-60 left-95"></div>
+					<div class="creamconfetti delay-3s flip top-90 left-10"></div>
+					<div class="creamconfetti flip top-67 left-20"></div>
+					<div class="creamconfetti1 delay-2 top-90 left-64"></div>
+					<div class="confetti delay-2s flip top-85 left-40"></div>
+					<div class="confetti1 delay-3s top-15"></div>
+					<div class="hat2 top-5 left-20"></div>
+					<div class="hat top-30 left-50"></div>
+					<div class="hat top-70 left-1"></div>
+					<div class="hat2 top-75 left-80"></div>
+					<p class="small cream top-30 left-10">9 PM</p>
+					<p class="medium2 darkblue top-35 left-10">MARCH 12TH</p>
+					<p class="large yellow top-43 left-10">STEP UP<br> REVOLUTION<br>
+				</div>
+			</div>
+
+	
+		</div>
+  </body>
+</html>

@@ -1,0 +1,349 @@
+<!doctype html>
+<html>
+	<head>
+	 <meta charset="utf-8">
+	 
+	 <title>lecture</title>
+	
+<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC|Didact+Gothic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+	
+
+
+<style>
+		
+	html{background-color: white;}
+
+	.icon{
+		z-index: 2;
+				position: fixed;
+				top:40px;
+				left: 40px;
+	}	
+		
+			
+	ul.nav { 
+				width: 100px;
+				position: absolute;
+		}
+					
+	ul.nav li a { 
+				text-decoration: none;
+			 	text-transform:up;
+			 	left: 0px;
+			 	top: 250px;
+			  	font-size: 12px;
+			 	position: relative;
+			  	padding: 15px;
+			  	color: black;
+			  	display: block; // for top-bottom paddings
+			  	text-align: center;
+			  	font-family: 'Roboto-Bold', sans-serif;
+			 	letter-spacing: 3px;
+			  	z-index: 3;
+				font-size: 15px;
+				width: 200px;
+				left: 20px;
+			  }
+	
+	ul.nav a:hover {border: 1px solid;
+       			box-shadow: inset 0 0 10px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+      			outline-color: rgba(255, 255, 255, 0);
+       			outline-offset: 15px;
+				text-shadow: 1px 1px 2px #427388; }	
+		
+		
+
+	.l1{
+		position: absolute;
+		top: 20px;
+		width: 600px;
+		height: 700px;
+		left: 500px;
+		z-index: 2;
+		opacity: 0.5;
+	}
+	
+	.l2{
+		position: absolute;
+		top: 9px;
+		width: 1000px;
+		height: 900px;
+		left: -200px;
+		opacity: 0.5;
+	}
+	
+	.icon{
+				z-index: 4;
+				position: fixed;
+				top:40px;
+				left: 40px;
+		      }	
+	.date{
+			    color: black;
+			    font-family:'Roboto-MediumItalic', sans-serif;
+			    z-index: 4;
+			    position: fixed;
+			    top: 110px;
+			    left: 40px;
+				font-size: 10px;
+				letter-spacing: 3px;
+			}	
+	
+	.p1{
+		position: absolute;
+		height: 100px;
+		width: 300px;
+		font-family: 'Maven Pro', sans-serif;
+		font-size: 13px;
+		left: 355px;
+		top: 300px;
+		z-index: 4;
+	}
+	
+	.t1{
+		position: absolute;
+		font-family:'VT323', monospace;
+		z-index: 4;
+		left: 355px;
+		top: 230px;
+		font-size: 26px;
+	}
+	
+	.p2{
+		position: absolute;
+		height: 100px;
+		width: 300px;
+		font-family: 'Maven Pro', sans-serif;
+		font-size: 13px;
+		left: 355px;
+		top: 570px;
+		z-index: 4;
+	}
+	
+	.t2{
+		position: absolute;
+		font-family:'VT323', monospace;
+		z-index: 4;
+		left: 355px;
+		top: 500px;
+		font-size: 26px;
+	}
+	
+	.p3{
+		position: absolute;
+		height: 100px;
+		width: 300px;
+		font-family: 'Maven Pro', sans-serif;
+		font-size: 13px;
+		left: 355px;
+		top: 840px;
+		z-index: 4;
+	}
+	
+	.t3{
+		position: absolute;
+		font-family:'VT323', monospace;
+		z-index: 4;
+		left: 355px;
+		top: 770px;
+		font-size: 26px;
+	}
+	
+	.p4{
+		position: absolute;
+		height: 100px;
+		width: 300px;
+		font-family: 'Maven Pro', sans-serif;
+		font-size: 13px;
+		left: 800px;
+		top: 300px;
+		z-index: 4;
+	}
+	
+	.t4{
+		position: absolute;
+		font-family:'VT323', monospace;
+		z-index: 4;
+		left: 800px;
+		top: 230px;
+		font-size: 26px;
+	}
+	
+	.p5{
+		position: absolute;
+		height: 100px;
+		width: 300px;
+		font-family: 'Maven Pro', sans-serif;
+		font-size: 13px;
+		left: 800px;
+		top: 570px;
+		z-index: 4;
+	}
+	
+	.t5{
+		position: absolute;
+		font-family:'VT323', monospace;
+		z-index: 4;
+		left:800px;
+		top: 500px;
+		font-size: 26px;
+	}
+	
+	.shuzi{
+		font-family: 'VT323', monospace;
+		position: absolute;
+		z-index: 3;
+		font-size: 190px;
+		color: black;
+		top: -175px;
+		left: 240px;
+	}
+	
+	.top{
+		font-family: 'VT323', monospace;
+		position: absolute;
+		z-index: 3;
+		font-size: 36px;
+		color: black;
+		top: 23px;
+		left: 320px;
+	}
+	.zuozhe{
+		font-family: 'Roboto-LightItalic', sans-serif;
+		position: absolute;
+		z-index: 3;
+		color: gray;
+		top: 158px;
+		left: 320px;
+		letter-spacing: 1px;
+	}
+	
+	
+
+	
+	
+	
+	
+	
+	
+	.container{
+		width: 200px;
+		height: 200px;
+		left: 100px;
+		top: 1000px;
+		color: white;
+		position: absolute;
+	}
+	
+	
+		
+		
+		
+		</style>
+		
+	</head>
+		
+	
+<body>
+
+ <div class="icon">
+ 	<img src="images/1.png">
+ </div>
+	
+ <ul class="nav link">
+	 <li class="c1"><a href="character.html">character</a></li>
+	 <li class="c2"><a href="lecure.html">the lecture</a></li>
+	 <li class="c3"><a href="contact.html">contact us</a></li>
+		</ul>
+				
+<img class="l1" src="images/l1.jpg">
+<img class="l2" src="images/l2.jpg">
+
+<div class="p1">
+	<p>Posters do not have to pay for the space they occupy. Despite any city ordinance or regulation, a poster can be put under the cover of night and speak its message until removed. A bold combination of image and text cannot be ignored by anyone who catches a glimpse of it from the cor- ner of their eye everyone does a double take automatically at something strange.</p>
+</div>
+
+<div class="p2">
+	<p>Posters can be made in any quantity from 110,000 or more. They can be one of a kind or reproduced in any way an individual has access to stencil, photocopy, screen print, o set print, computer print, etc. Posters can be put up anywhere and can be made very di cult to remove if it is so desired with the use of adhesive. If a message urgently needs to be spoken, it can be done.</p>
+</div>
+
+<div class="p3">
+	<p>Posters start people thinking and people who are thinking about things start conversations. A poster can remind someone of an issue that they feel strongly about and help them to cause change. A poster with a strong enough message that is seen by only a few hundred people before it is removed can actually reach a whole city by the buzz it creates.</p>
+</div>
+
+<div class="p4">
+	<p>Posters can be immediate responses to current issues and events. Their timeliness can build momentum toward change.</p>
+</div>
+
+<div class="p5">
+	<p>A poster is created for a certain audience in a certain location. Many posters would not be understood outside of their local context because it speaks directly to a certain community.
+</p>
+</div>
+
+<div class="t1">
+	<p>People have to <br>
+	look at them
+	</p>
+	</div>
+
+<div class="t2">
+	<p>Anyone can make and<br>
+	 post them</p>
+	</div>
+
+<div class="t3">
+	<p>A poster is<br>
+	 a catalyst</p>
+	</div>
+
+<div class="t4">
+	<p>A poster <br>
+	can be reactionary</p>
+	</div>
+
+<div class="t5">
+	<p>A poster is <br>
+	locally relevant</p>
+	</div>
+
+
+
+<div class="icon">
+	<a href="index.html"><img src="images/1.png">
+</div>
+	
+<div class="date">
+				<p>06.17.2017</p> 
+	         </div>
+<div class="shuzi">
+	<p>5</p>
+</div>
+
+<div class="top">
+	<p>Reasons<br> 
+	Why Posters<br>
+ 	Are Infuential</p>
+</div>
+
+<div class="zuozhe">
+	<p>by Dan D Shafer</p>
+</div>	
+
+
+	
+	<div class="container">
+		<p>hello</p><br>
+	</div>
+	
+</body>
+
+
+</html>
+
+
+
+
+	

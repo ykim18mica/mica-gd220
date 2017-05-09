@@ -1,0 +1,88 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+		background-image: url(Artboard%201.png);
+		background-position: left top;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+}
+
+.wrapper {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.block {
+	float:left;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.block::after {
+	padding-top: 100%;
+	display: block;
+	content: ";
+}
+
+.block img {
+	width: 100%;
+	height: auto;
+}
+
+.march {
+	position: relative;
+	left: 40px;
+	top: 50px;
+}
+
+.mountain {
+	position: relative;
+	left: 50px;
+	top: 70px;
+}
+
+.squiggle {
+	position: relative;
+	left: 5px;
+	top: -350px;
+}
+
+.circle {
+	position: relative;
+	left: 1200px;
+	top: -1030px;
+}
+
+.house {
+	position: relative;
+	left: -200px;
+	top: -1010px;
+}
+
+.bert {
+	position: relative;
+	left:600px;
+	top: -2060px;
+}
+
+.charles {
+	position: relative;
+	left:-400px;
+	top: -1000px;
+}
+
+.seven {
+	position: relative;
+	left: -160px;
+	top: -1380px;
+}

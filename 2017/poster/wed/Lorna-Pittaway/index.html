@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Strange New Worlds</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=UnifrakturCook:700|Alegreya:900" rel="stylesheet">
+    
+    <style>
+  
+      body {
+        background-color: #16150f;
+        cursor: crosshair;
+      }
+      
+      @font-face {
+      font-family: BluuNext-Bold;
+      src: url(fonts/BluuNext-Bold.otf);
+      }
+      
+      .col-one { width: 550px; }
+      .col-two { width: 300px; }
+      .col-three { width: 250px; }
+      .col-four { width: 350px; }
+      .col-five { width: 200px; }
+      .col-six { width: 300px; }
+      .col-seven { width: 250px; }
+      .col-eight { width: 350px; }
+      .col-nine { width: 500px; }
+      .col-ten { width: 250px; }
+      .col-eleven { width: 1100px; }
+      
+      
+      /* BACKGROUND PARTS*/
+      
+      .bg {
+        width: 100%;
+        height: 650px;
+        background-color: #16150f;
+      }
+      
+      .img-bg5 {
+        background-image: url(images/bg1.jpg);
+        background-size: cover;
+        animation-name: bg 25s 20s infinite;
+      }
+      
+      .center-nav {
+        position: relative;
+				width: 1100px;	
+				height: 550px;
+				background-color: #f0f0ee; 
+        margin: 0 auto;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      
+      
+      /* LINKS */
+      
+      a {
+       color: #16150f;
+      }
+      
+      a:hover {
+       color: #87999e;
+      }
+      
+			/* IMAGES */
+				
+			.img-plus {
+        background-image: url(images/plus.png);
+        background-size: cover;
+      }
+      
+      .img-eye {
+        background-image: url(images/eye.png);
+        background-size: cover;
+      }
+				
+      
+      /* FIRST ROW WHOLE THING */
+      
+      .top-row {
+        position: absolute;
+        width: 1100px;
+        height: 300px;
+        color: #16150f;
+        font-family: "BluuNext-Bold", Sans-serif;
+        text-transform: uppercase; 
+        font-size: 63px;
+        transition: height 2s;
+			}
+      
+      
+      /* FIRST ROW BOX 1 */
+      
+      .strange {
+        position: absolute;
+        width: 550px;
+        padding-left: 30px;
+        padding-top: 25px;
+				background-color: #f0f0ee;
+        height: 100%;
+        line-height: 1.2em;
+        transition: width 2s, font-size 2s, line-height 2s;
+		}
+      
+      
+       /* FIRST ROW BOX 2 */
+      
+      .yorgos {
+        position: absolute;
+        text-transform: none;
+        font-family: "UnifrakturCook";
+        color: #f0f0ee;
+        padding-left: 25px;
+        text-transform: uppercase;
+        padding-top: 30px;
+        font-size: 58%;
+        letter-spacing: 0.1em;
+        line-height: 1.2em;
+        left: 550px;
+        height: 100%;
+        width: 300px;
+        overflow: hidden;
+				background-color: #16150f;
+        transition: width 2s, left 2s, font-size 2s, line-height 2s, padding-left 2s;
+		}
+      
+      .about {
+        font-family: "BluuNext-Bold";
+        text-transform: uppercase;
+        letter-spacing: 0em;
+        padding-top: 8%;
+        color: #f0f0ee; 
+        opacity: 0;
+        line-height: 1.2em;
+        font-size: 18px;
+        transition: opacity 0.7s, padding-right 2s;
+      }
+      
+      
+      /* FIRST ROW BOX 3 */
+      
+      .dates {
+        position: absolute;
+        width: 250px;
+        font-family: "Arial", Sans-serif;
+        font-size: 58%;
+        letter-spacing: 0em;
+        text-align: center;
+        padding-top: 25px;;
+        left: 850px;
+        line-height: 1.2em;
+        height: 100%;
+				background-color: #d6d6d6;
+        transition: left 2s, width 2s, font-size 2s, line-height 2s;
+		}
+      
+      
+       /* SECOND + THIRD ROWS */
+      
+      .bottom-rows {
+        position: absolute;
+        top: 300px;
+        width: 1100px;
+        height: 250px;
+        transition: height 2s, top 2s;  
+			}
+      
+      /* SECOND ROW */
+      
+      .middle-row {
+        position: absolute;
+        width: 1100px;
+        height: 150px;
+        transition: height 2s;
+			}
+      
+			/* SECOND ROW - BOX 1 */
+				
+      .charles {
+        position: absolute;
+        font-family: "BluuNext-Bold", Sans-serif;
+        font-size: 22px;
+        color: #f0f0ee;
+        padding-top: 5.2%;
+        text-align: center;
+        line-height: 0.65;
+        width: 350px;
+        height: 100%;
+        background-color: #16150f;
+        overflow: hidden;
+        transition: height 2s, top 2s, width 2s;
+			}
+      
+      .locash {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+     	}
+      
+      .eye {
+        position: absolute;
+        left: 44%;
+        width: 35px;
+        height: 35px;
+        transition: left 2s;
+       }
+				
+      	.address{
+        position: absolute;
+        font-family: "BluuNext-Bold";
+        opacity: 0;
+        width: 100%;
+        text-transform: uppercase;
+        letter-spacing: 0em;
+        line-height: 1.1em;
+        padding-top: 40px;
+        left: -5%;
+        color: #f0f0ee;
+        font-size: 21px;
+        transition: opacity 0.7s;
+      }
+     
+			/* SECOND ROW - BOX 2 */	
+				
+				.web-link {
+        position: absolute;
+        width: 200px;
+        left: 350px;
+        height: 100%;
+        background-color: #d6d6d6;
+        font-family: "Arial", Sans-serif;
+        font-size: 22px;
+        color: #16150f;
+        padding-top: 5.1%;
+        line-height: 0.65;
+        overflow: hidden;
+        transition: height 2s, top 2s, left 2s, width 2s;  
+			}
+				
+				.website {
+        position: absolute;
+        text-align: center;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+      }
+				
+				.plus {
+        position: absolute;
+        right: 42%;
+        width: 30px;
+        height: 30px;
+      }
+				
+				.web {
+        position: absolute;
+        font-family: "Arial";
+        opacity: 0;
+        left: 0%;
+        text-decoration: underline;
+        top: 23%;
+        color: #16150f;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0em;
+        line-height: 1.5em;
+        width: 100%;
+        font-size: 17px;
+        transition: opacity 0.7s;
+      }
+				
+			/* SECOND ROW - BOX 3 */
+				
+				.one {
+        position: absolute;
+        font-family: "UnifrakturCook", Sans-serif;
+        font-size: 36px;
+        letter-spacing: 0.05em;
+        color: #f0f0ee;
+        padding-top: 5.6%;
+        text-align: center;
+        width: 300px;
+        left: 550px;
+        line-height: 0.65;
+        height: 100%;
+        background-color: #16150f;
+        overflow: hidden;
+        transition: height 2s, top 2s, width 2s;
+			}
+				
+			.kinetta{
+        font-family: "BluuNext-Bold";
+        text-transform: uppercase;
+        letter-spacing: 0em;
+        opacity: 0;
+        color: #f0f0ee;
+        font-size: 21px;
+        transition: opacity 0.7s;
+      }	
+				
+			/* SECOND ROW - BOX 4 */	
+				
+				.two {
+        position: absolute;
+        font-family: "UnifrakturCook", Sans-serif;
+        font-size: 36px;
+        letter-spacing: 0.05em;
+        color: #16150f;
+        padding-top: 5.6%;
+        text-align: center;
+        width: 250px;
+        padding-left: 0%;
+        line-height: 0.65;
+        left: 850px;
+        height: 100%;
+        background-color: #f0f0ee;
+        overflow: hidden;
+        transition: height 2s, top 2s, left 2s, width 2s, padding-left 2s;
+			}
+				
+			.lobster{
+        font-family: "BluuNext-Bold";
+        text-transform: uppercase;
+        letter-spacing: 0em;
+        opacity: 0;
+        color: #16150f; 
+        font-size: 21px;
+        transition: opacity 0.7s;
+      }	
+			
+				
+			/* BOTTOM ROW */	
+			
+      .bottom-row {
+        position: absolute;
+        top: 150px;
+        width: 1100px;
+        height: 100px;
+        transition: height 2s, top 2s;
+				}
+      
+     
+      /* BOTTOM ROW - BOX 1 */
+      
+      .three {
+        position: absolute;
+        font-family: "UnifrakturCook", Sans-serif;
+        font-size: 36px;
+        letter-spacing: 0.05em;
+        color: #16150f;
+        padding-top: 3.5%;
+        line-height: 0.65;
+        text-align: center;
+        width: 350px;
+        left: 0px;
+        height: 100%;
+        background-color: #d6d6d6;
+        transition: height 2s, top 2s, width 2s;
+        overflow: hidden;
+			}
+      
+			.dogtooth{
+        font-family: "BluuNext-Bold";
+        text-transform: uppercase;
+        letter-spacing: 0em;
+        color: #16150f; 
+        opacity: 0;
+        font-size: 21px;
+        transition: opacity 0.7s;
+      }
+				
+			/* BOTTOM ROW - BOX 2 */	
+				
+      .four {
+        position: absolute;
+        font-family: "UnifrakturCook", Sans-serif;
+        font-size: 36px;
+        letter-spacing: 0.05em;
+        color: #16150f;
+        padding-top: 3.5%;
+        line-height: 0.65;
+        text-align: center;
+        width: 500px;
+        left: 350px;
+        height: 100%;
+        background-color: #f0f0ee;
+        transition: height 2s, top 2s, width 2s, left 2s;
+        overflow: hidden;
+			}
+				
+			.deer{
+        font-family: "BluuNext-Bold";
+        text-transform: uppercase;
+        letter-spacing: 0em;
+        color: #16150f;
+        opacity: 0;
+        font-size: 21px;
+        transition: opacity 0.7s;
+      }	
+				
+			/* BOTTOM ROW - BOX 3 */	
+				
+      .five {
+        position: absolute;
+        font-family: "UnifrakturCook", Sans-serif;
+        font-size: 36px;
+        letter-spacing: 0.05em;
+        color: #f0f0ee;
+        padding-top: 3.5%;
+        line-height: 0.65;
+        text-align: center;
+        width: 250px;
+        left: 850px;
+        height: 100%;
+        background-color: #16150f;
+        transition: height 2s, top 2s;
+        overflow: hidden;
+			}
+				
+      .alps{
+        font-family: "BluuNext-Bold";
+        text-transform: uppercase;
+        letter-spacing: 0em;
+        color: #f0f0ee;
+        opacity: 0;
+        font-size: 21px;
+        transition: opacity 0.7s;
+      }
+				
+			/* HOVER TRANSITIONS */
+				
+			/* YORGOS GETS BIGGER */
+				
+			.yorgos:hover {
+        width: 501px;
+        left: 350px;
+        font-size: 50px;
+        padding-left: 40px;
+      }
+
+      .yorgos:hover .about {
+        opacity: 1;
+        padding-right: 20%;
+			}
+			
+			.yorgos:hover + .strange {
+        width: 350px;
+        font-size: 32px;
+      }
+      
+				
+			/* BOTTOM ROWS MOVE UP */	
+			
+			.bottom-rows:hover{
+        top: 100px;
+        height: 450px;
+      }
+				
+      .bottom-rows:hover + .top-row {
+        font-size: 36px;
+				height: 100px;
+      }
+				
+			.bottom-rows:hover .middle-row {
+        height: 250px;
+      }	
+				
+			.bottom-rows:hover .bottom-row{
+        top: 250px;
+        height: 200px;
+      }	
+				
+      
+			/* LOCATION BOX GETS BIGGER */
+				
+      .charles:hover .eye {
+        left: 41%;
+      }
+				
+			.charles:hover {
+        width: 480px;  
+      }
+				
+      .charles:hover + .web-link {
+        width: 100px;
+        left: 460px;
+      }
+				
+			/* NUMBER TWO GETS BIGGER */	
+				
+			.two:hover {
+        left: 700px;
+        width: 350px;
+        padding-left: 10%;
+      }
+      
+      .two:hover + .one {
+        width: 200px;
+      }
+				
+			/* NUMBER THREE GETS BIGGER */	
+				
+			.three:hover {
+        width: 550px;
+      }
+      
+			.three:hover {
+        width: 550px;
+      }
+      
+      .three:hover + .four{
+        width: 300px;
+        left: 550px;
+      }
+      
+      /* INFO APPEARS */
+      
+      .one:hover .kinetta {
+        opacity: 1;
+      }
+        
+      .two:hover .lobster {
+        opacity: 1;
+      }
+      
+      .three:hover .dogtooth {
+        opacity: 1;
+      }
+    
+      .four:hover .deer {
+        opacity: 1;
+      }
+      
+      .five:hover .alps {
+        opacity: 1;
+      }
+      
+			.charles:hover .address {
+        opacity: 1;
+      }
+				
+      .web-link:hover .web {
+        opacity: 1;
+      }
+      
+      
+      /* ANIMATIONS */
+
+    
+    </style>
+  </head>
+  <body>
+    <div class="grid-container bg img-bg5">
+      <div class="center-nav">
+        <div class="bottom-rows">
+          <div class="middle-row"> 
+            <div class="charles col-four">
+              <div class="locash">
+                <div class="eye img-eye"></div><br><br><span class="address">The Charles Theatre<br>1711 N Charles<br>Baltimore, MD 21201<br></span>
+              </div>
+            </div>
+            <div class="web-link col-five">
+              <div class="website">
+                <div class="plus img-plus"></div><br><br><span class="web"><a href="https://thecharles.com/">THECHARLES.COM<br>FOR MORE <br>INFORMATION</a></span>
+              </div>
+            </div>
+            <div class="two col-seven ">TWO.<br><br><span class="lobster">The Lobster<br>03. 11. 2017<br>7:00pm</span></div>
+            <div class="one col-six ">ONE.<br><br><span class="kinetta">Kinetta<br>03. 10. 2017<br>7:00pm</span></div>
+          </div>
+          <div class="bottom-row"> 
+            <div class="three col-eight">THREE.<br><br><span class="dogtooth">Dogtooth<br>03. 12. 2017<br>7:00pm</span></div>
+            <div class="four col-nine ">FOUR.<br><br><span class="deer">The Killing Of A Sacred Deer<br>03. 13. 2017<br>7:00pm</span></div>
+            <div class="five col-ten ">FIVE.<br><br><span class="alps">Alps<br>03. 14. 2017<br>7:00pm</span></div>
+          </div>  
+        </div> 
+          <div class="top-row">
+            <div class="dates col-three">03.10.2017<br> 03.14.2017</div>
+            <div class="yorgos col-two">Yorgos Lanthimos<div class="about">a five night retrospective of the work of Greek Director, Yorgos Lanthimos.</div></div>
+		        <div class="strange col-one">Strange New Worlds</div> 
+          </div>
+      </div>
+    </div>
+  </body>
+</html>

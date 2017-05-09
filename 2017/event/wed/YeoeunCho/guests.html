@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Only One Festival</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    
+ <style>
+			/* your css rules below */
+    .grid-container{ 
+      position: relative;
+      }
+        html {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            
+        }
+        
+        h1 { font-size: 30px; }
+        h2 { font-size: 19px; }
+        h3 { font-size: 15px; }
+        
+        p { font-size: 1px; }
+      p { font-size: 1vw; }
+      
+        p {
+            letter-spacing: 3px;
+            line-height: 25px;
+        }
+        
+        
+        * {
+      margin: 10;
+      padding: 10;
+    }
+
+    div.container {
+      width: 480px;
+      margin: 0 auto;
+    }
+
+        
+        ul.nav li {
+            float: left;
+            display: inline-block;
+            font-weight: 300;
+
+            
+        }
+    ul.nav li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 60px;
+        display: block; 
+        text-align: left;
+        color: black;
+
+    }
+        
+    ul.nav li a:hover {
+      color: gray;
+    }
+        
+        .llc {
+            font-weight: 600;
+            font-size: 4vw;
+            letter-spacing: 2.5px;
+            position: absolute;
+            top: 400px;
+            left: 10%            
+        }            
+        
+        .llc-comment {
+            font-weight: 300;
+            font-size: 1.3vw;
+            letter-spacing: 2px;
+            line-height: 2vw;
+            position: absolute;
+            top: 700px;
+            left: 65%               
+        }
+        .second-comment-part-one {
+            font-weight: 300;
+            font-size: 1vw;
+            letter-spacing: 2px;
+            line-height: 1.6vw;
+            position: absolute;
+            top: 1020px;
+            left: 10%              
+        }
+        
+        .second-comment-part-two {
+            font-weight: 200;
+            font-size: 1vw;
+            letter-spacing: 2px;
+            line-height: 1.6vw;
+            position: absolute;
+            top: 1090px;
+            left:10%
+            
+        } 
+        
+        .llc-date {
+            letter-spacing: 1.5px;
+            position: absolute;
+            top: 510px;
+            left: 10%
+        }
+        
+        .llc-place {
+            letter-spacing: 1.5px;
+            position: absolute;
+            top: 510px;
+            left: 30%
+        }
+     
+        .llc-time {
+            letter-spacing: 1.5px;
+            position: absolute;
+            top: 510px;
+            left: 53%
+        }
+        
+        .perry {
+            font-weight: 600;
+            font-size: 4vw;
+            letter-spacing: 2.5px;
+            position: absolute;
+            top: 1600px;
+            left: 10%            
+        }            
+        
+        .perry-comment {
+            font-weight: 300;
+            font-size: 1.3vw;
+            letter-spacing: 2px;
+            line-height: 2vw;
+            position: absolute;
+            top: 1900px;
+            left: 65%               
+        }
+        .p-second-comment {
+            font-weight: 200;
+            font-size: 1vw;
+            letter-spacing: 2px;
+            line-height: 1.6vw;
+            position: absolute;
+            top: 2420px;
+            left: 10%              
+        }
+        
+        
+        .perry-date {
+            letter-spacing: 1.5px;
+            position: absolute;
+            top: 1710px;
+            left: 10%
+        }
+        
+        .perry-place {
+            letter-spacing: 1.5px;
+            position: absolute;
+            top: 1710px;
+            left: 30%
+        }
+        
+        .perry-time {
+            letter-spacing: 1.5px;
+            position: absolute;
+            top: 1710px;
+            left: 53%
+        }
+        
+        .burden {
+            font-weight: 600;
+            font-size: 4vw;
+            letter-spacing: 2.5px;
+            position: absolute;
+            top: 3000px;
+            left: 10%            
+        }            
+        
+        .burden-comment {
+            font-weight: 300;
+            font-size: 1.3vw;
+            letter-spacing: 2px;
+            line-height: 2vw;
+            position: absolute;
+            top: 3300px;
+            left: 65%               
+        }
+        .b-second-comment {
+            font-weight: 200;
+            font-size: 1vw;
+            letter-spacing: 2px;
+            line-height: 1.6vw;
+            position: absolute;
+            top: 3820px;
+            left: 10%              
+        }
+        
+        
+        .burden-date {
+            letter-spacing: 1.5px;
+            position: absolute;
+            top: 3110px;
+            left: 10%
+        }
+        
+        .burden-place {
+            letter-spacing: 1.5px;
+            position: absolute;
+            top: 3110px;
+            left: 30%
+        }
+    
+     .burden-time {
+            letter-spacing: 1.5px;
+            position:absolute;
+            top: 3110px;
+            left: 53%
+        }
+        
+        .site-name {
+            font-weight: 400;
+            letter-spacing: 2px;
+            position: absolute;
+            padding: 60px;
+            top: 4500px;
+            left: 20% 
+        }
+
+        .contact {
+            font-weight: 400;
+            letter-spacing: 2px;
+            position: absolute;
+            padding: 60px;
+            top: 4500px;
+            left: 60%            
+        }
+     
+        .about-dschwen-llc {
+            position: absolute;
+            top: 620px;
+            left: 10%
+        }
+        .about-dschwen-llc2 {
+            position: absolute;
+            top: 1030px;
+            left: 65%
+        }
+        .mike-perry-face {
+            position: absolute;
+            top: 1890px;
+            left: 10%
+        }
+        .about-mike-perry2 {
+            position: absolute;
+            top: 2396px;
+            left: 65%
+        }
+        .about-thomas-burden-cheap {
+            position: absolute;
+            top: 3250px;
+            left: 17%
+        }
+        .about-thomas-burden2 {
+            position: absolute;
+            top: 3750px;
+            left: 68%
+        }
+        
+    </style>
+  </head>
+<body>
+      
+    <div class="grid-container">
+              
+    <div class="row">
+        <ul class="nav col-offset-6 col-6">
+            <li class="col-3"><a href="index.html">HOME</a></li>
+            <li class="col-3"><a href="about.html">PRORAM</a></li>
+            <li class="col-3"><a href="guests.html">GUESTS</a></li>
+            <li class="col-3"><a href="location.html">LOCATION</a></li>
+        </ul>
+    </div>
+      
+          
+        <div class="row">
+            <div class="about-dschwen-llc"><img src="images/about-dschwen-llc.png"></div>
+            <div class="about-dschwen-llc2"><img src="images/about-dschwen-llc2.png"></div>
+        
+                <h2 class="sm-1 top-20 llc">
+                    Dschwen LLC
+                </h2>
+                <p class="sm-1 top-20 llc-date">
+                    Friday 5th May 2017
+                </p>
+
+                <p class="sm-1 top-20 llc-place">
+                    Brown Center Basement
+                </p>
+
+                <p class="sm-1 top-20 llc-time">
+                    10PM - 12PM
+                </p>
+
+                <h2 class="sm-1 top-20 llc-comment">
+                    “We drive people to connect<br> 
+                    with brands through design<br> 
+                    that resonates.”<br>
+                </h2>
+
+                <h3 class="sm-1 top-20 second-comment-part-one">
+                    Dschwen is a creative studio that partners<br> with brands and agencies around the world.<br>
+
+                </h3>
+                <h3 class="sm-1 top-20 second-comment-part-two">
+                    Good design starts conversations.
+                    Our work<br> gets people talking across
+                    demographics<br> with a message that’s
+                    delivered as
+                    simply<br> and elegantly as possible. We whittle concepts<br> down to their essence and invite imagination in,<br> empowering audiencesto propel the meaning<br> beyond the confines of the medium.
+                </h3>
+        </div>
+
+            
+          
+        <div class="row">
+            <div class="mike-perry-face"><img src="images/mike-perry-face.png"></div>
+            <div class="about-mike-perry2"><img src="images/about-mike-perry2.png"></div>
+                <h2 class="sm-1 top-20 perry">
+                    Mike Perry
+                </h2>
+
+                <p class="sm-1 top-20 perry-date">
+                    Friday 5th May 2017
+                </p>
+
+                <p class="sm-1 top-20 perry-place">
+                    Brown Center Basement
+                </p>
+
+                <p class="sm-1 top-20 perry-time">
+                    2PM - 4PM
+                </p>
+
+                <h2 class="sm-1 top-20 perry-comment">
+                    “With his work, he wants to<br> remind you of your exquisite<br> magnificence. He seeks to<br> create planetariums of inner<br> space and imagination. He<br> wants you to recognize our<br> poetic interdependence.”
+                </h2>
+
+                <h3 class="sm-1 top-20 p-second-comment">
+                    Mike Perry is an artist, animator, creative<br> director, brand consultant, poet, and designer.<br> His work encompasses paintings, drawings,<br> sculptures, art installations, books, murals.<br> Key to Mike’s working method is the<br> recognition that art and objects, go through<br> many iterations—discoveries, coverings,<br> uncoverings—until they’re finished; people do<br> the same until they are fully revealed.
+                </h3>
+        </div>
+
+
+          
+        <div class="row">
+            <div class="about-thomas-burden-cheap"><img src="images/about-thomas-burden-cheap.png"></div>
+            <div class="about-thomas-burden2"><img src="images/about-thomas-burden2.png"></div>
+                <h2 class="sm-1 top-20 burden">
+                    Thomas Burden
+                </h2>
+                <p class="sm-1 top-20 burden-date">
+                    Friday 5th May 2017
+                </p>
+                <p class="sm-1 top-20 burden-place">
+                    Brown Center Basement
+                </p>
+
+                <p class="sm-1 top-20 burden-time">
+                    6PM - 8PM
+                </p>        
+                <h2 class="sm-1 top-20 burden-comment">
+                    We are GROWNUP – a design<br> and illustration studio founded<br> and run by Thomas Burden<br> & Kelly Campbell.              
+                </h2>
+                <h3 class="sm-1 top-20 b-second-comment">
+                      We specialise in creating playful, fun and<br> engaging imagery, drawing influence from,<br> amongst other things, all the toys we were<br> never allowed as children, fairgrounds, neon <br>signage, and the many trinkets we’ve picked<br> up on our travels about the world’s fleamarkets.<br> We work with brands and agencies to help<br> them better engage with their audience by<br> adapting our unique mix of colour, texture and<br> nostalgia to suit their individual needs.
+                </h3>
+        </div>
+  
+        <div class="row">
+            <p class="sm-1 top-20 site-name">
+                Only One Festival 2017
+            </p>
+            <p class="sm-1 top-20 contact">
+                Contact us: ycho@mica.edu
+            </p>
+        </div>
+
+    
+  </body>
+</html>

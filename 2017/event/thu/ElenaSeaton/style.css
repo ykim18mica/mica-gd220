@@ -1,0 +1,729 @@
+		.grid-container{
+			 width: 1200px;
+			 height: 1280px;
+			}
+			
+		 .nav-bar {
+			height: 80px;
+		 }
+		 
+			.space {
+				height: 75px;
+				background-color: white;
+			}
+			
+		 .row {
+				position: relative;
+				height: 400px;
+				border: 1px black;
+			}
+		 
+			ul.nav li {
+				display: inline-block;
+				font-family: 'Roboto Condensed', sans-serif;
+			}
+			
+			ul.nav li a {
+				text-align: center;
+				text-decoration: none;
+				text-transform: uppercase;
+				color: coral;
+				background-color: white;
+				padding: 10px;
+				display: block;
+				margin: 20px;
+			}
+			
+			ul.nav li a:hover {
+				background-color: #ea366e;
+				color: white;
+			}
+			
+			.grid {
+  			max-width: 1200px;
+				height: 1200px;
+				margin: 0 auto;
+			}
+			
+			.col-3,{
+				width: 100%;
+				box-sizing: border-box;
+			}
+
+
+
+			.title {
+				font-family: 'Oswald', sans-serif;
+				color: white;
+				text-align: center;
+				vertical-align: middle;
+				line-height: 190px;
+				margin-left: 9px;
+				letter-spacing: 12px;
+				font-size: 115px; 
+			}
+			
+			.eventtitle {
+				font-family: 'Roboto Condensed', sans-serif;
+				color: white;
+				text-align: right;
+				vertical-align: middle;
+				line-height: 190px;
+				margin-right: 15px;
+				line-height: 1.5;
+				font-size: 30px;
+			}
+			
+				.timeplace {
+				font-family: 'Roboto Condensed', sans-serif;
+				font-weight: 700;
+				color: white;
+				text-align: right;
+				vertical-align: middle;
+				margin-right: 15px;
+				line-height: 35px;
+				font-size: 25px;
+				}
+
+
+
+
+			.locationtitle {
+			font-family:  'Roboto Condensed', sans-serif;
+			text-align: center;
+			vertical-align: middle;
+			line-height: 200px;
+			padding: 50px;
+			font-size: 50px;
+			}
+			
+			
+			.scheduletitle {
+			font-family:  'Roboto Condensed', sans-serif;
+			text-align: center;
+			vertical-align: middle;
+			line-height: 200px;
+			padding:50px;
+			font-size: 50px;
+			}
+		
+			.abouttitle {
+			font-family:  'Roboto Condensed', sans-serif;
+			text-align: center;
+			vertical-align: middle;
+			margin-top: 50px;
+			line-height: 60px;
+			font-size: 50px;
+			}
+			
+			.contacttitle {
+			font-family:  'Roboto Condensed', sans-serif;
+			text-align: center;
+			vertical-align: middle;
+			margin-top: 10px;
+			line-height: 55px;
+			font-size: 50px;
+			}
+
+
+
+			.boxuno {
+  			height: 400px;
+				width: 400px;
+			}
+			
+			.pagelayout {
+  			max-width: 1200px;
+				height: 1600px;
+				margin: 0 auto;
+			}
+
+
+			.boxone {
+				background-color: #44b1e5;
+				list-style:none; 
+					border:4px solid black;
+			  height: 400px;
+				width: 400px;
+			}
+			
+			.boxone:hover {
+				background-color: #8d6d81;
+				list-style:none; 
+					border:4px solid black;
+			  height: 400px;
+				width: 400px;
+			}
+
+
+			
+			.boxtwo {
+			background-image:url(/images/Coral_reef_at_palmyra%20copy.jpg);
+			background-size:cover;
+			list-style:none; 
+				border-top:4px solid black;
+			height: 200px;
+			width: 400px;
+			}
+			
+			.boxtwo:hover {
+			background-image:url(/images/header.jpg);
+			background-size: contain;
+			height: 200px;
+			width: 400px;
+			}
+			
+			.boxthree {
+			  background-color: white;
+				list-style:none; 
+					border-top:4px solid black;
+			  height: 200px;
+				width: 400px;
+			}
+			
+			.boxfour {
+  			background-image: url(images/image.adapt.985.HIGH%20copy.jpg);
+				background-size: contain;
+				list-style:none; border:4px solid black;
+  			height: 400px;
+				width: 400px;
+			}
+			
+			.boxfour:hover {
+  			background-image: url(images/Baums_Apalmata-Thicket6-2014.jpg);
+				background-size: contain;
+  			height: 400px;
+				width: 400px;
+			}
+			
+			.boxfive {
+  			background-color: white;
+				list-style:none; 
+					border-left:4px solid black;
+  			height: 200px;
+				width: 400px;
+			}
+			
+			.boxsix {
+  			background-color: #fbcb4f;
+				list-style:none; 
+					border-top:4px solid black;
+					border-left:4px solid black;
+  			height: 200px;
+				width: 400px;
+			}
+			
+			.boxsix:hover {
+  			background-color: #d1a03b;
+  			height: 200px;
+				width: 400px;
+			}
+			
+			.boxseven {
+  			background-image: url(/images/Airbnb-Great-Barrier-Reef-coral-nemo%20copy.jpg);
+				background-size: contain;
+				list-style:none; 
+					border:4px solid black;
+  			height: 400px;
+				width: 400px;
+			}
+			
+			.boxseven:hover {
+  			background-image: url(/images/actualreefmiddle.jpg);
+				background-size: contain;
+  			height: 400px;
+				width: 400px;
+			}
+			
+			.boxeight {
+  			background-color: white;
+				list-style:none; 
+					border-right:4px solid black;
+  			height: 400px;
+				width: 200px;
+			}
+			
+			.boxnine {
+				background-color: #ea366e;
+				list-style:none; 
+					border-right:4px solid black;
+				height: 400px;
+				width: 200px;
+			}
+			
+			
+			.boxnine:hover {
+				background-color: #af4f65;
+				height: 400px;
+				width: 200px;
+			}
+			
+			.boxten {
+				background-image: url(images/p0265g0x%20copy.jpg);
+				background-size: contain;
+				list-style:none; 
+					border:4px solid black;
+				height: 400px;
+				width: 400px;
+			}
+			
+			.boxten:hover {
+				background-image: url(images/diver.jpg);
+				background-size: contain;
+				height: 400px;
+				width: 400px;
+			}
+			
+			.boxeleven {
+				background-color: #c71e32;
+				list-style:none; 
+					border-right:4px solid black;
+					border-bottom:4px solid black;
+				height: 400px;
+				width: 200px;
+			}
+			
+			.boxeleven:hover {
+				background-color: #9e333e;
+				height: 400px;
+				width: 200px;
+			}
+			
+			.boxtwelve {
+				background-color: white;
+				border-bottom:4px solid black;
+				height: 400px;
+				width: 200px;
+			}
+			
+			.boxthirteen {
+				background-image: url(images/f0ba4036827627766e4f7661a4933bc6%20copy.jpg);
+				background-size: contain;
+				list-style:none; border:4px solid black;
+				height: 400px;
+				width: 400px;
+			}
+			
+			.boxthirteen:hover {
+				background-image: url(images/bottomright.jpg);
+				background-size: contain;
+				height: 400px;
+				width: 400px;
+			}
+
+
+
+			.titlebox {
+				background-color: #44b1e5;
+			  height: 400px;
+				width: 1200px;
+			}
+
+
+			.presentationpage {
+				font-family: 'Oswald', sans-serif;
+				color: white;
+				text-align: center;
+				vertical-align: middle;
+				line-height: 400px;
+				letter-spacing: 12px;
+				font-size: 125px; 
+			}
+			
+			.infopage {
+				font-family: 'Oswald', sans-serif;
+				color: white;
+				text-align: center;
+				vertical-align: middle;
+				line-height: 400px;
+				letter-spacing: 12px;
+				font-size: 125px; 
+			}
+			
+			.videospage {
+				font-family: 'Oswald', sans-serif;
+				color: white;
+				text-align: center;
+				vertical-align: middle;
+				line-height: 400px;
+				letter-spacing: 12px;
+				font-size: 125px; 
+			}
+			
+			.locationpage {
+				font-family: 'Oswald', sans-serif;
+				color: white;
+				text-align: center;
+				vertical-align: middle;
+				line-height: 400px;
+				letter-spacing: 12px;
+				font-size: 125px; 
+			}
+			
+			.contactpage{
+				font-family: 'Oswald', sans-serif;
+				color: white;
+				text-align: center;
+				vertical-align: middle;
+				line-height: 395px;
+				letter-spacing: 12px;
+				font-size: 125px; 
+			}
+
+
+			.videocolumnone {
+				height: 1600px;
+				width: 600px;
+			}
+			
+			.videocolumntwo {
+				overflow: visible; 
+				height: 1600px;
+				width: 600px;
+			}
+
+			.arrowdown {
+				font-size: 50px;
+				color: #44b1e5;
+				text-align: center;
+				vertical-align: middle;
+				line-height: 70px;
+			}
+
+			.childrentitle {
+				font-family: 'Roboto Condensed', sans-serif;
+				color: coral;
+				text-align: center;
+				vertical-align: middle;
+				line-height: 50px;
+				padding: 12px;
+				margin-right: 15px;
+				line-height: 1.5;
+				font-size: 35px;
+			}
+			
+			.natgeotitle {
+				font-family: 'Roboto Condensed', sans-serif;
+				color: coral;
+				text-align: center;
+				vertical-align: middle;
+				line-height: 50px;
+				padding: 12px;
+				margin-right: 15px;
+				line-height: 1.5;
+				font-size: 35px;
+			}
+			
+			.vidone{
+				font-family: 'Roboto Condensed', sans-serif;
+				color: coral;
+				text-align: center;
+				vertical-align: middle;
+				line-height: 50px;
+				padding: 12px;
+				margin-right: 15px;
+				line-height: 1.5;
+				font-size: 35px;
+			}
+			
+			.othervideos{
+				font-family: 'Roboto Condensed', sans-serif;
+				color: coral;
+				text-align: center;
+				vertical-align: middle;
+				line-height: 10px;
+				margin-right: 15px;
+				line-height: 1.5;
+				font-size: 35px;			
+			}
+
+			.intoducingjason {
+			font-family: 'Roboto Condensed', sans-serif;
+				color: coral;
+				text-align: center;
+				vertical-align: middle;
+				line-height: 50px;
+				padding: 12px;
+				margin-right: 15px;
+				line-height: 1.5;
+				font-size: 26px;
+			}
+
+
+			.where {
+				font-family: 'Roboto Condensed', sans-serif;
+				color: coral;
+				text-align: center;
+				vertical-align: middle;
+				padding: 50px;
+				line-height: 400px;
+				margin-right: 15px;
+				line-height: 1.5;
+				font-size: 40px;
+			}
+			
+			.goralatga {
+				background-image: url(images/coralatga.jpg);
+				background-size: contain;
+				list-style:none; border:30px solid white;
+				height: 400px;
+				width: 400px
+			}
+			
+			.directions {
+				font-family: 'Roboto Condensed', sans-serif;
+				color: coral;
+				text-align: left;
+				vertical-align: middle;
+				padding: 40px;
+				line-height: 300px;
+				margin-right: 10px;
+				margin-top: 13px;
+				line-height: 1.5;
+				font-size: 15px;
+			}
+			
+			.mapcolumn {
+				height: 500px;
+				width: 600px;
+				}
+			
+			.loclayout {
+  			max-width: 1200px;
+				height: 600px;
+			}
+			
+			.map {
+				background-image: url(images/map.jpg);
+				background-size: contain;
+				height: 400px;
+				width: 400px
+			}
+			
+			.infoone {
+				font-family: 'Roboto Condensed', sans-serif;
+				color: coral;
+				text-align: center;
+				vertical-align: middle;
+				padding: 50px;
+				line-height: 400px;
+				width: 400px;
+				margin-right: 15px;
+				line-height: 1.5;
+				font-size: 40px;
+			}
+			
+			.infotwo {
+				font-family: 'Roboto Condensed', sans-serif;
+				color: coral;
+				text-align: center;
+				vertical-align: middle;
+				padding: 50px;
+				line-height: 400px;
+				margin-right: 15px;
+				line-height: 1.5;
+				font-size: 35px;
+				}
+			
+			.contboxone {
+				background-color: coral;
+				list-style:none; border:30px solid white;
+				padding: 30px;
+			  height: 400px;
+				width: 400px;
+			}
+			
+			.contboxwhite {
+				background-color: white;
+				list-style:none; border:30px solid white;
+			  height: 400px;
+				width: 400px;
+			}
+			
+			.loccon {
+				font-family: 'Roboto Condensed', sans-serif;
+				color: coral;
+				text-align: center;
+				vertical-align: middle;
+				padding: 30px;
+				line-height: 400px;
+				width: 400px;
+				margin-right: 15px;
+				line-height: 1.5;
+				font-size: 40px;	
+			}
+			
+			.extranumb {
+				font-family: 'Roboto Condensed', sans-serif;
+				color: white;
+				text-align: center;
+				vertical-align: middle;
+				line-height: 400px;
+				width: 400px;
+				padding-right: 100px;
+				padding-top: 30px;
+				line-height: 1.5;
+				font-size: 30px;
+			}
+			
+			.comments {
+				font-family: 'Roboto Condensed', sans-serif;
+				color: coral;
+				text-align: center;
+				vertical-align: middle;
+				padding: 40px;
+				line-height: 400px;
+				width: 400px;
+				margin-right: 15px;
+				line-height: 1.5;
+				font-size: 20px;
+			}
+
+			.jason {
+				background-image: url(images/Jasonprofpic.jpg);
+				background-size: contain;
+				position: absolute;
+				list-style:none; 
+					border:30px solid white;
+				height: 400px;
+				width: 400px
+			}
+			
+			.jasonname {
+				font-family: 'Roboto Condensed', sans-serif;
+				color: coral;
+				text-align: center;
+				vertical-align: middle;
+				position: absolute;
+				padding: 65px;
+				line-height: 400px;
+				width: 400px;
+				margin-right: 15px;
+				line-height: 1.5;
+				font-size: 60px;	
+			}
+			
+			.jasonwho {
+				font-family: 'Roboto Condensed', sans-serif;
+				color: coral;
+				text-align: center;
+				vertical-align: middle;
+				position: absolute;
+				padding-top: 100px;
+				line-height: 400px;
+				width: 400px;
+				margin-right: 15px;
+				line-height: 1.5;
+				font-size: 25px;
+			}
+			
+			.jasonabout{
+				font-family: 'Roboto Condensed', sans-serif;
+				color: coral;
+				text-align: left;
+				vertical-align: middle;
+				position: absolute;
+				padding: 100px;
+				line-height: 400px;
+				width: 1200px;
+				height: 200px;
+				margin-right: 15px;
+				line-height: 1.5;
+				font-size: 25px;
+			}
+			
+			.divider {
+				background-color: #44b1e5;
+				position: absolute;
+				height: 20px;
+				width: 800;
+			}
+			
+			.preslayout {
+	  		max-width: 1200px;
+				height: 2500px;
+			}
+
+		.sched {
+		background-image: url(images/schedule.jpg);
+		vertical-align: middle;
+		position: absolute;
+		height: 160px;
+		width:1150px;
+			}
+
+			.rosiename {
+				font-family: 'Roboto Condensed', sans-serif;
+				color: coral;
+				text-align: center;
+				vertical-align: middle;
+				position: absolute;
+				padding: 65px;
+				line-height: 400px;
+				width: 400px;
+				margin-right: 15px;
+				line-height: 1.5;
+				font-size: 60px;	
+			}		
+
+			.rosie {
+				background-image: url(images/rosie.jpg);
+				background-size: contain;
+				position: absolute;
+				list-style:none; 
+					border:30px solid white;
+				height: 400px;
+				width: 400px
+			}
+			
+			.rosiewho {
+				font-family: 'Roboto Condensed', sans-serif;
+				color: coral;
+				text-align: center;
+				vertical-align: middle;
+				position: absolute;
+				padding-top: 70px;
+				line-height: 400px;
+				width: 400px;
+				margin-right: 15px;
+				line-height: 1.5;
+				font-size: 25px;
+			}
+
+			.stevename {
+				font-family: 'Roboto Condensed', sans-serif;
+				color: coral;
+				text-align: center;
+				vertical-align: middle;
+				position: absolute;
+				padding: 65px;
+				line-height: 400px;
+				width: 400px;
+				margin-right: 15px;
+				line-height: 1.5;
+				font-size: 60px;	
+				}
+
+				.steve {
+					background-image: url(images/stevework.jpg);
+				background-size: contain;
+				position: absolute;
+				list-style:none; 
+					border:30px solid white;
+				height: 400px;
+				width: 400px
+				}
+	
+			.stevewho {
+				font-family: 'Roboto Condensed', sans-serif;
+				color: coral;
+				text-align: center;
+				vertical-align: middle;
+				position: absolute;
+				padding-top: 10px;
+				line-height: 400px;
+				width: 400px;
+				margin-right: 15px;
+				line-height: 1.5;
+				font-size: 22px;
+			}

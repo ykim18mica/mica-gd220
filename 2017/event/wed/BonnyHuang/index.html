@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Design of Communication</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    
+    <style>
+			/* your css rules below */
+      
+      body {
+        background-color: black;
+      }
+      .ball {
+        background-image: url(images/ball.png);
+        height: 300px;
+        margin-top: -229px;
+      }
+      .background {
+        background-image: url(images/background.png);
+        height: 229px;
+      }
+      .homehead {
+        background-image: url(images/ball.png);
+        height: 250px;
+        margin-top: 50px;
+        animation: spinner1 6s infinite linear;
+      }
+      .head {
+        color: white;
+        font-family: Gill Sans;
+        font-weight: 100;
+        font-size: 40px;
+        margin-top: -200px;
+        margin-left: 340px;
+        width: 675px;
+      }
+      hr {
+        width: 700px;
+        border-top: 1px solid grey;
+        border-bottom: 0px solid black;
+        margin-top: 100px;
+      }
+      /* logo */
+      .logo-line {
+        position: absolute;
+        margin-top: 18px;
+        margin-left: 50px;
+        width: 2px;
+        height: 60px;
+        background-color: white;
+      }
+      .logo-home1 {
+        background-image: url(images/logo-home.jpg);
+        height: 58px;
+        width: 91px;
+        margin-top: 20px;
+        margin-left: 65px;
+        position: absolute;
+      }
+      .logo-home2 {
+        position: absolute;
+        color: darkgrey;
+        font-family: Gill Sans;
+        font-size: 13px;
+        margin-top: 21px;
+        margin-left: 160px;
+      }
+      .logo-home3 {
+        position: absolute;
+        color: darkgrey;
+        font-family: Gill Sans;
+        font-size: 15px;
+        margin-top: 39px;
+        margin-left: 160px;
+      }
+      .ballsmall {
+        background-image: url(images/ballsmaller.png);
+        position: absolute;
+        margin-top: -30px;
+        margin-left: 400px;
+        width: 700px;
+        height: 175px;
+        animation: spinner2 6s infinite linear;
+      }
+      /*moving ball*/
+      .redball {
+        background-image: url(images/redball.png);
+        position: absolute;
+        width: 44px;
+        height: 48px;
+        margin-left: 20px;
+        animation: movingred 3s infinite;
+      }
+      .yellowball {
+        background-image: url(images/yellowball.png);
+        position: absolute;
+        width: 44px;
+        height: 48px;
+        margin-left: 20px;
+        animation: movingyellow 4s infinite;
+      }
+      .greenball {
+        background-image: url(images/greenball.png);
+        position: absolute;
+        width: 44px;
+        height: 48px;
+        margin-left: 600px;
+        animation: movinggreen 5s infinite;
+      }
+      .blueball {
+        background-image: url(images/blueball.png);
+        position: absolute;
+        width: 44px;
+        height: 48px;
+        margin-left: 600px;
+        animation: movingblue 2s infinite;
+      }
+      /* introduction */
+      .introduction-line {
+        position: absolute;
+        margin-left: 70px;
+        margin-top: 205px;
+        width: 2px;
+        height: 140px;
+        background-color: white;
+      }
+      .introduction-head {
+        color: white;
+        position: absolute;
+        font-family: Avenir;
+        font-size: 20px;
+        margin-top: 209px;
+        margin-left: 90px;
+      }
+      .introduction-text {
+        color: darkgrey;
+        font-family: Gill Sans;
+        font-size: 13px;
+        margin-top: 235px;
+        margin-left: 90px;
+        width: 390px;
+        line-height: 17px;
+        font-weight: 100;
+      }
+      /* information */
+      .information-line {
+        position: absolute;
+        margin-left: 70px;
+        margin-top: 97px;
+        width: 2px;
+        height: 186px;
+        background-color: white;
+      }
+      .information-head {
+        color: white;
+        font-family: Avenir;
+        font-size: 20px;
+        margin-top: 100px;
+        margin-left: 90px;
+      }
+      .information-text {
+        color: white;
+        font-family: Gill Sans;
+        font-size: 15px;
+        margin-left: 90px;
+        font-weight: 100;
+        line-height: 20px;
+      }
+      .time {
+        margin-top: 8px;
+      }
+      .information-detail {
+        color: darkgrey;
+        position:relative;
+        font-family: Gill Sans;
+        font-size: 13px;
+        margin-left: 90px;
+        width: 390px;
+        line-height: 18px;
+        font-weight: 100;
+      }
+      /* guest */
+      .guest-line {
+        position: absolute;
+        margin-left: 653px;
+        margin-top: -350px;
+        width: 2px;
+        height: 200px;
+        background-color: white;
+      }
+      .guest-head {
+        color: white;
+        font-family: Avenir;
+        font-size: 20px;
+        margin-top: -346px;
+        margin-left: 675px;
+      }
+      .guest-click {
+        color: darkgrey;
+        position:relative;
+        font-family: Gill Sans;
+        font-size: 13px;
+        margin-left: 675px;
+        margin-top: 8px;
+        width: 390px;
+        line-height: 18px;
+        font-weight: 100;
+      }
+      .guest1 {
+        background-image: url(images/paula.png);
+        position: absolute;
+        margin-left: 675px;
+        margin-top: 5px;
+        height: 118px;
+        width: 117px;
+        transition: opacity 0.1s;
+      }
+
+      .guest2 {
+        background-image: url(images/chip.png);
+        position: absolute;
+        margin-left: 850px;
+        margin-top: 5px;
+        height: 118px;
+        width:117px;
+        transition: opacity 0.1s;
+      }
+      .guest3 {
+        background-image: url(images/steven.png);
+        position: absolute;
+        margin-left: 1025px;
+        margin-top: 5px;
+        height: 118px;
+        width:117px;
+        transition: opacity 0.1s;
+      }
+      .guest-paula {
+        color: darkgrey;
+        position:absolute;
+        font-family: Gill Sans;
+        font-size: 13px;
+        margin-top: 130px;
+        margin-left: 675px;
+        width: 117px;
+        line-height: 18px;
+        font-weight: 100;
+        text-align: center;
+      }
+      .guest-chip {
+        color: darkgrey;
+        position:absolute;
+        font-family: Gill Sans;
+        font-size: 13px;
+        margin-top: 130px;
+        margin-left: 850px;
+        width: 117px;
+        line-height: 18px;
+        font-weight: 100;
+        text-align: center;
+      }
+      .guest-steven {
+        color: darkgrey;
+        position:absolute;
+        font-family: Gill Sans;
+        font-size: 13px;
+        margin-top: 130px;
+        margin-left: 1025px;
+        width: 117px;
+        line-height: 18px;
+        font-weight: 100;
+        text-align: center;
+      }
+      /* note */
+      .note-line {
+        position: absolute;
+        margin-left: 653px;
+        margin-top: 257px;
+        width: 2px;
+        height: 87px;
+        background-color: white;
+      }
+      .note-head {
+        color: white;
+        font-family: Avenir;
+        font-size: 20px;
+        margin-top: 260px;
+        margin-left: 675px;
+      }
+      .note-text {
+        color: darkgrey;
+        font-family: Gill Sans;
+        font-size: 13px;
+        margin-top: 8px;
+        margin-left: 675px;
+        line-height: 18px;
+        font-weight: 100;
+      }
+      /* link */
+      a:link {
+        color: darkgrey; 
+        background-color: transparent; 
+        text-decoration: none;
+      }
+      a:visited {
+        color: darkgrey;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:hover {
+        color: whitesmoke;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      .root {
+        color: grey;
+        font-family: Gill Sans;
+        font-size: 10px;
+        font-weight: 100;
+        height: 30px;
+        text-align: center;
+      }
+      /* animation*/
+      @keyframes shining {
+        0% { filter: drop-shadow(0px 0px 0px white); }
+        50% { filter: drop-shadow(0px 0px 5px white); }
+        100% { filter: drop-shadow(0px 0px 0px white); }
+      }
+      @keyframes movingred {
+        0% { margin-top: 310px; }
+        50% { margin-top:193px; }
+        100% { margin-top: 310px;}
+      }
+      @keyframes movingyellow {
+        0% { margin-top: 582px; }
+        50% { margin-top:423px; }
+        100% { margin-top: 582px;}
+      }
+      @keyframes movinggreen {
+        0% { margin-top: 427px; }
+        50% { margin-top: 253px; }
+        100% { margin-top: 427px;}
+      }
+      @keyframes movingblue {
+        0% { margin-top: 622px; }
+        50% { margin-top: 559px; }
+        100% { margin-top: 622px;}
+      }
+      @keyframes spinner1 {
+      from { transform: rotateX(0deg); }
+      to { transform: rotateX(-360deg);}
+      }
+      @keyframes spinner2 {
+      from { transform: rotateX(-360deg); }
+      to { transform: rotateX(0deg);}
+      }
+      @keyframes spinner3 {
+      from { transform: rotateY(0deg); }
+      to { transform: rotateY(-360deg);}
+      }
+      /* transition */
+      .guest1:hover {
+        opacity: 0.5;
+      }
+      .guest2:hover {
+        opacity: 0.5;
+      }
+      .guest3:hover {
+        opacity: 0.5;
+      }
+			
+    </style>
+  </head>
+  <body>
+    <div class="grid-container homehead"></div>
+    <div class="grid-container background"></div>
+    <div class="grid-container ball"></div>
+    <div class="grid-container">
+      <div class="row">
+        <div class="col-12 head">Communicate with your viewers</div>
+        <div class="logo-line"></div>
+        <div class="logo-home1"></div>
+        <div class="logo-home2">Design of Communication</div>
+        <div class="logo-home3">Welcome you to join us!</div>
+        <div class="ballsmall"></div>
+        <div class="redball"></div>
+        <div class="yellowball"></div>
+        <div class="greenball"></div>
+        <div class="blueball"></div>
+        <div class="introduction-line"></div>
+        <div class="introduction-head">Introduction</div>
+        <div class="introduction-text">DoC is a one-day free design event which is hold once every year. It focused on resolving problems suffered by designers in their daily works. Each year we invited three famous guest speakers to provide presentations on different problems. Participators can join the discussion after the presentation and communicate their ideas with others. We aimed to make a chance for designers gathering and sharing their opinions of design.</div>
+        <div class="information-line"></div>
+        <div class="information-head">Information</div>        
+        <div class="information-text time">Time:</div>
+        <div class="information-detail">10 am -5 pm,  August 27th,  2017</div>
+        <div class="information-text address">Address:</div>
+        <div class="information-detail">Gateway,  1601 W Mount Royal Ave. Baltimore,  Maryland,  USA</div>
+        <div class="information-text ticket">Ticket:</div>
+        <div class="information-detail">
+          <p>Because of the limitation of the place, the amount of tickets is 300.</p>
+          <p>The release time of tickets is 10am,  March 27th,  2017</p>
+          <p>Please buy the ticket online:  http://onlineticketsofDoc.com</p>
+        </div>
+        <div class="guest-line"></div>
+        <div class="guest-head">Guest speakers</div>
+        <div class="guest-click">Click their names for more information!</div>
+        <a href="paula.html"><div class="guest1"></div></a>
+        <div class="guest-paula"><a href="paula.html">Paula Scher</a></div>
+        <a href="chip.html"><div class="guest2"></div></a>
+        <div class="guest-chip"><a href="chip.html">Chip Kidd</a></div>
+        <a href="steven.html"><div class="guest3"></div></a>
+        <div class="guest-steven"><a href="steven.html">Steven Heller</a></div>
+        <div class="note-line"></div>
+        <div class="note-head">Note</div>
+        <div class="note-text">
+          <p>If you have any questions or requests, please contact us through phone or e-mail.</p>
+          <p>Phone:  (1)412-495-9352;</p>
+          <p>E-mail:  serviceDoC@mica.edu</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="grid-container root">©2009-2017 Design of Communication. All rights reserved.</div>
+    
+
+    
+    
+  </body>
+</html>

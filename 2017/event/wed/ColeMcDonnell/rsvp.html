@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+<head>
+	<title>RSVP</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		
+		*
+		html, body {
+			background: #fbfbfb;
+			height: 100%;
+			width: 100%;
+			-webkit-font-smoothing: antialiased;
+		}
+  
+		form {
+			animation-name: scaleanimation;
+			animation-duration: .3s;
+			background: white;
+			box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+			left: 50%;
+			position: absolute;
+			top: 50%;
+			transform: translate(-50%,-50%);
+			width: 400px;
+		}
+
+		label {
+			border-top: 2px solid #30AA87;
+			border-bottom: 1px solid rgba(0,0,0,0.1);
+			color: #2c3e50;
+			display: block;
+			font-family: 'Space Mono', 'Helvetica' ,sans-serif;
+			font-weight: 400;
+			font-size: 18px;
+			height: 60px;
+			float: none;
+			line-height: 60px;
+			letter-spacing: .05em;
+			text-align: center;
+			text-transform: uppercase;
+			width: 100%;
+		}
+    
+		input[type="email"] {
+			background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 98%, #3498db 2%);
+			background-size: 0% 100%;
+			background-repeat: no-repeat;
+			border: none;
+			border-bottom: 1px solid rgba(0,0,0,0.1);
+			border-radius: 0;
+			color: #2c3e50;
+			font-family: 'Karla', 'Helvetica', sans-serif;
+			font-size: 20px;
+			font-weight: 400;
+			height: 45px;
+			margin: 50px 5%;
+			outline: none;
+			padding: 0;
+			transition: all .2s ease;
+			width: 90%;
+		}
+    
+		&::placeholder {
+			color: rgba(0,0,0,.5);
+			display: block;
+			font-family: 'Karla' ,sans-serif;
+			font-size: 14px;
+			font-weight: 400;
+			letter-spacing: .8px;
+			transition: all .2s ease;
+			backface-visibility: hidden;
+			perspective: 1000;
+			text-transform: uppercase;
+			visibility: visible;
+		}
+
+		&.hasValue, &:focus {
+			background-size: 100% 100%;
+		}
+    
+		input[type="submit"] {
+			border: none;
+			cursor: pointer;
+			color: #30AA87;
+			background-color: white;
+			font-family: 'Karla', sans-serif;
+			font-size: 16px;
+			height: 70px;
+			letter-spacing: .8px;
+			line-height: 70px;
+			padding: 0;
+			position: relative;
+			text-align: center;
+			transition: all .3s ease-out;
+			text-transform: uppercase;
+			overflow: hidden;
+			width: 100%;
+		}
+		
+		&:hover {
+			background: #34495e;
+			color: white;
+		}	
+    
+		@keyframes scaleanimation {
+			0%
+				opacity: 0;
+				transform: translate(-50%,-50%) scale(1.5,1.5);
+			100% 
+				opacity: 1;
+				transform: translate(-50%,-50%) scale(1,1);
+			}
+	
+		.digits {
+			width: 100vw;
+			margin-top: 60vw;
+		}
+		
+	</style>
+</head>
+<body>
+	<nav role="navigation">
+  <div id="menuToggle">
+		
+		<input type="checkbox" />
+	
+	  <span></span>
+    <span></span>
+    <span></span>
+	
+   <ul id="menu">
+      <a href="/schedule.html"><li>Schedule</li></a>
+      <a href="/speakers.html"><li>Speakers</li></a>
+      <a href="/about.html"><li>About</li></a>
+      <a href="/rsvp.html"><li>RSVP</li></a>
+    </ul>
+  </div>
+</nav>
+	
+	<p>
+		<a href="/index.html">
+		<img src="images/logo.png" id="home">
+		</a>
+	</p>
+	
+	<div class="designtitle">
+	Designing Society
+	</div>
+	
+	<form>
+		<label for="email">RSVP!</label>
+			<input type="email" value="" name="email" placeholder="email address" required>
+			<input type="submit" value="Enter" name="subscribe">
+	</form>
+	
+	<img src="images/digits.gif" class="digits">
+	
+</div>
+	
+</body>

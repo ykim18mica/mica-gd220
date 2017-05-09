@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Show Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100|Montserrat:100|Montserrat:200|Roboto+Slab:100 " rel="stylesheet">
+    
+    <style>
+      /* Title*/
+      
+      .this{
+        position: absolute;
+        top:330px;
+        left:680px;
+        font-family:Roboto Slab,serif;
+        font-weight: 100;
+        font-size: 32px;
+        color: rgb(236,172,128);
+      }
+      
+      .introduction{
+        width: 220px;
+        font-family:Montserrat,sans-serif;
+        font-size: 12px;
+        font-weight: 100;
+        letter-spacing: 0.4px;
+        line-height: 1.2;
+        position:fixed;
+        top:470px;
+        left:140px;
+        
+      }
+
+      .circle {
+        position:fixed;
+        left: 490px;
+        top:-208px;
+        opacity: 0.1;
+        width: 300px;
+	      height: 300px;
+	      border: solid 1px black;
+	      -moz-border-radius: 150px;
+	      -webkit-border-radius: 150px;
+	      border-radius: 150px;
+        animation: gelatine 2s infinite;
+}
+     @keyframes gelatine {
+  from, to { transform: scale(0.9, 0.9); }
+  25% { transform: scale(0.8, 1); }
+  50% { transform: scale(1, 0.8); }
+  75% { transform: scale(0.85, 0.95); }
+    }
+      
+      .bottom{
+        margin-bottom:50px;
+      }
+      
+      
+      /* button */
+      
+      .button {
+        position:fixed;
+        z-index: 2;
+        top:310px;
+        left:1100px;
+        font-family: 'Roboto Slab',serif;
+        font-weight:300;
+        text-align: center;
+        font-size: 12px;
+      }
+      
+      .number {
+        margin: 30px;
+        transform: rotate(90deg);
+        color: grey;
+      }
+
+      /* background images */
+      .img001{
+        background-image: url(picture/homepage/homepage01%20reset.png);
+        background-size:cover;
+        margin: 0 auto;
+      }
+      
+      .img002 {
+        background-image: url(picture/homepage/homepage-picture_002%20reset.png);
+        background-size: cover;
+      }
+      
+      .img003 {
+        background-image: url(picture/homepage/homepage-picture_003%20reset.png);
+        background-size: cover;
+      }
+      
+      .img005{
+        background-image: url(picture/homepage/homepage-picture_005%20reset.png);
+        background-size: cover;
+      }
+      
+      .img004{
+        background-image: url(picture/homepage/homepage-picture_004%20reset.png);
+        background-size: cover;
+      }
+      
+
+      }
+    </style>
+  </head>
+  <body>
+     
+    
+    <div class="grid-container">
+    	<div class="row">
+
+    	<div class="container">
+      
+       <!-- page01 -->
+       
+    	  <div class="col-12 eighth img001 " id=01>
+    	    <heading class="this">This</heading>
+    	    <h1 class="introduction">A one-day free  event that encourage designers to anticipate technological change, discover new material, work with it , adapt it and then be open to new influences.</h1>
+    	  </div>
+         
+       <!-- navigation -->
+        <div class="col-12 oneh menu">
+         <img src="picture/homepage/NavigationBar-01.png" width=1280px>
+
+        <div class="circle"></div>
+
+         <ul class="homenavi">
+         <li class="Home"><a href="index.html">HOME</a></li>
+         <li class="about"><a href="About.html">ABOUT </a></li>
+         <li class="speakers"><a href="speakers.html">SPEAKER</a></li>
+         </ul>
+    <!--contact information-->
+          
+         <div class="blackline"></div>
+         <div class="contact">Contact us</div>
+         <div class="share">Share with friends</div>
+         <div class="facebook"><img src="picture/icon/facebook%20icon.png" width=20px></div>
+         <div class="email"><img src="picture/icon/google%20email%20icon.png" width=20px></div>
+         <div class="twitter"><img src="picture/icon/twitter%20icon.png" width=20px></div>
+ 
+        </div>
+
+   <!--side bar number--> 	  
+    	  <div class="col-2 col-offset-10 sevenh menu ">
+    	    <ul class="button">
+            <li class="number" ><a href=#01>01</a></li>
+            <li class="number" ><a href=#02>02</a></li>
+            <li class="number"><a href=#03>03</a></li>
+            <li class="number"><a href=#04>04</a></li>
+            <li class="number"><a href=#05>05</a></li>
+    	    </ul>
+    	  
+    	  </div>
+    	  
+    	  
+    	  <!-- page 02 -->
+    	  
+        <div class="col-12 eighth img002 " id=02></div>
+    	 
+        
+    	  <!-- page 03 -->
+    	  
+    	  <div class="col-12 eighth img003 " id=03></div>
+    	  
+    	  <!-- page04 -->
+    	  
+    	   <div class="col-12 eighth img004" id=04></div>
+    	  
+    	  <!-- page05 -->
+    	  
+    	 <div class="col-12 eighth img005 "  id=05></div>
+    	  
+    	</div>
+    		
+    	</div>
+			
+    </div>
+    
+    
+  </body>
+</html>

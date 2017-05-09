@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>User's Festival</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    
+    <style>
+		/* your css rules below */
+			body {
+				height: 650px; 
+			}
+			
+			.gri-container {
+				overflow-x: hidden; 
+			}
+			
+			* {
+				margin: 0; 
+				padding: 0; 
+			}
+			
+			/********Top Bar********/
+			.topbar {
+				position: fixed; 
+				height: 90px; 
+				box-shadow: 0px 1px 20px gray; 
+				background-color: white; 
+				width: 1200px; 
+				z-index: 2; 
+			}
+			.colorbar {
+				position: relative; 
+				height: 15px; 
+				background-color: #4BE5D3; 
+			}
+			
+			.title {
+				position:absolute; 
+				width: 100px;
+				color: #3491B4; 
+				font-size: 32px;
+				left: 40px; 
+				padding: 5px; 
+				font-family: 'Open Sans', sans-serif;
+			}
+			
+			.nav {
+				position: relative; 
+				margin: 0; 
+				padding: 0; 
+				list-style-type: none; 
+				text-align: center; 
+				top: 10px; 
+				font-size: 18px; 
+				text-transform: uppercase;  
+				font-family: 'Open Sans', sans-serif;
+				color: #3491B4; 
+			}
+			ul.nav li {
+				display: inline-block; 
+			}
+			ul.nav li a{
+    		padding: 20px 30px 0px 30px;
+				text-decoration: none; 
+				display: block; 
+				color: #3491B4; 
+			}
+			ul.nav li a:hover {
+				color: #6FC1E0; 
+			}
+			ul.nav li a:active {
+				color: #1F6C89; 
+			}
+			
+			.sign {
+				position: relative; 
+				width: 73px; 
+				height: 3px; 
+				background-color: #4BE5D3;
+				top: 5px; 
+				left: 857px; 
+			}
+			
+			/********page********/
+			
+			.page {
+				position: relative; 
+				background-image: url(image/Web%201280%20%E2%80%93%204.png); 
+				height: 590px; 
+			}
+			
+			.ticket {
+				position: absolute; 
+				font-family: 'EB Garamond', serif;
+				font-size: 25px; 
+				color: white; 
+				top: 200px; 
+				left: 150px; 
+				padding: 8px 25px 8px 25px; 
+				text-align: center; 
+				border: 3px solid #9BD9EB; 
+				letter-spacing: 0.1vw; 
+			}
+			
+			.content {
+				position: absolute; 
+				width: ; 
+				font-size: 16px; 
+				font-family: 'Open Sans', sans-serif; 
+				font-weight: 300; 
+				line-height: 1.8; 
+				top: 240px; 
+				left: 495px; 
+			}
+			
+			.online, .call, .location {
+				position: relative; 
+				text-align: center; 
+				margin: 0px 40px 80px 40px; 
+				padding: 5px 30px 5px 30px; 
+				background-color: #689ABF; 
+			}
+			
+			a {
+				text-decoration: none; 
+				color: #D7F6FA; 
+			}
+			
+			a:hover {
+				color: #9FF4FF; 
+			}
+			
+			a:active {
+				color: #1B6D91; 
+			}
+			
+			/********foot bar********/
+			
+			.footbar {
+				position: relative; 
+				height: 60px; 
+				box-shadow: 0px 1px 20px gray; 
+				background-color: white; 
+				width: 1200px; 
+			}
+			.ftitle {
+				font-size: 15px; 
+				position:absolute; 
+				color: #3491B4; 
+				font-family: 'Open Sans', sans-serif;
+				text-align: center; 
+				width: 1200px; 
+				top: 15px; 
+			}
+			.fcolorbar {
+				position: relative; 
+				height: 15px; 
+				background-color: #4BE5D3; 
+				top: 45px; 
+			}
+			
+    </style>
+  </head>
+  <body>
+
+    <div class="grid-container">
+    	
+    	<!--------top bar-------->
+    	<div class="row topbar">
+    		
+    		<div class="colorbar"></div>
+    		
+    		<div class="title">User's Festival</div>
+    		
+    		<ul class="nav">
+    			<li><a href="index.html">Home</a></li>
+    			<li><a href="about.html">About</a></li>
+    			<li><a href="schedule.html">Schedule</a></li>
+    			<li><a href="info.html">Information</a></li>
+    			<li><a href="ticket.html">Ticket</a></li>
+    			<div class="sign"></div>
+    		</ul>
+    		
+    	</div>
+    	
+    	<!--------page-------->
+    	<div class="row col-12 page">
+    	
+    		<div class="ticket">TICKET</div>
+    	
+    		<div class="content">
+					<a href="https://www.mica.edu/Academic_Services_and_Libraries/Technology_Systems_and_Services/Technology_Facilities/Falvey_Hall.html"><div class="online">Online</div></a>
+					<a href="https://www.mica.edu/Browse_Art/Brown_Center.html"><div class="call">Call</div></a>
+					<a href="https://www.google.com/maps/place/1301+W+Mt+Royal+Ave,+Baltimore,+MD+21217/@39.3084595,-76.6229779,17z/data=!3m1!4b1!4m5!3m4!1s0x89c804bfa001f1e3:0x588b2d28f8719233!8m2!3d39.3084554!4d-76.6207892"><div class="location">Location</div></a>
+    		</div> 
+    		
+    	</div>
+    	
+    	<!--------foot bar------->
+    	
+    	<div class="row footbar col-12">
+    		
+    		<div class="ftitle">User's Festival</div>
+    		
+    		<div class="fcolorbar"></div>
+    		
+    	</div>
+    	
+    	
+    </div>
+    
+    
+  </body>
+</html>

@@ -1,0 +1,222 @@
+body {
+  height: 1600px;
+  background: rgb(174, 214, 241); 
+}
+
+/* logo */
+.slogo {
+  position:absolute;
+  width: 30px;
+  margin-top:30px;
+}
+h1 {
+  position: absolute;
+  font-size:15px;
+  color:deepskyblue;
+  margin-left: 40px;
+  margin-top:50px;
+  font-family: 'Francois One', sans-serif;
+}
+
+/* menu */
+#menu {
+  margin-top: 47px;
+  float: right;
+}
+#menu ul {
+  list-style:none;
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0;
+}
+#menu ul a {
+  color:white;
+  text-decoration:none;
+  font-size: 15px;
+  line-height:20px;
+  padding:0 15px;
+  font-family: 'Francois One', sans-serif;
+}
+#menu ul li {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+#menu ul li a:hover {
+  color: deepskyblue;
+}
+
+h2{
+  position: absolute;
+  font-size: 150px;
+  font-family: 'Francois One', sans-serif;
+  color:deepskyblue;
+  margin-top: 30px; 
+  margin-left: 350px;
+}
+.speechinfo{
+  position: absolute;
+  font-size: 40px;
+  font-family: 'Francois One', sans-serif;
+  color:yellow;
+  margin-top: 330px;
+  margin-left: 350px;
+  line-height: 50px;
+}
+.speakerp {
+  position: absolute;
+  left:0;
+  margin-top: 50px;
+  width:300px;
+}
+.web {
+  position: absolute;
+  font-size: 20px;
+  font-family: 'Francois One', sans-serif;
+  margin-top: 450px;
+  text-decoration: none;
+  color:dodgerblue;
+}
+
+.speakerinfo{
+  color: white;
+  position: absolute;
+  width: 300px;
+  margin-top: 490px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+
+.works {
+  width: 220px;
+  height: 220px;
+}
+.one {
+  position: absolute;
+  margin-left: 340px;
+  margin-top: 490px;
+}
+.one:hover{
+  width: 440px;
+  height: 440px;
+  z-index:999;
+}
+.two {
+  position: absolute;
+  margin-left: 560px;
+  margin-top: 490px;
+}
+.two:hover{
+  width: 440px;
+  height: 440px;
+  z-index:999;
+}
+.three {
+  position: absolute;
+  margin-left: 780px;
+  margin-top: 490px;
+}
+.three:hover{
+  width: 440px;
+  height: 440px;
+  z-index:999;
+  right: 0px;
+}
+.four {
+  position: absolute;
+  margin-left: 340px;
+  margin-top: 710px;
+}
+.four:hover{
+  width: 440px;
+  height: 440px;
+  z-index:999;
+}
+.five {
+  position: absolute;
+  margin-left: 560px;
+  margin-top: 710px;
+}
+.six {
+  position: absolute;
+  margin-left: 780px;
+  margin-top: 710px;
+  
+}
+.six:hover{
+  width: 440px;
+  height: 440px;
+  z-index:999;
+  right: 0px; 
+}
+.seven {
+  position: absolute;
+  margin-left: 340px;
+  margin-top: 930px;
+}
+.seven:hover{
+  width: 440px;
+  height: 440px;
+  margin-top: 710px;
+  z-index:999;
+}
+.eight {
+  position: absolute;
+  margin-left: 560px;
+  margin-top: 930px;
+}
+.eight:hover{
+  width: 440px;
+  height: 440px;
+  margin-top: 710px;
+  z-index:999;
+}
+.nine {
+  position: absolute;
+  margin-left: 780px;
+  margin-top: 930px;
+}
+.nine:hover{
+  width: 440px;
+  height: 440px;
+  margin-top: 710px;
+  z-index:999;
+  right: 0px; 
+}
+
+.line {
+  background-color: yellow;
+  height: 5px;
+  position: absolute;
+  margin-top: 1400px;
+}
+.yellowsj {
+  position: absolute;
+  width: 1000px;
+  height: 100px;
+  margin-top: 1304px;
+  animation: fadeout 2s infinite;
+}
+.micalogo{
+  position: absolute;
+  width: 150px;
+  margin-top: 1450px;
+}
+.webdesigner{
+  position: absolute;
+  margin-top: 1460px;
+  right: 0px;
+  color: white;
+  font-family: 'Francois One', sans-serif;
+  font-size: 15px;
+}
+
+@keyframes fadeout {
+        from { opacity:0;}
+        to { opacity:1;}
+      }
+

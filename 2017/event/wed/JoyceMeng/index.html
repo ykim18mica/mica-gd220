@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>User's Festival</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    
+    <style>
+		/* your css rules below */
+			body {
+				height: 1860px; 				
+			}
+			
+			.grid-container {
+				overflow-x: hidden; 
+			}
+			
+			* {
+				margin: 0; 
+				padding: 0; 
+			}
+			
+			/********Top Bar********/
+			.topbar {
+				position: fixed; 
+				height: 90px; 
+				box-shadow: 0px 1px 20px gray; 
+				background-color: white; 
+				width: 1200px; 
+				z-index: 1; 
+			}
+			.colorbar {
+				position: relative; 
+				height: 15px; 
+				background-color: #4BE5D3; 
+			}
+			
+			.title {
+				position:absolute; 
+				width: 100px;
+				color: #3491B4; 
+				font-size: 32px;
+				left: 40px; 
+				padding: 5px; 
+				font-family: 'Open Sans', sans-serif;
+			}
+			
+			.nav {
+				position: relative; 
+				margin: 0; 
+				padding: 0; 
+				list-style-type: none; 
+				text-align: center; 
+				top: 10px; 
+				font-size: 18px; 
+				text-transform: uppercase;  
+				font-family: 'Open Sans', sans-serif;
+				color: #3491B4; 
+			}
+			ul.nav li {
+				display: inline-block; 
+			}
+			ul.nav li a{
+    		padding: 20px 30px 0px 30px;
+				text-decoration: none; 
+				display: block; 
+				color: #3491B4; 
+			}
+			ul.nav li a:hover {
+				color: #6FC1E0; 
+			}
+			ul.nav li a:active {
+				color: #1F6C89; 
+			}
+			
+			.sign {
+				position: relative; 
+				width: 70px; 
+				height: 3px; 
+				background-color: #4BE5D3;
+				top: 5px; 
+				left: 270px; 
+			}
+			
+			/********Introduction********/
+			.page1 {
+				position: relative; 
+				height: 650px; 
+				background-color: #4FCBE8; 
+			}
+			
+			.header1 {
+				position: absolute; 
+				text-align: center; 
+				color: white; 
+				width: 1200px; 
+				font-family: 'Open Sans' , sans-serif; 
+				font-weight: 300; 
+				font-size: 35px; 
+				text-align: center; 
+				top: 180px; 
+			}
+			
+			.intro {
+				position: absolute; 
+				text-align: center; 
+				color: #DBF3FD; 
+				font-family: 'Open Sans' , sans-serif; 
+				font-weight: 300; 
+				font-size: 15px; 
+				width: 28%; 
+				line-height: 2;  
+				left: 430px; 
+				top: 250px; 
+			}
+			
+			.quote {
+				color: white; 
+			}
+			
+			/*****buttons*****/
+			.buttons {
+				position: absolute; 
+				width: 135px; 
+				top: 300px; 
+				left: 1040px; 
+				color: #98FFF3; 
+				font-family: 'Open Sans' , sans-serif; 
+				font-size: 15px; 
+				font-weight: 300; 
+			}
+			
+			.b1,
+			.b2,
+			.b3 {
+				position: relative; 
+				width: 135px;
+				height: 50px; 
+			}
+			
+			.word {
+				position: absolute; 
+				width: 110px; 
+				height: 25px; 
+				padding: 3px;  
+				text-align: center; 
+				margin: 10px 0 10px 0; 
+				border: 2px solid #98FFF3; 
+				transition: opacity 0.3s; 
+			}
+			.square {
+				position: absolute; 
+				height: 15px; 
+				width: 15px;
+				border: 2px solid #98FFF3; 
+				margin: 15px 0 15px 0; 
+				left: 120px; 
+			}
+			
+			.opa {
+				opacity: 0; 
+			}
+			
+			.b1 a:hover ~ .word,
+			.b2 a:hover ~ .word, 
+			.b3 a:hover ~ .word {
+				opacity: 1; 
+			}
+			
+			.page1 .buttons .b1 .square {
+				background-color: #98FFF3; 
+			}
+			.page2 .buttons .b2 .square {
+				background-color: #98FFF3; 
+			}
+			.page3 .buttons .b3 .square {
+				background-color: #98FFF3; 
+			}
+			
+			.square:hover {
+				background-color: #98FFF3; 
+			}
+			
+			
+			/********background rectangulars********/
+			.rectangulars div {
+				position: absolute; 
+				border: 5px solid #6FE9FF; 
+			}
+			
+			#rect1 {
+				width: 130px; 
+				height: 380px; 
+				left: -20px;
+			}
+			#rect2 {
+				width: 55px; 
+				height: 470px; 
+				left: 10px; 
+				top: 110px; 
+			}
+			#rect3 {
+				width: 50px; 
+				height: 260px; 
+				left: 35px; 
+				background-color: #4BC2D8; 
+				z-index:
+			}
+			#rect4 {
+				width: 65px; 
+				height: 320px; 
+				left: 85px;
+				background-color: #9DF0FF; 
+			}
+			#rect5 {
+				width: 50px; 
+				height: 200px; 
+			}
+			#rect6 {
+				width: 35px; 
+				height: 460px; 
+				left: 125px; 
+			}
+			#rect7 {
+				width: 75px; 
+				height: 400px; 
+				left: 175px; 
+			}
+			#rect8 {
+				width: 95px; 
+				height: 360px; 
+				left: 200px; 
+				background-color: #4ED2EA; 
+			}
+			#rect9 {
+				width: 50px; 
+				height: 420px; 
+				left: 830px; 
+			}
+			#rect10 {
+				width: 55px; 
+				height: 240px; 
+				left: 845px; 
+				background-color: #4BC2D8; 
+			}
+			#rect11 {
+				width: 140px; 
+				height: 158px; 
+				left: 880px; 
+			}
+			#rect12 {
+				width: 85px; 
+				height: 570px;
+				left: 910px; 
+			}
+			#rect13 {
+				width: 60px; 
+				height: 330px; 
+				left: 920px; 
+				background-color: #9DF0FF; 
+			}
+			#rect14 {
+				width: 80px; 
+				height: 390px; 
+				left: 955px; 
+			}
+			#rect15 {
+				width: 30px; 
+				height: 190px; 
+				left: 1050px; 
+			}
+			#rect16 {
+				width: 90px; 
+				height: 220px; 
+				left: 1062px;
+				background-color: #4ED2EA; 
+			}
+			#rect17 {
+				width: 45px; 
+				height: 260px; 
+				left: 1120px; 
+			}
+			#rect18 {
+				width: 50px; 
+				height: 290px; 
+				left: 1180px; 
+			}
+			#rect19 {
+				width: 95px; 
+				height: 470px; 
+				left: 270px; 
+			}
+			
+			
+			/********topic********/
+			.page2 {
+				position: relative; 
+				height: 650px; 
+				background-color: #73B49E; 
+			}
+			
+			.sandc {
+				position: absolute; 
+				color: white; 
+				font-size: 45px; 
+				font-family: 'EB Garamond', serif;
+				left: 230px; 
+				line-height: 2; 
+				top: 260px; 
+			}
+			
+			.topiccontent {
+				position: absolute; 
+				width: 500px;
+				color: #D6FFF1; 
+				font-size: 14px; 
+				font-family: 'Open Sans' , sans-serif; 
+				font-weight: 300; 
+				line-height: 1.5; 
+				left: 500px; 
+				top: 160px; 
+			}
+			
+			
+			/*****background*****/
+			.decorate div{
+				position: absolute; 
+				margin-top: 90px; 
+			}
+			
+			#dec0 {
+				width: 125px; 
+				height: 650px; 
+				top: -90px; 
+				background-color: #E5B3B3; 
+			}
+			#dec1 {
+				border-top: 5px solid #E5B3B3; 
+				border-bottom: 5px solid #E5B3B3; 
+				width: 240px; 
+				height: 20px;
+				top: 24px; 
+			}
+			#dec2 {
+				border-top: 5px solid #E5B3B3; 
+				border-bottom: 5px solid #E5B3B3; 
+				width: 280px; 
+				height: 20px;
+				top: 57px;
+			}
+			#dec3 {
+				border-top: 5px solid #E5B3B3; 
+				border-bottom: 5px solid #E5B3B3; 
+				width: 190px; 
+				height: 20px;
+				top: 90px;
+			}
+			#dec4 {
+				border-top: 5px solid #E5B3B3; 
+				border-bottom: 5px solid #E5B3B3; 
+				width: 215px; 
+				height: 20px;
+				top: 123px;
+			}
+			#dec5 {
+				border-top: 5px solid #E5B3B3; 
+				border-bottom: 5px solid #E5B3B3; 
+				width: 260px; 
+				height: 20px;
+				top: 156px;
+			}
+			#dec6 {
+				border-top: 5px solid #E5B3B3; 
+				border-bottom: 5px solid #E5B3B3; 
+				width: 200px; 
+				height: 20px;
+				top: 189px;
+			}
+			#dec7 {
+				border-top: 5px solid #E5B3B3; 
+				border-bottom: 5px solid #E5B3B3; 
+				width: 180px; 
+				height: 20px;
+				top: 222px;
+			}
+			#dec8 {
+				border-top: 5px solid #E5B3B3; 
+				border-bottom: 5px solid #E5B3B3; 
+				width: 450px; 
+				height: 20px;
+				top: 255px;
+			}
+			#dec9 {
+				border-top: 5px solid #E5B3B3; 
+				border-bottom: 5px solid #E5B3B3; 
+				width: 180px; 
+				height: 20px;
+				top: 288px;
+			}
+			#dec10 {
+				border-top: 5px solid #E5B3B3; 
+				border-bottom: 5px solid #E5B3B3; 
+				width: 200px; 
+				height: 20px;
+				top: 321px;
+			}
+			#dec11 {
+				border-top: 5px solid #E5B3B3; 
+				border-bottom: 5px solid #E5B3B3; 
+				width: 260px; 
+				height: 20px;
+				top: 354px;
+			}
+			#dec12 {
+				border-top: 5px solid #E5B3B3; 
+				border-bottom: 5px solid #E5B3B3; 
+				width: 215px; 
+				height: 20px;
+				top: 387px;
+			}
+			#dec13 {
+				border-top: 5px solid #E5B3B3; 
+				border-bottom: 5px solid #E5B3B3; 
+				width: 190px; 
+				height: 20px;
+				top: 420px;
+			}
+			#dec14 {
+				border-top: 5px solid #E5B3B3; 
+				border-bottom: 5px solid #E5B3B3; 
+				width: 280px; 
+				height: 20px;
+				top: 453px;
+			}
+			#dec15 {
+				border-top: 5px solid #E5B3B3; 
+				border-bottom: 5px solid #E5B3B3; 
+				width: 240px; 
+				height: 20px;
+				top: 486px; 
+			}
+			#dec16 {
+				border-top: 5px solid #E5B3B3; 
+				border-bottom: 5px solid #E5B3B3; 
+				width: 180px; 
+				height: 20px;
+				top: 519px; 
+			}
+			
+			
+			/********speakers********/
+			.page3 {
+				position: relative; 
+				height: 650px; 
+				background-color: #83C9C9; 
+			}
+			
+			.speaker1, 
+			.speaker2, 
+			.speaker3 {
+				width: 160px; 
+				height: 550px; 
+				top: 90px; 
+				position: absolute; 
+			}
+			
+			.speaker1 {
+				margin-left: 150px; 
+			}
+			.speaker2 {
+				margin-left: 460px; 
+			}
+			.speaker3 {
+				margin-left: 770px; 
+			}
+			
+			/*****pictures*****/
+			.picture1, 
+			.picture2, 
+			.picture3 {
+				position: absolute; 
+				width: 160px; 
+			}
+			
+			.page3 .picture1 img,
+			.page3 .picture2 img, 
+			.page3 .picture3 img{
+				position: absolute; 
+				width: 160px; 
+				border: 5px solid #419EAA; 
+				z-index: 1; 
+			}
+			
+			.picture1 { 
+				top: 30px; 
+			}
+			.picture2 {
+				top: 30px; 
+			}
+			.picture3 {
+				top: 30px; 
+			}
+			/*****names*****/
+			.name {
+				position: absolute; 
+				font-size: 25px; 
+				color: white; 
+				font-family: 'EB Garamond', serif;
+				width: 160px; 
+				text-align: center; 
+				top: 200px; 
+			}
+			
+			.speakerintro {
+				position: absolute; 
+				font-size: 13.5px; 
+				color: white; 
+				font-family: 'Open Sans' , sans-serif; 
+				font-weight: 300; 
+				width: 160px; 
+				line-height: 1.3; 
+				top: 240px; 
+			}
+			
+			.links {
+				position: absolute;
+				font-family: 'Open Sans' , sans-serif; 
+				font-weight: 300; 
+				width: 160px; 
+				font-size: 12px; 
+				color: #D7F6FA; 
+				top: 480px; 
+				line-height: 1.3; 
+			}
+			.links a {
+				text-decoration: none; 
+				color: #D7F6FA; 
+			}
+			.links a:hover {
+				color: #2A8A96; 
+			}
+			.links a:active {
+				color: #D7F6FA; 
+			}
+			
+			#border1 {
+				position: absolute;
+				width: 280px; 
+				height: 360px; 
+				border: 5px solid #419EAA; 
+				top: 200px; 
+				left: 60px; 
+			}
+			#border2 {
+				position: absolute;
+				width: 280px; 
+				height: 420px; 
+				border: 5px solid #419EAA; 
+				top: 140px; 
+				left: 390px; 
+			}
+			#border3 {
+				position: absolute;
+				width: 280px; 
+				height: 390px; 
+				border: 5px solid #419EAA; 
+				top: 170px; 
+				left: 730px; 
+			}
+			
+			
+			/********foot bar********/
+			.footbar {
+				position: relative; 
+				height: 60px; 
+				box-shadow: 0px 1px 20px gray; 
+				background-color: white; 
+				width: 1200px; 
+			}
+			.btitle {
+				font-size: 15px; 
+				position:absolute; 
+				color: #3491B4; 
+				font-family: 'Open Sans', sans-serif;
+				text-align: center; 
+				width: 1200px; 
+				top: 15px; 
+			}
+			.bcolorbar {
+				position: relative; 
+				height: 15px; 
+				background-color: #4BE5D3; 
+				top: 45px; 
+			}
+			
+			
+			
+    </style>
+  </head>
+  <body>
+
+   	<!-- text -->
+    <div class="grid-container">
+    	
+    	<!--------top bar-------->
+    	<div class="row topbar">
+    		
+    		<div class="colorbar"></div>
+    		
+    		<div class="title">User's<br>Festival</div>
+    		
+    		<ul class="nav">
+    			<li><a href="index.html" class="t1">Home</a></li>
+    			<li><a href="about.html" class="t2">About</a></li>
+    			<li><a href="schedule.html" class="t3">Schedule</a></li>
+    			<li><a href="info.html" class="t4">Information</a></li>
+    			<li><a href="ticket.html" class="t5">Ticket</a></li>
+    			<div class="sign"></div>
+    		</ul>
+    		
+    		
+    	</div>
+    	
+    	<!--------intro-------->
+    	<div class="row page1 col-12" id="page1">
+    	
+    	<div class="rectangulars">
+    			<div id="rect1"></div>
+    			<div id="rect2"></div>
+    			<div id="rect3"></div>
+    			<div id="rect4"></div>
+    			<div id="rect5"></div>
+    			<div id="rect6"></div>
+    			<div id="rect7"></div>
+    			<div id="rect8"></div>
+    			<div id="rect9"></div>
+    			<div id="rect10"></div>
+    			<div id="rect11"></div>
+    			<div id="rect12"></div>
+    			<div id="rect13"></div>
+    			<div id="rect14"></div>
+    			<div id="rect15"></div>
+    			<div id="rect16"></div>
+    			<div id="rect17"></div>
+    			<div id="rect18"></div>
+    			<div id="rect19"></div>
+    		</div>
+    		
+    		
+    		<div class="header1">Interactive Design</div>
+    		
+    		<div class="intro">
+					“Interaction Design (IxD) defines the structure and behavior of interactive systems. Interaction 		designers strive to create meaningful relationships between people and the products and services that they use, from computers to mobile devices to appliances and beyond. Our practices are evolving with the world.” <br>
+					<br>
+					<span class="quote">—The Interaction Design Association (IxDA)</span>
+    		</div>
+    		
+    		<div class="buttons">
+    			
+    			<div class="b1">
+						<a href="#page1"><div class="square"></div></a>
+    				<div class="word">Introduction</div>
+    			</div>
+    			
+    			<div class="b2">
+    				<a href="#page2"><div class="square"></div></a>
+    				<div class="word opa">Topic</div>
+    			</div>
+    			
+    			<div class="b3">
+    				<a href="#page3"><div class="square"></div></a>
+    				<div class="word opa"> Speakers</div>
+    			</div>
+    		</div>
+    		
+    	</div>
+    	
+    	<!--------topic-------->
+    	
+    	<div class="row page2 col-12" id="page2">
+    		
+    		<div class="decorate">
+    			<div id="dec0"></div>
+    			<div id="dec1"></div>
+    			<div id="dec2"></div>
+    			<div id="dec3"></div>
+    			<div id="dec4"></div>
+    			<div id="dec5"></div>
+    			<div id="dec6"></div>
+    			<div id="dec7"></div>
+    			<div id="dec8"></div>
+    			<div id="dec9"></div>
+    			<div id="dec10"></div>
+    			<div id="dec11"></div>
+    			<div id="dec12"></div>
+    			<div id="dec13"></div>
+    			<div id="dec14"></div>
+    			<div id="dec15"></div>
+    			<div id="dec16"></div>
+    		</div>
+    		
+    		<div class="sandc">Simplicity<br>Complexity</div>
+    		
+    		<div class="topiccontent">When many of them say “simple,” they mean to describe something incredibly easy to use. When others say it, they’re referencing the relative complexity of a thing, whether it’s a problem, a solution, a piece of code, or something else. To this extent, I admit that what I’m proposing here may be a semantic debate. But it’s an important one, because the word “simple” also gets used in the presence of stakeholders and coworkers who may have no idea what simplicity means in the context of a user’s experience.<br>
+    		<br>
+				As designers, we assume we all agree on its meaning. To us, simplicity is a high goal of design. Designers preach that notion to each other. They pass the gospel on to their constituents. They write it in articles. Simplicity is everywhere. And we sure do love it when we see it.<br>
+				<br>
+				So what are we talking about when we talk about simplicity? Clarity. Not everything can be simple. Not everything can be easy to use. Many apps and services are necessarily complex. Even iPhone apps can be deviantly hard to use. But one thing they can all be is clear. No matter how complex a design, no matter how many tasks it supports, how many user roles are accommodated, or how many different ways it offers to perform the same daily actions, each and every screen, each and every detail of those screens can be made clearer.</div>
+    		
+    		<div class="buttons">
+    			
+    			<div class="b1">
+						<a href="#page1"><div class="square"></div></a>
+    				<div class="word opa">Introduction</div>
+    			</div>
+    			
+    			<div class="b2">
+    				<a href="#page2"><div class="square"></div></a>
+    				<div class="word">Topic</div>
+    			</div>
+    			
+    			<div class="b3">
+    				<a href="#page3"><div class="square"></div></a>
+    				<div class="word opa"> Speakers</div>
+    			</div>
+    		</div>
+    		
+    	</div>
+    	
+    	<!--------speaker-------->
+    	<div class="row page3 col-12" id="page3">
+    		
+    		<div class="speaker1">
+    			
+    			<div class="picture1"><img src="image/andy-budd-1%E5%89%AF%E6%9C%AC.jpg" alt="Andy Budd"></div>
+    			
+    			<div class="name">Andy Budd</div>
+    			
+    			<div class="speakerintro">Andy knows that design-led thought and action can set an organisation apart. As CEO of Clearleft, and as an interactions and usability specialist, he understands that human- centred, Design has become one of the key differentiators between a good product and an excellent product.</div>
+    			
+    			<div class="links"><a href="http://andybudd.com/">http://andybudd.com/</a><br>
+<a href="https://clearleft.com/">https://clearleft.com/</a><br>
+Twitter <a href="https://twitter.com/andybudd?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> @andybudd</a></div>
+    			
+    		</div>
+    		
+    		
+    		<div class="speaker2">
+    			
+    			<div class="picture2"><img src="image/joshua-porter.png" alt="Joshua Porter"></div>
+    			
+    			<div class="name">Joshua Porter</div>
+    			
+    			<div class="speakerintro">Joshua is the founder of Bokardo Design, a design consultancy focusing exclusively on social web applications. He is also the Co-founder of 52 Weeks of UX (along with the uber-talented Joshua Brewer), a premier UX blog with a strong readership of over 10,000 
+					UX professionals.
+					</div>
+    			
+    			<div class="links"><a href="http://bokardo.com/">http://bokardo.com/</a><br><a href="http://www.rocketinsights.com/">http://www.rocketinsights.com/</a><br>
+Twitter <a href="https://twitter.com/bokardo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> @bokardo</a></div>
+    			
+    		</div>
+    		
+    		
+    		<div class="speaker3">
+    			
+    			<div class="picture3"><img src="image/jared-spool.jpg" alt="Jared Spool"></div>
+    			
+    			<div class="name">Jared Spool</div>
+    			
+    			<div class="speakerintro">Jared is the founder of User Interface Engineering (UIE), the largest usability research organization of its kind in the world. He’s probably the most effective and knowledgeable communicator on the subject today. He’s been working in the field of usability and design<br> since 1978. 
+					</div>
+    			
+    			<div class="links"><a href="https://www.uie.com/">https://www.uie.com/</a><br><a href=""></a>Twitter<a href="https://twitter.com/jmspool?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> @jmspool</a></div>
+    			
+    		</div>
+    		
+
+    			<div id="border1"></div>
+    			<div id="border2"></div>
+    			<div id="border3"></div>
+    		
+    		
+    		<div class="buttons">
+    			
+    			<div class="b1">
+    				<a href="#page1"><div class="square"></div></a>
+    				<div class="word opa">Introduction</div>
+    			</div>
+    			
+    			<div class="b2">
+    				<a href="#page2"><div class="square"></div></a>
+    				<div class="word opa">Topic</div>
+    			</div>
+    			
+    			<div class="b3">
+    				<a href="#page3"><div class="square"></div></a>
+    				<div class="word"> Speakers</div>
+    			</div>
+    		</div>
+    		
+    	</div>
+    	
+    	<!--------foot bar-------->
+    	<div class="row footbar col-12">
+    		
+    		<div class="btitle">User's Festival</div>
+    		
+    		<div class="bcolorbar"></div>
+    		
+    	</div>
+    	
+    	
+    </div>
+    
+    
+  </body>
+</html>

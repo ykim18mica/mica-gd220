@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>We graphic design - activities</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Press+Start+2P|Quicksand:300,400,500,700|Reenie+Beanie|Syncopate:400,700" rel="stylesheet">
+	
+		<style>
+			.col-2 {
+					height: 200px;
+					border: 4px solid black;
+					position: relative;
+				}
+			.first {
+					border-left: 8px solid black;	
+				}
+				
+			.last {
+					border-right: 8px solid black;
+				}
+			
+				[class*="box"] {
+					border: 8px solid black;
+					position: absolute;
+					background-color: white;
+				}
+				
+			.activities-box {
+					width: 880px;
+					height: 192px;
+					top: 53px;
+					left: 51px;
+					background-color: white;
+					z-index: 1;
+					font-family: 'Press Start 2P', cursive;
+					font-size: 60pt;
+					padding: 36px;
+					padding-top: 50px;
+				}
+			
+			.blue {
+				background-color: #53FFF2;
+			}
+			
+			.yellow {
+				background-color: #FFF853;
+			}
+			
+			.color {
+				width: 160px;
+				margin: 20px;
+			}
+			
+			[class*="title"] {
+				width: 340px;
+				height: 150px;
+				z-index: 50;
+				font-family: 'Quicksand', sans-serif;
+				font-weight: 600;
+				font-size: 56pt;
+				padding: 25px;
+				padding-left: 50px;
+			}
+			
+			.color-title-box {
+				top: 426px;
+				left: 33px;
+			}
+			.color-title-box:hover {
+				font-size: 0;
+			}
+			.color-title-box:hover:after {
+				content: attr(data-hover);
+				font-size: 60pt;
+				color: #53FFF2;
+			}
+			.color-title-box:hover +.color-info {
+				visibility: visible;
+			}
+			
+			.typo-title-box {
+				top: 823px;
+				left: 831px;
+			}
+			.typo-title-box:hover {
+				font-size: 0;
+			}
+			.typo-title-box:hover:after {
+				color: #FFF853;
+				font-size: 50pt;
+				content: attr(data-hover);
+			}
+			.typo-title-box:hover ~.typo-info {
+				visibility: visible; 
+			}
+			
+			.pattern-title-box {
+				top: 1025px;
+				left: 228px;
+			}
+			.pattern-title-box:hover {
+				font-size: 0;
+			}
+			.pattern-title-box:hover:after {
+				content: attr(data-hover);
+				font-size: 60pt;
+				color: #53FFF2;
+			}
+			.pattern-title-box:hover ~.pattern-info {
+				visibility: visible;
+			}
+			
+			.eat {
+				width: 180px;
+				margin: 10px
+			}
+			
+			.eat-title-box {
+				top: 1423px;
+				left: 632px;
+				padding-left: 35px;
+			}
+			.eat-title-box:hover {
+				font-size: 0;
+			}
+			.eat-title-box:hover:after {
+				content: attr(data-hover);
+				color: #FFF853;
+				font-size: 60pt;
+			}
+			.eat-title-box:hover ~.eat-info {
+				visibility: visible;
+			}
+			
+			.style {
+				width: 160px;
+				margin-left: 15px;
+			}
+			
+			.style-title-box {
+				top: 1824px;
+				left: 628px;
+				width: 545px;
+			}
+			.style-title-box:hover {
+				font-size: 0;
+			}
+			.style-title-box:hover:after {
+				content: attr(data-hover);
+				font-size: 60pt;
+				color: #53FFF2;
+			}
+			.style-title-box:hover ~.style-info {
+				visibility: visible;
+			}
+			
+			.connection {
+				position: absolute;
+				left: 100px;
+				top: 305px;
+			}
+			ul.menu-bar li a:hover {
+				display: inline;
+				color: #FFF853;
+			}
+			
+			[class*=-info] {
+				position: absolute;
+				z-index: 500;
+				visibility: hidden;
+			}
+			.color-info {
+				left: 206px;
+				top: 491px;
+			}
+			.typo-info {
+				left: 650px;
+				top: 330px;
+			}
+			.pattern-info {
+				left: 15px;
+				top: 1100px;
+			}
+			.eat-info {
+				left: 650px;
+				top: 980px;
+			}
+			.style-info {
+				left: 224px;
+				top: 1340px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="grid-container">
+			<div class="connection"><img src="img/connection.png"></div>
+			<div class="row-1">
+				<div class="activities-box">ACTIVITIES</div>
+				<div class="col-2 first"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2 last">
+					<ul class="menu-bar">
+    				<li><a href="index.html" class="menu-home">Home</a></li>
+    				<li><a href="about.html" class="menu-about">About</a></li>
+    				<li><a href="speakers.html" class="menu-speakers">Speakers</a></li>
+    				<li><a href="activites.html" class="menu-activities">Activities</a></li>
+    			</ul>
+				</div>
+			</div>
+			<div class="row-2">
+				<div class="col-2 first"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2 last"></div>
+			</div>
+			<div class="row-3">
+				<div class="col-2 first"></div>
+				<div class="col-2"></div>
+				<div class="color-title-box" data-hover="Color!">
+				Color?
+				</div>
+				<img class="color-info" src="img/color_info.png">
+				<div class="col-2 yellow">
+					<img class="color" src=/img/color.png>
+				</div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2 last"></div>
+			</div>
+			<div class="row-4">
+				<div class="col-2 first"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2 last"></div>
+			</div>
+			<div class="row-5">
+				<div class="col-2 first"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2 blue">
+					<img class="typo" src="/img/typo.png">
+				</div>
+				<div class="typo-title-box" data-hover="graphy!">Typo?</div>
+				<img class="typo-info" src="img/typo_info.png">
+				<div class="col-2"></div>
+				<div class="col-2 last"></div>
+			</div>
+			<div class="row-6">
+				<div class="col-2 first yellow">
+					<img class="pattern" src="/img/pattern.png">
+				</div>
+				<div class="pattern-title-box" data-hover="tern!"> Pat?</div>
+				<img class="pattern-info" src="img/pattern_info.png">
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2 last"></div>
+			</div>
+			<div class="row-7">
+				<div class="col-2 first"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2 last"></div>
+			</div>
+			<div class="row-8">
+				<div class="col-2 first"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="eat-title-box" data-hover="E!A!T!">E?A?T?</div>
+				<img class="eat-info" src="img/eat_info.png">
+				<div class="col-2 last blue">
+					<img class="eat" src="img/eay.png">
+				</div>
+			</div>
+			<div class="row-9">
+				<div class="col-2 first"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2 last "></div>
+			</div>
+			<div class="row-10">
+				<div class="col-2 first"></div>
+				<div class="col-2"></div>
+				<div class="col-2 yellow">
+					<img class="style" src="img/style.png">
+				</div>
+				<div class="style-title-box" data-hover="Style!">Designers'</div>
+				<img class="style-info" src="img/style_info.png">
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2 last"></div>
+			</div>
+			<div class="row-11">
+				<div class="col-2 first"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-2 last"></div>
+			</div>
+		
+		</div>
+		
+	</body>
+	
+</html>

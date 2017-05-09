@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>User's Festival</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    
+    <style>
+		/* your css rules below */
+			body {
+				height: 650px; 
+			}
+			
+			.gri-container {
+				overflow-x: hidden; 
+			}
+			
+			* {
+				margin: 0; 
+				padding: 0; 
+			}
+			
+			/********Top Bar********/
+			.topbar {
+				position: fixed; 
+				height: 90px; 
+				box-shadow: 0px 1px 20px gray; 
+				background-color: white; 
+				width: 1200px; 
+				z-index: 2; 
+			}
+			.colorbar {
+				position: relative; 
+				height: 15px; 
+				background-color: #4BE5D3; 
+			}
+			
+			.title {
+				position:absolute; 
+				width: 100px;
+				color: #3491B4; 
+				font-size: 32px;
+				left: 40px; 
+				padding: 5px; 
+				font-family: 'Open Sans', sans-serif;
+			}
+			
+			.nav {
+				position: relative; 
+				margin: 0; 
+				padding: 0; 
+				list-style-type: none; 
+				text-align: center; 
+				top: 10px; 
+				font-size: 18px; 
+				text-transform: uppercase;  
+				font-family: 'Open Sans', sans-serif;
+				color: #3491B4; 
+			}
+			ul.nav li {
+				display: inline-block; 
+			}
+			ul.nav li a{
+    		padding: 20px 30px 0px 30px;
+				text-decoration: none; 
+				display: block; 
+				color: #3491B4; 
+			}
+			ul.nav li a:hover {
+				color: #6FC1E0; 
+			}
+			ul.nav li a:active {
+				color: #1F6C89; 
+			}
+			
+			.sign {
+				position: relative; 
+				width: 108px; 
+				height: 3px; 
+				background-color: #4BE5D3;
+				top: 5px; 
+				left: 513px; 
+			}
+			
+			/********page********/
+			
+			.page {
+				position: relative; 
+				background-image: url(image/Web%201280%20%E2%80%93%202.png); 
+				height: 590px; 
+			}
+			
+			.schedule {
+				position: absolute; 
+				font-family: 'EB Garamond', serif;
+				font-size: 25px; 
+				color: white; 
+				top: 200px; 
+				left: 150px; 
+				padding: 8px 25px 8px 25px; 
+				text-align: center; 
+				border: 3px solid #9BD9EB; 
+				letter-spacing: 0.1vw;
+			}
+			
+			.content1 {
+				position: absolute; 
+				width: 40px; 
+				color: #D7F6FA; 
+				font-size: 14px; 
+				font-family: 'Open Sans', sans-serif; 
+				font-weight: 300; 
+				line-height: 3.6; 
+				top: 200px; 
+				left: 430px; 
+			}
+			
+			.content2 {
+				position: absolute; 
+				width: 200px; 
+				color: #D7F6FA; 
+				font-size: 14px; 
+				font-family: 'Open Sans', sans-serif; 
+				font-weight: 300; 
+				line-height: 1.3; 
+				top: 214px; 
+				left: 600px; 
+			}
+			
+			.sche1, 
+			.sche2, 
+			.sche3, 
+			.sche4, 
+			.sche5, 
+			.sche6 {
+				position: relative; 
+			}
+			
+			.sche2 {
+				top: 15px; 
+			}
+			.sche3 {
+				top: 29px;
+			}
+			.sche4 {
+				top: 44px; 
+			}
+			.sche5 {
+				top: 75px;
+			}
+			.sche6 {
+				top: 108px; 
+			}
+			
+			.vertical {
+				position: absolute; 
+				height: 300px; 
+				width: 1px; 
+				background-color: #D7F6FA; 
+				top: 200px;
+				left: 530px; 
+			}
+			
+			.address {
+				position: absolute; 
+				width: 200px; 
+				color: #D7F6FA; 
+				font-size: 13px; 
+				font-family: 'Open Sans', sans-serif; 
+				font-weight: 300; 
+				line-height: 1.6; 
+				left: 900px; 
+				top: 420px; 
+			}
+			
+			/********foot bar********/
+			.footbar {
+				position: relative; 
+				height: 60px; 
+				box-shadow: 0px 1px 20px gray; 
+				background-color: white; 
+				width: 1200px; 
+			}
+			.ftitle {
+				font-size: 15px; 
+				position:absolute; 
+				color: #3491B4; 
+				font-family: 'Open Sans', sans-serif;
+				text-align: center; 
+				width: 1200px; 
+				top: 15px; 
+			}
+			.fcolorbar {
+				position: relative; 
+				height: 15px; 
+				background-color: #4BE5D3; 
+				top: 45px; 
+			}
+			
+			
+    </style>
+  </head>
+  <body>
+	
+    <div class="grid-container">
+    	
+    	<!--------top bar-------->
+    	
+    	<div class="row topbar">
+    		
+    		<div class="colorbar"></div>
+    		
+    		<div class="title">User's Festival</div>
+    		
+    		<ul class="nav">
+    			<li><a href="index.html">Home</a></li>
+    			<li><a href="about.html">About</a></li>
+    			<li><a href="schedule.html">Schedule</a></li>
+    			<li><a href="info.html">Information</a></li>
+    			<li><a href="ticket.html">Ticket</a></li>
+    			<div class="sign"></div>
+    		</ul>
+    		
+    	</div>
+    	
+    	<!--------schedule-------->
+    	
+    	<div class="row col-12 page">
+    	
+    		<div class="schedule">SCHEDULE</div>
+    		
+    		<div class="content1">9:00<br>10:00<br>11:00<br>13:00<br>15:00<br>16:00</div>
+    		
+    		<div class="content2">
+    			<div class="sche1">Lecture<br>
+					Speaker: Andy Budd</div>
+    			<div class="sche2">Lecture<br>
+					Speaker: Joshua Porter</div>
+    			<div class="sche3">Lecture<br>
+					Speaker: Jared Spool</div>
+    			<div class="sche4">Studio Expierence</div>
+    			<div class="sche5">Exhibition</div>
+    			<div class="sche6">Free Talk Time</div>
+    		</div>
+    		
+    		<div class="vertical"></div>	
+    		
+    		<div class="address">Falvey Hall, Brown Center<br>1301 W Mt Royal Ave, <br>Baltimore, MD 21217<br>May 9th, 9:00-17:00</div>
+    		
+    	</div>
+    	
+    	<!----------foot bar-------->
+    	
+    	<div class="row footbar col-12">
+    		
+    		<div class="ftitle">User's Festival</div>
+    		
+    		<div class="fcolorbar"></div>
+    		
+    	</div>
+    	
+    	
+    </div>
+    
+    
+  </body>
+</html>

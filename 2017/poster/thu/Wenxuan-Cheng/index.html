@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Show Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Griffy|Henny+Penny|Merriweather" rel="stylesheet">
+    
+    <style>
+      .black{background-color: #111111;}
+      .blue{color: #7cc1ca;}
+      .title{
+        font-family: 'Griffy', 'Henny Penny', cursive;
+        font-size: 86px;
+      }
+      .date{
+        padding-top: 5%;
+        padding-left: 9%;
+        font-family: 'Merriweather', serif;
+        font-size: 25px;
+      }
+      .info{
+        padding-top: 5%;
+        font-family: 'Merriweather', serif;
+        font-size: 25px;
+        opacity: 0;
+      }
+      .info:hover{
+        animation: appear 1s ease forwards;
+        cursor: pointer;
+      }
+      .name{
+        font-family: 'Merriweather', serif;
+        font-size: 50px;
+        padding-top: 4%;
+        padding-left: 10%;
+      }
+      .time{
+        font-family: 'Griffy', 'Henny Penny','Merriweather', cursive;
+        font-size: 55px;
+        padding-top: 8%;
+        padding-left: -10%;
+      }
+      .address{
+        font-family: 'Merriweather', serif;
+        font-size: 20px;
+        padding-left: -10%;
+        padding-top: 40%;
+      }
+      .box-1 {
+        width: 600px;
+        height: 300px;
+        
+      }
+      .box-2 {
+        width: 300px;
+        height: 200px;
+      }
+      .box-3 {
+        width: 600px;
+        height: 400px;
+        
+      }
+      .box-4 {
+        width: 700px;
+        height: 300px;
+        
+      }
+      .box-5 {
+        width: 400px;
+        height: 200px;
+        
+      }
+      .box-6 {
+        width: 600px;
+        height: 300px;
+        
+      }
+      .box-7 {
+        width: 700px;
+        height: 400px;
+        
+      }
+      .box-8{
+        width: 1200px;
+        height:200px;
+      }
+      .box-9{
+        width: 200px;
+        height:400px;
+      }
+      .box-10{
+        width: 300px;
+        height:400px;
+      }
+      .box-11{
+        width: 1200px;
+        height:100px;
+      }
+      .box-12{
+        width: 200px;
+        height:200px;
+        
+      }
+      div.box-12 {
+      position: fixed;
+      left: -20px;
+      top: 200px;
+      }
+      div.box-1 {
+      position: relative;
+      left: 200px;
+      top: 100px;
+      }
+      div.box-2 {
+      position: relative;
+      left: 200px;
+      top: -100px;
+      }
+      div.box-3 {
+      position: relative;
+      left: 0px;
+      top: 100px;
+      }
+      div.box-4 {
+      position: relative;
+      left: 500px;
+      top: 100px;
+      }
+      div.box-5 {
+      position: relative;
+      left: 200px;
+      top: 200px;
+      }
+      div.box-6 {
+      position: relative;
+      left: 500px;
+      top: 200px;
+      }
+      div.box-7 {
+      position: relative;
+      left: 0px;
+      top: 200px;
+      }
+      div.box-8 {
+      position: relative;
+      left: 0px;
+      top: 200px;
+      }
+      div.box-9 {
+      position: relative;
+      left: 0px;
+      top: 200px;
+      }
+      div.box-10 {
+      position: relative;
+      left: 0px;
+      top: 200px;
+      }
+      div.box-11 {
+      position: relative;
+      left: 0px;
+      top: 200px;
+      }
+      @keyframes appear{
+        from{
+          opacity: 0;
+        }
+        to{
+          opacity: 1;
+        }
+        
+      }
+      .img-shands{
+        background-image: url(images/movie_02.jpg);
+        background-size:cover;
+        
+      }
+      .img-coffin{
+        background-image: url(images/movie_05.gif);
+        background-size:cover;
+        opacity: 1;
+      }
+      .img-cat{
+        background-image: url(images/movie_08.gif);
+        background-size:cover;
+        
+      }
+      .img-watch{
+        background-image: url(images/movie_10.gif);
+        background-size:cover;
+      }
+      .img-space12{
+        background-image: url(images/movie_12.gif);
+        background-size:cover;
+      }
+      .img-bird{
+        background-image: url(images/movie_14.gif);
+        background-size:cover;
+      }
+      .img-space13{
+        background-image: url(images/movie_13.gif);
+        background-size:cover;
+      }
+      .img-space15{
+        background-image: url(images/movie_15.gif);
+        background-size:cover;
+      }
+      .img-space16{
+        background-image: url(images/movie_16.gif);
+        background-size:cover;
+      }
+      .top-100{
+        padding-top: 100px;
+      }
+      .top-300{
+        padding-top: 300px;
+      }
+      .top-200{
+        padding-top: 200px;
+      }
+      .top-250{
+        padding-top: 250px;
+      }
+      .top-50{
+        padding-top: 50px;
+      }
+      .heavy{
+        font-weight: 500;
+      }
+      .aright{
+        text-align: right;
+      }
+      .acenter{
+        text-align: center;
+      }
+      .h-300 {
+		height: 300px;
+      }
+      
+      /* The Modal (background) */
+      .modal,.modal1,.modal2,.modal3,.modal4,.modal5 {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
+      
+
+      /* Modal Content */
+      .modal-content {
+        background-color: black;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 745px;
+        height: 435px;
+      }
+
+      /* The Close Button */
+      .close {
+        color: #aaaaaa;
+        float: right;
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: #7cc1ca;
+        cursor: pointer;
+      }
+			
+    </style>
+  </head>
+  <body>
+
+    <div class="grid-container black">
+			
+        <div class="row">
+		  <div class="box-1">
+            <h1 class="title blue">Fantastic Worlds</h1>
+            <h2 class="name blue">Tim Burton</h2>
+            <h3 class="date blue">March 10th ~ March 14th</h3>
+          </div>
+        </div>
+        <div class="row">
+          
+          <div class="col-6 box-3 img-shands" id="myBtn1">
+            <p class="info blue top-300 acenter" >
+              <span class="heavy">Edward Scissorhands </span>(1990)<br> 
+            March 10th</p>
+          <div id="myModal1" class="modal1">
+          <!-- Modal content -->
+              <div class="modal-content">
+                <iframe src="https://www.youtube.com/embed/M94yyfWy-KI" allowfullscreen width="700" height="394">
+                </iframe>
+              </div>
+            </div>  
+          </div>
+		  <div class="col-3 box-2">
+            <p class="blue address">The Charles Theatre,<br> 
+            1711 N Charles St,<br>
+            Baltimore, MD 21201<br>
+            http://thecharles.com/</p>
+          </div>
+		</div>
+		<div class="row">
+          <div class="box-4 img-coffin ">
+            <p class="info blue acenter top-50" id="myBtn2">
+              <span class="heavy">Dark Shadows </span>(2012)<br> 
+              March 11th</p>
+            <div id="myModal2" class="modal2">
+          <!-- Modal content -->
+              <div class="modal-content">
+                <iframe src="https://www.youtube.com/embed/cTjD3rV27Go" allowfullscreen width="700" height="394">
+                </iframe>
+              </div>
+            </div>
+          </div>
+		</div>
+        <div class="row">
+          <div class="box-5 img-cat ">
+            <p class="info blue acenter" id="myBtn3">
+              <span class="heavy">Alice in Wonderland </span>(2010)<br>
+            March 12th</p>
+            <div id="myModal3" class="modal3">
+              <div class="modal-content">
+                <iframe src="https://www.youtube.com/embed/KOZ9wy-j9P8" allowfullscreen width="700" height="394">
+                </iframe>
+              </div>
+            </div>
+          </div>
+		</div>
+        <div class="row">
+          <div class="box-6 img-watch ">
+            <p class="info blue aright" id="myBtn4">
+              <span class="heavy">Alice Through the<br>Looking Glass</span><br> (2016)<br>
+            March 13th
+            </p>
+            <div id="myModal4" class="modal4">
+              <div class="modal-content">
+                <iframe src="https://www.youtube.com/embed/Nlj9Rsxm2UY"  allowfullscreen width="700" height="394">
+                </iframe>
+              </div>
+            </div>
+            
+          </div>
+		</div>
+        <div class="row">
+          <div class="col-12 h-1 box-11 img-space12 "></div>
+          
+        </div>
+        <div class="row">
+          <div class="col-2 h-4 box-9 img-space13"></div>
+          <div class="col-6 h-4 box-7 img-bird " id="myBtn5">
+            <div class="info blue ">
+            <span class="heavy">Miss Peregrine's Home for<br> Peculiar Children </span>(2016)<br> 
+            March 14th</div>
+            <div id="myModal5" class="modal5">
+              <div class="modal-content">
+                <iframe src="https://www.youtube.com/embed/q5w16m9AQ2c" allowfullscreen width="700" height="394">
+                </iframe>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-4 h-4 box-10 img-space15 "></div>
+        </div>
+        <div class="row">
+          <div class="box-8 img-space16">7</div>
+          
+        </div>
+        <div class="col-offset-6 col-2 time blue box-12">
+              7 PM<br>PG-13
+        </div>
+       		
+    </div>
+
+    <script>
+      // Get the modal
+      var modal1 = document.getElementById('myModal1');
+      var modal2 = document.getElementById('myModal2');
+      var modal3 = document.getElementById('myModal3');
+      var modal4 = document.getElementById('myModal4');
+      var modal5 = document.getElementById('myModal5');
+
+      // Get the button that opens the modal
+      var btn1 = document.getElementById("myBtn1");
+      var btn2 = document.getElementById("myBtn2");
+      var btn3 = document.getElementById("myBtn3");
+      var btn4 = document.getElementById("myBtn4");
+      var btn5 = document.getElementById("myBtn5");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // open the modal 
+      btn1.onclick = function() 
+      {
+      modal1.style.display = "block";
+      }
+      btn2.onclick = function() 
+      {
+      modal2.style.display = "block";
+      }
+      btn3.onclick = function() 
+      {
+      modal3.style.display = "block";
+      }
+      btn4.onclick = function() 
+      {
+      modal4.style.display = "block";
+      }
+
+      btn5.onclick = function() 
+      {
+      modal5.style.display = "block";
+      }
+      
+
+      // clicks anywhere outside of the modal, close it
+      window.onclick = function(event) 
+      {
+      if (event.target == modal5) 
+        {
+        modal5.style.display = "none";
+        } 
+      if (event.target == modal1) 
+        {
+        modal1.style.display = "none";
+        } 
+      if (event.target == modal2) 
+        {
+        modal2.style.display = "none";
+        } 
+      if (event.target == modal3) 
+        {
+        modal3.style.display = "none";
+        } 
+      if (event.target == modal4) 
+        {
+        modal4.style.display = "none";
+        } 
+      }
+    </script>
+    
+  </body>
+</html>

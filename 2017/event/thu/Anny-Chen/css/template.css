@@ -1,0 +1,282 @@
+/*
+DO NOT ADD ANYTHING ON THIS FILE!!!
+Add your own css on index.html
+*/
+
+/*-- all elements will use border-box --*/
+html {
+  box-sizing: border-box;
+}
+*, :before, :after {
+  box-sizing: inherit; 
+}
+
+/*-- container for all the columns --*/
+.grid-container{
+  width: 1200px; 
+  margin: 0 auto;
+	position: relative; /* this is needed for any children to use position absolute */
+}
+
+/*-- our cleafix hack -- */ 
+.row:before, 
+.row:after {
+  content:"";
+  display: table ;
+  clear:both;
+}
+
+[class*='col-'] {
+  float: left; 
+  min-height: 1px; 
+  width: 8.33%; 
+    
+  /*-- our gutter -- */
+  padding: 0 0px; /* top-bottom right-left */
+}
+
+/*-- columns with different widths --*/
+.col-1{ width: 8.333333%; }
+.col-2{ width: 16.666666%; }
+.col-3{ width: 25%;    }
+.col-4{ width: 33.333333%; }
+.col-5{ width: 41.666667%; }
+.col-6{ width: 50%; }
+.col-7{ width: 58.333333%; }
+.col-8{ width: 66.666666%; }
+.col-9{ width: 75%; }
+.col-10{ width: 83.333333%; }
+.col-11{ width: 91.666667%; }
+.col-12{ width: 100%;   }
+
+/*-- use thse to offset columns --*/
+.col-offset-1 { margin-left: 8.333333%; }
+.col-offset-2 { margin-left: 16.666666%; }
+.col-offset-3 { margin-left: 25%; }
+.col-offset-4 { margin-left: 33.333333%; }
+.col-offset-5 { margin-left: 41.666667%; }
+.col-offset-6 { margin-left: 50%; }
+.col-offset-7 { margin-left: 58.333333%; }
+.col-offset-8 { margin-left: 66.666666%; }
+.col-offset-9 { margin-left: 75%; }
+.col-offset-10 { margin-left: 83.333333%; }
+.col-offset-11 { margin-left: 91.666667%; }
+
+
+/*-- helpers --*/
+.test,
+.outline {
+  outline: 1px solid red; 
+}
+
+/* single stuff */
+.float {
+  float: left;
+}
+      
+.center {
+  text-align: center;
+}
+      
+.border-bottom {
+  border-bottom: 8px solid #DC53A7;
+}
+
+
+/* boxes */
+.h-300-300 {
+  height: 300px;
+  width: 300px;
+}
+      
+.h-300-600 {
+  height: 300px;
+  width: 600px;
+}
+      
+.h-600-300 {
+  height: 600px;
+  width: 300px;
+}
+      
+.h-600-600 {
+  height: 600px;
+  width: 600px;
+}
+
+.h-900-300 {
+  height: 900px;
+  width: 300px;
+}
+
+.h-900-600 {
+  height: 900px;
+  width: 600px;
+}
+
+.h-600-900 {
+  height: 600px;
+  width: 900px;
+}
+
+/* bg colors */
+.bgyellow {
+  background-color: #EBCF77;
+}
+      
+.bgmagenta {
+  background-color: #DC53A7;
+}
+      
+.bgmint {
+  background-color: #81E0C9;
+}
+      
+.bgblack {
+  background-color: black;
+}
+      
+.bgwhite {
+  background-color: white;
+}
+
+/* fonts */
+.mono {
+  font-family: 'Overpass Mono', monospace;
+  font-weight: 700;
+}
+      
+.varela {
+  font-family: 'Varela Round', sans-serif;
+}
+
+/* font size */
+.t-18 {
+  font-size: 18px;
+}
+      
+.t-22 {
+  font-size: 22px;
+}
+      
+.t-35 {
+  font-size: 35px;
+}
+      
+.t-50 {
+  font-size: 50px;
+}
+      
+.t-70 {
+  font-size: 70px;
+}
+
+/* images */
+.img-nami {
+  display: block;
+  padding-left: 40px;
+  padding-top: 30px;
+}
+      
+.img-nea {
+  display: block;
+  padding-left: 5px;
+  padding-top: 30px;
+}
+      
+.img-aiga {
+  display: block;
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+/* nav */
+div.nav-container {
+  width: 1200px;
+  text-align: center;
+  position: fixed;
+  height: 80px;
+}
+      
+ul.nav {
+  list-style: none;
+  position: fixed;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+      
+ul.nav li {
+  float: left;
+}
+      
+ul.nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 300px;
+  color: black;
+}
+      
+.nav-link:link, 
+.nav-link:visited {
+  color: black;
+}
+      
+.nav-link:hover {
+  color: white;
+}
+      
+.nav-link:active {
+  color: white;
+}
+      
+/* creative retreat */
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  color: white;
+}
+      
+/* not alone */
+.subhead {
+  color: #DC53A7;
+  width: 640px;
+  line-height: 1.2em;
+  padding-bottom: 50px;
+}
+      
+/* treat yourself */
+h2 {
+  margin: 70px;
+}
+      
+.treat:link {
+  text-decoration: none;
+  text-shadow: 0 0 5px #DC53A7;
+  animation: pulse 3s infinite ease-out;
+  }
+      
+.treat:hover {
+  color: white;
+  animation: pause;
+}
+
+@keyframes pulse {
+  from {
+    color: #DC53A7;
+  }
+  to {
+    color: #EBCF77;
+  }
+}
+
+.footer {
+  width: 1200px;
+  height: 130px;
+}
+      
+.sponsors {
+  color: black;
+  padding: 45px;
+}

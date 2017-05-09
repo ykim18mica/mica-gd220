@@ -1,0 +1,448 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Fashion Magazine Cover Design Festival</title>
+	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="speakers.html">
+    <link rel="stylesheet" href="schedule.html">
+    <link rel="stylesheet" href="information.html">
+    <link rel="stylesheet" href="index.html">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+	<style>
+
+		.body {
+			background-color: gainsboro;
+			font-family: 'Montserrat', sans-serif;
+		}
+		.background-image {
+			position: relative;
+			background-color: white;
+			background-repeat: no-repeat;
+			height: 698px;
+		}
+		.parallax {
+			background-image: url(images/img-1.png);
+			width: 1200px;
+			height: 1740px;
+			background-attachment: fixed;
+    	background-position: top center;
+    	background-repeat: no-repeat;
+			overflow-x: hidden;
+			overflow-y: hidden;
+		}
+		/* animation effect */
+		
+			@keyframes fadein {
+				from {
+					opacity: 0;
+				}
+				to {
+					opacity: 1;
+				}
+			}
+			@keyframes fadeout {
+				from {
+  				opacity: 1;
+  			}
+				to {
+					opacity: 0;
+  			}
+			}
+
+		/* height */
+		.h-250 {
+			height: 350px;
+		}
+		.h-698 {
+			height: 698px;
+		}
+		.h-220 {
+			height: 220px;
+		}
+		.h-675 {
+			height: 675px;
+		}
+		
+		/* line */
+		.line-1 {
+			position: relative;
+			background-color: white;
+			width: 220px;
+			height: 1.4px;
+			top: 360px;
+			left: 270px;
+		}
+		
+		.line-2 {
+			position: relative;
+			background-color: white;
+			width: 220px;
+			height: 1.1px;
+			top: 359px;
+			left: 710px;
+		}
+		
+		/* texts */
+  	
+		.home {
+			position: fixed;
+			font-size: 15px;
+			text-decoration: none;
+			color: white;
+			top: 30px;
+			left: 155px;
+		}
+		.home:hover {
+			color: dimgray;
+		}
+		
+		.information {
+			position: fixed;
+			font-size: 15px;
+			text-decoration: none;
+			color: white;
+			top: 30px;
+			left: 245px;
+		}
+		.information:hover {
+			color: gainsboro;
+		}
+		
+		.schedule {
+			position: fixed;
+			color: white;
+			font-size: 15px;
+			text-decoration: none;
+			top: 30px;
+			left: 400px;
+		}
+		.schedule:hover {
+			color: gainsboro;
+		}
+		.speakers {
+			position: fixed;
+			font-size: 15px;
+			text-decoration: none;
+			color: white;
+			top: 30px;
+			left: 540px;
+		}
+		.speakers:hover {
+			color: gainsboro;
+		}
+		
+		.fashion {
+			position: relative;
+			color: white;
+			font-weight: bold;
+			top: 250px;
+			font-size:60px;
+			left: 370px;
+			animation: fadein 3s alternate,
+					       fadeout 3s alternate;
+		}
+		.magazine {
+			position: relative;
+			color: white;
+			font-weight: bold;
+			font-size: 60px;
+			top: 255px;
+			left: 410px;
+			animation: fadein 4s alternate,
+					       fadeout 4s alternate;
+		}
+		.cover-design {
+			position: relative;
+			color: white;
+			font-weight: bold;
+			font-size: 60px;
+			top: 260px;
+			left: 467px;
+			animation: fadein 5s alternate,
+					       fadeout 5s alternate;
+		}
+		.festival {
+			position: relative;
+			color: white;
+			font-weight: bold;
+			font-size: 60px;
+			top: 265px;
+			left: 540px;
+			animation: fadein 6s alternate,
+					       fadeout 6s alternate;
+		}
+		.grab {
+			position: relative;
+			text-decoration: none;
+			color: white;
+			font-size: 12px;
+			top: 194px;
+			left: 865px;
+			animation: fadein 1s infinite,
+					      fadeout 1s infinite;
+		}
+		.grab-1 {
+			position: relative;
+			width: 150px;
+			height: 45px;
+			border: 1px solid white;
+			top: 155px;
+			left: 830px;
+		}
+		.grab-2 {
+			position: relative;
+			width: 150px;
+			height: 45px;
+			border: 1px solid white;
+			top: 120px;
+			left: 840px
+		}
+		.apply {
+			position: fixed;
+			color: white;
+			font-size: 15px;
+			text-decoration: none;
+		  top: 27px;
+			left: 1198px;	
+		}
+		.apply-box {
+			position: fixed;
+			color: white;
+			width: 90px;
+			height: 30px;
+			border: 2px solid white;
+			top: 20px;
+			left: 1175px;
+		}
+		.year {
+			position: relative;
+			font-size: 22px;
+			color: white;
+			top: 215px;
+			left: 405px;
+			
+		}
+		.date {
+			position: relative;
+			font-size: 22px;
+			color: white;
+			top: 215px;
+			left: 405px;
+		}
+		.empty {
+			height: 300px;
+		}
+		
+		.d-day {
+			position: relative;
+			color: rgb(247,213,165);
+			font: 12px;
+			top: 325px;
+			text-align: center;
+		}
+		
+		.advisers {
+			position: relative;
+			color: white;
+			font-size: 22px;
+			top: 330px;
+			text-align: center;
+		}
+		
+		.anna-wintour {
+			position: relative;
+			font-size: 18px;
+			font-weight: bold;
+			color: white;
+			top: 400px;
+			left: 235px;
+		}
+		
+		.laura-brown {
+			position: relative;
+			font-size: 18px;
+			font-weight: bold;
+			color: white;
+			top: 382px;
+			left: 520px;
+		}
+		
+		.roberta-myers {
+			position: relative;
+			font-size: 18px;
+			font-weight: bold;
+			color: white;
+			top: 365px;
+			left: 805px;
+		}
+		
+		.v-editor {
+			position: relative;
+			font-size: 12px;
+			font-weight: bold;
+			color: white;
+			top: 370px;
+			left: 260px;
+			line-height: 14px;
+			
+		}
+		
+		.i-editor {
+			position: relative;
+			font-size: 12px;
+			font-weight: bold;
+			color: white;
+			line-height: 14px;
+			top: 343px;
+			left: 540px;
+		}
+		
+		.e-editor {
+			position: relative;
+			font-size: 12px;
+			font-weight: bold;
+			color: white;
+			top: 318px;
+			left: 845px;
+		}
+		
+		.one {
+			position: relative;
+			font-size: 12px;
+			color: white;
+			font-weight: bold;
+			top: 390px;
+			left: 226px;
+		}
+		.one:hover {
+			color: gainsboro
+		}
+		.two {
+			position: relative;
+			font-size: 12px;
+			color: white;
+			font-weight: bold;
+			top: 378px;
+			left: 335px;
+		}
+		.two:hover {
+			color: gainsboro
+		}
+		.three {
+			position: relative;
+			font-size: 12px;
+			color: white;
+			font-weight: bold;
+			top: 366px;
+			left: 428px;
+		}
+		.three:hover {
+			color: gainsboro
+		}
+		.four {
+			position: relative;
+			font-size: 12px;
+			color: white;
+			font-weight: bold;
+			top: 354px;
+			left: 590px;
+		}
+		.four:hover {
+			color: gainsboro
+		}
+		.five {
+			position: relative;
+			font-size: 12px;
+			color: white;
+			font-weight: bolder;
+			top: 342px;
+			left: 720px;
+		}
+		.five:hover {
+			color: gainsboro
+		}
+		.six {
+			position: relative;
+			font-size: 12px;
+			color: white;
+			font-weight: bold;
+			top: 330px;
+			left: 845px;
+		}
+		.six:hover {
+			color: gainsboro
+		}
+		/* images */
+		
+		.img-2 {
+			position: relative;
+			top: 385px;
+			left: 100px;
+		}
+		
+	</style>
+</head>
+<body class="body">
+	 
+	<div class="grid-container">
+	 
+		<a class="home" href="main.html">HOME</a>
+		<a class="information" href="information.html">INFORMATION</a>
+		<a class="schedule" href="schedule.html">SCHEDULE</a>
+		<a class="speakers" href="speakers.html"
+			 >SPEAKERS</a>	 
+			 
+		<div class="parallax">
+			<div class="apply">Apply</div>
+			<div class="apply-box"></div>
+			<div class="fashion">FASHION</div>
+			<div class="magazine">MAGAZINE</div>
+			<div class="cover-design">COVER DESIGN</div>
+			<div class="festival">FESTIVAL</div>
+			<div class="year">2017</div>
+		  <div class="date">MAY 01 - 03</div>
+		  <div class="grab">Grab Your Ticket</div>
+		  <div class="grab-1"></div>
+			<div class="grab-2"></div>
+			<div class="empty"></div>
+		  <div class="line-1"></div>
+		  <div class="line-2"></div>
+			<div class="d-day">ON MAY 01 (4 PM - 10PM)</div>
+			<p class="advisers">SPEAKERS</p>
+			<div class="img-2"><img src="images/img-2.png"></div>
+			<div class="anna-wintour">ANNA WINTOUR</div>
+			<div class="laura-brown">LAURA BROWN</div>
+			<div class="roberta-myers">ROBERTA MYERS</div>
+			<div class="v-editor">Vogue Magazine<br>Editor in Cheif</div>
+			<div class="i-editor">Instyle Magazine<br>Editor in Cheif</div>
+			<div class="e-editor">Elle Magazine<br>Editor in Cheif</div>
+			<div class="one">CONTACT US</div>
+			<div class="two">SUBSCRIBE</div>
+			<div class="three">EVENTS &amp;  PROMOTION</div>
+			<div class="four">DIGITAL EDITION</div>
+			<div class="five">ABOUT OUR ADS</div>
+			<div class="six">CUSTOMER SERVICE</div>
+			
+			
+			 
+		  
+			
+		 </div>	 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		</div>
+
+	
+
+</body>
+</html>

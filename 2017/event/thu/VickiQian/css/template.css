@@ -1,0 +1,104 @@
+/*
+DO NOT ADD ANYTHING ON THIS FILE!!!
+Add your own css on index.html
+*/
+
+/*-- all elements will use border-box --*/
+html {
+  box-sizing: border-box;
+}
+*, :before, :after {
+  box-sizing: inherit; 
+}
+
+/*-- container for all the columns --*/
+.grid-container{
+  width: 1200px; 
+  height: 675px;
+  margin: 0 auto;
+	position: relative; /* this is needed for any children to use position absolute */
+}
+
+/*-- our cleafix hack 
+.row:before, 
+.row:after {
+  content:"";
+  display: table ;
+  clear:both;
+}
+-- */ 
+[class*='col-'] {
+  float: left; 
+  min-height: 1px; 
+  width: 8.33%; 
+    
+  /*-- our gutter -- */
+  padding: 0 0px; /* top-bottom right-left */
+}
+/*--
+[class*='row-'] {
+  min-width: 1px; 
+  height: 8.33%; 
+    
+  /*-- our gutter -- */
+  padding: 0 0px; /* top-bottom right-left */
+}
+--*/
+/*-- columns with different widths --*/
+.col-1 { width: 8.333333%; }
+.col-2 { width: 16.666666%; }
+.col-3 { width: 25%;    }
+.col-4 { width: 33.333333%; }
+.col-5 { width: 41.666667%; }
+.col-6 { width: 50%; }
+.col-7 { width: 58.333333%; }
+.col-8 { width: 66.666666%; }
+.col-9 { width: 75%; }
+.col-10 { width: 83.333333%; }
+.col-11 { width: 91.666667%; }
+.col-12 { width: 100%;   }
+/*
+.row-1 { height: 8.333333%; }
+.row-2 { height: 16.666666%; }
+.row-3 { height: 25%;    }
+.row-4 { height: 33.333333%; }
+.row-5 { height: 41.666667%; }
+.row-6 { height: 50%; }
+.row-7 { height: 58.333333%; }
+.row-8 { height: 66.666666%; }
+.row-9 { height: 75%; }
+.row-10 { height: 83.333333%; }
+.row-11 { height: 91.666667%; }
+.row-12 { height: 100%;   }
+*/
+/*-- use thse to offset columns --*/
+.col-offset-1 { margin-left: 8.333333%; }
+.col-offset-2 { margin-left: 16.666666%; }
+.col-offset-3 { margin-left: 25%; }
+.col-offset-4 { margin-left: 33.333333%; }
+.col-offset-5 { margin-left: 41.666667%; }
+.col-offset-6 { margin-left: 50%; }
+.col-offset-7 { margin-left: 58.333333%; }
+.col-offset-8 { margin-left: 66.666666%; }
+.col-offset-9 { margin-left: 75%; }
+.col-offset-10 { margin-left: 83.333333%; }
+.col-offset-11 { margin-left: 91.666667%; }
+/*
+.row-offset-1 {margin-top: 8.333333%;}
+.row-offset-2 {margin-top: 16.666666%;}
+.row-offset-3 {margin-top: 16.666666%;}
+.row-offset-4 {margin-top: 25%;}
+.row-offset-5 {margin-top: 33.333333%;}
+.row-offset-6 {margin-top: 41.666667%;}
+.row-offset-7 {margin-top: 50%;}
+.row-offset-8 {margin-top: 58.333333%;}
+.row-offset-9 {margin-top: 66.666666%;}
+.row-offset-10 {margin-top: 75%;}
+.row-offset-11 {margin-top: 83.333333%;}
+.row-offset-12 {margin-top: 91.666667%;}
+*/
+/*-- helpers --*/
+.test,
+.outline {
+  outline: 1px solid red; 
+}

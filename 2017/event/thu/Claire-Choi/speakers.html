@@ -1,0 +1,473 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Fashion Magazine Cover Design Festival</title>
+	<link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/template.css">
+  <link rel="stylesheet" href="speakers.html">
+  <link rel="stylesheet" href="schedule.html">
+  <link rel="stylesheet" href="information.html">
+  <link rel="stylesheet" href="index.html">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	
+	<style>
+		.white {
+			background: white;
+		}
+		body,html {
+			background-color: gainsboro;
+			font-family: 'Montserrat', sans-serif;
+			width: 100%;
+		}
+		.grid-container {
+			overflow-x: hidden;
+			overflow-y: hidden
+		}
+		/* height */
+		.h-120 {
+			height: 120px;
+		}
+		.h-100 {
+			height: 100px;
+		}
+		.h-500 {
+			height: 500px;
+		}
+		.h-550 {
+			height: 550px;
+		}
+		.h-300 {
+			height: 300px;
+		}
+		.h-675 {
+			height: 675px;
+		}
+		.h-950 {
+			height: 950px;
+		}
+		
+		/* text */
+		
+		
+		ul.nav {
+			width: 100%;	
+		}
+		ul.nav li {
+			display: inline-block;
+		}
+		ul.nav li a {
+			position: relative;
+			text-decoration: none;
+			text-transform: uppercase;
+			display: block;
+			color: black;
+			top: 35px;
+			padding-left: 20px;
+			left: 35px;
+		}
+			ul.nav li a:hover {
+				color: gainsboro;
+			}
+		@keyframes animateText {
+  			0% {left: 20%; opacity: 0}
+  			50% {opacity:1}
+  			80% {left: 0.5%;}
+  			100% {left: -8%;}
+		}
+		@keyframes fadein {
+			from {
+				opacity: 0;
+			}
+			to {
+				opacity: 1;
+			}
+		}
+		@keyframes fadeout {
+			from {
+  			opacity: 1;
+  		}
+			to {
+				opacity: 0;
+  		}
+		}
+		/* title */
+		.head {
+			padding-top: 10px;
+		}
+		.title-1 {
+			position: relative;
+			font-size: 40px;
+			font-weight: bold;
+			top: 200px;
+			left: 770px;
+			animation: animateText 3s alternate;
+		}
+		
+		.title-2 {
+			position: relative;
+			font-size: 40px;
+			font-weight: bold;
+			top: 215px;
+			left:922px;
+			animation: animateText 3s alternate;
+		}
+		.date {
+			position: relative;
+			font-size: 22px;
+			font-weight: bold;
+			top: 185px;
+			left:730px;
+			animation: fadein 15s alternate,
+					       fadeout .1s alternate;
+		}
+		
+		.address-1 {
+			position: relative;
+			font-size: 13px;
+			font-style: italic;
+			top: 210px;
+			left: 928px;
+			animation: fadein 15s alternate,
+			  			    fadeout .1s alternate;
+		
+		}
+		
+		.address-2 {
+			position: relative;
+			font-size: 13px;
+			font-style: italic;
+			top: 215px;
+			left: 979px;
+			animation: fadein 15s alternate,
+					       fadeout .1s alternate;
+		
+		}
+		.address-3 {
+			position: relative;
+			font-size: 16px;
+			line-height: 18px;
+			bottom: 42px;
+			left: 220px;
+			
+		}
+		.location {
+			position: relative;
+			font-size: 33px;
+			font-weight: bold;
+			top: 15px;
+			left: 35px;
+		}
+		
+		/* names */
+		
+		.name-1 {
+			position: relative;
+			font-size: 14px;
+			font-weight: bold;
+			top: 388px;
+			left: 35px;
+		}
+		.name-2 {
+			position: relative;
+			font-size: 14px;
+			font-weight: bold;
+			top: 105px;
+			left: 35px
+		}
+		.name-3 {
+			position: relative;
+			font-size: 14px;
+			font-weight: bold;
+			top: 125px;
+			left: 35px;
+		}
+
+		
+		
+		/* explaines */
+		
+		.uppercase {
+			position: relative;
+			font-size: 33px;
+			font-weight: bold;
+			top: 20px;
+			left: 35px;
+		}
+		.uppercase-1 {
+			position: relative;
+			font-size: 33px;
+			font-weight: bold;
+			top: 170px;
+			left: 35px;
+		}
+		.editor-1 {
+			position: relative;
+			font-size: 13px;
+			font-weight: bold;
+			line-height: 15px;
+			top: 140px;
+			left: 360px;
+		}
+		.time-1 {
+			position: relative;
+			font-size: 13px;
+			font-weight: bold;
+			font-style: italic;
+			top: 112px;
+			left: 475px;
+		}
+		.article-1 {
+			position: relative;
+			font-size: 16px;
+			line-height: 18px;
+			top: 175px;
+			left: 35px;
+		}
+		.article-2 {
+			position: relative;
+			font-size: 16px;
+			line-height: 18px;
+			top: 200px;
+			left: 35px;
+		}
+		
+		.map {
+			position: relative;
+			top: 5px;
+		}
+		
+	
+		.editor {
+			position: relative;
+			font-size: 13px;
+			font-weight: bold;
+			line-height: 15px;
+			bottom: 7px;
+			left: 325px;
+		}
+
+		.time {
+			position: relative;
+			font-size: 13px;
+			font-weight: bold;
+			font-style: italic;
+			bottom: 35px;
+			left: 439px;
+		}
+
+		.article {
+			position: relative;
+			font-size: 16px;
+			line-height: 18px;
+			top: 20px;
+			left: 35px;
+		}
+	
+		
+		/* line */
+		
+		.line {
+			position: relative;
+			background-color: black;
+			width: 1120px;
+			height: 3.5px;
+			left: 35px;
+		}
+		.line-1 {
+			position: relative;
+			background-color: black;
+			width: 1120px;
+			height: 3.5px;
+			top: 150px;
+			left: 35px;
+		}
+		.line-2 {
+			position: relative;
+			background-color: black;
+			width: 1200px;
+			height: 3.5px;
+			top: 97px;
+		}
+		.line-3 {
+			position: relative;
+			background-color: black;
+			width: 1200px;
+			height: 3.5px;
+		}
+
+		
+		
+		/* images */
+		
+		.img-4 {
+			background-size: cover;
+			position: relative;
+		}
+		.img-5 {
+			position: relative;
+			background-size: cover;
+		}
+		
+		.img-7 {
+			background-size: cover;
+			position: relative;
+		}
+		
+		/* footnotes */
+		
+		.one {
+			position: relative;
+			font-size: 12px;
+			font-weight: bold;
+			bottom: 20px;
+			left: 226px;
+		}
+		.one:hover {
+			color: gainsboro
+		}
+		.two {
+			position: relative;
+			font-size: 12px;
+			font-weight: bold;
+			bottom: 32px;
+			left: 335px;
+		}
+		.two:hover {
+			color: gainsboro
+		}
+		.three {
+			position: relative;
+			font-size: 12px;
+			font-weight: bold;
+			bottom: 44px;
+			left: 428px;
+		}
+		.three:hover {
+			color: gainsboro
+		}
+		.four {
+			position: relative;
+			font-size: 12px;
+			font-weight: bold;
+			bottom: 56px;
+			left: 590px;
+		}
+		.four:hover {
+			color: gainsboro
+		}
+		.five {
+			position: relative;
+			font-size: 12px;
+			font-weight: bolder;
+			bottom: 68px;
+			left: 720px;
+		}
+		.five:hover {
+			color: gainsboro
+		}
+		.six {
+			position: relative;
+			font-size: 12px;
+			font-weight: bold;
+			bottom: 80px;
+			left: 854px;
+		}
+		.six:hover {
+			color: gainsboro
+		}
+		
+	</style>
+</head>
+<body>
+
+
+
+	<div class="grid-container white">
+   
+	   <ul class="nav">
+  		<li class="home"><a href="index.html">HOME</a></li>
+  		<li class="information"><a href="information.html">INFORMATION</a></li>
+			<li class="schedule"><a href="schedule.html">SCHEDULE</a></li>
+			<li class="speakers"><a href="speakers.html">SPEAKERS</a></li>
+     
+     
+     <div class="head white col-12 h-550"><div class="title-1">ABOUT SPEAKERS</div>
+		<div class="title-2">/ADVISERS</div><div class="date">MAY 01 (4 -10PM)</div>
+		<div class="address-1">Saatchi &amp; Saatchi, New York City,</div>
+		<div class="address-2">New York, United States</div><div class="name-1">01. Anna Wintour</div>
+		</div>   
+		
+	 <div class="row">
+		
+		
+		<div class="img-4 white"><img class="img-4" src="images/img-4.png"></div>
+		
+		<div class="white col-12 h-300">
+			<div class="uppercase">ANNA WINTOUR</div>
+			<div class="editor">Vogue Magazine<br> Editor in Cheif</div>
+			<div class="time">(4PM)</div>
+			<div class="line"></div>
+			<p class="article">Anna Wintour is best known as the influential editor-in-chief of Vogue magazine, and for her iconic page-<br>boy haircut and large sunglasses. In 2013, she became artistic director for Condé Nast, Vogue's publisher.<br> Wintour has become an important figure in much of the fashion world, widely praised for her eye for fashion-<br> trends and her support for younger designers. Her reportedly aloof and demanding personality has<br> earned her the nickname "Nuclear Wintour".</p>
+			<div class="name-2">02. Laura Brown</div>
+		</div>
+		
+		<div class="img-5 "><img class="img-5" src="images/img-5.jpg">	
+		</div>
+		
+		<div class="white col-12 h-300">
+		 <div class="uppercase">LAURA BROWN</div>
+		 <div class="editor">Instyle Magazine<br> Editor in Cheif</div>
+		 <div class="time">(6pm)</div>
+		 <div class="line"></div>
+		 <p class="article">Amid much industry speculation, Laura Brown, the executive director of Harper’s Bazaar, has been named<br>editor in chief of InStyle. She was a featured judge alongside Iman and Isaac Mizrahi on Bravo’s The Fashion<br> Show and appears regularly on programs including Good Morning America Today, and CNN American<br> Morning. </p>
+		 <div class="name-3">03. Roberta Myers</div>
+		 </div>
+		
+		<div class="img-6 h-950 white"><img src="images/img-6.png"></div>
+		
+		<div class="white col-12 h-500">
+			<div class="uppercase-1">ROBERTA MYERS</div>
+			<div class="editor-1">Magazine of Elle<br>Editor in Cheif</div>
+			<div class="time-1">(8pm)</div>
+			<div class="line-1"></div>
+			<p class="article-1">Roberta "Robbie" Myers  is the editor-in-chief and vice president of brand content of the US edition of the<br> fashion magazine Elle. Myers was named editor-in-chief of ELLE magazine in May 2000. Myers is also re-<br>sponsible for content creation across all ELLE platforms. Prior to joining ELLE, Myers worked at Mirabella<br> magazine, where she had been the editor-in-chief since April 1998.</p>
+			<p class="article-2">Before Mirabella, she was a senior articles editor at ELLE; a senior editor at InStyle, where she worked on the<br> start-up of the Time Inc. launch; and editor-in-chief of Tell. She was managing editor at Seventeen. She also<br>worked at Interview, for Andy Warhol, and began her career at Rolling Stone.</p>
+		</div>
+		
+			<div class="img-7 white col-12 h-100">
+				<div class="line-2"></div>
+				
+				<div class="location">LOCATION<br>OF TALKS</div>
+				<div class="address-3">Saatchi & Saatchi,<br>New York City,<br>United States</div>
+			</div>
+			
+			
+			<img src="images/img-7.png">
+			<div class="line-3"><div class="map white col-12 h-120"></div>
+			<div class="one">CONTACT US</div>
+			<div class="two">SUBSCRIBE</div>
+			<div class="three">EVENTS &amp;  PROMOTION</div>
+			<div class="four">DIGITAL EDITION</div>
+			<div class="five">ABOUT OUR ADS</div>
+			<div class="six">CUSTOMER SERVICE</div>
+			</div>
+			
+			
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	 </div>
+	</div>
+</body>
+</html>
+	

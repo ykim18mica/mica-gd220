@@ -1,0 +1,143 @@
+.blood1 {
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+
+0%   {
+/*-----ADJUST ME----*/
+width: 80vh;
+height: 80vh;
+left: 10vh;
+top: 0vh;
+opacity: 0;
+/*-----ADJUST ME----*/}
+
+50%  {
+/*-----ADJUST ME----*/
+width: 100vh;
+height: 100vh;
+left: -20vh;
+top: -20vh;
+opacity: 1;
+/*-----ADJUST ME----*/
+    }
+    
+    100% {
+/*-----ADJUST ME----*/
+width: 80vh;
+height: 80vh;
+left: 0vh;
+top: 0vh;
+opacity: 0;
+/*-----ADJUST ME----*/
+}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+
+0%   {
+/*-----ADJUST ME----*/
+width: 80vh;
+height: 80vh;
+left: 0vh;
+top: 0vh;
+opacity: 0;
+/*-----ADJUST ME----*/
+}
+
+50%  {
+/*-----ADJUST ME----*/
+width: 100vh;
+height: 100vh;
+left: -20vh;
+top: -20vh;
+opacity: 1;
+/*-----ADJUST ME----*/
+}
+    
+    100% {
+/*-----ADJUST ME----*/
+width: 80vh;
+height: 80vh;
+left: 0vh;
+top: 0vh;
+opacity: 0;
+/*-----ADJUST ME----*/
+}
+    
+/*-----next----*/
+
+.blood2 {
+    -webkit-animation: mymoves 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymoves5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymoves {
+
+0%   {
+/*-----ADJUST ME----*/
+width: 80vh;
+height: 80vh;
+left: 10vh;
+top: 0vh;
+opacity: 0;
+/*-----ADJUST ME----*/}
+
+50%  {
+/*-----ADJUST ME----*/
+width: 100vh;
+height: 100vh;
+left: -20vh;
+top: -20vh;
+opacity: 1;
+/*-----ADJUST ME----*/
+    }
+    
+    100% {
+/*-----ADJUST ME----*/
+width: 80vh;
+height: 80vh;
+left: 0vh;
+top: 0vh;
+opacity: 0;
+/*-----ADJUST ME----*/
+}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+
+0%   {
+/*-----ADJUST ME----*/
+width: 80vh;
+height: 80vh;
+left: 0vh;
+top: 0vh;
+opacity: 0;
+/*-----ADJUST ME----*/
+}
+
+50%  {
+/*-----ADJUST ME----*/
+width: 100vh;
+height: 100vh;
+left: -20vh;
+top: -20vh;
+opacity: 1;
+/*-----ADJUST ME----*/
+}
+    
+    100% {
+/*-----ADJUST ME----*/
+width: 80vh;
+height: 80vh;
+left: 0vh;
+top: 0vh;
+opacity: 0;
+/*-----ADJUST ME----*/
+}

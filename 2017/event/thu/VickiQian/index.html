@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Third Dimension</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+      .connect{
+        color: black;
+      }
+      .container{
+        height: 675px;
+      }
+      .agenda,.speakers,.about{
+        color:black;
+      }
+      .movingbox{
+        position:fixed;
+        animation: bigger 8s infinite linear;
+        transform-origin: center;
+        z-index: 1;
+      }
+      @keyframes bigger{
+        0%{
+          transform: scale(1);
+        }
+        50%{
+          transform: scale(5);
+        }
+        100%{
+          transform: scale(1);
+        }
+        
+      }
+      /*
+      @keyframes bigger{
+        14.28%{width: 200px; height: 112.5px; }
+        28.57%{width: 601px; height: 338.06px;}
+        48.86%{width: 1001px; height: 563.06px;}
+        57.14%{width: 1199.5px; height: 674.5px;}
+        71.43%{width: 1001px; height: 563.06px;}
+        85.71%{width: 601px; height: 338.06px;}
+        100%{width: 200px; height: 112.5px;}
+      }
+    </style>
+  </head>
+  
+  <body>
+    <!--general style for landing pg -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+    <style>
+      .cls-1{fill:none;stroke:#000;}
+      .cls-1,.cls-2{stroke-miterlimit:10;}
+      .cls-2{stroke:none;fill:black;}
+      .cls-3{font-size:32px;fill:white;font-family:Helvetica, sans-serif;}
+      .cls-4{letter-spacing:-0.02em;}
+    </style>
+     
+      <g id="line" data-name="line">
+        <rect class="cls-1" x="299.5" y="168.47" width="601" height="338.06"/>
+        <rect class="cls-1" x="99.5" y="55.97" width="1001" height="563.06"/>
+        <line class="cls-1" x1="-0.5" y1="-0.5" x2="1199.5" y2="674.5"/>
+        <line class="cls-1" x1="1199.5" y1="-0.5" x2="-0.5" y2="674.5"/>
+        <g class="movingbox" position="fixed"><rect class="cls-2" x="500" y="281.25" width="200" height="112.5"/>
+        <text class="cls-3" transform="translate(514.26 331.79)">THE<tspan class="cls-4" x="64" y="0"> </tspan><tspan x="72.33" y="0">THIRD </tspan><tspan x="-5.63" y="38.4">DIMENSION</tspan></text></g>
+      </g>
+    </svg>
+    
+      <!--links to pages -->
+        <a class="about col-1" href="about.html">ABOUT</a>
+        <a class="speakers col-12" href="speakers.html">SPEAKERS</a>
+        <a class="agenda col-1" href="agenda.html">AGENDA</a>
+  </body>
+</html>

@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Show Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    
+    <style>
+			
+			@keyframes appear {
+				 0% { opacity: 0.0; visibility: visible;}
+				20% { opacity: 0.4; visibility: visible;}
+       100% { opacity: 1.0; visibility: visible;}
+			}
+			@keyframes movedown {
+        from {top:0px}
+        to{top:750px}  
+      }
+			@keyframes movedown2 {
+        from {top:200px}
+        to{top:900px}  
+      }
+			@keyframes spin {
+				100% {transform:rotate(360deg)}
+			}
+			.ad {
+				position:absolute; 
+				top:1372px; 
+				left:40px;
+				font-family: 'Roboto', sans-serif;
+				font-weight: 400;
+				font-size: 13px;
+			}
+			.web{
+				position:absolute; 
+				top:1370px; 
+				left:800px;
+				font-family: 'Roboto', sans-serif;
+				font-weight: 400;
+				font-size: 13px;
+			}
+			.director {
+				position:fixed;
+				top:100px;
+				left:10px;
+				font-size: 35px;
+				transform: rotate(90deg);
+				color:black;
+				font-family: 'Roboto', sans-serif;
+				letter-spacing: 4px;	
+				font-weight: 500;
+			 }
+			.director-2 {
+				position:fixed;
+				top:250px;
+	      left:25px;
+				font-size: 35px;
+				transform: rotate(90deg);
+				color:black;
+				font-family: 'Roboto', sans-serif;
+				letter-spacing: 4px;	
+				font-weight: 500;
+			 }
+			.in {
+				font-family: 'Roboto', sans-serif;
+				letter-spacing: 2px;
+				font-size: 20px;
+				font-weight: 500;
+				transform: rotate(90deg);
+				position:fixed;
+				top:128px;
+	      left:205px;
+				
+				
+			 }
+			
+		
+			
+			
+			.six {
+				 position:relative;
+				 height:600px; 
+				 background-color:rgb(172,191,205); 
+				 animation: movedown 4s infinite;
+			}
+			.six:hover{
+				background-color: transparent;
+			}
+			.seven {
+				 position:relative;
+				 height:1000px; 
+				 background-color:rgb(172,191,205); 
+				 z-index: 2;
+				 animation: appear 4s infinite; 
+			}
+			.seven:hover{
+				background-color: transparent;
+			}
+			.eight {
+				 position:relative;
+				 height:600px; 
+				 background-color:rgb(234,231,230);
+				 animation: movedown 5s infinite;
+			}
+			.eight:hover{
+				background-color: transparent;
+			}
+			.nine {
+				 position:relative;
+				 height:1000px; 
+				 background-color:rgb(234,231,230); 
+				 z-index: 2;
+				 animation: appear 4s infinite; 
+				 
+			}
+			.nine:hover{
+				visibility: hidden;
+				animation-play-state: paused;
+				}
+			.ten {
+				 position:relative;
+				 height:700px; 
+				 background-color:rgb(237,252,239);
+				 animation: movedown 6s infinite;
+			}
+			.ten:hover{
+				background-color: transparent;
+			}
+			.eleven {
+				 position:relative;
+				 height:1000px; 
+				 background-color:rgb(237,252,239);
+				 z-index: 2;
+				 animation: appear 4s infinite; 
+			}
+			.eleven:hover{
+				background-color: transparent;
+			}
+			
+			.twelve {
+				 position:relative;
+				 height:700px; 
+				 background-color:rgb(172,191,205);
+				 animation: movedown 4s infinite;
+				 
+			}
+			.twelve:hover{
+				background-color: transparent;
+			}
+			
+		  .thirteen {
+				 position:relative;
+				 height:1000px; 
+				 background-color:rgb(172,191,205);
+				 z-index: 2;
+				 animation: appear 4s infinite;
+			}
+			.thirteen:hover{
+				background-color: transparent;
+			}
+			.fourteen {
+				position:relative;
+				height:700px; 
+				background-color:rgb(234,231,230);
+				animation: movedown 5s infinite;	
+			}
+			.fourteen:hover{
+				background-color: transparent;
+			}
+			.fifteen {
+				position:relative;
+				height:1000px; 
+				background-color:rgb(234,231,230);
+				z-index: 2;
+				animation: appear 4s infinite;  
+				
+			}
+			.fifteen:hover{
+				background-color: transparent;
+			
+			}
+		   
+			.info1{
+			  width: 400px;
+        border: 2px solid grey;
+				position:absolute;
+				top:450px;
+				left:420px;
+				transform: rotate(90deg);
+				font-size: 25px;
+				font-family: 'Roboto', sans-serif;
+				padding-left: 50px;
+				animation: movedown2 4s infinite; 
+			}
+			.info1:hover{
+				animation-play-state: paused;
+			}
+			.info1:hover+.alice{
+				animation-play-state: paused;
+			}
+			
+			.info2{
+			  width: 600px;
+        border: 2px solid grey;
+				position:absolute;
+				top:450px;
+				left:590px;
+				transform: rotate(90deg);
+				font-size: 25px;
+				font-family: 'Roboto', sans-serif;
+				padding-left: 50px;
+				animation: movedown2 5s infinite; 
+       }
+			.info2:hover{
+				animation-play-state: paused;
+			}
+			.info2:hover+.bride{
+				animation-play-state: paused;
+			}
+			.info3{
+			  width: 400px;
+        border: 2px solid grey;
+				position:absolute;
+				top:350px;
+				left:310px;
+				transform: rotate(90deg);
+				font-size: 25px;
+				font-family: 'Roboto', sans-serif;
+				padding-left: 30px;
+				animation: movedown2 6s infinite; 
+       }
+			.info3:hover{
+				animation-play-state: paused;
+			}
+			.info3:hover+.swallowtail{
+				animation-play-state: paused;
+			}
+			 
+			.info4{
+			  width: 400px;
+        border: 2px solid grey;
+				position:absolute;
+				top:400px;
+				left:560px; 
+				transform: rotate(90deg);
+				font-size: 25px;
+				font-family: 'Roboto', sans-serif;
+				padding-left: 50px;
+				z-index: 1;
+				animation: movedown2 4s infinite; 
+       }
+			.info4:hover{
+				animation-play-state: paused;
+			}
+			.info4:hover+.loveletter{
+				animation-play-state: paused;
+			}
+			
+			.info5{
+				width: 680px;
+        border: 2px solid grey;
+				position:absolute;
+				top:400px;
+				left:40px;
+				transform: rotate(90deg);
+				font-size: 25px;
+				font-family: 'Roboto', sans-serif;
+				letter-spacing: 2px;
+				padding-left: 70px;
+				animation: movedown2 5s infinite; 
+			}
+			
+			.info5:hover{
+				animation-play-state: paused;
+			}
+			.info5:hover+.lilychou{
+				animation-play-state: paused;
+			}
+			
+			.alice {
+				position:fixed;
+				top:30px;
+				left:118px;
+				border-radius:50%;
+				width:100px;
+				height:100px;
+				animation: spin 4s linear infinite;
+				}
+			
+			.bride {
+				position:fixed;
+				top:120px;
+				left:118px;
+				border-radius:50%;
+				width:100px;
+				height:100px;
+				animation: spin 4s linear infinite;
+			}
+			
+			.lilychou {
+				position:fixed;
+				top:200px;
+				left:117px;
+				border-radius:50%;
+				width:100px;
+				height:100px;
+				animation: spin 4s linear infinite;
+			}
+			
+			
+			.swallowtail{
+				position:fixed;
+				top:280px;
+				left:116px;
+				border-radius:50%;
+				width:100px;
+				height:100px;
+				animation: spin 4s linear infinite;
+			}
+			
+			.swallowtail:hover + .info3{
+				animation-play-state: paused;
+			}
+			.loveletter {
+			  position:fixed;
+				top:370px;
+				left:115px;
+				border-radius:50%;
+				width:100px;
+				height:100px;
+				animation: spin 4s linear infinite;
+			}
+			
+			
+			.name {
+				
+			  position:fixed;
+				left:52px;
+				top:380px;
+				color:black; 
+				letter-spacing: 410px;	
+				font-weight: 700;
+				font-size:18px;
+			  animation: appear 4s infinite;  
+			}
+			.lilyjapan{
+				position:absolute;
+				top:250px;
+				left:440px;
+				z-index: 1; 
+			}
+			.swallowtailjapan {
+				position:absolute;
+				top:250px;
+				left:560px;
+				z-index: 1; 
+			}
+			.alicejapan{
+				position:absolute;
+				top:250px;
+				left:690px;
+				z-index: 1;
+			}
+			.loveletterjapan{
+				position:absolute;
+				top:250px;
+				left:820px;
+				z-index: 1;
+			}
+			
+			.bridejapan{
+				position:absolute;
+				top:250px;
+				left:950px;
+				z-index: 1;
+			}
+			
+			   
+    </style>
+  </head>
+  <body>
+   
+    <div class="grid-container">
+			
+			<div class="row">
+				<div class="col-1 one"></div>
+			  <div class="col-1 two"></div>
+				<div class="col-1  three"></div>
+				<div class="col-1 four"></div>
+				<div class="col-1 five"></div>
+				<div class="col-1 six"></div>
+				<div class="col-1 seven"></div>
+				<div class="col-1 eight"></div>
+				<div class="col-1 nine"></div>
+				<div class="col-1 ten"></div>
+				<div class="col-1 eleven"></div>
+				<div class="col-1 twelve"></div>
+				<div class="col-1 thirteen"></div>
+				<div class="col-1 fourteen"></div>
+				<div class="col-1 fifteen"></div>
+				<div class= "director ">Shunji </div>
+				<div class= "director-2 "> Iwai</div>
+				
+				
+			  
+				</div>
+			  
+			
+			<div class="row">
+				<div class="info1"> HANA & ALICE  3.10/ 7PM</div>
+			  <img class="alice" src="image/alice.jpg">
+				
+				<div class="info2">A BRIDE FOR RIPVAN WINKLE   3.11 / 7PM</div>
+				<img class="bride" src="image/bride.jpg">
+				
+				<div class="info5">ALL ABOUT LILY CHOU-CHOU  3.14 / 7PM</div>
+				<img class="lilychou" src="image/yellow.jpg">
+				
+				<div class="info3">SWALLOWATAILL  3.12 / 7PM</div>
+				<img class="swallowtail" src="image/Swallowtail.jpg">
+				
+				<div class="info4">LOVE LETTER 3.13 / 7PM</div>
+				<img class="loveletter" src="image/loveletter.png">
+				
+				
+			  <div class="ad">The Charles Theatre, 1711 N Charles St, Baltimore, MD 21201</div>
+				<div class="web"> <a href="http://thecharles.com/"> http://thecharles.com/</a> </div>
+				
+				
+			</div>
+			
+			<div class="row">
+			 <div class="name">岩<br>井<br> 俊<br>二 </div>
+			 <div class="in">Pick & Search </div>
+			 <div class="lilyjapan">リ<br>リ<br>イ<br>・<br>シ<br>ュ<br>シ<br>ュ<br>の<br>す<br>べ<br>て</div>
+			 <div class="swallowtailjapan">ス<br>ワ<br>ロ<br>ウ<br>テ<br>イ<br>ル</div>
+			 <div class="alicejapan">花<br>と<br>ア<br>リ<br>ス</div>
+			 <div class="loveletterjapan">ラ<br>ヴ<br>レ<br>タ<br>ー</div>
+				<div class="bridejapan">リ<br>ッ<br>プ<br>ヴ<br>ァ<br>ン<br>ウ<br>ィ<br>ン<br>ク<br>ル<br>の<br>花<br>嫁<br></div>
+			
+			
+			</div>
+			
+    </div>
+    
+    
+  </body>
+</html>

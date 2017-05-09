@@ -1,0 +1,495 @@
+/*
+DO NOT ADD ANYTHING ON THIS FILE!!!
+Add your own css on index.html
+*/
+
+/*-- all elements will use border-box --*/
+html {
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+*, :before, :after {
+  box-sizing: inherit; 
+}
+
+/*-- container for all the columns --*/
+.grid-container{
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  min-width: 1140px;
+  margin: 0 auto;
+	position: relative; /* this is needed for any children to use position absolute */
+  overflow: hidden;
+  font-size: 2vw;
+  font-family: "Avenir", sans-serif;
+}
+
+/*-- our cleafix hack -- */ 
+.row:before, 
+.row:after {
+  content:"";
+  display: table ;
+  clear:both;
+}
+
+[class*='col-'] {
+  float: left; 
+  min-height: 1px; 
+  width: 8.33%; 
+    
+  /*-- our gutter -- */
+  padding: 0 0px; /* top-bottom right-left */
+}
+
+
+/*--slides--*/
+.slides-edit {
+  box-shadow: 0px 0px 30px lightgray;
+  height: 380px;
+  margin: 0 auto;
+}
+.info{
+  box-shadow: 0px 0px 30px lightgray;
+  background-color: #f9f9f9;
+  padding: 24px;
+  padding-bottom: 36px;
+  min-width: 460px;
+}
+.scroll {
+  position: absolute;
+  width: 90px;
+  height: 15px;
+  left: 45%;
+  bottom: 43px;
+}
+
+/*-- columns with different widths --*/
+.col-1{ width: 12.5%; }
+.col-2{ width: 25%; }
+.col-3{ width: 37.5%; }
+.col-4{ width: 50%; }
+.col-5{ width: 62.5%; }
+.col-6{ width: 75%; }
+.col-7{ width: 87.5%; }
+
+
+/*-- use thse to offset columns --*/
+.col-offset-1 { margin-left: 12.5%; }
+.col-offset-2 { margin-left: 25%; }
+.col-offset-3 { margin-left: 37.5%; }
+.col-offset-4 { margin-left: 50%; }
+.col-offset-5 { margin-left: 62.5%; }
+.col-offset-6 { margin-left: 75%; }
+.col-offset-7 { margin-left: 87.5%; }
+
+/*-- padding --*/
+.p-top8 {padding-top: 10px}
+.p-top16 {padding-top: 16px}
+.p-top24 {padding-top: 24px}
+.m-top40 {margin-top: 40px}
+.p-left8 {padding-left: 8px}
+.p-left16 {padding-left: 16px}
+.p-left24 {padding-left: 24px}
+.p-right8 {padding-right: 8px}
+.p-right16 {padding-right: 16px}
+.p-right24 {padding-right: 24px}
+.p-bottom8 {padding-bottom: 8px}
+.p-bottom16 {padding-bottom: 16px}
+.p-bottom24 {padding-bottom: 24px}
+
+/*-- margins --*/
+.m-top10 {margin-top: 10px}
+.m-top20 {margin-top: 20px}
+.m-left10 {margin-left: 10px}
+.m-left20 {margin-left: 20px}
+.m-right10 {margin-right: 10px}
+.m-right20 {margin-right: 20px}
+.m-bottom10 {margin-bottom: 10px}
+.m-bottom20 {margin-bottom: 20px}
+
+/*-- helpers --*/
+.test,
+.outline { outline: 1px solid red; }
+
+
+
+/*-- text styles --*/
+.sans-small {
+  font-family: "Avenir", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: black; 
+}
+
+.capitalize {
+  text-transform: uppercase;
+}
+
+.underline-black {
+  border-bottom: solid 2px #000;
+}
+
+.body-med a {
+  border-bottom: solid 2px #ff552f;
+  color: #ff552f;
+  text-decoration: none;
+}
+
+.sans-large {
+  font-size: 72px;
+  font-weight: 500;
+}
+
+.sans-med {
+  font-size: 44px;
+  font-weight: 500;
+}
+
+.emphasis {
+  font-family: "Avenir", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ff552f;
+}
+
+.subhead {
+  font-family: "Avenir", sans-serif;
+  color: #000;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.emphasis2 {
+  font-family: "Avenir", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+}
+
+
+
+/*-- navigation --*/
+.nav {
+  position: fixed;
+  width: 100%;
+  padding-top: 24px;
+  padding-left: 40px;
+  height: 56px;
+  background-color: #f9f9f9;
+  border-bottom: 2px solid #f9f9f9; 
+  z-index: 3;
+}
+
+.nav a {
+  color: black;
+  text-decoration: none; 
+} 
+
+.nav-pages {
+  position: absolute;
+  right: 0%;
+  padding-right: 44px;
+  top: 24px;
+}
+
+.home-link {
+  text-transform: uppercase;
+  padding-bottom: 2px;
+  border-bottom: 2px solid black;
+}
+
+.nav a:hover {
+  padding-bottom: 2px;
+  border-bottom: 2px solid black;
+}
+
+
+/*-- home page specifics --*/
+.actual-home{
+  width: 100%;
+  margin: auto 0;
+  
+}
+
+.home-text {
+  width: 100%;
+  font-weight: 500;
+  line-height: 1.05;
+  font-size: 7.35vw;
+  padding-left: 2.4vw;
+  padding-right: 30px;
+  padding-top: 50px;
+  height: 100vh;
+  font-family: 'Krona One';
+}
+
+.vid-container {
+  position: absolute;
+  width: 49vw;
+  height: 26vw;
+  top: 160px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px 2px lightgray;
+}
+
+.vid {
+  width: 140%;
+  height: 130%;
+  transform: translate(-14%,-7%);
+  z-index; 1;
+}
+
+.gradient1-img {
+  background-image: url(images/gradient-home11.png);
+  background-size: cover;
+  background-position: bottom;
+}
+ 
+.home-gradient {
+  position: absolute;
+  bottom: -2px;
+  height: 90%;
+  width: 100%;
+  z-index: 3;
+}
+
+.gradient2-img {
+  background-image: url(images/gradient-home16.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.page-gradient {
+  position: absolute;
+  bottom: -2px;
+  height: 200px;
+  width: 100%;
+  z-index: 3;
+}
+
+
+/*-- globe logo --*/
+.globe {
+  position: absolute;
+  right: 44px;
+  bottom: 44px;
+  width: 48px;
+  height: 48px;
+}
+
+.globe-img {
+  background-image: url(images/globe2.png);
+  background-size: cover;
+}
+
+
+
+/*-- speaker pages --*/
+.speaker-title {
+  position: absolute;
+  top: 100px;
+  left: 34px;
+}
+
+.speaker-intro {
+  position: relative;
+  height: 440px;
+  top: 10px;
+  left: 40px;
+}
+
+  .scroll {
+  position: absolute;
+  width: 106px;
+  height: 19.8px;
+  left: 45%;
+  bottom: 43px;
+}
+
+.schedule {
+  position: relative;
+  height: 464px;
+  left: 40px;
+  top: 10px;
+  padding-left: 100px;
+  padding-right: 60px;
+  margin-left: 100px;
+  border-left: 2px solid black;
+}
+
+.speaker-title2 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 40px;
+  color: black;
+} 
+
+.speakers {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56px;
+  line-height: 1.5em;
+}
+
+.body-text {
+  position: relative;
+  width: 100%;
+}
+
+.schedule-title {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.talk-module {
+  font-size: 18px;  
+  line-height: 1.4em;
+  padding-bottom: 18px;
+}
+
+.speaker-time {
+  position: absolute;
+  bottom: 60px;
+  line-height: 1.6em;
+  left: 40px;
+}
+
+
+/*--about page--*/
+.about {
+padding-bottom: 2px;
+border-bottom: 2px solid black;
+}
+
+.about1 {
+  padding-right: 90px;
+  height: 400px;
+  padding-left: 10px;
+  margin-left: 40px;
+  margin-top: 130px;
+  line-height: 1.5;
+  border-right: 2px solid black;
+}
+
+.about2 {
+  height: 440px;
+  margin-left: 40px;
+  margin-top: 130px;
+  padding-left: 40px;
+}
+
+/*--location--*/
+.location1 {
+  position: relative;
+  height: 220px;
+  width: 520px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 30px lightgray;
+}
+
+.location2 {
+  position: relative;
+  height: 220px;
+  margin-top: 20px;
+  width: 430px;
+  box-shadow: 0px 0px 30px lightgray;
+  margin-bottom: 30px;
+}
+
+.l1-container {
+  position: relative;
+  top: 100px;
+  left: 40px;
+  height: 460px;
+}
+
+.l2-container {
+  position: relative;
+  top: 100px;
+  height: 470px;
+  left: 30px;
+  border-left: 2px solid black;
+  padding-left: 80px;
+  padding-right: 160px;
+}
+
+.location-text {
+  position: relative;
+  padding-right: 40px;
+}
+
+.detail {
+  padding-top: 1px;
+  padding-right: 60px;
+}
+
+
+/*--images--*/
+
+.location1-img {
+  background-image: url(images/truman.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.location2-img {
+  background-image: url(images/earth.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.iam-1-img {
+  background-image: url(images/iAM-1.jpg);
+  background-size: cover;
+}
+
+.iam-2-img {
+  background-image: url(images/iAM-2.png);
+  background-size: cover;
+}
+
+.iam-3-img {
+  background-image: url(images/iAM-3.jpg);
+  background-size: cover;
+}
+
+.jo-1-img {
+  background-image: url(images/joanna-1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.jo-2-img {
+  background-image: url(images/joanna-2.jpg);
+  background-size: cover;
+  background-position: center;
+} 
+
+.hito-1-img {
+  background-image: url(images/hito-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hito-2-img {
+  background-image: url(images/hito-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hito-3-img {
+  background-image: url(images/hito-3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.scroll-img {
+  background-image: url(images/scroll.png);
+  background-size: contain;
+}
+
+
+
+

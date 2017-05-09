@@ -1,0 +1,572 @@
+<!Doctype html>
+
+<html>
+<head>
+	<meta>
+	<title>Chinese Film Poster Festival</title>
+	
+	
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,700,700i,900,900i" rel="stylesheet">
+</head>
+<style>
+	
+	
+	
+			.grid-container {
+				width: 1200px;
+				height: 3800px;
+				margin: 0 auto;
+				position: relative;
+  			overflow: auto; /*clearfix*/
+			}
+			.h-651{
+				height: 651px;
+			}
+			.h-807{
+				height: 807px;
+			}
+			.h-900{
+				height: 900px;
+			}
+			.h-818{
+				height: 818px;
+			}
+	    .h-624{
+				height: 624px;
+	    }
+	
+	.img-1{
+	  background-image: url(images/images/home-background_01.jpg);
+	  background-size: cover;
+			}
+	.img-2{
+	  background-image: url(images/images/home-background_02.jpg);
+	  background-size: cover;
+			}
+	.img-3{
+		background-image: url(images/images/home-background_03.jpg);
+		background-size: cover;
+	    }
+	.img-4{
+		background-image: url(images/images/home-background_04.jpg);
+		background-size: cover;
+	    }
+	.img-5{
+		background-image: url(images/images/home-background_05.jpg);
+		background-size: cover;
+	    }
+	
+	/*first title part*/
+	.ling1{
+		z-index: 2;
+		position: absolute;
+		top: 240px;
+		left: 670px;
+	}
+	
+	/*huanghai part*/
+	.hh2{
+		z-index: 2;
+		top: 830px;
+		left: 230px;
+		position: absolute;
+	}
+	
+	.hh2 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	}
+	.hh2 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	}
+	
+	.ling1-1{
+		z-index: 1;
+		top: 845px;
+		left: 200px;
+		position: absolute;
+	}
+	.ling3-1{
+		z-index: 1;
+		top: 1148px;
+		left: 272px;
+		position: absolute;
+	}
+	.hh3{
+		z-index: 2;
+		top: 763px;
+		left: 840px;
+		position: absolute;
+	}
+	
+	.hh3 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	}
+	.hh3 figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	}
+	
+	.ling2-1{
+		z-index: 1;
+		top: 780px;
+		left: 900px;
+		position: absolute;
+	}
+	.hh4{
+		z-index: 2;
+		top: 1185px;
+		left: 840px;
+		position: absolute;
+	}
+	
+	.hh4 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	}
+	.hh4 figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	}
+	
+	
+	.ling2-2{
+		z-index: 1;
+		top: 1200px;
+		left: 900px;
+		position: absolute;
+	}
+	
+	/*jiangwen part*/
+	.jiangwen{
+		z-index: 2;
+		top: 1585px;
+		left: 720px;
+		position: absolute;
+	}
+	
+	.jiangwen figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	}
+	.jiangwen figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	}
+	
+	.ling1-j1{
+		z-index: 1;
+		top: 1600px;
+		left: 830px;
+		position: absolute;
+	}
+	.ling3-j1{
+		z-index: 1;
+		top: 1903px;
+		left: 902px;
+		position: absolute;
+	}
+	.yl-1{
+		z-index: 3;
+		top: 1940px;
+		left: 968px;
+		position: absolute;
+	}
+	.jw1{
+		z-index: 3;
+		top: 1480px;
+		left: 135px;
+		position: absolute;
+	}
+	
+	.jw1 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	}
+	.jw1 figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	}
+	
+	.ling2-j1{
+		z-index: 2;
+		top: 1500px;
+		left: 150px;
+		position: absolute;
+	}
+	.jw2{
+		z-index: 3;
+		top: 1880px;
+		left: 133px;
+		position: absolute;
+	}
+	
+	.jw2 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	}
+	.jw2 figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	}
+	
+	.ling2-j2{
+		z-index: 2;
+		top: 1900px;
+		left: 150px;
+		position: absolute;
+	}
+	.aiweiwei{
+		z-index: 2;
+		top: 2386px;
+		left: 200px;
+		position: absolute;
+	}
+	
+	.aiweiwei figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	}
+	.aiweiwei figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	}
+	
+	
+	.ling1-a1{
+		z-index: 1;
+		top: 2400px;
+		left: 170px;
+		position: absolute;
+	}
+	.w1{
+		z-index: 2;
+		top: 2290px;
+		left: 775px;
+		position: absolute;
+	}
+	
+	.w1 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	}
+	.w1 figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	}
+	.w2{
+		z-index: 1;
+		top: 2302px;
+		left: 830px;
+		position: absolute;
+	}
+	.w3{
+		z-index: 2;
+		top: 2689px;
+		left: 775px;
+		position: absolute;
+	}
+	
+	.w3 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	}
+	.w3 figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	}
+	
+	.w4{
+		z-index: 1;
+		top: 2702px;
+		left: 830px;
+		position: absolute;
+	}
+	.w6{
+		z-index: 2;
+		top: 2703px;
+		left: 242px;
+		position: absolute;
+	}
+	.w7{
+		z-index: 2;
+		top: 2730px;
+		left: 310px;
+		position: absolute;
+	}
+	.lll{
+		z-index: 2;
+		top: 3200px;
+		left: 250px;
+		position: absolute;
+	}
+	.c2{
+		z-index: 2;
+		top: 3320px;
+		left: 690px;
+		position: absolute;
+	}
+	
+	
+	
+	/*animation*/
+.zoom-effect-container {
+    float: left;
+    position: relative;
+    width: 640px;
+    height: 360px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.image-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image-card img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.zoom-effect-container:hover .image-card img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+	
+
+/*hover*/
+	
+
+
+
+
+
+
+
+
+
+	
+
+</style>
+<body>
+	
+	<div class="grid-container">
+		
+		<div class="row">
+			<div class="col-12 h-651 img-1">
+			
+			</div>
+		</div>
+		<a class="hai" href="huanghai.html"><div class="row">
+			<div class="col-12 h-807 img-2">
+				
+			</div>
+			</div></a>
+		<a class="wen" href="jiangwen.html"><div class="row">
+			<div class="col-12 h-900 img-3">
+				
+			</div>
+			</div></a>
+		<a class="wei" href="aiweiwei.html"><div class="row">
+			<div class="col-12 h-818 img-4">
+				
+			</div>
+			</div></a>
+		<div class="row">
+			<div class="col-12 h-624 img-5">
+				
+			</div>
+		</div>
+		
+	
+	
+	<h1> CHINESE<br> FILM<br> POSTER<br> FESTIVAL<br></h1>
+	<div class="row">
+	<div class="box"></div>
+		<div class="nav">
+		<a  class="home" href="index.html">HOME</a>
+	  <a  class="poster" href="posters.html">POSTERS</a>
+	  <a  class="schedule" href="schedule.html">SCHEDULE</a>
+	  <a  class="contact" href="#c">CONTACT</a>
+	  </div>
+		<p class="date">5/10-5/12</p>
+		
+		
+		<div class="ling1">
+			<img src="images/images/lingxing1.png">
+		</div>
+		
+		
+	</div>
+	<a class="hai" href="huanghai.html"><div class="row">
+		<p class="hh1">
+			HUANG<br>HAI
+		</p>
+		
+				
+  				
+  					
+				
+
+		<div class="hh2">
+		<figure><img src="images/images/huanghai1.png" ></figure>
+		</div>
+		
+
+	
+		<div class="ling1-1">
+			<img src="images/images/lingxing1.png">
+		</div>
+		<p class="quote1">
+			“Everything is in the past. I make new posters every day, and <br>every day I want to be better than the previous day.”
+		</p>
+		<p class="info1">POSTER DESIGNER<br>
+										 VISUAL ARTIST
+		</p>
+		<div class="ling3-1">
+			<img src="images/images/lingxing3.png">
+		</div>
+		<div class="line1">
+			<img src="images/images/yellowline.png">
+		</div>
+		<div class="hh3">
+			<figure><img src="images/images/h1.png"></figure>
+		</div>
+		<div class="ling2-1">
+			<img src="images/images/lingxing2.png">
+		</div>
+		<div class="hh4">
+			<figure><img src="images/images/h2.png"></figure>
+		</div>
+		<div class="ling2-2">
+			<img src="images/images/lingxing2.png">
+		</div>
+	</div></a>
+	<a class="wen" href="jiangwen.html"><div class="row">
+		<div class="jiangwen">
+			<figure><img src="images/images/jiangwen.png"></figure>
+		</div>
+		<div class="ling1-j1">
+			<img src="images/images/lingxing1.png">
+		</div>
+		<p class="j1">JIANG<br>WEN</p>
+		<p class="quote2">“The most important thing about a movie poster is that it needs<br>
+											to express the essence of a movie in the most sublime form, and<br>
+											that it needs to be different for each film. Imagination is the key.”</p>
+		<div class="ling3-j1">
+			<img src="images/images/lingxing3.png">
+		</div>
+		<div class="yl-1">
+			<img src="images/images/yellowline.png">
+		</div>
+		<p class="info-2-1">ACTOR</p>
+		<p class="info-2">
+							SCREEN WRITER<br>
+							FILM DIRECTOR<br></p>
+		<div class="jw1">
+			<figure><img src="images/images/j1.png"></figure>
+		</div>
+		<div class="ling2-j1">
+			<img src="images/images/lingxing2.png">
+		</div>
+		<div class="jw2">
+			<figure><img src="images/images/j2.png"></figure>
+		</div>
+		<div class="ling2-j2">
+			<img src="images/images/lingxing2.png">
+		</div>
+		</div></a>
+	<a class="wei" href="aiweiwei.html"><div class="row">
+		<div class="aiweiwei">
+			<figure><img src="images/images/aiweiwei.png"></figure>
+		</div>
+		<div class="ling1-a1">
+			<img src="images/images/lingxing1.png">
+		</div>
+		<p class="aww1">AI<br>WEIWEI</p>
+		<p class="aww2">"It's disgusting. I don't like anyone who shamelessly abuses<br>
+their profession, who makes no moral judgment."</p>
+		<div class="w1">
+			<figure><img src="images/images/a1.png"></figure>
+		</div>
+		<div class="w2">
+			<img src="images/images/lingxing2.png">
+		</div>
+		<div class="w3">
+			<figure><img src="images/images/a2.png"></figure>
+		</div>
+		<div class="w4">
+			<img src="images/images/lingxing2.png">
+		</div>
+		<p class="w5-1">
+			ACTIVIST
+		</p>
+		<p class="w5">
+			CONTEMPORARY ARTIST<br>
+
+		</p>
+		<div class="w6">
+			<img src="images/images/lingxing3.png">
+		</div>
+		<div class="w7">
+			<img src="images/images/yellowline.png">
+		</div>
+		</div></a>
+	
+	<div class="row" id="c">
+		<p class="c">CONTACT</p>
+		<div class="lll">
+			<img src="images/images/lingxing3.png">
+		</div>
+		<p class="c1">798 District Limited<br>
+Rooms 1008-1010<br>
+Wayson Commercial Building<br>
+No.28 Connaught Road<br>
+West, Hong Kong</p>
+<div class="c2">
+	<img src="images/images/lingxing1.png">
+</div>
+	
+		
+
+<p class="footer1">
+	CHINESE FILM POSTER FESTIVAL
+</p>
+<p class="footer2">
+Fax : (852) 2854-3177<br>
+E-mail : art@798district.com
+</p>
+<p class="footer3">
+	FACEBOOK INSTGRAM TWITTER
+</p>
+	</div>
+		
+	
+	
+ </div>
+
+</body>
+</html>

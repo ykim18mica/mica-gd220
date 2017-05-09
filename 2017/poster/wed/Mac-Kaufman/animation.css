@@ -1,0 +1,30 @@
+.style_prevu_kit:hover{
+		z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+
+.style_prevu_kitt:hover{
+		z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(4);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(4);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(4);
+    transition: all 200ms ease-in;
+    transform: scale(4);
+}
+
+.style:hover {
+    -webkit-transform: translate(50px, 100px);
+    -ms-transform: translate(50px, 100px);   
+    -moz-transform: translate(50px, 100px);
+    transform: translate(20px, 60px);
+}

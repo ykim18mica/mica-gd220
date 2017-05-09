@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>mise-en-scène</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    
+    <style>
+      
+      .top {
+        background-color: cornflowerblue;
+        height: 500px;
+      }
+       
+      .second {
+        background-color: coral;
+        height: 500px;
+      }
+      
+      /* text */
+       
+      html {
+        font-family: "futura", Arial, sans-serif;
+        font-weight: 900;
+        background-color: whitesmoke;
+        color: black;
+      }
+       
+      .location {
+        font-size: 25pt; 
+        font-weight: 500;
+        text-align: center;
+        line-height: 80px;
+        position: relative;
+        color: white
+      }
+       
+      .wesanderson {
+        position: relative;
+        top: 80px;
+        font-size: 80px;
+        text-align: center;
+        color: white;
+        line-height: 120px;
+        letter-spacing: 3px;
+      }
+       
+      .title {
+        font-size: 30px;
+        font-weight: 500;
+        text-align: left;
+        position: relative;
+        color: white;
+      }
+       
+      .name {
+        font-size: 55px;
+        font-weight: 500;
+        text-align: left;
+        position: relative;
+        color: white;
+        line-height: 70px;
+      }
+       
+      .rushmore {
+        font-size: 60px;
+        font-weight: 500;
+        text-align: left;
+        position: relative;
+        color: white;
+        line-height: 70px;
+      }
+       
+      .event-name {
+        text-align: center;
+        font-size: 55px;
+        height: 200px;
+        color:#A3E5DB;
+      }
+       
+      div {
+        position: relative;
+      }
+       
+      .marathon {
+        font-size: 40px;
+        color: lightcyan;
+        text-align: right;
+        animation: gradient 3s infinite;
+      }
+       
+      .poster {
+        height: 600px;
+        position: relative;
+      }
+       
+      a {
+        text-decoration: none;
+        color: rebeccapurple;
+        animation: web-blink 3s steps(2, start) infinite;
+      }
+       
+      .movies {
+        height: 200px;
+        text-align: center;
+        font-size: 18px;
+        top: 20px;
+      }
+       
+      .empty {
+        height: 200px;
+      }
+       
+      .img-1b {
+        animation: glass 2s infinite;
+      }
+       
+      .fish {
+        position: relative;
+        height: 50px;
+        width: 80px;
+      } 
+      
+      .fish-1 {
+        animation: fish 2s forwards;
+      }
+      
+      .fish-2 {
+        animation: fish-2 4s forwards;
+      }
+       
+      .fish-3 {
+        animation: fish-3 3s forwards;
+      }
+      
+      .fish-4 {
+        animation: fish-4 2s forwards;
+      }
+      
+    /* images */
+        
+      .img-1 {
+        background-image: url(images/poster1.png);
+        background-size: cover;
+      }
+       
+      .img-1a {
+        background-image: url(images/poster1a.png);
+        background-size: cover;
+      }
+       
+      .img-1b {
+        background-image: url(images/poster1b.png);
+        background-size: cover;
+      }
+      
+      .img-2 {
+        background-image: url(images/poster2a.png);
+        background-size: cover;
+      }
+        
+      .img-2a {
+        background-image: url(images/poster2.png);
+        background-size: cover;
+      }
+       
+      .img-3 {
+        background-image: url(images/poster3.png);
+        background-size: cover;
+      } 
+      
+      .img-3a {
+        background-image: url(images/poster3a.png);
+        background-size: cover;
+      } 
+      
+      .img-3b {
+        background-image: url(images/poster3b.png);
+        background-size: cover;
+        animation: blink 2.5s infinite;
+      }
+       
+      .img-3c {
+        background-image: url(images/poster3c.png);
+        background-size: cover;
+        animation: blink 2s infinite;
+      }
+      
+      .img-4 {
+        background-image: url(images/poster4.png);
+        background-size: cover;
+      } 
+        
+      .img-4a {
+        background-image: url(images/poster4a.png);
+        background-size: cover;
+      } 
+       
+      .img-4b {
+        background-image: url(images/poster4b.png);
+        background-size: cover;
+        animation: blink 2s infinite;
+      }
+       
+      .img-5 {
+        background-image: url(images/poster5.png);
+        background-size: cover;
+      } 
+       
+      .img-5a {
+        background-image: url(images/poster5a.png);
+        background-size: cover;
+      } 
+      
+      .img-fish1 {
+        background-image: url(images/fish1.png);
+        background-size: contain;
+      }
+       
+      /* animations */
+       
+      @keyframes gradient {
+        0% {color: #A3E5DB; }
+        25% {color: skyblue;}
+        50% {color: coral;}
+        75% {color: orange}
+        100% {color: #F9E47A}
+      }
+       
+      a:hover {
+        color: skyblue;
+        animation: none;
+      }
+      
+      @keyframes web-blink {
+        to {color: lightblue;}
+      }
+      
+      @keyframes blink {
+        0% {opacity: 1;}
+        50% {opacity: 0;}
+        100% {opacity: 1;}
+      }
+      
+      @keyframes glass {
+        0% { transform: rotate(0deg);}
+        50% { transform: rotate(5deg);}
+        100% { transform: rotate(0deg);}
+      }
+       
+      @keyframes fish {
+        0% {left: 0px;}
+        100% {left: 60px;}
+      } 
+      
+      @keyframes fish-2 {
+        0% {left: 0px;}
+        100% {left: 200px;}
+      } 
+       
+      @keyframes fish-3 {
+        0% {right: 50px;}
+        100% {right: 0px;}
+      } 
+      
+      @keyframes fish-4 {
+        0% {right: 100px;}
+        100% {right: 20px;}
+      } 
+      
+      .img-1:hover{
+        background-image: url(images/poster1a.png);
+        background-size: cover;
+      }
+      
+      .img-1b:hover {
+        animation: none;
+      }
+      
+      .img-2:hover{
+        background-image: url(images/poster2.png);
+        background-size: cover;
+      }
+       
+      .img-3:hover{
+        animation: none;
+        background-image: url(images/poster3a.png),
+                          url(images/poster3.png);
+        background-size: cover;
+      }
+       
+      .img-4:hover{
+        background-image: url(images/poster4a.png);
+        background-size: cover;
+        animation: none;
+      }
+       
+      .img-5:hover{
+        background-image: url(images/poster5a.png);
+        background-size: cover;
+      }
+       
+      .img-5:hover .fish {
+        display: none;
+      }
+       
+    </style>
+  </head>
+  <body>
+   
+    <div class="grid-container">	
+      <div class="row top">
+       <div class="row">
+		<div class="top-40 col-12 wesanderson">
+          <h1>WES ANDERSON<br>
+            “mise-en-scène”</h1>
+          <h2 class="marathon col-11">movie marathon</h2>
+        </div>
+        </div>
+      </div>
+      
+      <div class="row second">
+        <div class="col-12 top-15 location">
+        Location: The Charles Theatre <br> 1711 N Charles St, Baltimore, MD 21201<br> <a href="http://thecharles.com"> Website: http://thecharles.com/</a> <br>  Date: March 10th – March 14th
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-12 img-1 poster">
+        <div class="col-6 img-1b poster">
+          </div>
+          <p class="col-6 top-30 rushmore left-10"> RUSHMORE </p>
+          <p class="col-6 top-32 left-25 title"> March 10th  </p>
+          <p class="col-6 top-35 left-30 title">7PM </p>
+        </div>
+      </div>
+       
+      <div class="row">
+        <div class="col-12 img-2 poster"><p class="top-30 left-5 name"> THE GRAND <br> BUDAPEST HOTEL
+          </p>
+          <p class="top-32 col-5 left-10 title"> March 12th – 7PM </p></div>
+      </div>
+       
+      <div class="row">
+        <div class="col-12 img-3 poster"><p class="top-30 left-60 name"> MOONRISE <br> KINGDOM
+          </p>
+          <p class="top-32 col-5 left-60 title"> March 12th – 7PM </p>
+        <div class="img-3"></div>
+          <div class="img-3c bottom-20 poster"></div>
+          <div class="img-3b bottom-110 poster"></div>
+        </div>
+      </div>
+       
+      <div class="row">
+        <div class="col-12 img-4 poster"><p class="top-30 left-10 name"> THE ROYAL <br> TENENBAUMS</p>
+          <p class="top-32 col-5 left-15 title"> March 13th – 7PM </p></div>
+          </div>
+      
+      <div class="row">
+        <div class="col-12 img-5 poster"> 
+          <p class="top-30 left-50 name"> THE LIFE AQUATIC <br> WITH STEVE ZISSOU</p>
+          <p class="top-32 col-5 left-55 title"> March 14th – 7PM </p>
+            <div class="col-1 top-20 img-fish1 fish fish-4"></div>
+            <div class="col-1 img-fish1 fish fish-1"></div>
+            <div class="col-1 left-10 top-60 img-fish1 fish fish-2"></div>
+            <div class="col-1 left-20 img-fish1 fish"></div>
+            <div class="col-1 right-30 bottom-20 img-fish1 fish fish-3"></div>
+            </div> 
+      </div>
+       
+    </div>    
+  </body>
+</html>

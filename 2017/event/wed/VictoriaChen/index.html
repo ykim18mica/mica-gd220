@@ -1,0 +1,367 @@
+<!doctype html>
+<html>
+	<head>
+	 <meta charset="utf-8">
+	 
+	 <title>The power of poster</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC|Didact+Gothic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+	
+	<style>
+		
+		html{
+				background-color: white;
+		}
+		
+	
+		.hello{ color: black;
+				z-index: 3;
+			    position:fixed;
+				font-family: font-family: 'Maven Pro', sans-serif;
+		        text-transform: uppercase;
+				font-size: 100px;
+                left: 430px;				
+				top: 60px;
+			    letter-spacing: 3px;
+			}
+		
+		.information{
+				color: black;
+				font-family: 'Roboto-LightItalic', sans-serif;
+				top: 900px;
+				left: 100px;
+				z-index: 3;
+				position: absolute;
+				font-size: 20px;
+		}
+		
+		.date{
+			    color: gray;
+			    font-family:'Roboto-MediumItalic', sans-serif;
+			    z-index: 4;
+			    position: fixed;
+			    top: 120px;
+			    left: 40px;
+				font-size: 10px;
+				letter-spacing: 3px;
+			}
+			
+		.more{
+			    color:white;
+			    font-family:'VT323', monospace;
+			    z-index: 4;
+			    position: absolute;
+				top: 1155px;
+				left: 100px;
+				letter-spacing: 3px;
+				}
+	
+		ul.nav { 
+				width: 100px;
+				position: absolute;
+		}
+					
+		ul.nav li a { 
+				text-decoration: none;
+			 	text-transform:up;
+			 	margin-left: 0px;
+			 	top: 250px;
+			  	font-size: 12px;
+			 	position: relative;
+			  	padding: 15px;
+			  	color: black;
+			  	display: block; // for top-bottom paddings
+			  	text-align: center;
+			  	font-family: 'Roboto-Bold', sans-serif;
+			 	letter-spacing: 3px;
+			  	z-index: 3;
+				font-size: 18px;
+				width: 200px;
+				left: 60px;
+			  }
+	
+		ul.nav a:hover {border: 1px solid;
+       			box-shadow: inset 0 0 10px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+      			outline-color: rgba(255, 255, 255, 0);
+       			outline-offset: 15px;
+				text-shadow: 1px 1px 2px #427388; }
+		                 
+		
+		.sex{ 
+			  	z-index: 2;
+			  	position: absolute;
+			 	top :-20px;
+			  	left:720px;
+			 	width: 350px;
+			  	opacity: 1;
+		     }	 
+		.sex figure img {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+             }
+ 		.sex figure:hover img {
+		 -webkit-transform: scale(1.3);
+ 		transform: scale(1.3);
+			 }
+		
+		.welt{
+				z-index: 2;
+				position: absolute;
+				top: -800px;
+				width: 200px;
+				left: -220px;
+				position: absolute;
+				opacity: 0.8;
+		}
+		.welt figure img {
+        -webkit-transform: scale(0.3);
+        transform: scale(0.3);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+             }
+ 		.welt figure:hover img {
+		 -webkit-transform: scale(0.5);
+ 		transform: scale(0.5);
+			 }
+		
+		.xie{
+			    z-index: 2;
+				position: absolute;
+				top: -50px;
+				width: 350px;
+				left: -165px;
+				opacity: 0.5;
+			}
+		.xie figure img {
+        -webkit-transform: scale(0.56);
+        transform: scale(0.56);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+             }
+ 		.xie figure:hover img {
+		 -webkit-transform: scale(0.9);
+ 		transform: scale(0.9);
+			 }
+		
+		.toufa{
+			 	z-index: 2;
+				position: absolute;
+				top: 440px;
+				width: 3800px;
+				left: 500px;
+				opacity: 0.3；	
+		}
+		.toufa figure img {
+        -webkit-transform: scale(0.55);
+        transform: scale(0.55);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+             }
+ 		.toufa figure:hover img {
+		 -webkit-transform: scale(0.9);
+ 		transform: scale(0.9);
+			 }
+		
+		.nvwang{
+				z-index: 2;
+				position: absolute;
+				width: 500px;
+				left: 150px;
+				top: 450px;
+				opacity: 0.7;
+		}
+		.nvwang figure img {
+        -webkit-transform: scale(0.7);
+        transform: scale(0.7);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+             }
+ 		.nvwang figure:hover img {
+		 -webkit-transform: scale(0.9);
+ 		transform: scale(0.9);
+			 }
+		.imben{
+				z-index: 2;
+				position: absolute;
+				top: 500px;
+				width: 500px;
+				left: -350px;
+				top: 713px;
+				opacity: 0.7;
+				width: 300px;
+		}
+		.imben figure img {
+        -webkit-transform: scale(0.4);
+        transform: scale(0.4);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+             }
+ 		.imben figure:hover img {
+		 -webkit-transform: scale(0.6);
+ 		transform: scale(0.6);
+			 }
+			
+		.icon{
+			z-index: 4;
+			position: fixed;
+			top:40px;
+			left: 40px;
+		}
+		
+			*{
+  padding:0;
+  margin:0;
+}
+.container {
+  width: 120px;
+  height: 120px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -520px;
+  margin-top: -300px;
+  perspective: 800px;
+  z-index: 4；
+}
+
+.cube {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation-name: rotating;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform-style: preserve-3d;
+  color: aliceblue;
+}
+
+.slide {
+  position: absolute;
+  width: 118px;
+  height: 118px;
+  line-height: 118px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  
+}
+
+.slide.front {
+   transform: translate3d(0,0, 60px);
+}
+.slide.right{
+  transform: rotateY(90deg) translateZ(60px);
+}
+.slide.back{
+  transform: translate3d(0,0, -60px);
+}
+.slide.left{
+  transform: rotateY(-90deg) translate3d(0,0, 60px);
+}
+
+
+@keyframes rotating {
+  from { transform:rotateX(-34deg) rotateY(0);}
+  to { transform:rotateX(-34deg) rotateY(360deg);}
+}
+
+		
+		
+		</style>
+		
+		</head>
+	
+	<body>
+	
+	 <ul class="nav link">
+				<li class="c1"><a href="character.html">character</a></li>
+				<li class="c2"><a href="lecure.html">the lecture</a></li>
+				<li class="c3"><a href="contact.html">contact us</a></li>
+				</ul>
+		
+    	  
+		<div class="information">
+				<p>PEOPLE HAVE TO LOOK THEM<br>
+                   <br>
+				   ANYONE CAN MAKE AND POST THEM<br>
+                   <br>
+				   A POSTER IS A CATALYSYT<br>
+                   <br>
+				   A POSTER CAN BE REACTIONARY<br>
+                   <br>
+				   A POSTER IS LOCALLY RELEVANT</p>	
+				   <hr>
+            	 </div>		
+				   
+		<div class="date">
+				<p>06.17.2017</p> 
+	         </div>
+		
+		<div class="more">
+				<a href="lecure.html">More information</a>
+	    	</div>
+				
+		
+		   
+ 		   	
+    	   
+    	  <div class="hello">
+		   <p>The <br>
+           Power<br>
+           Of<br>
+           Poster<br>
+           </p>
+			</div>
+           
+       <div class="sex">
+         <figure><img src="images/sex.jpg"></figure>
+	      </div>
+       <div class="welt">
+        <figure><img src="images/welt.jpg"></figure>
+	      </div>
+       <div class="xie">
+       	<figure><img src="images/xie.jpg"</figure>
+		   </div>	   
+	   <div class="imben">
+		 <figure><img src="images/imben.jpg"></figure>
+		   </div>	   
+		<div class="nvwang">
+		  <figure><img src="images/nvwang.jpg"></figure>	   
+		   </div>   
+		<div class="toufa">
+		  <figure><img src="images/toufa.jpg"></figure>	
+		  </div>
+       
+      	   <div class="icon">
+       	   <a href="index.html">
+       	   <img src="images/1.png">
+       	   </a>
+       </div>
+
+    	<div class="container">
+  <div class="cube">
+    <div class="slide front">the</div>
+    <div class="slide right">power</div>
+    <div class="slide back">of</div>
+    <div class="slide left">poster</div>
+ </div>
+</div>
+		
+    	
+    </div>
+    
+		
+
+		
+		
+	</body>
+	
+	
+</html>

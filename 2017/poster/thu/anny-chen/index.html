@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>STYLE IS SUBSTANCE</title>
+    <link rel="stylesheet" href="css/template.css">
+    
+    <style>
+      
+      html{
+        box-sizing: border-box;
+        background: black;
+        font-family: 'Avenir';
+      }
+      
+      
+      /* colors */
+      .white {
+        color: white;
+      }
+      
+      .red {
+        color: red;
+      }
+      
+      
+      /* info */
+      .title-container {
+        width: 300px;
+        margin-left: 40px;
+        padding: 5px;
+      }
+      
+      .substance {
+        margin-top: 50px;
+        font-size: 30px;
+        letter-spacing: 5px;
+        line-height: 1.6;
+      }
+      
+      .wong {
+        margin-top: -26px;
+        font-size: 30px;
+        font-weight: 200;
+        letter-spacing: -0.5px;
+      }
+      
+      .date-time {
+        margin-top: -22px;
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: -0.3px;
+      }
+      
+      .address {
+        position: fixed;
+        width: 650px;
+        top: 35px;
+        left: 94%;
+        padding 5px;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        transform: rotate(90deg);
+        transform-origin: left bottom;
+        z-index: 9;
+      }
+      
+      .charles-link {
+        color: white;
+      }
+      
+      .charles-link:visited {
+        text-decoration: none;
+      }
+      
+      .charles-link:hover {
+        color: red;
+      }
+      
+      
+      /* date stuff */
+      .date-text {
+        height: 2740px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.7;
+      }
+      
+      .pos-abs {
+        position: absolute;
+      }
+      
+      .position1 {
+        top: 590px;
+        left: 65%;
+        z-index: 10;
+      }
+      
+      .position2 {
+        top: 1090px;
+        left: 20%;
+        z-index: 10;
+      }
+      
+      .position3 {
+        top: 1590px;
+        left: 75%;
+        z-index: 10;
+      }
+      
+      .position4 {
+        top: 2090px;
+        left: 5%;
+        z-index: 10;
+      }
+      
+      .position5 {
+        top: 2590px;
+        left: 50%;
+        z-index: 10;
+      }
+      
+      
+      /* animation frames */
+      @keyframes fadein {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      
+      @keyframes movinggrad {
+        0% { background-position: 50% 0%; }
+        50% { background-position: 50% 100%; }
+        100% { background-position: 50% 0%; }
+      }
+      
+      
+      /* GRADIENT ANIMATION #1 */
+      div.grad1-1 { /* static long rule */
+        width: 93.5%;
+        height: 24px;
+        position: absolute;
+        top: 603px;
+        background: linear-gradient(90deg, #3d5fab, #8cd4e2);
+      }
+      
+      div.grad1-2 { /* moving box */
+        width: 85%;
+        height: 85%;
+        position: absolute;
+        top: 350px;
+        left: 50px;
+        overflow: hidden;
+        background: linear-gradient(0deg, #3d5fab, #8cd4e2); 
+        background-size: 300% 300%;
+        z-index: -9;
+        visibility: hidden;
+      }
+      
+      div.grad1-1:hover + div.grad1-2 {
+        animation:fadein 3s ease forwards, 
+                  movinggrad 7s ease infinite;
+        z-index: -8;
+        visibility: visible;
+      }
+      
+      
+      /* GRADIENT ANIMATION #2 */
+      div.grad2-1 { /* static long rule */
+        width: 93.5%;
+        height: 24px;
+        position: absolute;
+        top: 1103px;
+        background: linear-gradient(90deg, #f6eb6f, #85fa87);
+      }
+      
+      div.grad2-2 { /* moving box */
+        width: 85%;
+        height: 85%;
+        position: absolute;
+        top: 850px;
+        left: 50px;
+        overflow: hidden;
+        background: linear-gradient(0deg, #f6eb6f, #85fa87); 
+        background-size: 300% 300%;
+        z-index: -9;
+        visibility: hidden;
+      }
+      
+      div.grad2-1:hover + div.grad2-2 {
+        animation: fadein 3s ease forwards, 
+                   movinggrad 7s ease infinite;
+        z-index: -8;
+        visibility: visible;
+      }
+      
+      
+      /* GRADIENT ANIMATION #3 */
+      div.grad3-1 { /* static long rule */
+        width: 93.5%;
+        height: 24px;
+        position: absolute;
+        top: 1603px;
+        background: linear-gradient(90deg, #faf06b, #6db7f8);
+      }
+      
+      div.grad3-2 { /* moving box */
+        width: 85%;
+        height: 85%;
+        position: absolute;
+        top: 1350px;
+        left: 50px;
+        overflow: hidden;
+        background: linear-gradient(0deg, #faf06b, #6db7f8); 
+        background-size: 300% 300%;
+        z-index: -9;
+        visibility: hidden;
+      }
+      
+      div.grad3-1:hover + div.grad3-2 {
+        animation: fadein 3s ease forwards, 
+                   movinggrad 7s ease infinite;
+        z-index: -8;
+        visibility: visible;
+      }
+      
+      
+      /* GRADIENT ANIMATION #4 */
+      div.grad4-1 { /* static long rule */
+        width: 93.5%;
+        height: 24px;
+        position: absolute;
+        top: 2103px;
+        background: linear-gradient(90deg, #ac061c, #87f8de);
+      }
+      
+      div.grad4-2 { /* moving box */
+        width: 85%;
+        height: 85%;
+        position: absolute;
+        top: 1850px;
+        left: 50px;
+        overflow: hidden;
+        background: linear-gradient(0deg, #ac061c, #87f8de); 
+        background-size: 300% 300%;
+        z-index: -9;
+        visibility: hidden;
+      }
+      
+      div.grad4-1:hover + div.grad4-2 {
+        animation: fadein 3s ease forwards, 
+                   movinggrad 7s ease infinite;
+        z-index: -8;
+        visibility: visible;
+      }
+      
+      
+      /* GRADIENT ANIMATION #5 */
+      div.grad5-1 { /* static long rule */
+        width: 93.5%;
+        height: 24px;
+        position: absolute;
+        top: 2603px;
+        background: linear-gradient(90deg, #f9b29f, #ab070f);
+      }
+      
+      div.grad5-2 { /* moving box */
+        width: 85%;
+        height: 85%;
+        position: absolute;
+        top: 2350px;
+        left: 50px;
+        overflow: hidden;
+        background: linear-gradient(0deg, #f9b29f, #ab070f); 
+        background-size: 300% 300%;
+        z-index: -9;
+        visibility: hidden;
+      }
+      
+      div.grad5-1:hover + div.grad5-2 {
+        animation: fadein 3s ease forwards, 
+                   movinggrad 7s ease infinite;
+        z-index: -8;
+        visibility: visible;
+      }
+      
+    </style>
+  </head>
+  
+  <body>
+    <div class="grid-container">
+    <!-- info -->
+    <div class="title-container">
+      <h1 class="substance white">STYLE IS SUBSTANCE</h1>
+      <h2 class="wong white">A Wong Kar-Wai Retrospective</h2>
+      <h3 class="date-time white">
+        March 10 - March 14 | Doors open at 7 P.M.
+      </h3>
+    </div>
+    <p class="address white">
+      The Charles Theatre, 1711 N Charles St, Baltimore, MD 21201 | <a href="http://thecharles.com/" class="charles-link">thecharles.com</a>
+    </p>
+    
+    <!-- date stuff -->
+    <div class="white date-text">
+      <p class="position1 pos-abs">
+        Friday | March 10<br>
+        <span class="red">As Tears Go By</span>
+      </p>
+      <p class="position2 pos-abs">
+        Saturday | March 11<br>
+        <span class="red">Days of Being Wild</span>
+      </p>
+      <p class="position3 pos-abs">
+        Sunday | March 12<br>
+        <span class="red">Chungking Express</span>
+      </p>
+      <p class="position4 pos-abs">
+        Monday | March 13<br>
+        <span class="red">Fallen Angels</span>
+      </p>
+      <p class="position5 pos-abs">
+        Tuesday | March 14<br>
+        <span class="red">In the Mood for Love</span>
+      </p>
+    </div>
+    
+    <!-- gradient boxes -->
+    <div class="grad1-1"></div><!-- gradient box 1 -->
+    <div class="grad1-2"></div>
+    
+    <div class="grad2-1"></div><!-- gradient box 2 -->
+    <div class="grad2-2"></div>
+    
+    <div class="grad3-1"></div><!-- gradient box 3 -->
+    <div class="grad3-2"></div>
+    
+    <div class="grad4-1"></div><!-- gradient box 4 -->
+    <div class="grad4-2"></div>
+    
+    <div class="grad5-1"></div><!-- gradient box 5 -->
+    <div class="grad5-2"></div>
+    
+    <!-- end -->
+    </div>
+  </body>
+</html>

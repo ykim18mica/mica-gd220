@@ -1,0 +1,302 @@
+.container{
+  position:absolute;
+	height:780px;
+	width:100%;
+  margin:0 auto;
+  z-index: 100;
+	overflow:0;
+	z-index: 100; 
+}
+
+
+
+/*top navigation*/
+ul {
+	list-style-type:none;
+	margin:;
+	padding:0;
+	overflow:hidden;
+	font-weight:500;
+	font-family: 'Heebo', sans-serif;
+	width:100%;
+	font-size:23;
+	display:inline-block;
+	
+	
+	
+	
+}
+.header1 {
+position: absolute;
+padding-left:6%;
+font-size:25px;
+
+}
+.header2 {
+	position:relative;
+	display:inline-block;
+	text-align: center;
+	z-index: 100;
+	font-size:23px;
+	padding-left:44%;
+}
+.header2 a {
+	text-decoration: none; 
+}
+.header3{
+	display:inline-block;
+	text-align: right;
+	padding-left:27%;
+	font-size:23px;
+	
+	
+}
+
+/*bottom navigation*/
+
+.nevigation {
+	list-style-type: none;
+	padding:0;
+	margin:0;
+	font-family: 'Heebo', sans-serif;
+	font-weight: 500;
+	font-size:15px;
+	width:100%;
+	top:740px;
+	position:absolute;
+	color:white;
+}
+.n1 {
+	 position:absolute;
+	 display: inline-block;
+   padding-left:6%;
+	 z-index: 100; 
+}
+
+.n1 a {
+	text-decoration: none;
+}
+.n2{
+	 position:relative;
+	 display:inline-block;
+	 padding-left:47%;
+	 
+}
+.n2 a {
+	text-decoration: none;
+}
+.n3 {
+	 text-align: right;
+	 display: inline-block;
+	 padding-left:27%;
+	
+	 
+}
+.n3 a {
+	text-decoration: none;
+}
+
+
+/*speaker's introduction paragraph*/
+.information {
+	position:absolute;
+	width:300px;
+	left:510;
+	top:400px;
+	font-family: 'Poppins', sans-serif;
+	font-weight:500;
+	color:white;
+	font-size:15px;
+}
+.information2 {
+	position:absolute;
+	width:300px;
+	left:860;
+	top:400px;
+	font-family: 'Poppins', sans-serif;
+	font-weight:500;
+	color:white;
+	font-size:15px;
+}
+
+.pinformation {
+	position:absolute;
+	width:300px;
+	left:90;
+	top:400px;
+	font-family: 'Poppins', sans-serif;
+	font-weight:500;
+	color:white;
+	font-size:15px;
+}
+.pinformation2 {
+	position:absolute;
+	width:320px;
+	left:460;
+	top:400px;
+	font-family: 'Poppins', sans-serif;
+	font-weight:500;
+	color:white;
+	font-size:15px;
+}
+.sinformation {
+  position:absolute;
+	width:400px;
+	left:630;
+	top:400px;
+	font-family: 'Poppins', sans-serif;
+	font-weight:500;
+	color:white;
+	font-size:15px;	
+}
+
+
+
+/*background-img*/
+.beatie {
+	position: absolute;
+	top:-10px;
+	left:-60px;
+	width:800px;
+	height:830px;
+	opacity: 0.3;
+}
+.peter {
+	position: absolute;
+	top:1px;
+	left:460px;
+	width:800px;
+	height:820px;
+	opacity: 0.3
+}
+.stefan {
+	position: absolute;
+	top:-10px;
+	width:760px;
+	height:830px;
+	opacity: 0.3;
+	
+}
+
+
+/*name_title*/
+.intro {
+	position:absolute;
+	width:500px;
+	left:500;
+	top:100px;
+	font-family: 'Heebo', sans-serif;
+	font-weight: 500;
+	font-size:95px;
+	color:white;
+}
+
+.pintro{
+	position:absolute;
+	width:500px;
+	left:90;
+	top:100px;
+	font-family: 'Heebo', sans-serif;
+	font-weight: 500;
+	font-size:95px;
+	color:white;
+}
+
+
+.sintro {
+  position:absolute;
+	width:500px;
+	left:626;
+	top:100px;
+	font-family: 'Heebo', sans-serif;
+	font-weight: 500;
+	font-size:85px;
+	color:white;
+}
+
+
+
+
+
+/*background*/
+
+.holder,
+    .first,
+    .second,
+    .third {
+      height: 870px;
+      width: 100%;
+    }
+    .first,
+    .second,
+    .third {
+      position: absolute;
+    }
+    .second,
+    .third {
+      opacity: 0;
+    }
+    .holder {
+      height: 870px;
+			width:100%;
+      position: absolute;
+      top:-40px;
+      z-index: 7;
+    }
+    .first {
+      animation: first 10s infinite;
+      background: linear-gradient(#5ff8ca, #60e08c);
+      z-index: 10;
+    }
+      @keyframes first {
+        0% {opacity: 1.0;}
+        10% {opacity: 0.8;}
+        20% {opacity: 0.6;}
+        30% {opacity: 0.4;}
+        40% {opacity: 0.2;}
+        50% {opacity: 0.1;}
+        60% {opacity: 0.2;}
+        70% {opacity: 0.4;}
+        80% {opacity: 0.6;}
+        90% {opacity: 0.8;}
+        100% {opacity: 1.0;}
+      }
+
+    .second {
+      animation: second 10s infinite; animation-delay: 2s;
+      background: linear-gradient(#19eaa6, #00a1f0);
+      z-index: 1;
+    }
+      @keyframes second {
+        0% {opacity: 0;}
+        10% {opacity: 0.2;}
+        20% {opacity: 0.4;}
+        30% {opacity: 0.6;}
+        40% {opacity: 0.8;}
+        50% {opacity: 1.0;}
+        60% {opacity: 0.8;}
+        70% {opacity: 0.6;}
+        80% {opacity: 0.4;}
+        90% {opacity: 0.2;}
+        100% {opacity: 0;}
+      }
+
+    .third {
+      animation: third 10s infinite;
+      animation-delay: 8s;
+      background: linear-gradient(#aab7f8, #ff75c6);
+      z-index: 2;
+    }
+      @keyframes third {
+        0% {opacity: 0;}
+        10% {opacity: 0.2;}
+        20% {opacity: 0.4;}
+        30% {opacity: 0.6;}
+        40% {opacity: 0.8;}
+        50% {opacity: 1.0;}
+        60% {opacity: 0.8;}
+        70% {opacity: 0.6;}
+        80% {opacity: 0.4;}
+        90% {opacity: 0.2;}
+        100% {opacity: 0;}
+      }

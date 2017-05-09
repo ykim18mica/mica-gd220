@@ -1,0 +1,404 @@
+/****** Stylesheet ******/
+
+html {
+  box-sizing: border-box;
+	background-color: #FFFEF3;
+	margin: 0 auto;
+	font-family: 'Rubik', sans-serif;
+}
+/*------NAVIGATION------*/
+.nav1 {
+	margin-top: -85px;
+	padding-bottom: 100px;
+}
+.nav:hover {
+	color: black;
+}
+.nav2 {
+	padding-top: 100px;
+}
+.nav {
+	color: #FFFEF3;
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+	position: relative;
+}
+.navimg1 {
+	margin-top: 75px;
+	padding-bottom: 80px;
+}
+.navimg2 {
+	padding-top: 100px;
+}
+
+/*------------ HOMEPAGE -----------*/
+.date {
+	margin-top: 100px;
+	height: 100px;
+	font-size: 35px;
+	text-align: center;
+}
+
+.title {
+	font-size: 130px;
+	font-weight: 600;
+	text-align: center;
+	padding: 100px;
+	border: 15px solid black;
+	border-radius: 25px;
+}
+
+.subtitle {
+	height: 100px;
+	background-color: black;
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 5px;
+	color: #FFFEF3;
+	padding-top: 30px;
+}
+
+.footer {
+	height: 150px;
+	background-color: black;
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: #FFFEF3;
+	padding-top: 40px;
+	margin-top: 5px;
+}
+.foot1 {
+	font-size: 25px;
+	letter-spacing: 5px;
+	margin-bottom: 5px;
+}
+
+.link:hover {
+	background-color: #F2E96D;
+}
+
+.link2:hover {
+	background-color: #695A8C;
+}
+
+.link-text {
+	margin-top: 350px;
+	margin-left: 120px;
+	font-size: 35px;
+	font-weight: 100;
+}
+
+#event-text {
+	margin-left: 150px;
+}
+
+.speakers {
+	height: 500px;
+	background-image:url(images/microphone.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 200px;
+}
+
+.about {
+	height: 500px;
+	background-image:url(images/clipboard.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 230px;	
+}
+
+.wave {
+	height: 100px;
+	margin-top: 75px;
+	border-bottom: 15px zigzag #F2E96D;
+	background-image: url(images/wave.png);
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+
+.bar1 {
+	position: fixed;
+	margin-left: 10px;
+	width: 100px;
+	height: 500px;
+	border-radius: 45px;
+	margin-top: 130px;
+}
+.bar2 {
+	margin-left: 1315px;
+	position: fixed;
+	width: 100px;
+	height: 500px;
+	border-radius: 45px;
+	margin-top: 130px;
+	padding-top: 200px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+.red {
+	color:#FC411D;
+}
+.blue {
+	color:#44D3B8;
+}
+
+.backblue {
+	background-color: #44D3B8;
+}
+.backred {
+	background-color: #FC411D;
+}
+.backyellow {
+	background-color: #F2E96D;
+}
+.backlight {
+	background-color: #FCFAE8;
+}
+
+
+.borderblue {
+	border: 15px solid #44D3B8;
+}
+.borderred {
+	border: 15px solid #FC411D;
+}
+.borderyellow {
+	border: 15px solid #F2E96D;
+}
+.borderblack {
+	border: 15px solid black;
+}
+.borderlight {
+	border: 15px solid #FCFAE8;
+}
+.round {
+	border-radius: 20px;
+}
+
+
+
+/* BLACK AND WHITE */
+
+.backgray {
+	background-color:darkgray;
+}
+.backlightgray {
+	background-color:lightgray;
+}
+.backdarkgray {
+	background-color:dimgray;
+}
+.backblack {
+	background-color: black;
+}
+.linkgray:hover {
+	background-color:#CCCCCA;
+}
+.gray {
+	color:gray;
+}
+.wavegray {
+	height: 100px;
+	margin-top: 75px;
+	border-bottom: 15px zigzag #F2E96D;
+	background-image: url(images/wavegray.png);
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+
+.bwmuseum {
+	background-image: url(images/bwmuseum.png);
+	background-size: cover;
+	background-position:-500px;
+	margin-bottom: 5px;
+}
+.bwiphone {
+	background-image: url(images/bwiphonepng);
+	background-size: 1300px;
+	background-position:-420px 95px;
+}
+
+.bwsigns {
+	background-image: url(images/bwsigns.png);
+	background-size: 1250px;
+	background-position:1000px;
+	margin-bottom: 5px;
+}
+
+/* INVERSE COLORS */
+.backgreen {
+	background-color: #5FB996;
+}
+.backorange {
+	background-color: #FB6A4A;
+}
+.backpurple {
+	background-color: #695A8C;
+}
+.orange {
+	color: #FB6A4A;
+}
+.borderorange {
+	border: 15px solid #FB6A4A;
+}
+.waveinvers {
+	height: 100px;
+	margin-top: 75px;
+	border-bottom: 15px zigzag #F2E96D;
+	background-image: url(images/waveinvers.png);
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+.inversspeakers {
+	height: 500px;
+	background-image:url(images/inversmicrophone.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 200px;
+}
+.inversabout {
+	height: 500px;
+	background-image:url(images/inversclipboard.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 230px;	
+}
+
+/*  SIMPLFY  */
+.center {
+	text-align: center;
+}
+.top {
+	margin-top: 200px;
+}
+.bottom {
+	margin-bottom: 200px;
+}
+.bigspace {
+	margin-top: 100px;
+}
+.smallspace {
+	margin-top: 50px;
+}
+.big {
+	font-size: 28px;
+}
+.med {
+	font-size: 24px;
+	letter-spacing: 3px;
+}
+
+/*------------ ABOUTPAGE -----------*/
+h1 {
+	font-size: 80px;
+	font-weight: 500;
+	text-align: center;
+	padding: 230px;
+	padding-top: 300px;
+	padding-bottom: 180px;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.aboutbody {
+	height: 500px;
+	position: absolute center;
+	padding: 180px;
+	padding-left: 300px;
+	line-height: 32px;
+	font-size: 22px;
+}
+
+/*IMAGES*/
+.museum {
+	background-image: url(images/museum.jpg);
+	background-size: cover;
+	background-position:-500px;
+	margin-bottom: 5px;
+}
+.iphone {
+	background-image: url(images/iphone.png);
+	background-size: 1300px;
+	background-position:-420px 95px;
+}
+
+.signs {
+	background-image: url(images/signs.jpg);
+	background-size: 1250px;
+	background-position:1000px;
+	margin-bottom: 5px;
+}
+
+.parallax { 
+ height: 100%; 
+ background-attachment: fixed;
+}
+
+/*------------ SPEAKERS -----------*/
+
+.see_schedule {
+	height: 100px;
+	font-size: 30px;
+	font-weight: 500;
+	padding:20px;
+	text-align: center;
+	margin-top:50px;
+	margin-bottom: 50px;
+	margin-right: 300px;
+}
+
+.speakersbody {
+	position: absolute center;
+	padding: 130px;
+	line-height: 32px;
+	font-size: 22px;
+}
+.speakerimg {
+	padding-top: 100px;
+	padding-left: 200px
+}
+.schedule {
+	height: 300px;
+	font-size: 35px;
+	text-align: left;
+	padding: 40px;
+	margin-bottom: 50px;
+}
+.schedule1 {
+	height: 300px;
+	font-size: 20px;
+	text-align: left;
+	padding-top: 44px;
+	padding-left: 15px;
+}
+.time {
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+
+
+/***KeyFrame Animation***/
+@keyframes drop-down {
+  from { height: 200px; }
+  to { height: 550px; }
+}
+

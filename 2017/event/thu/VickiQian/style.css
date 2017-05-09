@@ -1,0 +1,54 @@
+          html{
+            cursor: url(images/images/cursor.png), crosshair, auto;
+         }
+         .about{
+           transform: rotate(270deg);
+           left: 0%;
+           top: 50%;
+           position: absolute;
+           font-family: helvetica, sans-serif;
+           font-size: 70%;
+           text-decoration: none;
+           display:flex;
+           justify-content: center; 
+         }
+         
+         .speakers{
+           top: 3%;
+           position: absolute;
+           font-family: helvetica, sans-serif;
+           font-size: 70%;
+           text-decoration: none;
+           display:flex;
+           justify-content: center; 
+         }
+         .agenda{
+           transform: rotate(90deg);
+           right: 0%;
+           top: 50%;
+           position: absolute;
+           font-family: helvetica, sans-serif;
+           font-size: 70%;
+           text-decoration: none;
+           display:flex;
+           justify-content: center; 
+         }
+
+         .about:hover{
+           color: coral;
+           
+         }
+         .agenda:hover{
+           color: coral;
+         }
+       
+         .speakers:hover{
+           color: coral;
+         }
+      
+      .glass {
+        position: absolute;
+        top: 8%;
+        left: 8.3333333333333333333%;
+        width: 83.333333333333333333%;
+      }

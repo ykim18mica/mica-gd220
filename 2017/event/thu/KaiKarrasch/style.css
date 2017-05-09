@@ -1,0 +1,241 @@
+    .header{
+        height:20px;
+        background-color: lightgray;
+      }
+      ul.nav li{
+        display: inline;
+        padding: 170px;
+        
+      }
+      
+      ul.nav{
+        background-color: lightgray;
+        height:30px;
+      }
+      
+      ul.nav li a{
+        text-decoration: none;
+        color: white;
+        
+      }
+      ul.nav li a:hover{
+        color:darkgreen;
+      }
+      @keyframes slidy {
+        0% { left: 0%; }
+        20% { left: 0%; }
+        25% { left: -100%; }
+        45% { left: -100%; }
+        50% { left: -200%; }
+        70% { left: -200%; }
+        75% { left: -300%; }
+        95% { left: -300%; }
+        100% { left: -400%; }
+}
+      * {
+        box-sizing: border-box;
+      }
+      body, figure { 
+        margin: 0; background: white;
+        font-family: Istok Web, sans-serif;
+        font-weight: 10;
+      }
+      div#captioned-gallery { 
+        width: 100%; overflow: hidden; 
+      }
+      figure.slider { 
+        position: relative; width: 500%; height:100%;
+        font-size: 0; animation: 15s slidy infinite; 
+}
+      figure.slider figure { 
+        width: 20%; height: auto;
+        display: inline-block;  position: inherit; 
+}
+      figure.slider img { width: 100%; height: auto; }
+      .slider1 { 
+        position: absolute; top: 670px;
+        background:ligthgray;
+        color: #fff; width: 100%;
+        font-size: 50px; padding: .6rem; 
+        font-family: 'Goblin One', cursive;
+        padding: 30px;
+        line-height: 60px;
+}
+      .slider2{
+        position: absolute; top: 740px;
+        background:ligthgray;
+        color: #fff; width: 100%;
+        font-size: 30px; padding: 20px; 
+        font-family: 'Goblin One', cursive;
+        padding-left: 920px;
+        line-height: 60px;
+        padding-top: 30px;
+      }
+
+      .box{
+        height: 10px;
+        background-color: white;
+        }
+      h2 span{ 
+        font-family:'Goblin One', cursive;
+        position: absolute; 
+        top: 1180px; 
+        left: 120px; 
+        width: 80%;
+        height: 80px;
+        color: white; 
+        font: bold 24px/45px Helvetica, Sans-Serif; 
+        letter-spacing: -1px;  
+        background:lightgray; /* fallback color */
+        background: rgba(0, 0, 0, 0.4);
+        padding-left: 90px;
+        padding-top: 15px;
+        }
+      .cracks{
+        background-image: url("imagesfinal/cracks.jpg");
+        height: 700px;
+        }
+      body{
+        background-color:rgb(218,210,207);
+      }
+      .text1{
+        padding: 15px;
+        padding-top: 100px;
+        color:rgb(112,112,112);
+        font-family: 'Goblin One', cursive;
+        font-size: 20px;
+        width: 2000px;
+        }
+        .text2{
+        padding: 25px;
+        margin-left: 375px;
+        padding-top: 30px;
+        color:rgb(112,112,112);
+        font-family: 'Goblin One', cursive;
+        font-size: 20px;
+        }
+      .speaker1{
+        position: center;
+        margin-top: -95px;
+        display:inline-block;
+        padding:150px;
+        padding-left:150px;
+        letter-spacing: 40px;
+        }
+      .names{
+        font-family:'Goblin One', cursive;
+        letter-spacing: 7px;
+        margin-left: 155px;
+        margin-top: 150px;
+        }
+      .Design{
+        position: absolute;
+        letter-spacing: 4px;
+        font-family: 'Goblin One', cursive;
+        font-size: 70px;
+        padding-top: 55px;
+        padding-left:240px;
+        color:rgb(108, 131, 105) ;
+      }
+      .time{
+        position: absolute;
+        font-family: 'Goblin One', cursive;
+        font-size: 30px;
+        font-weight: 70px;
+        padding-top:220px;
+        padding-left:330px;
+        line-height: 40px;
+        color:rgb(108, 131, 105) ;
+      }
+      .fulltext{
+        font-family:'Times New Roman';
+        padding-top: 400px;
+        padding-left:330px;
+        line-height: 25px;
+        font-size: 20px;
+      }
+      .border{
+        border:4px solid gray;
+        height: 340px;
+        width: 630px;
+        padding-top: 1em;
+        padding-bottom: .5em;
+        padding-left: 1em;
+        padding-right: 1em;
+      }   
+      .schedule{
+        position: absolute;
+        font-size: 20px;
+        font-family: 'Goblin One', cursive;
+        padding-top:50px;
+        line-height: 60px;
+        padding-left:330px;
+        padding-right:250px;
+        margin-bottom: 40px;
+        color:rgb(108, 131, 105) ;
+      }
+      .location{
+        width: 20px;
+        height:20px;
+        padding-top:450px;
+        padding-left:330px;
+        padding-bottom: 50px;
+      }
+      .speaker2{
+        padding-top:100px;
+        line-height: 25px;
+        font-size: 14px
+      }
+      .ellenimage1{
+        margin-top: 70px;
+        margin-left: 270px;
+      }
+      .ellenimage2{
+        margin-top: 70px;
+        margin-left: 30px;
+        }
+      .ellen{
+        margin-top: 130px;
+        }
+      .box3{
+        margin-top: 80px;
+        height:5px;
+        background-color: white;
+        }
+      .speaker3{
+        margin-top:70px; 
+        line-height: 25px;
+        font-size: 14px
+      }
+      .eric{
+      margin-top: 100px;
+      }
+      .ericimage1{
+        margin-top: 100px;
+        margin-left: 60px;
+      }
+      .ericimage2{
+        margin-top: -303px;
+        margin-left: 600px;
+      }
+      .box4{
+        margin-top: 100px;
+        height:5px;
+        background-color: white;
+      }
+      .annie{
+        margin-top: 100px;
+      }
+      .speaker4{
+        margin-top:100px;
+        line-height: 25px;
+        font-size: 14px
+      }
+      .annieimage1{
+        margin-top: 100px;
+        margin-left: 10px;
+      }
+      .annieimage2{
+        margin-top: -303px;
+        margin-left: 70px;
+      }

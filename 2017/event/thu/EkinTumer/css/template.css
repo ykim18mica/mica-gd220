@@ -1,0 +1,179 @@
+/*
+DO NOT ADD ANYTHING ON THIS FILE!!!
+Add your own css on index.html
+*/
+
+/*-- all elements will use border-box --*/
+html {
+  box-sizing: border-box;
+}
+*, :before, :after {
+  box-sizing: inherit; 
+}
+
+/*-- container for all the columns --*/
+.grid-container{
+  width: 1200px; 
+  margin: 0 auto;
+	position: relative; /* this is needed for any children to use position absolute */
+}
+
+/*-- our cleafix hack -- */ 
+.row:before, 
+.row:after {
+  content:"";
+  display: table ;
+  clear:both;
+}
+
+[class*='col-'] {
+  float: left; 
+  min-height: 1px; 
+  width: 8.33%; 
+    
+  /*-- our gutter -- */
+  padding: 0 0px; /* top-bottom right-left */
+}
+
+/*-- columns with different widths --*/
+.col-1{ width: 8.333333%; }
+.col-2{ width: 16.666666%; }
+.col-3{ width: 25%;    }
+.col-4{ width: 33.333333%; }
+.col-5{ width: 41.666667%; }
+.col-6{ width: 50%; }
+.col-7{ width: 58.333333%; }
+.col-8{ width: 66.666666%; }
+.col-9{ width: 75%; }
+.col-10{ width: 83.333333%; }
+.col-11{ width: 91.666667%; }
+.col-12{ width: 100%;   }
+
+/*-- use thse to offset columns --*/
+.col-offset-1 { margin-left: 8.333333%; }
+.col-offset-2 { margin-left: 16.666666%; }
+.col-offset-3 { margin-left: 25%; }
+.col-offset-4 { margin-left: 33.333333%; }
+.col-offset-5 { margin-left: 41.666667%; }
+.col-offset-6 { margin-left: 50%; }
+.col-offset-7 { margin-left: 58.333333%; }
+.col-offset-8 { margin-left: 66.666666%; }
+.col-offset-9 { margin-left: 75%; }
+.col-offset-10 { margin-left: 83.333333%; }
+.col-offset-11 { margin-left: 91.666667%; }
+
+.top-1 {top: 1%}
+.top-6 {top: 6%}
+.top-5 {top: 5%}
+.top-7 {top: 7%}
+.top-10 {top: 10%}
+.top-13 {top: 12%}
+.top-15 {top: 15%}
+.top-18 {top: 18%}
+.top-25 {top: 25%}
+.top-20 {top: 20%}
+.top-25 {top: 25%}
+.top-30 {top: 30%}
+.top-32 {top: 32%}
+.top-35 {top: 35%}
+.top-40 {top: 40%}
+.top-42 {top: 42%}
+.top-45 {top: 45%}
+.top-50 {top: 50%}
+.top-55 {top: 55%}
+.top-60 {top: 60%}
+.top-65 {top: 65%}
+.top-67 {top: 67%}
+.top-70 {top: 70%}
+.top-75 {top: 75%}
+.top-80 {top: 80%}
+.top-85 {top: 85%}
+.top-90 {top: 90%}
+.top-95 {top: 95%}
+.top-100 {top: 100%}
+
+.bottom-2 {bottom: 2%}
+.bottom-5 {bottom: 5%}
+.bottom-10 {bottom: 10%}
+.bottom-20 {bottom: 20%}
+.bottom-30 {bottom: 30%}
+.bottom-40 {bottom: 40%}
+.bottom-50 {bottom: 50%}
+.bottom-60 {bottom: 60%}
+.bottom-70 {bottom: 70%}
+.bottom-80 {bottom: 80%}
+.bottom-90 {bottom: 90%}
+.bottom-100 {bottom: 100%}
+
+.right-3 {right: 3.1%}
+.right-5 {right: 5%}
+.right-8 {right: 8.5%}
+.right-10 {right: 10%}
+.right-14 {right: 14%}
+.right-15 {right: 15%}
+.right-20 {right: 20%}
+.right-25 {right: 25%}
+.right-27 {right: 27%}
+.right-28 {right: 28%}
+.right-30 {right: 30%}
+.right-35 {right: 35%}
+.right-39 {right: 39%}
+.right-40 {right: 40%}
+.right-45 {right: 45%}
+.right-48 {right: 48%}
+.right-50 {right: 50%}
+.right-55 {right: 55%}
+.right-60 {right: 60%}
+.right-65 {right: 65%}
+.right-70 {right: 70%}
+.right-72 {right: 72%}
+.right-75 {right: 75%}
+.right-80 {right: 80%}
+.right-85 {right: 85%}
+.right-90 {right: 90%}
+.right-95 {right: 95%}
+.right-100 {right: 100%}
+
+.left-2 {left: 2%}
+.left-4 {left: 3.2%}
+.left-5 {left: 5%}
+.left-5-b {left: 5.2%}
+.left-7 {left: 7%}
+.left-8 {left: 8%}
+.left-9 {left: 9%}
+.left-7b {left: 7.5%}
+.left-10 {left: 10%}
+.left-13 {left: 13.5%}
+.left-15 {left: 15%}
+.left-17 {left: 17%}
+.left-18 {left: 18%}
+.left-19 {left: 19%}
+.left-20 {left: 20%}
+.left-25 {left: 25%}
+.left-28 {left: 28%}
+.left-30 {left: 30%}
+.left-38 {left: 38%}
+.left-35 {left: 35%}
+.left-40 {left: 40%}
+.left-41 {left: 41%}
+.left-42 {left: 42%}
+.left-43 {left: 43%}
+.left-45 {left: 45%}
+.left-46 {left: 46%}
+.left-50 {left: 50%}
+.left-51 {left: 51%}
+.left-55 {left: 55%}
+.left-60 {left: 60%}
+.left-66 {left: 66%}
+.left-70 {left: 70%}
+.left-75 {left: 75%}
+.left-80 {left: 80%}
+.left-90 {left: 90%}
+.left-100 {left: 100%}
+
+
+/*-- helpers --*/
+.test,
+.outline {
+  outline: 1px solid red; 
+}

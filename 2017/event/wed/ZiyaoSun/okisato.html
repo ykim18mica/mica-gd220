@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Show Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100|Lato:300|Montserrat:100|Montserrat:200|Montserrat:300|Roboto+Slab:100" rel="stylesheet">
+    
+    <style>
+      
+			/* grid hight */ 
+      
+      .oneh{
+        height:100px;
+      }
+      
+      .sixh{
+        height:600px;
+      }
+
+      /*Text back*/
+      .textback{
+      position: fixed;
+       width: 1280px;
+       height: 620px;
+       top:180px;
+       background-image: url(picture/okisato/okisatotextback.png);
+       background-size: contain;  
+       opacity:0;
+       z-index:1;
+       transition: opacity 1s;
+       
+      }
+      
+      .interviewsoki{
+      position: fixed;
+       width: 1280px;
+       height: 620px;
+       top:180px;
+       background-image: url(picture/okisato/okisatotextback.png);
+       background-size: contain;  
+       opacity:0;
+       z-index: 1;
+        transition: opacity 1s;
+       }
+
+
+			/* img */
+      
+      .jellyback{
+        background-image:url(picture/okisato/okisatobackground.jpg);
+        background-size: contain;
+      }
+      
+      /* line decoration*/
+      
+      .bluelineart{width: 400px;
+        position:absolute;
+        left:420px;
+        top:80px;
+        z-index:2;
+        border-top: solid 1px rgb(75,114,178);}
+
+      /*text*/
+      .blueheading{
+        position: relative;
+        left: 420px;
+        z-index: 2;
+        font-size: 25px;
+        font-family:Roboto Slab,sans-serif;
+        font-weight: 100;
+        margin-top: 15px;
+        top:50px;
+        color:rgb(75,114,178);
+        }
+
+      
+      .blueh1{
+        position: relative;
+        left: 420px;
+        top:50px;
+        z-index: 3;
+        font-size: 18px;
+        font-family:Montserrat,sans-serif;
+        font-weight: 200;
+        margin-top: 10px;
+        color:rgb(75,114,178);
+        
+      }
+      
+      .interheading{
+        position:absolute;
+        left: 150px;
+        z-index: 2;
+        font-size: 25px;
+        font-family:Roboto Slab,sans-serif;
+        font-weight: 200;
+        margin-top: 15px;
+        top:35px;
+        color:rgb(75,114,178);
+      }
+      
+      
+      /* question inerview text*/
+      
+      .bluelineinter{
+        width: 400px;
+        position:absolute;
+        left:150px;
+        top:85px;
+        z-index:2;
+        border-top: solid 1px rgb(75,114,178);
+      }
+      
+      .question01p{
+        position:absolute;
+        left: 150px;
+        top:90px;
+      }
+      
+      .question02p{
+        position: absolute;
+        left: 150px;
+        top:300px
+      }
+      
+      .question03p{
+        position: absolute;
+        left: 650px;
+        top:90px;
+      }
+      
+      .question04p{
+      position: absolute;
+      left: 650px;
+      top:220px
+      }
+      
+    
+      
+      .interp01{
+         position: absolute;
+         left: 150px;
+         top:140px
+      }
+      
+      .interp02{
+        position: absolute;
+        left: 150px;
+        top:320px;
+      }
+      
+      .interp03{
+        position: absolute;
+        left:650px;
+        top:150px
+      }
+      
+      .interp04{
+        position: absolute;
+        left: 650px;
+         top:240px; 
+      }
+      
+      .artwp{
+      position: relative;
+        left: 420px;
+        top:50px;
+        
+      }
+      
+      
+      /*side bar*/
+
+
+      .artworkho:hover ~.textback {
+      opacity: 1;
+      }
+
+      .interho:hover ~.interviewsoki{
+       opacity: 1
+      }
+      
+    </style>
+  </head>
+  <body>
+   
+    <div class="grid-container">
+    
+    	<div class="row">
+
+    	<div class="container">
+      
+  <!-- navigation -->
+    	  <div class="col-12 oneh menu">
+        <img src="picture/homepage/NavigationBar-01.png" width=1280px>
+         <ul class="homenavi">
+          <li class="Home"><a href="index.html">HOME</a></li>
+         <li class="about"><a href="About.html">ABOUT </a></li>
+         <li class="speakers"><a href="speakers.html">SPEAKER</a></li>
+         </ul>
+         <div class="circle"></div>
+         
+         <div class="blackline"></div>
+         <div class="contact">Contact us</div>
+         <div class="share">Share with friends</div>
+         <div class="facebook"><img src="picture/icon/facebook%20icon.png" width=20px></div>
+         <div class="email"><img src="picture/icon/google%20email%20icon.png" width=20px></div>
+         <div class="twitter"><img src="picture/icon/twitter%20icon.png" width=20px></div>
+        </div>
+    	  
+    	  
+    <!-- side bar textbackground-->	  
+    	  <div class="col-12 eighth jellyback test">
+    	 
+    	   
+    	  
+          <div class="artworkho side ">Artworks</div>
+          <div class="interho side ">Interview</div>
+          
+       <!--side bad artworks-->
+    	   <div class="textback" >
+          <heading class="blueheading"> Art Work</heading>
+          <div class="bluelineart"></div>
+          <h1 class="blueh1">Jellyfish vases</h1>
+          <p class="artwp"> During this year's Milan design week, Nendo will submerge 30 of its new vases in an aquarium so that they gently move around like jellyfish.
+          The Jellyfish Vases are made from ultrathin transparent silicon, which has been dyed twice to make it look like it is just a sillhouette when submerged in its water-filled display.
+          Through its design, Japanese studio Nendo hoped to redefine the conventional role of a vase. The installation, hosted at the Jil Sander store in Milan, will feature both flowers and vases floating inside the tank.
+          The strength and direction of the water's current will change, so that the vases undulate gently along the bottom of the tank like slowly moving jellyfish.
+          "The design was to redefine the conventional roles of flower, water and vase by making the water inconspicuous, with an ensemble of both flowers and vases floating inside the filled water, as opposed to simply showing off flowers in a water-filled vase," said Nendo.</p>
+          </div>
+          
+    	    <!-- side bar interviews-->
+          <div class="interviewsoki">
+    	      <heading class="interheading">Interviews </heading>
+    	      <div class="bluelineinter"></div>
+    	      <h1 class="question question01p">Kartell is known for their use of color and transparencies, whereas your work tends to be more monochromatic. How  did this effect your collaboration?</h1>
+    	      
+    	      <p class="interp01"> I guess it's part of our cultures. Let's say for Italians, when one says red, Italian designers can see a lot of different reds. They have hundreds of colors of reds, but not just red. On the other hand, I think the Japanese, we perceive more tones of light and shadow. So that's one of the reasons why I guess Japanese designers tend to like white and black—so we can play more with shadows and light. And that's where we start working on finishes and forms as well. Usually we start working on white and black because it's totally the contrary and we can see if it works or not, if it works on white and black it works for all colors.</p>
+    	      
+    	      <h1 class="question question02p">Where does the name nendo come from?</h1>
+            <p class="interp02">Nendo means like Play-Doh, like that kids would play with. That's exactly the way I want to work as a designer—to be flexible and changing like Play-Doh changes color, shapes, sizes, to have that flexibility in designing.</p>
+            
+            <h1 class="question question03p">Last year during salone del Mobile nendo was everywhere and it seems like this year as well. Looking at all the projects your studio has done, how do you juggle it all? Are you involved with every single project.</h1>
+            <p class="interp03">Yes, yes. I work on all of the initial concepts. I meet all my clients. I do all my presentations and check all the prototypes and the construction sites as well. We are a team of 28 to 29 designers, but I check it all. Everything.</p>
+            
+            <h1 class="question question04p">So you never take a day off?</h1>
+            <p class="interp04">No, I don't. And we're working on about 220 different projects at the same time, all at once. So in the end I have to travel around the world almost every month. I start from the west side of the States, go to NY and then fly to Europe, and I stay there for about a week meeting with all the clients there. Then I go to the Asian countries to check on the interior sites. And then I come back to Japan for about two weeks and it just keeps on going like that. It's really nice. It's really exciting.</p>
+           </div>
+    	    
+    	    
+    	    
+    	  </div>
+    	  </div>
+
+    	
+    		
+    	</div>
+			
+    </div>
+    
+    
+  </body>
+</html>

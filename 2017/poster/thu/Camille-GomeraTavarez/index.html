@@ -1,0 +1,494 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Life Moves Pretty Fast</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Poiret+One|Six+Caps" rel="stylesheet">
+    
+    <style>
+      
+      .html {
+        background-size: cover;
+        overflow: hidden;
+      }
+      .repeat {
+        background-repeat: repeat;
+      }
+      
+/* cover and navbar */
+      div.cover {
+        position: relative;
+        background-position: 30%;
+        height: 57.5vw;
+        background-image: url(images/cover.png);
+        background-size: cover;
+      }
+      
+      div.glasses {
+        position:absolute;
+        top: 20vw;
+        height: 20vw;
+        width: 30vw;
+        background-image: url(images/glasses.png);
+        background-size: cover;
+        transform: rotate(-45deg);
+      }
+      
+      div.glasses:hover {
+        animation: spin 1s infinite linear;
+      }
+      
+      div.navbar {
+        height: 7.5vw;
+        background-color: #FF71F8;
+      }
+      
+      a:link {
+        color: #070892;
+      }
+      
+      a:hover {
+        color: aqua;
+      }
+      
+/*Font Style & Position*/
+      
+      .h1 {
+        position: absolute;
+        height: 10vw;
+        font-size: 13vw;
+        top: 15vw;
+        font-family: 'Poiret One', cursive;
+        color: #FF71F8;
+      }
+      /***life***/
+      .life1 {
+        position: absolute;
+        top: 7vw;
+        left: 2vw;
+        animation: float1 2s infinite linear;
+      }
+      .life2 {
+        position: absolute;
+        top: 15vw;
+        left: 2vw;
+        animation: float2 3s infinite linear;
+      }
+      .life3 {
+        position: absolute;
+        top: 10vw;
+        left: -2vw;
+        animation: float3 5s infinite linear;
+      }
+      .life4 {
+        position: absolute;
+        top: 16vw;
+        left: -4vw;
+        animation: float4 2.5s infinite linear;
+      }
+      /***fast***/
+      .fast1 {
+        position: absolute;
+        top: 27vw;
+        left:3vw;
+        animation: float5 2.5s infinite linear;
+      }
+      .fast2 {
+        position: absolute;
+        top: 35vw;
+        left:-1vw;
+        animation: float6 2.5s infinite linear;
+      }
+      .fast3 {
+        position: absolute;
+        top: 38vw;
+        left:1.3vw;
+        animation: float7 4s infinite linear;
+      }
+      .fast4 {
+        position: absolute;
+        top: 30vw;
+        left:1vw;
+        animation: float8 4s infinite linear;
+      }
+      /***moves pretty***/
+      .h2 {
+        position: absolute;
+        font-family: 'Six Caps', sans-serif;
+        font-size: 9.4vw;
+        color: #070892;
+      }
+      .moves{
+        transform: rotate (-45deg);
+        top: -4.4vw;
+        animation: grow 4s infinite;
+      }
+      .pretty{
+        transform: rotate (-45deg);
+        top: 13.5vw;
+        left: 6vw;
+        animation: grow 3.5s infinite;
+      }
+      /***paragraph text***/
+      p1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 3vw;
+      }
+      p2 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2vw;
+      }
+      .small {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.5vw;
+      }
+      .navtext {
+        font-family: 'Six Caps', sans-serif;
+        font-size: 4.6vw;
+        height: 78px;
+        text-align: center;
+        color: #070892;
+        padding-top: 1.2vw;
+      }
+      .subtitle {
+        position: relative;
+        height: 15vw;
+        top: 41.2vw;
+        text-align: justify;
+        text-align-last: justify;
+        line-height: 3.2vw;
+        color: #070892;
+      }
+      .theatretext {
+        position: relative;
+        height: 17vw;
+        top: 6.5vw;
+        padding-left: 1vw;
+        text-align: justify;
+        color: white;
+      }
+      .movietitle {
+        position: relative;
+        height: 15vw;
+        padding-top: 14vw;
+        text-align: center;
+        color: #FF71F8;
+      }
+      .date {
+        position: absolute;
+        padding-top: 4vw;
+        overflow: hidden;
+        font-family: 'Six Caps', sans-serif;
+        font-size: 20vw;
+        text-align: center;
+        color: #070892;
+      }
+      .boldtrack {
+        font-weight: bold;
+        letter-spacing: .6vw;
+        line-height: 3.2vw;
+      }
+      #white-text {
+        color: white;
+      }
+      .blue-text {
+        color: #070892;
+      }
+      #pink-text {
+        color: #FF71F8;
+      }
+      #track-out {
+        letter-spacing: .4vw;
+      }
+    
+/* movie title images */
+      div.sixteen_candles {
+        height: 35vw;
+        background-image: url(images/sixteen.png);
+      }
+      div.sixteen_candles:hover {
+        animation: drop-down 2s forwards;
+      }
+      
+      div.weird_science {
+        height: 35vw;
+        background-image: url(images/weird.png);
+      }
+      div.weird_science:hover {
+        animation: drop-down 2s forwards;
+      }
+      
+      div.breakfast_club {
+        height: 35vw;
+        background-image: url(images/breakfast.png);
+      }
+      div.breakfast_club:hover {
+        animation: drop-down 2s forwards;
+      }
+      
+      div.pretty_in_pink {
+        height: 35vw;
+        background-image: url(images/pink.png);
+        background-position: 20vw 28vw;
+      }
+      div.pretty_in_pink:hover {
+        animation: drop-down 2s forwards;
+      }
+      
+      div.ferris_beuller {
+        height: 35vw;
+        background-image: url(images/ferris.png);
+      }
+      div.ferris_beuller:hover {
+        animation: drop-down 2s forwards;
+      }
+      
+/* footer */
+      div.footer {
+        height: 14.2vw;
+        background-color: #FFF86E;
+        text-align: center;
+        line-height: 2.5vw;
+        padding-top: 3.2vw;
+        position: absolute;
+      }
+      
+/* <-----ANIMATION-----> */
+      
+      @keyframes drop-down {
+        from { height: 35vw; }
+        to { height: 57.5vw; }
+      }
+      
+      @keyframes grow {
+        0% {transform: scale(.9)}
+        50% {transform: scale(1.02)}
+        100% {transform: scale(.9)}
+      }
+      
+      @keyframes spin {
+        from {transform: rotate(-45deg);}
+        to {transform: rotate(315deg);}
+      }
+      
+      @keyframes float1 {
+        0% {top: 7vw;}
+        50% {top: 13vw;}
+        100% {top: 7vw;}
+      }
+      
+      @keyframes float2 {
+        0% {top: 15vw;}
+        50% {top: 12vw;}
+        100% {top: 15vw;}
+      }
+      
+      @keyframes float3 {
+        0% {top: 10vw;}
+        50% {top: 18vw;}
+        100% {top: 10vw;}
+      }
+      @keyframes float4 {
+        0% {top: 16vw;}
+        50% {top: 23vw;}
+        100% {top: 16vw;}
+      }
+      
+      @keyframes float5 {
+        0% {top: 27vw;}
+        50% {top: 30vw;}
+        100% {top: 27vw;}
+      }
+      
+      @keyframes float6 {
+        0% {top: 35vw;}
+        50% {top: 28vw;}
+        100% {top: 35vw;}
+      }
+      
+      @keyframes float7 {
+        0% {top: 38vw;}
+        50% {top: 32vw;}
+        100% {top: 38vw;}
+      }
+      
+      @keyframes float8 {
+        0% {top: 30vw;}
+        50% {top: 35vw;}
+        100% {top: 30vw;}
+      }
+      
+    </style>
+  </head>
+  
+  <!------------BODY ------ START ------------->
+  
+  <body>
+   
+    <div class="grid-container">
+      
+      <!-- Cover Start -->
+      
+      <div class="row">
+        <div class="col-12 cover">
+          <div class="col-1 col-offset-1 h1 life1">
+            L
+          </div>
+          <div class="col-1 col-offset-2 h1 life2">
+            I
+          </div>
+          <div class="col-1 col-offset-3 h1 life3">
+            F
+          </div>
+          <div class="col-1 col-offset-4 h1 life4">
+            E
+          </div>
+          
+          <div class="col-1 col-offset-7 h1 fast1">
+            F
+          </div>
+          <div class="col-1 col-offset-8 h1 fast2">
+            A
+          </div>
+          <div class="col-1 col-offset-9 h1 fast3">
+            S
+          </div>
+          <div class="col-1 col-offset-10 h1 fast4">
+            T
+          </div>
+          
+          <div class="col-2 col-offset-1 subtitle">
+            <p1> a five day <span id= track-out>celebration </span> <br> of all things<br> <span id="pink-text">John Hughes </span></p1>
+          </div>
+          <div class="col-2 col-offset-6 theatretext">
+            <p2> the Charles Theatre <br> presents: </p2>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-12 col-offset-4 glasses">
+          <div class="col-1 col-offset-8 h2 moves">
+          moves
+          </div>
+          <div class="col-1 h2 pretty">
+          pretty
+          </div>
+        </div>
+      </div>
+      
+      <!-- ///Cover End -->
+      
+      <!-- Navbar  -->
+      <div class="row">
+        <div class="col-12 navbar">
+          <div class= "col-2 col-offset-1 navtext">
+            <a href="#sixteencandles">Mar 10</a>
+          </div>
+          <div class= "col-2 navtext">
+            <a href="#weirdscience">Mar 11</a>
+          </div>
+          <div class= "col-2 navtext">
+            <a href="#breakfastclub">Mar 12</a>
+          </div>
+          <div class= "col-2 navtext">
+            <a href="#prettyinpink">Mar 13</a>
+          </div>
+          <div class= "col-2 navtext">
+            <a href="#ferrisbeuller">Mar 14</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Movies Start -->
+      <a name="sixteencandles">
+      <div class="row">
+        <div class="col-12 sixteen_candles movietitle"> 
+          <p2>
+            <span class= "boldtrack">3.10.17 <br>
+            sixteen candles </span><br>
+            family forgot your birthday? <br>typical.
+          </p2>
+          <div class="col-12 date">
+          10
+          </div>
+        </div>
+      </div>
+      </a>
+      
+      <a name="weirdscience">
+      <div class="row">
+        <div class="col-12 weird_science movietitle">
+          <p2>
+            <span class= "boldtrack">3.11.17 <br>
+              weird science </span><br>
+            don’t have a supermodel girlfriend? <br> just build one!
+          </p2>
+          <div class="col-12 date">
+          11
+          </div>
+        </div>
+      </div>
+      </a>
+      
+      <a name="breakfastclub">
+      <div class="row">
+        <div class="col-12 breakfast_club movietitle">
+          <p2>
+            <span class= "boldtrack">3.12.17 <br>
+              the breakfast club </span><br>
+            you know this one! <br> or did you forget about me?
+          </p2>
+          <div class="col-12 date">
+          12
+          </div>
+        </div>
+      </div>
+      </a>
+      
+      <a name="prettyinpink">
+      <div class="row">
+        <div class="col-12 pretty_in_pink movietitle">
+          <p2 id="white-text">
+            <span class= "boldtrack">3.13.17 <br>
+              pretty in pink </span> <br>
+            you better have a date to the prom!
+          </p2>
+          <div class="col-12 date">
+          13
+          </div>
+        </div>
+      </div>
+      </a>
+      
+      <a name="ferrisbeuller">
+      <div class="row">
+        <div class="col-12 ferris_beuller movietitle">
+          <p2>
+            <span class= "boldtrack">3.14.17 <br>
+              ferris beuller's day off </span><br>
+            life moves pretty fast, you could miss it.
+          </p2>
+          <div class="col-12 date">
+          14
+          </div>
+        </div>
+      </div>
+      </a>
+      
+      <!-- ///Movies End --> 
+      
+      <div class="row">
+        <div class="col-12 footer small blue-text">
+            <span class= "boldtrack">shows begin each night at 7pm <br></span> 
+            visit <a href="http://www.thecharles.com">The Charles Theatre</a> for more information <br>
+            1711 N Charles St, Baltimore, MD 21201
+        </div>
+      </div>
+    </div>
+    
+    
+  </body>
+</html>

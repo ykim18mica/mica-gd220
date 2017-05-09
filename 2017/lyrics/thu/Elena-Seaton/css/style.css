@@ -1,0 +1,167 @@
+/*
+Project 1 CSS template
+-- do not change this file --
+*/
+
+/********** basic setup **********/
+.container {
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+}
+div {
+    width: 100%;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+}
+div.row,
+div.row:after {
+  margin:0;
+  padding: 0;
+}
+
+/*  width */
+div.col-25 { width: 25%; }
+div.col-50 { width: 50%; }
+div.col-75 { width: 75%; }
+div.col-100 { width: 100%; }
+
+/* offset */
+div.col-offset-25 { margin-left: 25%; }
+div.col-offset-50 { margin-left: 50%; }
+div.col-offset-75 { margin-left: 75%; }
+div.col-offset-100 { margin-left: 100%; } 
+
+/* height */
+div.full { padding-top: 100%; }
+div.half { padding-top: 50%; }
+div.half-quarter {padding-top: 75%;}
+div.quarter { padding-top: 25%; }
+
+h1, h2, h3, h4, h5, h6, p {
+    position: absolute;
+    top: 0;
+}
+
+div.box-1 {
+  width: 46vw;
+  height: 14vw;
+  top: -45vw;
+  left: 5vw;
+background: white;
+}
+	
+div.box-2 {
+  width: 42vw;
+  height: 14vw;
+  top: -2vw;
+  left: 0vw;
+background: white;
+}
+
+div.whiteline-1 {
+  width: 1vw;
+  height: 2vw;
+  top: 12vw;
+  left: 4vw;
+background: white;
+}
+
+div.whiteline-2 {
+  width: 1vw;
+  height: 2vw;
+  top: 12vw;
+  left: 5vw;
+background: white;
+}
+	
+div.blackline-1 {
+  width: 1vw;
+  height: 24.70vw;
+  top: vw;
+  left: -20.65vw;
+background: black;
+}
+
+div.blackline-2 {
+  width: 1vw;
+  height: 17vw;
+  top: vw;
+  left: -19.60vw;
+background: black;
+}
+	
+div.blackline-3 {
+  width: 4vw;
+  height: 1vw;
+  top: 13.50vw;
+  left: -26.50vw;
+background: black;
+}	
+
+div.blackline-4 {
+  width: 5vw;
+  height: 1vw;
+  top: 22.50vw;
+  left: -26vw;
+background: black;
+}	
+
+div.blackline-5 {
+  width: 1vw;
+  height:30vw;
+  top: -24.75vw;
+  left: 53.50vw;
+background: black;
+}
+
+div.blackline-6 {
+  width: 19vw;
+  height: 3vw;
+  top: 7vw;
+  left: 73.50vw;
+background: black;
+}
+
+div.whiteline-3 {
+  width: 8vw;
+  height: 1vw;
+  top: 6vw;
+  left: 4.30vw;
+background: white;
+}
+	
+/********** helper **********/
+
+/* to see the box */
+.test { border: 1px solid red; }
+
+/* center horizontally */
+.center-h {
+  width: 100%;
+  text-align: center;
+}
+
+.ragright-h {
+	width: 100%;
+	text-align: right
+}
+
+/* center vertically */
+.center-v {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* how much to push down (in percentage) */
+.top-10 { top: 10%; }
+.top-20 { top: 20%; }
+.top-30 { top: 30%; }
+.top-40 { top: 40%; }
+.top-50 { top: 50%; }
+.top-60 { top: 60%; }
+.top-70 { top: 70%; }
+.top-80 { top: 80%; }
+.top-90 { top: 90%; }
+.top-100 { top: 100%; }

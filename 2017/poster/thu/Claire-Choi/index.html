@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tim Buton's "BEYOUND WONDERLAND</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    
+    <style>
+			.grid-container {
+				position: relative;
+			}
+			.choco	{
+				background-color: rgb(76,44,44)
+			}
+			.black	{
+				background-color: black;
+			}
+			.h-30	{
+				height: 30px;
+			}
+			.h-100 {
+				height: 100px;
+			}
+			h-102 {
+				height: 102px;
+			}
+			.h-200	{
+				height:	200px;
+			}
+			.h-300	{
+				height: 300px;
+			}
+			.h-769	{
+				height: 769px;
+			}
+			.h-520	{
+				height:	520px;
+			}
+			.h-185	{
+				height:	185px;
+			}
+			.h-482	{
+				height:	482px;
+			}
+			.h-395	{
+				height:	395px;
+			}
+			.h-649{
+				height: 649px;
+			}
+			
+			.flim-maker {
+				position: relative;
+				color: white;
+				font-family: trajan pro;
+				font-size:	21px;
+				top:  7%;
+				left: 530px;
+			}
+			.beyond {
+				position: relative;
+				color: white;
+				font-family: trajan pro;
+				font-weight: bold;
+				font-size:	98px;
+				text-align: center;
+				top: 50px
+			}
+			.wonderland {
+				position: relative;
+				color: white;
+				font-family: trajan pro;
+				font-size:	110px;
+				top:  80px;
+				left: 120px;
+			}
+			.day-1 {
+				position: absolute;
+				color: white;
+				font-family: georia;
+				font-size:	21px;
+				font-style: italic;
+				top: 750px;
+				left: 820px;
+			}
+			.alice {
+				position: absolute;
+				color: white;
+				font-family: trajan pro;
+				font-size:	33px;
+				line-height: 1.2;
+				top: 790px;
+				left: 814px;
+			}
+			.Charlie {
+				position: absolute;
+				color: rgb(249,214,40);
+				font-family: trajan pro;
+				font-size: 33px;
+				line-height: 1.2;
+				top: 1530px;
+				left: 230px;
+			}
+			.day-2 {
+				position: absolute;
+				color: black;
+				font-family: georia;
+				font-style: italic;
+				font-size: 25px;
+				top: 1445px;
+				left: 232px;
+				z-index: 1;
+				transform: rotate(-10deg)
+			}
+			.time {
+				position: absolute;
+				color: black;
+				font-family: georia;
+				font-style: italic;
+				font-size: 25px;
+				top: 1476px;
+				left: 345px;
+				z-index: 1;
+				transform: rotate(-10deg)
+			}
+			.day-3	{
+				position: absolute;
+				color: white;
+				font-family: georia;
+				font-style: italic;
+				font-size: 21px;
+				top: 2230px;
+				left: 750px;
+			}
+			.children {
+				position: absolute;
+				color: rgb(249,214,40);
+				font-family: trajan pro;
+				font-size: 33px;
+				line-height: 1.2;
+				top: 2275px;
+				left: 750px;
+			}
+			.day-4 {
+				position: absolute;
+				color: white;
+				font-family: georgia;
+				font-style: italic;
+				font-size: 21px;
+				top: 2740px;
+				left: 70px;
+			}
+			.nightmare {
+				position: absolute;
+				color: white;
+				font-family: trajan pro;
+				font-size: 33px;
+				line-height: 1.2;
+				top: 2780px;
+				left: 67px;
+			}
+			.day-5 {
+				position: absolute;
+				color: white;
+				font-family: georgia;
+				font-style: italic;
+				font-size: 21px;
+				left: 845px;
+				top: 3157px;
+			}
+			.bride {
+				position: absolute;
+				color: white;
+				font-family: trajan pro;
+				font-size: 33px;
+				top:	3198px;
+				left: 840px;
+			}
+			.img-face {
+				position: relative;
+				background-size: cover;
+				top: 50px;
+				left: 100px;
+			}
+			.img-face:hover {
+				animation: spin 6s infinite
+			}
+			@keyframes spin {
+				from {
+					transform: rotate(0deg);
+				}
+				to {
+					transform: rotate(360deg);
+				}
+			}
+			
+			.img-hat {
+				position: relative;
+				background-size: cover;
+				top: 95px;	
+			}
+			.img-2	{
+				background-image: url(images/img-2.png);
+				background-size: cover;
+			}
+			.m	{
+				background-image: url(images/m.png);
+				background-size: cover;
+			}
+			.img-4:hover	{
+				position: relative;
+				background-size: cover;
+				animation: slide 7s infinite,
+					         fadein 7s infinite,
+					         fadeout 7s infinite;
+			}
+			.hand	{
+				position: relative;
+				background-size: cover;
+				top: 20px;
+			}
+			
+			.address {
+				color: white;
+				font-size: 18px;
+				font-family: avenir;
+				font-weight: thin;
+				position: absolute;
+				top: 3498px;
+				left: 250px;
+			}
+			.web {
+				color: white;
+				font-family: avenir;
+				font-size: 18px;
+				font-weight: thin;
+				position: absolute;
+				top: 3498px;
+				left: 780px;
+			}
+			.line {
+				position: absolute;
+				background-color: white;
+				width: 1000px;
+				height: 2.8px;
+				top: 3484.5px;
+				left: 120px;
+			}
+			
+			.circle-1 {
+				position: absolute;
+				background-color: black;
+				border-radius: 50%;
+				width: 60px;
+				height: 60px; 
+				top: 2010px;
+				left: 480px;
+				animation: rotate 6s infinite
+			}
+			.circle-2 {
+				position: absolute;
+				background-color: black;
+				border-radius: 50%;
+				width: 60px;
+				height: 60px; 
+				top: 2080px;
+				left: 600px;
+				animation: rotate-1 6s infinite;
+			}
+			.circle-3 {
+				position: absolute;
+				background-color: black;
+				border-radius: 50%;
+				width: 60px;
+				height: 60px; 
+				top: 2090px;
+				left: 450px;
+				animation: rotate-2 3s infinite;
+			}
+			@keyframes slide {
+				0% {
+					top: 0;
+				}
+				50%{
+					top: 150px;
+				}
+				100% {
+					top: 0px;
+				}
+			}
+			@keyframes rotate {
+				0% {
+				top: 1910px;
+				left: 480px;
+			}
+			25% {
+				top: 1880px;
+				left: 480px;
+			}
+			75%	{
+				top: 1905px;
+				left: 450px;
+			}
+			100%	{
+				top: 1910px;
+				left: 480px
+				}
+			}
+			@keyframes rotate-1 {
+				0% {
+					top: 2080px;
+					left: 600px;
+				}
+				25% {
+					top: 2080px;
+					left: 630px;
+				}
+				75% {
+					top: 2050px;
+					left: 630px;
+				}
+				100% {
+					top: 2080px;
+					left: 600px;
+				}
+			}
+			@keyframes rotate-2 {
+				0% {
+					top: 2090px;
+					left: 450px;
+				}
+				25% {
+					top: 2090px;
+					left 420px;
+				}
+				75% {
+					top: 2120px;
+					left: 420px;
+				}
+				100% {
+					top: 2090px;
+					left: 450px;
+				}
+			}
+			.ticket-1 {
+				position: absolute;
+				background-color: rgb(249,214,40);
+				width: 100px;
+				height: 40px;
+				top: 900px;
+				left: 150px;
+				transform: rotate(10deg);
+				animation: falldown-1 5s infinite,
+				           fadein 5s infinite,
+					         fadeout 5s infinite;
+			}
+			@keyframes falldown-1 {
+					0% {
+					top: 900px;
+				}
+				100% {
+					top: 1000px;
+				}
+			}
+			.ticket-2 {
+				position: absolute;
+				background-color: rgb(249,214,40);
+				width: 90px;
+				height: 35px;
+				top: 1200px;
+				left: 270px;
+				transform: rotate(60deg);
+				animation: falldown-2 5s infinite,
+					         fadein 5s infinite,
+					         fadeout 5s infinite;
+			}
+			@keyframes falldown-2 {
+				0% {
+					top: 1200px;
+				}
+				100% {
+					top: 1300px;
+				}
+			}
+			.ticket-3 {
+				position: absolute;
+				background-color: rgb(249,214,40);
+				width: 90px;
+				height: 35px;
+				top: 900px;
+				left: 970px;
+				transform: rotate(172deg);
+				animation: falldown-3 5s infinite,
+					         fadein 5s infinite,
+					         fadeout 5s infinite;
+			}
+			@keyframes falldown-3 {
+				0% {
+					top: 900px;
+				}
+				100% {
+					top: 1000px;
+				}
+			}
+			.ticket-4 {
+				position: absolute;
+				background-color: rgb(249,214,40);
+				width: 90px;
+				height: 35px;
+				top: 950px;
+				left: 930px;
+				transform: rotate(171deg);
+				animation: falldown-4 5s infinite,
+					         fadein 5s infinite,
+					         fadeout 5s infinite;
+			}
+			@keyframes falldown-4 {
+				0% {
+					top: 950px;
+				}
+				100% {
+					top: 1050px;
+				}
+			}
+			.ticket-5 {
+				position: absolute;
+				background-color: rgb(249,214,40);
+				width: 60px;
+				height: 25px;
+				top: 1190px;
+				left: 860px;
+				transform: rotate(121deg);
+				animation: falldown-5 5s infinite,
+			             fadein 5s infinite,
+					         fadeout 5s infinite;
+			}
+			@keyframes falldown-5 {
+				0% {
+					top: 1190px;
+				}
+				100% {
+					top: 1290px;
+				}
+			}
+			.ticket-6 {
+				position: absolute;
+				background-color: rgb(249,214,40);
+				width: 50px;
+				height: 20px;
+				top: 1490px;
+				left: 860px;
+				transform: rotate(130deg);
+				animation: falldown-6 5s infinite,
+					         fadein 5s infinite,
+					         fadeout 5s infinite;
+			}
+			@keyframes falldown-6 {
+				0% {
+					top: 1490px;
+				}
+				100% {
+					top: 1590px;
+				}
+			}
+			.ticket-7  {
+				position: absolute;
+				background-color: rgb(249,214,40);
+				width: 50px;
+				height: 20px;
+				top: 1660px;
+				left: 480px;
+				transform: rotate(25deg);
+				animation: falldown-7 5s infinite,
+					         fadein 5s infinite,
+					         fadeout 5s infinite;
+			}
+			@keyframes falldown-7 {
+				0% {
+					top: 1660px;
+				}
+				100% {
+					top: 1760px;
+				}
+			}
+			@keyframes fadein {
+				from {
+					opacity: 0;
+				}
+				to {
+					opacity: 1;
+				}
+			}
+			@keyframes fadeout {
+				from {
+  				opacity: 1;
+  			}
+				to {
+					opacity: 0;
+  			}
+			}
+			.ticket-8  {
+				position: absolute;
+				background-color: rgb(249,214,40);
+				width: 120px;
+				height: 50px;
+				top: 1433px;
+				left: 230px;
+				transform: rotate(170deg);
+				animation: fadein 5s infinite,
+					         fadeout 5s infinite;
+			}
+			.ticket-9  {
+				position: absolute;
+				background-color: rgb(249,214,40);
+				width: 80px;
+				height: 30px;
+				top: 1474px;
+				left: 335px;
+				transform: rotate(170deg);
+				animation: fadein 5s infinite,
+					         fadeout 5s infinite;
+			}	
+			
+    </style>
+  </head>
+  <body>
+   
+    <div class="grid-container">
+			
+			<div class="row">
+				<div class="col-12 h-300 choco">
+				 <p class="flim-maker">TIM BURTON'S</p>
+				 <p class="beyond">&ldquo;BEYOND</p>
+				 <p class="wonderland">WONDERLAND&rdquo;</p>
+			  </div>
+			</div>
+			
+			<div class="row">
+				<div class="col-3 h-769 choco"></div>
+				<div class="col-6 h-769 choco"><img class="img-face" src="images/img-face.png"><img class="img-hat" src="images/img-hat.png"></div>
+				<div class="col-3 h-769 choco"></div>
+				<p class="day-1">March 10th (7pm)</p>
+				<p class="alice">ALICE IN<br> WONDERLAND</p>
+				<div class="c" ></div>
+			</div>
+			
+			<div class="row">
+				<div class="col-12 h-100 choco"></div>
+				<div class="col-12 h-520 img-2">
+					<p class="Charlie">CHARLIE AND THE<br> CHOCOLATE FACTORY</p>
+					<p class="day-2">March 11th</p>
+					<p class="time">(7pm)</p>
+					<div class="ticket-1"></div>
+					<div class="ticket-2"></div>
+					<div class="ticket-3"></div>
+					<div class="ticket-4"></div>
+					<div class="ticket-5"></div>
+					<div class="ticket-6"></div>
+					<div class="ticket-7"></div>
+					<div class="ticket-8"></div>
+					<div class="ticket-9"></div>
+				</div>	
+			</div>
+			
+			<div class="row">
+				<div class="col-12 h-185 black"></div>
+			</div>
+			
+			<div class="row">
+				<div class="col-2 h-482 black"></div>
+				<div class="col-7 h-482 m"></div>
+				<div class="col-3 h-482 black"></div>
+				<div class="col-12 h-100 black"></div>
+				<p class="day-3">March 12th (7pm)</p>
+				<p class="children">MISS PEREGRINE'S<br>HOME FOR PECULAR<br>CHILDREN</p>
+				<div class="circle-1"></div>
+				<div class="circle-2"></div>
+				<div class="circle-3"></div>
+			</div>
+			
+			<div class="row">
+				<div class="col-4 h-395 black"></div>
+				<div class="col-4 h-395 black"><img class="img-4" src="images/img-4.png"></div>
+				<div class="col-4 h-395 black"></div>
+				<p class="day-4">March 13th (7pm)</p>
+				<p class="nightmare">THE NIGHTMARE<br>BEFORE CHRISTMAS</p>
+			</div>
+			
+			<div class="row">
+				<div class="col-2 h-649 black"></div>
+				<div class="col-8 h-649 black"><img class="hand" src="images/hand.png"></div>
+				<div class="col-2 h-649 black"></div>
+				<div class="col-12 h-30 black"></div>
+				<p class="day-5">March 14th (7pm)</p>
+				<p class="bride">CORPSE BRIDE</p>
+				<p class="address">The Charles Theatre, 1711 N Charles St, Baltimore, MD 21201</p>
+				<p class="web">http://thecharles.com/</p>
+				<div class="line"></div>
+			</div>
+			
+    </div>
+    
+    
+  </body>
+</html>
