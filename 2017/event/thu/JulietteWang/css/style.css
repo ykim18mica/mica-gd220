@@ -142,7 +142,7 @@ div.place{
 }
 
 .arrow{
-    background-image: url(/images/arrow.png);
+    background-image: url(images/arrow.png);
     width: 43px;
     height: 24px;
     background-size: cover;
@@ -263,7 +263,7 @@ a.learn-more:hover{
 }
 
 .alexa-image{
-  background-image: url(/images/alexa-bnw.jpg);
+  background-image: url(images/alexa-bnw.jpg);
   background-size: cover;
   background-blend-mode: multiply;
   background-color: #DF7CB1;
@@ -347,7 +347,7 @@ p.quote{
 }
 
 .joe-image{
-  background-image: url(/images/joe-bnw.jpg);
+  background-image: url(images/joe-bnw.jpg);
   background-size: cover;
   background-blend-mode: multiply;
   background-color: #F27D96;
@@ -364,7 +364,7 @@ p.quote{
 }
 
 .braden-image{
-  background-image: url(/images/brandon-bnw.jpg);
+  background-image: url(images/brandon-bnw.jpg);
   background-size: cover;
   background-blend-mode: multiply;
   background-color: #F48A89;
@@ -524,7 +524,7 @@ footer a:hover{
 }
 
 .about-bg {
-  background-image: url(/images/people.jpg);
+  background-image: url(images/people.jpg);
   background-size: cover;
 }
 
@@ -735,18 +735,18 @@ a.button-orange:hover{
 
 /** above fold images **/
 .speaker-bg {
-  background-image: url(/images/stage.png);
+  background-image: url(images/stage.png);
   background-size: cover;
 }
 
 .stage-bg {
-  background-image: url(/images/speakers-page.jpg);
+  background-image: url(images/speakers-page.jpg);
   background-size: cover;
 }
 
 /** Speaker Page **/
 .alexa-color {
-  background-image: url(/images/alexa.jpg);
+  background-image: url(images/alexa.jpg);
   background-size: cover;
   height: 400px;
   width: 308px;
@@ -793,7 +793,7 @@ a.button-orange:hover{
 }
 
 .joe-color {
-  background-image: url(/images/joe.jpg);
+  background-image: url(images/joe.jpg);
   background-size: cover;
   height: 400px;
   width: 308px;
@@ -803,7 +803,7 @@ a.button-orange:hover{
 }
 
 .braden-image-2 {
-  background-image: url(/images/brandon.jpg);
+  background-image: url(images/brandon.jpg);
   background-size: cover;
   height: 400px;
   width: 308px;
@@ -971,13 +971,13 @@ a.alicetully:hover{
 	float: left;
 	margin-right: 40px;
 	margin-top: 2px;
-	background-image: url(/images/twitter.png);
+	background-image: url(images/twitter.png);
 	background-size: cover;
 	width: 20px;
 	height: 17px;
 }
 .twitter:hover {
-	background-image: url(/images/twitter_hover.png);
+	background-image: url(images/twitter_hover.png);
 	background-size: cover;
 	width: 20px;
 	height: 17px;
@@ -986,13 +986,13 @@ a.alicetully:hover{
 .fb{
 	float: left;
 	margin-right: 40px;
-	background-image: url(/images/fb.png);
+	background-image: url(images/fb.png);
 	background-size: cover;
 	width: 11px;
 	height: 20px;
 }
 .fb:hover{
-	background-image: url(/images/fb_hover.png);
+	background-image: url(images/fb_hover.png);
 	background-size: cover;
 	width: 11px;
 	height: 20px;
@@ -1004,7 +1004,7 @@ a.alicetully:hover{
 
 .insta {
 	float: left;
-	background-image: url(/images/insta.png);
+	background-image: url(images/insta.png);
 	background-size: cover;
 	width: 20px;
 	height: 20px;
@@ -1012,7 +1012,7 @@ a.alicetully:hover{
 
 .insta:hover{
 	float: left;
-	background-image: url(/images/insta_hover.png);
+	background-image: url(images/insta_hover.png);
 	background-size: cover;
 	width: 20px;
 	height: 20px;

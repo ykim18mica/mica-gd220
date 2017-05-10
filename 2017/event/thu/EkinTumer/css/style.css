@@ -183,7 +183,7 @@ a.head:hover {
  /* ---img--- */   
   
 .logo {
-  background-image: url(/Images/Mockup.png);
+  background-image: url(../Images/Mockup.png);
   background-size: contain;
   position: fixed;
   height: 60px;
@@ -192,13 +192,13 @@ a.head:hover {
 }
 
 .img-1 {
-  background-image: url(/Images/main.png);
+  background-image: url(../Images/main.png);
   background-size: cover;
   position: relative;
 }
 
 .img-about-1 {
-  background-image: url(/Images/img-about-1.png);
+  background-image: url(../Images/img-about-1.png);
   background-size: cover;
   position: relative;
   width: 350px;
@@ -206,7 +206,7 @@ a.head:hover {
   }
   
 .img-about {
-  background-image: url(/Images/img-about.png);
+  background-image: url(../Images/img-about.png);
   background-size: cover;
   position: relative;
   width: 350px;
@@ -214,7 +214,7 @@ a.head:hover {
   }
   
 .speaker-img-1 {
-  background-image: url(/Images/speaker-img-1.png);
+  background-image: url(../Images/speaker-img-1.png);
   background-size: cover;
   position: relative;
   height: 312px;
@@ -222,13 +222,13 @@ a.head:hover {
   }
 
 .speaker-img-1:hover {
-  background-image: url(/Images/Group.png);
+  background-image: url(../Images/Group.png);
   background-size: cover;
 }
 
   
 .speaker-img-2 {
-  background-image: url(/Images/speaker-img-2.png);
+  background-image: url(../Images/speaker-img-2.png);
   background-size: cover;
   position: relative;
   height: 312px;
@@ -236,12 +236,12 @@ a.head:hover {
   }
 
 .speaker-img-2:hover {
-  background-image: url(/Images/Group%202.png);
+  background-image: url(../Images/Group%202.png);
   background-size: cover;
 }
   
 .speaker-img-3 {
-  background-image: url(/Images/speaker-img-3.png);
+  background-image: url(../Images/speaker-img-3.png);
   background-size: cover;
   position: relative;
   height: 312px;
@@ -249,12 +249,12 @@ a.head:hover {
   }
 
 .speaker-img-3:hover {
-  background-image: url(/Images/Group%203.png);
+  background-image: url(../Images/Group%203.png);
   background-size: cover;
 }
   
   .conference {
-    background-image: url(/Images/divider-img.png);
+    background-image: url(../Images/divider-img.png);
     background-size: cover;
     position: relative;
     width: 100%;
@@ -262,7 +262,7 @@ a.head:hover {
   }
   
   .location-img {
-    background-image: url(/Images/location-img.png);
+    background-image: url(../Images/location-img.png);
     background-size: cover;
     position: relative;
     width: 520px;
@@ -271,7 +271,7 @@ a.head:hover {
   }
 
 .icons {
-  background-image: url(/Images/icons.png);
+  background-image: url(../Images/icons.png);
   background-size: cover;
   position: relative;
   height: 20%;
@@ -578,7 +578,7 @@ li.active a {
 }
       
 .speaker-2-img {
-  background-image: url(/Images/speaker-2-img.png);
+  background-image: url(../Images/speaker-2-img.png);
   background-size: cover;
   position: relative;
   height: 327px;
