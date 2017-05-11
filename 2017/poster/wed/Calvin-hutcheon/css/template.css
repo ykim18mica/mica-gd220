@@ -71,7 +71,7 @@ html {
   height: 675px;
   width: 100%;
   max-width: 1200px;
-  background-image: url(/images/blankback.gif);
+  background-image: url(images/blankback.gif);
   background-size: cover;
 }
 
@@ -350,7 +350,7 @@ title-work:hover + .arrow-right {
   left: 10%;
   z-index: 1;
   overflow-y: hidden;
-  background-image: url(/images/headgif.2.gif);
+  background-image: url(images/headgif.2.gif);
   background-size: cover;
   background-attachment: fixed;
 }
