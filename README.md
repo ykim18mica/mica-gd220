@@ -1,34 +1,22 @@
-![opte](images/opte.jpg)  
-*image from http://opte.org*
-
 # Graphic Design 2
 
 ## Course information
 - GD220
 - 3 credits
-- Spring 2017
+- Spring 2018
 - Instructor: [Dae In Chung](http://paperdove.com)
 - email: [dchung01@mica.edu](mailto:dchung01@mica.edu)
 - Office: BR303
-- Office hours: Tue 3-4:30pm & Wed 2:30-4pm (email for an appointment)
-- [Syllabus](files/MICA-17SP-GD2-Syllabus.pdf)
+- Office hours: Tue, Thur & Fridays (email for an appointment)
+- [Syllabus](files/MICA-18SP-GD2-Syllabus.pdf)
 
 ## Section information
-- GD220.02, Wed 4-10pm, F216
-- GD220.04, Thu 9am-3pm, BR305
+- GD220.02, Fri 9am-3pm, BR306
+- GD220.04, Thu 9am-3pm, BR206
 
 ## Resources
-- [Submit assignments here](https://drive.google.com/drive/folders/0B6qjLkwjTXyrMnBSSDhjbHNKLXc?usp=sharing)
+- [Submit assignments here](https://drive.google.com/drive/folders/1FL4Xx3JmJ5GCiPo8ZYH_FHtI-Rg6dmSY?usp=sharing)
 - [General resources for web design](resources.md)
-
-## Journal
-
-### Wednesday
-[Calvin](https://trello.com/b/7ImoIyUY/graphic-design-journal) / [Cole](https://trello.com/b/vRuBs8oI/graphic-design-2-journal) / [Shanshan](https://trello.com/b/Vmk0Lzqu/graphic-design-2-journal) / [Mac](https://trello.com/b/MBt2EMNY/graphic-design-2-journal) / [Burton](https://trello.com/b/5dW8WPPq/gd2-journal) / [Hannah](https://trello.com/b/jWNsL7BR/graphic-design-journal) / [Stella](https://trello.com/b/fGWpMEDC/graphic-design-2-journal) / [Yeoeun](https://trello.com/b/DRaqYvDq/graphic-design-2-journal) / [Joyce](https://trello.com/b/OvTtupR7/graphic-design-2-journal-joyce-meng) / [Victoria](https://trello.com/b/SZxgfU7M/gd-journal) / [Yun](https://trello.com/b/H9s68Y8N/graphic-design-2-journal) / [Sasha](https://trello.com/b/GvvLOzkV/graphic-design-ii-journal) / [Ziyao](https://trello.com/b/DYKMzs5x/graphic-design-2) / [Guiping](https://trello.com/b/wfhqJbtj/graphic-design-2-journal) / [Bonny](https://trello.com/b/b1DQXER0/graphicdesign2journal) / [Eun Young](https://trello.com/b/AkASvt5Z/graphic-design2-journal) / [Lorna](https://trello.com/b/2ileRq41/graphic-design-2-journal) / [Jieqi](https://trello.com/b/IkhipHvk/graphic-design-2-journal)
-
-### Thursday
-[Camille](https://trello.com/b/C2TdUSdI/gd2-journal) / [Ekin](https://trello.com/b/9SSp3owB/journal-graphic-design-ii) / [Jacob](https://trello.com/b/ADE8cUYZ/gd-2-journal) / [Juliette](https://trello.com/b/k9uJqepa/journal-graphic-design-ii) / [Jaeyoung](https://trello.com/b/SRHbKeWn/gd2-journal) / [Claire](https://trello.com/b/7NHtdq5M/gd2-journal) / [Lina](https://trello.com/b/YOZ33mjb/gd2) / [Anny](https://trello.com/b/71BiSVaH/gd2-journal) / [Samiha](https://trello.com/b/30dNTqBF/graphic-design-2-journal) / [Gloria Y.](https://trello.com/b/Opi4Qbsy/gd2-journal) / [Vicki](https://trello.com/b/WiWbsgFz/gd2-journal) / [Elena](https://trello.com/b/1TBOrUO2/gd2-journal) / [Gloria Z.](https://trello.com/b/LjvBkElp/gd2-journal) / [Lanie](https://trello.com/b/qObLgX9q/gd2-journal) / [Kai](https://trello.com/b/wXhFyTIL/gd-2-journal) / [Mary](https://trello.com/b/MmfQ0MxG/gd2journal)
- / [May](https://trello.com/b/6a1SpPa8/graphic-design2-may) / [Wenxuan](https://trello.com/b/CYf4Wlqj/gd2-journal)
 
 ## Weekly
 ### Week 1
