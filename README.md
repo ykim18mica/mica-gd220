@@ -20,7 +20,7 @@
 
 ## Weekly
 ### Week 1
-- [Survey](https://goo.gl/forms/dW19M5QvgXTkNNh63)
+- [Survey](https://goo.gl/forms/VVXaOns6NjjY6fwz1)
 - [Powers of Ten](https://www.youtube.com/watch?v=0fKBhvDjuy0) video
 - [Intro](lectures/w1/intro.md)
 - [How the Internet Works](lectures/w1/how-the-internet-works.md)
