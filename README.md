@@ -11,7 +11,7 @@
 - [Syllabus](files/MICA-18SP-GD2-Syllabus.pdf)
 
 ## Section information
-- GD220.02, Fri 9am-3pm, BR306 #
+- GD220.02, Fri 9am-3pm, BR306
 - GD220.04, Thu 9am-3pm, BR206
 
 ## Resources
