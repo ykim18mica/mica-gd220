@@ -28,6 +28,8 @@
 - [HTML Basics](lectures/w1/html-basics.md)
 - [Assignments](lectures/w1/w1-assignments.md)
 
+<!--
+
 ### Week 2
 - HTML review
 - [CSS Basics](lectures/w2/css-basics.md)
@@ -92,4 +94,6 @@
 ### Week 14
 - [Navigation bar](lectures/w13/navigation.md)
 
+
+-->
 
