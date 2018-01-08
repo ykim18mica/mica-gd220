@@ -29,7 +29,6 @@
 - [Assignments](lectures/w1/w1-assignments.md)
 
 ### Week 2
-- [Journal](lectures/w2/journal.md)
 - HTML review
 - [CSS Basics](lectures/w2/css-basics.md)
 - [CSS Text Properties](lectures/w2/css-text.md)
