@@ -23,7 +23,7 @@
 - [Survey](https://goo.gl/forms/VVXaOns6NjjY6fwz1) - sign in with your MICA email account.
 - [Intro](lectures/w1-intro.md)
 - [How the Internet Works](lectures/w1-how-the-internet-works.md)
-- [Structure Analysis Part 1](lectures/w1-structure-analysis-1.md)
+- [Structure Analysis Part 1](xxxxxxxxlectures/w1-structure-analysis-1.md)
 - [HTML Basics](lectures/w1-html-basics.md)
 - [Assignments](lectures/w1-assignments.md)
 
