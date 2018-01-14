@@ -5,7 +5,7 @@ How does the internet work? What happens when you open up a browser and type in 
 ## The Web
 The web, or World Wide Web, is a collection of HTML(Hypertext Markup Language) pages. They are made up of specially formatted text. We can add images, videos or audios to the HTML pages. We can move between the pages using hyperlinks.
 
-![internet map](../../images/internet-map.png)
+![internet map](../images/internet-map.png)
 
 *A Visualization of the Internet from [The Opte Project](https://en.wikipedia.org/wiki/Web_browser#/media/File:Internet_map_1024_-_transparent,_inverted.png)*
 
