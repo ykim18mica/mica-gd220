@@ -1,4 +1,4 @@
-# Structure Analysis Part 1
+# Structure Analysis
 
 1. You will be given a page from a print newspaper. 
 1. Identify different structural/hierarchical elements. You have to do this for every single thing on the page.
