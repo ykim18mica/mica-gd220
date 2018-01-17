@@ -16,7 +16,7 @@ A web browser is a software that you use to access the Web. You can upload and d
 
 If they are all retrieving the same pages, why are there so many web browsers? That's because the way these browsers interpret and display information varies. The HTML specifications are maintained by the [W3C](http://www.w3.org) (World Wide Web Consortium), and the specs are constantly changing. Some browsers will adapt certain features while others will not. The browsers also have other features to make it easy to use the Web or develop for the Web.
 
-## server and client
+## Server and Client
 A server is a special computer machine or software that is designed to be connected to the Internet and serve the information. A server is usually on 24/7 and waiting for any requests from the clients. A client is basically a computer that we use. We use it to connect to the Internet and request information --- it happens anytime we type in a URL or click a link.
 
 ### Website address
