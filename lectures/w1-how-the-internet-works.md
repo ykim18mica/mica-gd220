@@ -20,7 +20,7 @@ If they are all retrieving the same pages, why are there so many web browsers? T
 A server is a special computer machine or software that is designed to be connected to the Internet and serve the information. A server is usually on 24/7 and waiting for any requests from the clients. A client is basically a computer that we use. We use it to connect to the Internet and request information --- it happens anytime we type in a URL or click a link.
 
 ### Website address
-We typically type in a website address into a browser such as `http://google.com` or `http://facebook.com`. This is called a URL, which stands for Uniform Resource Locator. Every machine connected to the Internet has a unique address in the form of IP address that looks like `http://275.3.6.28`, but it is impossible for us to remember these numbers, so we instead use the words.
+We typically type in a website address into a browser such as `http://google.com` or `http://facebook.com`. This is called a URL, which stands for Uniform Resource Locator. Every machine connected to the Internet has a unique address in the form of IP address that looks like `http://275.3.6.28`, but it is impossible for us to remember these numbers, so we instead use the words that are easier to remember.
 
 ### DNS
 A DNS (Domain Name System) server will then take the domain names and convert it to the IP address that is associated with it, or vice versa.
