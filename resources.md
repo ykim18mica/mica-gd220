@@ -21,7 +21,7 @@
 ## Web Typography
 - [Typekit](https://typekit.com)
 - [Google Fonts](https://typekit.com)
-- [Font Squirrel Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator) - make sure you have to right to use the font on the web before you convert.
+- [Font Squirrel Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator) - make sure you have the right to use the font on the web before you convert.
 
 ## References
 - [Mozilla Developer Network](https://developer.mozilla.org/en-US/) - a great reference webiste
