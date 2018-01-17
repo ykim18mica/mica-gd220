@@ -15,7 +15,7 @@
 - GD220.04, Thu 9am-3pm, BR206
 
 ## Resources
-- [Submit assignments here](https://drive.google.com/drive/folders/1FL4Xx3JmJ5GCiPo8ZYH_FHtI-Rg6dmSY?usp=sharing)
+- [Submit assignments here](https://drive.google.com/drive/folders/1FL4Xx3JmJ5GCiPo8ZYH_FHtI-Rg6dmSY?usp=sharing) - you don't need to request permissions. Just sign in with your MICA email.
 - [General resources for web design](resources.md)
 
 ## Weekly
