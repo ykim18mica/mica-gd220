@@ -7,7 +7,7 @@
 1. Post screenshots of your progress on Google Drive Week 1 folder. (the ones you watched will be filled with green.)
 1. When you watch videos, take notes and follow along. Bring back any questions you have to next class.
 
-![khanacademy](../../images/khan-screenshot.png)
+![khanacademy](../images/khan-screenshot.png)
 
 *a screenshot like this!*
 
