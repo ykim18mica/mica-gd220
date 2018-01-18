@@ -24,9 +24,12 @@
 - [Intro](lectures/w1-intro.md)
 - [How the Internet Works](lectures/w1-how-the-internet-works.md)
 - group exercise: [Structure Analysis](lectures/w1-structure-analysis.md)
+- Download and install [Brackets](http://brackets.io)
+  - go to Extension Manager and install these extensions:
+    - Beautify, and then turn on edit>beautify on save
+    - Emmet
+    - Indent Guides
 - [HTML Basics](lectures/w1-html-basics.md)
-  - Download [Brackets](http://brackets.io)
-  - Sign up on [Codepen](http://codepen.io)
 - [Assignments](lectures/w1-assignments.md)
 
 ### Week 2
