@@ -37,7 +37,7 @@ Note that the hierarchy of html elements are expressed visually with indentation
   <title>Welcome to My Website</title>
 </head>
 ```
-Between the `<head></head>`, we could put a lot of information about the page. This part is not part of your webpage content. 
+Between the `<head></head>`, we could put a lot of information about the page. This part is not displayed on the page. Rather, it contains meta data. 
 
 ### Body
 ```html
