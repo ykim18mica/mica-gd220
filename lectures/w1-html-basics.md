@@ -2,7 +2,9 @@
 
 HTML(Hypertext Markup Language) and CSS(Cascading Style Sheet) are the two main languages of the web.
 
-As you have seen from the structural analysis part 1 exercise, designing for the web is not so much different from publication design in terms of systematic thinking. It is just more explicit in that all the content structure is described with HTML and all the visual presentation is done with CSS.
+As you have seen from the structural analysis exercise, you need to think in terms of system and structure to design for the web. When we work on print design projects, we may also form a mental image of these structures, it is just more explicit on the web that all the content structure is described with HTML and all the visual presentation is done with CSS.
+
+Remember that HTML (Hypertext Markup Language) is all about describing the content structure and it has nothing to do with the visual. All the visual aspect is handled with CSS (Cascading Stylesheet).
 
 Most of the time, you will have to go back and forth between HTML tags and CSS rules. Everytime you add an HTML element or CSS rule, think about how it will work within a system.
 
