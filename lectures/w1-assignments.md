@@ -28,4 +28,4 @@ What works and what does not work? If you were to make the same website, what wo
 - Be prepared to talk about your analysis to your peers next week.
 
 ------
-All the assignments above are due before the beginning of next class.
+All the assignments above are due before the beginning of next class. If it's not ready at the beginning of next class, the assignment will be marked late.
