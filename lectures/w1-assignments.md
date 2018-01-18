@@ -1,5 +1,8 @@
 # Week 1 assignments
 
+## Google survey
+Please fill out the survey.
+
 ## Khanacademy Lessons
 1. Sign up on http://khanacademy.org (it's free.)
 1. Visit this lesson page: https://www.khanacademy.org/computing/computer-programming/html-css
