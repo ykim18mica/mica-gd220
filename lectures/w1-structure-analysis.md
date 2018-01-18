@@ -10,5 +10,5 @@
 1. Replace the contents with simple geometric shapes. Do not write any text or use any images, express the structure only using simple geometric shapes with different colors for each element. For example, header with thick black line, body text with thin grey line, image with green rectangular box, etc. 
 
 ## Inspirations
-- http://www.stephaniesyjuco.com/p_colorreading.html
-- http://www.abstractbrowsing.net
+- [Towards a Theory of Color Reading](http://www.stephaniesyjuco.com/projects/towards-a-new-theory-of-color-reading-el-dia-houston-forward-times-manila-headline)
+- [Abstract Browsing](http://www.abstractbrowsing.net)
