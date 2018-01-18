@@ -1,11 +1,11 @@
 # Week 1 assignments
 
 ## Khanacademy Lessons
-1. Sign up for http://khanacademy.org
+1. Sign up on http://khanacademy.org (it's free.)
 1. Visit this lesson page: https://www.khanacademy.org/computing/computer-programming/html-css
 1. Watch the videos and follow the exercises from *Intro to HTML* and *Intro to CSS*.
-1. Post screenshots of your progress on Google Drive Week 1 folder. (the ones you watched will be filled with green.)
-1. When you watch videos, take notes and follow along. Bring back any questions you have to next class.
+1. Post screenshots of your progress and your study notes (digital or paper) on Google Drive Week 1 folder. (the ones you watched will be filled with green.)
+1. Bring back any questions you have to next class.
 
 ![khanacademy](../images/khan-screenshot.png)
 
