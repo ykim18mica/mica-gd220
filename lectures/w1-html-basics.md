@@ -46,7 +46,7 @@ Between the `<head></head>`, we could put a lot of information about the page. T
   <p>a paragraph of text.</p>
 </body>
 ```
-All the webpage contents will be put inside `body` element.
+All the webpage contents will be placed within `body` element.
 
 
 
