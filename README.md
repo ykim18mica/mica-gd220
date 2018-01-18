@@ -18,7 +18,6 @@
 - GD220.04, Thu 9am-3pm, BR305
 
 ## Resources
-- [Submit assignments here](https://drive.google.com/drive/folders/0B6qjLkwjTXyrMnBSSDhjbHNKLXc?usp=sharing)
 - [General resources for web design](resources.md)
 
 ## Journal
