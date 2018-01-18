@@ -25,6 +25,8 @@
 - [How the Internet Works](lectures/w1-how-the-internet-works.md)
 - group exercise: [Structure Analysis](lectures/w1-structure-analysis.md)
 - [HTML Basics](lectures/w1-html-basics.md)
+  - Download [Brackets](http://brackets.io)
+  - Sign up on [Codepen](http://codepen.io)
 - [Assignments](lectures/w1-assignments.md)
 
 ### Week 2
