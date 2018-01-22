@@ -35,9 +35,9 @@
 - [Assignments](lectures/w1-assignments.md)
 
 ### Week 2
+- HTML Basics cont'd
 
 <!--
-- HTML review
 - [CSS Basics](lectures/w2/css-basics.md)
 - [CSS Text Properties](lectures/w2/css-text.md)
 - [Structure Analysis Part 2](lectures/w2/structure-analysis-2.md)
