@@ -47,7 +47,8 @@
 ### Week 3
 - [Having problems with your code?](lectures/w3/problem-solving-tips.md)
 - [Box Model](lectures/w3/box-model.md)
-- Drawing with CSS - [reference](https://css-tricks.com/examples/ShapesOfCSS/)
+- Drawing with CSS 
+  - [reference](https://css-tricks.com/examples/ShapesOfCSS/)
 - [Project 1: Lyrical Mapping](lectures/w3/proj-lyrical-mapping.md)
 - [Assignments](lectures/w3/w3-assignments.md)
 
