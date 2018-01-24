@@ -72,7 +72,7 @@ h1 {
 HSLA is the same as HSL but with added opacity control.
 
 ## Gradients
-You can find [many CSS gradient generators](https://www.google.com/#q=css+gradient+generator) such as [this one](http://angrytools.com/gradient/). Try a few and find the one that works for you. Here is a [good reference](http://www.w3schools.com/css/css3_gradients.asp) on how to use the gradients.
+It may be difficult to create a CSS gradient from scratch. However, you can find [many CSS gradient generators](https://www.google.com/#q=css+gradient+generator) such as [this one](http://angrytools.com/gradient/). Try a few and find the one that works for you. Here is a [good reference](http://www.w3schools.com/css/css3_gradients.asp) on how to use the gradients.
 
 ### Linear Gradients
 ```css
