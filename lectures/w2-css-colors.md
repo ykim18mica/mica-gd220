@@ -31,7 +31,7 @@ h1 {
   color: rgba(100, 200, 100, 0.5);
 }
 ```
-This is almost the same as RGB, but now we can also set the alpha (transparency) value from `0` to `1`.
+This is almost the same as RGB, but now we can also set the alpha (transparency) value from `0` to `1`. So, `0.5` will have 50% transparency.
 
 
 ## Transparency
@@ -41,7 +41,7 @@ h1 {
   opacity: 0.3;
 }
 ```
-Use `opacity` property to only set the opacity value.
+Use `opacity` property to set the opacity value separately.
 
 
 
@@ -52,7 +52,7 @@ h1 {
   color: #9AD199; /* light green-ish */
 }
 ```
-Hexadecimal color uses base-16 numbers. There are three color channels just like RGB, and each channel is made up of two digits. Each channel goes from `00` to `FF` and anything inbetween such as `0F`, `CA`, `9C`, etc.
+Hexadecimal color uses base-16 numbers. We are used to base-10 numbers(meaning, we use 10 different digits from 0 to 9) but base-16 will have 16 different digits from 0 to 9 *and* A to F. There are three color channels just like RGB, and each channel is made up of two digits. Each channel goes from `00` to `FF` (F is the highest single number) and anything inbetween such as `0F`, `CA`, `9C`, etc.
 
 
 ## HSL
