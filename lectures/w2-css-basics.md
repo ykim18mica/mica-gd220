@@ -3,7 +3,7 @@
 Cascading Style Sheet or CSS defines the appearance of your web page. Note that it is important to separate the contents (HTML) and the visual presentation (CSS).
 
 ## How to add CSS rules
-There are three different ways (inline, style tag or external css file) to add CSS style to your webpage - you can use inline or use style tag or external css file. For now, we will place it inside `<head>`.
+There are three different ways (inline, style tag or external css file) to add CSS style to your webpage. For now, we will place `<style>` tag inside `<head>`.
 ```html
 <html>
   <head>
