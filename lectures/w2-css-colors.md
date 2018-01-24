@@ -61,7 +61,7 @@ h1 {
   color: hsl(30, 100%, 50%); /* orange */
 }
 ```
-HSL stands for hue, saturation and lightness. It's basically color wheel. Hue goes from `0` to `360`, saturation and lightness go from `0%` to `100%`. Again, look at Photoshop color picker to get a better idea on how this works.
+HSL stands for hue, saturation and lightness. You can think of a color wheel. Hue goes from `0` to `360`, saturation and lightness go from `0%` to `100%`. Again, look at Photoshop color picker to get a better idea on how this works.
 
 ## HSLA
 ```css
