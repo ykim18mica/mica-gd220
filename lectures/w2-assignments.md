@@ -68,10 +68,4 @@ You are going to have to do a fair amount of your own research to find proper CS
 Continue watching [Khan Academy lessons](https://www.khanacademy.org/computing/computer-programming/html-css). Again, post the screenshots for *each* chapter. Take notes and bring back the questions.
   - More HTML tags
   - CSS text properties
-  - CSS layout
-  
-## HTML/CSS Practice 
-Visit [Learn Layout](http://learnlayout.com). Read and follow the examples from page 1 to page 6.  
-  
-
-  
+  - CSS layout 
