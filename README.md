@@ -42,8 +42,8 @@
 - [Structure Analysis Part 2](lectures/w2-structure-analysis-2.md)
 - [Assignments](lectures/w2-assignments.md)
 
-<!--
 ### Week 3
+<!--
 - [Having problems with your code?](lectures/w3/problem-solving-tips.md)
 - [Box Model](lectures/w3/box-model.md)
 - Drawing with CSS 
