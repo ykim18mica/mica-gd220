@@ -61,6 +61,7 @@ You are going to have to do a fair amount of your own research to find proper CS
   - The project folder that contains `index.html` - you *must* name your file `index.html`.
   - If you have any local image files, that should also be part of the project folder.
   - Upload the entire project folder on Google Drive Week 2 folder.
+  - Don't just do the bare minimum. Search for more CSS properties and experiment with them.
 
 -----
 
