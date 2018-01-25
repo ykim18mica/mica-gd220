@@ -11,6 +11,8 @@
   - `font-size`
   - `font-weight`
   - `font-style`
+  - `line-height`
+  - `color`
 1. You can google with each property name to learn how to use it.
 1. If you feel adventurous, google other CSS properties that we have not yet covered and apply to your page.
 
