@@ -5,7 +5,7 @@
 
 ### First, markups
 1. You will be given a blog posting in plain text.
-1. Download [the template](../../files/w2-assignment-template.zip). Do not start from scratch for this assignment.
+1. Download the text and the HTML template folder on Google Drive. Do not start from scratch for this assignment.
 1. First, identify different structural elements and add proper HTML markups such as `h1`, `h2`, `img`, `p`, `div`, `a`, etc.
 1. For the elements that are hard to find the existing HTML tags, give them the generic `<div>` tag with a class. For example, `<div class="author">` or `<div class="date">`, etc.
 1. In the text, there are external websites you need to link to. They are inside the parentheses. Don't let the full URL show up on your page. Contain within `<a href="">` block so it is clickable.
