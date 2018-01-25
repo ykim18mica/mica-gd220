@@ -24,7 +24,7 @@ You are going to have to do a fair amount of your own research to find proper CS
 1. Add CSS rules to give your audience good reading experience. This is a blog article, so you have to consider that the text is meant to be read on screen.
 1. How big or small does the text need to be? What about line heights? What typefaces will work best? How do you create contrast between headings and body text? What is the optimal width for a text column?
 1. Focus on the visual aesthetics and the user experience. It should be visually pleasing to look at and read, and also easy for users to experience.
-1. It is also a good idea to visit many different websites/blogs and get ideas for making your design better.
+1. It is also important to visit as many different websites/blogs as possible to get ideas for making your design better.
 
 #### Tips
 1. To control the width of your contents, first, contain the entire contents block within `<div class="container"> ... </div>` in your HTML file. In other words, `<div class="container">` block will be the parent element of all the other contents. Then, using CSS, add this rule:
