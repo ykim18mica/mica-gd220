@@ -19,7 +19,7 @@ A box is made up of four parts - content, padding, border and margin. You may en
 Let's first take a look at a content. A content is the text you write between the pair of html tags.
 
 ```html
-<div>This is my box.</div>
+<div>This is my content.</div>
 ```
 The width and height are defined by the length of your content and the size of the browser window. The `<div>` is a block-level element, so by default, the width is the same as the browser window width. Try adding a red border around the `<div>` and see how far the border stretches:
 
