@@ -1,13 +1,13 @@
 # Box Model
 
-Remember this: everything is a rectangular box. Every HTML element - `h1`, `p`, `div` - is a rectangular box even though they don't look like it. A quick way to see this is to add a border around each element temporarily. Choose and element and add a CSS rule like this:
+Remember this: everything is a rectangular box. Every HTML element - `h1`, `p`, `div` - is a rectangular box even though they don't look like one. A quick way to see this is to add an outline around each element temporarily. Choose and element and add a CSS rule like this:
 
 ```css
 p {
-  border: 1px solid red; /* width style color */
+  outline: 1px solid red; /* width style color */
 }
 ```
-Now you will see a thin red border around your `p` element. Of course, you should have some text in the paragraph. Otherwise, you won't see anything.
+Now you will see a thin red outline around your `p` element. Of course, you should have some text in the paragraph. Otherwise, you won't see anything.
 
 So, in positioning and styling the HTML elements, we are working with boxes. And there are a few things to know to handle these boxes. We call this a *box model*.
 
