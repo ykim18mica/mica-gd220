@@ -21,11 +21,11 @@ Let's first take a look at a content. A content is the text you write between th
 ```html
 <div>This is my content.</div>
 ```
-The width and height are defined by the length of your content and the size of the browser window. The `<div>` is a block-level element, so by default, the width is the same as the browser window width. Try adding a red border around the `<div>` and see how far the border stretches:
+The width and height are automatically determined by the length of your content and the size of the browser window. The `<div>` is a block-level element, so by default, the width is the same as the browser window width. Try adding a red outline around the `<div>` and see how far the border stretches:
 
 ```css
 div {
-  border: 1px solid red;
+  outline: 1px solid red;
 }
 ```
 
@@ -33,7 +33,7 @@ If you want to use the custom width for your html element, then add `width` CSS 
 
 ```css
 div {
-  border: 1px solid red;
+  outline: 1px solid red;
   width: 200px;
 }
 ```
@@ -42,19 +42,19 @@ It's the same with the height:
 
 ```css
 div {
-  border: 1px solid red;
+  outline: 1px solid red;
   width: 200px;
   height: 200px;
 }
 ```
-*Note: Without contents, the box will not have any width and height. In this case, you will have to manually set the width and height in CSS.*
+*Note: Without contents, the box will not have any width and height. In this case, you will have to manually set the width and height in CSS because it is an empty element.*
 
 ## Padding
 If you want to add some spcing between your content and the border, then use padding:
 
 ```css
 div {
-  border: 1px solid red;
+  outline: 1px solid red;
   padding: 20px; /* add 20px padding on all sides. */
   width: 200px;
   height: 200px;
@@ -65,7 +65,7 @@ If you want to add a padding only on one side, there are `padding-top`, `padding
 
 ```css
 div {
-  border: 1px solid red;
+  outline: 1px solid red;
   padding-left: 20px; /* add 20px padding on the left. */
   width: 200px;
   height: 200px;
@@ -81,7 +81,7 @@ div {
 ```
 
 ## Border
-We have been using the border already by calling `border: 1px solid red;` to see the boundary of the html element. Let's take a deeper look at this.
+We have been using the outline to temporarily visualize the box. If you want to have a border as the actual visual element, then use `border` property. Let's take a look at this.
 
 ```css
 div {
