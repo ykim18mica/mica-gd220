@@ -9,6 +9,9 @@ Visit the [Khanacademy Lesson page](https://www.khanacademy.org/computing/comput
   
 Congrats on finishing the course!
 
+## HTML/CSS Practice 
+Visit [Learn Layout](http://learnlayout.com). Read and follow the examples from page 1 to page 6.  
+
 ## Project 1 mockup design
 This week, you will design the Photoshop mockup for your Lyrical Mapping project.
 
