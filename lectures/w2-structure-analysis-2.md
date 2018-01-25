@@ -1,6 +1,6 @@
 # Structure Analysis Part 2
 
-1. You will be given a news article in plain text file.
+1. You will be given a news article in plain text file. Find `w2-exercise` folder on Google Drive.
 1. Assign names to each element such as title, caption, paragraph, section title, etc. to describe each content and its role.
 1. Every element must be given a place in the structure. You are working on a single article here, but the same structure can be used for the future articles that do not exist yet.
 1. Download and open up the HTML template folder for this exercise in Brackets.
