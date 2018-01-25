@@ -10,11 +10,11 @@
 1. For the elements that are hard to find the existing HTML tags, give them the generic `<div>` tag with a class. For example, `<div class="author">` or `<div class="date">`, etc.
 1. In the text, there are external websites you need to link to. They are inside the parentheses. Don't let the full URL show up on your page. Contain within `<a href="">` block so it is clickable.
 1. There is a video that you need to embed. Below is how you do it. You can find more information [here](http://www.w3schools.com/html/html5_video.asp).
-  ```
-  <video controls>
-    <source src="http://address-of-your-video-file" type="video/mp4">
-  </video>
-  ```
+    ```
+    <video controls>
+      <source src="http://address-of-your-video-file" type="video/mp4">
+    </video>
+    ```
 1. Every element in the text *must* be given a proper HTML tag.
 
 ### Second, styling
