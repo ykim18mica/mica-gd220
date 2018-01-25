@@ -7,7 +7,7 @@
 1. Use HTML tags such as `h1`, `h2`, `p`, etc. to give the structure to the original plain text.
 1. If there is no html tag that can describe your content element, use `<div>` or `<span>` with a `class`. For example, `<div class="author">`.
 1. Use CSS properties below to add the basic styling to HTML elements.
-  - `font-family`: Use one or two from the Google Fonts.
+  - `font-family`
   - `font-size`
   - `font-weight`
   - `font-style`
