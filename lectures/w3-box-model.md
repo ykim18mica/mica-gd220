@@ -1,6 +1,6 @@
 # Box Model
 
-Remember this: everything is a rectangular box. Every HTML element - `h1`, `p`, `div` - is a rectangular box even though they don't look like one. A quick way to see this is to add an outline around each element temporarily. Choose and element and add a CSS rule like this:
+Remember this: everything is a rectangular box. Every HTML element - `h1`, `p`, `div` - is a rectangular box even though they don't look like one. A quick way to see this is to add an outline around each element temporarily. Choose an element and add a CSS rule like this:
 
 ```css
 p {
