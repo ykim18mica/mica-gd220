@@ -21,10 +21,20 @@
 - Photoshop mockup file; Download the [PSD template file](../../files/proj1-psd-mockup-template.psd).
 - HTML and CSS webpage
 
-## Deadline
-Tue, Feb.22 (Section 2)  
-Wed, Feb.23 (Section 4)
+## Weekly schedule
+
+### Week 3
+project begins
+work on design mockups
+
+### Week 4
+review mockups
+work on HTML and CSS
+
+### Week 5
+
+### Week 6
 
 -----
-### Examples from last semester
+### Student work examples
 [Hyojeong](http://mica-gd2.paperdove.com/2016/lyrics/hyojeong/), [Jeff](http://mica-gd2.paperdove.com/2016/lyrics/jeff/), [Jihae](http://mica-gd2.paperdove.com/2016/lyrics/jihae/)
