@@ -1,7 +1,7 @@
 # Project: Lyrical Mapping
 
 ## Process
-1. Pick a song that has lyrics (please keep this rated PG).
+1. Pick a song that has lyrics (please be mindful that some lyrics may offend others).
 2. Extract all the lyrics as text. Be sure to type them exactly as they appear in the song, ie. preserve repetition or word, syllable, line breaks.
 3. Analyze the rhythm and sequence of the lyrics. Is it even throughout? Are there more powerful moments? Does it build? Do any elements repeat? Is there a transformation?
 4. Sketch vertical compositions that visually represent your analysis and interpretation of the lyrics. What do lateral or vertical movement communicate? What do white space and gaps communicate? What does size communicate? What does density communicate?
