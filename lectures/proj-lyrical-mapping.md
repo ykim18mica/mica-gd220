@@ -12,7 +12,7 @@
 
 ## Constraints
 - Must use HTML and CSS modular grid provided
-- All text must be set in HTML and CSS.
+- All text must be set in HTML and CSS, not as images.
 - Fonts you use must be either web safe font or Google Font.
 - No interaction beside scrolling.
 - 1200 pixels width; minimum of 4200 pixels height
