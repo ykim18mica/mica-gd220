@@ -25,11 +25,11 @@
 We have 4 weeks for this project so keep the timeframe in mind and plan accordingly. You want to challenge yourself with something new, but your goal needs to be realistic.
 
 ### Week 3
-project begins
+project begins  
 work on design mockups
 
 ### Week 4
-review mockups
+review mockups  
 work on HTML and CSS
 
 ### Week 5
