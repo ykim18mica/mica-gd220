@@ -18,7 +18,7 @@
 - 1200 pixels width; minimum of 4200 pixels height
 
 ## Deliverables
-- Photoshop mockup file; Download the [PSD template file](../../files/proj1-psd-mockup-template.psd).
+- Photoshop mockup file; Download the [PSD template file](../files/proj1-psd-mockup-template.psd).
 - HTML and CSS webpage
 
 ## Weekly schedule
