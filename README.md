@@ -44,7 +44,7 @@
 
 ### Week 3
 - [Having problems with your code?](lectures/w3-problem-solving-tips.md)
-- [Box Model](lectures/w3/box-model.md): Everything is a box!!
+- [Box Model](lectures/w3-box-model.md): Everything is a box!!
 - Drawing with CSS 
   - [reference](https://css-tricks.com/examples/ShapesOfCSS/)
 - [Project 1: Lyrical Mapping](lectures/proj-lyrical-mapping.md)
