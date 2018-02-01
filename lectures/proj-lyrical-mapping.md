@@ -32,8 +32,10 @@ review mockups
 work on HTML and CSS
 
 ### Week 5
+HTML and CSS cont'd
 
 ### Week 6
+project due
 
 -----
 ### Student work examples
