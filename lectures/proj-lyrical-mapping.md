@@ -22,6 +22,7 @@
 - HTML and CSS webpage
 
 ## Weekly schedule
+We have 4 weeks for this project so keep the timeframe in mind and plan accordingly. You want to challenge yourself with something new, but your goal needs to be realistic.
 
 ### Week 3
 project begins
