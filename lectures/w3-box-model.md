@@ -50,7 +50,7 @@ div {
 *Note: Without contents, the box will not have any width and height. In this case, you will have to manually set the width and height in CSS because it is an empty element.*
 
 ## Padding
-If you want to add some spcing between your content and the border, then use padding:
+If you want to add some spㅁcing between your content and the border, then use padding. Remember when you use the padding, that we are adding space inside the box:
 
 ```css
 div {
