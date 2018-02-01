@@ -29,7 +29,7 @@ div {
 }
 ```
 
-If you want to use the custom width for your html element, then add `width` CSS property:
+If you want to use the custom width for your html element, then add `width` CSS property. Then, your width will always be 200 px regardless of the content length:
 
 ```css
 div {
@@ -38,7 +38,7 @@ div {
 }
 ```
 
-It's the same with the height:
+You can set the height the same way:
 
 ```css
 div {
