@@ -48,10 +48,9 @@
 - Drawing with CSS 
   - [reference](https://css-tricks.com/examples/ShapesOfCSS/)
 - [Project 1: Lyrical Mapping](lectures/proj-lyrical-mapping.md)
+- [Assignments](lectures/w3-assignments.md)
 
 <!--
-- [Assignments](lectures/w3/w3-assignments.md)
-
 ### Week 4
 - [Slicing PSD mockup](lectures/w4/slice-psd-mockup.md)
 - [HTML/CSS template walkthrough](lectures/w4/proj1-template-walkthrough.md)
