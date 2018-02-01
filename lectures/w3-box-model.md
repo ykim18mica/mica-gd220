@@ -110,7 +110,7 @@ h1 {
 ```
 
 ## Margin
-The margin defines the spacing *between* different html elements. Let's first draw 2 divs.
+The margin defines the spacing *between* different html elements. This is the spacing outside the box. Let's first draw 2 divs.
 ```html
 <div class="box-1">Box 1</div>
 <div class="box-2">Box 2</div>
