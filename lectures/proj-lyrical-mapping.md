@@ -40,4 +40,4 @@ project due
 
 -----
 ### Student work examples
-[Hyojeong](http://mica-gd2.paperdove.com/2016/lyrics/hyojeong/), [Jeff](http://mica-gd2.paperdove.com/2016/lyrics/jeff/), [Jihae](http://mica-gd2.paperdove.com/2016/lyrics/jihae/)
+[Hyojeong](http://mica-gd2.paperdove.com/2016/lyrics/hyojeong/), [Ziyao](http://mica-gd2.paperdove.com/2017/lyrics/wed/ziyao-sun/), [Burton](http://mica-gd2.paperdove.com/2017/lyrics/wed/Burton-Booz/), [Hannah](http://mica-gd2.paperdove.com/2017/lyrics/wed/Hananh-Meng/)
