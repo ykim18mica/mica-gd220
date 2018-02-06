@@ -22,7 +22,7 @@ Now, draw rectangular selection using the Slice Tool for each slice you want to 
 
 ![Slice numbers](../images/slice-numbers.png)
 
-As the image above, each slice gets numbered. Don't worry about the numbers, though. We will give custom names to the slices. Once you have created all the slices - make sure the slices are the same size as the column grids, choose the Slice Select tool and double-click on each slice to give customized names.
+As the image above shows, each slice gets numbered. Don't worry about the numbers, though. We will give custom names to the slices. Once you have created all the slices - make sure the slices are the same size as the column grids, choose the Slice Select tool and double-click on each slice to give customized names.
 
 ![Slice options](../images/slice-options.png)
 
