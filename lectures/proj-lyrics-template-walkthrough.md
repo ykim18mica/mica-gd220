@@ -116,7 +116,7 @@ Add these classes to your `div` to determine the height. For instance,
 ### Helper classes
 ```css
 /* to see the box */
-.test { border: 1px solid red; }
+.test { outline: 1px solid red; }
 ```
 You can temporarily add `.test` to see how big the box is for each element. This is useful for finding problems.
 
