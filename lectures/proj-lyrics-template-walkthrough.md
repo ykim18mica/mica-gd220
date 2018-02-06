@@ -110,7 +110,7 @@ div.quarter { padding-top: 25%; }
 Add these classes to your `div` to determine the height. For instance,
 `<div class="col-50 half"></div>` will create a 50% width square block.
 
-![columns](../../images/p1-how-to-columns.gif)
+![columns](../images/p1-how-to-columns.gif)
 
 
 ### Helper classes
@@ -192,7 +192,7 @@ As you can see from above, we do not place image directly in the HTML page, inst
 
 *Exercise: Let's practice more using html hierarchy and template codes. See if you can create the same layout below using HTML/CSS template:*
 
-![column grid layout for exercise](../../images/p1-template-ex1.png)
+![column grid layout for exercise](../images/p1-template-ex1.png)
 
 -----
 
