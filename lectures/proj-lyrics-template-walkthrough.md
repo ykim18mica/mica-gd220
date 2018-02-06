@@ -1,6 +1,6 @@
 # Project 1 Template Walkthrough
 
-For the Lyrical Mapping project, you will build upon a CSS template provided. **Do not start from scratch. Use the template folder provided.** This template includes the support for responsive design and a few helpful classes to convert photoshop mockup to HTML/CSS codes.
+For the Lyrical Mapping project, you will build upon a CSS template provided. **Do not start from scratch. Use the template folder and files provided.** This template includes many helpful classes to convert photoshop mockup to HTML/CSS codes.
 
 ## Overview
 Download [HTML/CSS template project folder](../../files/proj1-template.zip) and unzip to your prefered location. The `p1-template` folder will be created. Change the folder name to your name as in `john-doe`. Do not have spaces in folder name and file names.
