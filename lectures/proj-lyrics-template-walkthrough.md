@@ -198,4 +198,4 @@ As you can see from above, we do not place image directly in the HTML page, inst
 
 *Exercise: Download [this PSD file](../../files/p1-template-ex2.psd) and follow along.*
 
-![template exercise](../../images/p1-template-ex2.png)
+![template exercise](../images/p1-template-ex2.png)
