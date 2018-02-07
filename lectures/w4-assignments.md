@@ -15,7 +15,11 @@
   background-size: cover;
 }
 ```
+- Then you will use the classes in your HTML.
+```html
+<div class="col-25 img-flower"></div>
+```
 - Be clear and descriptive with your class names as well as image file names.
 
 ## Deliverables
-- Post the updated PSD file and work-in-progress HTML/CSS project (the entire folder) on Google Drive Week 4.
+- Post the updated PSD file and work-in-progress HTML/CSS project (the entire folder) on Google Drive.
