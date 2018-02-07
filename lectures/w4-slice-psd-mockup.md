@@ -8,7 +8,7 @@ A few things to check...
 - Are all text layers in the text folder in PSD so that they can easily be turned on or off?
 - Are all images fit in the column grids? No pixels sticking out of the boxes?
 - Did you accidently move the guides that are set every 300px? If so, it won'w work with the HTML/CSS template. 
-- Is your PSD canvas size set to the multiple of 300 pixels? (300pixel is the column width * height) Hit COMMAND+OPTION+C to check it out.
+- Is your PSD canvas size set to the multiple of 300 pixels? (300pixel is the column width and height) Hit COMMAND+OPTION+C to check it out.
 - Did you name all your image layers properly so that it's easy to find what you need? 
 
 We will use [this file](../files/p1-template-ex2.psd) as an example.
