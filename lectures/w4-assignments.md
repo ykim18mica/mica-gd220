@@ -22,4 +22,4 @@
 - Be clear and descriptive with your class names as well as image file names.
 
 ## Deliverables
-- Post the updated PSD file and work-in-progress HTML/CSS project (the entire folder) on Google Drive.
+- Post the updated design file (PNG) and work-in-progress HTML/CSS project (the entire folder) on Google Drive.
