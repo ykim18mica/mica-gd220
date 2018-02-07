@@ -5,6 +5,7 @@
 - Clean up and organize your code - comments, indents, proper line breaks, etc.
 - Double check your images are properly stored in `images` folder and properly linked in your CSS.
 - Test your webpage using Chrome browser before submitting. Test on multiple computers.
+- Just because it worked on your machine one day does not mean it will wor on other people's computers.
 
 ## Deliverables
 - Rename your folder with your first-last name. i.e.`DaeIn-Chung`
