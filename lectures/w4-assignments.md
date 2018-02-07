@@ -6,12 +6,12 @@
 - From your PSD mockup, cut images(only images, hide the text) into slices and start laying down as `background-image` in css. Each image should have its own class.
 ```css
 .img-flower {
-  background-image: url(/images/img-flower.png);
+  background-image: url("/images/img-flower.png");
   background-size: cover;
 }
 
 .img-ocean {
-  background-image: url(/images/img-ocean.png);
+  background-image: url("/images/img-ocean.png");
   background-size: cover;
 }
 ```
