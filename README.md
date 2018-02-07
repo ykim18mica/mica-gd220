@@ -56,7 +56,7 @@
 
 ### Week 4
 - [Slicing PSD mockup](lectures/w4-slice-psd-mockup.md)
-- [HTML/CSS template walkthrough](lectures/w4-proj1-template-walkthrough.md)
+- [HTML/CSS template walkthrough](lectures/w4-lyrics-template-walkthrough.md)
 <!--
 - [Assignments](lectures/w4/w4-assignments.md)
 
