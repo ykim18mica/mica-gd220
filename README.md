@@ -55,6 +55,7 @@
 - [Assignments](lectures/w3-assignments.md)
 
 ### Week 4
+- [Rails Girls Summer of Code](https://railsgirlssummerofcode.org): 3 month paid fellowship for women. if interested, let me know.
 - [Slicing PSD mockup](lectures/w4-slice-psd-mockup.md)
 - [HTML/CSS template walkthrough](lectures/w4-lyrics-template-walkthrough.md)
 - [Assignments](lectures/w4-assignments.md)
