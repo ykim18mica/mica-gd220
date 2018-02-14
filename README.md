@@ -60,11 +60,11 @@
 - [HTML/CSS template walkthrough](lectures/w4-lyrics-template-walkthrough.md)
 - [Assignments](lectures/w4-assignments.md)
 
-<!--
 ### Week 5
 - Work on Project 1
 - [Assignments](lectures/w5-assignments.md)
 
+<!--
 ### Week 6
 - [CSS Layout: Position](lectures/w6/css-layout-position.md)
 - [CSS Hover](lectures/w6/css-hover.md)
