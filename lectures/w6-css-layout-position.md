@@ -153,10 +153,10 @@ div.box-2 {
 ## Practice
 See if you can recreate these compositions. What position value would you use?:
 
-<img src="../../images/css-position-practice/001.png" width="40%" style="float: left; margin-right: 5%;">
-<img src="../../images/css-position-practice/002.png" width="40%" style="float: left; margin-right: 5%;">
-<img src="../../images/css-position-practice/003.png" width="40%" style="float: left; margin-right: 5%;">
-<img src="../../images/css-position-practice/004.png" width="40%" style="float: left; margin-right: 5%;">
+<img src="../images/css-position-practice/001.png" width="40%" style="float: left; margin-right: 5%;">
+<img src="../images/css-position-practice/002.png" width="40%" style="float: left; margin-right: 5%;">
+<img src="../images/css-position-practice/003.png" width="40%" style="float: left; margin-right: 5%;">
+<img src="../images/css-position-practice/004.png" width="40%" style="float: left; margin-right: 5%;">
 
 ## Further learning
 - [Don't Fear the Internet - Layout](https://vimeo.com/137320138)
