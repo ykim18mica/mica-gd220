@@ -89,12 +89,13 @@ As if this was not enough to make your head spin, there is one more important th
 
 ### grouping things together
 To make the box positioned relative to its positioned ancestor, change the code as below:
+
 ```html
-<div class="box-1">box 1</div>
-<div class="box-4">
+<div class="box-parent">
+  <div class="box-1">box 1</div>
   <div class="box-2">box 2</div>
+  <div class="box-3">box 3</div>
 </div>
-<div class="box-3">box 3</div>
 ```
 
 ```css
@@ -107,15 +108,20 @@ div {
   height: 50px;
 }
 
-div.box-2 {
-  position: absolute;
-  bottom: 40px;
-  right: 10px;
+div.box-parent {
+  position: relative;
+  background-color: transparent;
+  border: 0;
 }
 
-div.box-4 {
-  position: relative;
+div.box-2 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
+
+
+
 ```
 
 Now, the parent of the box-2 is positioned relative, the box-2 will be positioned relative to the box-4, not the entire window. This is great because once you position all your elements relative to its other inside a parent, then, we can simply move the parent element, then, all the child elements will follow.
