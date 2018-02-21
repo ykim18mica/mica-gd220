@@ -1,6 +1,6 @@
 # Poster code template
 
-First, download the template [here](https://github.com/cdaein/mica-gd220-sp17/blob/master/files/web-poster-code-template.zip). This template is very similar to the one we used for the Lyrical Mapping project, but there are also differences. Let's take a look.
+First, download the template [here](../files/web-poster-code-template.zip). This template is very similar to the one we used for the Lyrical Mapping project, but there are also differences. Let's take a look.
 
 
 ## Box sizing
