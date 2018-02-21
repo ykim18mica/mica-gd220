@@ -25,7 +25,7 @@ You will design a poster for the retrospective of your favorite filmmaker. Pick 
 - Use the template provided. The template is based on [this posting](http://j4n.co/blog/Creating-your-own-css-grid-system).
 - Base your design on 1200 pixel width. (We don't do the responvisve design this time)
 - Use `:hover`, `animation` and `transition` to create more engaging experience.
-- Do not use the images of the filmmaker or performers.
+- **Do not use** the images of the filmmaker or performers.
 - Don't be *literal* with your design! For example, showing a screenshot from each film - too literal. Add your interpretation of the filmmaker.
 
 ### Things to do this week
