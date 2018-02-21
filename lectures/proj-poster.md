@@ -11,7 +11,7 @@ You will design a poster for the retrospective of your favorite filmmaker. Pick 
 
 ### Requirements
 - Use type + image (photo, graphics, illustration, etc.)
-- Use the template provided. Learn more about the template [here](http://j4n.co/blog/Creating-your-own-css-grid-system).
+- Use the template provided. (This is different from Project 1 template.)
 - Base your design on 1200 pixel width.
 - Use `:hover`, `animation` and `transition` to create more engaging experience.
 - **Do not use** the images of the filmmaker or performers in the films.
