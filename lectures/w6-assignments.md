@@ -8,4 +8,3 @@ Watch, read and follow along the examples on CSS layouts. Take notes as well:
 ## Project: Interactive Poster design
 - Create a mockup for your poster using the template file: download [PSD](../files/web-poster-mockup-template.psd), [AI](../files/web-poster-mockup-template.ai)
 - Post the mockup file (PNG file) on Google Drive.
-- Download the coding template [here](../files/web-poster-code-template.zip) and start playing with it. *We will look at the template in detail next week.*
