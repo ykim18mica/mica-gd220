@@ -67,7 +67,11 @@ div.box-2 {
 Use whichever method you feel more comfortable. They can also take negative values.
 
 One more important thing to notice here is that, when I positioned the 2nd box, the boxes around it stay the same and they don't try to fill in any gaps. That's because when you set an element `relative`, it keeps its original space so that other elements cannot take it over. This is a big difference between `relative` and `absolute`.
-  
+
+To recap, you have to remember 2 important things about `relative` positioning:
+1. Any custom positioning you set with `relative` will be relative to its original position.
+1. Elements with `relative` position will keep its original space and other elements cannot take the space.
+
 ## absolute
 Let's change just one line from the previous styling:
 ```css
@@ -79,9 +83,9 @@ div.box-2 {
 ```
 What just happened?! The box is now at the bottom-right corner of the page. When you set the position `absolute`, the element is positioned *relative* to its first *positioned* (not static) ancestor element. That's mouthful. To break it down, here is what happens. 
 
-When you set the position absolute, first, your element will look at its parent whether it is *positioned* (any position value other than static). If the parent is not positioned, then it will go up the hierarchy and look at the parent of the parent element. It does so until it finds an ancestor that is positioned. Then, it will be relative to that ancestor element's position. What if it cannot find any positioned ancestors just like in our case here? Then, it will position itself relative to the entire document. That's why the box is now placed at the bottom-right corner.
+When you set the position absolute, first, your element will look at its parent whether it is *positioned* (any position value other than `static`). If the parent is not positioned, then it will go up the hierarchy and look at the parent of the parent element. It does so until it finds an ancestor that is positioned. Then, it will be relative to that ancestor element's position. What if it cannot find any positioned ancestors just like in our case here? Then, it will position itself relative to the entire document. That's why the box is now placed at the bottom-right corner.
 
-As if this was not enough to make your head spin, there is one more important thing to know. Notice that when you position the box-2 absolute, it is taken out of the regular document flow, so the other elements can take up its original space.
+As if this was not enough to make your head spin, there is one more important thing to know. Notice that when you position the box-2 absolute, it is taken out of the regular document flow, so the other elements *can* take up its original space.
 
 ### grouping things together
 To make the box positioned relative to its positioned ancestor, change the code as below:
