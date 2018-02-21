@@ -137,7 +137,7 @@ To see what `fixed` position does, we will use a different code example.
 div {
   box-sizing: border-box;
   background-color: lightgrey;
-  margin-bottom: 200px;
+  margin-bottom: 600px;
   border: 1px solid black;
   width: 400px;
   height: 150px;
@@ -150,7 +150,7 @@ div.box-2 {
 }
 ```
 
-`fixed` position works almost the same as `absolute` except that it does not scroll with other elements. Many websites use `fixed` positioning for the site navigation so that it is always visible, but it can cause some problems for mobile devices.
+`fixed` position works almost the same as `absolute` except that it does not scroll with other elements. Many websites use `fixed` positioning for the top navigation so that it is always visible, but it can cause some problems for mobile devices.
 
 ## Recap
 - static: the default setting. don't worry about it.
