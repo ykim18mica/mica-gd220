@@ -70,6 +70,16 @@
 - [CSS Layout: Position](lectures/w6-css-layout-position.md)
 <!--
 
+### Week 7
+
+### Week 8
+
+### Week 9
+*Spring break - no class*
+
+### Week 10
+- Review project
+
 - [CSS Hover](lectures/w6/css-hover.md)
 - [Assignments](lectures/w6/w6-assignments.md)
 
