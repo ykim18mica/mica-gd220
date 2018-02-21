@@ -17,11 +17,6 @@ You will design a poster for the retrospective of your favorite filmmaker. Pick 
 - **Do not use** the images of the filmmaker or performers in the films.
 - Don't be *literal* with your design! For example, showing a screenshot from each film - too literal. Add your interpretation of the filmmaker.
 
-### Things to do this week
-- Create a mockup for your poster using the template file: download [PSD](../files/web-poster-mockup-template.psd), [AI](../files/web-poster-mockup-template.ai)
-- Post the mockup file on Google Drive Week 6 folder. *If you work with AI, export to PDF.*
-- Download the coding template [here](../files/web-poster-code-template.zip) and start playing with it. *You will do the majority of the coding next week.*
-
 ### Weekly schedule
 
 #### Week 6
