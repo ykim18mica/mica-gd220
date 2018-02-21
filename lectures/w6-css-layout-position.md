@@ -123,8 +123,7 @@ div.box-2 {
 
 
 ```
-
-Now, the parent of the box-2 is positioned relative, the box-2 will be positioned relative to the box-4, not the entire window. This is great because once you position all your elements relative to its other inside a parent, then, we can simply move the parent element, then, all the child elements will follow.
+In the example above, we have one more level of hierarchy with `.box-parent`. Because `.box-parent` is positioned, `div.box-2`'s absolute position will be relative to its parent, `.box-parent`. If you now move the parent element `.box-parent`, all the children element will move together. This is great when you want to move an entire module.
   
 ## fixed
 To see what `fixed` position does, we will use a different code example.
