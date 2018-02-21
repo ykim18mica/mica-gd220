@@ -68,7 +68,7 @@
 ### Week 6
 - Review Project: Lyrical Mapping
 - [CSS Layout: Position](lectures/w6-css-layout-position.md)
-- [CSS Hover](lectures/w6/css-hover.md)
+- [CSS Hover](lectures/w6-css-hover.md)
 - **[Project 2: Poster design for the web](lectures/proj-poster.md)**
 
 
