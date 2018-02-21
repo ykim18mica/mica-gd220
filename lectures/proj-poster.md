@@ -1,5 +1,5 @@
 # Project 2: Poster design for the web
-You will design a poster for the retrospective of your favorite filmmaker. Pick five films directed by the filmmaker based on the criteria you set. This poster is supposed to live on the web. How is it similar to and different from the printed poster design? What possibilities and limitations do you have? How do you relate the contents, form and interactions? Experiment with the medium and technologies. Use the technologies to create and control meanings, not just to show off the skills.
+You will design a poster for the retrospective of your favorite filmmaker. (If you don't have any favorite filmmaker, you should start watching some movies this weekend.) Pick five films directed by the filmmaker based on the criteria you set. This poster is supposed to live on the web. How is it similar to and different from the printed poster design? What possibilities and limitations do you have? How do you relate the contents, form and interactions? Experiment with the medium and technologies. Use the technologies to create and control meanings, not just to show off the skills.
 
 ### Things to include in your poster
 - The title of the show (you will come up with this.)
