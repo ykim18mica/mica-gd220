@@ -7,20 +7,39 @@ You will design a poster for the retrospective of your favorite filmmaker. Pick 
 - Location: The Charles Theatre, 1711 N Charles St, Baltimore, MD 21201
 - Website: http://thecharles.com/
 - Date: March 10th ~ March 14th
-- The information on five different film screenings: for each film, title and screening date(a film each day) / time(7pm)
+- The information on five different film screenings: for each film, include the title and screening date/time
 
 ### Requirements
 - Use type + image (photo, graphics, illustration, etc.)
-- Use the template provided. The template is based on [this posting](http://j4n.co/blog/Creating-your-own-css-grid-system).
-- Base your design on 1200 pixel width. (We don't do the responvisve design this time)
+- Use the template provided. Learn more about the template [here](http://j4n.co/blog/Creating-your-own-css-grid-system).
+- Base your design on 1200 pixel width.
 - Use `:hover`, `animation` and `transition` to create more engaging experience.
-- **Do not use** the images of the filmmaker or performers.
+- **Do not use** the images of the filmmaker or performers in the films.
 - Don't be *literal* with your design! For example, showing a screenshot from each film - too literal. Add your interpretation of the filmmaker.
 
 ### Things to do this week
 - Create a mockup for your poster using the template file: download [PSD](../files/web-poster-mockup-template.psd), [AI](../files/web-poster-mockup-template.ai)
 - Post the mockup file on Google Drive Week 6 folder. *If you work with AI, export to PDF.*
 - Download the coding template [here](../files/web-poster-code-template.zip) and start playing with it. *You will do the majority of the coding next week.*
+
+### Weekly schedule
+
+#### Week 6
+- Project 1 review
+- Project 2 begins
+
+#### Week 7
+- Review mockup design (PSD/AI)
+- Revise the design and start coding
+
+#### Week 8
+- Review work-in-progress (html and css)
+
+#### Week 9
+- No class (Spring break)
+
+#### Week 10
+- Project 2 review
 
 ### Inspirations
 - [A New Poster Movement](https://eyeondesign.aiga.org/a-new-poster-movement/)
