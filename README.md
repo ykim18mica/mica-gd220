@@ -68,18 +68,11 @@
 ### Week 6
 - Review Project: Lyrical Mapping
 - [CSS Layout: Position](lectures/w6-css-layout-position.md)
+
+
+
+
 <!--
-
-### Week 7
-
-### Week 8
-
-### Week 9
-*Spring break - no class*
-
-### Week 10
-- Review project
-
 - [CSS Hover](lectures/w6/css-hover.md)
 - [Assignments](lectures/w6/w6-assignments.md)
 
@@ -97,7 +90,7 @@
 *No class - Spring Break*
 
 ### Week 10
-- Poster presentation
+- Review project: Poster
 - [CSS Layout: Float](lectures/w10/css-layout-float.md)
 - [assignments](lectures/w10/w10-assignments.md)
 
