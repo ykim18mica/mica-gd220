@@ -25,3 +25,7 @@ You will design a poster for the retrospective of your favorite filmmaker. Pick 
 ### Inspirations
 - [A New Poster Movement](https://eyeondesign.aiga.org/a-new-poster-movement/)
 - [Studio Feixen](http://www.studiofeixen.ch) and [their instagram](https://www.instagram.com/studiofeixen/)
+
+### Students work examples
+- [Burton](http://mica-gd2.paperdove.com/2017/poster/wed/Burton-Booz/)
+- [Camille](http://mica-gd2.paperdove.com/2017/poster/thu/Camille-GomeraTavarez/)
