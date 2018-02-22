@@ -36,7 +36,7 @@ Above will *not* have any effect on your box 1.
 
   
 ## relative
-If you want to move your elements *relative* to its original position, use `position: relative;`. 
+If you want to move your elements *relative* to its normal position, use `position: relative;`. 
 
 ```css
 div.box-2 {
@@ -69,7 +69,7 @@ Use whichever method you feel more comfortable. They can also take negative valu
 One more important thing to notice here is that, when I positioned the 2nd box, the boxes around it stay the same and they don't try to fill in any gaps. That's because when you set an element `relative`, it keeps its original space so that other elements cannot take it over. This is a big difference between `relative` and `absolute`.
 
 To recap, you have to remember 2 important things about `relative` positioning:
-1. Any custom positioning you set with `relative` will be relative to its original position.
+1. Any custom positioning you set with `relative` will be relative to its normal position.
 1. Elements with `relative` position will keep its original space and other elements cannot take the space.
 
 ## absolute
@@ -154,7 +154,7 @@ div.box-2 {
 
 ## Recap
 - static: the default setting. don't worry about it.
-- relative: relative to its original position. other elements will still honor the space.
+- relative: relative to its normal position. other elements will still honor the space.
 - absolute: relative to the closest positioned ancestor. taken out of the regular document flow.
 - fixed: same as absolute except that it does not scroll.
 
