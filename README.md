@@ -70,11 +70,9 @@
 - [CSS Layout: Position](lectures/w6-css-layout-position.md)
 - [CSS Hover](lectures/w6-css-hover.md)
 - **[Project 2: Poster design for the web](lectures/proj-poster.md)**
-
+- [Assignments](lectures/w6-assignments.md)
 
 <!--
-- [Assignments](lectures/w6/w6-assignments.md)
-
 ### Week 7
 - Layout practice: [result](images/layout-practice-sample.png), [code to use](http://codepen.io/cdaein/pen/vxNPme?editors=1000)
 - [CSS Animation Basics](lectures/w7/css-animation-basics.md)
