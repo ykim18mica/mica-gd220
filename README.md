@@ -76,8 +76,9 @@
 
 - Layout practice: [result](images/layout-practice-sample.png), [code to use](http://codepen.io/cdaein/pen/vxNPme?editors=1000)
 - [CSS Hover](lectures/w6-css-hover.md)
-<!--
 - [CSS Animation Basics](lectures/w7-css-animation-basics.md)
+<!--
+
 - [Poster design coding template](lectures/w7-proj-poster-template.md)
 - [Assignments](lectures/w7-assignments.md)
 
