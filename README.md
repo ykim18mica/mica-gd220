@@ -74,7 +74,10 @@
 
 ### Week 7
 
-- Layout practice: [result](images/layout-practice-sample.png), [code to use](http://codepen.io/cdaein/pen/vxNPme?editors=1000)
+- Layout practice
+  - [code to start with](http://codepen.io/cdaein/pen/vxNPme?editors=1000)
+  - [desired result](images/layout-practice-sample.png)
+  - do not change HTML code. only add your own CSS rules.
 - [CSS Hover](lectures/w6-css-hover.md)
 - [CSS Animation Basics](lectures/w7-css-animation-basics.md)
 <!--
