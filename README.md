@@ -77,13 +77,13 @@
 - Layout practice: [result](images/layout-practice-sample.png), [code to use](http://codepen.io/cdaein/pen/vxNPme?editors=1000)
 - [CSS Hover](lectures/w6-css-hover.md)
 <!--
-- [CSS Animation Basics](lectures/w7/css-animation-basics.md)
-- [Poster design coding template](lectures/w7/proj-poster-template.md)
-- [Assignments](lectures/w7/w7-assignments.md)
+- [CSS Animation Basics](lectures/w7-css-animation-basics.md)
+- [Poster design coding template](lectures/w7-proj-poster-template.md)
+- [Assignments](lectures/w7-assignments.md)
 
 ### Week 8
-- Work on poster design: check [these example codes](lectures/w8/examples.md)
-- [Assignments](lectures/w8/w8-assignments.md)
+- Work on poster design: check [these example codes](lectures/w8-examples.md)
+- [Assignments](lectures/w8-assignments.md)
 
 ### Week 9
 *No class - Spring Break*
