@@ -68,13 +68,15 @@
 ### Week 6
 - Review Project: Lyrical Mapping
 - [CSS Layout: Position](lectures/w6-css-layout-position.md)
-- [CSS Hover](lectures/w6-css-hover.md)
 - **[Project 2: Poster design for the web](lectures/proj-poster.md)**
 - [Assignments](lectures/w6-assignments.md)
 
-<!--
+
 ### Week 7
+
 - Layout practice: [result](images/layout-practice-sample.png), [code to use](http://codepen.io/cdaein/pen/vxNPme?editors=1000)
+- [CSS Hover](lectures/w6-css-hover.md)
+<!--
 - [CSS Animation Basics](lectures/w7/css-animation-basics.md)
 - [Poster design coding template](lectures/w7/proj-poster-template.md)
 - [Assignments](lectures/w7/w7-assignments.md)
