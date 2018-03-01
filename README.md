@@ -79,8 +79,9 @@
   - [desired result 1](images/layout-practice-sample-1.png)
   - [desired result 2](images/layout-practice-sample-2.png)
 - [CSS Hover](lectures/w6-css-hover.md)
-- [CSS Animation Basics](lectures/w7-css-animation-basics.md)
+
 <!--
+- [CSS Animation Basics](lectures/w7-css-animation-basics.md)
 
 - [Poster design coding template](lectures/w7-proj-poster-template.md)
 - [Assignments](lectures/w7-assignments.md)
