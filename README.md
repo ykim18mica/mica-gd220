@@ -74,10 +74,10 @@
 
 ### Week 7
 
-- Layout practice
+- Layout practice: do not change HTML code. only add your own CSS rules.
   - [code to start with](http://codepen.io/cdaein/pen/vxNPme?editors=1000)
-  - [desired result](images/layout-practice-sample.png)
-  - do not change HTML code. only add your own CSS rules.
+  - [desired result 1](images/layout-practice-sample-1.png)
+  - [desired result 2](images/layout-practice-sample-2.png)
 - [CSS Hover](lectures/w6-css-hover.md)
 - [CSS Animation Basics](lectures/w7-css-animation-basics.md)
 <!--
