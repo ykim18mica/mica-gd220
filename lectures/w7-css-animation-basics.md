@@ -174,6 +174,9 @@ div.box:hover {
 }
 ```
 
+To recap,  
+`animation` is great for loops that play on their own and `transition` is great for user interaction (ie. `:hover`) as it will have smoother returning animation.
+
 -----
 
 
