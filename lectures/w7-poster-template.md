@@ -2,7 +2,7 @@
 
 First, download the template [here](../files/web-poster-code-template.zip). This template is similar to the one we used for the Lyrical Mapping project, but there are a few major differences. 
 
-# Things that has changed
+## Things that has changed
 
 1. Now, we use the fixed width of 1200px (no responsive design) so you don't need to use `vw` or `%`. Simply, use `px` to set your layout.
 1. There are no classes for setting heights in the template (ie. `full`, `half` and `quarter`). So, you will have to create your own classes for setting different heights. You have more flexibility this time, but! instead of creating many, many classes, think systematically and decide how many different heights your design will require.
