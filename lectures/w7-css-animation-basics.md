@@ -58,6 +58,27 @@ div.box {
 }
 ```
 
+There are different kinds of motion as well. We call them `animation-timing-function`.
+
+```css
+div.box {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  animation: rot 2s linear infinite;
+  /* animation: rot 2s ease-in infinite; */
+}
+
+@keyframes rot {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+```
+
 ### More keyframe animation
 Let's look at another example of the keyframe animation. We will use the same box as before. Our animation looks like this:
 ```css
