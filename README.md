@@ -85,8 +85,6 @@
 ### Week 8
 - [CSS Animation Basics](lectures/w8-css-animation-basics.md)
 - [CSS Selectors](lectures/w8-css-selectors.md)
-<!--
-- Work on poster design: check [these example codes](lectures/w8-examples.md)
 - [Assignments](lectures/w8-assignments.md)
 
 ### Week 9
@@ -94,6 +92,8 @@
 
 ### Week 10
 - Review project: Poster
+
+<!--
 - [CSS Layout: Float](lectures/w10/css-layout-float.md)
 - [assignments](lectures/w10/w10-assignments.md)
 
