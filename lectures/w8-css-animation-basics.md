@@ -182,6 +182,10 @@ To recap,
 
 We had a look at the basic CSS animation here. There are a lot more you can do with this technique. You should google for more info or look for tutorials on Lynda.com or Youtube.
 
+## More examples
+- [CSS crossfade animation](https://codepen.io/cdaein/pen/LWxEvR?editors=1100)
+
+
 ## Further learning
 - [W3Schools CSS animation tutorial](https://www.w3schools.com/css/css3_animations.asp)
 - [CodePen CSS animation search result](http://codepen.io/search/pens?q=css+animation&limit=all&type=type-pens)
