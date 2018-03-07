@@ -5,7 +5,9 @@ There are many ways to select different HTML elements using CSS selectors. Here 
 ## ID selector
 - https://codepen.io/cdaein/pen/BrBoNy
 
-
+## :target selector
+good for click trigger events.
+- https://codepen.io/cdaein/pen/QmLEZM?editors=1100
 
 ## Descendent selector
 - https://codepen.io/cdaein/pen/NpdPYM
