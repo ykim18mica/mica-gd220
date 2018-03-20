@@ -94,8 +94,8 @@
 - Review project: Poster
 
 <!--
-- [CSS Layout: Float](lectures/w10/css-layout-float.md)
-- [assignments](lectures/w10/w10-assignments.md)
+- [CSS Layout: Float](lectures/w10-css-layout-float.md)
+- [assignments](lectures/w10-assignments.md)
 
 ### Week 11
 - Tutorial sharing
