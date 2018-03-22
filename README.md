@@ -92,10 +92,10 @@
 
 ### Week 10
 - Review project: Poster
+- [assignments](lectures/w10-assignments.md)
 
 <!--
 - [CSS Layout: Float](lectures/w10-css-layout-float.md)
-- [assignments](lectures/w10-assignments.md)
 
 ### Week 11
 - Tutorial sharing
