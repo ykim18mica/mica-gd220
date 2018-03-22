@@ -1,7 +1,7 @@
 # Week 10 assignments
 
 ## Watch Tutorials
-Go to [lynda.com](http://lynda.com) and find a lesson on web design (HTML/CSS). Watch at least two hours worth of contents.  Choose something that will help you strengthen the basic skills or something to teach you more advanced skills. Take notes on what you learned and post the notes on Google drive.
+Go to [lynda.com](http://lynda.com) and find a lesson on web design. Watch at least two hours worth of contents.  Choose something that will help you strengthen the basic skills or something to teach you more advanced skills. Take notes on what you learned and post the notes on Google drive.
 
 ## Make Tutorials
 One of the best ways to learn something is by teaching others. This week, teach yourself a new technique in web design. Watch/read other tutorials online, play and experiment with them. If you wanted to try some exciting ideas, now is the best time. First, make the technique yours (instead of just copying and pasting other people's work). Try to understand everything going on. Do more research as necessary. *Find something we haven’t discussed in class.* Once you understand the technique, think about the context - how/where it can be used. Make a tutorial to share with the whole class.
