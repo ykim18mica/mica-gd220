@@ -94,12 +94,17 @@
 - Review project: Poster
 - [assignments](lectures/w10-assignments.md)
 
-<!--
-- [CSS Layout: Float](lectures/w10-css-layout-float.md)
+
+
 
 ### Week 11
 - Tutorial sharing
-- Wireframing: [video 1](https://www.youtube.com/watch?v=8-vTd7GRk-w), [video 2](https://www.youtube.com/watch?v=PmmQjLqJQlY)
+- [CSS Layout: Float](lectures/w11-css-layout-float.md)
+- Wireframing: 
+  - [video 1](https://www.youtube.com/watch?v=8-vTd7GRk-w), 
+  - [video 2](https://www.youtube.com/watch?v=PmmQjLqJQlY)
+
+<!--
 - [Grid template](files/grid-template.zip) for practice
 - [Final project brief](lectures/w11/proj-event.md)
 
