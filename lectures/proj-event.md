@@ -13,7 +13,7 @@ Make sure you are spending enough time to learn different web technologies on yo
 
 ## Process
 1. Come up with a unique theme for your event. What do you think is the most important issue in design now?
-1. Choose 3 people you want to invite. Come up with the name of the event.
+1. Come up with the name of the event. Choose 3 people you want to invite. 
 1. Research on the topic/speakers. Collect as many materials as possible.
 1. Think about what the contents of the website should be. What would visitors want to know? (ex. location, speaker bio, schedule for each talk, contents of the event, general info on the event, etc.)
 1. Think about the structure of the website. *How* do you present it? How clear and easy is it to navigate?
@@ -24,15 +24,14 @@ Make sure you are spending enough time to learn different web technologies on yo
 
 ## Constraints
 - You still have limited technical skills. You will want to challenge yourself with new techniques, but keep the technology as simple and efficient as possible. Plan ahead so you know you can handle it (or not). How would you keep it manageable/doable while maintaining the quality?
-- Use HTML and CSS. Use of JavaScript is not required or recommended.
-- Interactions should be limited to scrolling, clicking and hovering.
+- Use HTML and CSS. Use of JavaScript is not required.
+- If you have animation/interaction, make them meaningful.
 - Base your design on 1200px width.
 - Use web fonts from [Google Fonts](http://fonts.google.com) or [Adobe Typekit](https://typekit.com).
 
 ## Deliverables
 - Mockup image files (psd, ai, jpg, etc.)
 - The entire project folder that contains all the files (html, css, images, etc.)
-- The final website must have min. 3 to max. 5 pages.
 - The final website must include:
   - name of the event
   - global navigation
@@ -47,10 +46,12 @@ Make sure you are spending enough time to learn different web technologies on yo
 - prep for idea/research presentation (PDF): You will present your materials in class next week. Present *2 different ideas*. Each idea should include the research on the theme, speakers, website contents, inspirations, other relevant websites (their strength and weakness), etc.
 
 ### Week 12
-- idea/research presentation
+- idea/research presentation  
+- work on wireframes and design mockups
 
 ### Week 13
-- work in class
+- review wireframes and mockups
+- revise your design and start coding
 
 ### Week 14
 - work-in-progress review
