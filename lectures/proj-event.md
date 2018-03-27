@@ -4,7 +4,7 @@ For the final project, you will create a website for an imaginary one-day free d
 
 The goal of your website is to bring out more interests from people and give useful information about the event to the potential attendees.
 
-Structure and organize your information clearly using multiple pages. What's the hierarchy like? You cannot predict how the user will navigate your website. How do you want them to use the website? What are the essential information that everyone needs to know? And what are the optional or supplementary info? What would the visitors want to know? First and foremost, make a functional, usable and informative website that people can get the information they need.
+Structure and organize your information clearly. What's the hierarchy like? You cannot predict how the user will navigate your website. How do you want them to use the website? What are the essential information that everyone needs to know? And what are the optional or supplementary info? What would the visitors want to know? First and foremost, make a functional, usable and informative website that people can get the information they need.
 
 Create an engaging, exciting and memorable website that best represents your event. Ask yourself questions like, how to relate the visuals to the contents? How do you use the design elements such as typography, color, composition, hierarchy to create compelling visuals? How do you keep the consistency to unify different contents using multiple pages? Where and how would the animation/interaction help the experience? The website doesn’t have to be plain and boring. Make it exciting, engaging. Make people want to come to the event.
 
