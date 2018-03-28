@@ -73,6 +73,8 @@ Make sure you are spending enough time to learn different web technologies on yo
 - [Graphic Design Festival Scotland](http://graphicdesignfestivalscotland.com/)
 - [타이포잔치 / Typojanchi](http://typojanchi.org/)
 - [The Lucerne Poster Festival](http://weltform.at/)
+----
+- [Burning Man](https://burningman.org)
 
 ## Student work examples
 - [Lorna](http://mica-gd2.paperdove.com/2017/event/wed/LornaPittaway/)
