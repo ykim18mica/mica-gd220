@@ -72,8 +72,6 @@ Make sure you are spending enough time to learn different web technologies on yo
 - [International Poster Biennale in Warsaw](http://biennale.postermuseum.pl/en/)
 - [Graphic Design Festival Scotland](http://graphicdesignfestivalscotland.com/)
 - [타이포잔치 / Typojanchi](http://typojanchi.org/)
-- [AIGA Frontier Conference](http://frontier.aiga.org/)
-- [Golden Bee](http://2016.goldenbee.org/)
 - [The Lucerne Poster Festival](http://weltform.at/)
 
 ## Student work examples
