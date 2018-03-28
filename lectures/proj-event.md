@@ -43,7 +43,7 @@ Make sure you are spending enough time to learn different web technologies on yo
 ## Weekly schedule
 
 ### Week 11
-- prep for idea/research presentation (PDF): You will present your materials in class next week. Present *2 different ideas*. Each idea should include the research on the theme, speakers, website contents, inspirations, other relevant websites (their strength and weakness), etc.
+- prep for idea/research presentation (PDF): You will present your materials in class next week. Present *2 different ideas*. Each idea should include the research on the theme, speakers, website contents, inspirations, other competitor websites (their strength and weakness), etc.
 
 ### Week 12
 - idea/research presentation  
