@@ -75,6 +75,8 @@ Make sure you are spending enough time to learn different web technologies on yo
 - [The Lucerne Poster Festival](http://weltform.at/)
 ----
 - [Burning Man](https://burningman.org)
+- [Coachella](https://www.coachella.com)
+
 
 ## Student work examples
 - [Lorna](http://mica-gd2.paperdove.com/2017/event/wed/LornaPittaway/)
