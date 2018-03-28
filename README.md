@@ -103,15 +103,12 @@
 - Wireframing: 
   - [video 1](https://www.youtube.com/watch?v=8-vTd7GRk-w), 
   - [video 2](https://www.youtube.com/watch?v=PmmQjLqJQlY)
-- **[Project 3: Event Website](lectures/w11/proj-event.md)**
+- **[Project 3: Event Website](lectures/proj-event.md)**
 - Assignments
   - Prepare a PDF idea/research presentation for the final project. Refer to the brief above for more details.
   - Bring in a good website example and a bad example for any event/festival. Tell us what's working and what's not.
 
 <!--
-- [Grid template](files/grid-template.zip) for practice
-
-
 ### Week 12
 - [assignments](lectures/w12/w12-assignments.md)
 
