@@ -64,9 +64,9 @@ Make sure you are spending enough time to learn different web technologies on yo
 - final presentation
 
 ## Examples
-- [Kikk Festival](http://www.kikk.be/2016/)
+- [Kikk Festival](http://www.kikk.be/)
 - [Eyeo Festival](http://eyeofestival.com/)
-- [Resonate Festival](http://resonate.io/2016/)
+- [Resonate Festival](http://resonate.io/)
 - [Graphic Design Festival Breda](http://gdfb.nl/en)
 - [International Poster Biennale in Warsaw](http://biennale.postermuseum.pl/en/)
 - [Graphic Design Festival Scotland](http://graphicdesignfestivalscotland.com/)
