@@ -21,7 +21,7 @@ Make sure you are spending enough time to learn different web technologies on yo
 1. Create mockups for each page. 
 1. Design HTML/CSS web pages with a clear hierarchy of information.
 1. Get feedbacks and iterate.
-1. **If you use other people's materials (code, photo, etc.), you must cite them. Otherwise, it is considred plagiarism.**
+1. **If you use other people's materials (code, photo, etc.), you must cite them. Otherwise, it is considered plagiarism.**
 
 ## Constraints
 - You still have limited technical skills. You will want to challenge yourself with new techniques, but keep the technology as simple and efficient as possible. Plan ahead so you know you can handle it (or not). How would you keep it manageable/doable while maintaining the quality?
@@ -78,7 +78,7 @@ Make sure you are spending enough time to learn different web technologies on yo
 ## Student work examples
 - [Lorna](http://mica-gd2.paperdove.com/2017/event/wed/LornaPittaway/)
 - [Juliette](http://mica-gd2.paperdove.com/2017/event/thu/JulietteWang/)
-
+- [Jaeyoung](http://mica-gd2.paperdove.com/2017/event/thu/JaeyoungCheong/)
 
 ## Further Learning
 - [The Top 20 Wireframing Tools](http://www.creativebloq.com/wireframes/top-wireframing-tools-11121302)
