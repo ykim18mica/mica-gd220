@@ -16,7 +16,7 @@ Make sure you are spending enough time to learn different web technologies on yo
 1. Come up with the name/date/time/location of the event. Choose 3 people you want to invite as speakers. 
 1. Research on the topic/speakers. Collect as many materials as possible.
 1. Think about what the contents of the website should be. What would visitors want to know? (ex. location, speaker bio, schedule for each talk, contents of the event, general info on the event, etc.)
-1. Think about the structure of the website. *How* do you present it? How clear and easy is it to navigate?
+1. Think about the structure of the website. *How* do you present it? How clear and easy is it to navigate? Look at your design from the users' perspective.
 1. Create wireframes for each page with a tool of your choice. (ex. Adobe XD, Illustrator, InDesign)
 1. Create mockups for each page. 
 1. Design HTML/CSS web pages with a clear hierarchy of information.
