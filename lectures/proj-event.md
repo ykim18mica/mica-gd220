@@ -26,7 +26,7 @@ Make sure you are spending enough time to learn different web technologies on yo
 - You still have limited technical skills. You will want to challenge yourself with new techniques, but keep the technology as simple and efficient as possible. Plan ahead so you know you can handle it (or not). How would you keep it manageable/doable while maintaining the quality?
 - Use HTML and CSS. Use of JavaScript is not required.
 - If you have animation/interaction, make them meaningful.
-- Base your design on 1200px width.
+- Base your design on 1200px width. If you want to make it flexible/responsive, that's ok, too. Either way, make sure it's *functional* without errors.
 - Use web fonts from [Google Fonts](http://fonts.google.com) or [Adobe Typekit](https://typekit.com).
 
 ## Deliverables
