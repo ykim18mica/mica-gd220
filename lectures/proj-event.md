@@ -21,12 +21,13 @@ Make sure you are spending enough time to learn different web technologies on yo
 1. Create mockups for each page. 
 1. Design HTML/CSS web pages with a clear hierarchy of information.
 1. Get feedbacks and iterate.
+1. **If you use other people's materials (code, photo, etc.), you must cite them. Otherwise, it is considred plagiarism.**
 
 ## Constraints
 - You still have limited technical skills. You will want to challenge yourself with new techniques, but keep the technology as simple and efficient as possible. Plan ahead so you know you can handle it (or not). How would you keep it manageable/doable while maintaining the quality?
 - Use HTML and CSS. Use of JavaScript is not required.
 - If you have animation/interaction, make them meaningful.
-- Base your design on 1200px width. If you want to make it flexible/responsive, that's ok, too. Either way, make sure it's *functional* without errors.
+- Basing your design on 1200px width is recommended. If you want to make it flexible/responsive, that's ok, too. Either way, make sure it's *functional* without errors.
 - Use web fonts from [Google Fonts](http://fonts.google.com) or [Adobe Typekit](https://typekit.com).
 
 ## Deliverables
@@ -73,6 +74,11 @@ Make sure you are spending enough time to learn different web technologies on yo
 - [AIGA Frontier Conference](http://frontier.aiga.org/)
 - [Golden Bee](http://2016.goldenbee.org/)
 - [The Lucerne Poster Festival](http://weltform.at/)
+
+## Student work examples
+- [Lorna](http://mica-gd2.paperdove.com/2017/event/wed/LornaPittaway/)
+- [Juliette](http://mica-gd2.paperdove.com/2017/event/thu/JulietteWang/)
+
 
 ## Further Learning
 - [The Top 20 Wireframing Tools](http://www.creativebloq.com/wireframes/top-wireframing-tools-11121302)
