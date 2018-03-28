@@ -21,6 +21,7 @@ Make sure you are spending enough time to learn different web technologies on yo
 1. Create mockups for each page. 
 1. Design HTML/CSS web pages with a clear hierarchy of information.
 1. Get feedbacks and iterate.
+1. Test! Test! Test!
 1. **If you use other people's materials (code, photo, etc.), you must cite them. Otherwise, it is considered plagiarism.**
 
 ## Constraints
