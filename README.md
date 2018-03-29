@@ -106,7 +106,7 @@
   - [video 2](https://www.youtube.com/watch?v=PmmQjLqJQlY)
 - Assignments
   - Prepare a PDF idea/research presentation for the final project. Refer to the brief above for more details.
-  - [Presentation examples](http://mica-gd405.paperdove.com/2017/) from a different class
+  - [Presentation examples](http://mica-gd405.paperdove.com/2017/) from a different class (look at the final project PDFs.)
 
 <!--
 ### Week 12
