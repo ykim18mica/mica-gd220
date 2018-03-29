@@ -100,10 +100,10 @@
 ### Week 11
 - Tutorial sharing
 - [CSS Layout: Float](lectures/w11-css-layout-float.md)
+- **[Project 3: Event Website](lectures/proj-event.md)**
 - Wireframing: 
   - [video 1](https://www.youtube.com/watch?v=8-vTd7GRk-w), 
   - [video 2](https://www.youtube.com/watch?v=PmmQjLqJQlY)
-- **[Project 3: Event Website](lectures/proj-event.md)**
 - Assignments
   - Prepare a PDF idea/research presentation for the final project. Refer to the brief above for more details.
   - [Presentation examples](http://mica-gd405.paperdove.com/2017/) from a different class
