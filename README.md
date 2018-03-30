@@ -94,9 +94,6 @@
 - Review project: Poster
 - [assignments](lectures/w10-assignments.md)
 
-
-
-
 ### Week 11
 - Tutorial sharing
 - [CSS Layout: Float](lectures/w11-css-layout-float.md)
@@ -108,9 +105,9 @@
   - Prepare a PDF idea/research presentation for the final project. Refer to the brief above for more details.
   - [Presentation examples](http://mica-gd405.paperdove.com/2017/) from a different class (look at the final project PDFs.)
 
-<!--
 ### Week 12
-- [assignments](lectures/w12/w12-assignments.md)
+<!--
+- [assignments](lectures/w12-assignments.md)
 
 ### Week 13
 - [Hosting Your Website](lectures/w13/hosting-website.md)
