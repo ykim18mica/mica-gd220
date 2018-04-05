@@ -107,10 +107,11 @@
 
 ### Week 12
 - review idea/research
+- work in class
 - [assignments](lectures/w12-assignments.md)
 
-<!--
 ### Week 13
+<!--
 - [Hosting Your Website](lectures/w13/hosting-website.md)
 - [Assignments](lectures/w13/w13-assignments.md)
 
