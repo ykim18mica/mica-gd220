@@ -106,9 +106,10 @@
   - [Presentation examples](http://mica-gd405.paperdove.com/2017/) from a different class (look at the final project PDFs.)
 
 ### Week 12
-<!--
+- review idea/research
 - [assignments](lectures/w12-assignments.md)
 
+<!--
 ### Week 13
 - [Hosting Your Website](lectures/w13/hosting-website.md)
 - [Assignments](lectures/w13/w13-assignments.md)
