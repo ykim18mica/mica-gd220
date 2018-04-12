@@ -115,14 +115,18 @@
 - How to show/hide elements using JavaScript
   - [An example](lectures/w13-show-hide.md)
   - more: https://www.w3schools.com/howto/howto_js_sidenav.asp
+- [Assignments](lectures/w13-assignments.md)
 
-<!--
-- [Hosting Your Website](lectures/w13/hosting-website.md)
-- [Assignments](lectures/w13/w13-assignments.md)
+
 
 ### Week 14
+<!--
 - [Navigation bar](lectures/w13/navigation.md)
 
+### Week 15
+- [Hosting Your Website](lectures/w13/hosting-website.md)
 
+### Week 16
+- Final critique
 -->
 
