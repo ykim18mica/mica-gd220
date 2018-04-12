@@ -31,8 +31,7 @@
 		#nav #close {
 			position: absolute;
 			right: 0;
-			display: none;
-			/* do not display at first */
+			display: none; /* do not display at first */
 		}
 
 		#nav #close:hover {
