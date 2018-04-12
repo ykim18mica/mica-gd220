@@ -111,6 +111,10 @@
 - [assignments](lectures/w12-assignments.md)
 
 ### Week 13
+- Review wireframes/mockups
+- How to show/hide elements using JavaScript
+  - https://www.w3schools.com/howto/howto_js_sidenav.asp
+  - An example
 <!--
 - [Hosting Your Website](lectures/w13/hosting-website.md)
 - [Assignments](lectures/w13/w13-assignments.md)
