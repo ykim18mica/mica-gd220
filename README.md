@@ -120,9 +120,10 @@
 
 
 ### Week 14
-<!--
-- [Navigation bar](lectures/w13/navigation.md)
+- Work in class
+- Assignments: Continue to work on the project. Build web pages with HTML/CSS.
 
+<!--
 ### Week 15
 - [Hosting Your Website](lectures/w13/hosting-website.md)
 
