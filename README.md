@@ -120,14 +120,22 @@
 
 
 ### Week 14
+- Review work-in-progress
 - Work in class
 - Assignments: Continue to work on the project. Build web pages with HTML/CSS.
 
-<!--
 ### Week 15
-- [Hosting Your Website](lectures/w13/hosting-website.md)
+- Review work-in-progress
+- Work in class
+- Assignments:
+  - Finish the project.
+  - Make sure you **test** before you submit. Test with different window size. Test on different computers.
+  - Upload the finished project folder on Google Drive **before** class starts.
+  
+  ### Week 16
+  - Final critique
 
-### Week 16
-- Final critique
+<!--
+- [Hosting Your Website](lectures/w13/hosting-website.md)
 -->
 
