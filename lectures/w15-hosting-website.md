@@ -3,7 +3,7 @@
 We've been working on websites in class, but they only work inside your computer. To be able to publish your website so that anybody can visit your website, you will need to find a company to *host* your website. You can also host your website from your computer, but then you will need to keep it on 24/7.
 
 ## What you need
-You basically need two things - domain hosting and web hosting. The domain hosting is so that you can get your own url such as facebook.com or wikipedia.org. The web hosting is a server space where you can store your files such as html, css, images, etc.
+You basically need two things - domain hosting and web hosting. The domain hosting is to get your own url such as facebook.com or wikipedia.org. The web hosting is a server space where you can store your files such as html, css, images, etc.
 
 There are plenty of companies who do both so you will need to take some time to shop around. Some companies offer free hosting services, too, although they may have some limitations (what's free usually isn't really free.)
 
