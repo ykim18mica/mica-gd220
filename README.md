@@ -132,8 +132,8 @@
   - Make sure you **test** before you submit. Test with different window size. Test on different computers.
   - Upload the finished project folder on Google Drive **before** class starts.
   
-  ### Week 16
-  - Final critique
+### Week 16
+- Final critique
 
 <!--
 - [Hosting Your Website](lectures/w13/hosting-website.md)
