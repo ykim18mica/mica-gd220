@@ -126,7 +126,7 @@
 - Assignments:
   - Finish the project.
   - Make sure you **test** before you submit. Test with different window size. Test on different computers.
-  - Do not just show your website, but prepare to *talk* about your process and project. Pretend the audience doesn't know anything about your work.
+  - Do not just show your website, but prepare to *talk* about your process and project (content and design). Pretend the audience doesn't know anything about your work.
   - Upload the finished project folder on Google Drive **before** class starts.
   
 ### Week 16
