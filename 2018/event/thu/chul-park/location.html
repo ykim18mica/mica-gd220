@@ -1,0 +1,178 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+    <title>why minimalist design?</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+
+        html {
+            font-family: 'Roboto', sans-serif;
+            letter-spacing: .5px;
+        }
+
+        .red {
+            color: red;
+        }
+
+        .main {
+            font-weight: 500;
+            font-size: 40px;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -400%);
+            text-align: center;
+        }
+
+        .h2 {
+            font-weight: 500;
+            font-size: 25px;
+            transform: translate(0, 90%)
+        }
+
+        iframe {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -43%);
+        }
+
+        .nav {
+            position: absolute;
+            list-style: none;
+            line-height: 350%;
+            font-weight: 200;
+        }
+
+        .nav a:link {
+            color: gray;
+            text-decoration: none;
+        }
+
+        .nav a:visited {
+            color: gray;
+            text-decoration: none;
+        }
+
+        .nav a:hover {
+            color: black;
+        }
+
+        .location a:link {
+            font-weight: 500;
+            font-size: 40px;
+            color: black;
+        }
+
+        .location a:visited {
+            color: black;
+        }
+
+        .footer {
+            position: absolute;
+            font-weight: 200;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 350%);
+            text-align: center;
+        }
+
+        .footer a:link {
+            text-decoration: none;
+            color: gray;
+        }
+
+        .footer a:visited {
+            text-decoration: none;
+            color: gray;
+        }
+
+        .footer a:hover {
+            color: black;
+        }
+
+        .contact:hover .contact_hidden {
+            transition: 1s;
+            opacity: 1;
+        }
+
+        .contact_hidden {
+            position: absolute;
+            width: 1000%;
+            font-weight: 200;
+            top: 50%;
+            left: 50%;
+            transform: translate(-30%, -200%);
+            opacity: 0;
+        }
+
+        .contact {
+            color: gray;
+            transform: translate(-200%, 300%)
+        }
+
+        .contact:hover {
+            color: black;
+        }
+
+        .facebook {
+            transform: translate(-70%, 200%)
+        }
+
+        .instagram {
+            transform: translate(70%, 100%)
+        }
+
+        .twitter {
+            transform: translate(200%)
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="h1">
+            location
+        </div>
+        <div class="h2 red">
+            1301 w mt royal ave, baltimore, md 21217</div>
+    </div>
+    <div>
+
+        <div clas="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3087.10888112253!2d-76.62297788463742!3d39.30845537950944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c804bfa001f1e3%3A0x588b2d28f8719233!2s1301+W+Mt+Royal+Ave%2C+Baltimore%2C+MD+21217!5e0!3m2!1sen!2sus!4v1525142065443" width="700" height="400" frameborder="0" style="border:0" align="middle" allowfullscreen></iframe>
+        </div>
+        <ul class="nav">
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="timeandspeakers.html">talks</a></li>
+            <li><a href="schedule.html">schedule</a></li>
+            <li class="location"><a href="location.html">location</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <div class="footer">
+            <div class="contact">
+                contact
+                <div class="contact_hidden">
+                    don’t be afraid to reach out to us with questions or requests. we’d love to hear from you.
+                    <br>bpark01@mica.edu 443-808-6319
+                </div>
+            </div>
+            <div class="facebook"> <a href="https://www.facebook.com/" target="null"> facebook </a> </div>
+            <div class="instagram"> <a href="https://www.instagram.com/?hl=en" target="null"> instagram  </a> </div>
+            <div class="twitter"> <a href="https://twitter.com/?lang=en" target="null"> twitter </a> </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

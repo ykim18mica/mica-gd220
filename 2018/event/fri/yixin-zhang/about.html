@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ABOUT</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .menu1 {
+            width: 3.2vw;
+            height: 2.7vw;
+            margin-top: 3vw;
+            position: fixed;
+            top: 0.5vw;
+            right: 5vw;
+            display: block;
+        }
+
+        .menu2 {
+            width: 3.2vw;
+            height: 2.7vw;
+            margin-top: 3vw;
+            position: fixed;
+            top: 0.5vw;
+            right: 5vw;
+            display: none;
+            opacity: 0.5;
+        }
+
+        #dropdown {
+            position: fixed;
+            top: 3vw;
+            display: none;
+        }
+
+
+        .title-about {
+            text-align: center;
+            margin-top: 5vw;
+            letter-spacing: 4vw;
+            position: absolute;
+            left: 39vw;
+            font-size: 1.5vw;
+
+        }
+
+
+
+
+
+        .facebook {
+            position: absolute;
+            top: 180.5vw;
+            right: 5vw;
+            width: 1.8vw;
+            margin: 1vw;
+
+        }
+
+        .ins {
+            position: absolute;
+            top: 180.5vw;
+            right: 10vw;
+            width: 1.8vw;
+            margin: 1vw;
+        }
+
+        .twitter {
+            position: absolute;
+            top: 180.5vw;
+            right: 15vw;
+            width: 1.8vw;
+            margin: 1vw;
+        }
+
+        .youtube {
+            position: absolute;
+            top: 180.5vw;
+            right: 20.5vw;
+            width: 2vw;
+            margin: 1vw;
+        }
+
+        .moma {
+            position: absolute;
+            top: 181vw;
+            left: 5vw;
+            width: 4.5vw;
+            margin: 1vw;
+        }
+
+        .footbar-address {
+            font-size: 0.8vw;
+            color: rgb(253, 110, 117);
+            letter-spacing: 0.1vw;
+            position: absolute;
+            top: 182.3vw;
+            right: 51vw;
+        }
+
+        .footbar-time {
+            font-size: 0.8vw;
+            color: rgb(253, 110, 117);
+            letter-spacing: 0.1vw;
+            position: absolute;
+            top: 182.3vw;
+            right: 32vw;
+        }
+
+
+
+        .cube1 {
+            width: 15vw;
+            position: absolute;
+            top: 18vw;
+            left: 13vw;
+            animation-name: spin;
+            animation-duration: 6000ms;
+            animation-iteration-count: forwards;
+            animation-timing-function: linear;
+            animation-delay: 1s;
+
+
+
+
+
+        }
+
+        .cube2 {
+            width: 15vw;
+            position: absolute;
+            top: 18vw;
+            left: 42vw;
+            animation-name: spin;
+            animation-duration: 6000ms;
+            animation-iteration-count: forwards;
+            animation-timing-function: linear;
+            animation-delay: 1s;
+        }
+
+        .cube3 {
+            width: 15vw;
+            position: absolute;
+            top: 18vw;
+            left: 72vw;
+            animation-name: spin;
+            animation-duration: 6000ms;
+            animation-iteration-count: forwards;
+            animation-timing-function: linear;
+            animation-delay: 1s;
+        }
+
+        .cube4 {
+            width: 15vw;
+            position: absolute;
+            top: 38vw;
+            left: 13vw;
+            animation-name: spin;
+            animation-duration: 6000ms;
+            animation-iteration-count: forwards;
+            animation-timing-function: linear;
+            animation-delay: 1s;
+        }
+
+        .cube5 {
+            width: 15vw;
+            position: absolute;
+            top: 38vw;
+            left: 42vw;
+
+            animation-name: spin;
+            animation-duration: 6000ms;
+            animation-iteration-count: forwards;
+            animation-timing-function: linear;
+            animation-delay: 1s;
+        }
+
+        .cube6 {
+            width: 15vw;
+            position: absolute;
+            top: 38vw;
+            left: 72vw;
+            animation-name: spin;
+            animation-duration: 6000ms;
+            animation-iteration-count: forwards;
+            animation-timing-function: linear;
+            animation-delay: 1s;
+        }
+
+        .sixelements {
+
+            font-size: 1vw;
+            color: rgb(253, 110, 117);
+            animation: opacity 4s ease-in-out;
+        }
+
+        .balance {
+            position: absolute;
+            top: 26vw;
+            left: 15vw;
+            letter-spacing: 1.5vw;
+
+
+        }
+
+        .proximity {
+            position: absolute;
+            top: 26vw;
+            left: 44vw;
+            letter-spacing: 1.5vw;
+        }
+
+        .alignment {
+            position: absolute;
+            top: 20vw;
+            left: 66vw;
+            letter-spacing: 1.5vw;
+        }
+
+        .repetition {
+            position: absolute;
+            top: 40vw;
+            left: 12vw;
+            letter-spacing: 1.2vw;
+        }
+
+        .contrast {
+            position: absolute;
+            top: 45vw;
+            left: 37vw;
+            letter-spacing: 1.4vw;
+        }
+
+        .space {
+            position: absolute;
+            top: 48vw;
+            left: 74vw;
+            letter-spacing: 1.4vw;
+        }
+
+        .info-title {
+            letter-spacing: 1vw;
+            font-size: 3vw;
+            position: absolute;
+            top: 60vw;
+            left: 13vw;
+            font-style: italic;
+            animation: opacity 7s forwards;
+        }
+
+        .info-con {
+            font-size: 1.5vw;
+            color: rgb(128, 128, 128);
+            width: 80vw;
+            position: absolute;
+            top: 66vw;
+            left: 13vw;
+            letter-spacing: 0.2vw;
+            line-height: 3vw;
+            animation: opacity 7s forwards;
+        }
+
+        .balance2 {
+            position: absolute;
+            top: 85vw;
+            left: 13vw;
+            letter-spacing: 0.5vw;
+            font-size: 1.5vw;
+            animation: opacity 8s forwards;
+
+        }
+
+        .balance-info {
+            position: absolute;
+            top: 88vw;
+            left: 13vw;
+            width: 35vw;
+            color: rgb(128, 128, 128);
+            letter-spacing: 0.1vw;
+            line-height: 3vw;
+            font-size: 1.5vw;
+            animation: opacity 8s forwards;
+        }
+
+
+        .proximity2 {
+            position: absolute;
+            top: 119vw;
+            left: 13vw;
+            letter-spacing: 0.5vw;
+            font-size: 1.5vw;
+            animation: opacity 10s forwards;
+        }
+
+        .proximity-info {
+            position: absolute;
+            top: 123vw;
+            left: 13vw;
+            width: 35vw;
+            color: rgb(128, 128, 128);
+            letter-spacing: 0.1vw;
+            line-height: 3vw;
+            font-size: 1.5vw;
+            animation: opacity 10s forwards;
+        }
+
+        .alignment2 {
+            position: absolute;
+            top: 150vw;
+            left: 13vw;
+            letter-spacing: 0.5vw;
+            font-size: 1.5vw;
+            animation: opacity 10s forwards;
+        }
+
+        .alignment-info {
+            position: absolute;
+            top: 154vw;
+            left: 13vw;
+            width: 35vw;
+            color: rgb(128, 128, 128);
+            letter-spacing: 0.1vw;
+            line-height: 3vw;
+            font-size: 1.5vw;
+            animation: opacity 10s forwards;
+        }
+
+        .repetition2 {
+            position: absolute;
+            top: 84.5vw;
+            left: 56vw;
+            letter-spacing: 0.5vw;
+            font-size: 1.5vw;
+            animation: opacity 8s forwards;
+
+        }
+
+        .repetition-info {
+            position: absolute;
+            top: 87.5vw;
+            left: 56vw;
+            width: 35vw;
+            color: rgb(128, 128, 128);
+            letter-spacing: 0.1vw;
+            line-height: 3vw;
+            font-size: 1.5vw;
+            animation: opacity 8s forwards;
+        }
+
+        .contrast2 {
+            position: absolute;
+            top: 119vw;
+            left: 56vw;
+            letter-spacing: 0.5vw;
+            font-size: 1.5vw;
+            animation: opacity 10s forwards;
+        }
+
+        .contrast-info {
+            position: absolute;
+            top: 122.5vw;
+            left: 56vw;
+            width: 35vw;
+            color: rgb(128, 128, 128);
+            letter-spacing: 0.1vw;
+            line-height: 3vw;
+            font-size: 1.5vw;
+            animation: opacity 10s forwards;
+        }
+
+        .space2 {
+            position: absolute;
+            top: 149.5vw;
+            left: 56vw;
+            letter-spacing: 0.5vw;
+            font-size: 1.5vw;
+            animation: opacity 10s forwards;
+        }
+
+        .space-info {
+            position: absolute;
+            top: 153.5vw;
+            left: 56vw;
+            width: 35vw;
+            color: rgb(128, 128, 128);
+            letter-spacing: 0.1vw;
+            line-height: 3vw;
+            font-size: 1.5vw;
+            animation: opacity 10s forwards;
+        }
+
+    </style>
+    <script>
+        function openNav() {
+            document.getElementById("dropdown").style.display = "block";
+            document.getElementById("open").style.display = "none";
+            document.getElementById("close").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("dropdown").style.display = "none";
+            document.getElementById("open").style.display = "block";
+            document.getElementById("close").style.display = "none";
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+
+    <a href="index.html"><img class="icon" src="images/logo.png"></a>
+    <img class="menu1" id="open" onClick="openNav()" src="images/menu.png">
+    <img class="menu2" id="close" onClick="closeNav()" src="images/menu.png">
+
+
+
+    <div class="menu-open" id="dropdown">
+        <ul>
+            <li><a href="about.html" style="text-decoration:none" class="about">ABOUT</a></li>
+            <li><a href="speakers.html" style="text-decoration:none" class="speakers">SPEAKERS</a></li>
+            <li><a href="schedule.html" style="text-decoration:none" class="schedule">SCHEDULE</a></li>
+            <li><a href="contact.html" style="text-decoration:none" class="contact">CONTACT</a></li>
+        </ul>
+    </div>
+    <div class="title-about">ABOUT
+
+    </div>
+
+
+    <div class="cube">
+        <img class="cube1" src="images/cube1.png">
+        <img class="cube2" src="images/cube2.png">
+        <img class="cube3" src="images/cube3.png">
+        <img class="cube4" src="images/cube4.png">
+        <img class="cube5" src="images/cube5.png">
+        <img class="cube6" src="images/cube6.png">
+    </div>
+    <div class="sixelements">
+        <div class="balance">BALANCE</div>
+        <div class="proximity">PROXIMITY</div>
+        <div class="alignment"> ALIGNMENT</div>
+        <div class="repetition"> REPETITION</div>
+        <div class="contrast"> CONTRAST</div>
+        <div class="space">SPACE</div>
+
+    </div>
+    <div class="info-title">
+        Staying true to design Fundamental
+    </div>
+
+    <div class="info-con">There’s always a lot to learn, a lot to do, and a lot to consider when you’re a beginner – not to mention the fact that technology is constantly evolving, new software is being released, and new trends are coming at you rapid-fire. Truth be told, it can get a little overwhelming.</div>
+
+
+    <div class="sixelements">
+        <div class="balance2">BALANCE</div>
+
+        <div class="proximity2">PROXIMITY</div>
+        <div class="alignment2"> ALIGNMENT</div>
+        <div class="repetition2"> REPETITION</div>
+        <div class="contrast2"> CONTRAST</div>
+        <div class="space2">SPACE</div>
+    </div>
+    <div class="balance-info">
+
+        Balance in design is similar to balance in physics. A large shape close to the center can be balanced by a small shape close to the edge. Balance provides stability and structure to a design. It’s the weight distributed in the design by the placement of your elements.
+
+    </div>
+    <div class="proximity-info">
+        Proximity creates relationship between elements. It provides a focal point. Proximity doesn’t mean that elements have to be placed together, it means they should be visually connected in someway.
+    </div>
+    <div class="alignment-info">
+        Allows us to create order and organisation. Aligning elements allows them to create a visual connection with each other.
+    </div>
+    <div class="repetition-info">
+        Repetition strengthens a design by tying together individual elements. It helps to create association and consistency. Repetition can create rhythm (a feeling of organized movement).
+
+    </div>
+    <div class="contrast-info">
+        Contrast is the juxtaposition of opposing elements (opposite colours on the colour wheel, or value light / dark, or direction – horizontal / vertical). Contrast allows us to emphasize or highlight key elements in your design.
+    </div>
+    <div class="space-info">
+        Space in art refers to the distance or area between, around, above, below, or within elements. Both positive and negative space are important factors to be considered in every design.
+
+
+    </div>
+    <div>
+        <a href="https://www.facebook.com/MuseumofModernArt/" target=“_blank”><img class="facebook" src="images/facebook.png"></a>
+        <a href="https://www.instagram.com/themuseumofmodernart/" target=“_blank”><img class="ins" src="images/ins.png"></a>
+        <a href="https://twitter.com/museummodernart" target=“_blank”><img class="twitter" src="images/twitter.png"></a>
+        <a href="https://www.youtube.com/user/momavideos" target=“_blank”><img class="youtube" src="images/youtube.png"></a>
+        <a href="https://www.moma.org/visit/" target=“_blank”>
+            <div class="footbar-address">The Museum of Modern Art 11 West 53 Street, New York, NY 10019
+            </div>
+        </a>
+        <div class="footbar-time">TIME : 10/28, 1 p.m - 5:30 p.m </div>
+        <a href="https://www.moma.org" target=“_blank”><img class="moma" src="images/MOMA.png"></a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,476 @@
+<!doctype html>
+
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Jerusalem Travel & Design</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Alegreya|Bitter|Cantata+One|Cinzel|Crimson+Text|Judson|Noto+Serif|Old+Standard+TT|PT+Serif|Vidaloka');
+
+        html {
+            width: 1350px;
+            height: 1580px;
+        }
+
+        .h-1 {
+            height: 158px;
+        }
+
+        .h-2 {
+            height: 316px;
+        }
+
+        .h-3 {
+            height: 474px;
+        }
+
+        .h-4 {
+            height: 632px;
+        }
+
+        .h-5 {
+            height: 1516px;
+        }
+
+        .boxb {
+            position: absolute;
+            top: 60px;
+            left: 40px;
+        }
+
+        .boxy {
+            position: absolute;
+            top: 20px;
+            left: 1250px;
+        }
+
+        .nav {
+            width: 1300px;
+            position: absolute;
+            z-index: 3;
+
+        }
+
+        .topright {
+            position: absolute;
+            left: 950px
+        }
+
+        li {
+            display: inline;
+            position: relative;
+            top: 30px;
+            left: 40px;
+            padding: 120px;
+        }
+
+        a {
+            text-decoration: none;
+            letter-spacing: 1px;
+            font-family: 'Bitter', serif;
+            font-size: 15px;
+            color: black;
+        }
+
+        a visited {
+            color: black;
+        }
+
+        a:hover {
+            color: #ffe445;
+        }
+
+        .leftline {
+            position: absolute;
+            top: 120px;
+            left: 40.5px;
+        }
+
+        .titlebox {
+            position: absolute;
+            top: 190px;
+            left: 130px;
+        }
+
+        .boxfooter {
+            background-color: black;
+            width: 1350px;
+            height: 245px;
+            position: absolute;
+            top: 1335px;
+            z-index: 2;
+        }
+
+        .title {
+            font-family: 'Vidaloka', serif;
+            font-size: 23px;
+            letter-spacing: 2px;
+            position: absolute;
+            top: 205px;
+            left: 150px;
+        }
+
+        .textbox1 {
+            position: absolute;
+            top: 310px;
+            left: 200px;
+            z-index: 2;
+        }
+
+        .textbox2 {
+            position: absolute;
+            top: 310px;
+            left: 530px;
+            z-index: 2;
+        }
+
+        .textbox3 {
+            position: absolute;
+            top: 310px;
+            left: 860px;
+            z-index: 2;
+        }
+
+        .rightline {
+            position: absolute;
+            top: 670px;
+            left: 1260px;
+            z-index: 1;
+        }
+
+        .box1 {
+            position: absolute;
+            top: 312px;
+            left: 201px;
+            background-image: url(icon/page4/speaker3.png);
+            width: 292px;
+            height: 292px;
+            z-index: 1;
+        }
+
+        .box2 {
+            position: absolute;
+            top: 312px;
+            left: 531px;
+            background-image: url(icon/page4/david_tartakover.png);
+            width: 292px;
+            height: 292px;
+            z-index: 1;
+        }
+
+        .box3 {
+            position: absolute;
+            top: 312px;
+            left: 861px;
+            background-image: url(icon/page4/speaker2.png);
+            width: 292px;
+            height: 292px;
+            z-index: 1;
+        }
+
+        .name1 {
+            font-family: 'Vidaloka', serif;
+            font-size: 20px;
+            letter-spacing: 2px;
+            position: absolute;
+            top: 625px;
+            left: 272px;
+        }
+
+        .info1 {
+            width: 240px;
+            text-align: left;
+            font-family: 'Vidaloka', serif;
+            font-size: 15px;
+            line-height: 1.4;
+
+            position: absolute;
+            top: 660px;
+            left: 227px;
+        }
+
+        .name2 {
+            font-family: 'Vidaloka', serif;
+            font-size: 20px;
+            letter-spacing: 2px;
+            position: absolute;
+            top: 625px;
+            left: 590px;
+        }
+
+        .info2 {
+            width: 240px;
+            text-align: left;
+            font-family: 'Vidaloka', serif;
+            font-size: 15px;
+            line-height: 1.4;
+
+            position: absolute;
+            top: 660px;
+            left: 557px;
+        }
+
+        .name3 {
+            font-family: 'Vidaloka', serif;
+            font-size: 20px;
+            letter-spacing: 2px;
+            position: absolute;
+            top: 625px;
+            left: 954px;
+        }
+
+        .info3 {
+            width: 240px;
+            text-align: left;
+            font-family: 'Vidaloka', serif;
+            font-size: 15px;
+            line-height: 1.4;
+
+            position: absolute;
+            top: 660px;
+            left: 889px;
+        }
+
+        button,
+        button::after {
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+
+        button {
+            background: none;
+            border: 2px solid #ffe445;
+            border-radius: 2px;
+            color: black;
+            display: block;
+            font-size: 19px;
+            letter-spacing: 1.3px;
+            font-family: 'Vidaloka', serif;
+            margin: 3px auto;
+            padding: 5px 16px;
+            position: absolute;
+            top: 1200px;
+            left: 629px;
+            text-transform: uppercase;
+        }
+
+        button::before,
+        button::after {
+            background: #ffe445;
+            content: '';
+            position: absolute;
+            z-index: -1;
+        }
+
+        button:hover {
+            color: white;
+        }
+
+        /* BUTTON 2 */
+
+        .btn-2::after {
+            height: 100%;
+            left: 0;
+            top: 0;
+            width: 0;
+        }
+
+        .btn-2:hover:after {
+            width: 100%;
+        }
+
+        .logo1 {
+            position: absolute;
+            top: 1030px;
+            left: 430px;
+            z-index: 10;
+        }
+
+        .logo2 {
+            position: absolute;
+            top: 1030px;
+            left: 760px;
+            z-index: 10;
+        }
+
+        .logo3 {
+            position: absolute;
+            top: 1030px;
+            left: 1090px;
+            z-index: 10;
+        }
+
+        a svg:hover #instagram {
+            fill: #ffe445;
+        }
+
+        a svg #instagram {
+            transition: 200ms;
+            transition-timing-function: ease-in-out;
+            -webkit-transition: 200ms;
+            -webkit-transition-timing-function: ease-in-out;
+        }
+
+        .fottertitle {
+            font-family: 'Vidaloka', serif;
+            font-size: 17px;
+            letter-spacing: 2px;
+            position: absolute;
+            top: 1400px;
+            left: 90px;
+            color: white;
+            z-index: 10;
+        }
+
+        .fotters {
+            width: 840px;
+            font-family: 'Vidaloka', serif;
+            font-size: 15px;
+            letter-spacing: 2px;
+            line-height: 1.6;
+            position: absolute;
+            top: 1398px;
+            left: 270px;
+            color: white;
+            z-index: 10;
+        }
+
+        .social {
+            position: absolute;
+            z-index: 10;
+            top: 1490px;
+            left: 270px;
+        }
+
+        .g2 {
+            position: relative;
+            top: -31px;
+            left: 60px;
+        }
+
+        .g3 {
+            position: relative;
+            top: -63px;
+            left: 120px;
+        }
+    </style>
+</head>
+
+
+
+
+<body>
+
+    <body>
+
+
+        <div class="row">
+            <div class="nav">
+                <li><a href="index.html" class="aboutnav">ABOUT</a></li>
+                <li><a href="schedule.html" class="schedulenav">SCHEDULE</a></li>
+                <li><a href="gallery.html" class="gallerynav">GALLERY</a></li>
+                <li><a href="speakers.html" class="speakersnav">SPEAKERS</a></li>
+            </div>
+            <img src="icon/page4/%E8%B5%84%E6%BA%90%2011.png" class="topright">
+        </div>
+        <div class="graphic col-2 h-1">
+            <img src="icon/topbox1.png" class="boxb">
+        </div>
+        <div class="graphic col-1 h-1">
+            <img src="icon/topbox2.png" class="boxy">
+        </div>
+        <div class="row">
+            <img src="icon/page4/leftline.png" class="leftline">
+            <img src="icon/page4/titl.png" class="titlebox">
+            <h1 class="title">SPEAKERS</h1>
+        </div>
+
+        <div class="row">
+            <div class="box1"></div>
+            <div class="logo1">
+
+
+
+
+                <a href="https://en.wikipedia.org/wiki/Siona_Shimshi" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 576 512"><path id="instagram" fill=black d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"/></svg></a>
+
+
+
+
+
+            </div>
+
+            <div class="logo2">
+                <a href="https://en.wikipedia.org/wiki/David_Tartakover" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 576 512"><path id="instagram" fill=black d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"/></svg></a>
+            </div>
+
+            <div class="logo3">
+                <a href="https://en.wikipedia.org/wiki/Noma_Bar" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 576 512"><path id="instagram" fill=black d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"/></svg></a>
+            </div>
+
+            <h2 class="name1">Siona Shimshi</h2>
+            <p class="info1">(also known as "Ziona"; Hebrew: ציונה שמשי‬; born 1939) an Israeli painter, sculptor, ceramist, and textile designer.<br>In 1965, she was a co-founder of a group of artists called the "10+ Group", along with artists Buky Schwartz, Raffi Lavie, and others.<br> Shimshi was head of the Ceramic Design Department and taught as a professor at the Bezalel Academy of Art and Design in Jerusalem, from 1979–87. In 1979, she designed the set for a performance of A Simple Story by Shmuel Yosef Agnon for the Habimah Theater in Tel Aviv.</p>
+            <div class="box2"></div>
+            <h2 class="name2">David Tartakover</h2>
+            <p class="info2">“Since 1975, Tartakover has operated his own studio in Tel Aviv, specializing in various aspects of visual communications, with particular emphasis on culture and politics.From 1976, Tatakover has been a senior lecturer in the Visual Communication Department of the Bezalel Academy, is a member of Alliance Graphique Internationale (AGI), has been a president of the Graphic Designers Association of Israel (GDAI).He has established a reputation for a series of politically provocative self-produced posters, some at the time of Rosh Hashanah.
+
+            </p>
+            <div class="box3"></div>
+            <h2 class="name3">Noma Bar</h2>
+            <p class="info3">“Bar has published over 550 illustrations, which have been used in The Guardian, The New York Times, Time Out London, The Observer, The Economist and Wallpaper; illustrated book covers for Don DeLillo and Haruki Murakami; appeared in ad campaigns for Google, Sony and Nike; and been used on over sixty magazine covers. He has released three books of his work: Guess Who?: The Many Faces of Noma Bar (2008), Negative Space (2009), and Bittersweet (2017).”
+
+            </p>
+
+
+
+            <img src="icon/page4/boxyellow.png" class="textbox1">
+            <img src="icon/page4/boxyellow.png" class="textbox2">
+            <img src="icon/page4/boxyellow.png" class="textbox3">
+            <img src="icon/page4/rightline.png" class="rightline">
+
+        </div>
+
+
+
+
+
+
+
+
+        <div class="row">
+            <a href="index.html"><button class="btn-2">Back</button></a>
+
+        </div>
+
+
+
+        <div class="row">
+            <div class="boxfooter"></div>
+        </div>
+        <div class="footerinfo">
+            <p class="fottertitle">SUPPORTED BY</p>
+            <p class="fotters">&#9830 Tel Aviv Museum of Art &nbsp Address: Sderot Sha'ul HaMelech 27, Tel Aviv-Yafo, 61332012, Israel &nbsp<br>&#9830 Phone: +972 3-607-7020<br>&#9830 Design and Marceting &nbsp &nbsp &nbsp &nbsp &#9830NY Trav Fest&nbsp &nbsp &nbsp &nbsp &#9830TripAdvisor</p>
+            <div class="social">
+                <div class="g1">
+                    <a href="https://www.facebook.com/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 264 512"><path id="instagram" fill=white d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229"/></svg></a>
+                </div>
+
+                <div class="g2">
+                    <a href="https://www.instagram.com/?hl=en" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px"  viewBox="0 0 448 512"><path id="instagram" fill=white d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+                </div>
+
+                <div class="g3">
+                    <a href="https://twitter.com/?lang=en" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 512 512"><path id="instagram" fill=white d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

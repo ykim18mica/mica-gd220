@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>The Dream Is Real</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Allerta|Squada+One" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: rgb(23, 11, 4);
+        }
+
+        .h-50 {
+            height: 50px;
+        }
+
+        .h-100 {
+            height: 100px;
+        }
+
+        .h-180 {
+            height: 180px;
+        }
+
+        .h-200 {
+            height: 200px;
+        }
+
+        .h-257 {
+            height: 257px;
+        }
+
+        .h-300 {
+            height: 300px;
+        }
+
+        .h-350 {
+            height: 350px;
+        }
+
+
+        .h-450 {
+            height: 450px;
+        }
+
+        .h-500 {
+            height: 500px;
+        }
+
+        .h-600 {
+            height: 600px;
+        }
+
+        .h-650 {
+            height: 650px;
+        }
+
+        .h-750 {
+            height: 750px;
+        }
+
+
+        .relative {
+            position: relative;
+        }
+
+        .absolute {
+            position: absolute;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .title {
+            font-family: "Squada One", sans-serif;
+            text-transform: uppercase;
+        }
+
+        .boxtitle {
+            vertical-align: middle;
+            line-height: 162px;
+        }
+
+        .t1 {
+            color: rgb(167, 155, 160);
+            font-size: 140px;
+            left: 70px;
+            z-index: 6;
+        }
+
+        .t2 {
+            color: rgb(78, 55, 64);
+            font-size: 150px;
+            left: 35px;
+            z-index: 4;
+        }
+
+        .t3 {
+            color: rgb(43, 30, 35);
+            font-size: 160px;
+            letter-spacing: -2px;
+            left: 20px;
+            z-index: 3;
+        }
+
+        @keyframes flicker {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .subtitle {
+            color: rgba(128, 128, 128, 0.4);
+            font-size: 140px;
+            top: 50px;
+            letter-spacing: 4px;
+            line-height: 160px;
+            z-index: 5;
+            animation: flicker 1.2s infinite;
+        }
+
+
+        .t-sq-1 {
+            background-color: rgb(254, 243, 231);
+            width: 1111px;
+            height: 186px;
+            top: 115px;
+            left: 44px;
+            z-index: 1
+        }
+
+        .t-sq-2 {
+            background-color: rgb(78, 55, 64);
+            width: 1079px;
+            height: 162px;
+            top: 11px;
+            left: 15px;
+            z-index: 2;
+        }
+
+
+        .charles {
+            font-family: "Allerta", sans-serif;
+            color: rgb(174, 147, 133);
+            top: 400px;
+            left: 320px;
+            letter-spacing: 1px;
+        }
+
+        a:visited {
+            color: rgb(78, 55, 64);
+
+        }
+
+        a:hover {
+            color: rgb(167, 155, 160);
+        }
+
+        a:active {
+            color: rgba(128, 128, 128, 0.4);
+
+        }
+
+
+
+        .charlestitle {
+            text-transform: uppercase;
+        }
+
+
+        @keyframes walking {
+            0% {
+                opacity: 1;
+            }
+            25% {
+                opacity: 0.5;
+            }
+            50% {
+                opacity: 0;
+            }
+        }
+
+        .steps {
+            transform: rotate(-30deg);
+            z-index: -1;
+
+        }
+
+        .rightstep-1 {
+            opacity: 0;
+            right: 20px;
+            animation: walking 4s infinite;
+        }
+
+        .leftstep-1 {
+            opacity: 0;
+            top: 20px;
+            animation: walking 4s infinite;
+            animation-delay: 1s;
+        }
+
+        .rightstep-2 {
+            opacity: 0;
+            transform: rotate(-35deg);
+            top: 200px;
+            right: 30px;
+            animation: walking 4s infinite;
+            animation-delay: 2s;
+        }
+
+        .leftstep-2 {
+            opacity: 0;
+            top: 220px;
+            right: 5px;
+            animation: walking 4s infinite;
+            animation-delay: 3s;
+        }
+
+        .movietitle {
+            color: rgb(78, 55, 64);
+            text-shadow: 1px 1px rgba(255, 255, 255, 0.6);
+            font-family: "Squada One", sans-serif;
+            text-transform: uppercase;
+            font-size: 100px;
+        }
+
+        .movieinfo {
+            color: rgb(78, 55, 64);
+            font-family: "Allerta", sans-serif;
+            font-size: 24px;
+        }
+
+        .moviedate {
+            text-transform: uppercase;
+        }
+
+        .tagline {
+            color: rgba(128, 128, 128, 0.48);
+            font-family: "Squada One", sans-serif;
+            text-transform: uppercase;
+            font-size: 140px;
+        }
+
+
+        .followingtitle {
+            top: 175px;
+            left: 40px;
+        }
+
+        .followinginfo {
+            top: 155px;
+            left: 240px;
+        }
+
+        .followingtag {
+            top: 250px;
+            left: 35px;
+        }
+
+        .brown {
+            background-color: rgb(150, 138, 132);
+        }
+
+        .darkpurple {
+            background-color: rgb(43, 30, 35);
+        }
+
+        .lightpurple {
+            background-color: rgb(78, 55, 64);
+        }
+
+        @keyframes browntopurple {
+            0% {
+                background-color: rgb(150, 138, 132);
+            }
+            50% {
+                background-color: rgb(43, 30, 35);
+            }
+            100% {
+                background-color: rgb(78, 55, 64);
+            }
+        }
+
+        @keyframes darkpurpletobrown {
+            0% {
+                background-color: rgb(43, 30, 35);
+            }
+            50% {
+                background-color: rgb(78, 55, 64);
+            }
+            100% {
+                background-color: rgb(150, 138, 132);
+            }
+        }
+
+        @keyframes lightpurpletobrown {
+            0% {
+                background-color: rgb(78, 55, 64);
+            }
+            50% {
+                background-color: rgb(150, 138, 132);
+            }
+            100% {
+                background-color: rgb(43, 30, 35);
+            }
+        }
+
+        .polaroid {
+            width: 280px;
+            height: 343.5px;
+            background: linear-gradient(rgb(78, 55, 64) 61.89%, rgb(44, 20, 8));
+            box-shadow: 7px 7px 5px rgb(0, 0, 0, 0.75);
+            z-index: 1;
+        }
+
+        .polaroid-2 {
+            width: 193.7px;
+            height: 238.4px;
+            left: 43.15px;
+            top: 39.15px;
+            z-index: 2;
+            animation: browntopurple 2s infinite;
+        }
+
+        .polaroid-3 {
+            width: 127px;
+            height: 156.5px;
+            left: 33.35px;
+            top: 29.3605px;
+            z-index: 3;
+            animation: darkpurpletobrown 2s infinite;
+        }
+
+        .polaroid-4 {
+            width: 88.25px;
+            height: 108.6px;
+            left: 19.375px;
+            top: 19.375px;
+            z-index: 4;
+            animation: browntopurple 2s infinite;
+        }
+
+        .polaroid-5 {
+            width: 59.5px;
+            height: 73.3px;
+            left: 14.375px;
+            top: 14.375px;
+            z-index: 5;
+            animation: lightpurpletobrown 2s infinite;
+        }
+
+        .polaroid-6 {
+            width: 41px;
+            height: 51px;
+            left: 9.25px;
+            top: 9.25px;
+            z-index: 6;
+            animation: browntopurple 2s infinite;
+        }
+
+        .polaroid-7 {
+            width: 27px;
+            height: 33.4px;
+            left: 7px;
+            top: 7px;
+            z-index: 7;
+            animation: darkpurpletobrown 2s infinite;
+        }
+
+        .polaroid-8 {
+            width: 18.8px;
+            height: 23.2px;
+            left: 4.1px;
+            top: 4.1px;
+            z-index: 8;
+            animation: browntopurple 2s infinite;
+        }
+
+        .polaroidplace {
+            transform: rotate(-15deg);
+            left: 60px;
+            top: 270px;
+            z-index: 10;
+        }
+
+        .mementotitle {
+            left: 470px;
+            top: 260px;
+            z-index: 2;
+        }
+
+        .mementoinfo {
+            left: 730px;
+            top: 420px;
+            z-index: 2;
+        }
+
+        .mementotag {
+            text-align: right;
+            left: 215px;
+            top: 180px;
+            line-height: .9;
+            z-index: 1;
+        }
+
+        .eyeplace {
+            left: 600px;
+            top: 180px;
+            z-index: 1;
+        }
+
+
+        .magplace {
+            left: 700px;
+            top: 180px;
+            z-index: 4;
+            transition: transform 1s ease-in-out,
+            top 1s,
+            left 1s;
+        }
+
+        .magplace:hover {
+            transform: rotate(-90deg);
+            top: 160px;
+            left: 650px;
+        }
+
+        .prestigetitle {
+            left: 90px;
+            top: 250px;
+            z-index: 3;
+        }
+
+        .prestigeinfo {
+            left: 230px;
+            top: 465px
+        }
+
+        .prestigetag {
+            left: 36px;
+            top: 170px;
+            line-height: 1.1;
+            z-index: 2;
+        }
+
+        .headplace {
+            left: 70px;
+            z-index: 1;
+        }
+
+        .brainplace {
+            left: 170px;
+            top: 50px;
+            z-index: 2;
+            filter: brightness(1);
+            transition: filter 2s;
+        }
+
+        .brainplace:hover {
+            filter: brightness(4);
+        }
+
+        .inceptiontitle {
+            left: 180px;
+            top: 70px;
+        }
+
+        .inceptioninfo {
+            left: 78px;
+            top: 240px;
+        }
+
+        .inceptiontag {
+            top: 200px;
+            left: 35px;
+            line-height: .9;
+        }
+
+        @keyframes rot {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(-360deg);
+            }
+        }
+
+        .rightalign {
+            left: 370px;
+        }
+
+        .spaceshipplace {
+            z-index: 3;
+            animation: rot 3s linear infinite;
+            top: 0px;
+            transition: top 5s;
+        }
+
+        .spaceshipplace:hover {
+            animation-play-state: paused;
+            top: -2550px;
+        }
+
+        .intertitle {
+            left: 360px;
+            top: 410px;
+            z-index: 2;
+        }
+
+        .interinfo {
+            left: 510px;
+            top: 555px;
+        }
+
+        .intertag {
+            font-size: 129px;
+            line-height: 140px;
+            text-align: center;
+            left: 40px;
+            top: 90px;
+            line-height: .98;
+            z-index: 1;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="grid-container">
+
+        <div class="row">
+            <div class="col-12 h-500">
+                <div class="title subtitle absolute center">
+                    A Christopher Nolan Retrospective
+                </div>
+                <div class="t-sq-1 relative">
+                    <div class="t-sq-2 absolute">
+                        <div class="title boxtitle t1 absolute">The Dream is Real</div>
+                        <div class="title boxtitle t2 absolute">The Dream is Real</div>
+                        <div class="title boxtitle t3 absolute">The Dream is Real</div>
+                    </div>
+                </div>
+                <div class="charles absolute">
+                    <span class="charlestitle"><a href="http://thecharles.com/" target="_blank">The Charles Theater</a></span> | <span class="charleslocation">1711 N Charles St, Baltimore, MD 21201</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 h-450 relative">
+                <div class="col-6 h-180"></div>
+                <div class="col-1 h-180 steps rightstep-1 relative">
+                    <img src="images/img-rightstep.png" alt="right step">
+                </div>
+                <div class="col-1 h-180 steps leftstep-1 relative">
+                    <img src="images/img-leftstep.png" alt="left step">
+                </div>
+                <div class="col-1 h-180 steps rightstep-2 relative">
+                    <img src="images/img-rightstep.png" alt="right step">
+                </div>
+                <div class="col-1 h-180 steps leftstep-2 relative">
+                    <img src="images/img-leftstep.png" alt="left step">
+                </div>
+                <div class="col-2 h-180"></div>
+                <div class="movieinfo absolute followinginfo">
+                    <span class="moviedate">March 10</span> |
+                    <span class="movietime">7pm</span>
+                </div>
+                <div class="movietitle absolute followingtitle">
+                    Following
+                </div>
+                <div class="tagline followingtag absolute">“You're Never Alone”</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 h-650 relative">
+                <div class="polaroid relative polaroidplace">
+                    <div class="polaroid-2 brown relative">
+                        <div class="polaroid-3 darkpurple relative">
+                            <div class="polaroid-4 brown relative">
+                                <div class="polaroid-5 lightpurple relative">
+                                    <div class="polaroid-6 brown relative">
+                                        <div class="polaroid-7 darkpurple relative">
+                                            <div class="polaroid-8 brown relative"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-7 h-650">
+                    <div class="movietitle absolute mementotitle">
+                        Memento
+                    </div>
+                    <div class="movieinfo absolute mementoinfo">
+                        <span class="moviedate">March 11</span> |
+                        <span class="movietime">7pm</span>
+                    </div>
+                </div>
+                <div class="tagline mementotag absolute">“Some Memories <br> Are Best <br> Forgotten”
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 h-600 relative">
+                <div class="tagline prestigetag absolute">
+                    “Are You <br> Watching Closely?”
+                </div>
+                <div class="col-6 h-600 relative">
+                    <div class="movietitle absolute prestigetitle">The Prestige</div>
+                    <div class="movieinfo absolute prestigeinfo">
+                        <span class="moviedate">March 12</span> |
+                        <span class="movietime">7pm</span>
+                    </div>
+                </div>
+                <div class="col-6 h-600 eyeplace absolute">
+                    <img src="images/img-eye.png" alt="eye">
+                </div>
+                <div class="col-6 h-600">
+                    <img class="magplace absolute" src="images/img-mag.png" alt="mag">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 h-750 relative">
+                <div class="tagline inceptiontag absolute">
+                    “Your mind <br>
+                    <span class="rightalign relative">is The scene <br> of the crime”</span>
+                </div>
+                <div class="col-12 h-200"></div>
+                <div class="col-5 h-350 relative">
+                    <div class="brainplace absolute">
+                        <img src="images/img-brain.png" alt="brain">
+                    </div>
+                    <div class="headplace absolute">
+                        <img src="images/img-head.png" alt="head">
+                    </div>
+                </div>
+                <div class="col-7 h-350 relative">
+                    <div class="movietitle inceptiontitle absolute">Inception</div>
+                    <div class="movieinfo inceptioninfo absolute">
+                        <span class="moviedate">March 13</span> |
+                        <span class="movietime">7pm</span>
+                    </div>
+                </div>
+                <diV class="col-12 h-200"></diV>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 h-100"></div>
+            <div class="col-12 h-750 relative">
+                <div class="tagline intertag absolute">
+                    “Mankind was born <br> on Earth. It was never <br> meant to die here.”
+                </div>
+                <div class="col-4 h-750"></div>
+                <div class="col-4 h-400 relative spaceshipplace">
+                    <img src="images/img-spaceship.png" alt="spaceship">
+                </div>
+                <div class="movietitle intertitle absolute">Interstellar</div>
+                <div class="movieinfo interinfo absolute">
+                    <span class="moviedate">March 14</span> |
+                    <span class="movietime">7pm</span>
+                </div>
+                <div class="col-4 h-750"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 h-50"></div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

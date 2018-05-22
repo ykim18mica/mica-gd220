@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>YOU'RE MY MIRACLE</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/template.css">
+
+	<style>
+		.h-100 {
+			height: 100px;
+
+		}
+
+
+		.pink {
+			background-color: lightpink;
+			left: 10px;
+			height: 3000px;
+			width: 3000px;
+		}
+
+		.grad {
+			background: linear-gradient(to bottom, rgb(27, 20, 100), rgb(102, 45, 145), rgb(255, 123, 172), rgb(255, 255, 255));
+			position: absolute;
+			width: 3000px;
+			height: 5000px;
+			left: 10px;
+
+		}
+
+		html {
+			letter-spacing: 0.1vw;
+			color: lightpink;
+			font-family: 'Advent Pro', sans-serif;
+
+		}
+
+
+		.sm-1 {
+			font-size: 1vw;
+			font-family: 'Athiti', sans-serif;
+			color: rebeccapurple;
+
+		}
+
+		.sm-2 {
+			font-size: 2vw;
+		}
+
+		.md-1 {
+			font-size: 3.5vw;
+		}
+
+		.md-2 {
+			font-size: 2.5vw;
+		}
+
+
+		.img-moon {
+			background-image: url(images/moon.png);
+			width: 2150px;
+			height: 2151px;
+			top: 50px;
+			left: 60px;
+			position: absolute;
+
+		}
+
+		.img-circle 1 {
+			background-image: url(images/circle 1.png);
+			width: 254px;
+			height: 255px;
+			top: 40px;
+			left: 30px;
+			position: absolute;
+		}
+
+		.img-circle 2 {
+			background-image: url(images/circle%202.png);
+			width: 577px;
+			height: 578px;
+			top: 50px;
+			left: 40px;
+			position: absolute;
+		}
+
+		.img-circle 3 {
+			background-image: url(images/circle%203.png);
+			width: 396px;
+			height: 397px;
+			top: 60px;
+			left: 50px;
+			position: absolute;
+
+		}
+
+		.img-circle 4 {
+			background-image: url(images/circle%204.png);
+			width: 111px;
+			height: 111px;
+			top: 30px;
+			left: 20px;
+			position: absolute;
+		}
+
+		.img-circle 5 {
+			background-image: url(images/circle%205.png);
+			width: 147px;
+			height: 151px;
+			top: 20px;
+			left: 10px;
+			position: absolute;
+		}
+
+		.img-circle 6 {
+			background-image: url(images/circle%206.png);
+			width: 97px;
+			height: 97px;
+			top: 30px;
+			left: 40px;
+			position: absolute;
+			animation: float 4s ease-in-out infinite;
+		}
+
+		.img-circle 7 {
+			background-image: url(images/circle%207.png);
+			width: 60px;
+			height: 61px;
+			top: 50px;
+			left: 10px;
+			position: absolute;
+		}
+
+
+		.img-star 1 {
+			background-image: url(images/star%201.png);
+			width: 521px;
+			height: 395px;
+			top: 20px;
+			left: 30px;
+			position: absolute;
+			animation: move-right 3s infinite;
+		}
+
+		. img-star 2 {
+			background-image: url(images/star%202.png);
+			width: 788px;
+			height: 523px;
+			top: 50px;
+			left: 60px;
+			position: absolute;
+		}
+
+		.img-star 3 {
+			background-image: url(images/star%203.png);
+			width: 1190px;
+			height: 715px;
+			top: 60px;
+			left: 70px;
+			position: absolute;
+		}
+
+		.img-star 4 {
+			background-image: url(images/star%204.png);
+			width: 2574px;
+			height: 1513px;
+			top: 50px;
+			left: 30px;
+			position: absolute;
+		}
+
+		.img-star 5 {
+			background-image: url(images/star%205.png);
+			width: 1871px;
+			height: 1249px;
+			top: 60px;
+			left: 70px;
+			position: absolute;
+		}
+
+		.img-star 6 {
+			background-image: url(images/star%206.png);
+			width: 788px;
+			height: 253px;
+			top: 70px;
+			left: 60px;
+			position: absolute;
+			animation: float 3s ease-in-out infinite;
+		}
+
+		.img-star 7 {
+			background-image: url(images/star%207.png);
+			width: 1015px;
+			height: 697px;
+			top: 80px;
+			left: 70px;
+			position: absolute;
+		}
+
+		.img-star 8 {
+			background-image: url(images/star%208.png);
+			width: 1618px;
+			height: 1012px;
+			top: 90px;
+			left: 30px;
+			position: absolute;
+		}
+
+		.img-star 9 {
+			background-image: url(images/star%209.png);
+			width: 2590px;
+			height: 1595px;
+			top: 90px;
+			left: 60px;
+			position: absolute;
+		}
+
+		.text-youre my {
+			left: 50%;
+			top: 30%;
+			text-align: center;
+
+		}
+
+		.text-Miracle {
+			left: 50%;
+			top: 40%;
+			text-align: center;
+		}
+
+		.text-Shinkai Makoto {
+
+			color: white;
+			font-family: 'Abel', sans-serif;
+			text-align: center;
+		}
+
+		.text- 新海 誠 {
+			font-family: 'Yu Gothic UI';
+			color: white;
+
+			text-align: center;
+		}
+
+		.text-The Garden of Words {
+			left: 80%;
+			top: 70%;
+
+		}
+
+		.text-March 10th,
+			{
+			left: 80%;
+			top: 70%;
+			font-family: 'Lato', sans-serif;
+			color: rebeccapurple;
+
+		}
+
+		.text-5 centimeter per second {}
+
+		.text-March 11th,
+			{
+			font-family: 'Lato', sans-serif;
+			color: rebeccapurple;
+
+		}
+
+		.text-Your name {
+
+			left: 80%;
+			top: 70%;
+		}
+
+		.text-March 12th,
+			{
+			font-family: 'Lato', sans-serif;
+			color: rebeccapurple;
+
+			left: 80%;
+			top: 70%;
+		}
+
+		.text-Crossroad {
+			left: 80%;
+			top: 70%;
+
+		}
+
+		.text-March 13th,
+			{
+			left: 80%;
+			top: 70%;
+			font-family: 'Lato', sans-serif;
+			color: rebeccapurple;
+
+		}
+
+		.text-Children who chase lost voices {
+
+			left: 80%;
+			top: 70%;
+		}
+
+		.text-March 14th,
+			{
+			left: 80%;
+			top: 70%;
+			font-family: 'Lato', sans-serif;
+			color: rebeccapurple;
+
+		}
+
+		.text-The Charles theater {
+			left: 80%;
+			top: 70%;
+			font-family: 'Advent Pro', sans-serif;
+			color: rebeccapurple;
+		}
+
+		.text-1711 N Charles street {
+			left: 80%;
+			top: 70%;
+			font-family: 'Advent Pro', sans-serif;
+			color: rebeccapurple;
+		}
+
+		.text-Baltimore,
+		MD 21201 {
+			left: 80%;
+			top: 70%;
+			font-family: 'Advent Pro', sans-serif;
+			color: rebeccapurple;
+		}
+
+		.div1 {
+			transition-timing-function: ease-in 3s;
+		}
+	</style>
+</head>
+
+<body>
+
+
+	<div class="grid-container">
+
+		<div class="grad sweep-to-bottom">
+			<div class="row">
+				<p class="sm-2 text-shinkai makoto">
+					Shinkai Makoto
+				</p>
+				<p class="sm-2 text-新海 誠">
+					<br> 新海 誠
+				</p>
+
+				<div class="img-circle 6 relative">
+					<div class="img-circle 7 relative">
+						<div class="img-circle 7 relative">
+
+							<div class="row">
+								<p class="md-2 text-youre my">
+									YOU'RE MY
+								</p>
+								<p class="md-1 text-Miracle">
+									<br> MIRACLE
+								</p>
+								<img src="img-circle 6">
+								<img src="img-circle 4">
+
+
+								<div class="row">
+									<img src="img-circle 7">
+									<img src="img-circle 6">
+									<img src="img-circle 1">
+									<img src="img-circle 7">
+									<img src="img-circle 6">
+									<img src="img-star 1">
+									<img src="img-star 2">
+									<img src="img-circle 7">
+									<img src="img-star 3">
+									<p class="sm-2 text-The Garden of Words">
+										The Garden of Words
+									</p>
+									<br>
+									<p class="sm-1 text-March 10th">
+										March 12th, 3:00pm
+									</p>
+
+
+									<div class="row">
+										<img src="img-circle 5">
+										<img src="img-circle 1">
+										<img src="img-star 4">
+										<img src="img-star 7">
+										<p class="sm-2 text-5 Centimeters per Second">
+											5 Centimeters per Second
+										</p>
+
+										<p class="sm-1 text-March 11th,">
+											<br> March 11th, 5:00pm
+										</p>
+
+										<div class="row">
+											<img src="img-circle 3">
+											<p class="sm-2 text-Your name">
+												Your name
+											</p>
+
+											<p class="sm-1 text-March 14th">
+												<br> March 14th, 7:00pm
+											</p>
+											<div class="row">
+												<img src="img-star 4">
+												<img src="img-star 5">
+												<p class="sm-2 text-Children who chase lost voices">
+													Children who chase lost voices
+												</p>
+
+												<p class="sm-1 text-March 13th">
+													<br> March 13th, 4:00pm
+												</p>
+
+
+
+
+												<div class="row">
+													<img src="img-star 6">
+													<img src="img-circle 5">
+													<img src="img-circle 6">
+													<img src="img-circle 7">
+													<p class="sm-2 text-Crossroad">
+														Crossroad </p>
+													<p class="sm-1 text-March 10th,">
+														<br> March 10th, 2:00pm</p>
+													<div class="row">
+														<img src="img-star7">
+														<img src="img-star8">
+														<img src="img-star9 ">
+														<img src="img-circle 4">
+														<img src="img-circle 6">
+														<p class="sm-1 text-The Charles Theatre">
+															<br> The Charles Theatre
+														</p>
+
+														<p class="sm-1 text-1711 N Charles St,">
+															1711 N Charles St,
+														</p>
+
+														<p class="sm-1 text-Baltimore MD 21201 ">
+															Baltimore MD 21201 </p>
+													</div>
+												</div>
+
+
+											</div>
+
+										</div>
+									</div>
+
+								</div>
+
+
+							</div>
+						</div>
+
+
+
+
+
+
+					</div>
+
+
+
+
+				</div>
+			</div>
+		</div>
+
+
+</body>
+
+</html>

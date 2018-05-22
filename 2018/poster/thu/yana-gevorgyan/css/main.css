@@ -1,0 +1,447 @@
+@font-face {
+    font-family: "Big John Regular";
+    src: url("fonts/BIG JOHN-webfont.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Azo Sans Regular";
+    src: url("fonts/azosans-reg.woff") format('woff');
+}
+
+.header {
+    position: absolute;
+    top: 40px;
+}
+
+*::selection {
+    background: #de553d;
+    color: white;
+}
+
+body {
+    background-color: #dfd4d1;
+}
+
+
+h1 {
+    font-family: 'Big John Regular', sans-serif;
+    font-size: 40px;
+    background-color: #1e2420;
+    color: white;
+    text-align: center;
+    width: 55%;
+    margin: auto;
+    padding: 5px 1px 1px 1px;
+}
+
+h2 {
+    font-family: 'Big John Regular', sans-serif;
+    font-size: 30px;
+    color: #1e2420;
+    text-align: center;
+    padding: 15px 3px 3px 1px;
+    margin: auto;
+}
+
+.underline {
+    height: 8px;
+    width: 330px;
+    background-color: #de553d;
+    margin: 20px auto;
+
+}
+
+.display {
+    height: 300px;
+    margin: 10px auto;
+    position: relative;
+}
+
+h3 {
+    font-family: 'Big John Regular', sans-serif;
+    font-size: 20px;
+    background-color: #1e2420;
+    color: white;
+    text-align: center;
+    width: 37%;
+    margin: auto;
+    padding: 05px 2px 2px 1px;
+}
+
+h4 {
+    font-family: 'Big John Regular', sans-serif;
+    font-size: 20px;
+    color: #1e2420;
+    text-align: center;
+    padding: 5px 1px 0px 1px;
+    margin: auto;
+}
+
+p {
+    font-family: 'Azo Sans Regular', sans-serif;
+    font-size: 10px;
+    color: #1e2420;
+    text-align: center;
+    padding: 25px 1px 0px 1px;
+    line-height: 14px;
+}
+
+
+em {
+    font-family: 'Big John Regular', sans-serif;
+    font-size: 10px;
+    color: #1e2420;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+em:hover {
+    font-family: 'Big John Regular', sans-serif;
+    font-size: 10px;
+    color: #de553d;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.nav {
+    margin: 15px;
+}
+
+
+.whole {
+    position: absolute;
+    top: 10px;
+    left: 265px;
+}
+
+.gear {
+    position: absolute;
+    top: 30px;
+    left: 280px;
+    animation: spin 10s linear infinite;
+}
+
+.part-orange {
+    position: absolute;
+    left: 301px;
+    top: 13px;
+    z-index: 1;
+}
+
+.part-orange:hover {
+    animation: tilt 0.75s linear infinite
+}
+
+.shine {
+    position: absolute;
+    z-index: 1;
+    top: 110px;
+    left: 450px;
+    animation: flicker 2s infinite ease-in-out;
+}
+
+.shine-2 {
+    position: absolute;
+    top: 30px;
+    left: 350px;
+    animation: flicker 1.25s infinite ease-in-out;
+}
+
+.hal-red {
+    position: absolute;
+    top: 10px;
+    left: 260px;
+}
+
+.hal-blik-c {
+    position: absolute;
+    top: 130px;
+    left: 380px;
+    z-index: 3;
+}
+
+
+.hal-w-ridge {
+    position: absolute;
+    top: 72.5px;
+    left: 325px;
+    animation: tilt 2s infinite;
+    z-index: 2;
+}
+
+.haleye:hover .hal-w-ridge {
+    animation: scaledown 1s forwards;
+}
+
+.haleye:hover .hal-blik-c {
+    animation: scaleup 1s forwards;
+}
+
+.hal-b-ridge {
+    position: absolute;
+    top: 42px;
+    left: 292px;
+}
+
+.shine-3 {
+    position: absolute;
+    top: 35px;
+    left: 450px;
+}
+
+.shine-4 {
+    position: absolute;
+    top: 70px;
+    left: 440px;
+    animation: flicker 1s infinite;
+}
+
+.nav {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.nav:hover {
+    opacity: .5;
+}
+
+.shi-wall {
+    position: absolute;
+    left: 270px;
+    top: 0px;
+}
+
+.shi-floor:hover .shi-circle {
+    display: block;
+    animation-name: zoomIn;
+    animation-duration: .30s;
+    animation-fill-mode: both;
+}
+
+.shi-floor:hover .shi-splatter {
+    display: block;
+    animation-name: zoomIn;
+    animation-duration: .2s;
+    animation-fill-mode: both;
+    animation-delay: 0.1s;
+}
+
+
+.shi-circle {
+    display: none;
+    position: absolute;
+    top: 65px;
+    left: 345px;
+    z-index: 800;
+    background: #de553d;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.shi-splatter {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 330px;
+    z-index: 799;
+
+}
+
+.loli-pop {
+    position: absolute;
+    top: 20px;
+    left: 260px;
+}
+
+.loli-big:hover .drop {
+    display: block;
+    animation: dropFade 2s infinite;
+}
+
+.loli-big:hover .drop-2 {
+    display: block;
+    animation: dropFade 1s infinite;
+}
+
+.loli-big:hover .drop-3 {
+    display: block;
+    animation: dropFade 1.5s infinite;
+}
+
+
+.drop {
+    display: none;
+    position: absolute;
+    left: 350px;
+    z-index: 4
+}
+
+.drop-2 {
+    display: none;
+    position: absolute;
+    left: 430px;
+    z-index: 4
+}
+
+.drop-3 {
+    display: none;
+    position: absolute;
+    left: 380px;
+    z-index: 4
+}
+
+.drs-pentagon {
+    position: absolute;
+    left: 250px;
+}
+
+.drs-phone {
+    position: absolute;
+    top: 85px;
+    left: 340px;
+    z-index: 2;
+    transform: translateY(30px);
+    transition: .5s;
+}
+
+.drs-big:hover .drs-phone {
+    animation: 1.75s ring linear infinite;
+}
+
+@keyframes ring {
+    0% {
+        margin-top: 0;
+    }
+    3% {
+        margin-top: -5px;
+    }
+    6% {
+        margin-top: 0;
+    }
+    9% {
+        margin-top: -5px;
+    }
+    12% {
+        margin-top: 0;
+    }
+    15% {
+        margin-top: -5px;
+    }
+    18% {
+        margin-top: 0;
+    }
+    21% {
+        margin-top: -5px;
+    }
+    24% {
+        margin-top: 0;
+    }
+    27% {
+        margin-top: -5px;
+    }
+    30% {
+        margin-top: 0;
+    }
+    33% {
+        margin-top: -5px;
+    }
+    36% {
+        margin-top: 0;
+    }
+}
+
+@keyframes dropFade {
+    from {
+        top: 50px;
+        opacity: 1;
+    }
+    to {
+        top: 200px;
+        opacity: 0;
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.zoomIn {
+    animation-name: zoomIn;
+}
+
+@keyframes scaleup {
+    from {
+        transform: scale(1.0);
+    }
+    to {
+        transform: scale(1.75);
+    }
+}
+
+@keyframes scaledown {
+    from {
+        transform: scale(1.0);
+    }
+    to {
+        transform: scale(0.75);
+    }
+}
+
+
+@keyframes rotate-infinite {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes tilt {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes flicker {
+    0% {
+        transform: scale(1.0);
+    }
+    50% {
+        transform: scale(0)
+    }
+    100% {
+        transform: scale(1.0);
+    }
+}

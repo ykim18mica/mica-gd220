@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Wes Anderson</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="https://use.typekit.net/szf6pgz.css">
+
+    <style>
+        .grid-container {
+            background-color: #8cbea3;
+            font-family: "futura-pt", sans-serif;
+            font-style: normal;
+            font-size: 17px;
+        }
+
+
+        @keyframes float {
+            0% {
+                transform: translatey(0px);
+            }
+            50% {
+
+                transform: translatey(-35px);
+            }
+            100% {
+                transform: translatey(0px);
+            }
+        }
+
+        span {
+            font-style: italic;
+        }
+
+        .wes {
+            font-size: 70px;
+            color: #DFBA46;
+            font-weight: 500;
+            left: 415px;
+            position: relative;
+            margin-top: 90px;
+        }
+
+        .movietitle {
+            font-size: 38px;
+            color: #A38881;
+            font-weight: 700;
+            position: relative;
+            left: 480px;
+            font-weight: 400;
+            margin-top: 10px;
+        }
+
+        .info {
+            font-size: 13px;
+            line-height: 20px;
+            color: #A38881;
+            left: 300px;
+            width: 150px;
+            margin: 10px;
+        }
+
+        .dates {
+            font-size: 20px;
+            font-weight: 10;
+            line-height: 24;
+            position: relative;
+            z-index: -6;
+        }
+
+        .titles {
+
+            font-size 15px;
+            font-weight: 10;
+            line-height: 24;
+            font-style: italic;
+            position: relative;
+            z-index: -6;
+        }
+
+        .circle {
+            background: #CB6550;
+            border: dashed 3px transparent;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            left: 44%;
+            top: 460px;
+            position: fixed;
+        }
+
+        .click {
+            color: #DFBA46;
+            position: fixed;
+            font-size: larger;
+            font-weight: 500;
+            left: 520px;
+            top: 460px;
+        }
+
+        .suitcase {
+            z-index: 2;
+            background-size: cover;
+            height: 200px;
+            left: 475px;
+            top: 1420px;
+            position: absolute;
+            animation: float 4s ease-in-out infinite;
+        }
+
+        .suitcase:hover {
+            left: 530px;
+            background: transparent;
+            border: dashed 3px #DFBA46;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        .frame {
+
+            background-size: cover;
+            position: absolute;
+            height: 200px;
+            top: 2420px;
+            left: 485px;
+            z-index: 2;
+            animation: float 4s ease-in-out infinite;
+        }
+
+        .frame:hover {
+            left: 530px;
+            background: transparent;
+            border: dashed 3px #DFBA46;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        .map {
+            background-size: cover;
+            position: absolute;
+            height: 200px;
+            top: 925px;
+            left: 489px;
+            z-index: 2;
+            animation: float 4s ease-in-out infinite;
+        }
+
+        .map:hover {
+            left: 530px;
+            background: transparent;
+            border: dashed 3px #DFBA46;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        .mendl {
+
+            background-size: cover;
+            position: absolute;
+            height: 200px;
+            top: 445px;
+            left: 485px;
+            z-index: 2;
+            animation: float 4s ease-in-out infinite;
+        }
+
+        .mendl:hover {
+            left: 530px;
+            background: transparent;
+            border: dashed 3px #DFBA46;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        .submarine {
+
+            background-size: cover;
+            position: absolute;
+            height: 200px;
+            top: 1920px;
+            left: 485px;
+            z-index: 2;
+            animation: float 4s ease-in-out infinite;
+        }
+
+        .submarine:hover {
+            left: 530px;
+            background: transparent;
+            border: dashed 3px #DFBA46;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        .line {
+            border-left: dashed 3px #DFBA46;
+            padding: 100px;
+            display: inline-block;
+            height: 2300px;
+            left: 620px;
+            top: 460px;
+            width: 20px;
+            position: absolute;
+            z-index: 1;
+        }
+
+        .location {
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        .threeinfo {
+            position: relative;
+            top: 23px;
+            left: 360px;
+
+        }
+
+        .border {
+            border-right: solid 1px #A38881;
+            height: 100px;
+        }
+
+        td {
+            font-weight: 10;
+            position: relative;
+            top: 210px;
+            left: 240px;
+            height: 490px;
+            width: 595px;
+        }
+
+        .last {
+            height: 200px;
+        }
+
+        .meet {
+            font-size: 30px;
+            color: #DFBA46;
+            position: relative;
+            left: 570px;
+            top: 5px;
+        }
+
+        .meet:hover {
+            left: 575px;
+            color: #8cbea3;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="grid-container">
+
+        <div class="row">
+            <div class="col-5 wes">Wes Anderson</div>
+        </div>
+
+        <div class="row">
+            <div class="col-3 movietitle"> Colors in the Movie</div>
+        </div>
+
+        <div class="row threeinfo col-6">
+            <div class="col-2 info border">
+                <div class="location">Location</div> The charles Theatre, <br> 1711 N Charles st,<br> Baltimore, MD,<br> 21201</div>
+            <div class="col-2 info border">
+                <div class="location">Website</div>
+                http://thecharles.com/</div>
+            <div class="col-2 info">
+                <div class="location">Date</div>
+                March 10th ~ March 14th</div>
+        </div>
+
+        <div class="row">
+            <div class="suitcase">
+                <a href="https://www.youtube.com/watch?v=aO1bYukdvLI" target="_blank">
+                <img src="images/suitcase.png" width=280px height=280px>
+            </a>
+            </div>
+        </div>
+
+
+        <div class="map">
+            <a href="https://www.youtube.com/watch?v=7N8wkVA4_8s" target="_blank">
+            <img src="images/map.png" width=250px height=250px>   
+        </a>
+        </div>
+
+
+        <div class="frame">
+            <a href="https://www.youtube.com/watch?v=caMgokYWboU" target="_blank">
+            <img src="images/frame.png" width=260px height=260px>
+        </a>
+        </div>
+
+
+
+        <div class="mendl">
+            <a href="https://www.youtube.com/watch?v=zru-1DbbcsA" target="_blank">
+             <img src="images/mendl.png" width=260px height=250px>
+        </a>
+        </div>
+
+
+        <div class="submarine">
+            <a href="https://www.youtube.com/watch?v=yh401Rmkq0o" target="_blank">
+            <img src="images/submarine.png" width=260px height=250px>
+        </a>
+
+        </div>
+
+        <div class="row">
+            <table>
+                <tr>
+                    <td>March 10, 3pm</td>
+                    <td><span>The GrandBudapest Hotel (2014)</span></td>
+
+                </tr>
+                <tr>
+                    <td>March 11, 11am</td>
+                    <td><span>Moonrise kingdom (2007)</span></td>
+
+                </tr>
+                <tr>
+                    <td>March 12, 10am</td>
+                    <td><span>The Darjeeling Limited (2007)</span></td>
+
+                </tr>
+                <tr>
+                    <td>March 13, 5pm</td>
+                    <td><span>The Life Aquatic with Steve Zissow (2004)</span></td>
+                </tr>
+                <tr>
+                    <td>March 14, 2pm</td>
+                    <td><span>The Royal Tenenbaums (2001)</span></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="col-2 line"> </div>
+
+        <div class="col-12 circle"> </div>
+
+        <div class="click">
+            click! </div>
+
+        <div class="row last">
+            <a href="https://www.youtube.com/watch?v=e7MXUKSlOoQ" target="_blank">
+                <p class="col-1 meet"> Meet <br> Wes <br> Anderson</p>
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>

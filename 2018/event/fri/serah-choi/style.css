@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+html {
+    font-family: Roboto;
+
+}
+
+.home:hover {
+    color: black;
+}
+
+.about:hover {
+    color: black;
+}
+
+.speakers:hover {
+    color: black;
+}
+
+.information:hover {
+    color: black;
+}
+
+.love {
+    font-family: roboto;
+    font-size: 100px;
+    font-weight: bold;
+    color: #f4e6d7;
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    letter-spacing: 50px;
+    text-shadow: 3px 3px 4px #333;
+
+
+}
+
+
+
+.talk {
+    font-family: roboto;
+    font-size: 100px;
+    font-weight: bold;
+    color: #f4e6d7;
+    position: absolute;
+    top: 380px;
+    left: 100px;
+    letter-spacing: 50px;
+    text-shadow: 3px 3px 4px #333;
+}
+
+.ideation {
+    font-family: roboto;
+    font-size: 100px;
+    font-weight: bold;
+    color: #f4e6d7;
+    position: absolute;
+    top: 580px;
+    left: 100px;
+    letter-spacing: 50px;
+    text-shadow: 3px 3px 4px #333;
+}
+
+.redbox-about {
+    width: 1300px;
+    background-color: #ff3600;
+    height: 340px;
+    position: absolute;
+
+}
+
+.address {
+    color: #f4e6d7;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    left: 100px;
+}
+
+.mica {
+    font-family: roboto;
+    color: #f4e6d7;
+    position: absolute;
+    font-size: 15px;
+    left: 100px;
+
+    font-weight: bold;
+}
+
+.mica-address {
+    font-family: roboto;
+    color: #f4e6d7;
+    position: absolute;
+    font-size: 15px;
+    left: 100px;
+}
+
+.contact {
+    color: #f4e6d7;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    left: 550px;
+}
+
+.contact-number {
+    font-family: roboto;
+    color: #f4e6d7;
+    position: absolute;
+    font-size: 15px;
+
+    left: 550px;
+}
+
+.sponsors {
+    color: #f4e6d7;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    left: 1000px;
+}
+
+.sponsors-list1 {
+    font-family: roboto;
+    color: #f4e6d7;
+    position: absolute;
+    font-size: 15px;
+
+    left: 1000px;
+    text-decoration: none;
+}
+
+.sponsors-list1:hover {
+    color: black;
+}
+
+.sponsors-list2 {
+    font-family: roboto;
+    color: #f4e6d7;
+    position: absolute;
+    font-size: 15px;
+
+    left: 1000px;
+    text-decoration: none;
+}
+
+.sponsors-list2:hover {
+    color: black;
+}
+
+.sponsors-list3 {
+    font-family: roboto;
+    color: #f4e6d7;
+    position: absolute;
+    font-size: 15px;
+
+    left: 1000px;
+    text-decoration: none;
+}
+
+.sponsors-list3:hover {
+    color: black;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.mica:hover {
+    color: black;
+}
+
+
+.mica-logo {
+
+    left: 60px;
+    position: absolute;
+}
+
+@keyframes love {
+    0% {
+        opacity: 0%;
+    }
+    50% {
+        opacity: 50%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+.email {
+    color: #f4e6d7;
+    position: absolute;
+    font-size: 15px;
+
+    left: 550px;
+}

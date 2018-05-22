@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:900,900i|Open+Sans:400,600" rel="stylesheet">
+    <script src="js/script.js"></script>
+
+    <style>
+        .location {
+            top: 45px;
+            right: 2px;
+        }
+
+        .map {
+            top: 80px;
+            width: 800px;
+            height: 433px;
+        }
+
+        .address {
+            width: 671px;
+            height: 121px;
+            top: 110px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="orange-screen fixed" id="orange-screen"></div>
+    <div class="grid-container">
+        <div class="nav">
+            <div class="nav-button fixed" onclick="expandNav()" id="nav-button">
+                <div class="bar bar1"></div>
+                <div class="bar bar2"></div>
+                <div class="bar bar3"></div>
+            </div>
+            <div class="nav-expand fixed" id="nav-expand">
+                <div class="nav-close relative" onclick="closeNav()">
+                    <div class="line line1 relative"></div>
+                    <div class="line line2 relative"></div>
+                </div>
+                <div class="nav-text-block lato size-60 uppercase weight-black relative">
+                    <div class="nav-text"><a class="home black-link" href="index.html">home</a></div>
+                    <div class="nav-text"><a class="about black-link" href="about.html">about</a></div>
+                    <div class="nav-text"><a class="schedule black-link" href="schedule.html">schedule</a></div>
+                    <div class="nav-text"><a class="exhibit black-link" href="exhibition.html">exhibition</a></div>
+                    <div class="nav-text talk" id="talk"><a class="talk-link black-link">talk/panel</a>
+                        <div class="talk talk-extra fixed"></div>
+                        <div class="talk-expand fixed" id="talk-expand">
+                            <div class="talk-expand-text-block lato color-black size-40 weight-black capitalize">
+                                <div class="talk-expand-text relative"><a class="artnactivism black-link" href="artnactivism.html">art &amp; activism</a></div>
+                                <div class="talk-expand-text relative"><a class="printmakingasprotest black-link" href="printmakingasprotest.html">printmaking as protest</a></div>
+                                <div class="talk-expand-text relative"><a class="cruel black-link" href="crueldesign.html">cruel design/disobedient design</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-text"><a class="location black-link" href="location.html">location</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="row col-12 h-1">
+        </div>
+        <div class="row col-12 h-1">
+            <div class="col-4 h-1"></div>
+            <div class="col-4 h-1">
+                <div class="location lato size-80 color-white weight-black uppercase relative">location</div>
+            </div>
+            <div class="col-4 h-1"></div>
+        </div>
+        <div class="row col-12 h-6">
+            <div class="col-2 h-6"></div>
+            <div class="col-8 h-6">
+                <iframe class="map relative" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.1154785797853!2d-118.11690504936435!3d33.78351598058501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd31dba16fc7bf%3A0xefa9e1a12c875d01!2sUniversity+Art+Museum!5e0!3m2!1sen!2sus!4v1525227708179" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <div class="address relative open-sans color-white size-30 line-height-40 weight-bold">University Art Museum, <br> California State University, Long Beach <br> 1250 N Bellflower Blvd, Long Beach, CA 90840</div>
+            </div>
+            <div class="col-2 h-6"></div>
+        </div>
+        <div class="row col-12 h-1"></div>
+    </div>
+</body>
+
+</html>

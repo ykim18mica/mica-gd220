@@ -1,0 +1,358 @@
+<!doctype html>
+<html>
+<link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+<head>
+    <style>
+        html {
+            font-family: 'Muli', sans-serif;
+            margin: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 10;
+            padding: 0;
+            overflow: hidden;
+            background-color: transparent;
+
+        }
+
+
+        li {
+            float: right;
+            font-size: 16px;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 3px 10px;
+            text-decoration: none;
+        }
+
+        .parent {
+            position: relative;
+        }
+
+        .short {
+            margin: 0 23px;
+        }
+
+        .boxy {
+            visibility: hidden;
+            width: 100%;
+            height: 15px;
+            background-color: #8FCDA5;
+            position: absolute;
+            top: 12px;
+            left: 0px;
+            z-index: -100;
+        }
+
+
+        li:hover .boxy {
+            visibility: visible;
+        }
+
+        .logo {
+
+            position: absolute;
+            top: 20px;
+            text-decoration: none;
+        }
+
+        .C {
+            font-size: 20px;
+            color: #FBDB60;
+        }
+
+        .D {
+            font-size: 20px;
+            color: #8FCDA5;
+            position: relative;
+            top: 22px;
+            right: 15px;
+            float: right;
+        }
+
+        svg {
+            position: relative;
+        }
+
+        button.accordion {
+            border-bottom: 1px solid yellow;
+            position: relative;
+            letter-spacing: 1.5px;
+            margin-left: 170px;
+            font-size: 46px;
+            font-weight: 600;
+            color: #8FCDA5;
+            top: 100px;
+            cursor: pointer;
+            padding: 20px;
+            width: 100%;
+            text-align: left;
+            border: none;
+            outline: none;
+            transition: 0.4s;
+        }
+
+        .linebox {
+            box-sizing: border-box;
+            width: 450px;
+            height: 2px;
+            position: relative;
+            top: 55px;
+            left: 340px;
+            background-color: #8FCDA5;
+        }
+
+        button.accordion.active,
+        button.accordion:hover {}
+
+        div.panel {
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: 0.6s ease-in-out;
+            opacity: 0;
+            height: 500px;
+            float: right;
+            font-size: 25px;
+            margin-top: 70px;
+            margin-right: 200px;
+            margin-bottom: 28px;
+        }
+
+        div.panel.show {
+            opacity: 1;
+            max-height: 6000px;
+        }
+
+        button.accordion:after {
+
+            font-size: 20px;
+            color: #8FCDA5;
+            float: right;
+            margin-left: 5px;
+        }
+
+        button.accordion.active:after {}
+
+        .name {
+            font-size: 20px;
+        }
+
+        .time {
+            font-weight: bold;
+        }
+
+        .w {
+            font-size: 18px;
+        }
+
+        .text {
+            position: absolute;
+            width: 120px;
+            margin-top: 15px;
+            margin-left: -40px;
+            line-height: 1.5;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: #8FCDA5;
+            font-size: 12px;
+            text-align: center;
+        }
+
+        .container {
+            position: relative;
+            width: 330px;
+            height: 100px;
+        }
+
+        .container:hover .overlay {
+            opacity: 1;
+        }
+
+        .hv {
+            position: relative;
+        }
+
+        img {
+            position: absolute;
+            float: left;
+            margin: 10px;
+        }
+
+        .blink {
+            color: #FBDB60;
+            opacity: 1;
+            animation: fade 3s infinite;
+        }
+
+        @keyframes fade {
+            0%,
+            100% {
+                opacity: 0
+            }
+            50% {
+                opacity: 1
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="row">
+        <ul>
+            <li class="short">
+                <div class="parent">
+                    <div class="boxy"></div><a href="Contact.html">Contact</a></div>
+            </li>
+            <li class="short">
+                <div class="parent">
+                    <div class="boxy"></div><a href="Schedule.html">Schedule</a></div>
+            </li>
+            <li class="short">
+                <div class="parent">
+                    <div class="boxy"></div><a href="Speakers.html">Speakers</a></div>
+            </li>
+            <li class="short">
+                <div class="parent">
+                    <a href="About.html">About <div class="boxy"></div></a></div>
+            </li>
+        </ul>
+    </div>
+
+
+    <a href="Home.html" class="logo">
+        <div class="C">C</div>
+
+        <svg height="30" width="40">
+        <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FBDB60;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8FCDA5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <line x1="12" y1="0" x2="24" y2="23" style="stroke:url(#grad1);stroke-width:2" />
+</svg>
+        <div class="D">D</div>
+    </a>
+
+
+    <button class="accordion"><div class="linebox"></div>June 13th  &nbsp; <span class="blink">&#8964;</span></button>
+
+    <div class="panel">
+
+        <div class="container">
+            <p>Hey Studio Exhibition<br> <span class="w">@3F Gallery</span></p>
+            <div class="overlay">
+                <img src="images/hover1.png" height="80" width="100" class="hv"><span class="text">Exhibiting the projects done by Veronica Fuerte since 2015.</span>
+            </div>
+        </div>
+
+        <div class="container">
+            <p>Installation by Chris Wood<br> <span class="w">@Garden</span> </p>
+            <div class="overlay">
+                <img src="images/hover2.png" height="80" width="100" class="hv"><span class="text">Exhibiting the installation done by Chris Wood.</span>
+            </div>
+        </div>
+        <div class="container">
+            <p>Veronica Fuerte <br> <span class="name"> "color palette"</span><br> <span class="time">4-5pm</span></p>
+            <div class="overlay">
+                <img src="images/hover5.png" height="80" width="100" class="hv"><span class="text">Lecture of Veronica Fuerte talking about using effective color palette in design.</span>
+            </div>
+        </div>
+    </div>
+
+    <button class="accordion"><div class="linebox"></div>June 14th   &nbsp; <span class="blink">&#8964;</span> </button>
+
+    <div class="panel">
+
+        <div class="container">
+            <p>Hey Studio Exhibition<br> <span class="w">@3F Gallery</span></p>
+            <div class="overlay">
+                <img src="images/hover1.png" height="80" width="100" class="hv"><span class="text">Exhibiting the projects done by Veronica Fuerte since 2015</span>
+            </div>
+        </div>
+        <div class="container">
+            <p>Installation by Chris Wood <br> <span class="w">@Garden</span></p>
+            <div class="overlay">
+                <img src="images/hover2.png" height="80" width="100" class="hv"><span class="text">Exhibiting the installation done by Chris Wood.</span>
+            </div>
+        </div>
+        <div class="container">
+            <p>Printmaking Workshop<br><span class="w">@1F Seminar Room</span><br> <span class="time">4-5pm</span> </p>
+            <div class="overlay">
+                <img src="images/hover3.png" height="80" width="100" class="hv"><span class="text">Explore printmaking with Lotta Nieminen! 	
+                <br>&#40;No materials needed&#41;</span>
+            </div>
+        </div>
+        <div class="container" "only">
+            <p>Lotta Nieminen <br><span class="name"> "Colors in Brand"</span> <br> <span class="time">1-2pm</span></p>
+            <div class="overlay">
+                <img src="images/hover5.png" height="80" width="100" class="hv"><span class="text">Lotta Nieminen talking about how to use colors effectively in branding.</span>
+            </div>
+
+        </div>
+    </div>
+
+    <button class="accordion"><div class="linebox"></div>June 15th  &nbsp; <span class="blink">&#8964;</span> </button>
+    <div class="panel">
+
+        <div class="container">
+            <p>Installation by Chris Wood <br> <span class="w">@Garden</span></p>
+            <div class="overlay">
+                <img src="images/hover2.png" height="80" width="100" class="hv"><span class="text">Exhibiting the installation done by Chris Wood.</span>
+            </div>
+        </div>
+
+        <div class="container">
+            <p>Chris Wood <br> <span class="name">"Reflection"</span><br> <span class="time">3-4pm</span></p>
+            <div class="overlay">
+                <img src="images/hover5.png" height="80" width="100" class="hv"><span class="text">Lecture by Chris Wood talking about the reflection of the glass creating colors.</span>
+            </div>
+        </div>
+        <div class="container">
+            <p>Closing Night<br><span class="w">@Garden</span><br> <span class="time">7-10pm</span></p>
+            <div class="overlay">
+                <img src="images/hover4.png" height="80" width="100" class="hv"><span class="text">Exhibiting the installation done by Chris Wood.</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].onclick = function() {
+                this.classList.toggle("active");
+                this.nextElementSibling.classList.toggle("show");
+            }
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>

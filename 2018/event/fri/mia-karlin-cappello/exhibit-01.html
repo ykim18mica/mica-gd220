@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+	/*FLOATING TEXT BOX*/
+
+	div.box-title {
+		font-family: 'Space Mono', monospace;
+		color: white;
+		width: 170px;
+		height: 35px;
+		background-color: black;
+		font-size: 22px;
+		position: fixed;
+		text-align: center;
+		vertical-align: middle;
+		transform: rotate(90deg);
+		-webkit-animation: box-title 2s infinite;
+		animation: box-title 2s infinite alternate;
+	}
+
+	@-webkit-keyframes box-title {
+		from {
+			top: 90px;
+			right: -48px;
+		}
+		to {
+			top: 90px;
+			right: -48px;
+		}
+	}
+
+	@keyframes box-title {
+		from {
+			top: 90px;
+			right: -48px;
+		}
+		to {
+			top: 90px;
+			right: -48px;
+		}
+	}
+
+	/*IMAGES*/
+
+	/*SLIDESHOW*/
+
+	.mySlides {
+		display: none
+	}
+
+	img {
+		vertical-align: middle;
+	}
+
+	/* Slideshow container */
+
+	/*can adjust the width of images*/
+
+	.slideshow-container {
+		max-width: 750px;
+		padding-top: 75px;
+		padding-left: 25%;
+		padding-right: 25%;
+
+	}
+
+	/* Next & previous buttons */
+
+	.prev,
+	.next {
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		color: black;
+		font-weight: bold;
+		font-size: 18px;
+		transition: 0.6s ease;
+		border-radius: 0 3px 3px 0;
+	}
+
+	/* Position the "next button" to the right */
+
+	.next {
+		right: 0;
+		border-radius: 3px 0 0 3px;
+	}
+
+	/* On hover, add a black background color with a little bit see-through */
+
+	.prev:hover,
+	.next:hover {
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+
+	/* Caption text */
+
+	.text {
+		color: #f2f2f2;
+		font-size: 15px;
+		padding: 8px 12px;
+		position: absolute;
+		bottom: 8px;
+		width: 100%;
+		text-align: center;
+	}
+
+	/* Number text (1/3 etc) */
+
+	.numbertext {
+		color: #f2f2f2;
+		font-size: 12px;
+		padding: 8px 12px;
+		position: absolute;
+		top: 0;
+	}
+
+	/* The dots/bullets/indicators */
+
+	.dot {
+		cursor: pointer;
+		height: 10px;
+		width: 10px;
+		margin: 0 2px;
+		background-color: #bbb;
+		border-radius: 50%;
+		display: inline-block;
+		transition: background-color 0.6s ease;
+	}
+
+	.active,
+	.dot:hover {
+		background-color: #717171;
+	}
+
+	/* Fading animation */
+
+	.fade {
+		-webkit-animation-name: fade;
+		-webkit-animation-duration: 1.5s;
+		animation-name: fade;
+		animation-duration: 1.5s;
+	}
+
+	@-webkit-keyframes fade {
+		from {
+			opacity: .4
+		}
+		to {
+			opacity: 1
+		}
+	}
+
+	@keyframes fade {
+		from {
+			opacity: .4
+		}
+		to {
+			opacity: 1
+		}
+	}
+
+	/* On smaller screens, decrease text size */
+
+	@media only screen and (max-width: 300px) {
+		.prev,
+		.next,
+		.text {
+			font-size: 11px
+		}
+	}
+
+	/*source url - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow*/
+</style>
+
+<body>
+	<!--NAVIGATION BAR-->
+	<div id="mySidenav" class="sidenav">
+		<a href="index.html">HOME</a>
+		<hr style='background-color:#000000;border-width:0;color:#000000;height:2px;line-height:0;text-align:left;width:95%;' />
+		<a href="about.html">ABOUT</a>
+		<hr style='background-color:#000000;border-width:0;color:#000000;height:2px;line-height:0;text-align:left;width:95%;' />
+		<a href="schedule.html">SCHEDULE</a>
+		<hr style='background-color:#000000;border-width:0;color:#000000;height:2px;line-height:0;text-align:left;width:95%;' />
+		<a href="speakers.html">SPEAKERS</a>
+		<hr style='background-color:#000000;border-width:0;color:#000000;height:2px;line-height:0;text-align:left;width:95%;' />
+		<button class="dropdown-btn">EXHIBITION
+    <i class="fa fa-caret-down"></i>
+  </button>
+		<div class="dropdown-container">
+			<a href="exhibit-01.html">Constructed</a>
+			<a href="exhibit-02.html">Whose Utopia</a>
+			<a href="exhibit-03.html">Fractured Visions</a>
+			<a href="exhibit-04.html">Emissaries</a>
+			<a href="exhibit-05.html">Black Lake</a>
+		</div>
+		<hr style='background-color:#000000;border-width:0;color:#000000;height:2px;line-height:0;text-align:left;width:95%;' />
+		<a href="info.html">INFO</a>
+	</div>
+
+	<span class="menu-bar" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+
+	<!--SLIDESHOW-->
+
+	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+			<div id="image-1"><img src="jpg/image_constructed-1.jpg" alt="Image 1" width="85%"></div>
+		</div>
+
+		<div class="mySlides fade ">
+			<div id="image-2"><img src="jpg/image_constructed-2.jpg" alt="Image 2" width="85%"></div>
+		</div>
+
+		<div class="mySlides fade ">
+			<div id="image-3"><img src="jpg/image_constructed-3.jpg" alt="Image 3" width="85%"></div>
+		</div>
+
+		<div class="mySlides fade ">
+			<div id="image-4"><img src="jpg/image_constructed-4.jpg" alt="Image 4" width="85%"></div>
+		</div>
+
+		<div class="mySlides fade ">
+			<div id="image-5"><img src="jpg/image_constructed-5.jpg" alt="Image 5" width="85%"></div>
+		</div>
+
+	</div>
+	<br>
+
+	<div style="text-align:center ">
+		<span class="dot " onclick="currentSlide(1) "></span>
+		<span class="dot " onclick="currentSlide(2) "></span>
+		<span class="dot " onclick="currentSlide(3) "></span>
+		<span class="dot " onclick="currentSlide(4) "></span>
+		<span class="dot " onclick="currentSlide(5) "></span>
+	</div>
+	<!--source url - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow-->
+
+
+	<!--FLOATING TEXT BOX-->
+	<div class="box-title ">CONSTRUCTED</div>
+
+	<!--SOCIAL MEDIA BUTTONS-->
+	<span class="fa-stack ">
+		<a href="https://www.facebook.com/ " target="_blank "> <i class="fa fa-facebook "></i></a>
+		<a href="https://twitter.com/ " target="_blank "> <i class="fa fa-twitter "></i></a>
+		<a href="https://www.instagram.com/ " target="_blank "> <i class="fa fa-instagram "></i></a>
+	</span>
+
+	<!--CONSTRUCTED-TEXT-->
+
+	<div class="constructed-text ">
+
+		<h1><b>Pawel Nolbert / Constructed</b></h1>
+
+		<p>Series of photos on the topic of perception of reality an the creation of subjective, distorted reality in social media. I took my travel photos and just like we all do before posting it, I messed around with them a bit... trying to create my perfect version of reality. "We construct our reality in our own way.</p>
+
+		<p>We do that everyday on our instagrams, blogs and other carefully curated outlets. Knowing that the world around us doesn't look like this, we somehow want to believe that all those often extremely filtered and post-processed images in our IG stream are actually the real thing."
+		</p>
+
+		<p>"We never recall things exactly as they happened. We remember them in our personal way. One, true version of reality doesn't exist." The creation of the series raised questions like: where does the "photo" end and "graphy" begin?
+		</p>
+
+	</div>
+
+	<!--JAVA SCRIPT-->
+
+	<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "250px";
+		}
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
+	</script>
+
+	<script>
+		/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+		var dropdown = document.getElementsByClassName("dropdown-btn");
+		var i;
+
+		for (i = 0; i < dropdown.length; i++) {
+			dropdown[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var dropdownContent = this.nextElementSibling;
+				if (dropdownContent.style.display === "block") {
+					dropdownContent.style.display = "none";
+				} else {
+					dropdownContent.style.display = "block";
+				}
+			});
+		}
+	</script>
+
+	<!--SLIDESHOW JAVA-->
+
+	<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			if (n > slides.length) {
+				slideIndex = 1
+			}
+			if (n < 1) {
+				slideIndex = slides.length
+			}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "block";
+			dots[slideIndex - 1].className += " active";
+		}
+	</script>
+	<!--source url - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow-->
+
+
+</body>
+
+</html>

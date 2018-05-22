@@ -1,0 +1,667 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+
+html {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*--------HOME--------*/
+
+.container {
+    animation: fadein 1.7s linear forwards;
+    animation-timing-function: ease-in;
+}
+
+.logo-big {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    width: 12%;
+    animation: spin 4s linear infinite;
+    animation-timing-function: ease-in-out;
+}
+
+h1 {
+    font-size: 2.3vw;
+    font-family: 'raleway', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.25vw;
+    margin-top: 3%;
+}
+
+#extrainfo {
+    display: none;
+    animation: fadein 1s linear forwards;
+    animation-timing-function: ease-in;
+}
+
+.extra {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 23vw;
+    width: 58vw;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.73vw;
+    letter-spacing: 0.08vw;
+    text-indent: 3%;
+    line-height: 1.3vw;
+}
+
+.menubar {
+    position: fixed;
+    background-color: white;
+    width: 105%;
+    height: 2.5vw;
+    margin-top: -15%;
+    margin-left: -1%;
+    z-index: 100;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+a {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 0.55vw;
+    letter-spacing: 0.1vw;
+    margin: 2%;
+    width: 80%;
+    margin-left: 1vw;
+    text-align: right;
+}
+
+.menu-name {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 0.6vw;
+    letter-spacing: 0.1vw;
+    position: absolute;
+    top: 1.1vw;
+    left: 3vw;
+    cursor: default;
+}
+
+.small-bar {
+    margin-top: 0.6vw;
+    margin-left: 64.5%;
+}
+
+a:hover {
+    color: #D1CACA;
+}
+
+a:active {
+    color: #F9CBCD;
+}
+
+
+.sub-head {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.3vw;
+    width: 80vw;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.73vw;
+    letter-spacing: 0.08vw;
+}
+
+.next-page {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9vw;
+    text-transform: uppercase;
+    letter-spacing: 0.15vw;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.next-page:active {
+    color: #F9CBCD;
+    cursor: pointer;
+}
+
+.arrow-parent {
+    position: relative;
+    height: 40px;
+    margin-top: 0.3vw;
+}
+
+.arrow {
+    position: absolute;
+    left: 49%;
+    display: block;
+    width: 2vw;
+    animation: bounce 0.8s alternate ease-in-out infinite;
+    opacity: 0.5;
+}
+
+.arrow:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/*--------ABOUT--------*/
+
+.menubar-2 {
+    position: fixed;
+    background-color: #D1CACA;
+    width: 105%;
+    height: 2.5vw;
+    margin-top: -15%;
+    margin-left: -1%;
+    z-index: 100;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.small-bar-2 {
+    margin-top: 0.6vw;
+    margin-left: 64.5%;
+}
+
+.menu-2 {
+    color: white;
+}
+
+.menu-2:hover {
+    color: black;
+}
+
+.menu-2:active {
+    color: #F9CBCD;
+}
+
+.logo-small {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    width: 2%;
+    animation: spin 4s linear infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.description-about {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.3vw;
+    width: 55vw;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.73vw;
+    letter-spacing: 0.08vw;
+    text-indent: 3%;
+    line-height: 1.3vw;
+}
+
+/*--------SPEAKERS--------*/
+
+.container-2 {
+    display: block;
+    animation: fadein 1.5s linear forwards;
+    animation-timing-function: ease-in;
+}
+
+.menubar-4 {
+    position: fixed;
+    background-color: white;
+    width: 105%;
+    height: 2.5vw;
+    margin-top: -10%;
+    margin-left: -1%;
+    z-index: 100;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.small-bar-4 {
+    margin-top: 0.55vw;
+    margin-left: 64.5%;
+}
+
+.speakers-circle {
+    margin-top: 8.5%;
+}
+
+#circle-1 {
+    width: 10vw;
+    margin-left: 14.5%;
+}
+
+#circle-2 {
+    width: 10vw;
+    margin-left: 19.8%;
+    filter: brightness(120%);
+}
+
+#circle-3 {
+    width: 10vw;
+    margin-left: 20%;
+}
+
+#circle-1:hover {
+    filter: brightness(130%);
+    cursor: pointer;
+}
+
+#circle-2:hover {
+    filter: brightness(160%);
+    cursor: pointer;
+}
+
+#circle-3:hover {
+    filter: brightness(130%);
+    cursor: pointer;
+}
+
+.circle-name {
+    width: 100%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.73vw;
+    letter-spacing: 0.08vw;
+    margin: 1.7vw;
+    text-transform: uppercase;
+}
+
+.circle-name-1 {
+    position: absolute;
+    left: 16.7vw;
+    cursor: default;
+}
+
+.circle-name-2 {
+    position: absolute;
+    left: 46.2vw;
+    cursor: default;
+}
+
+.circle-name-3 {
+    position: absolute;
+    left: 77vw;
+    cursor: default;
+}
+
+#identity-1 {
+    color: white;
+    position: absolute;
+    left: 16vw;
+    top: 42.8vw;
+    cursor: default;
+    text-transform: none;
+    opacity: 0;
+}
+
+#identity-2 {
+    color: white;
+    position: absolute;
+    left: 46.3vw;
+    top: 42.8vw;
+    cursor: default;
+    text-transform: none;
+    opacity: 0;
+}
+
+#identity-3 {
+    color: white;
+    position: absolute;
+    left: 76.4vw;
+    top: 42.8vw;
+    cursor: default;
+    text-transform: none;
+    opacity: 0;
+}
+
+#footer-1 {
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 99%;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.55vw;
+    letter-spacing: 0.1vw;
+    background-color: #D1CACA;
+    padding: 0.5%;
+    padding-bottom: 0.8%;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#speakersinfo {
+    display: none;
+    position: relative;
+    animation: fadein 1s linear forwards;
+    animation-timing-function: ease-in;
+}
+
+#profile-1 {
+    width: 20vw;
+    position: absolute;
+    top: 18vw;
+    left: 14vw;
+}
+
+#profile-2 {
+    width: 20vw;
+    position: absolute;
+    top: 55vw;
+    left: 64vw;
+}
+
+#profile-3 {
+    width: 20vw;
+    position: absolute;
+    top: 92vw;
+    left: 14vw;
+}
+
+div[class*='profile-header'] {
+    position: absolute;
+    font-size: 2.3vw;
+    font-family: 'raleway', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.25vw;
+    color: white;
+}
+
+div[class*='profile-descrip'] {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.73vw;
+    letter-spacing: 0.08vw;
+    line-height: 1.3vw;
+    width: 21vw;
+}
+
+.profile-header-1 {
+    top: 20vw;
+    left: 38vw;
+}
+
+.profile-descrip-1 {
+    top: 24vw;
+    left: 38.2vw;
+}
+
+.profile-header-2 {
+    top: 56vw;
+    left: 35.7vw;
+    text-align: right;
+}
+
+.profile-descrip-2 {
+    top: 60vw;
+    left: 38.5vw;
+    text-align: right;
+}
+
+.profile-header-3 {
+    top: 92vw;
+    left: 38vw;
+}
+
+.profile-descrip-3 {
+    top: 96vw;
+    left: 38vw;
+}
+
+.portfolio-1 {
+    position: absolute;
+    width: 1vw;
+    cursor: pointer;
+    top: 34vw;
+    left: 38vw;
+}
+
+.portfolio-2 {
+    position: absolute;
+    width: 1vw;
+    cursor: pointer;
+    top: 72.3vw;
+    left: 58.4vw;
+}
+
+.portfolio-3 {
+    position: absolute;
+    width: 1vw;
+    cursor: pointer;
+    top: 109.5vw;
+    left: 38vw;
+}
+
+/*--------LOCATION--------*/
+
+.logo-small-2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    padding: -80%;
+    width: 2%;
+    animation: spin 4s linear infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.small-bar-3 {
+    margin-top: 0.55vw;
+    margin-left: 64.5%;
+}
+
+.map {
+    width: 60vw;
+    height: 30vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vw;
+}
+
+.menubar-3 {
+    position: fixed;
+    background-color: #D1CACA;
+    width: 105%;
+    height: 2.5vw;
+    margin-top: -10%;
+    margin-left: -1%;
+    z-index: 100;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.description-location {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    width: 60vw;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.73vw;
+    letter-spacing: 0.08vw;
+    line-height: 1.3vw;
+}
+
+.footer-location {
+    position: absolute;
+    bottom: -13vw;
+    left: 0%;
+    width: 99%;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.55vw;
+    letter-spacing: 0.1vw;
+    background-color: #D1CACA;
+    padding: 0.5%;
+    padding-bottom: 0.8%;
+    overflow: hidden;
+}
+
+/*--------SHEDULE--------*/
+
+table {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.73vw;
+    letter-spacing: 0.08vw;
+    line-height: 1.3vw;
+    border-spacing: 3vw 1vw;
+    margin-left: 38%;
+    margin-top: 1.7vw;
+}
+
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+
+.time {
+    opacity: 0.5;
+}
+
+
+
+/*--------CONTACT--------*/
+
+.info {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.73vw;
+    letter-spacing: 0.08vw;
+    line-height: 1.3vw;
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.ticketmaster {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.73vw;
+    letter-spacing: 0.08vw;
+    line-height: 1.3vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.ticketmaster:hover {
+    color: #0198E1;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 99%;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.55vw;
+    letter-spacing: 0.1vw;
+    background-color: #D1CACA;
+    padding: 0.5%;
+    padding-bottom: 0.8%;
+    overflow: hidden;
+}
+
+#footer-index {
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 99%;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.55vw;
+    letter-spacing: 0.1vw;
+    background-color: #D1CACA;
+    padding: 0.5%;
+    padding-bottom: 0.8%;
+    overflow: hidden;
+}
+
+.foot-1 {
+    margin-left: 10%;
+}
+
+.foot-2 {
+    margin-left: 5.5%;
+}
+
+.foot-3 {
+    margin-left: 5.5%;
+}
+
+.foot-4 {
+    margin-left: 5.5%;
+}
+
+.social-1 {
+    display: inline-block;
+    width: 1.1%;
+    margin: 0%;
+    margin-left: 6%;
+    padding: 0;
+}
+
+.social-2 {
+    display: inline-block;
+    width: 1%;
+    margin: 0%;
+    margin-left: 1.5%;
+}
+
+.social-3 {
+    display: inline-block;
+    width: 1%;
+    margin: 0%;
+    margin-left: 1.5%;
+}
+
+.mica {
+    margin: 0;
+    padding: 0;
+}
+
+/*--------ANIMATION--------*/
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        margin-top: inherit;
+    }
+    100% {
+        margin-top: 0.7vw;
+    }
+
+
+    /*--------
+    
+<div class="footer">
+      <span class="foot-1">Design Essentials</span>
+      <span class="foot-2">MICA Falvey Hall / 1301 W Mt Royal Ave, Baltimore, MD 21217</span>
+      <span class="foot-3">July 24, 2017 / 12:00 – 19:00</span>
+      <span class="foot-4">CONTACT (410) 669-9200 / Help@MICA.edu</span>
+      <img class="social" src="images/social-media.svg" alt="share">
+</div>
+    
+    --------*/

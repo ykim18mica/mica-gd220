@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <meta charset="utf-8">
+    <title>! - PECULIAR - !</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+
+    <style>
+        /*IMAGE*/
+
+        .top {
+            background-image: url("images/top.jpg");
+            background-size: cover;
+            height: 544px;
+        }
+
+        .middle1 {
+            background-image: url("images/mid1.jpg");
+            background-size: cover;
+            height: 671px;
+        }
+
+        .middle2 {
+            background-image: url("images/mid2.jpg");
+            background-size: cover;
+            height: 671px;
+        }
+
+        .middle3 {
+            background-image: url("images/mid3.jpg");
+            background-size: cover;
+            height: 671px;
+        }
+
+        .bottom1 {
+            background-image: url("images/bot1.jpg");
+            background-size: cover;
+            height: 732px;
+        }
+
+        .bottom2 {
+            background-image: url("images/bot2.jpg");
+            background-size: cover;
+            height: 732px;
+        }
+
+        .bottom3 {
+            background-image: url("images/bot3.jpg");
+            background-size: cover;
+            height: 732px;
+        }
+
+        /* ANIMATION */
+
+        #time {
+            font-family: Gotham;
+            font-size: 60px;
+            font-weight: 600;
+            color: #304857;
+            position: relative;
+            top: 187px;
+            left: -3px;
+            animation-name: spin;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-duration: 5s;
+            text-align: center;
+            ;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        #bat {
+            font-family: Gotham;
+            font-size: 28px;
+            font-weight: 600;
+            text-align: center;
+            color: #aa4f52;
+            position: relative;
+            top: 72px;
+            left: 9px;
+            animation: blink 2s linear infinite;
+        }
+
+        #info {
+            font-family: Gotham;
+            font-size: 28px;
+            font-weight: 600;
+            text-align: center;
+            color: #aa4f52;
+            position: relative;
+            top: 73px;
+            left: 5px;
+            animation: blink 2s linear infinite;
+        }
+
+        #ed {
+            font-family: Gotham;
+            font-size: 22px;
+            font-weight: 600;
+            text-align: center;
+            color: #aa4f52;
+            position: relative;
+            top: 63px;
+            left: -6px;
+            animation: blink 2s linear infinite;
+        }
+
+        #choco {
+            font-family: Gotham;
+            font-size: 20px;
+            font-weight: 600;
+            text-align: center;
+            color: #aa4f52;
+            position: relative;
+            top: 57px;
+            left: 8px;
+            animation: blink 2s linear infinite;
+        }
+
+        #bride {
+            font-family: Gotham;
+            font-size: 25px;
+            font-weight: 600;
+            text-align: center;
+            color: #aa4f52;
+            position: relative;
+            top: 62.5px;
+            left: -2px;
+            animation: blink 2s linear infinite;
+        }
+
+        #alice {
+            font-family: Gotham;
+            font-size: 22px;
+            font-weight: 600;
+            text-align: center;
+            color: #aa4f52;
+            position: relative;
+            top: 62px;
+            left: -8px;
+            animation: blink 2s linear infinite;
+        }
+
+        @keyframes blink {
+            50% {
+                opacity: 0;
+            }
+
+
+        }
+
+        /* entire container, keeps perspective */
+
+        .flip-container {
+            perspective: 1000px;
+            position: relative;
+        }
+
+        /* flip the pane when hovered */
+
+        .flip-container:hover .flipper,
+        .flip-container.hover .flipper {
+            transform: rotateY(180deg);
+        }
+
+        .flip-container,
+        .front-bat,
+        .back-bat,
+        .front-info,
+        .back-info,
+        .front-ed,
+        .back-ed,
+        .front-choco,
+        .back-choco,
+        .front-bride,
+        .back-bride,
+        .front-alice,
+        .back-alice {
+            width: 350px;
+            height: 510px;
+        }
+
+        /* flip speed goes here */
+
+        .flipper {
+            transition: 0.6s;
+            transform-style: preserve-3d;
+            position: relative;
+        }
+
+        /* BAT */
+
+        .front-bat,
+        .back-bat {
+            backface-visibility: hidden;
+            position: absolute;
+        }
+
+        .front-bat {
+            z-index: 2;
+            /* for firefox 31 */
+            transform: rotateY(0deg);
+            background-image: url("images/1-1.jpg");
+            top: 133px;
+            left: 35px;
+        }
+
+        .back-bat {
+            transform: rotateY(180deg);
+            background-image: url("images/1-2.jpg");
+            top: 133px;
+            left: -35px;
+        }
+
+        /* INFO */
+
+        .front-info,
+        .back-info {
+            backface-visibility: hidden;
+            position: absolute;
+        }
+
+        .front-info {
+            z-index: 2;
+            /* for firefox 31 */
+            transform: rotateY(0deg);
+            background-image: url("images/2-1.jpg");
+            top: 133px;
+            left: 26px;
+        }
+
+        .back-info {
+            transform: rotateY(180deg);
+            background-image: url("images/2-2.jpg");
+            top: 133px;
+            left: -26px;
+        }
+
+        /* EDWARD */
+
+        .front-ed,
+        .back-ed {
+            backface-visibility: hidden;
+            position: absolute;
+        }
+
+        .front-ed {
+            z-index: 2;
+            /* for firefox 31 */
+            transform: rotateY(0deg);
+            background-image: url("images/3-1.jpg");
+            top: 117px;
+            left: 17px;
+        }
+
+        .back-ed {
+            transform: rotateY(180deg);
+            background-image: url("images/3-2.jpg");
+            top: 117px;
+            left: -17px;
+        }
+
+        /* CHOCO */
+
+        .front-choco,
+        .back-choco {
+            backface-visibility: hidden;
+            position: absolute;
+        }
+
+        .front-choco {
+            z-index: 2;
+            /* for firefox 31 */
+            transform: rotateY(0deg);
+            background-image: url("images/4-1.jpg");
+            top: 101px;
+            left: 33px;
+        }
+
+        .back-choco {
+            transform: rotateY(180deg);
+            background-image: url("images/4-2.jpg");
+            top: 101px;
+            left: -33px;
+        }
+
+        /* BRIDE */
+
+        .front-bride,
+        .back-bride {
+            backface-visibility: hidden;
+            position: absolute;
+        }
+
+        .front-bride {
+            z-index: 2;
+            /* for firefox 31 */
+            transform: rotateY(0deg);
+            background-image: url("images/5-1.jpg");
+            top: 111px;
+            left: 24px;
+        }
+
+        .back-bride {
+            transform: rotateY(180deg);
+            background-image: url("images/5-2.jpg");
+            top: 111px;
+            left: -24px;
+        }
+
+        /* ALICE */
+
+        .front-alice,
+        .back-alice {
+            backface-visibility: hidden;
+            position: absolute;
+        }
+
+        .front-alice {
+            z-index: 2;
+            /* for firefox 31 */
+            transform: rotateY(0deg);
+            background-image: url("images/6-1.jpg");
+            top: 117px;
+            left: 15px;
+        }
+
+        .back-alice {
+            transform: rotateY(180deg);
+            background-image: url("images/6-2.jpg");
+            top: 117px;
+            left: -15px;
+        }
+
+        /* NEON */
+
+        .sign {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: SignPainter;
+            font-size: 150px;
+            text-align: center;
+            position: relative;
+            top: 295px;
+            color: azure;
+            animation: neon .08s ease-in-out infinite alternate;
+
+        }
+
+
+
+        @keyframes neon {
+            from {
+                text-shadow: 0 0 6px rgba(202, 228, 225, 0.92),
+                0 0 30px rgba(202, 228, 225, 0.34),
+                0 0 12px rgba(30, 132, 242, 0.52),
+                0 0 21px rgba(30, 132, 242, 0.92),
+                0 0 34px rgba(30, 132, 242, 0.78),
+                0 0 54px rgba(30, 132, 242, 0.92);
+            }
+            to {
+                text-shadow: 0 0 6px rgba(202, 228, 225, 0.98),
+                0 0 30px rgba(202, 228, 225, 0.42),
+                0 0 12px rgba(30, 132, 242, 0.58),
+                0 0 22px rgba(30, 132, 242, 0.84),
+                0 0 38px rgba(30, 132, 242, 0.88),
+                0 0 60px rgba(30, 132, 242, 1);
+            }
+        }
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="grid-container">
+
+        <div class="row">
+            <div class="col-12 top">
+                <p id="time">8</p>
+                <div class="sign">peculiar</div>
+            </div>
+
+            <div class="col-4 middle1">
+                <p id="bat">BATMAN</p>
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front-bat"></div>
+                        <div class="back-bat"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 middle2">
+                <p id="info">ABOUT</p>
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front-info"></div>
+                        <div class="back-info"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 middle3">
+                <p id="ed">EDWARD<br>SCISSORHANDS</p>
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front-ed"></div>
+                        <div class="back-ed"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-4 bottom1">
+                <p id="choco">CHARLIE AND<br>CHOCOLATE<br>FACTORY</p>
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front-choco"></div>
+                        <div class="back-choco"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 bottom2">
+                <p id="bride">CORPSE<br>BRIDE</p>
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front-bride"></div>
+                        <div class="back-bride"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 bottom3">
+                <p id="alice">ALICE IN<br>WONDERLAND</p>
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front-alice"></div>
+                        <div class="back-alice"></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Faded</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
+	<style>
+		/* YOUR CSS CODE HERE */
+
+		html {
+			color: white;
+			font-family: 'Lato', sans-serif;
+			letter-spacing: 0.3vw;
+		}
+
+		.lg {
+			font-size: 6vw;
+		}
+
+		.md1 {
+			font-size: 3.5vw;
+		}
+
+		.md2 {
+			font-size: 2.5vw;
+		}
+
+		.sm1 {
+			font-size: 2vw;
+		}
+
+		.sm2 {
+			font-size: 1.5vw;
+		}
+
+
+
+		.img-sky1 {
+			background-image: url("images/sky-1.png");
+			background-size: cover;
+		}
+
+		.img-sky2 {
+			background-image: url("images/sky-2.png");
+			background-size: cover;
+		}
+
+		.img-sky3 {
+			background-image: url("images/sky-3.png");
+			background-size: cover;
+		}
+
+		.img-sky4 {
+			background-image: url("images/sky-4.png");
+			background-size: cover;
+		}
+
+		.img-wave {
+			background-image: url("images/wave-5.gif");
+			background-size: cover;
+		}
+
+		.img-ocean6 {
+			background-image: url("images/ocean-6.png");
+			background-size: cover;
+		}
+
+		.img-ocean7 {
+			background-image: url("images/ocean-7.png");
+			background-size: cover;
+		}
+
+		.img-ocean8 {
+			background-image: url("images/ocean-8.png");
+			background-size: cover;
+		}
+
+		.img-ocean9 {
+			background-image: url("images/ocean-9.png");
+			background-size: cover;
+		}
+
+		.img-ocean10 {
+			background-image: url("images/ocean-10.png");
+			background-size: cover;
+		}
+
+		.img-ocean11 {
+			background-image: url("images/ocean-11.png");
+			background-size: cover;
+		}
+
+		.img-ocean12 {
+			background-image: url("images/ocean-12.png");
+			background-size: cover;
+		}
+
+		.text-title {
+			left: 65%;
+			text-align: center;
+			top: 60%;
+			opacity: 0.5;
+		}
+
+		.text-youwerethe {
+			left: 30%;
+			top: 10%;
+			line-height: 2;
+
+		}
+
+		.text-youfade {
+			left: 30%;
+			top: 40%;
+
+			font-style: italic;
+		}
+
+		.text-afraidour {
+			left: 70%;
+			text-align: right;
+			top: 55%;
+			line-height: 2;
+		}
+
+		.text-alive1 {
+			left: 91.5%;
+			text-align: right;
+			top: 80%;
+			font-style: italic;
+		}
+
+		.text-where1-1 {
+			left: 10%;
+			text-align: center;
+			top: 10%;
+			font-family: "arial black";
+			letter-spacing: 0.1vw;
+			opacity: 0.1;
+		}
+
+		.text-where1-2 {
+			left: 13%;
+			text-align: center;
+			top: 30%;
+			line-height: 1;
+			font-family: "arial black";
+			letter-spacing: 0.1vw;
+			opacity: 0.1;
+		}
+
+		.text-where1-3 {
+			left: 14.5%;
+			text-align: center;
+			top: 67%;
+			font-family: "arial black";
+			letter-spacing: 0.1vw;
+			opacity: 0.1;
+		}
+
+		.text-wasitall {
+			left: 65%;
+			text-align: center;
+			top: 0.1%;
+			line-height: 6;
+		}
+
+		.text-where2 {
+			left: 66.5%;
+			text-align: center;
+			top: 9%;
+			line-height: 6;
+			font-family: "arial black";
+			letter-spacing: 0.1vw;
+			opacity: 0.1;
+		}
+
+		.text-atlantis1 {
+			left: 50%;
+		}
+
+		.text-under1-1 {
+			left: 40%;
+			top: 15%;
+		}
+
+		.text-under1-2 {
+			left: 55%;
+			top: 20%;
+		}
+
+		.text-where3 {
+			left: 15%;
+			top: 57%;
+			font-family: "arial black", sans-serif;
+			letter-spacing: 0.1vw;
+			opacity: 0.1;
+		}
+
+		.text-another1 {
+			left: 60%;
+			text-align: right;
+			top: 82%;
+			line-height: 2;
+		}
+
+		.text-faded1-1 {
+			left: 45%;
+			top: 20%;
+			font-family: "arial black";
+			letter-spacing: 0.1vw;
+			opacity: 0.5;
+		}
+
+		.text-faded1-2 {
+			left: 46%;
+			text-align: center;
+			top: 35%;
+			font-family: arial;
+			line-height: 2.5;
+			letter-spacing: 0.1vw;
+			opacity: 0.3;
+		}
+
+		.text-faded1-3 {
+			left: 46.5%;
+			text-align: center;
+			top: 70%;
+			line-height: 2.5;
+			opacity: 0.3;
+		}
+
+		.text-shallow {
+			left: 10%;
+			top: 10%;
+			line-height: 2;
+
+		}
+
+		.text-dive {
+			left: 10%;
+			top: 70%;
+			font-style: italic;
+		}
+
+		.text-eternal {
+			left: 70%;
+			text-align: right;
+			top: 5%;
+			line-height: 2;
+		}
+
+		.text-alive2 {
+			left: 88.5%;
+			text-align: right;
+			top: 30%;
+			font-style: italic;
+		}
+
+		.text-where4-1 {
+			left: 40%;
+			text-align: center;
+			top: 50%;
+			font-family: "arial black";
+			letter-spacing: 0.1vw;
+			opacity: 0.1;
+		}
+
+		.text-where4-2 {
+			left: 42.5%;
+			text-align: center;
+			top: 60%;
+			font-family: "arial black";
+			letter-spacing: 0.1vw;
+			opacity: 0.1;
+		}
+
+		.text-where4-3 {
+			left: 45%;
+			text-align: center;
+			top: 80%;
+			font-family: "arial black";
+			letter-spacing: 0.1vw;
+			opacity: 0.1;
+		}
+
+		.text-atlantis2 {
+			left: 19%;
+			top: 1%;
+		}
+
+		.text-under2 {
+			left: 17%;
+			text-align: center;
+			top: 1%;
+			line-height: 10;
+
+		}
+
+		.text-another2 {
+			left: 60%;
+			top: 45%;
+			line-height: 2;
+		}
+
+		.text-faded2-1 {
+			left: 44.3%;
+			top: 0.1%;
+			font-family: "arial black";
+			letter-spacing: 0.1vw;
+			opacity: 0.5;
+		}
+
+		.text-faded2-2 {
+			left: 44.5%;
+			top: 28%;
+			text-align: center;
+			font-family: "arial black";
+			line-height: 3;
+			letter-spacing: 0.1vw;
+			opacity: 0.3;
+		}
+
+		.text-faded2-3 {
+			left: 46%;
+			top: 10%;
+			text-align: center;
+			line-height: 4;
+			font-family: "arial black";
+			letter-spacing: 0.1vw;
+			opacity: 0.1;
+		}
+
+		.text-faded2-4 {
+			left: 46%;
+			top: 70%;
+			opacity: 0.2;
+		}
+
+		.star1 {
+			width: 4%;
+			position: absolute;
+			z-index: 100;
+			top: 0.01%;
+			left: 20%;
+		}
+
+		.star2 {
+			width: 2%;
+			position: absolute;
+			z-index: 100;
+			top: 30%;
+			left: 80%;
+		}
+
+		.star3 {
+			width: 1%;
+			position: absolute;
+			z-index: 100;
+			top: 20%;
+			left: 10%;
+		}
+
+		.star4 {
+			width: 3%;
+			position: absolute;
+			z-index: 100;
+			top: 50%;
+			left: 60%;
+		}
+
+		.star5 {
+			width: 2%;
+			position: absolute;
+			z-index: 100;
+			top: 90%;
+			left: 15%;
+		}
+
+		.star6 {
+			width: 1%;
+			position: absolute;
+			z-index: 100%;
+			top: 80%;
+			left: 70%;
+		}
+
+		.star7 {
+			width: 2%;
+			position: absolute;
+			z-index: 100%;
+			top: 10%;
+			left: 20%;
+		}
+
+		.star8 {
+			width: 1%;
+			position: absolute;
+			z-index: 100%;
+			top: 30%;
+			left: 40%;
+			opacity: 0.5;
+		}
+
+		.bubble-pop-1 {
+			width: 3%;
+			position: absolute;
+			z-index: 100%;
+			top: 60%;
+			left: 80%;
+		}
+
+		.bubble-pop-2 {
+			width: 2%;
+			position: absolute;
+			z-index: 100%;
+			top: 80%;
+			left: 20%;
+		}
+
+		.bubble-pop-3 {
+			width: 1%;
+			position: absolute;
+			z-index: 100%;
+			top: 50%;
+			left: 30%;
+		}
+
+		.bubble-pop-4 {
+			width: 2.5%;
+			position: absolute;
+			z-index: 100%;
+			top: 30%;
+			left: 40%;
+		}
+
+		.bubble-pop-5 {
+			width: 1.5%;
+			position: absolute;
+			z-index: 100%;
+			top: 85%;
+			left: 30%;
+		}
+
+		.bubble-end {
+			width: 0.5%;
+			position: absolute;
+			z-index: 100%;
+			top: 85%;
+			left: 50%;
+			opacity: 0.7;
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- ALL YOUR CODE MUST BE IN CONTAINER -->
+	<div style="background-color:#020811">
+		<audio controls style="width:100%">
+        <source src="audio/Alan%20Walker%20-%20Faded%20(Lyrics%20Video)-%5BAudioTrimmer.com%5D.mp3"; type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+	</div>
+	<div class="container">
+
+		<!-- YOUR HTML CODE BELOW -->
+		<div class="row">
+			<div class="col-100 quarter img-sky1"></div>
+			<p class="lg text-title">
+				faded
+			</p>
+		</div>
+
+		<div class="row">
+			<div class="col-100 half img-sky2"></div>
+			<img src="images/star-1.gif" alt="star1" class="star1">
+			<img src="images/star-2.gif" alt="star2" class="star2">
+
+		</div>
+
+		<div class="row">
+			<div class="col=100 half img-sky3"></div>
+			<p class="sm2 text-youwerethe">
+				you were the shadow to my light <br> did you feel us<br>another start
+			</p>
+			<p class="sm2 text-youfade">
+				you fade away
+			</p>
+			<p class="sm2 text-afraidour">
+				afraid our aim is out of sight<br>wanna see us
+			</p>
+			<p class="sm2 text-alive1">
+				alive
+			</p>
+			<img src="images/star-3.gif" alt="star3" class="star3">
+			<img src="images/star-1.gif" alt="star1" class="star4">
+			<img src="images/star-2.gif" alt="star2" class="star5">
+		</div>
+
+		<div class="row">
+			<div class="col-100 quarter img-sky4"></div>
+			<p class="md2 text-where1-1">
+				where are you now
+			</p>
+			<p class="md1 text-where1-2">
+				where are <br>you now
+			</p>
+			<p class="sm2 text-where1-3">
+				where are you now
+			</p>
+			<img src="images/star-1.gif" alt="star1" class="star6">
+		</div>
+
+		<div class="row">
+			<div class="col-100 half img-wave"></div>
+			<p class="sm2 text-wasitall">
+				was it all in my fantasy <br>were you only imaginary
+			</p>
+			<p class="sm2 text-where2">
+				where are you now <br>where are you now
+			</p>
+			<img src="images/star-3.gif" alt="star3" class="star7">
+			<img src="images/star-2.gif" alt="star2" class="star8">
+		</div>
+
+		<div class="row">
+			<div class="col-100 half img-ocean6"></div>
+			<p class="sm2 text-atlantis1">
+				Atlantis
+			</p>
+			<p class="sm2 text-under1-1">
+				under the sea
+			</p>
+			<p class="sm2 text-under1-2">
+				under the sea
+			</p>
+			<p class="md2 text-where3">
+				where are you now
+			</p>
+			<p class="sm2 text-another1">
+				another dream <br>the monsters running wild inside of me
+			</p>
+			<img src="images/bubble_pop.gif" alt="bubble" class="bubble-pop-1">
+
+		</div>
+
+		<div class="row">
+			<div class="col-100 half img-ocean7"></div>
+			<p class="sm1 text-faded1-1">
+				I'm faded
+			</p>
+			<p class="sm1 text-faded1-2">
+				I'm faded <br> so lost <br>I'm faded
+			</p>
+			<p class="sm2 text-faded1-3">
+				I'm faded <br> so lost <br>I'm faded
+			</p>
+			<img src="images/bubble_pop.gif" alt="bubble" class="bubble-pop-2">
+		</div>
+
+		<div class="row">
+			<div class="col-100 quarter img-ocean8"></div>
+			<p class="sm2 text-shallow">
+				these shallow waters, never met <br>what I needed<br>I'm letting go
+			</p>
+			<p class="sm2 text-dive">
+				a deeper dive
+			</p>
+
+		</div>
+
+		<div class="row">
+			<div class="col-100 half img-ocean9"></div>
+			<p class="sm2 text-eternal">
+				eternal silence of the sea<br>I'm breathing
+			</p>
+			<p class="sm2 text-alive2">
+				alive
+			</p>
+			<p class="md2 text-where4-1">
+				where are you now
+			</p>
+			<p class="md1 text-where4-2">
+				where are <br>you now
+			</p>
+			<p class="sm2 text-where4-3">
+				where are you now
+			</p>
+			<img src="images/bubble_pop.gif" alt="bubble" class="bubble-pop-3">
+		</div>
+
+		<div class="row">
+			<div class="col-100 half img-ocean10"></div>
+			<p class="sm2 text-atlantis2">
+				Atlantis
+			</p>
+			<p class="sm2 text-under2">
+				under the sea <br>under the sea
+			</p>
+			<p class="sm2 text-another2">
+				another dream <br>the monsters running wild inside of me
+			</p>
+			<img src="images/bubble_pop.gif" alt="bubble" class="bubble-pop-4">
+
+		</div>
+
+		<div class="row">
+			<div class="col-100 quarter img-ocean11"></div>
+			<p class="sm1 text-faded2-1">
+				I'm faded
+			</p>
+			<p class="sm1 text-faded2-2">
+				I'm faded<br>so lost<br>I'm faded
+			</p>
+			<img src="images/bubble_pop.gif" alt="bubble" class="bubble-pop-5">
+
+		</div>
+
+		<div class="row">
+			<div class="col-100 half img-ocean12"></div>
+			<p class="sm2 text-faded2-3">
+				I'm faded<br>so lost
+			</p>
+			<p class="sm2 text-faded2-4">
+				I'm faded
+			</p>
+			<img src="images/bubble_end.gif" alt="bubbleend" class="bubble-end">
+		</div>
+
+	</div>
+
+
+	<!-- DO NOT CHANGE CODES BELOW-->
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/jquery.lazyload.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$('div').lazyload(
+				effect: "fadeIn"
+			);
+		});
+	</script>
+</body>
+
+</html>

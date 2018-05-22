@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+
+	<style>
+		body {
+			font-family: "Roboto", sans-serif;
+		}
+
+		/*NAVIGATION-BAR*/
+
+		.sidenav {
+			height: 100%;
+			width: 0;
+			position: fixed;
+			z-index: 1;
+			top: 0;
+			left: 0;
+			background-color: white;
+			overflow-x: hidden;
+			transition: 0.5s;
+			padding: 5px 5px 5px 5px;
+		}
+
+		.sidenav a {
+			padding: 10px 10px 10px 34px;
+			text-decoration: none;
+			font-family: "Roboto", sans-serif;
+			font-size: 20px;
+			letter-spacing: inherit;
+			color: black;
+			display: block;
+			transition: 0.3s;
+		}
+
+		.sidenav a:hover {
+			color: #f1f1f1;
+		}
+
+		.sidenav .closebtn {
+			position: absolute;
+			top: 0;
+			right: 25px;
+			font-size: 36px;
+			margin-left: 65px;
+		}
+
+		.menu-bar {
+			position: relative;
+			top: 400px;
+			padding-left: 20px;
+		}
+
+		.closebtn {
+			top: 300px;
+		}
+
+		.title {
+			font-size: 12px;
+			top: 300px;
+			padding-left: 200px;
+		}
+
+		/* source url - https://www.w3schools.com/howto/howto_js_sidenav.asp*/
+
+		/*NAVIGATION DROPDOWN*/
+
+		.sidenav a,
+		.dropdown-btn {
+			padding: 6px 8px 6px 16px;
+			text-decoration: none;
+			font-size: 18px;
+			color: black;
+			display: block;
+			border: none;
+			background: none;
+			width: 100%;
+			text-align: left;
+			cursor: pointer;
+			outline: none;
+			padding-left: 15px;
+		}
+
+		.sidenav a:hover,
+		.dropdown-btn:hover {
+			color: magenta;
+			font-size: 18px;
+		}
+
+		.main {
+			margin-left: 200px;
+			/* Same as the width of the sidenav */
+			font-size: 20px;
+			/* Increased text to enable scrolling */
+			padding: 0px 10px;
+		}
+
+		.active {
+			background-color: none;
+			color: white;
+		}
+
+		.dropdown-container {
+			background-color: white;
+			padding-left: 15px;
+
+		}
+
+		.fa-caret-down {
+			background-color: white;
+			float: right;
+		}
+
+
+		h1 {
+			font-size: 30px;
+			top: 300px;
+			padding-left: 200px;
+		}
+
+		h2 {
+			font-size: 22px;
+			top: 300px;
+			padding-left: 200px;
+		}
+
+		p {
+			font-size: 16px;
+			top: 300px;
+			padding-left: 200px;
+		}
+
+
+		@media screen and (max-height: 450px) {
+			.sidenav {
+				padding-top: 15px;
+			}
+			.sidenav a {
+				font-size: 15px;
+			}
+		}
+
+		/* source url - https://www.w3schools.com/howto/howto_js_dropdown_sidenav.asp*/
+
+		/*LANDING PAGE*/
+
+		div.box1 {
+			font-family: 'Space Mono', monospace;
+			color: white;
+			width: 75px;
+			height: 40px;
+			background-color: black;
+			font-size: 25px;
+			position: relative;
+			text-align: center;
+			vertical-align: middle;
+			-webkit-animation: box-1 2s infinite;
+			animation: box-1 2s infinite alternate;
+		}
+
+		div.box2 {
+			font-family: 'Space Mono', monospace;
+			color: white;
+			width: 120px;
+			height: 40px;
+			background-color: black;
+			font-size: 25px;
+			position: relative;
+			text-align: center;
+			vertical-align: middle;
+			transform: rotate(90deg);
+			-webkit-animation: box-2 2s infinite;
+			animation: box-2 2s infinite alternate;
+		}
+
+		div.box3 {
+			font-family: 'Space Mono', monospace;
+			color: white;
+			width: 70px;
+			height: 40px;
+			background-color: black;
+			font-size: 25px;
+			position: relative;
+			text-align: center;
+			vertical-align: middle;
+			-webkit-animation: box-3 2s infinite;
+			animation: box-3 2s infinite alternate;
+		}
+
+		div.box4 {
+			font-family: 'Space Mono', monospace;
+			color: white;
+			width: 120px;
+			height: 40px;
+			background-color: black;
+			font-size: 25px;
+			position: relative;
+			text-align: center;
+			vertical-align: middle;
+			-webkit-animation: box-4 2s infinite;
+			animation: box-4 2s infinite alternate;
+		}
+
+		div.box5 {
+			font-family: 'Space Mono', monospace;
+			color: white;
+			width: 250px;
+			height: 50px;
+			background-color: black;
+			font-size: 35px;
+			position: relative;
+			text-align: center;
+			vertical-align: middle;
+			transform: rotate(90deg);
+			-webkit-animation: box-5 2s infinite;
+			animation: box-5 2s infinite alternate;
+		}
+
+
+		div.box6 {
+			font-family: 'Space Mono', monospace;
+			color: white;
+			width: 175px;
+			height: 50px;
+			background-color: black;
+			font-size: 35px;
+			position: relative;
+			text-align: center;
+			vertical-align: middle;
+			transform: rotate(90deg);
+			-webkit-animation: box-6 2s infinite;
+			animation: box-6 2s infinite alternate;
+
+
+		}
+
+		div.box7 {
+			font-family: 'Space Mono', monospace;
+			color: white;
+			width: 220px;
+			height: 40px;
+			background-color: black;
+			font-size: 25px;
+			position: relative;
+			text-align: center;
+			vertical-align: middle;
+			-webkit-animation: box-7 2s infinite;
+			animation: box-7 2s infinite alternate;
+		}
+
+		div.box8 {
+			font-family: 'Space Mono', monospace;
+			color: white;
+			width: 275px;
+			height: 40px;
+			background-color: black;
+			font-size: 25px;
+			position: relative;
+			text-align: center;
+			vertical-align: middle;
+			-webkit-animation: box-8 2s infinite;
+			animation: box-8 2s infinite alternate;
+		}
+
+		div.box9 {
+			font-family: 'Space Mono', monospace;
+			color: white;
+			width: 200px;
+			height: 40px;
+			background-color: black;
+			font-size: 25px;
+			position: relative;
+			text-align: center;
+			vertical-align: middle;
+			-webkit-animation: box-9 2s infinite;
+			animation: box-9 2s infinite alternate;
+		}
+
+		div.box10 {
+			font-family: 'Space Mono', monospace;
+			color: white;
+			width: 95px;
+			height: 40px;
+			background-color: black;
+			font-size: 25px;
+			position: relative;
+			text-align: center;
+			vertical-align: middle;
+			-webkit-animation: box-10 2s infinite;
+			animation: box-10 2s infinite alternate;
+		}
+
+		@-webkit-keyframes box-1 {
+			from {
+				top: -25px;
+				left: 15px;
+			}
+			to {
+				top: -70px;
+				left: 15px;
+			}
+		}
+
+		@keyframes box-1 {
+			from {
+				top: -25px;
+				left: 15px;
+			}
+			to {
+				top: 70px;
+				left: 15px;
+			}
+		}
+
+		@-webkit-keyframes box-2 {
+			from {
+				top: -25px;
+				left: 55px;
+
+			}
+			to {
+				top: -10px;
+				left: 55px;
+			}
+		}
+
+		@keyframes box-2 {
+			from {
+				top: -25px;
+				left: 60px
+			}
+			to {
+				top: -10px;
+				left: 60px;
+			}
+		}
+
+		@-webkit-keyframes box-3 {
+			from {
+				top: -25px;
+				left: 150x;
+
+			}
+			to {
+				top: -10px;
+				left: 200px;
+			}
+		}
+
+		@keyframes box-3 {
+			from {
+				top: -25px;
+				left: 150px;
+			}
+			to {
+				top: -10px;
+				left: 200px;
+			}
+		}
+
+		@-webkit-keyframes box-4 {
+			from {
+				top: -115px;
+				left: 150px;
+
+			}
+			to {
+				top: -130px;
+				left: 150px;
+			}
+		}
+
+		@keyframes box-4 {
+			from {
+				top: -115px;
+				left: 150px
+			}
+			to {
+				top: -130px;
+				left: 150px;
+			}
+		}
+
+		@-webkit-keyframes box-5 {
+			from {
+				top: -85px;
+				left: 1868px;
+
+			}
+			to {
+				top: -75px;
+				left: 1868px;
+			}
+		}
+
+		@keyframes box-5 {
+			from {
+				top: -85px;
+				left: 1868px;
+
+			}
+			to {
+				top: -75px;
+				left: 1868px;
+			}
+		}
+
+
+		@-webkit-keyframes box-6 {
+			from {
+				top: 15px;
+				left: 1840px;
+
+			}
+			to {
+				top: -85px;
+				left: 1840px;
+			}
+		}
+
+		@keyframes box-6 {
+			from {
+				top: 15px;
+				left: 1840px
+			}
+			to {
+				top: -85px;
+				left: 1840px;
+			}
+		}
+
+		@-webkit-keyframes box-7 {
+			from {
+				top: 50px;
+				left: 15px;
+			}
+			to {
+				top: 540px;
+				left: 15px;
+			}
+		}
+
+		@keyframes box-7 {
+			from {
+				top: 540px;
+				left: 15px;
+			}
+			to {
+				top: 540px;
+				left: 15px;
+			}
+		}
+
+		@-webkit-keyframes box-8 {
+			from {
+				bottom: 550px;
+				left: 65px;
+			}
+			to {
+				top: 560px;
+				left: 65px;
+			}
+		}
+
+		@keyframes box-8 {
+			from {
+				top: 550px;
+				left: 65px;
+			}
+			to {
+				top: 560px;
+				left: 65px;
+			}
+		}
+
+		@-webkit-keyframes box-9 {
+			from {
+				top: 450px;
+				left: 1650px;
+			}
+			to {
+				top: 500px;
+				left: 1700px;
+			}
+		}
+
+		@keyframes box-9 {
+			from {
+				top:450px;
+				left: 1750px;
+			}
+			to {
+				top: 500px;
+				left: 1750px;
+			}
+		}
+
+		@-webkit-keyframes box-10 {
+			from {
+				top: 500px;
+				left: 1750px;
+			}
+			to {
+				top: 500px;
+				left: 1850px;
+			}
+		}
+
+		@keyframes box-10 {
+			from {
+				top: 500px;
+				left: 1650px;
+			}
+			to {
+				top: 500px;
+				left: 1850px;
+			}
+		}
+
+
+		@-webkit-keyframes rotation {
+			from {
+				-webkit-transform: rotate(0deg);
+			}
+			to {
+				-webkit-transform: rotate(180deg);
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<!--NAVIGATION-BAR-->
+
+	<div id="mySidenav" class="sidenav">
+		<a href="index.html">HOME</a>
+		<hr style='background-color:#000000; border-width:0; color:#000000; height:2px; lineheight:0; text-align: left; width:95%;' />
+		<a href="about.html">ABOUT</a>
+		<hr style='background-color:#000000; border-width:0; color:#000000; height:2px; lineheight:0; text-align: left; width:95%;' />
+		<a href="schedule.html">SCHEDULE</a>
+		<hr style='background-color:#000000; border-width:0; color:#000000; height:2px; lineheight:0; text-align: left; width:95%;' />
+		<a href="speakers.html">SPEAKERS</a>
+		<hr style='background-color:#000000; border-width:0; color:#000000; height:2px; lineheight:0; text-align: left; width:95%;' />
+		<button class="dropdown-btn">EXHIBITION
+    <i class="fa fa-caret-down"></i>
+  </button>
+
+		<div class="dropdown-container">
+			<a href="exhibit-01.html">Constructed</a>
+			<a href="exhibit-02.html">Whose Utopia</a>
+			<a href="exhibit-03.html">Fractured Visions</a>
+			<a href="exhibit-04.html">Emissaries</a>
+			<a href="exhibit-05.html">Black Lake</a>
+		</div>
+		<hr style='background-color:#000000;border-width:0;color:#000000;height:2px;line-height:0;text-align:left;width:95%;' />
+		<a href="info.html">INFO</a>
+	</div>
+
+
+	<span class="menu-bar" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+
+	<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "250px";
+		}
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
+	</script>
+
+	<script>
+		/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+		var dropdown = document.getElementsByClassName("dropdown-btn");
+		var i;
+
+		for (i = 0; i < dropdown.length; i++) {
+			dropdown[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var dropdownContent = this.nextElementSibling;
+				if (dropdownContent.style.display === "block") {
+					dropdownContent.style.display = "none";
+				} else {
+					dropdownContent.style.display = "block";
+				}
+			});
+		}
+	</script>
+
+	<!--LANDING-PAGE-->
+
+	<div class="box1">Sat.</div>
+	<div class="box2">Aug.28</div>
+	<div class="box3">2018</div>
+	<div class="box4">9am-6pm</div>
+	<div class="box5">CONSTRUCTED</div>
+	<div class="box6">REALITY</div>
+	<div class="box7">Javits Center</div>
+	<div class="box8">655 West 34th St.</div>
+	<div class="box9">New York, NY</div>
+	<div class="box10">10001</div>
+
+</body>
+
+</html>

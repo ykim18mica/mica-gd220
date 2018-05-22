@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Show Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300i" rel="stylesheet">
+
+
+    <style>
+        html {
+            font-family: 'Titillium Web', sans-serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #D0DBE1;
+        }
+
+        .row1 {
+            font-size: 14px;
+            color: #112310;
+        }
+
+        .text1 {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+        }
+
+        .text2 {
+            position: absolute;
+            top: 30px;
+            left: 1040px;
+        }
+
+        .ucl {
+            position: absolute;
+            top: 1570px;
+            left: 500px;
+        }
+
+        audio {
+            display: none;
+        }
+
+        .circel {
+            width: 580px;
+            height: 580px;
+            background: #6A7C5D;
+            -moz-border-radius: 300px;
+            -webkit-border-radius: 300px;
+            border-radius: 300px;
+            position: absolute;
+            top: 500px;
+            left: 315px;
+            box-shadow: 6px 6px 6px 0px #484F43;
+            opacity: 0.5;
+        }
+
+        .row2 {
+            color: #FFF6D3;
+
+        }
+
+        .title {
+            position: absolute;
+            top: 740px;
+            left: 380px;
+            font-size: 60px;
+            animation: move-top1 2s forwards;
+            animation-delay: 2s;
+        }
+
+
+        @keyframes move-top1 {
+            from {
+                top: 740px;
+            }
+            to {
+                top: 200px;
+            }
+        }
+
+        @keyframes move-top2 {
+            from {
+                top: 880px;
+            }
+            to {
+                top: 300px;
+            }
+        }
+
+        @keyframes move-top3 {
+            from {
+                top: 930px;
+            }
+            to {
+                top: 360px;
+            }
+        }
+
+
+        .name {
+            position: absolute;
+            top: 880px;
+            left: 488px;
+            font-size: 35px;
+            animation: move-top2 2s forwards;
+            animation-delay: 2s;
+        }
+
+        .name2 {
+            position: absolute;
+            top: 930px;
+            left: 567px;
+            font-size: 20px;
+            animation: move-top3 2s forwards;
+            animation-delay: 2s;
+            font-family: monospace;
+        }
+
+        .date {
+            color: #FFF6D3;
+            position: absolute;
+            top: 1250px;
+            left: 250px;
+            font-size: 15px;
+            animation: fade-in 8s 1;
+        }
+
+        @keyframes fade-in {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /*Movie1 秒速五厘米*/
+
+        .movie1 {
+            color: #FFF6D3;
+            font-size: 40px;
+            font-family: 'Source Serif Pro', serif;
+        }
+
+        .movie1:hover {
+            animation: color-change 3s forwards;
+        }
+
+        .movie1:hover div.sakura {
+            animation: size-big 3s forwards;
+        }
+
+        .movie1:hover div.sakura3 {
+            animation: fade-out 6s 1;
+        }
+
+        .movie1:hover .img-sakura {
+            animation: move-down 5s 1;
+        }
+
+        .movie1:hover .img-sakura1 {
+            animation: move-down1 5s 1;
+            animation-delay: 0.5s;
+        }
+
+        .movie1:hover .img-sakura2 {
+            animation: move-down2 5s 1;
+            animation-delay: 0.8s;
+        }
+
+        .movie1:hover .img-sakura3 {
+            animation: move-down3 5s 1;
+            animation-delay: 1s;
+        }
+
+        .movie1:hover .img-sakura4 {
+            animation: move-down4 5s 1;
+            animation-delay: 1.2s;
+        }
+
+        @keyframes color-change {
+            from {
+                color: #FFF6D3;
+            }
+            to {
+                color: #FFD2D2;
+            }
+        }
+
+        @keyframes move-down1 {
+            from {
+                top: 830px;
+                left: 400px;
+                opacity: 1;
+            }
+            to {
+                top: 860px;
+                left: 400px;
+                opacity: 0;
+            }
+        }
+
+        @keyframes move-down2 {
+            from {
+                top: 890px;
+                left: 490px;
+                opacity: 1;
+            }
+            to {
+                top: 920px;
+                left: 490px;
+                opacity: 0;
+            }
+        }
+
+        @keyframes move-down3 {
+            from {
+                top: 900px;
+                left: 545px;
+                opacity: 1;
+            }
+            to {
+                top: 930px;
+                left: 545px;
+                opacity: 0;
+            }
+        }
+
+        @keyframes move-down4 {
+            from {
+                top: 920px;
+                left: 590px;
+                opacity: 1;
+            }
+            to {
+                top: 950px;
+                left: 590px;
+                opacity: 0;
+            }
+        }
+
+        @keyframes move-down {
+            0% {
+                top: 700px;
+                left: 720px;
+                opacity: 1;
+            }
+            50% {
+                top: 840px;
+                left: 760px;
+            }
+            100% {
+                top: 950px;
+                left: 600px;
+                opacity: 0;
+            }
+        }
+
+        @keyframes size-big {
+            from {
+                font-size: 55px;
+            }
+            to {
+                font-size: 75px;
+            }
+        }
+
+        .sakura {
+            position: absolute;
+            top: 730px;
+            left: 500px;
+            font-size: 55px;
+        }
+
+        .sakura1 {
+            position: absolute;
+            top: 755px;
+            left: 550px;
+            font-size: 30px;
+        }
+
+        .sakura2 {
+            position: absolute;
+            top: 810px;
+            left: 494px;
+            font-size: 30px;
+        }
+
+        .sakura3 {
+            position: absolute;
+            top: 800px;
+            left: 565px;
+            font-size: 48px;
+        }
+
+        .sakura4 {
+            position: absolute;
+            top: 860px;
+            left: 600px;
+            font-size: 12px;
+        }
+
+        .img-sakura {
+            position: absolute;
+            top: 700px;
+            left: 720px;
+            height: 60px;
+            animation: fade-in 2s ease-in;
+        }
+
+        .img-sakura1 {
+            position: absolute;
+            top: 830px;
+            left: 400px;
+            height: 100px;
+            transform: rotate(-60deg);
+            animation: fade-in 2.5s ease-in;
+        }
+
+        .img-sakura2 {
+            position: absolute;
+            top: 890px;
+            left: 490px;
+            height: 40px;
+            animation: fade-in 3s ease-in;
+            transform: rotate(15deg)
+        }
+
+        .img-sakura3 {
+            position: absolute;
+            top: 900px;
+            left: 545px;
+            height: 30px;
+            animation: fade-in 3.5s ease-in;
+            transform: rotate(30deg)
+        }
+
+        .img-sakura4 {
+            position: absolute;
+            top: 920px;
+            left: 590px;
+            height: 20px;
+            animation: fade-in 7s ease-in;
+            transform: rotate(50deg)
+        }
+
+        @keyframes fade-out {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.2;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /*Movie2 她和她的猫*/
+
+        @font-face {
+            font-family: 'Skia';
+            src: url('Skia.ttf.woff') format('woff'),
+            url('Skia.ttf.svg#Skia') format('svg'),
+            url('Skia.ttf.eot'),
+            url('Skia.ttf.eot?#iefix') format('embedded-opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+        .movie2 {
+            font-size: 40px;
+            font-family: 'Skia', sans-serif;
+            color: #FFF6D3
+        }
+
+        .cat {
+            position: absolute;
+            top: 760px;
+            left: 462px;
+
+        }
+
+        .movie2:hover div.cat {
+            display: block;
+            background-image: url(image/img-cat.png);
+            color: transparent;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-size: 200% 100%;
+            animation: text-animation 4s forwards linear;
+        }
+
+        .cat1 {
+            position: absolute;
+            top: 810px;
+            left: 514px;
+            font-size: 25px;
+            font-family: monospace;
+        }
+
+        .movie2:hover div.cat1 {
+            display: block;
+            background-image: url(image/img-cat.png);
+            color: transparent;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-size: 200% 100%;
+            animation: text-animation 4s forwards linear;
+        }
+
+        @keyframes text-animation {
+            0% {
+                background-position: 0 0;
+            }
+            100% {
+                background-position: -100% 0;
+            }
+        }
+
+        .img-cat1 {
+            position: absolute;
+            top: 800px;
+            left: 390px;
+            height: 150px;
+            opacity: 0;
+        }
+
+        .img-cat2 {
+            position: absolute;
+            top: 850px;
+            left: 510px;
+            height: 60px;
+            transform: rotate(30deg);
+            opacity: 0;
+        }
+
+        .img-cat3 {
+            position: absolute;
+            top: 870px;
+            left: 573px;
+            height: 60px;
+            transform: rotate(40deg);
+            opacity: 0;
+        }
+
+        .img-cat4 {
+            position: absolute;
+            top: 850px;
+            left: 643px;
+            height: 60px;
+            transform: rotate(45deg);
+            opacity: 0;
+        }
+
+        .img-cat5 {
+            position: absolute;
+            top: 810px;
+            left: 710px;
+            height: 60px;
+            opacity: 0;
+        }
+
+        .movie2:hover .img-cat1 {
+            opacity: 1;
+        }
+
+        .movie2:hover .img-cat2 {
+            opacity: 1;
+            transition: 2s;
+        }
+
+        .movie2:hover .img-cat3 {
+            opacity: 1;
+            transition: 2s;
+            transition-delay: 1s;
+        }
+
+        .movie2:hover .img-cat4 {
+            opacity: 1;
+            transition: 2s;
+            transition-delay: 2s;
+        }
+
+        .movie2:hover .img-cat5 {
+            opacity: 1;
+            transition: 2s;
+            transition-delay: 3.3s;
+        }
+
+
+
+
+
+
+
+        /*Movie3 云之彼端*/
+
+        .movie3 {
+            font-size: 35px;
+            font-family: 'Josefin Sans', sans-serif;
+            color: #FFF6D3
+        }
+
+        .movie3:hover {
+            animation: color-change-blue 5s forwards;
+        }
+
+        .movie3:hover .img-cloud {
+            animation: cloud 8s forwards;
+        }
+
+        .movie3:hover .img-cloud1 {
+            animation: cloud1 3s forwards;
+        }
+
+        .movie3:hover .img-cloud2 {
+            animation: cloud2 3s forwards;
+        }
+
+        .movie3:hover .img-cloud3 {
+            animation: cloud3 3s forwards;
+        }
+
+
+        @keyframes cloud1 {
+            0% {
+                top: 780px;
+                left: 485px;
+                opacity: 1;
+            }
+            30% {
+                top: 780px;
+                left: 485px;
+                opacity: 1;
+            }
+            100% {
+                top: 780px;
+                left: 400px;
+                opacity: 0;
+            }
+        }
+
+        @keyframes cloud2 {
+            0% {
+                top: 740px;
+                left: 370px;
+                opacity: 0.8;
+            }
+            30% {
+                top: 740px;
+                left: 370px;
+                opacity: 0.8;
+            }
+            100% {
+                top: 740px;
+                left: 320px;
+                opacity: 0;
+            }
+        }
+
+        @keyframes cloud3 {
+            0% {
+                top: 720px;
+                left: 590px;
+                opacity: 1;
+            }
+            30% {
+                top: 720px;
+                left: 590px;
+                opacity: 1;
+            }
+            100% {
+                top: 720px;
+                left: 630px;
+                opacity: 0;
+            }
+        }
+
+        .cloud {
+            position: absolute;
+            top: 740px;
+            left: 480px;
+            text-align: center;
+        }
+
+        .cloud1 {
+            position: absolute;
+            top: 860px;
+            left: 600px;
+            font-size: 10px;
+        }
+
+        .img-cloud {
+            position: absolute;
+            top: 780px;
+            left: 600px;
+            height: 150px;
+            opacity: 0;
+        }
+
+        .img-cloud1 {
+            position: absolute;
+            top: 780px;
+            left: 485px;
+            height: 180px;
+            opacity: 0;
+            transform: rotate(-20deg)
+        }
+
+        .img-cloud2 {
+            position: absolute;
+            top: 740px;
+            left: 370px;
+            height: 220px;
+            opacity: 0;
+            transform: rotate(180deg)
+        }
+
+        .img-cloud3 {
+            position: absolute;
+            top: 720px;
+            left: 590px;
+            height: 230px;
+            opacity: 0;
+            transform: rotate(200deg)
+        }
+
+
+
+        @keyframes cloud {
+            0% {
+                top: 800px;
+                left: 600px;
+                opacity: 0.8;
+            }
+            10% {
+                top: 800px;
+                left: 600px;
+                opacity: 0.8;
+            }
+            100% {
+                top: 680px;
+                left: 450px;
+                opacity: 0;
+            }
+        }
+
+        @keyframes color-change-blue {
+            form {
+                color: #FFF6D6;
+            }
+            to {
+                color: #CCE4F2;
+            }
+        }
+
+        /*Movie4 言叶之庭*/
+
+        .movie4 {
+            font-family: 'Aref Ruqaa', serif;
+            font-size: 35px;
+            color: #FFF6D3;
+            word-spacing: 5px;
+        }
+
+        .garden {
+            position: absolute;
+            top: 760px;
+            left: 510px;
+        }
+
+        .garden1 {
+            position: absolute;
+            top: 800px;
+            left: 555px;
+            font-size: 45px;
+        }
+
+        .garden2 {
+            position: absolute;
+            top: 735px;
+            left: 580px;
+            font-size: 15px;
+        }
+
+        .img-leave {
+            position: absolute;
+            top: 800px;
+            left: 450px;
+            height: 100px;
+        }
+
+        .movie4:hover .img-leave {
+            animation: leave 5s 1;
+        }
+
+        .movie4:hover div.garden,
+        .movie4:hover div.garden1,
+        .movie4:hover div.garden2 {
+            animation: blur 5s forwards;
+        }
+
+        @keyframes blur {
+            0% {
+                color: #FFF6D6;
+                filter: blur(0px);
+            }
+            50% {
+                color: #C5EBC3;
+                filter: blur(10px);
+            }
+            100% {
+                color: #C5EBC3;
+                filter: blur(0px);
+            }
+        }
+
+        @keyframes leave {
+            0% {
+                top: 800px;
+                left: 450px;
+                opacity: 1;
+            }
+            40% {
+                top: 850px;
+                left: 480px;
+            }
+            80% {
+                top: 870px;
+                left: 520px;
+            }
+            100% {
+                top: 900px;
+                left: 540px;
+                opacity: 0
+            }
+        }
+
+
+        /*Movie5 你的名字*/
+
+        .movie5 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 30px;
+            color: #FFF6D3;
+        }
+
+        .your {
+            position: absolute;
+            top: 760px;
+            left: 520px;
+            font-size: 45px;
+        }
+
+        .your1 {
+            position: absolute;
+            top: 775px;
+            left: 567px
+        }
+
+        .your2 {
+            position: absolute;
+            top: 820px;
+            left: 575px;
+            font-size: 25px;
+        }
+
+        .movie5:hover div.your,
+        .movie5:hover div.your1 {
+            color: #FFFF9D;
+            animation: fade-out1 2s forwards;
+        }
+
+        .movie5:hover div.your2 {
+            animation: bigger 3s forwards;
+        }
+
+        .movie5:hover div.star {
+            animation: shottingstar 1s infinite;
+        }
+
+        .movie5:hover div.star1 {
+            animation: shottingstar1 1s infinite;
+            animation-delay: 0.5s;
+        }
+
+        .movie5:hover div.star2 {
+            animation: shottingstar2 1s infinite;
+            animation-delay: 0.8s;
+        }
+
+        .movie5:hover div.star3 {
+            animation: star 2s infinite;
+        }
+
+        .movie5:hover div.star4 {
+            animation: star 2s infinite;
+            animation-delay: 1s;
+        }
+
+        .movie5:hover div.star5 {
+            animation: star 2s infinite;
+            animation-delay: 0.5s;
+        }
+
+        .movie5:hover div.star6 {
+            animation: star 2s infinite;
+            animation-delay: 0.3s;
+        }
+
+        .movie5:hover .img-star {
+            animation: fly 3s forwards;
+        }
+
+        .star {
+            position: absolute;
+            top: 720px;
+            left: 600px;
+            transform: rotate(25deg);
+            font-size: 40px;
+            opacity: 0;
+        }
+
+        .star1 {
+            position: absolute;
+            top: 700px;
+            left: 680px;
+            transform: rotate(25deg);
+            font-size: 40px;
+            opacity: 0;
+        }
+
+        .star2 {
+            position: absolute;
+            top: 800px;
+            left: 640px;
+            transform: rotate(25deg);
+            font-size: 40px;
+            opacity: 0;
+        }
+
+        .star3 {
+            position: absolute;
+            top: 850px;
+            left: 540px;
+            font-size: 30px;
+            opacity: 0;
+
+        }
+
+        .star4 {
+            position: absolute;
+            top: 820px;
+            left: 480px;
+            font-size: 30px;
+            opacity: 0;
+        }
+
+        .star5 {
+            position: absolute;
+            top: 810px;
+            left: 530px;
+            font-size: 30px;
+            opacity: 0;
+        }
+
+        .star6 {
+            position: absolute;
+            top: 770px;
+            left: 500px;
+            font-size: 30px;
+            opacity: 0;
+        }
+
+        .img-star {
+            position: absolute;
+            top: 730px;
+            left: 650px;
+            height: 80px;
+        }
+
+        @keyframes fly {
+            from {
+                top: 730px;
+                left: 650px;
+                opacity: 1;
+            }
+            to {
+                top: 850px;
+                left: 450px;
+                opacity: 0;
+            }
+        }
+
+        @keyframes bigger {
+            from {
+                font-size: 25px;
+                top: 820px;
+                left: 575px;
+                color: #FFF6D6;
+            }
+            to {
+                font-size: 50px;
+                top: 775px;
+                left: 520px;
+                color: #FFFF9D;
+            }
+        }
+
+        @keyframes fade-out1 {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0;
+            }
+        }
+
+        @keyframes shottingstar {
+            from {
+                top: 720px;
+                left: 600px;
+                opacity: 0.5
+            }
+            to {
+                top: 800px;
+                left: 450px;
+                opacity: 0
+            }
+        }
+
+        @keyframes shottingstar1 {
+            from {
+                top: 700px;
+                left: 680px;
+                opacity: 0.5
+            }
+            to {
+                top: 750px;
+                left: 600px;
+                opacity: 0
+            }
+        }
+
+        @keyframes shottingstar2 {
+            from {
+                top: 800px;
+                left: 640px;
+                opacity: 0.5
+            }
+            to {
+                top: 880px;
+                left: 560px;
+                opacity: 0
+            }
+        }
+
+        @keyframes star {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0
+            }
+            100% {
+                opacity: 1
+            }
+
+        }
+
+        /*info*/
+
+        .theater {
+            position: absolute;
+            font-size: 25px;
+            top: 690px;
+            left: 394px;
+            text-align: center;
+            line-height: 40px;
+            color: #FFF6D6;
+        }
+
+        a:link {
+            color: #FFF6D6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            border: solid 1px;
+            padding-left: 10px;
+            padding-right: 10px
+        }
+
+        a:visited {
+            color: #112310;
+        }
+
+        .theater:hover div.N {
+            color: #112310;
+            transition-delay: 0.5s;
+        }
+
+        .theater:hover div.M10 {
+            color: #112310;
+            transition-delay: 1s;
+        }
+
+        .theater:hover div.pm {
+            color: #112310;
+            transition-delay: 1.5s;
+        }
+
+        .theater:hover div.MS {
+            color: #112310;
+            transition-delay: 2s;
+        }
+
+        .theater:hover div.feel {
+            color: #112310;
+            transition-delay: 2.5s;
+        }
+
+        div#m5,
+        div#tym,
+        div#yzbd,
+        div#yyzt,
+        div#jm,
+        div#info {
+            display: inline-block;
+            margin-right: 50px;
+        }
+
+        div#m5:hover {
+            font-size: 22px;
+        }
+
+        div#tym:hover {
+            font-size: 22px;
+        }
+
+        div#yzbd:hover {
+            font-size: 22px;
+        }
+
+        div#yyzt:hover {
+            font-size: 22px;
+        }
+
+        div#jm:hover {
+            font-size: 22px;
+        }
+
+        div#info:hover {
+            font-size: 22px;
+        }
+
+    </style>
+</head>
+
+<title>Feel This Moment</title>
+
+<body>
+
+    <div class="grid-container">
+
+        <div class="row">
+            <div class="col-12"> <img class="background" src="image/img-background.png"></div>
+        </div>
+        <div class="row">
+            <div class="circel"></div>
+        </div>
+        <div class="row2">
+            <h1 class="title">Feel This Moment</h1>
+            <p class="name">Makoto Shinkai</p>
+            <p class="name2">新海 誠</p>
+            <audio controls="controls" autoplay="autoplay" loop=-1>
+              <source src="bgm" type="audio/mpeg"/>
+            </audio>
+        </div>
+        <div class="row3">
+            <div class="date">
+                <div id="m5" onclick="document.getElementById('movie1').style.display='block';
+                           document.getElementById('movie2').style.display='none';
+                           document.getElementById('movie3').style.display='none';
+                           document.getElementById('movie4').style.display='none';
+                           document.getElementById('movie5').style.display='none';
+                           document.getElementById('theater').style.display='none';">
+                    March.10th
+                </div>
+                <div id="tym" onclick="document.getElementById('movie2').style.display='block';
+                           document.getElementById('movie1').style.display='none';
+                           document.getElementById('movie3').style.display='none';
+                           document.getElementById('movie4').style.display='none';
+                           document.getElementById('movie5').style.display='none';
+                           document.getElementById('theater').style.display='none';
+                           ">
+                    March.11th
+                </div>
+                <div id="yzbd" onclick="document.getElementById('movie3').style.display='block';
+                           document.getElementById('movie1').style.display='none';
+                           document.getElementById('movie2').style.display='none';
+                           document.getElementById('movie4').style.display='none';
+                           document.getElementById('movie5').style.display='none';
+                           document.getElementById('theater').style.display='none';">
+                    March.12th
+                </div>
+                <div id="yyzt" onclick="document.getElementById('movie4').style.display='block';
+                           document.getElementById('movie1').style.display='none';
+                           document.getElementById('movie2').style.display='none';
+                           document.getElementById('movie3').style.display='none';
+                           document.getElementById('movie5').style.display='none';
+                           document.getElementById('theater').style.display='none';">
+                    March.13th
+                </div>
+                <div id="jm" onclick="document.getElementById('movie5').style.display='block';
+                           document.getElementById('movie1').style.display='none';
+                           document.getElementById('movie2').style.display='none';
+                           document.getElementById('movie3').style.display='none';
+                           document.getElementById('movie4').style.display='none';
+                           document.getElementById('theater').style.display='none';">
+                    March.14th
+                </div>
+                <div id="info" onclick="document.getElementById('theater').style.display='block';
+                           document.getElementById('movie1').style.display='none';
+                           document.getElementById('movie2').style.display='none';
+                           document.getElementById('movie3').style.display='none';
+                           document.getElementById('movie4').style.display='none';
+                           document.getElementById('movie5').style.display='none';">
+                    Information
+                </div>
+            </div>
+        </div>
+        <div class="row4">
+            <div class=movie1 id="movie1" style="display:none">
+                <div class="sakura">
+                    5
+                </div>
+                <div class="sakura1">
+                    Centimeters
+                </div>
+                <div class="sakura2">
+                    Per
+                </div>
+                <div class="sakura3">
+                    Second
+                </div>
+                <div class="sakura4">秒速 5 センチメートル</div>
+                <img class="img-sakura" src="image/img-sakura.png">
+                <img class="img-sakura1" src="image/img-sakura.png">
+                <img class="img-sakura2" src="image/img-sakura.png">
+                <img class="img-sakura3" src="image/img-sakura.png">
+                <img class="img-sakura4" src="image/img-sakura.png">
+            </div>
+            <div class="movie2" id="movie2" style="display:none">
+                <div class="cat">She and Her Cat</div>
+                <div class="cat1">彼女と彼女の猫</div>
+                <img class="img-cat1" src="image/img-cat1.png">
+                <img class="img-cat2" src="image/img-cat2.png">
+                <img class="img-cat3" src="image/img-cat2.png">
+                <img class="img-cat4" src="image/img-cat2.png">
+                <img class="img-cat5" src="image/img-cat2.png">
+            </div>
+            <div class="movie3" id="movie3" style="display:none">
+                <div class="cloud">The Place<br> Promised in Our <br>Early Days </div>
+                <div class="cloud1">雲のむこう、約束の場所</div>
+                <img class="img-cloud" src="image/img-cloud.png">
+                <img class="img-cloud1" src="image/img-cloud.png">
+                <img class="img-cloud2" src="image/img-cloud.png">
+                <img class="img-cloud3" src="image/img-cloud.png">
+
+            </div>
+            <div class="movie4" id="movie4" style="display:none">
+                <div class="garden">The Garden of </div>
+                <div class="garden1">Words</div>
+                <div class="garden2">言の葉の庭</div>
+                <img class="img-leave" src="image/img-leave.png">
+            </div>
+            <div class="movie5" id="movie5" style="display:none">
+                <div class="your">君</div>
+                <div class="your1">の名は</div>
+                <div class="your2">Your Name</div>
+                <div class="star">/</div>
+                <div class="star1">/</div>
+                <div class="star2">/</div>
+                <div class="star3">.</div>
+                <div class="star4">.</div>
+                <div class="star5">.</div>
+                <div class="star6">.</div>
+                <img class="img-star" src="image/img-star.png">
+            </div>
+            <div class="theater" id="theater" style="display:none">
+                <a href="http://thecharles.com/" target="_blank">The Charles Theatre </a>
+                <div class="N">1711 N Charles St, Baltimore, MD 21201</div>
+                <div class="M10">March 10th - March 14th</div>
+                <div class="pm">Every 7:00pm.</div>
+                <div class="MS">Movies of Makoto Shinkai</div>
+                <div class="feel">Feel This Moment!</div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

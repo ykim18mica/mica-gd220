@@ -1,0 +1,94 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:900,900i|Open+Sans:400,600" rel="stylesheet">
+    <script src="js/script.js"></script>
+
+    <style>
+        .about {
+            top: 5px;
+        }
+
+        .about-p {
+            width: 827px;
+            margin-top: 45px;
+        }
+
+        .schedule-block {
+            width: 237px;
+            height: 56px;
+            border: 1px white solid;
+            padding: 3px;
+            top: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="orange-screen fixed" id="orange-screen"></div>
+    <div class="grid-container">
+        <div class="nav">
+            <div class="nav-button fixed" onclick="expandNav()" id="nav-button">
+                <div class="bar bar1"></div>
+                <div class="bar bar2"></div>
+                <div class="bar bar3"></div>
+            </div>
+            <div class="nav-expand fixed" id="nav-expand">
+                <div class="nav-close relative" onclick="closeNav()">
+                    <div class="line line1 relative"></div>
+                    <div class="line line2 relative"></div>
+                </div>
+                <div class="nav-text-block lato size-60 uppercase weight-black relative">
+                    <div class="nav-text"><a class="home black-link" href="index.html">home</a></div>
+                    <div class="nav-text"><a class="about black-link" href="about.html">about</a></div>
+                    <div class="nav-text"><a class="schedule black-link" href="schedule.html">schedule</a></div>
+                    <div class="nav-text"><a class="exhibit black-link" href="exhibition.html">exhibition</a></div>
+                    <div class="nav-text talk" id="talk"><a class="talk-link black-link">talk/panel</a>
+                        <div class="talk talk-extra fixed"></div>
+                        <div class="talk-expand fixed" id="talk-expand">
+                            <div class="talk-expand-text-block lato color-black size-40 weight-black capitalize">
+                                <div class="talk-expand-text relative"><a class="artnactivism black-link" href="artnactivism.html">art &amp; activism</a></div>
+                                <div class="talk-expand-text relative"><a class="printmakingasprotest black-link" href="printmakingasprotest.html">printmaking as protest</a></div>
+                                <div class="talk-expand-text relative"><a class="cruel black-link" href="crueldesign.html">cruel design/disobedient design</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-text"><a class="location black-link" href="location.html">location</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="row col-12 h-1">
+        </div>
+        <div class="row col-12 h-1"></div>
+        <div class="row col-12 h-1">
+            <div class="col-4 h-1"></div>
+            <div class="col-4 h-1">
+                <p class="about lato size-100 color-white uppercase weight-black text-align-center relative">about</p>
+            </div>
+            <div class="col-4 h-1"></div>
+        </div>
+        <div class="row col-12 h-4">
+            <div class="about-p size-30 color-orange open-sans weight-bold line-height-35 center">Art is central to social and political change.<br> It is not just a mirror, but also part of the driving force.
+            </div>
+            <div class="about-p size-24 color-white open-sans weight-semi-bold line-height-35 center">As artists, we need to communicate more than what we stand against or why particular policies affect us negatively, because limiting our commentary to such reactions would confine the social imaginary to existing political frameworks and systems that we do not control. We should also present our vision for who we are, and show why that vision is a positive one. Working in the realm of ideas does not take energy away from the action space. Cultural strategies are as necessary as political strategies.
+            </div>
+        </div>
+        <div class="row col-12 h-1">
+            <div class="col-4 h-1"></div>
+            <div class="col-4 h-1">
+                <div class="schedule-block size-43 color-white lato uppercase text-align-center center relative"><a class="white-link" href="schedule.html">schedule</a></div>
+            </div>
+            <div class="col-4 h-1"></div>
+        </div>
+        <div class="row col-12 h-1"></div>
+
+    </div>
+
+</body>
+
+</html>

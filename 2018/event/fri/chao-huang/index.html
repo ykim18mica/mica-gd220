@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MOTION FOR EMOTION</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <style>
+        html {
+            font-family: Apercu, sans-serif;
+        }
+
+        body {
+            background-color: black;
+        }
+
+
+        .title {
+            font-size: 7vw;
+            color: white;
+            letter-spacing: 2vw;
+            font-weight: 500;
+            position: absolute;
+            top: 25vw;
+            left: 40vw;
+            animation: shake 3s infinite;
+
+        }
+
+
+
+
+
+        .E {
+            font-size: 12vw;
+            color: #CE3727;
+            letter-spacing: 2vw;
+            font-weight: 500;
+            position: absolute;
+            top: 22vw;
+            left: 26vw;
+            animation: rollOut 2s;
+
+        }
+
+
+
+        .motion {
+            font-size: 2vw;
+            color: #CE3727;
+            letter-spacing: 2vw;
+            font-weight: 300;
+        }
+
+        .mt-m {
+            position: absolute;
+            top: 19vw;
+            left: 35vw;
+        }
+
+        .mt-o {
+            position: absolute;
+            top: 18vw;
+            left: 26vw;
+        }
+
+        .mt-t {
+            position: absolute;
+            top: 24vw;
+            left: 20vw;
+        }
+
+        .mt-i {
+            position: absolute;
+            top: 33vw;
+            left: 21vw;
+        }
+
+        .mt-o2 {
+            position: absolute;
+            top: 37vw;
+            left: 27vw;
+        }
+
+        .mt-n {
+            position: absolute;
+            top: 36vw;
+            left: 34vw;
+        }
+
+        .circle-arrow {
+            position: absolute;
+            top: 19vw;
+            left: 21vw;
+        }
+
+
+        .background-pattern {
+            position: absolute;
+            top: -3vw;
+            opacity:
+        }
+
+        @keyframes shake {
+            from,
+            to {
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+
+            10%,
+            30%,
+            50%,
+            70%,
+            90% {
+                -webkit-transform: translate3d(-10px, 0, 0);
+                transform: translate3d(-10px, 0, 0);
+            }
+
+            20%,
+            40%,
+            60%,
+            80% {
+                -webkit-transform: translate3d(10px, 0, 0);
+                transform: translate3d(10px, 0, 0);
+            }
+        }
+
+        .shake {
+            -webkit-animation-name: shake;
+            animation-name: shake;
+        }
+
+        @keyframes rollOut {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 0;
+                -webkit-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+                transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+            }
+        }
+
+        .rollOut {
+            -webkit-animation-name: rollOut;
+            animation-name: rollOut;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="navi">
+            <a href="about.html" class="navi about">About</a>
+            <a href="artists.html" class="navi artists">Artists</a>
+            <a href="info.html" class="navi info">Infomation</a>
+            <a href="schedual.html" class="navi schedual">Schedule</a>
+        </div>
+        <a href="index.html" class="home-page">
+       <img class="small-logo" src="images/img-samll-logo.png" width="5%"><div class="box"></div></a>
+
+        <img class="background-pattern" src="images/img-partten-2.svg" width="100%">
+        <div class="navi-bar"></div>
+
+        <div class="title">MOTION</div>
+        <div class="E">E</div>
+        <div class="motion">
+            <div class="motion mt-m">M</div>
+            <div class="motion mt-o">0</div>
+            <div class="motion mt-t">T</div>
+            <div class="motion mt-i">I</div>
+            <div class="motion mt-o2">0</div>
+            <div class="motion mt-n">N</div>
+        </div>
+        <img class="circle-arrow" src="images/img-circle-arrow.png" width="18%">
+
+
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

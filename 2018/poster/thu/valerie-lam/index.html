@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>A Single World</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/template.css">
+
+	<style>
+		body {
+			font-family: "Apercu", "Helvetica", sans-serif;
+		}
+
+		.grid-container {
+			overflow: hidden;
+		}
+
+		.BG1 {
+			background-image: url("images/BG1.png");
+			background-size: cover;
+		}
+
+		.BG2 {
+			background-image: url("images/BG2.png");
+			background-size: cover;
+		}
+
+		.h-1036 {
+			height: 1036px;
+		}
+
+		.CloudPixel4 {
+			content: url("images/CloudPixel4.png");
+			top: -300px;
+			left: 360px;
+			position: relative;
+			width: 1000px;
+			opacity: .75;
+			animation: slide1 25s ease-in-out infinite alternate;
+		}
+
+		.CloudPixel1 {
+			content: url("images/CloudPixel1.png");
+			top: -50px;
+			left: -400px;
+			position: absolute;
+			width: 950px;
+			opacity: .75;
+			animation: slide2 90s ease-in-out infinite alternate;
+		}
+
+		.CloudPixel2 {
+			content: url("images/CloudPixel2.png");
+			top: 210px;
+			left: 650px;
+			position: absolute;
+			width: 850px;
+			opacity: .75;
+			animation: slide3 100s ease-in-out infinite alternate;
+		}
+
+		.down-arrow {
+			content: url("images/down-arrow.svg");
+			top: 520px;
+			left: 460px;
+			position: absolute;
+			width: 300px;
+			animation: hop 1s ease-in-out infinite alternate;
+
+		}
+
+		.hayao {
+			position: absolute;
+			color: white;
+			font-weight: 100;
+			font-size: 25px;
+			top: 150px;
+			left: 525px;
+			z-index: 1;
+		}
+
+		.line {
+			position: absolute;
+			background-color: white;
+			width: 180px;
+			height: 1.3px;
+			top: 188px;
+			left: 520px;
+			z-index: 1;
+		}
+
+		.a-single-world {
+			position: absolute;
+			color: white;
+			width: 325px;
+			top: 230px;
+			left: 460px;
+			text-align: center;
+			font-size: 80px;
+			font-weight: 800;
+			line-height: 1.2;
+			z-index: 1;
+		}
+
+		#location {
+			position: absolute;
+			color: white;
+			background-color: #90d8f8;
+			font-weight: 500;
+			font-size: 22px;
+			top: 550px;
+			left: 530px;
+			border: white solid 4px;
+			border-radius: 50px;
+			padding: 8px;
+			padding-left: 20px;
+			padding-right: 20px;
+			z-index: 1;
+		}
+
+		#location-text {
+			color: white;
+			position: absolute;
+			display: none;
+			padding: 8px;
+			font-size: 14px;
+			width: 150px;
+			text-align: center;
+			top: -70px;
+			left: 0px;
+		}
+
+		#location:hover #location-text {
+			display: block;
+		}
+
+		#location:hover {
+			box-shadow: 3px 3px #ffffff;
+		}
+
+		#date {
+			position: absolute;
+			color: white;
+			background-color: #90d8f8;
+			font-weight: 500;
+			font-size: 23px;
+			top: 550px;
+			left: 300px;
+			border: white solid 4px;
+			border-radius: 50px;
+			padding: 8px;
+			padding-left: 30px;
+			padding-right: 30px;
+			z-index: 1;
+		}
+
+		#date-text {
+			color: white;
+			position: absolute;
+			display: none;
+			padding: 8px;
+			font-size: 14px;
+			width: 140px;
+			text-align: center;
+			top: -45px;
+			left: -10px;
+		}
+
+		#date:hover #date-text {
+			display: block;
+		}
+
+		#date:hover {
+			box-shadow: 3px 3px #ffffff;
+		}
+
+		#web {
+			position: absolute;
+			color: white;
+			background-color: #90d8f8;
+			font-weight: 500;
+			font-size: 23px;
+			top: 550px;
+			left: 800px;
+			border: white solid 4px;
+			border-radius: 50px;
+			padding: 8px;
+			padding-left: 30px;
+			padding-right: 30px;
+			z-index: 1;
+		}
+
+		#web:hover {
+			box-shadow: 3px 3px #ffffff;
+		}
+
+		a {
+			text-decoration: none;
+			color: white;
+		}
+
+		a:hover {
+			color: white;
+		}
+
+		a:visited {
+			color: white;
+		}
+
+		p span {
+			display: block;
+		}
+
+		.calcifer {
+			content: url("images/Calcifer.png");
+			width: 325px;
+			left: 60px;
+			top: 730px;
+			position: absolute;
+		}
+
+		.calcifercloud {
+			content: url("images/CloudPixel3.png");
+			width: 450px;
+			position: absolute;
+			left: 100px;
+			top: 730px;
+			transition: left 2s;
+			z-index: 1;
+		}
+
+		.calcifercloud:hover {
+			left: -220px;
+		}
+
+		.howls {
+			color: white;
+			font-size: 20px;
+			position: absolute;
+			left: 220px;
+			top: 850px;
+			width: 200px;
+			text-align: center;
+			line-height: 1.3;
+		}
+
+		.kiki {
+			content: url("images/Kiki%20Cat.png");
+			position: absolute;
+			width: 280px;
+			top: 950px;
+			left: 700px;
+		}
+
+		.kikicloud {
+			content: url("images/CloudPixel4.png");
+			top: 970px;
+			left: 730px;
+			width: 550px;
+			position: absolute;
+			transition: left 2s;
+			z-index: 1;
+		}
+
+		.kikicloud:hover {
+			left: 1100px;
+		}
+
+		.delivery {
+			color: white;
+			font-size: 20px;
+			position: absolute;
+			left: 880px;
+			top: 1100px;
+			width: 200px;
+			text-align: center;
+			line-height: 1.3;
+		}
+
+		.noface {
+			content: url("images/No%20Face.png");
+			position: absolute;
+			width: 300px;
+			top: 1200px;
+			left: 300px;
+		}
+
+		.nofacecloud {
+			content: url("images/CloudPixel1.png");
+			top: 1230px;
+			left: 290px;
+			width: 550px;
+			position: absolute;
+			transition: left 2s;
+			z-index: 1;
+		}
+
+		.nofacecloud:hover {
+			left: -30px;
+		}
+
+		.spirited {
+			color: white;
+			font-size: 20px;
+			position: absolute;
+			left: 500px;
+			top: 1350px;
+			width: 150px;
+			text-align: center;
+			line-height: 1.3;
+		}
+
+		.mononoke {
+			content: url("images/Mononoke.png");
+			position: absolute;
+			width: 100px;
+			top: 1650px;
+			left: 150px;
+		}
+
+		.mononokecloud {
+			content: url("images/CloudPixel2.png");
+			top: 1640px;
+			left: 100px;
+			width: 400px;
+			position: absolute;
+			transition: left 2s;
+			z-index: 1;
+		}
+
+		.mononokecloud:hover {
+			left: -200px;
+		}
+
+		.princess {
+			color: white;
+			font-size: 20px;
+			position: absolute;
+			left: 250px;
+			top: 1720px;
+			width: 180px;
+			text-align: center;
+			line-height: 1.3;
+		}
+
+		.totoro {
+			content: url("images/Totoro.png");
+			position: absolute;
+			width: 300px;
+			top: 1660px;
+			left: 830px;
+		}
+
+		.totorocloud {
+			content: url("images/CloudPixel2.png");
+			top: 1750px;
+			left: 700px;
+			width: 550px;
+			position: absolute;
+			transition: left 2s;
+			z-index: 1;
+		}
+
+		.totorocloud:hover {
+			left: 1100px;
+		}
+
+		.totorotext {
+			color: white;
+			/*            color: #91d8f8;*/
+			font-size: 20px;
+			position: absolute;
+			left: 780px;
+			top: 1850px;
+			width: 100px;
+			text-align: center;
+			line-height: 1.3;
+		}
+
+		@keyframes slide1 {
+			from {
+				left: 360px;
+			}
+			to {
+				left: -200px;
+			}
+		}
+
+		@keyframes slide2 {
+			from {
+				left: -400px;
+			}
+			to {
+				left: 1000px;
+			}
+		}
+
+		@keyframes slide3 {
+			from {
+				left: 650px;
+			}
+			to {
+				left: -500px;
+			}
+		}
+
+		@keyframes hop {
+			from {
+				top: 520px;
+			}
+			to {
+				top: 510px;
+			}
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="grid-container">
+
+		<div class="row">
+			<div class="col-12 BG1 h-1036">
+				<div class="hayao">Hayao Miyazaki</div>
+				<div class="line"></div>
+				<div class="a-single-world">A Single World</div>
+				<div class="down-arrow"></div>
+				<div class="CloudPixel4"></div>
+				<div class="CloudPixel1"></div>
+				<div class="CloudPixel2"></div>
+				<div id="location">
+					<p>LOCATION</p>
+					<div id="location-text">The Charles Theatre 1711 N Charles St. Baltimore, MD 21201</div>
+				</div>
+				<div id="date">
+					<p>DATE</p>
+					<div id="date-text">March 10-14</div>
+				</div>
+				<div id="web">
+					<a href="http://thecharles.com/" target="_blank">WEB</a></div>
+				<div class="calcifer"></div>
+				<div class="calcifercloud"></div>
+				<div class="howls">
+					<p><span>Howl's Moving Castle</span><span>March 10</span><span>6:30PM</span></p>
+				</div>
+				<div class="kiki"></div>
+				<div class="kikicloud"></div>
+				<div class="delivery">
+					<p><span>Kiki's Delivery Service</span><span>March 11</span><span>7:00PM</span></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12 BG2 h-1036">
+				<div class="noface"></div>
+				<div class="nofacecloud"></div>
+				<div class="spirited">
+					<p><span>Spirited Away</span><span>March 12</span><span>7:00PM</span></p>
+				</div>
+				<div class="mononoke"></div>
+				<div class="mononokecloud"></div>
+				<div class="princess">
+					<p><span>Princess Mononoke</span><span>March 13</span><span>5:20PM</span></p>
+				</div>
+				<div class="totoro"></div>
+				<div class="totorocloud"></div>
+				<div class="totorotext">
+					<p><span>Totoro</span><span>March 14</span><span>6:00PM</span></p>
+				</div>
+
+			</div>
+
+
+		</div>
+
+	</div>
+
+
+</body>
+
+</html>

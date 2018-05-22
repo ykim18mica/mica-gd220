@@ -1,0 +1,734 @@
+html,
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* title code below */
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 3vw;
+    color: #42a049;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    line-height: 3.4vw;
+}
+
+/* navigation code below */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 1vw;
+}
+
+li {
+    display: inline;
+    -webkit-transition: 0.5s ease;
+    cursor: pointer;
+}
+
+a,
+.nav {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.5vw;
+    color: #273f1d;
+    text-decoration: none;
+    word-spacing: 2vw;
+    position: relative;
+    right: 0;
+    height: 3vw;
+}
+
+/* underline animations for navigation below */
+
+.home {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+}
+
+.home:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: -.3vw;
+    background: #273f1d;
+    height: .1vw;
+    transition-property: left right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.home:hover:after,
+.home:focus:after,
+.home:active:after {
+    right: 0;
+}
+
+.about {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+}
+
+.about:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: -.3vw;
+    background: #273f1d;
+    height: .1vw;
+    transition-property: left right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.about:hover:after,
+.about:focus:after,
+.about:active:after {
+    right: 0;
+}
+
+.speakers {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+}
+
+.speakers:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: -.3vw;
+    background: #273f1d;
+    height: .1vw;
+    transition-property: left right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.speakers:hover:after,
+.speakers:focus:after,
+.speakers:active:after {
+    right: 0;
+}
+
+.schedule {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+}
+
+.schedule:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: -.3vw;
+    background: #273f1d;
+    height: .1vw;
+    transition-property: left right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.schedule:hover:after,
+.schedule:focus:after,
+.schedule:active:after {
+    right: 0;
+}
+
+.resources {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+}
+
+.resources:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: -.3vw;
+    background: #273f1d;
+    height: .1vw;
+    transition-property: left right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.resources:hover:after,
+.resources:focus:after,
+.resources:active:after {
+    right: 0;
+}
+
+/* landing page image and slogan code below */
+
+img {
+    max-width: 100%;
+    max-height: inherit
+}
+
+.img-container {
+    position: relative;
+}
+
+.slogan {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 2.7vw;
+    color: #f1f2f2;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+
+/* image 1 and info code below */
+
+.img-container-1 {
+    position: relative;
+    padding-right: .25vw;
+    width: 45%;
+    float: left;
+}
+
+.papermaking-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #42a049;
+    background-clip: content-box;
+    padding-right: .25vw;
+}
+
+.img-container-1:hover .overlay-1 {
+    opacity: 1;
+}
+
+.overlay-text-1 {
+    color: #f1f2f2;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/* image 2 and info code below */
+
+.img-container-2 {
+    position: relative;
+    padding-left: .25vw;
+    margin-left: auto;
+    width: 55%;
+    float: left;
+
+}
+
+.abundance-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #42a049;
+    background-clip: content-box;
+    padding-left: .25vw;
+}
+
+.img-container-2:hover .overlay-2 {
+    opacity: 1;
+}
+
+.overlay-text-2 {
+    color: #f1f2f2;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/* image 3 and info code below */
+
+.img-container-3 {
+    position: relative;
+    width: 65%;
+    margin-top: .25vw;
+    float: left;
+    padding-right: .25vw;
+}
+
+.wood-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #42a049;
+    background-clip: content-box;
+    padding-right: .25vw;
+}
+
+.img-container-3:hover .overlay-3 {
+    opacity: 1;
+}
+
+.overlay-text-3 {
+    color: #f1f2f2;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* image 4 and info code below */
+
+.img-container-4 {
+    position: relative;
+    width: 35%;
+    height: auto;
+    margin-left: auto;
+    float: right;
+    margin-top: .25vw;
+    padding-left: .25vw;
+}
+
+.smoke-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #42a049;
+    background-clip: content-box;
+    padding-left: .25vw;
+}
+
+.img-container-4:hover .overlay-4 {
+    opacity: 1;
+}
+
+.overlay-text-4 {
+    color: #f1f2f2;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* image 5 and info code below */
+
+.img-container-5 {
+    position: relative;
+    width: 50%;
+    height: auto;
+    margin-top: .25vw;
+    float: left;
+    padding-right: .25vw;
+}
+
+.deforestation-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+}
+
+.overlay-5 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #42a049;
+    background-clip: content-box;
+    padding-right: .25vw;
+}
+
+.img-container-5:hover .overlay-5 {
+    opacity: 1;
+}
+
+
+.overlay-text-5 {
+    color: #f1f2f2;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* image 6 and info code below */
+
+.img-container-6 {
+    position: relative;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    float: right;
+    margin-top: .25vw;
+    padding-left: .25vw;
+    padding-bottom: 1vw;
+}
+
+.printer-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-6 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #42a049;
+    background-clip: content-box;
+    padding-left: .25vw;
+    padding-bottom: 1vw;
+}
+
+.img-container-6:hover .overlay-6 {
+    opacity: 1;
+}
+
+.overlay-text-6 {
+    color: #f1f2f2;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* about section code below */
+
+.row-1 {
+    background-color: lightgreen;
+    padding-top: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 10vw;
+
+}
+
+#about {
+    font-size: 3vw;
+    font-weight: 600;
+    padding-bottom: 2vw;
+    padding-top: 15vw;
+    margin-top: 3vw;
+    padding-left: 12vw;
+    position: relative;
+}
+
+.about-text {
+    position: relative;
+    padding-left: 12vw;
+    padding-bottom: 2vw;
+    padding-right: 5vw;
+    font-size: 1.5vw;
+    line-height: 2.3vw;
+}
+
+/* slogan-2 code below */
+
+.slogan-2 {
+    position: relative;
+    padding-left: 12vw;
+    font-size: 2vw;
+    font-weight: 500;
+    padding-top: 4vw;
+    padding-bottom: 6vw;
+}
+
+/* speakers */
+
+#speakers {
+    font-size: 3vw;
+    font-weight: 600;
+    padding-top: 15vw;
+    margin-left: 12vw;
+    position: relative;
+}
+
+/* speaker 1 code below */
+
+.img-container-7 {
+    position: relative;
+    float: left;
+    width: 30%;
+    margin-left: 16.666666%;
+    margin-top: 10vw;
+    padding: 2vw;
+}
+
+.sonja-img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.speaker-content-sonja {
+    position: relative;
+    padding-top: 2vw;
+    margin-top: 16vw;
+    padding-right: 20vw;
+
+}
+
+.speaker-name {
+    font-size: 2vw;
+    color: limegreen;
+    font-weight: 500;
+    padding-bottom: 2vw;
+}
+
+.speaker-text-1 {
+    font-size: 1.5vw;
+    line-height: 2.2vw;
+}
+
+/* speaker 2 code below */
+
+.img-container-8 {
+    position: relative;
+    float: right;
+    width: 30%;
+    margin-right: 16.666666%;
+    margin-top: 15vw;
+    padding: 2vw;
+}
+
+.sylvain-img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.speaker-content-sylvain {
+    position: relative;
+    padding-top: 2vw;
+    margin-top: 16vw;
+    padding-right: 2vw;
+    padding-left: 20vw;
+    padding-top: 5vw;
+
+
+}
+
+.speaker-text-2 {
+    font-size: 1.5vw;
+    line-height: 2.2vw;
+
+}
+
+/* speaker 3 code below */
+
+.img-container-9 {
+    position: relative;
+    float: left;
+    width: 30%;
+    margin-left: 16.666666%;
+    margin-top: 15vw;
+    padding: 2vw;
+    margin-bottom: 20vw;
+}
+
+
+.brian-img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.speaker-content-brian {
+    position: relative;
+    padding-top: 7vw;
+    margin-top: 16vw;
+    padding-right: 20vw;
+
+}
+
+.speaker-text-3 {
+    font-size: 1.5vw;
+    line-height: 2.2vw;
+}
+
+/* schedule code below */
+
+#schedule {
+    font-size: 3vw;
+    font-weight: 600;
+    margin-left: 12vw;
+    position: relative;
+    padding-bottom: 10vw;
+}
+
+.panel-text {
+    position: relative;
+    padding-left: 10vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    font-size: 1.4vw;
+}
+
+
+
+/* schedule accordian code below */
+
+.accordion {
+    background-color: lightgreen;
+    opacity: .5;
+    color: black;
+    cursor: pointer;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    padding-left: 12vw;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.8vw;
+    transition: 0.5s;
+
+}
+
+.active,
+.accordion:hover {
+    opacity: 1;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: ghostwhite;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
+
+/* footer code */
+
+.footer-text {
+    position: relative;
+    padding-top: 20vw;
+    padding-bottom: 10vw;
+    line-height: 2vw;
+    padding-left: 10vw;
+    background-color: #42a049;
+
+}
+
+.convention-center {
+    word-spacing: normal;
+    font-weight: 600;
+    font-size: 1.3vw;
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+
+}
+
+a.convention-center:hover {
+    color: ghostwhite;
+    text-decoration: none;
+
+
+}
+
+h1.title-bottom {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 3vw;
+    color: ghostwhite;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    line-height: 3.4vw;
+    float: right;
+    position: relative;
+    bottom: 10vw;
+    padding-right: 2vw;
+}

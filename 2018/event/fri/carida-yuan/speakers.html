@@ -1,0 +1,851 @@
+<!doctype html>
+<html>
+
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+	<!--    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+	<script src="js/jquery.easings.min.js"></script>
+
+	<script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+
+	<script>
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['01', '02', '03', '04', '05'],
+				afterLoad: function(anchorLink, index) {
+					if (index == 1) {
+						$(".background-about-1").addClass("moveIn");
+						$(".speaker-pg").addClass("fadeIn");
+					}
+					if (index == 2) {
+						$(".background-about-2").addClass("moveIn");
+						$(".jessica").addClass("fadeIn");
+					}
+					if (index == 3) {
+						$(".background-about-3").addClass("moveIn");
+						$(".michael").addClass("fadeIn");
+					}
+					if (index == 4) {
+						$(".background-about-4").addClass("moveIn");
+						$(".leta").addClass("fadeIn");
+					}
+				}
+
+			});
+		})
+
+		function openNav() {
+			document.getElementById("dropdown").style.display = "block";
+			document.getElementById("open").style.display = "none";
+			document.getElementById("close").style.display = "block";
+		}
+
+		function closeNav() {
+			document.getElementById("dropdown").style.display = "none";
+			document.getElementById("close").style.display = "none";
+			document.getElementById("open").style.display = "block";
+		}
+	</script>
+
+</head>
+
+
+<style>
+	.grid-container-1 {
+		display: grid;
+		grid-template-columns: 0.5fr 4fr 1fr;
+		grid-template-rows: 2fr 8fr 1fr;
+		grid-template-areas: "top-left top-place top-right" "pagebar main-place main-place" "bottom bottom bottom";
+		width: 100vw;
+		height: 100vh;
+		top: 0px;
+		min-width: 1140px;
+	}
+
+	body {
+		font-family: 'Nunito', sans-serif;
+		color: white;
+		background-color: #212121;
+		padding: 50px 0;
+	}
+
+
+	.title-logo {
+		position: fixed;
+		top: 1.5vw;
+		left: 3vw;
+		z-index: 99;
+	}
+
+	.title-logo-1 {
+		font-weight: 600;
+		font-size: 1vw;
+		line-height: 1em;
+		letter-spacing: 0.1em;
+		width: 7vw;
+		text-align: right;
+	}
+
+	.question-logo-1 {
+		font-weight: 300;
+		font-size: 3.7vw;
+		position: fixed;
+		top: -3vw;
+		left: 9.8vw;
+		z-index: 99;
+	}
+
+	.question-logo-2 {
+		font-weight: 300;
+		font-size: 3.7vw;
+		position: fixed;
+		top: -2.9vw;
+		left: 9.95vw;
+		z-index: 98;
+		color: #e5a7a3;
+	}
+
+
+	.menu {
+		box-sizing: border-box;
+		grid-area: top-right;
+		width: 30px;
+		height: 30px;
+		height: auto;
+		margin-top: 20px;
+		position: fixed;
+		top: 0.7vw;
+		right: 5vw;
+		z-index: 99;
+		display: block;
+		transition: 0.5s;
+		opacity: 1;
+	}
+
+	.menu:hover .menu-line-1 {
+		background-color: #aa8c85;
+		transition: 0.5s;
+		cursor: pointer;
+		/*transform:rotate(45deg);
+            position:absolute;
+            top:1vw;*/
+	}
+
+	.menu:hover .menu-line-2 {
+		background-color: #aa8c85;
+		transition: 0.5s;
+		cursor: pointer;
+		/*opacity:0;*/
+	}
+
+	.menu:hover .menu-line-3 {
+		background-color: #aa8c85;
+		transition: 0.5s;
+		cursor: pointer;
+		/*transform:rotate(-45deg);
+            position:absolute;
+            top:0.5vw;*/
+	}
+
+	.menu-line-1 {
+		width: 40px;
+		height: 4px;
+		background-color: white;
+		grid-area: top-right;
+		border-radius: 25px;
+	}
+
+	.menu-line-2 {
+		width: 40px;
+		height: 4px;
+		background-color: white;
+		grid-area: top-right;
+		margin-top: 8px;
+		border-radius: 25px;
+	}
+
+	.menu-line-3 {
+		width: 40px;
+		height: 4px;
+		background-color: white;
+		grid-area: top-right;
+		margin-top: 8px;
+		border-radius: 25px;
+	}
+
+	.menu-line-4 {
+		width: 40px;
+		height: 4px;
+		background-color: white;
+		grid-area: top-right;
+		margin-top: 8px;
+		border-radius: 25px;
+		transform: rotate(45deg);
+		position: fixed;
+		top: 2.2vw;
+		transition: 0.5s;
+	}
+
+	.menu-line-5 {
+		width: 40px;
+		height: 4px;
+		background-color: white;
+		grid-area: top-right;
+		margin-top: 8px;
+		border-radius: 25px;
+		transform: rotate(-45deg);
+		position: fixed;
+		top: 2.2vw;
+		transition: 0.5s;
+	}
+
+	.menu:hover .menu-line-4 {
+		background-color: #aa8c85;
+		cursor: pointer;
+	}
+
+	.menu:hover .menu-line-5 {
+		background-color: #aa8c85;
+		cursor: pointer;
+	}
+
+	#close {
+		display: none;
+		transition: 0.5s;
+	}
+
+	.menu-dropdown {
+		text-align: right;
+		grid-area: main;
+		position: absolute;
+		top: 80px;
+		right: 4vw;
+		font-size: 19px;
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+
+	#dropdown {
+		display: none;
+	}
+
+	.snip1168 {
+		box-sizing: border-box;
+		margin-top: 40px;
+		position: relative;
+		top: -20px;
+		z-index: 100;
+		display: block;
+		font-weight: 400;
+	}
+
+	.snip1168 li {
+		display: block;
+		list-style-type: none;
+		margin-top: 0px;
+		padding: 0;
+		line-height: 40px;
+	}
+
+	.snip1168 a {
+		padding: 0;
+		color: rgba(255, 255, 255);
+		position: relative;
+		letter-spacing: 1px;
+		text-decoration: none;
+		line-height: 40px;
+	}
+
+	.snip1168 a:before,
+	.snip1168 a:after {
+		position: absolute;
+		-webkit-transition: all 0.35s ease;
+		transition: all 0.35s ease;
+	}
+
+	.snip1168 a:before {
+		top: 30px;
+		left: -2px;
+		display: block;
+		height: 3px;
+		width: 0%;
+		content: "";
+		background-color: #ffffff;
+	}
+
+	.snip1168 a:after {
+		font-family: 'Nunito', sans-serif;
+		left: 0;
+		top: -7px;
+		position: absolute;
+		content: attr(data-hover);
+		color: #aa8c85;
+		white-space: nowrap;
+		max-width: 0%;
+		overflow: hidden;
+		font-weight: 500;
+	}
+
+	.snip1168 a:hover:before,
+	.snip1168 .current a:before {
+		opacity: 1;
+		width: 100%;
+		cursor: pointer;
+	}
+
+	.snip1168 a:hover:after,
+	.snip1168 .current a:after {
+		max-width: 100%;
+		cursor: pointer;
+	}
+
+
+	.page-1 {
+		min-height: 100%;
+		min-width: 1024px;
+		width: 100%;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: -99;
+		background-color: #fbc29c;
+	}
+
+
+	.background-about-1 {
+		width: 100vw;
+		height: 100vh;
+		-webkit-transform: skew(-20deg);
+		-moz-transform: skew(-20deg);
+		-o-transform: skew(-20deg);
+		background: #fcd6be;
+		position: absolute;
+		left: -150vw;
+		z-index: -98;
+
+	}
+
+	.moveIn {
+		animation: bgccolor-coming 0.35s ease-out forwards;
+	}
+
+	@keyframes bgccolor-coming {
+		from {
+			left: -150vw;
+		}
+		to {
+			left: -52vw;
+		}
+	}
+
+	.page-2 {
+		background-color: #e5a7a3;
+		z-index: -100;
+	}
+
+	.background-about-2 {
+		width: 100vw;
+		height: 100vh;
+		-webkit-transform: skew(-20deg);
+		-moz-transform: skew(-20deg);
+		-o-transform: skew(-20deg);
+		background: #eec7c3;
+		position: absolute;
+		left: -150vw;
+		z-index: 0;
+		/*        animation: bgccolor-coming 0.5s ease-out forwards;*/
+	}
+
+
+	.page-3 {
+		background-color: #acc3d2;
+		height: 100%;
+		z-index: -99;
+	}
+
+	.background-about-3 {
+		width: 100vw;
+		height: 100vh;
+		-webkit-transform: skew(-20deg);
+		-moz-transform: skew(-20deg);
+		-o-transform: skew(-20deg);
+		background: #ccd8e3;
+		position: absolute;
+		left: -150vw;
+		z-index: 0;
+	}
+
+	.page-4 {
+		background-color: #e5b476;
+		position: absolute;
+		top: 0;
+		z-index: -100;
+	}
+
+	.background-about-4 {
+		width: 100vw;
+		height: 100vh;
+		-webkit-transform: skew(-20deg);
+		-moz-transform: skew(-20deg);
+		-o-transform: skew(-20deg);
+		background: #efd0af;
+		position: absolute;
+		left: -150vw;
+		z-index: 0;
+	}
+
+
+	/*
+ .page-5 { background-color: #e5b476; height: 50vh; position: absolute; top: 0; z-index: -100; margin: 50px; } .background-about-5 { width: 100vw; height: 50vh; -webkit-transform: skew(-20deg); -moz-transform: skew(-20deg); -o-transform: skew(-20deg); background: #efd0af; position: absolute; left: 2vw; z-index: 0; }*/
+
+	.about-head {
+		font-weight: 400;
+		font-size: 2vw;
+		width: 8vw;
+		height: 2.8vw;
+		text-align: center;
+		color: white;
+		border: 0.15vw solid white;
+		border-radius: 3px;
+		position: absolute;
+		top: 5vw;
+		left: 5vw;
+	}
+
+	.speaker-pg {
+		opacity: 0;
+	}
+
+	.speakers {
+		width: 11vw;
+		position: absolute;
+		top: 13vw;
+		left: 13vw;
+	}
+
+	.page-1-content {
+		font-weight: 300;
+		font-size: 1.7vw;
+		letter-spacing: 0.1vw;
+		position: absolute;
+		top: 20vw;
+		left: 13vw;
+		text-align: left;
+		width: 30vw;
+		color: white;
+	}
+
+	.page-1-content-2 {
+		font-weight: 300;
+		font-size: 1.7vw;
+		letter-spacing: 0.1vw;
+		position: absolute;
+		top: 20vw;
+		left: 55vw;
+		text-align: left;
+		width: 25vw;
+		color: white;
+	}
+
+	i {
+		border: solid white;
+		border-width: 0 0.1vw 0.1vw 0;
+		display: inline-block;
+		padding: 1vw;
+	}
+
+
+	.arrow-down {
+		position: absolute;
+		top: 44vw;
+		right: 49.6vw;
+		transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		animation: arrowmove 1s infinite;
+	}
+
+	@keyframes arrowmove {
+		0% {
+			top: 44vw;
+		}
+		50% {
+			top: 45vw;
+		}
+		100% {
+			top: 44vw;
+		}
+	}
+
+	/*
+ .arrowmove { animation: arrowmove 1s ease-in infinite; animation-delay: 1s; animation: fadeIn 0.5s ease-in forwards; animation-delay: 0.4s; }
+*/
+
+	.jessica {
+		z-index: 1;
+		opacity: 0;
+
+	}
+
+	.fadeIn {
+		animation: fadeIn 0.5s ease-in forwards;
+		animation-delay: 0.4s;
+	}
+
+	@keyframes fadeIn {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+
+	.headshots {
+		width: 17vw;
+		height: 17vw;
+		position: absolute;
+	}
+
+	.headshots-1 {
+		width: 15vw;
+		height: 15vw;
+		top: 16vw;
+		left: 42vw;
+		z-index: 98;
+	}
+
+	.names {
+		width: 20vw;
+		color: white;
+		position: absolute;
+		letter-spacing: 1.2px;
+		word-spacing: 5px;
+		font-size: 1.5vw;
+	}
+
+	.name-4 {
+		top: 29vw;
+		left: 43vw;
+	}
+
+	.jessica-contact {
+		position: absolute;
+		top: 31.3vw;
+		left: 41vw;
+		font-weight: 300;
+		font-size: 1vw;
+	}
+
+	.jessica-info-1 {
+		width: 18vw;
+		color: white;
+		position: absolute;
+		font-size: 1vw;
+		top: 19vw;
+		left: 65vw;
+		line-height: 1.5;
+		text-align: left;
+		font-weight: 300;
+	}
+
+	.jessica-info-2 {
+		width: 25vw;
+		color: white;
+		position: absolute;
+		font-size: 1.4vw;
+		top: 13.3vw;
+		left: 10vw;
+		font-weight: 300;
+	}
+
+	.michael {
+		opacity: 0;
+	}
+
+	.headshots-3 {
+		width: 13.5vw;
+		height: 12.7vw;
+		top: 16vw;
+		left: 42.5vw;
+		z-index: 98;
+	}
+
+	.name-2 {
+		top: 28.2vw;
+		left: 42.2vw;
+	}
+
+	.michael-contact {
+		position: absolute;
+		top: 30.6vw;
+		left: 42.6vw;
+		line-height: 1.2;
+		text-align: center;
+		font-size: 1vw;
+	}
+
+	.michael-info-1 {
+		width: 19vw;
+		color: white;
+		position: absolute;
+		font-size: 1vw;
+		top: 21vw;
+		left: 65vw;
+		font-weight: 300;
+	}
+
+	.michael-info-2 {
+		width: 25vw;
+		color: white;
+		position: absolute;
+		font-size: 1.4vw;
+		top: 14vw;
+		left: 10vw;
+		font-weight: 300;
+	}
+
+	.leta {
+		opacity: 0;
+	}
+
+	.headshots-2 {
+		width: 13vw;
+		height: 13vw;
+		top: 16vw;
+		left: 42.5vw;
+		z-index: 98;
+	}
+
+	.name-3 {
+		top: 28.2vw;
+		left: 41.7vw;
+	}
+
+	.leta-contact {
+		position: absolute;
+		top: 30.6vw;
+		left: 41.75vw;
+	}
+
+	.leta-info-1 {
+		width: 16vw;
+		color: white;
+		position: absolute;
+		font-size: 1vw;
+		top: 21vw;
+		left: 65vw;
+		font-weight: 300;
+	}
+
+	.leta-info-2 {
+		width: 28vw;
+		color: white;
+		position: absolute;
+		font-size: 1.4vw;
+		top: 12vw;
+		left: 10vw;
+		font-weight: 300;
+	}
+
+	.page-5 {
+		height: 11vh;
+		background: #e5b476;
+	}
+
+
+	.background-about-5 {
+		width: 50vw;
+		height: 11vh;
+		-webkit-transform: skew(-20deg);
+		-moz-transform: skew(-20deg);
+		-o-transform: skew(-20deg);
+		background: #efd0af;
+		position: absolute;
+		left: -12.3vw;
+		z-index: 0;
+	}
+
+	.schedule {
+		position: absolute;
+		left: 42vw;
+		font-weight: 300;
+		font-size: 1.3vw;
+		text-transform: uppercase;
+
+	}
+
+	.schedule a {
+		text-decoration: none;
+		color: white;
+		text-align: center;
+	}
+
+	.schedule a:before,
+	.schedule a:after {
+		position: absolute;
+		-webkit-transition: all 0.35s ease;
+		transition: all 0.35s ease;
+	}
+
+	.schedule a:before {
+		top: 30px;
+		left: -2px;
+		display: block;
+		content: "";
+		height: 3px;
+		width: 0%;
+		background-color: #ffffff;
+		top: 3vw;
+		left: 0.05vw;
+	}
+
+	.schedule a:after {
+		left: 0.56vw;
+		bottom: 1vw;
+		/*        content: "SCHEDULE / LOCATION";*/
+		font-weight: 400;
+		position: absolute;
+		color: #e5a7a3;
+		white-space: nowrap;
+		max-width: 0%;
+		overflow: hidden;
+		text-decoration: none;
+	}
+
+	.schedule a:hover:before,
+	.schedule a .current :before {
+		opacity: 1;
+		width: 100%;
+		cursor: pointer;
+	}
+
+	.schedule a:hover:after,
+	.schedule a .current :after {
+		max-width: 100%;
+		cursor: pointer;
+	}
+</style>
+
+<body>
+
+	<div class="title-logo">
+		<p class="title-logo-1">FREELANCE<br>IN-HOUSE</p>
+		<p class="question-logo-1">?</p>
+		<p class="question-logo-2">?</p>
+
+	</div>
+	<div id="nav">
+		<div class="menu" id="open" onClick="openNav()">
+			<!-- <img src="gd2-final-images-copy/Asset%203.svg" width="50">-->
+			<div class="menu-line-1"></div>
+			<div class="menu-line-2"></div>
+			<div class="menu-line-3"></div>
+		</div>
+		<div class="menu" id="close" onClick="closeNav()">
+			<!-- <img src="gd2-final-images-copy/Asset%203.svg" width="50">-->
+			<div class="menu-line-4"></div>
+			<div class="menu-line-5"></div>
+
+		</div>
+
+		<div class="menu-dropdown" id="dropdown">
+			<ul class="snip1168">
+				<li><a href="index.html" data-hover="Home">Home</a></li>
+				<li><a href="about.html" data-hover="About this event">About this event</a></li>
+				<li class="current"><a href="speakers.html" data-hover="speakers">speakers</a></li>
+				<li><a href="schedule.html" data-hover="Schedule / Location">Schedule / Location</a></li>
+				<li><a href="register.html" data-hover="Register">Register</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="fullpage">
+		<div class="section">
+			<div class="grid-container-1 page page-1">
+				<div class="background-about-1"></div>
+				<div class="speaker-pg">
+					<p class="about-head speakers">SPEAKERS</p>
+					<p class="page-1-content">Speakers are from various specialized design field, who<br> have all worked both as in-house employees and freelancers.</p>
+					<p class="page-1-content-2">We are very excited to have them to share their precious experience in different stages of their life with us.</p>
+					<i class="arrow-down"></i>
+
+
+				</div>
+			</div>
+
+		</div>
+		<div class="section">
+			<div class="grid-container-1 page page-2">
+				<div class="bgc-color background-about-2"></div>
+				<div class="jessica">
+					<img src="gd2-final-images-copy/helenaprice-crop.png" class="headshots headshots-1">
+					<p class="names name-4">JESSICA HISCHE</p>
+					<p class="jessica-contact">http://jessicahische.is/thinkingthoughts</p>
+					<p class="jessica-info-1">"Dear Designer McDesignperson,
+						<br>I am a current senior majoring in design/illustration. I was wondering what I can do to promote myself and get freelance work?....[five paragraphs of life story]...any advice you can give would be greatly appreciated! Thanks!"<br><br> A message from a senior student.</p>
+					<p class="jessica-info-2">“I am asked this question constantly (as are other designers and illustrators that are doing fairly well for themselves). Each time, I wish I had a precise and perfect answer to give to the sender,<br> but I don’t—not because I forget what it's like to struggle for work, but because what works for one person does not necessarily work for all people. If you are a student or someone starting out in the field, hopefully I can give you a bit of advice for how to get work and promote yourself in this talk.”
+
+					</p>
+					<i class="arrow-down"></i>
+
+				</div>
+
+			</div>
+		</div>
+		<div class="section">
+			<div class="grid-container-1 page page-3">
+				<div class="bgc-color background-about-3"></div>
+				<div class="michael">
+					<img src="gd2-final-images-copy/maxresdefault%20(1).png" class="headshots headshots-3">
+					<p class="names name-2">MICHAEL BIERUT</p>
+					<p class="michael-contact">https://www.pentagram.com/<br>about/michael-bierut</p>
+					<p class="michael-info-1">“I think different designers have different points of view and different strong personalities can influence the way<br> certain cities are perceived.”</p>
+					<p class="michael-info-2">Bierut served as president of the New York Chapter of the American Institute<br> of Graphic Arts (AIGA) from 1988 to 1990 and is president emeritus of AIGA National. He was elected to the Alliance Graphique Internationale in 1989, to <br>the Art Directors Club Hall of Fame<br> in 2003, and was awarded the profession’s highest honor, the AIGA Medal, in 2006. In 2016, he was the Henry Wolf Resident in Graphic Design at the American Academy in Rome.</p>
+					<i class="arrow-down"></i>
+				</div>
+
+			</div>
+
+		</div>
+		<div class="section">
+			<div class="grid-container-1 page page-4">
+				<div class="bgc-color background-about-4"></div>
+				<div class="leta">
+					<img src="gd2-final-images-copy/IMG_8217.png" class="headshots headshots-2">
+					<p class="names name-3">LETA SOBIERAJSKI </p>
+					<p class="leta-contact">https://letasobierajski.com/</p>
+					<p class="leta-info-1">“Work hard, don’t be an asshole, and be patient. I always want immediate results but it takes time, energy, and patience to progress and improve my craft.”</p>
+					<p class="leta-info-2">She studied graphic design at Purchase College and has been working indepen-<br>dently since 2013. Her client list includes Adobe,Bloomberg Businessweek, D.S. & Durga, Google, Gucci, IBM, The New York Times, Refinery 29, Renault, Süddeutsche Zeitung Magazin, Target, Tate Modern, and UNIQLO among many others. She has been recognized as an Art Directors Club Young Guns 15 recipient as well as Print magazine’s New Visual Artist, and has given talks at conferences and institutions all over the world including North America, South America, Europe, and Australia.</p>
+					<i class="arrow-down"></i>
+				</div>
+
+
+			</div>
+
+		</div>
+
+		<div class="section fp-auto-height">
+			<div class="page-5">
+				<div class=" background-about-5"></div>
+				<div class="schedule">
+					<a href="schedule.html">
+						<p class="current ">Schedule / Location</p>
+					</a>
+				</div>
+
+
+			</div>
+		</div>
+
+	</div>
+
+
+
+</body>
+
+</html>

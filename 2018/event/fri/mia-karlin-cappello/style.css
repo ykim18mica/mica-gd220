@@ -1,0 +1,472 @@
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+/*NAVIGATION BAR*/
+
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: white;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding: 5px 5px 5px 5px;
+
+}
+
+.sidenav a {
+	padding: 10px 10px 10px 34px;
+	text-decoration: none;
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	letter-spacing: inherit;
+	color: black;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav a:hover {
+	color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 65px;
+}
+
+.menu-bar {
+	position: relative;
+	top: 400px;
+	padding-left: 20px;
+}
+
+.closebtn {
+	top: 300px;
+}
+
+.title {
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	padding-top: 75px;
+	padding-left: 450px;
+	width: 800px;
+}
+
+/* source url - https://www.w3schools.com/howto/howto_js_sidenav.asp*/
+
+/*DROP DOWN NAVIGATION*/
+
+.sidenav a,
+.dropdown-btn {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+	display: block;
+	border: none;
+	background: none;
+	width: 100%;
+	text-align: left;
+	cursor: pointer;
+	outline: none;
+}
+
+.sidenav a:hover,
+.dropdown-btn:hover {
+	color: magenta;
+	font-size: 18px;
+}
+
+.main {
+	margin-left: 200px;
+	/* Same as the width of the sidenav */
+	font-size: 20px;
+	/* Increased text to enable scrolling */
+	padding: 0px 10px;
+}
+
+.active {
+	background-color: none;
+	color: white;
+}
+
+.dropdown-container {
+	background-color: white;
+	padding-left: 15px;
+}
+
+.fa-caret-down {
+	background-color: white;
+	float: right;
+}
+
+h1 {
+	font-size: 18px;
+	text-align: justify;
+}
+
+h2 {
+	font-size: 17px;
+	text-align: justify;
+
+}
+
+p {
+	font-size: 15px;
+	text-align: justify;
+
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a {
+		font-size: 15px;
+	}
+}
+
+/* source url - https://www.w3schools.com/howto/howto_js_dropdown_sidenav.asp*/
+
+/*SOCIAL MEDIA BUTTONS*/
+
+.fa-stack {
+	position: fixed;
+	bottom: 95px;
+	right: 40px;
+	font-size: 22px;
+	width: 0px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+	color: black;
+}
+
+.fa-twitter {
+	color: black;
+}
+
+.fa-instagram {
+	color: black;
+}
+
+/*source url - https://www.w3schools.com/howto/howto_css_social_media_buttons.asp*/
+
+/*ABOOUT PAGE*/
+
+/*ABOUT PAGE-TITLE*/
+
+.title-about {
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	line-height: inherit;
+	padding-top: 75px;
+	padding-left: 25%;
+	padding-left: 25%;
+	width: 800px;
+}
+
+/*SCHEDULE*/
+
+.schedule-time-1 {
+    padding-top: 200px;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	line-height: inherit;
+	margin-top: 40px;
+	padding-left: 25%;
+	padding-right: 25%;
+	width: 800px;
+}
+
+.schedule-time-2 {
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	line-height: inherit;
+	padding-left: 450px;
+	padding-left: 25%;
+	padding-right: 25%;
+	width: 800px;
+
+}
+
+.schedule-time-3 {
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	line-height: inherit;
+	padding-left: 25%;
+	padding-right: 25%;
+	width: 800px;
+}
+
+.schedule-time-4 {
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	line-height: inherit;
+	padding-left: 25%;
+	padding-right: 25%;
+	width: 800px;
+}
+
+.schedule-time-5 {
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	line-height: inherit;
+	padding-left: 25%;
+	padding-right: 25%;
+	width: 800px;
+}
+
+.schedule-time-6 {
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	line-height: inherit;
+	padding-left: 25%;
+	padding-right: 25%;
+	width: 800px;
+}
+
+/*SPEAKER IMAGES*/
+
+#pawel-nolbert {
+	float: left;
+	padding-left: 25%;
+	margin-top: 75px;
+}
+
+#cao-fei {
+	float: left;
+	margin-top: 75px;
+}
+
+#ian-cheng {
+	float: left;
+	margin-top: 75px;
+}
+
+
+#tamiko-thiel {
+	float: left;
+	margin-top: 75px;
+}
+
+
+#dan-oreilly {
+	float: left;
+	margin-top: 75px;
+}
+
+/*SPEAKER-TEXT*/
+
+.speaker-1 {
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	line-height: inherit;
+	padding-top: 75px;
+	padding-left: 28%;
+	padding-right: 25%;
+}
+
+.speaker-2 {
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	line-height: inherit;
+	padding-top: 5px;
+	padding-left: 28%;
+	padding-right: 25%;
+}
+
+.speaker-3 {
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	line-height: inherit;
+	padding-top: 5px;
+	padding-left: 28%;
+	padding-right: 25%;
+}
+
+
+.speaker-4 {
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	line-height: inherit;
+	padding-top: 5px;
+	padding-left: 28%;
+	padding-right: 25%;
+}
+
+.speaker-5 {
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	line-height: inherit;
+	padding-top: 5px;
+	padding-left: 28%;
+	padding-right: 25%;
+}
+
+
+/*EXHIBIT*/
+
+/*WEBSITE LINK*/
+
+.site-link {
+	color: magenta;
+}
+
+
+/*EXHIBIT 1*/
+
+/*CONSTRUCTED-TEXT*/
+
+.constructed-text {
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	line-height: inherit;
+	padding-left: 25%;
+	padding-right: 25%;
+	/*	width: 800px;*/
+	width: 640px;
+}
+
+/*EXHIBIT 2*/
+
+/*WHOSE UTOPIA-VIDEO*/
+
+.whose-utopia-video iframe {
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-top: 75px;
+}
+
+/*WHOSE UTOPIA-TEXT*/
+
+.whose-utopia-text {
+	padding-top: 10px;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	line-height: inherit;
+	padding-left: 25%;
+	padding-right: 25%;
+	/*	width: 800px;*/
+	width: 640px;
+}
+
+/*EXHIBIT 3*/
+
+/*FRACTURED VISIONS-VIDEO*/
+
+.fractured-visions-video iframe {
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-top: 75px;
+}
+
+/*FRACTURED VISIONS-TEXT*/
+
+.fractured-visions-text {
+	padding-top: 10px;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	line-height: inherit;
+	padding-left: 25%;
+	padding-right: 25%;
+	width: 640px;
+
+}
+
+/*EXHIBIT 4*/
+
+/*EMISSARIES-VIDEO*/
+
+.emissaries-video iframe {
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-top: 75px;
+}
+
+/*EMISSARIES-TEXT*/
+
+.emissaries-text {
+	padding-top: 10px;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	line-height: inherit;
+	padding-left: 25%;
+	padding-right: 25%;
+	width: 640px;
+
+}
+
+/*EXHIBIT 5*/
+
+/*BLACK LAKE-VIDEO*/
+
+.black-lake-video iframe {
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-top: 75px;
+}
+
+/*BLACK LAKE EXHIBIT TEXT*/
+
+.black-lake-text {
+	padding-top: 10px;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	line-height: inherit;
+	padding-left: 25%;
+	padding-right: 25%;
+	width: 640px;
+}
+
+/*INFO PAGE*/
+
+/*INFO-TEXT*/
+
+.title-info-1 {
+	padding-top: 120px;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	line-height: inherit;
+	padding-left: 25%;
+	padding-right: 25%;
+	width: 640px;
+}
+
+.title-info-2 {
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	line-height: inherit;
+	padding-left: 25%;
+	padding-right: 25%;
+	width: 640px;
+}
+
+.title-info-3 {
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	line-height: inherit;
+	padding-left: 25%;
+	padding-right: 25%;
+	width: 640px;
+}
+
+/*INFO-GOOGLE MAPS*/
+
+.google-maps iframe {
+	padding-left: 25%;
+	padding-right: 25%;
+	margin-top: 75px;

@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>WES ANDERSON</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat|Roboto|Roboto+Condensed" rel="stylesheet">
+
+    <style>
+        html {
+            box-sizing: border-box;
+        }
+
+
+        .h-900 {
+            height: 900px;
+        }
+
+        .img-1 {
+            background-image: url(image/img-1.png);
+            background-size: cover;
+            position: relative;
+        }
+
+        div.box-2 {
+            background-color: rgb(246, 203, 210);
+            position: relative;
+        }
+
+        .img-2 {
+            background-image: url(image/img-2.png);
+            background-size: cover;
+            position: relative;
+        }
+
+        .img-2-1 {
+            background-image: url(image/img-2-1.png);
+            background-size: cover;
+            position: relative;
+        }
+
+        h1.img-2,
+        h1.img-2-1 {
+            position: absolute;
+        }
+
+        h1.img-2 {
+            z-index: 2;
+            animation: fadeOut 10s infinite;
+        }
+
+        h1.img-2-1 {
+            animation: fadeIn 8s infinite;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @keyframes fadeOut {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+
+        .img-3 {
+            background-image: url(image/img-3.png);
+            background-size: cover;
+            position: relative;
+        }
+
+        .img-4 {
+            background-image: url(image/img-4.png);
+            background-size: cover;
+            position: relative;
+        }
+
+        .img-5 {
+            background-image: url(image/img-5.png);
+            background-size: cover;
+            position: relative;
+        }
+
+        .img-6 {
+            background-image: url(image/img-6.png);
+            background-size: cover;
+            position: relative;
+        }
+
+        .sm-1 {
+            font-family: 'montserrat';
+            font-size: 15px;
+            color: rgb(80, 137, 157);
+        }
+
+        .text-location {
+            position: absolute;
+            left: 40px;
+            top: 40px;
+            line-height: 20px;
+        }
+
+        .text-time {
+            position: absolute;
+            right: 40px;
+            top: 40px;
+            text-align: center;
+            line-height: 20px;
+        }
+
+        .title {
+            position: absolute;
+            top: 400px;
+            left: 180px;
+        }
+
+        .lg-1 {
+            font-family: 'montserrat';
+            font-weight: bolder;
+            font-size: 100px;
+            text-align: center;
+            color: rgb(80, 137, 157);
+        }
+
+        .sm-2 {
+            font-family: 'montserrat';
+            font-weight: 600;
+            font-size: 30px;
+            color: rgb(80, 137, 157);
+        }
+
+        .date1 {
+            position: absolute;
+            top: 800px;
+            left: 50px;
+        }
+
+        .date2 {
+            position: absolute;
+            top: 800px;
+            left: 300px;
+        }
+
+        .date3 {
+            position: absolute;
+            top: 800px;
+            left: 570px;
+        }
+
+        .date4 {
+            position: absolute;
+            top: 800px;
+            right: 300px;
+        }
+
+        .date5 {
+            position: absolute;
+            top: 800px;
+            right: 50px;
+        }
+
+        .budapest {
+            position: absolute;
+            top: 100px;
+            left: 380px;
+            line-height: 65px;
+            font-family: 'abril fatface';
+            text-align: center;
+            font-size: 45px;
+            font-kerning: ;
+            color: rgb(48, 32, 17);
+        }
+
+        .ten {
+            position: absolute;
+            top: 830px;
+            left: 1080px;
+            font-family: 'abril fatface';
+            text-align: center;
+            font-size: 20px;
+            color: rgb(194, 109, 116);
+            z-index: 200;
+        }
+
+        .quote1 {
+            position: relative;
+            top: 600px;
+            right: 30px;
+            font-family: 'abril fatface';
+            text-align: center;
+            font-size: 25px;
+            z-index: 300;
+            animation: color-change 6s infinite;
+        }
+
+        @keyframes color-change {
+            from {
+                color: rgb(48, 32, 17);
+            }
+            to {
+                color: rgb(191, 30, 48);
+            }
+        }
+
+        .royal {
+            position: absolute;
+            top: 300px;
+            right: 80px;
+            font-family: 'roboto condensed';
+            font-size: 50px;
+            font-weight: 600;
+            line-height: 70px;
+            text-align: center;
+            color: rgb(191, 30, 48);
+        }
+
+        .rt-1 {
+            position: absolute;
+            left: 55px;
+            top: 25px;
+            z-index: 100;
+            animation: rot 3s ease-in-out infinite;
+        }
+
+        @keyframes rot {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .rt-2 {
+            position: absolute;
+            left: 70px;
+            top: 20px;
+        }
+
+        .rt-3 {
+            position: absolute;
+            left: 230px;
+            z-index: 200;
+        }
+
+        .moon {
+            position: absolute;
+            top: 150px;
+            left: 330px;
+            font-family: 'Pinyon Script', cursive;
+            font-size: 80px;
+            text-align: center;
+            color: rgb(229, 183, 38);
+        }
+
+        .thirteen {
+            position: absolute;
+            top: 855px;
+            left: 1050px;
+            font-family: 'Pinyon Script';
+            font-size: 20px;
+            text-align: center;
+            color: rgb(229, 183, 38)
+        }
+
+        .Ymoon {
+            position: absolute;
+            left: 50px;
+            z-index: 2;
+            animation: moveX 15s infinite;
+        }
+
+        @keyframes moveX {
+            0% {
+                top: 5px;
+                left: -10%;
+                width: 50%;
+            }
+            30% {
+                top: -30%;
+                left: 30%;
+                width: 45%;
+            }
+            100% {
+                top: 10%;
+                left: 65%;
+                width: 40%;
+            }
+        }
+
+        @keyframes moveY {
+            0% {
+                top: -22px;
+            }
+            100% {
+                top: 282px;
+            }
+        }
+
+        .darjeeling {
+            position: absolute;
+            top: 50px;
+            left: 430px;
+            font-family: 'roboto';
+            font-size: 60px;
+            font-weight: bolder;
+            text-align: center;
+            line-height: 1;
+            color: rgb(35, 106, 136);
+        }
+
+        .twelve {
+            position: absolute;
+            top: 850px;
+            left: 1100px;
+            font-family: 'roboto';
+            font-size: 20px;
+            color: rgb(35, 106, 136);
+        }
+
+        .how {
+            position: absolute;
+            top: 400px;
+            left: 40px;
+            font-family: 'roboto';
+            font-size: 30px;
+            font-weight: 700;
+            color: rgb(35, 106, 136);
+            animation: mov-right1 4s infinite;
+        }
+
+        @keyframes move-right1 {
+            from {
+                right: 50px;
+            }
+            to {
+                left: 200px;
+            }
+        }
+
+        .rails {
+            position: absolute;
+            top: 680px;
+            right: 40px;
+            font-family: 'roboto';
+            font-size: 30px;
+            font-weight: 700;
+            color: rgb(35, 106, 136);
+            animation: moe-left1 6s infinite;
+        }
+
+        @keyframes move-left1 {
+            from {
+                left: 620px;
+            }
+            to {
+                left: 50px;
+            }
+        }
+
+        .train1 {
+            position: absolute;
+            top: 30px;
+            animation: move-right 8s infinite;
+        }
+
+        @keyframes move-right {
+            from {
+                left: 0px;
+            }
+            to {
+                left: 620px;
+            }
+        }
+
+        .train2 {
+            position: absolute;
+            top: 250px;
+            left: 500px;
+            animation: move-left 5s infinite;
+        }
+
+        @keyframes move-left {
+            from {
+                left: 620px;
+            }
+            to {
+                left: -10px;
+            }
+        }
+
+        .aquatic {
+            position: absolute;
+            top: 70px;
+            left: 150px;
+            font-family: 'roboto condensed';
+            font-size: 50px;
+            text-align: center;
+            line-height: 1.5;
+            color: rgb(19, 131, 155);
+        }
+
+        .fourteen {
+            position: absolute;
+            top: 850px;
+            left: 1080px;
+            font-family: 'roboto condensed';
+            font-size: 20px;
+            z-index: 30;
+            color: rgb(128, 180, 191);
+        }
+
+        .w1 {
+            position: absolute;
+            top: -165px;
+            left: 0px;
+        }
+
+        .w2 {
+            position: absolute;
+            top: -105px;
+        }
+
+        .w3 {
+            position: absolute;
+            top: -55px;
+        }
+
+        .shark {
+            position: absolute;
+            top: 400px;
+            animation: move-right 3s infinite;
+        }
+
+        .Y {
+            position: absolute;
+            left: 650px;
+            top: 10px;
+            animation: move-left 10s infinite;
+        }
+
+        .eleven {
+            position: absolute;
+            top: 840px;
+            right: 80px;
+            font-family: 'roboto condensed';
+            font-size: 25px;
+            font-weight: 400;
+            color: rgb(191, 30, 48);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="grid-container">
+        <div class="row" id="15">
+            <div class="col-12 h-900 img-1">
+                <p class="text-location sm-1">
+                    The Charles Theatre<br> 1711 N Charles St,<br> Baltimore, MD 21201</p>
+                <p class="text-time sm-1">
+                    March 10th<br> - <br> March 14th
+                </p>
+                <p class="title lg-1">
+                    WES ANDERSON
+                </p>
+
+                <a href="#10" class="date1 sm-2">3/10</a>
+                <a href="#11" class="date2 sm-2">3/11</a>
+                <a href="#12" class="date3 sm-2">3/12</a>
+                <a href="#13" class="date4 sm-2">3/13</a>
+                <a href="#14" class="date5 sm-2">3/14</a>
+
+
+            </div>
+        </div>
+
+        <div class="row" id="10">
+            <div class="col-12 h-900 img-2">
+                <p class="budapest">The<br>Grand Budapest Hotel</p>
+                <a href="#11" class="ten">3/10</a>
+            </div>
+            <h1 class="col-12 h-900 img-2-1">
+                <p class="budapest">The<br>Grand Budapest Hotel</p>
+            </h1>
+
+        </div>
+
+        <div class="row" id="11">
+            <div class="col-12 h-900 img-3">
+                <p class="royal">THE<br>ROYAL<br>TENENBAUMS</p>
+                <a href="#12" class="eleven">3/11</a>
+                <img class="rt-1 col-6" src="image/rt-1.png">
+                <img class="rt-2 col-7" src="image/rt-2.png">
+                <img class="rt-3 col-6" src="image/rt-3.png">
+            </div>
+        </div>
+
+        <div class="row" id="12">
+            <div class="col-12 h-900 img-4">
+                <p class="darjeeling">
+                    -THE-<br> DARJEELING
+                    <br> -LIMITED-
+                </p>
+                <a href="#13" class="twelve">3/12</a>
+                <p class="how">"HOW CAN A TRAIN BE LOST?</p>
+                <p class="rails">IT'S ON RAILS."</p>
+                <img class="train1 col-6" src="image/train1.png">
+                <img class="train2 col-7" src="image/train2.png">
+            </div>
+        </div>
+
+        <div class="row" id="13">
+            <div class="col-12 h-900 img-5">
+                <a href="#14" class="thirteen">3/13</a>
+                <p class="moon">Moonrise Kingdom</p>
+                <img class="Ymoon col-5" src="image/Ymoon.png">
+            </div>
+        </div>
+
+        <div class="row" id="14">
+            <div class="col-12 h-900 img-6">
+                <p class="aquatic">THE<br> LIFE AQUATIC </p>
+                <a href="#15" class="fourteen">3/14</a>
+                <img class="w1 col-12" src="image/w1.png">
+                <img class="w2 col-12" src="image/w2.png">
+                <img class="w3 col-12" src="image/w3.png">
+                <img class="shark col-5" src="image/shark.png">
+                <img class="Y col-5" src="image/Y.png">
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

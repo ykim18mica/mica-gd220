@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="google" content="notranslate" />
+    <title>Yasujirō Ozu</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <style>
+        @import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+        @import url(//fonts.googleapis.com/earlyaccess/mplus1p.css);
+
+        html,
+        body {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+        }
+
+        /*
+        @keyframes cloo {
+            0% {
+                color: aliceblue;
+            }
+            25% {
+                color: aqua;
+            }
+            50% {
+                color: blue;
+            }
+            75% {
+                color: darkslateblue;
+            }
+            100% {
+                color: aliceblue;
+            }
+        }
+*/
+
+        /*
+        .mm {
+            color: aliceblue;
+            animation-name: cloo;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+*/
+
+        .ch {
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            width: 30vh;
+            animation: bril 5s infinite;
+        }
+
+        @keyframes bril {
+            0% {
+                filter: brightness(40%);
+            }
+            50% {
+                filter: brightness(0%);
+            }
+            100% {
+                filter: brightness(40%);
+            }
+        }
+
+        .mt {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            writing-mode: vertical-rl;
+            font-family: 'Noto Sans Japanese', sans-serif;
+            font-weight: 600;
+            font-size: 3vh;
+        }
+
+        .mill {
+            width: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .maintitle {
+            line-height: 1.3;
+            text-align: center;
+            color: aliceblue;
+            position: absolute;
+            left: 60px;
+        }
+
+        .fadeIn {
+            animation-delay: 2s;
+        }
+
+        /*
+        .firstpagecontents {
+            opacity: 0;
+            animation-name: fain;
+            animation-delay: 1s;
+            animation-duration: 2s;
+
+        }
+
+        @keyframes fain {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+*/
+
+        .maintitle2 {
+            color: darkgray;
+            font-weight: 600;
+            font-size: 2vh;
+            position: absolute;
+            right: 60px;
+        }
+
+        .maintitle3 {
+            color: darkgray;
+            font-size: 2.5vh;
+            -webkit-text-orientation: upright;
+            text-orientation: upright;
+            position: absolute;
+            right: 90px;
+        }
+
+        .website {
+            color: aliceblue;
+            text-align: center;
+            font-family: 'Noto Sans Japanese', sans-serif;
+            font-weight: 600;
+            font-size: 1.5vh;
+            position: absolute;
+            top: 60px;
+        }
+
+        .location {
+            color: aliceblue;
+            font-family: 'Noto Sans Japanese', sans-serif;
+            font-weight: 400;
+            font-size: 1.4vh;
+            position: absolute;
+            bottom: 50px;
+            opacity: 0.6;
+        }
+
+        /*
+        .location:hover{
+            opacity: inherit;
+        }
+*/
+
+        a:link {
+            color: darkgray;
+        }
+
+        a:visited {
+            color: darkgray;
+        }
+
+        a:hover {
+            color: aliceblue;
+        }
+
+        .maii {
+            /*-webkit-filter: grayscale(100%);*/
+            background-color: black;
+            box-shadow: 0px 0px 0px 30px white inset;
+        }
+
+        .maii2 {
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4) 100%), url(images/1.png);
+            box-shadow: 0px 0px 0px 30px white inset;
+            width: 1200px;
+            height: 800px;
+        }
+
+        .maii3 {
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4) 100%), url(images/ls.png);
+            box-shadow: 0px 0px 0px 30px white inset;
+            background-size: 140%;
+            width: 1200px;
+            height: 800px;
+        }
+
+        .maii4 {
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4) 100%), url(http://3.bp.blogspot.com/-9Ecw1PLgMgA/U8-VZxDv7zI/AAAAAAAAE48/EhYPpzNS9hc/s1600/Early+Spring+11.jpg);
+            box-shadow: 0px 0px 0px 30px white inset;
+            background-size: 82%;
+            width: 1200px;
+        }
+
+        .maii5 {
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4) 100%), url(http://www.a2pcinema.com/ozu-san/films/captures/earlysummer/pillow7.jpg);
+            box-shadow: 0px 0px 0px 30px white inset;
+            background-size: 61%;
+            width: 1200px;
+            height: 100vh;
+        }
+
+        .maii6 {
+            /*-webkit-filter: grayscale(100%);*/
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4) 100%), url(https://image.tmdb.org/t/p/original/jqfQ6VYx6TBVE0SF1m9WmGunyxZ.jpg);
+            box-shadow: 0px 0px 0px 30px white inset;
+            background-size: 150%;
+            background-position: center;
+            width: 1200px;
+            height: 100vh;
+        }
+
+        .rt {
+            color: aliceblue;
+            position: absolute;
+            left: 1075px;
+            top: 80px;
+            z-index: 10;
+            font-family: 'Mplus 1p', sans-serif;
+            font-weight: 600;
+            font-size: 6vh;
+        }
+
+        .rb {
+            color: aliceblue;
+            position: absolute;
+            left: 1075px;
+            bottom: 80px;
+            z-index: 10;
+            font-family: 'Mplus 1p', sans-serif;
+            font-weight: 600;
+            font-size: 6vh;
+        }
+
+        .rm {
+            color: aliceblue;
+            position: absolute;
+            left: 1075px;
+            top: 45vh;
+            z-index: 10;
+            font-family: 'Mplus 1p', sans-serif;
+            font-weight: 600;
+            font-size: 6vh;
+        }
+
+        .lt {
+            color: aliceblue;
+            position: absolute;
+            left: 70px;
+            top: 80px;
+            z-index: 10;
+            font-family: 'Mplus 1p', sans-serif;
+            font-weight: 600;
+            font-size: 6vh;
+        }
+
+        .lb {
+            color: aliceblue;
+            position: absolute;
+            bottom: 80px;
+            left: 70px;
+            z-index: 10;
+            font-family: 'Mplus 1p', sans-serif;
+            font-weight: 600;
+            font-size: 6vh;
+        }
+
+        .lm {
+            color: aliceblue;
+            position: absolute;
+            top: 46vh;
+            left: 150px;
+            font-family: 'source sans pro', sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 1.3;
+        }
+
+        .lm2 {
+            color: aliceblue;
+            position: absolute;
+            top: 46vh;
+            left: 280px;
+            font-family: 'source sans pro', sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 1.3;
+        }
+
+        .lm3 {
+            color: aliceblue;
+            position: absolute;
+            top: 46vh;
+            left: 380px;
+            font-family: 'source sans pro', sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 1.3;
+        }
+
+        .dates {
+            color: aliceblue;
+            writing-mode: vertical-rl;
+            -webkit-text-orientation: upright;
+            text-orientation: upright;
+            position: absolute;
+            top: 66vh;
+            left: 970px;
+            font-family: 'Mplus 1p', sans-serif;
+            font-weight: 800;
+            font-size: 25px;
+            line-height: 1.3;
+        }
+
+        .dates2 {
+            writing-mode: horizontal-tb;
+            /*
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            */
+        }
+
+        /*
+        .datesanimation {
+            animation: dg 1s ease;
+        }
+
+        @keyframes dg {
+            0% {
+                color: aqua
+            }
+
+            100% {
+                color: cornflowerblue
+            }
+        }
+*/
+
+        .dn {
+            display: none;
+        }
+
+        .p2m1,
+        .p3m1,
+        .p4m1,
+        .p5m1,
+        .p6m1 {
+            animation-delay: 0.8s;
+        }
+
+        .p2m2,
+        .p3m2,
+        .p4m2,
+        .p5m2,
+        .p6m2 {
+            animation-delay: 1s;
+        }
+
+        .p2m3,
+        .p3m3,
+        .p4m3,
+        .p5m3,
+        .p6m3 {
+            animation-delay: 1.2s;
+        }
+
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                //anchors: ['f1', 's2', 't3', 'f4', 'f5', 's6'],
+                navigation: true,
+                afterLoad: function(anchorLink, index) {
+                    if (index == 2) {
+                        //周围
+                        $(".p2").addClass("animated rotateIn");
+                        $("#222").removeClass("dn animated fadeOut");
+                        //中间内容
+                        //title 渐变进入
+                        $(".p2m1").addClass("animated fadeIn");
+                        //time 渐变进入
+                        $(".p2m2").addClass("animated fadeIn");
+                        //content 渐变进入
+                        $(".p2m3").addClass("animated fadeIn");
+                        //dates 渐变进入
+                        $("#dap2").addClass("animated fadeIn");
+                        //整体
+                        $(".p2g2").removeClass("dn fadeOut");
+                    }
+                    if (index == 3) {
+                        //周围
+                        $(".p3").addClass("animated zoomIn");
+                        $("#333").removeClass("dn animated fadeOut");
+                        //中间内容
+                        //title 渐变进入
+                        $(".p3m1").addClass("animated fadeIn");
+                        //time 渐变进入
+                        $(".p3m2").addClass("animated fadeIn");
+                        //content 渐变进入
+                        $(".p3m3").addClass("animated fadeIn");
+                        //dates 渐变进入
+                        $("#dap3").addClass("animated fadeIn");
+                        //整体
+                        $(".p3g2").removeClass("dn fadeOut");
+                    }
+                    if (index == 4) {
+                        //周围
+                        $(".p4").addClass("animated flipInY");
+                        $("#444").removeClass("dn animated fadeOut");
+                        //中间内容
+                        //title 渐变进入
+                        $(".p4m1").addClass("animated fadeIn");
+                        //time 渐变进入
+                        $(".p4m2").addClass("animated fadeIn");
+                        //content 渐变进入
+                        $(".p4m3").addClass("animated fadeIn");
+                        //dates 渐变进入
+                        $("#dap4").addClass("animated fadeIn");
+
+                        //整体
+                        $(".p4g2").removeClass("dn fadeOut");
+                    }
+                    if (index == 5) {
+                        //周围
+                        $(".p5").addClass("animated rollIn");
+                        $("#555").removeClass("dn animated fadeOut");
+                        //中间内容
+                        //title 渐变进入
+                        $(".p5m1").addClass("animated fadeIn");
+                        //time 渐变进入
+                        $(".p5m2").addClass("animated fadeIn");
+                        //content 渐变进入
+                        $(".p5m3").addClass("animated fadeIn");
+                        //dates 渐变进入
+                        $("#dap5").addClass("animated fadeIn");
+                        //整体
+                        $(".p5g2").removeClass("dn fadeOut");
+                    }
+                    if (index == 6) {
+                        //周围
+                        $(".p6").addClass("animated fadeInRight");
+                        $("#666").removeClass("dn animated fadeOut");
+                        //中间内容
+                        //title 渐变进入
+                        $(".p6m1").addClass("animated fadeIn");
+                        //time 渐变进入
+                        $(".p6m2").addClass("animated fadeIn");
+                        //content 渐变进入
+                        $(".p6m3").addClass("animated fadeIn");
+                        //dates 渐变进入
+                        $("#dap6").addClass("animated fadeIn");
+                        //整体
+                        $(".p6g2").removeClass("dn fadeOut");
+                    }
+                },
+
+                onLeave: function(anchorLink, index) {
+                    if (index = 2) {
+                        //周围
+                        $(".p2").removeClass("animated rotateIn");
+                        $("#222").addClass("animated fadeOut");
+                        //中间内容
+                        //title 使其消失
+                        $(".p2m1").removeClass("animated fadeIn");
+                        //time 使其消失
+                        $(".p2m2").removeClass("animated fadeIn");
+                        //content 使其消失
+                        $(".p2m3").removeClass("animated fadeIn");
+                        //dates 使其消失
+                        $("#dap2").removeClass("animated fadeIn");
+                        //整体 使其消失
+                        $(".p2g2").addClass("animated fadeOut");
+                    }
+                    if (index = 3) {
+                        //周围
+                        $(".p3").removeClass("animated zoomIn")
+                        $("#333").addClass("animated fadeOut");
+                        //中间内容
+                        //title 使其消失
+                        $(".p3m1").removeClass("animated fadeIn");
+                        //time 使其消失
+                        $(".p3m2").removeClass("animated fadeIn");
+                        //content 使其消失
+                        $(".p3m3").removeClass("animated fadeIn");
+                        //dates 使其消失
+                        $("#dap3").removeClass("animated fadeIn");
+                        //整体 使其消失
+                        $(".p3g2").addClass("animated fadeOut");
+                    }
+                    if (index = 4) {
+                        //周围
+                        $(".p4").removeClass("animated flipInY");
+                        $("#444").addClass("animated fadeOut");
+                        //中间内容
+                        //title 使其消失
+                        $(".p4m1").removeClass("animated fadeIn");
+                        //time 使其消失
+                        $(".p4m2").removeClass("animated fadeIn");
+                        //content 使其消失
+                        $(".p4m3").removeClass("animated fadeIn");
+                        //dates 使其消失
+                        $("#dap4").removeClass("animated fadeIn");
+                        //整体 使其消失
+                        $(".p4g2").addClass("animated fadeOut");
+                    }
+                    if (index = 5) {
+                        //周围
+                        $(".p5").removeClass("animated rollIn");
+                        $("#555").addClass("animated fadeOut");
+                        //中间内容
+                        //title 使其消失
+                        $(".p5m1").removeClass("animated fadeIn");
+                        //time 使其消失
+                        $(".p5m2").removeClass("animated fadeIn");
+                        //content 使其消失
+                        $(".p5m3").removeClass("animated fadeIn");
+                        //dates 使其消失
+                        $("#dap5").removeClass("animated fadeIn");
+                        //整体 使其消失
+                        $(".p5g2").addClass("animated fadeOut");
+                    }
+                    if (index = 6) {
+                        //周围
+                        $(".p6").removeClass("animated fadeInRight");
+                        $("#666").addClass("animated fadeOut");
+                        //中间内容
+                        //title 使其消失
+                        $(".p6m1").removeClass("animated fadeIn");
+                        //time 使其消失
+                        $(".p6m2").removeClass("animated fadeIn");
+                        //content 使其消失
+                        $(".p6m3").removeClass("animated fadeIn");
+                        //dates 使其消失
+                        $("#dap6").removeClass("animated fadeIn");
+                        //整体 使其消失
+                        $(".p6g2").addClass("animated fadeOut");
+                    }
+                },
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+    <div id="fullpage">
+        <div class="grid-container">
+            <div class="section maii">
+                <div class="animated fadeIn">
+                    <div class="mt maintitle">
+                        <p class="mm">小津安二郎<br>Yasujirō Ozu</p>
+                    </div>
+                    <div class="mt maintitle2">
+                        <p class="mm">2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    </div>
+                    <div class="mt maintitle3">
+                        <p class="mm">3-<span class="dates2">&nbsp;&nbsp;10</span><br>/<br>3-<span class="dates2">&nbsp;&nbsp;14</span></p>
+                    </div>
+                    <div class="mill">
+                        <div class="website">
+                            <a href="http://thecharles.com/" target="_blank">The Charles Theatre</a>
+                        </div>
+                    </div>
+                    <div class="mill">
+                        <div class="location">
+                            <p>1711 N Charles St, Baltimore, MD 21201</p>
+                        </div>
+                    </div>
+                </div>
+                <div><img class="ch" src="/images/hat.png" alt="Cover">
+                </div>
+            </div>
+            <div class="section maii2">
+                <div class="dn" id="222">
+                    <div class="rt p2">
+                        <p>東</p>
+                    </div>
+                    <div class="rb p2">
+                        <p>京</p>
+                    </div>
+                    <div class="lt p2">
+                        <p>物</p>
+                    </div>
+                    <div class="lb p2">
+                        <p>語</p>
+                    </div>
+                </div>
+                <div class="dn p2g2">
+                    <div class="lm col-2 p2m1">
+                        <p>Tokyo Story</p>
+                    </div>
+                    <div class="lm2 col-2 p2m2">
+                        <p>1953</p>
+                    </div>
+                    <div class="lm3 col-4 p2m3">
+                        <p>An old couple visit their children and grandchildren in the city; but the children have little time for them.</p>
+                    </div>
+                    <div class="dates" id="dap2">
+                        <p><span class="dates2">3 /</span><span class="dates2">1 0</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="section maii3">
+                <div class="dn" id="333">
+                    <div class="rt p3">
+                        <p>晩</p>
+                    </div>
+                    <div class="rb p3">
+                        <p>春</p>
+                    </div>
+                </div>
+                <div class="dn p3g2">
+                    <div class="lm col-2 p3m1">
+                        <p>Late Spring</p>
+                    </div>
+                    <div class="lm2 col-2 p3m2">
+                        <p>1949</p>
+                    </div>
+                    <div class="lm3 col-5 p3m3">
+                        <p>Noriko is twenty-seven years old and still living with her widowed father. Everybody tries to talk her into marrying, but Noriko wants to stay at home caring for her father.</p>
+                    </div>
+                    <div class="dates" id="dap3">
+                        <p><span class="dates2">3 /</span><span class="dates2">1 1</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="section maii4">
+                <div class="dn" id="444">
+                    <div class="rt p4">
+                        <p>早</p>
+                    </div>
+                    <div class="rb p4">
+                        <p>春</p>
+                    </div>
+                </div>
+                <div class="dn p4g2">
+                    <div class="lm col-2 p4m1">
+                        <p>Early Spring</p>
+                    </div>
+                    <div class="lm2 col-2 p4m2">
+                        <p>1956</p>
+                    </div>
+                    <div class="lm3 col-5 p4m3">
+                        <p>A young man and his wife struggle within the confines of their passionless relationship while he has an extramarital romance.</p>
+                    </div>
+                    <div class="dates" id="dap4">
+                        <p><span class="dates2">3 /</span><span class="dates2">1 2</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="section maii5">
+                <div class="dn" id="555">
+                    <div class="rt p5">
+                        <p>麦</p>
+                    </div>
+                    <div class="rb p5">
+                        <p>秋</p>
+                    </div>
+                </div>
+                <div class="dn p5g2">
+                    <div class="lm col-2 p5m1">
+                        <p>Early Summer</p>
+                    </div>
+                    <div class="lm2 col-2 p5m2">
+                        <p>1951</p>
+                    </div>
+                    <div class="lm3 col-4 p5m3">
+                        <p>A family chooses a match for their daughter Noriko, but she, surprisingly, has her own plans.</p>
+                    </div>
+                    <div class="dates" id="dap5">
+                        <p><span class="dates2">3 /</span><span class="dates2">1 3</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="section maii6">
+                <div class="dn" id="666">
+                    <div class="rt p6">
+                        <p>秋</p>
+                    </div>
+                    <div class="rm p6">
+                        <p>刀</p>
+                    </div>
+                    <div class="rb p6">
+                        <p>魚</p>
+                    </div>
+                    <div class="lt p6">
+                        <p>の</p>
+                    </div>
+                    <div class="lb p6">
+                        <p>味</p>
+                    </div>
+                </div>
+                <div class="dn p6g2">
+                    <div class="lm col-2 p6m1">
+                        <p>An Autumn<br> Afternoon</p>
+                    </div>
+                    <div class="lm2 col-2 p6m2">
+                        <p>1962</p>
+                    </div>
+                    <div class="lm3 col-5 p6m3">
+                        <p>An aging widower arranges a marriage for his only daughter.</p>
+                    </div>
+                    <div class="dates" id="dap6">
+                        <p><span class="dates2">3 /</span><span class="dates2">1 4</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

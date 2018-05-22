@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .section {
+            text-align: center;
+            font-size: 3em;
+        }
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="fullPage.js-master/jquery.fullPage.css" "" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" src="fullPage.js-master/dist/jquery.fullpage.min.js"></script>
+
+    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+    <script src="vendors/jquery.easings.min.js"></script>
+
+
+    <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+    <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6'],
+            });
+        })
+
+    </script>
+</head>
+
+<body>
+    <div id="fullpage">
+        <div class="section">Section 1</div>
+        <div class="section">
+            <div class="slide" data-anchor="slide1">Slide 2.1</div>
+            <div class="slide" data-anchor="slide2">Slide 2.2</div>
+        </div>
+        <div class="section">Section 3</div>
+        <div class="section">Section 4</div>
+    </div>
+</body>
+
+</html>

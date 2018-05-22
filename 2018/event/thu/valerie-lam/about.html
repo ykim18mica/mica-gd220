@@ -1,0 +1,423 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>About</title>
+    <link rel="shortcut icon" type="image/png" href="/Images/favicon.png" />
+    <script>
+        var toggle = false;
+
+        function toggleNav() {
+            if (toggle === false) { // is it closed?
+                document.getElementById("navbar").style.left = "0vw";
+                toggle = true; // set it open
+            } else if (toggle === true) { // it is closed?
+                document.getElementById("navbar").style.left = "-15vw";
+                toggle = false; // set it closed
+            }
+        }
+
+    </script>
+    <style>
+        /*
+        html {
+            background-image: url("images/MoMAPS1.jpg");
+            background-size: cover;
+            height: 100%;
+            z-index: 1;
+        }
+*/
+
+        body {
+            background: linear-gradient(90deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+        }
+
+        /*
+ .momapic { content: url(images/MoMAPS1.jpg); position: absolute; top: 10vw; left: 52vw; width: 37vw; z-index: 1; } .momapicoverlay { position: absolute; top: 10vw; left: 52vw; width: 37vw; z-index: 2; height: 27.7vw; background-color: #2cb5e8; opacity: .25; }
+*/
+
+        .gradient-bg {
+            background: linear-gradient(90deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+            height: 51vw;
+            width: 105vw;
+            position: fixed;
+            z-index: 1;
+            opacity: .75;
+            left: -.5vw;
+            top: -.5vw;
+            overflow: hidden;
+        }
+
+        .particles5png {
+            content: url(Images/particles5.png);
+            position: absolute;
+            width: 35vw;
+            top: 0vw;
+            left: 5vw;
+            z-index: 2;
+            opacity: .5;
+        }
+
+/*
+ .secondparticles { content: url(Images/particles2.png); position: absolute; width: 40vw; z-index: 2; opacity: 25%; right: 0vw; transform: rotate(150deg); top: 40vw; }
+*/
+
+        .aboutthefestival {
+            font-family: "Proxima Nova", sans-serif;
+            color: white;
+            text-shadow: .05vw .05vw .5vw grey;
+            font-size: 5vw;
+            font-weight: 700;
+            text-transform: uppercase;
+            width: 30vw;
+            position: relative;
+            left: 15vw;
+            top: 15vw;
+            letter-spacing: .8vw;
+            z-index: 3;
+        }
+
+        .p1 {
+            font-family: "Proxima Nova", sans-serif;
+            color: white;
+            width: 29vw;
+            font-weight: 300;
+            left: 54vw;
+            position: absolute;
+            top: 15vw;
+            line-height: 2.2vw;
+            font-size: 1.3vw;
+            z-index: 1;
+        }
+
+        .p2 {
+            font-family: "Garamond", serif;
+            font-style: oblique;
+            color: white;
+            width: 35vw;
+            line-height: 2vw;
+            font-weight: 100;
+            font-size: 1.2vw;
+            left: 54vw;
+            position: absolute;
+            top: 30vw;
+            letter-spacing: .05vw;
+            z-index: 1;
+        }
+
+        /*
+        .whitesquare {
+            background-color: white;
+            opacity: .30;
+            width: 37vw;
+            height: 27vw;
+            position: absolute;
+            left: 50vw;
+            top: 10vw;
+            z-index: 1;
+        }
+*/
+
+        /* footer*/
+
+        .footer {
+            background-color: white;
+            width: 100%;
+            left: 0vw;
+            position: absolute;
+            overflow: hidden;
+            height: 12vw;
+            top: 55vw;
+            z-index: 3;
+            font-family: "Proxima Nova";
+            color: #2CB5E8;
+        }
+
+        .ddlogo {
+            content: url("images/DigitalDesignLogo.png");
+            position: absolute;
+            width: 17vw;
+            left: 8vw;
+            top: 2vw;
+        }
+
+        .festival {
+            font-weight: 600;
+            font-size: .9vw;
+            left: 30vw;
+            top: 2vw;
+            position: relative;
+        }
+
+        .list1 {
+            left: 30vw;
+            position: relative;
+            top: 3vw;
+            font-weight: 300;
+            font-size: .9vw;
+            display: block;
+            line-height: 1.3vw;
+            width: 5vw;
+        }
+
+        .general {
+            font-weight: 600;
+            font-size: .9vw;
+            left: 43vw;
+            top: 2vw;
+            position: absolute;
+        }
+
+        .list2 {
+            left: 43vw;
+            position: relative;
+            top: 1vw;
+            font-weight: 300;
+            font-size: .9vw;
+            display: block;
+            line-height: 1.3vw;
+            left: 0vw;
+            width: 5vw;
+        }
+
+        .updates {
+            font-weight: 600;
+            font-size: .9vw;
+            left: 56vw;
+            top: 2vw;
+            position: absolute;
+        }
+
+        .join {
+            top: 4vw;
+            font-weight: 300;
+            font-size: .9vw;
+            display: block;
+            position: absolute;
+            left: 56vw;
+        }
+
+        .email-slot {
+            background-color: #D3F1FC;
+            position: absolute;
+            left: 56vw;
+            height: 1.4vw;
+            width: 12vw;
+            top: 6vw;
+            border: none;
+            color: #2cb5e8;
+        }
+
+        ::placeholder {
+            color: white;
+            font-size: .8vw;
+        }
+
+        .email {
+            color: white;
+            position: absolute;
+            left: 56.5vw;
+            font-size: .8vw;
+            top: 6vw;
+            z-index: 1;
+        }
+
+        button.okbutton {
+            background-color: #2CB5E8;
+            position: absolute;
+            left: 68.5vw;
+            height: 1.5vw;
+            width: 2vw;
+            top: 6vw;
+            color: white;
+            border: none;
+            font-size: .7vw;
+        }
+
+        button.okbutton:active {
+            background-color: #2CB5F8;
+            box-shadow: 0 5px #fff;
+            transform: translateY(.1vw);
+        }
+
+        .connect {
+            font-weight: 600;
+            font-size: .9vw;
+            left: 75vw;
+            top: 2vw;
+            position: absolute;
+        }
+
+        .foot-link {
+            text-decoration: none;
+            color: #2CB5E8;
+        }
+
+        .foot-link:hover {
+            opacity: .25;
+        }
+
+        .facebook {
+            content: url("images/facebook.png");
+            position: absolute;
+            width: 1.5vw;
+            left: 75vw;
+            top: 4.3vw;
+        }
+
+        .facebook:hover {
+            opacity: .25;
+        }
+
+        .twitter {
+            content: url("images/twitter.png");
+            position: absolute;
+            width: 1.5vw;
+            left: 78vw;
+            top: 4.5vw;
+        }
+
+        .twitter:hover {
+            opacity: .25;
+        }
+
+        .instagram {
+            content: url("images/instagram.png");
+            position: absolute;
+            width: 1.6vw;
+            left: 80.8vw;
+            top: 4.3vw;
+        }
+
+        .instagram:hover {
+            opacity: .25;
+        }
+
+        #navbar {
+            font-family: "Proxima Nova", sans-serif;
+            position: fixed;
+            background-color: white;
+            width: 20vw;
+            height: 100%;
+            top: 0vw;
+            left: -15vw;
+            transition: 0.3s;
+            z-index: 4;
+            box-shadow: .1vw .1vw .5vw grey;
+        }
+
+        #bars {
+            cursor: pointer;
+        }
+
+        .bars {
+            left: 16vw;
+            top: 50%;
+            position: absolute;
+        }
+
+        .bar {
+            background-color: #1FC8DB;
+            width: 2.5vw;
+            height: .19vw;
+            margin: .4vw;
+            left: 0vw;
+            top: 0vw;
+            position: relative;
+        }
+
+        .ddlogo2 {
+            content: url("images/DigitalDesignLogo.png");
+            position: absolute;
+            width: 9vw;
+            top: 3vw;
+            left: 2vw;
+        }
+
+        .year {
+            font-size: 1.5vw;
+            font-weight: 500;
+            color: #2CB5E8;
+            position: absolute;
+            left: 2vw;
+            bottom: 3vw;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            text-transform: uppercase;
+            position: relative;
+            color: #15AEBF;
+            font-size: 1.3vw;
+            font-weight: 100;
+            display: block;
+            margin-left: 2vw;
+            margin-top: 3vw;
+            top: 8vw;
+            width: 7vw;
+        }
+
+        .nav-link:hover {
+            opacity: .25;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="particles5png"></div>
+    <div class="secondparticles"></div>
+    <div class="momaps1-img"></div>
+    <div class="gradient-bg"></div>
+    <div class="aboutthefestival">about the festival</div>
+    <div class="momapic"></div>
+    <div class="momapicoverlay"></div>
+    <div class="whitesquare"></div>
+    <div class="p1">Digital Design is a conference taking place around World Graphic Design Day to celebrate the impact of design in all aspects of life. This year, the conference will focus on the rise of digital design and programming as technology continues to integrate itself further into everyday life.</div>
+    <div class="p2">Join us at the MOMA PS1 on April 27, 2018 to learn more about the people making waves in the field and find out how you can be a part of it too.</div>
+
+    <!--    footer-->
+
+    <div class="footer">
+        <a class="ddlogo" href="index.html"></a>
+        <div class="festival">2018 Festival</div>
+        <a class="list1 foot-link" href="/speakers.html">Speakers</a>
+        <a class="list1 foot-link" href="/schedule.html">Schedule</a>
+        <a class="list1 foot-link" href="/register.html">Register</a>
+        <a class="list1 foot-link" href="/partners.html">Partners</a>
+        <div class="general">General Info
+            <a class="list2 foot-link" href="/about.html">About</a>
+            <a class="list2 foot-link" href="https://www.google.com/maps/place/MoMA+PS1/@40.7454901,-73.9473572,15z/data=!4m2!3m1!1s0x0:0xb60d34de1767c837?sa=X&ved=0ahUKEwi-yJWU8sbaAhUDnFkKHUj8BrcQ_BIIlAEwCg">Location</a>
+            <a class="list2 foot-link" href="mailto:vlam01@mica.edu">Contact</a>
+        </div>
+        <div class="updates">Get Updates</div>
+        <div class="join">Join our mailing list!</div>
+        <div class="email-slot"></div>
+        <input class="email-slot" placeholder="Enter your email address" type="text">
+        <button class="okbutton">OK</button>
+        <div class="connect">Connect With Us</div>
+        <a href="https://www.facebook.com/" class="facebook"></a>
+        <a href="https://www.instagram.com/" class="instagram"></a>
+        <a href="https://twitter.com/" class="twitter"></a>
+    </div>
+
+    <div id="navbar">
+        <a class="ddlogo2" href="/index.html"></a>
+        <div class="year">2018</div>
+        <div id="bars" class="bars" onclick="toggleNav()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <a href="/" class="home nav-link">Home</a>
+        <a href="/about.html" class="about nav-link">About</a>
+        <a href="/speakers.html" class="speakers nav-link">Speakers</a>
+        <a href="/schedule.html" class="schedule nav-link">Schedule</a>
+        <a href="/register.html" class="register nav-link">Register</a>
+        <a href="/partners.html" class="partners nav-link">Partners</a>
+    </div>
+
+</body>
+
+</html>

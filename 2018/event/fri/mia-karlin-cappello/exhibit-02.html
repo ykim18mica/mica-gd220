@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+</head>
+
+
+<style>
+	/*FLOATING TEXT BOX*/
+
+	div.box-title {
+		font-family: 'Space Mono', monospace;
+		color: white;
+		width: 180px;
+		height: 35px;
+		background-color: black;
+		font-size: 22px;
+		position: fixed;
+		text-align: center;
+		vertical-align: middle;
+		transform: rotate(90deg);
+		-webkit-animation: box-title 2s infinite;
+		animation: box-title 2s infinite alternate;
+	}
+
+	@-webkit-keyframes box-title {
+		from {
+			top: 93px;
+			right: -54px;
+		}
+		to {
+			top: 73px;
+			right: -54px;
+		}
+	}
+
+	@keyframes box-title {
+		from {
+			top: 93px;
+			right: -54px;
+		}
+		to {
+			top: 73px;
+			right: -54px;
+		}
+	}
+</style>
+
+
+<body>
+	<!--NAVIGATION BAR-->
+	<div id="mySidenav" class="sidenav">
+		<a href="index.html">HOME</a>
+		<hr style='background-color:#000000;border-width:0;color:#000000;height:2px;line-height:0;text-align:left;width:95%;' />
+		<a href="about.html">ABOUT</a>
+		<hr style='background-color:#000000;border-width:0;color:#000000;height:2px;line-height:0;text-align:left;width:95%;' />
+		<a href="schedule.html">SCHEDULE</a>
+		<hr style='background-color:#000000;border-width:0;color:#000000;height:2px;line-height:0;text-align:left;width:95%;' />
+		<a href="speakers.html">SPEAKERS</a>
+		<hr style='background-color:#000000;border-width:0;color:#000000;height:2px;line-height:0;text-align:left;width:95%;' />
+		<button class="dropdown-btn">EXHIBITION
+    <i class="fa fa-caret-down"></i>
+  </button>
+		<div class="dropdown-container">
+			<a href="exhibit-01.html">Constructed</a>
+			<a href="exhibit-02.html">Whose Utopia</a>
+			<a href="exhibit-03.html">Fractured Visions</a>
+			<a href="exhibit-04.html">Emissaries</a>
+			<a href="exhibit-05.html">Black Lake</a>
+		</div>
+		<hr style='background-color:#000000;border-width:0;color:#000000;height:2px;line-height:0;text-align:left;width:95%;' />
+		<a href="info.html">INFO</a>
+	</div>
+
+	<span class="menu-bar" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+
+	<!--FLOATING TEXT BOX-->
+	<div class="box-title">WHOSE&nbsp;UTOPIA</div>
+
+	<!--SOCIAL MEDIA BUTTONS-->
+	<span class="fa-stack">
+		<a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook"></i></a>
+		<a href="https://twitter.com/" target="_blank"> <i class="fa fa-twitter"></i></a>
+		<a href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram"></i></a>
+	</span>
+
+
+	<!--WHOSE UTOPIA-VIDEO*/-->
+
+	<div class="whose-utopia-video">
+		<iframe width="640" height="340" src="https://www.youtube.com/embed/UNId85g9nV4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</div>
+
+
+	<!--WHOSE UTOPIA-TEXT-->
+
+	<div class="whose-utopia-text">
+
+		<h1><b>Cao Fei / Whose Utopia</b></h1>
+
+		<p>Cao used the virtual reality platform Second Life to construct a fictional Chinese city and collaborative space for investigations into the various humanities and social sciences, including art, architecture, politics, and economics—activities she has extensively documented through installations and performances. Her video installation Whose Utopia (2006) showcases actual Chinese factory workers acting out their aspirations, playing a guitar or dancing ballet, but stuck in their factories amidst machinery. Cao’s works are an outlet for invention, but behind her playful ruses lies an uncertain world of unfulfilled desires.</p>
+	</div>
+
+
+	<!--JAVA SCRIPT-->
+	<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "250px";
+		}
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
+	</script>
+
+	<script>
+		/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+		var dropdown = document.getElementsByClassName("dropdown-btn");
+		var i;
+
+		for (i = 0; i < dropdown.length; i++) {
+			dropdown[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var dropdownContent = this.nextElementSibling;
+				if (dropdownContent.style.display === "block") {
+					dropdownContent.style.display = "none";
+				} else {
+					dropdownContent.style.display = "block";
+				}
+			});
+		}
+	</script>
+
+</body>
+
+</html>

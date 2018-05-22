@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .menu1 {
+            width: 3.2vw;
+            height: 2.7vw;
+            margin-top: 3vw;
+            position: fixed;
+            top: 0.5vw;
+            right: 5vw;
+            display: block;
+        }
+
+        .menu2 {
+            width: 3.2vw;
+            height: 2.7vw;
+            margin-top: 3vw;
+            position: fixed;
+            top: 0.5vw;
+            right: 5vw;
+            display: none;
+            opacity: 0.5;
+        }
+
+
+        #dropdown {
+            position: fixed;
+            top: 3vw;
+            display: none;
+        }
+
+        .title-contact {
+            text-align: center;
+            margin-top: 5vw;
+            letter-spacing: 2.5vw;
+            position: absolute;
+            left: 38vw;
+            font-size: 1.5vw;
+
+        }
+
+        .facebook {
+            position: absolute;
+            top: 53vw;
+            right: 5vw;
+            width: 1.8vw;
+            margin: 1vw;
+
+        }
+
+        .ins {
+            position: absolute;
+            top: 53vw;
+            right: 10vw;
+            width: 1.8vw;
+            margin: 1vw;
+        }
+
+        .twitter {
+            position: absolute;
+            top: 53vw;
+            right: 15vw;
+            width: 1.8vw;
+            margin: 1vw;
+        }
+
+        .youtube {
+            position: absolute;
+            top: 53vw;
+            right: 20.5vw;
+            width: 2vw;
+            margin: 1vw;
+        }
+
+        .moma {
+            position: absolute;
+            top: 53.8vw;
+            left: 5vw;
+            width: 4.5vw;
+            margin: 1vw;
+        }
+
+        .footbar-address {
+            font-size: 0.8vw;
+            color: white;
+            letter-spacing: 0.1vw;
+            position: absolute;
+            top: 55vw;
+            right: 51vw;
+        }
+
+        .footbar-time {
+            font-size: 0.8vw;
+            color: white;
+            letter-spacing: 0.1vw;
+            position: absolute;
+            top: 55vw;
+            right: 32vw;
+        }
+
+        .map {
+            width: 75vw;
+            position: absolute;
+            top: 12vw;
+            left: 13vw;
+
+        }
+
+        .moma-address {
+            letter-spacing: 0.2vw;
+            position: absolute;
+            top: 38vw;
+            left: 30vw;
+            line-height: 2vw;
+            color: rgb(253, 110, 117);
+            font-size: 1vw;
+
+        }
+
+        .enter {
+            letter-spacing: 0.2vw;
+            position: absolute;
+            top: 40vw;
+            left: 34vw;
+            line-height: 2vw;
+            color: rgb(128, 128, 128);
+            font-size: 1vw;
+
+        }
+
+        .email {
+            font-size: 1vw;
+            position: absolute;
+            top: 43vw;
+            left: 37vw;
+            letter-spacing: 0.6vw;
+            color: rgb(128, 128, 128);
+        }
+
+    </style>
+    <script>
+        function openNav() {
+            document.getElementById("dropdown").style.display = "block";
+            document.getElementById("open").style.display = "none";
+            document.getElementById("close").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("dropdown").style.display = "none";
+            document.getElementById("open").style.display = "block";
+            document.getElementById("close").style.display = "none";
+        }
+
+    </script>
+</head>
+
+<body>
+
+
+    <a href="index.html"><img class="icon" src="images/logo.png"></a>
+    <img class="menu1" id="open" onClick="openNav()" src="images/menu.png">
+    <img class="menu2" id="close" onClick="closeNav()" src="images/menu.png">
+
+
+
+    <div class="menu-open" id="dropdown">
+        <ul>
+            <li><a href="about.html" style="text-decoration:none" class="about">ABOUT</a></li>
+            <li><a href="speakers.html" style="text-decoration:none" class="speakers">SPEAKERS</a></li>
+            <li><a href="schedule.html" style="text-decoration:none" class="schedule">SCHEDULE</a></li>
+            <li><a href="contact.html" style="text-decoration:none" class="contact">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <div class="title-contact">CONTACT
+
+    </div>
+    <img class="map" src="images/map.png">
+    <a href="https://www.google.com/maps/place/The+Museum+of+Modern+Art/@40.7475035,-73.9476308,12.32z/data=!3m1!5s0x89c258fbd5ec7547:0x7edf0a3ade84ad50!4m5!3m4!1s0x89c258f97bdb102b:0xea9f8fc0b3ffff55!8m2!3d40.7614327!4d-73.9776216" target=“_blank”>
+        <div class="moma-address">The Museum of Modern Art 11 West 53 Street, New York, NY 10019
+        </div>
+
+    </a>
+
+    <div class="email"> email: yzhang05@mica.edu</div>
+    <div>
+        <a href="https://www.facebook.com/MuseumofModernArt/" target=“_blank”><img class="facebook" src="images/facebook.png"></a>
+        <a href="https://www.instagram.com/themuseumofmodernart/" target=“_blank”><img class="ins" src="images/ins.png"></a>
+        <a href="https://twitter.com/museummodernart" target=“_blank”><img class="twitter" src="images/twitter.png"></a>
+        <a href="https://www.youtube.com/user/momavideos" target=“_blank”><img class="youtube" src="images/youtube.png"></a>
+        <a href="https://www.moma.org/visit/" target=“_blank”>
+            <div class="footbar-address">The Museum of Modern Art 11 West 53 Street, New York, NY 10019
+            </div>
+        </a>
+        <div class="footbar-time">TIME : 10/28, 1 p.m - 5:30 p.m </div>
+        <a href="https://www.moma.org" target=“_blank”><img class="moma" src="images/MOMA.png"></a>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+
+    <meta charset="utf-8">
+    <title>ChenKaiGe poster</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+
+    <style>
+        .img-first {
+            background-image: url("images/66_01.png");
+            background-size: cover;
+        }
+
+        .img-second {
+            background-image: url("images/66_03.png");
+            background-size: cover;
+        }
+
+        .img-three {
+            background-image: url("images/web-poster-mockup-template-(1)_04.png");
+            background-size: cover;
+        }
+
+        .text-movie {
+            position: relative;
+            font-size: 1.8vw;
+            top: -170pt;
+            left: 160pt;
+            font-family: 'Kaushan Script', cursive;
+            color: aliceblue;
+            line-height: 8;
+        }
+
+        .text-time {
+            position: relative;
+            font-family: 'Kaushan Script', cursive;
+            font-size: 1.8vw;
+            top: -850pt;
+            left: 560pt;
+            color: aliceblue;
+            line-height: 8;
+        }
+
+        .date {
+            position: relative;
+            font-family: 'Kaushan Script', cursive;
+            font-size: 4vw;
+            color: aliceblue;
+            top: -160pt;
+            text-align: center;
+        }
+
+        .adress {
+            position: relative;
+            font-family: 'Kaushan Script', cursive;
+            font-size: 2.5vw;
+            color: aliceblue;
+            text-align: center;
+            top: -140pt;
+            line-height: 1.6;
+        }
+
+        a:link {
+            color: black;
+        }
+
+        a:visited {
+            color: black;
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+        a:active {
+            color: aqua;
+        }
+
+        .box {
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            border-radius: 30px;
+            position: relative;
+            top: -900px;
+            left: 170px;
+
+        }
+
+        .box:hover+.info {
+            animation: fadein 1s forwards;
+        }
+
+        .info {
+            width: 390px;
+            height: 130px;
+            font-family: 'Crimson Text', serif;
+            margin: 0;
+            padding: 10px;
+            border: 1px solid grey;
+            border-radius: 10px;
+            opacity: 0;
+            position: relative;
+            top: -900px;
+            left: 170px;
+            color: aliceblue;
+        }
+
+        @keyframes fadein {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .box-2 {
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            border-radius: 30px;
+            position: relative;
+            top: -880px;
+            left: 170px;
+
+        }
+
+        .box-2:hover+.info-2 {
+            animation: fadein 1s forwards;
+        }
+
+        .info-2 {
+            width: 350px;
+            height: 103px;
+            font-family: 'Crimson Text', serif;
+            margin: 0;
+            padding: 10px;
+            border: 1px solid grey;
+            border-radius: 10px;
+            opacity: 0;
+            position: relative;
+            top: -880px;
+            left: 170px;
+            color: aliceblue;
+        }
+
+        .box-3 {
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            border-radius: 30px;
+            position: relative;
+            top: -850px;
+            left: 170px;
+
+        }
+
+        .box-3:hover+.info-3 {
+            animation: fadein 1s forwards;
+        }
+
+        .info-3 {
+            width: 350px;
+            height: 120px;
+            font-family: 'Crimson Text', serif;
+            margin: 0;
+            padding: 10px;
+            border: 1px solid grey;
+            border-radius: 10px;
+            opacity: 0;
+            position: relative;
+            top: -852px;
+            left: 170px;
+            color: aliceblue;
+        }
+
+        .box-4 {
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            border-radius: 30px;
+            position: relative;
+            top: -825px;
+            left: 170px;
+
+        }
+
+        .box-4:hover+.info-4 {
+            animation: fadein 1s forwards;
+        }
+
+        .info-4 {
+            width: 420px;
+            height: 120px;
+            font-family: 'Crimson Text', serif;
+            margin: 0;
+            padding: 10px;
+            border: 1px solid grey;
+            border-radius: 10px;
+            opacity: 0;
+            position: relative;
+            top: -823px;
+            left: 170px;
+            color: aliceblue;
+        }
+
+        .box-5 {
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            border-radius: 30px;
+            position: relative;
+            top: -800px;
+            left: 170px;
+
+        }
+
+        .box-5:hover+.info-5 {
+            animation: fadein 1s forwards;
+        }
+
+        .info-5 {
+            width: 400px;
+            height: 110px;
+            font-family: 'Crimson Text', serif;
+            margin: 0;
+            padding: 10px;
+            border: 1px solid grey;
+            border-radius: 10px;
+            opacity: 0;
+            position: relative;
+            top: -790px;
+            left: 170px;
+            color: aliceblue;
+        }
+
+
+        .reveal-text,
+        .reveal-text::after {
+            -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+            -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            -webkit-animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+            animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+        }
+
+        .reveal-text {
+            position: relative;
+            font-size: 7vw;
+            text-align: center;
+            font-family: 'Kaushan Script', cursive;
+            display: block;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-animation-name: reveal-text;
+            animation-name: reveal-text;
+            color: black;
+            white-space: nowrap;
+            cursor: default
+        }
+
+        .reveal-text::after {
+            content: "";
+            position: absolute;
+            z-index: 999;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: black;
+            -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+            -webkit-transform-origin: 0 50%;
+            transform-origin: 0 50%;
+            pointer-events: none;
+            -webkit-animation-name: revealer-text;
+            animation-name: revealer-text;
+        }
+
+
+        @-webkit-keyframes reveal-text {
+            from {
+                -webkit-clip-path: inset(0 100% 0 0);
+                clip-path: inset(0 100% 0 0);
+            }
+            to {
+                -webkit-clip-path: inset(0 0 0 0);
+                clip-path: inset(0 0 0 0);
+            }
+        }
+
+
+        @keyframes reveal-text {
+            from {
+                -webkit-clip-path: inset(0 100% 0 0);
+                clip-path: inset(0 100% 0 0);
+            }
+            to {
+                -webkit-clip-path: inset(0 0 0 0);
+                clip-path: inset(0 0 0 0);
+            }
+        }
+
+
+        @-webkit-keyframes revealer-text {
+
+            0%,
+            50% {
+                -webkit-transform-origin: 0 50%;
+                transform-origin: 0 50%;
+            }
+
+            60%,
+            100% {
+                -webkit-transform-origin: 100% 50%;
+                transform-origin: 100% 50%;
+            }
+
+
+            60% {
+                -webkit-transform: scaleX(1);
+                transform: scaleX(1);
+            }
+
+            100% {
+                -webkit-transform: scaleX(0);
+                transform: scaleX(0);
+            }
+        }
+
+
+        @keyframes revealer-text {
+
+            0%,
+            50% {
+                -webkit-transform-origin: 0 50%;
+                transform-origin: 0 50%;
+            }
+
+            60%,
+            100% {
+                -webkit-transform-origin: 100% 50%;
+                transform-origin: 100% 50%;
+            }
+
+
+            60% {
+                -webkit-transform: scaleX(1);
+                transform: scaleX(1);
+            }
+
+            100% {
+                -webkit-transform: scaleX(0);
+                transform: scaleX(0);
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="grid-container">
+
+        <div class="row">
+            <h1 class="reveal-text"> Chenkaige's best movie show
+            </h1>
+        </div>
+        <div class="row">
+
+            <div class="col-12 full img-first">
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-12 sec img-second">
+                <a href="https://en.wikipedia.org/wiki/Chen_Kaige">
+                    <p class="date">March 10th ~ March 14th</p>
+                </a>
+                <a href="http://thecharles.com/">
+                    <p class="adress">The Charles Theatre<br> 1711 N Charles St<br> Baltimore, MD 21201<br></p>
+                </a>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-12 thi img-three">
+                <p class="text-movie">Farewell My Concubine<br> Forever Enthralled<br> Monk Comes Down the Mountain<br> The Promise<br> Legend of the Demon Cat</p>
+                <p class="text-time">3.10 9am-12pm<br> 3.11 12pm-2pm<br> 3.12 12pm-2pm<br> 3.13 9am-12pm<br> 3.14 9am-12pm<br></p>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="box"></div>
+
+    <div class="info">
+        <p>As the film opens, a street crowd watches a troupe of boys perform Peking opera, supervised by their aging director, Master Guan. An onlooking mother brings her son to the troupe to be trained, using a cleaver to amputate her child's objectionable superfluous finger, and marking the contract with her thumb print in the blood. Shitou welcomes the newcomer as "Douzi" (bean)</p>
+    </div>
+    <div class="box-2"></div>
+
+    <div class="info-2">
+        <p>Forever Enthralled is a Chinese biographical film directed by Chen Kaige; the film marks Chen's eleventh feature film as a director. Forever Enthralled follows the life of Mei Lanfang, one of China's premiere opera performers.</p>
+    </div>
+
+    <div class="box-3"></div>
+
+    <div class="info-3">
+        <p>When a young monk is forced to leave his impoverished monastery, he relies on his extraordinary martial arts skills to survive in the outside world. The monk finds himself immersed in a deadly battle to protect both the book and his master.</p>
+    </div>
+    <div class="box-4"></div>
+
+    <div class="info-4">
+        <p>Mikael is an apothecary who lives in the small Armenian village of Sirun in the southeast part of the Ottoman Empire. In order to help pay the expenses for medical school, he promises himself to the daughter of an affluent neighbor, receiving 400 gold coins as a dowry. This allows him to travel to Constantinople and attend the Imperial Medical Academy.</p>
+    </div>
+    <div class="box-5"></div>
+
+    <div class="info-5">
+        <p>The story is set in China during the Tang Dynasty. A demon cat appears and breaks the peace of the capital, Chang’an City, causing a series of strange events. Poet Bai Letian and Monk Kukai join together to investigate the death of Concubine Yang by following the trail left by the cat, unveiling a buried fact.</p>
+    </div>
+
+
+</body>
+
+</html>

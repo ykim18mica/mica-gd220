@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Song Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* YOUR CSS CODE HERE */
+
+        p {
+            font-size: 2vw;
+            color: rosybrown;
+            font-family: Merriweather, sans-serif;
+            font-weight: lighter;
+            font-style: italic;
+        }
+
+        .song-title {
+            font-family: "Archivo Narrow", sans-serif;
+            font-size: 4vw;
+            font-weight: bold;
+            font-style: normal;
+            top: 93%;
+        }
+
+        .big-leading {
+            top: 8%;
+            line-height: 7vw;
+
+        }
+
+        .small-leading {
+            line-height: 5vw;
+        }
+
+        .repeat {
+            font-style: normal;
+            font-weight: 900;
+            color: brown;
+        }
+
+        .repeat-1 {
+            font-size: 23vw;
+        }
+
+        .repeat-2 {
+            font-size: 12.5vw;
+        }
+
+        .repeat-3 {
+            font-size: 9vw;
+        }
+
+        /*-- to link up the first half of a chorus with the second half in the next div --*/
+
+        .half-repeat {
+            top: 46%;
+        }
+
+        .img-moon {
+            background-image: url(images/img-moon.png);
+            background-size: cover;
+        }
+
+        .img-pillows {
+            background-image: url(images/img-pillows.png);
+            background-size: cover;
+        }
+
+        .img-girl {
+            background-image: url(images/img-girl.png);
+            background-size: cover;
+        }
+
+        .img-statues {
+            background-image: url(images/img-statues.png);
+            background-size: cover;
+        }
+
+        .img-stairs {
+            background-image: url(images/img-stairs.png);
+            background-size: cover;
+        }
+
+        .img-stairs-2 {
+            background-image: url(images/img-stairs-2.png);
+            background-size: cover;
+        }
+
+        .img-heads {
+            background-image: url(images/img-heads.png);
+            background-size: cover;
+        }
+
+        .img-hand {
+            background-image: url(images/img-hand.png);
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ALL YOUR CODE MUST BE IN CONTAINER -->
+    <div class="container">
+        <!-- YOUR HTML CODE BELOW -->
+        <div class="row">
+            <div class="col-100 half img-moon">
+                <p class="song-title center-h">Mein Herz Brennt</p>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-100 three-fourth img-pillows">
+                <p class="center-h big-leading">Nun liebe Kinder gebt fein Acht<br>ich bin die Stimme aus dem Kissen<br> ich hab euch etwas mitgebracht<br> hab es aus meiner Brust gerissen<br> <br>mit diesem Herz hab ich die Macht<br> die Augenlider zu erpressen<br> ich singe bis der Tag erwacht<br> ein heller Schein am Firmament
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 three-fourth img-girl">
+                <p class="repeat repeat-1 center-h">MEIN <br> HERZ <br> BRENNT</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 half img-statues">
+                <p class="center-h small-leading">Sie kommen zu euch in der Nacht <br> Dämonen Geister schwarze Feen <br> sie kriechen aus dem Kellerschacht <br> und werden unter euer Bettzeug sehen <br> <br> Nun liebe Kinder gebt fein Acht <br> ich bin die Stimme aus dem Kissen <br> ich hab euch etwas mitgebracht <br> ein heller Schein am Firmament
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 three-fourth img-stairs">
+                <p class="repeat repeat-2 center-h">MEIN <br> HERZ <br> BRENNT<br>MEIN <br> HERZ <br> BRENNT</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 quarter img-stairs-2">
+                <p class="center-h small-leading top-20">Sie kommen zu euch in der Nacht <br> und stehlen eure kleinen heissen Tränen <br> sie warten bis der Mond erwacht <br> und drücken sie in meine kalten Venen <br>
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 half img-heads">
+                <p class="center-h small-leading"><br>Nun liebe Kinder gebt fein Acht <br> ich bin die Stimme aus dem Kissen <br> ich singe bis der Tag erwacht <br> ein heller Schein am Firmament
+                </p>
+                <p class="repeat repeat-3 center-h half-repeat"><br>MEIN HERZ BRENNT<br>MEIN HERZ BRENNT</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 three-fourth img-hand">
+                <p class="repeat repeat-3 center-h">MEIN HERZ BRENNT<br>MEIN HERZ BRENNT<br><br>MEIN HERZ BRENNT<br>MEIN HERZ BRENNT<br>MEIN HERZ BRENNT<br>MEIN HERZ BRENNT</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- DO NOT CHANGE CODES BELOW-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.lazyload.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('div').lazyload(
+                effect: "fadeIn"
+            );
+        });
+    </script>
+</body>
+
+</html>

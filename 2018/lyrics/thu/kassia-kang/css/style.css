@@ -1,0 +1,359 @@
+/*
+Project 1 CSS template
+-- do not change this file --
+*/
+
+/********** basic setup **********/
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	overflow: hidden;
+}
+
+div {
+	width: 100%;
+	float: left;
+	position: relative;
+	box-sizing: border-box;
+}
+
+div.row,
+div.row:after {
+	margin: 0;
+	padding: 0;
+}
+
+/*  width */
+
+div.col-25 {
+	width: 25%;
+}
+
+div.col-50 {
+	width: 50%;
+}
+
+div.col-75 {
+	width: 75%;
+}
+
+div.col-100 {
+	width: 100%;
+}
+
+/* offset */
+
+div.col-offset-25 {
+	margin-left: 25%;
+}
+
+div.col-offset-50 {
+	margin-left: 50%;
+}
+
+div.col-offset-75 {
+	margin-left: 75%;
+}
+
+div.col-offset-100 {
+	margin-left: 100%;
+}
+
+/* height */
+
+div.full {
+	padding-top: 100%;
+}
+
+div.half {
+	padding-top: 50%;
+}
+
+div.quarter {
+	padding-top: 25%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	position: absolute;
+	top: 0;
+}
+
+/********** helper **********/
+
+/* to see the box */
+
+.test {
+	outline: 1px solid red;
+}
+
+/* center horizontally */
+
+.center-h {
+	width: 100%;
+	text-align: center;
+}
+
+/* center vertically */
+
+.center-v {
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/* how much to push down (in percentage) */
+
+.top-5 {
+    top:5%;
+}
+.top-7 {
+    top:7%;
+}
+.top-8 {
+    top:8%;
+}
+.top-9 {
+    top:9%;
+}
+.top-10 {
+	top: 10%;
+}
+.top-13 {
+    top:13%;
+}
+.top-15 {
+    top:15%;
+}
+.top-17 {
+    top:17%;
+}
+.top-20 {
+	top: 20%;
+}
+.top-21 {
+    top:21%;
+}
+.top-22 {
+    top:22%;
+}
+.top-23 {
+    top: 23%;
+}
+.top-24 {
+    top:24%;
+}
+.top-25 {
+    top:25%;
+}
+.top-27{
+    top:27%;
+}
+.top-28 {
+    top:28%;
+}
+.top-29 {
+    top:29%;
+}
+.top-30 {
+	top: 30%;
+}
+.top-31 {
+    top:31%;
+}
+.top-32 {
+    top:32%;
+}
+.top-33 {
+    top:33%;
+}
+.top-34 {
+    top:34%;
+}
+.top-35 {
+    top:35%;
+}
+.top-36 {
+    top:36%;
+}
+.top-37 {
+    top:37%;
+}
+.top-40 {
+	top: 40%;
+}
+
+.top-50 {
+	top: 50%;
+}
+.top-51 {
+    top:51%;
+}
+.top-52 {
+    top:52%;
+}
+.top-53 {
+    top:53%;
+}
+.top-54 {
+    top:54%;
+}
+.top-55 {
+    top:55%;
+}
+.top-60 {
+	top: 60%;
+}
+
+.top-70 {
+	top: 70%;
+}
+.top-75 {
+    top: 75%;
+}
+.top-76 {
+    top: 76%;
+}
+.top-77 {
+    top: 77%;
+}
+.top-77h {
+    top:77.5%;
+}
+.top-78 {
+    top: 78%;
+}
+
+.top-80 {
+	top: 80%;
+}
+
+.top-90 {
+	top: 90%;
+}
+
+.top-100 {
+	top: 100%;
+}
+.left-10{
+    left:10%;
+}
+.left-12 {
+    left:12%;
+}
+.left-13 {
+    left:13%;
+}
+.left-15 {
+    left:15%;
+}
+.left-16 {
+    left:16%;
+}
+.left-17 {
+    left:17%;
+}
+.left-17h {
+    left:17.5%;
+}
+.left-18 {
+    left:18%;
+}
+.left-19 {
+    left:19%;
+}
+.left-20 {
+    left: 20%;
+}
+.left-22 {
+    left:22%;
+}
+.left-25 {
+    left:25%;
+}
+.left-29 {
+    left: 29%;
+}
+.left-30 {
+    left:30%;
+}
+.left-33 {
+    left:33%;
+}
+.left-35 {
+    left:35%;
+}
+.left-40 {
+    left: 40%;
+}
+.left-50 {
+    left: 50%;
+}
+.left-60 {
+    left:60%;
+}
+.right-5 {
+    right: 5%;
+}
+.right-10 {
+    right: 10%;
+}
+.right-12 {
+    right: 12%;
+}
+.right-13 {
+    right: 13%;
+}
+.right-14 {
+    right:14%;
+}
+.right-15{
+    right:15%;
+}
+.right-16 {
+    right: 16%;
+}
+.right-16one {
+    right: 16.1%;
+}
+.right-17 {
+    right:17%;
+}
+.right-20 {
+    right: 20%;
+}
+.right-22 {
+    right:22%;
+}
+.right-23 {
+    right: 23%;
+}
+.right-24 {
+    right: 24%;
+}
+.right-25 {
+    right:25%;
+}
+.right-27 {
+    right:27%;
+}
+.right-30 {
+    right:30%;
+}
+.right-35 {
+    right:35%;
+}
+.right-40 {
+    right: 40%;
+}
+.right-45 {
+    right:45%;
+}
+.right-50 {
+    right:50%;
+}

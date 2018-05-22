@@ -1,0 +1,470 @@
+.anip1 {
+    /*
+    position: absolute;
+    left: 1500px;
+    top: 200px;
+*/
+    width: 0px;
+    height: 1px;
+    transform: rotate(135deg);
+    transform-origin: top left;
+    background: tomato;
+    animation-name: page1an;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes page1an {
+
+    100% {
+        width: 300px;
+
+    }
+
+}
+
+.anip2 {
+    position: relative;
+    width: 200px;
+    height: 10px;
+    background-color: black;
+    animation-name: p2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-bottom: 15px;
+    transform-style: preserve-3d;
+}
+
+.anip2-2,
+.anip3-2,
+.anip4-2 {
+    position: absolute;
+    left: 1px;
+    top: -3px;
+    width: 200px;
+    height: 10px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    transform-style: preserve-3d;
+    animation-name: p2ex;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.anip2-3,
+.anip3-3,
+.anip4-3 {
+    position: absolute;
+    left: 2px;
+    top: -5px;
+    width: 200px;
+    height: 10px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    transform-style: preserve-3d;
+    animation-name: p2ex;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.anip2-4,
+.anip3-4,
+.anip4-4 {
+    position: absolute;
+    left: 3px;
+    top: -7px;
+    width: 200px;
+    height: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    transform-style: preserve-3d;
+    animation-name: p2ex;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.anip3 {
+    width: 200px;
+    height: 10px;
+    background-color: black;
+    animation-name: p2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-bottom: 15px;
+    transform-style: preserve-3d;
+}
+
+.anip4 {
+    width: 200px;
+    height: 10px;
+    background-color: black;
+    animation-name: p2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-bottom: 15px;
+    transform-style: preserve-3d;
+}
+
+@keyframes p2 {
+    0% {
+        transform: scaleX(0);
+    }
+    10% {
+        transform: scaleX(1);
+    }
+    20% {
+        transform: scaleY(1.5);
+    }
+    30% {
+        /*        transform-origin: center;*/
+        transform: skewY(20deg);
+        margin-bottom: 15px;
+        border: 0px;
+        border-radius: 0px;
+    }
+    40% {
+        transform: rotate(10deg);
+        border: 0px;
+        border-radius: 10px;
+    }
+    50% {
+        transform: rotate(10deg);
+        border: 0px;
+        border-radius: 10px;
+    }
+    60% {
+        transform: rotate(10deg);
+
+    }
+    70% {}
+    75% {
+        border: 0px;
+        border-radius: 0px;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(10deg);
+        border: 0px;
+        border-radius: 0px;
+        opacity: 0;
+    }
+}
+
+@keyframes p2ex {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+        border-radius: 10px;
+    }
+    50% {
+        opacity: 1;
+        border-radius: 10px;
+    }
+    75% {
+        border-radius: 0px;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes p3 {
+    0% {
+        transform: scaleX(0);
+    }
+    10% {
+        transform: scaleX(1);
+    }
+    20% {
+        transform: scaleY(1.5);
+    }
+    30% {
+        /*        transform-origin: center;*/
+        transform: skewY(20deg);
+        margin-bottom: 15px;
+        border: 0px;
+        border-radius: 0px;
+    }
+    40% {
+        transform: rotate(170deg);
+        border: 0px;
+        border-radius: 10px;
+    }
+    50% {
+        transform: rotate(170deg);
+        border: 0px;
+        border-radius: 10px;
+    }
+    60% {
+        transform: rotate(190deg);
+        border: 0px;
+        border-radius: 0px;
+    }
+    70% {
+        transform: translateX(-50%);
+        transform: rotate(190deg);
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(190deg);
+        border: 0px;
+        border-radius: 0px;
+        opacity: 0;
+    }
+}
+
+@keyframes p4 {
+    0% {
+        transform: scaleX(0);
+    }
+    10% {
+        transform: scaleX(1);
+    }
+    20% {
+        transform: scaleY(1.5);
+    }
+    30% {
+        /*        transform-origin: center;*/
+        transform: skewY(20deg);
+        margin-bottom: 15px;
+        border: 0px;
+        border-radius: 0px;
+    }
+    40% {
+        transform: rotate(170deg);
+        border: 0px;
+        border-radius: 10px;
+    }
+    50% {
+        transform: rotate(170deg);
+        border: 0px;
+        border-radius: 10px;
+    }
+    60% {
+        transform: rotate(190deg);
+        border: 0px;
+        border-radius: 0px;
+    }
+    100% {
+        transform: rotate(190deg);
+        border: 0px;
+        border-radius: 0px;
+    }
+}
+
+.fcount3 {
+    position: absolute;
+    animation-name: count3;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+
+.fcount2 {
+    position: absolute;
+    animation-name: count2;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 1.5s;
+}
+
+.fcount1 {
+    position: absolute;
+    animation-name: count1;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 2.5s;
+}
+
+@keyframes count3 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes count2 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes count1 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/*
+.gradientanimation1 {
+    margin: 10px;
+    width: 100px;
+    height: 200px;
+    background-color: black;
+    animation-name: gradientani1;
+    animation-delay: 3.5s;
+    animation-duration: 2s;
+    opacity: 0;
+}
+.gradientanimation2 {
+    margin: 10px;
+    width: 100px;
+    height: 200px;
+    background-color: black;
+    animation-name: gradientani2;
+    animation-delay: 3.7s;
+    animation-duration: 2s;
+    opacity: 0;
+}
+.gradientanimation3 {
+    margin: 10px;
+    width: 100px;
+    height: 200px;
+    background-color: black;
+    animation-name: gradientani3;
+    animation-delay: 4.1s;
+    animation-duration: 2s;
+    opacity: 0;
+}
+*/
+
+/*
+@keyframes gradientani1 {
+    0% {
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    75%{
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes gradientani2 {
+     0% {
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    75%{
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes gradientani3 {
+     0% {
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    75%{
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+*/
+
+.covercircle {
+    width: 110px;
+    height: 110px;
+    border-radius: 200pt;
+    background-color: black;
+    z-index: 10;
+}
+
+.circleanimation {
+    background: linear-gradient(66deg, #00ffbd, #ffa3e7, #ffe67f);
+    background-size: 600% 600%;
+    
+    -webkit-animation: AnimationName 5s ease;
+    -moz-animation: AnimationName 5s ease;
+    animation: AnimationName 5s ease;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 58% 0%;
+    }
+    50% {
+        background-position: 43% 100%
+    }
+    100% {
+        background-position: 58% 0%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 58% 0%
+    }
+    50% {
+        background-position: 43% 100%
+    }
+    100% {
+        background-position: 58% 0%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 58% 0%;
+        opacity: 1;
+    }
+    50% {
+        background-position: 43% 100%;
+        opacity: 1;
+    }
+    100% {
+        background-position: 58% 0%;
+        opacity: 0;
+    }
+}
+
+.covercircle2 {
+    width: 110px;
+    height: 110px;
+    border-radius: 200pt;
+    background-color: black;
+    position: absolute;
+    z-index: 0;
+}
+

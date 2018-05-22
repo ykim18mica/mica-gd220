@@ -1,0 +1,424 @@
+<!doctype html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700" rel="stylesheet">
+    <script>
+        function openNav() {
+            document.getElementById("dropdown").style.display = "block";
+            document.getElementById("open").style.display = "none";
+            document.getElementById("close").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("dropdown").style.display = "none";
+            document.getElementById("close").style.display = "none";
+            document.getElementById("open").style.display = "block";
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+            padding: 0;
+            margin: 0;
+            color: white;
+        }
+
+        .background {
+            height: 100vh;
+            width: 1fr;
+            background: linear-gradient(to bottom right, #e5a7a3, #fbc29c, #fbe3c1, #ccd8e3, #acc3d2);
+            padding: 0;
+            margin: 0;
+            z-index: -99;
+            -webkit-background-size: cover;
+            background-size: cover;
+        }
+
+
+        .title-logo {
+            position: fixed;
+            top: 1.5vw;
+            left: 3vw;
+            z-index: 99;
+        }
+
+        .title-logo-1 {
+            font-weight: 600;
+            font-size: 1vw;
+            line-height: 1em;
+            letter-spacing: 0.1em;
+            width: 7vw;
+            text-align: right;
+        }
+
+        .question-logo-1 {
+            font-weight: 300;
+            font-size: 3.7vw;
+            position: fixed;
+            top: -3vw;
+            left: 9.8vw;
+            z-index: 99;
+        }
+
+        .question-logo-2 {
+            font-weight: 300;
+            font-size: 3.7vw;
+            position: fixed;
+            top: -2.9vw;
+            left: 9.95vw;
+            z-index: 98;
+            color: #e5a7a3;
+        }
+
+
+        .menu {
+            box-sizing: border-box;
+            grid-area: top-right;
+            width: 30px;
+            height: 30px;
+            height: auto;
+            margin-top: 20px;
+            position: fixed;
+            top: 0.5vw;
+            right: 5vw;
+            z-index: 99;
+            display: block;
+            transition: 0.5s;
+            opacity: 1;
+        }
+
+        .menu:hover .menu-line-1 {
+            background-color: #e5a7a3;
+            transition: 0.5s;
+            cursor: pointer;
+            /*transform:rotate(45deg);
+            position:absolute;
+            top:1vw;*/
+        }
+
+        .menu:hover .menu-line-2 {
+            background-color: #e5a7a3;
+            transition: 0.5s;
+            cursor: pointer;
+            /*opacity:0;*/
+        }
+
+        .menu:hover .menu-line-3 {
+            background-color: #e5a7a3;
+            transition: 0.5s;
+            cursor: pointer;
+            /*transform:rotate(-45deg);
+            position:absolute;
+            top:0.5vw;*/
+        }
+
+        .menu-line-1 {
+            width: 40px;
+            height: 4px;
+            background-color: white;
+            grid-area: top-right;
+            border-radius: 25px;
+        }
+
+        .menu-line-2 {
+            width: 40px;
+            height: 4px;
+            background-color: white;
+            grid-area: top-right;
+            margin-top: 8px;
+            border-radius: 25px;
+        }
+
+        .menu-line-3 {
+            width: 40px;
+            height: 4px;
+            background-color: white;
+            grid-area: top-right;
+            margin-top: 8px;
+            border-radius: 25px;
+        }
+
+        .menu-line-4 {
+            width: 40px;
+            height: 4px;
+            background-color: white;
+            grid-area: top-right;
+            margin-top: 8px;
+            border-radius: 25px;
+            transform: rotate(45deg);
+            position: fixed;
+            top: 2.2vw;
+            transition: 0.5s;
+        }
+
+        .menu-line-5 {
+            width: 40px;
+            height: 4px;
+            background-color: white;
+            grid-area: top-right;
+            margin-top: 8px;
+            border-radius: 25px;
+            transform: rotate(-45deg);
+            position: fixed;
+            top: 2.2vw;
+            transition: 0.5s;
+        }
+
+        .menu:hover .menu-line-4 {
+            background-color: #e5a7a3;
+            cursor: pointer;
+        }
+
+        .menu:hover .menu-line-5 {
+            background-color: #e5a7a3;
+            cursor: pointer;
+        }
+
+        #close {
+            display: none;
+            transition: 0.5s;
+        }
+
+        .menu-dropdown {
+            text-align: right;
+            grid-area: main;
+            position: absolute;
+            top: 80px;
+            right: 4vw;
+            font-size: 19px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        #dropdown {
+            display: none;
+        }
+
+        .snip1168 {
+            box-sizing: border-box;
+            margin-top: 40px;
+            position: fixed;
+            top: 3vw;
+            right: 4vw;
+            z-index: 100;
+            display: block;
+            font-weight: 400;
+        }
+
+        .snip1168 li {
+            display: block;
+            list-style-type: none;
+            margin-top: 0px;
+            padding: 0;
+            line-height: 40px;
+        }
+
+        .snip1168 a {
+            padding: 0;
+            color: rgba(255, 255, 255);
+            position: relative;
+            letter-spacing: 1px;
+            text-decoration: none;
+            line-height: 40px;
+        }
+
+        .snip1168 a:before,
+        .snip1168 a:after {
+            position: absolute;
+            -webkit-transition: all 0.35s ease;
+            transition: all 0.35s ease;
+        }
+
+        .snip1168 a:before {
+            top: 30px;
+            left: -2px;
+            display: block;
+            height: 3px;
+            width: 0%;
+            content: "";
+            background-color: #ffffff;
+        }
+
+        .snip1168 a:after {
+            left: 0;
+            top: -7px;
+            position: absolute;
+            content: attr(data-hover);
+            color: #e5a7a3;
+            white-space: nowrap;
+            max-width: 0%;
+            overflow: hidden;
+        }
+
+        .snip1168 a:hover:before,
+        .snip1168 .current a:before {
+            opacity: 1;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .snip1168 a:hover:after,
+        .snip1168 .current a:after {
+            max-width: 100%;
+            cursor: pointer;
+        }
+
+        .about-head {
+            font-weight: 400;
+            font-size: 1.4vw;
+            width: 7.3vw;
+            height: 1.8vw;
+            text-align: center;
+            color: white;
+            border: 0.13vw solid white;
+            border-radius: 3px;
+            position: absolute;
+            top: 13vw;
+            left: 15vw;
+        }
+
+        .content {
+            font-weight: 300;
+            font-size: 1.4vw;
+            width: 10vw;
+            height: 2vw;
+            text-align: left;
+            color: white;
+            border-radius: 3px;
+            position: absolute;
+        }
+
+        .content-1 {
+            top: 19vw;
+            left: 15.3vw;
+        }
+
+        .content-2 {
+            top: 22vw;
+            left: 15.3vw;
+            width: 20vw;
+        }
+
+        .content-3 {
+            top: 28.5vw;
+            left: 15.3vw;
+            width: 20vw;
+        }
+
+        .more-info {
+            font-weight: 400;
+            font-size: 1.3vw;
+            width: 13vw;
+            height: 1.8vw;
+            text-align: center;
+            color: white;
+            border: 2.4px solid white;
+            border-radius: 3px;
+            position: absolute;
+            top: 19vw;
+            left: 58vw;
+            -webkit-transition: all 0.35s ease;
+            transition: all 0.35s ease;
+        }
+
+        .more-info a {
+            text-align: center;
+            color: white;
+            text-decoration: none;
+        }
+
+        .more-info a:before,
+        .more-info a:after {
+            position: absolute;
+            -webkit-transition: all 0.35s ease;
+            transition: all 0.35s ease;
+        }
+
+        .more-info a:before {
+            top: 30px;
+            left: -1.5px;
+            display: block;
+            content: "";
+            font-weight: 400;
+        }
+
+        .more-info a:after {
+            left: 0.7vw;
+            top: 0;
+            content: "GET TICKETS NOW";
+            font-weight: 400;
+            position: absolute;
+            color: #e5a7a3;
+            white-space: nowrap;
+            max-width: 0%;
+            overflow: hidden;
+            text-decoration: none;
+        }
+
+        .more-info a:hover:before,
+        .more-info .current a:before {
+            opacity: 1;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .more-info a:hover:after,
+        .more-info .current a:after {
+            max-width: 100%;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <div class="background"></div>
+
+    <div class="title-logo">
+        <p class="title-logo-1">FREELANCE<br>IN-HOUSE</p>
+        <p class="question-logo-1">?</p>
+        <p class="question-logo-2">?</p>
+
+    </div>
+    <div id="nav">
+        <div class="menu" id="open" onClick="openNav()">
+            <!-- <img src="gd2-final-images-copy/Asset%203.svg" width="50">-->
+            <div class="menu-line-1"></div>
+            <div class="menu-line-2"></div>
+            <div class="menu-line-3"></div>
+        </div>
+        <div class="menu" id="close" onClick="closeNav()">
+            <!-- <img src="gd2-final-images-copy/Asset%203.svg" width="50">-->
+            <div class="menu-line-4"></div>
+            <div class="menu-line-5"></div>
+
+        </div>
+
+        <div class="menu-dropdown" id="dropdown">
+            <ul class="snip1168">
+                <li><a href="index.html" data-hover="Home">Home</a></li>
+                <li><a href="about.html" data-hover="About this event">About this event</a></li>
+                <li><a href="speakers.html" data-hover="speakers">speakers</a></li>
+                <li><a href="schedule.html" data-hover="Schedule / Location">Schedule / Location</a></li>
+                <li class="current"><a href="register.html" data-hover="Register">Register</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="schedule">
+        <p class="about-head schedule">REGISTER</p>
+        <p class="content content-1">One-time ticket</p>
+        <p class="content content-2">Tickets are available online at mica.edu, MICA Store <br>or at the door.</p>
+        <p class="content content-3">Free for MICA Community<br>$5 for General</p>
+
+    </div>
+    <p class="more-info"><a href="https://www.eventbrite.com/" target="_blank">GET TICKETS NOW</a></p>
+
+
+
+</body>
+
+</html>

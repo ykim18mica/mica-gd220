@@ -1,0 +1,132 @@
+h1 {
+    position: absolute;
+    font-size: 45px;
+    color: #86F7BC;
+    font-family: avenir;
+    letter-spacing: .1px;
+    top: 150px;
+    left: 478px;
+    line-height: 1.2;
+}
+
+body {
+    background-color: #4F4F56;
+    margin: 0px auto;
+}
+
+.home-image {
+    width: 1300px;
+    height: auto;
+    position: absolute;
+}
+
+grid-container {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    min-width: 1300px;
+    margin: 0px auto;
+}
+
+
+.home-tab {
+    font-family: avenir;
+    font-weight: 300;
+    color: #A4FFC4;
+    position: absolute;
+    top: 30px;
+    left: 130px;
+
+}
+
+.about-tab {
+    font-family: avenir;
+    font-weight: 300;
+    position: absolute;
+    top: 30px;
+    left: 440px
+}
+
+.speakers-tab {
+    font-family: avenir;
+    font-weight: 300;
+    position: absolute;
+    top: 30px;
+    left: 750px;
+}
+
+.location-tab {
+    font-family: avenir;
+    font-weight: 300;
+    position: absolute;
+    top: 30px;
+    left: 1040px;
+}
+
+
+.home-info {
+    position: absolute;
+    font-family: avenir;
+    font-weight: 100;
+    text-align: left justify;
+    color: white;
+    left: 370px;
+    font-size: 28px;
+    line-height: 65px;
+    width: 580px;
+    top: 1000px
+}
+
+.date-location {
+    position: absolute;
+    font-family: avenir;
+    color: white;
+    font-size: 40px;
+    font-weight: 540;
+    top: 1580px;
+    left: 210px
+}
+
+.date {
+    position: absolute;
+    font-family: avenir;
+    font-size: 22px;
+    font-weight: 100;
+    color: white;
+    top: 1660px;
+    left: 210px;
+    letter-spacing: .3px;
+
+}
+
+.location {
+    position: absolute;
+    font-family: avenir;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    top: 1780px;
+    left: 210px;
+    letter-spacing: .4px
+}
+
+.location-two {
+    position: absolute;
+    font-family: avenir;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    top: 1812px;
+    left: 210px;
+    font-style: italic;
+}
+
+.speakers {
+    position: absolute;
+    font-family: avenir;
+    color: white;
+    font-size: 40px;
+    font-weight: 540;
+    top: 2185px;
+    left: 925px
+}

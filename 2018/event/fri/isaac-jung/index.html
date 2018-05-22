@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>FROM-TO</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
+    <style>
+        /* YOUR CSS CODE HERE */
+
+        /* basic setting */
+
+        a {
+            text-decoration: none;
+        }
+
+        a:link {
+            color: black;
+        }
+
+        a:visited {
+            color: black;
+        }
+
+        .h-100 {
+            height: 100%;
+        }
+
+        .pa {
+            position: absolute;
+        }
+
+        /* font */
+
+        @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+        p {
+            font-family: "Roboto", sans-serif;
+            font-style: normal;
+            color: black;
+        }
+
+        p.light {
+            font-family: "Roboto", sans-serif;
+            font-style: thin;
+            color: black;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .normal {
+            font-weight: 200;
+        }
+
+        .f-100 {
+            font-size: 3.8vw;
+            line-height: 4.5vw;
+        }
+
+        .f-50 {
+            font-size: 2vw;
+        }
+
+        .f-10 {
+            font-size: 1.1vw;
+            line-height: 1.5vw;
+        }
+
+        .f-5 {
+            font-size: 0.5vw;
+        }
+
+        .f-7 {
+            font-size: 1.5vw;
+        }
+
+        .f-15 {
+            font-size: 2vw;
+        }
+
+
+        /* text positioning */
+
+        .about {
+            margin: -0.6vw -10vw;
+            position: absolute;
+            animation: left-right ease-in-out 2s forwards, fade-out ease-in-out 2s infinite;
+            padding: 2vw;
+            width: 4vw;
+            background-color: transparent;
+            color: black;
+        }
+
+        @-webkit-keyframes left-right {
+            0% {
+                margin-left: -20vw;
+            }
+            50% {
+                margin-left: -10vw
+            }
+        }
+
+        @-webkit-keyframes fade-out {
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+        .about:hover {
+            cursor: pointer;
+            color: coral;
+        }
+
+        .program {
+            margin: -0.6vw -10vw;
+            position: absolute;
+            animation: left-right ease-in-out 2s forwards, fade-out ease-in-out 2s infinite;
+            padding: 2vw;
+            width: 4vw;
+            background-color: transparent;
+            color: black;
+        }
+
+        .program:hover {
+            cursor: pointer;
+            color: coral;
+        }
+
+        .schedule {
+            margin: 21.1vw -10vw;
+            position: absolute;
+            animation: left-right ease-in-out 2s forwards, fade-out ease-in-out 2s infinite;
+            padding: 2vw;
+            width: 4vw;
+            background-color: transparent;
+            color: black;
+        }
+
+        .schedule:hover {
+            cursor: pointer;
+            color: coral;
+        }
+
+        .speakers {
+            margin: -7vw -10vw;
+            position: absolute;
+            animation: left-right ease-in-out 2s forwards, fade-out ease-in-out 2s infinite;
+            padding: 2vw;
+            width: 4vw;
+            background-color: transparent;
+            color: black;
+        }
+
+        .speakers:hover {
+            cursor: pointer;
+            color: coral;
+        }
+
+        .location {
+            margin: 91.4vw -10vw;
+            position: absolute;
+            animation: left-right ease-in-out 2s forwards, fade-out ease-in-out 2s infinite;
+            padding: 2vw;
+            width: 4vw;
+            background-color: transparent;
+            color: black;
+        }
+
+        .location:hover {
+            cursor: pointer;
+            color: coral;
+        }
+
+        /*
+        #locationinfo {
+            margin: 42vw 76.95vw;
+            width: 100vw;
+            line-height: 1.5vw;
+            opacity: 0;
+            transition: 0.8s ease;
+        }
+*/
+
+        /*
+        .location2 {
+            margin: 44vw 77vw;
+            width: 20vw;
+            line-height: 1.3vw;
+        }
+*/
+
+        #aboutInfo {
+            width: 79vw;
+            height: 17.5vw;
+            background-color: lightgrey;
+            opacity: 0;
+            z-index: -1;
+            margin: 5vw 0vw;
+            transition: 0.8s ease;
+        }
+
+        #img {
+            width: 10vw;
+            height: 10vw;
+        }
+
+        #logo {
+            margin: 2vw 55vw;
+            width: 0vw;
+            height: 4.3vw;
+            background-image: url(images/Resize%20Illustrator-12.png);
+            background-size: cover;
+            position: fixed;
+            transition: 10s width;
+            opacity: 0;
+            z-index: 9999;
+        }
+
+        .in {
+            margin-top: 15vw;
+            margin-left: 25%;
+            height: 22vw;
+        }
+
+        #programinfo {
+            margin-top: 29.2vw;
+            margin-left: 25%;
+            height: 22vw;
+            opacity: 1;
+        }
+
+        .copyright {
+            margin: 49.6vw 0vw;
+        }
+
+        .program-info {
+            margin: 4.8vw 77vw;
+            line-height: 5vw;
+            opacity: 0;
+            transition: 0.8s ease;
+            width: 16vw;
+        }
+
+        .program-info-2 {
+            margin: 21.8vw 77vw;
+            line-height: 5vw;
+            opacity: 0;
+            transition: 0.8s ease;
+            width: 19vw;
+        }
+
+        .scheduleinfo {
+            margin: 40.25vw 79vw;
+            line-height: 3vw;
+            opacity: 0;
+            transition: 0.8s ease;
+            width: 30vw;
+        }
+
+        .speakerinfo {
+            margin: 40.25vw 10vw;
+            width: 10vw;
+            line-height: 3vw;
+            opacity: 0;
+            transition: 0.8s ease;
+        }
+
+        .speakerinfo-2 {
+            margin: 40.25vw 50vw;
+            width: 10vw;
+            line-height: 3vw;
+            opacity: 0;
+            transition: 0.8s ease;
+        }
+
+        .program-title {
+            margin: 4vw 77vw;
+            width: 15vw;
+        }
+
+        .program-title2 {
+            margin: 21.2vw 77vw;
+            width: 15vw;
+        }
+
+        .f-all {
+            font-size: 3.1vw;
+            line-height: 3.8vw;
+            font-weight: 100;
+        }
+
+        .black {
+            font-style: bold;
+        }
+
+        .bold {
+            font-weight: 1000;
+        }
+
+        .light {
+            font-weight: lighter;
+        }
+
+        .normal2 {
+            font-weight: 600;
+        }
+
+        #aboutreveal {
+            opacity: 0;
+            transition: ease-in-out 2s opacity;
+            z-index: 5;
+        }
+
+        .printing {
+            margin-top: 17.9vw;
+            width: 14.8vw;
+            border-bottom: solid 0.1vw black;
+            z-index: 10;
+        }
+
+        #printing2 {
+            opacity: 0;
+            width: 14.8vw;
+            transition: 0.8s ease;
+        }
+
+        .printing:hover {
+            cursor: pointer;
+            color: coral;
+            border-bottom: solid 0.1vw coral;
+            transition: 0.1s;
+        }
+
+        .bc {
+            margin-top: 29.2vw;
+            width: 15.8vw;
+            border-bottom: solid 0.1vw black;
+            z-index: 10;
+        }
+
+        #bc2 {
+            opacity: 0;
+            transition: 0.8s ease;
+        }
+
+        .bc:hover {
+            cursor: pointer;
+            color: coral;
+            width: 15.8vw;
+            border-bottom: solid 0.1vw coral;
+            transition: 0.1s;
+        }
+
+        .uiux {
+            margin-top: 40.43vw;
+            width: 7.6vw;
+            border-bottom: solid 0.1vw black;
+            z-index: 10;
+        }
+
+        #uiux2 {
+            opacity: 0;
+            transition: 0.8s ease;
+        }
+
+        .uiux:hover {
+            cursor: pointer;
+            color: coral;
+            border-bottom: solid 0.1vw coral;
+            transition: 0.1s;
+        }
+
+        .business {
+            margin-top: 55.4vw;
+            width: 22.1vw;
+            border-bottom: solid 0.1vw black;
+            z-index: 10;
+        }
+
+        #business2 {
+            opacity: 0;
+            transition: 0.8s ease;
+        }
+
+        .business:hover {
+            cursor: pointer;
+            color: coral;
+            border-bottom: solid 0.1vw coral;
+            transition: 0.1s;
+        }
+
+        .auto {
+            margin-top: 66.7vw;
+            width: 15.8vw;
+            border-bottom: solid 0.1vw black;
+            z-index: 10;
+            opacity: 0;
+            transition: 0.8s ease;
+        }
+
+        #auto2 {
+            opacity: 0;
+            transition: 0.8s ease;
+        }
+
+        .auto:hover {
+            cursor: pointer;
+            color: coral;
+            border-bottom: solid 0.1vw coral;
+            transition: 0.1s;
+        }
+
+        .designer {
+            margin-top: 77.9vw;
+            width: 19.5vw;
+            border-bottom: solid 0.1vw black;
+            z-index: 10;
+        }
+
+        #designer2 {
+            opacity: 0;
+            transition: 0.8s ease;
+        }
+
+        .designer:hover {
+            cursor: pointer;
+            color: coral;
+            border-bottom: solid 0.1vw coral;
+            transition: 0.1s;
+        }
+
+        #time {
+            opacity: 0;
+            transition: 0.8s ease;
+        }
+
+        #opening {
+            opacity: 0;
+            transition: 0.8s ease;
+        }
+
+        #openingtime {
+            opacity: 0;
+            transition: 0.8s ease;
+        }
+
+        #speakers {
+            opacity: 0;
+            transition: 0.8s ease;
+        }
+
+        #googlemapinfo {
+            margin: 1vw 10vw;
+        }
+
+        #locationmap {
+            margin: 1vw 10vw;
+        }
+
+        #iframe {
+            margin-top: 10vw;
+            margin-left: -50vw;
+            position: absolute;
+            opacity: 0;
+            transition: 2s ease;
+        }
+
+        #MOMAPS1 {
+            margin-top: -8vw;
+        }
+
+        #locationspecific {
+            opacity: 0;
+            transition: 2s opacity ease;
+
+        }
+
+        #printingadd {
+            margin-top: 71.9vw;
+            padding-bottom: 200vw;
+            position: absolute;
+            opacity: 0;
+            transition: 2s opacity ease;
+            z-index: 0;
+        }
+
+        .blockchainadd {
+            margin-top: 78vw;
+            position: absolute;
+        }
+
+        #blockchainadd {
+            padding-top: 5vw;
+            padding-bottom: 100vw;
+            height: 30vw;
+            opacity: 0;
+            transition: 2s opacity ease;
+            z-index: 0;
+        }
+
+        .uiuxadd {
+            margin-top: 87.7vw;
+            position: absolute;
+        }
+
+        #uiuxadd {
+            padding-top: 6.8vw;
+            padding-bottom: 100vw;
+            height: 30vw;
+            opacity: 0;
+            transition: 2s opacity ease;
+            z-index: 0;
+        }
+
+        .businessadd {
+            margin-top: 100.7vw;
+            position: absolute;
+        }
+
+        #businessadd {
+            padding-top: 8.9vw;
+            padding-bottom: 50vw;
+            height: 30vw;
+            opacity: 0;
+            transition: 2s opacity ease;
+            z-index: 0;
+        }
+
+        .automationadd {
+            margin-top: 115.7vw;
+            position: absolute;
+        }
+
+        #automationadd {
+            padding-top: 4.7vw;
+            padding-bottom: 32vw;
+            height: 30vw;
+            opacity: 0;
+            transition: 2s opacity ease;
+            z-index: 0;
+        }
+
+        .designeradd {
+            margin-top: 126.7vw;
+            position: absolute;
+        }
+
+        #designeradd {
+            padding-top: 5.6vw;
+            height: 30vw;
+            opacity: 0;
+            transition: 2s opacity ease;
+            z-index: 0;
+        }
+
+        #ending {
+            padding-top: 45vw;
+        }
+
+        #printingadd2 {
+            padding-bottom: 200vw;
+        }
+
+        #footer {
+            margin-top: 50vw;
+        }
+
+        .f-footer {
+            font-size: 2vw;
+            line-height: 2.5vw;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ALL YOUR CODE MUST BE IN CONTAINER -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-20 col-offset-75" id="printingadd">
+                <p class="f-10" id="printingadd2" style="background-color: white">Future of 3D Printing<br><span style="color:transparent">d</span><br>3D printing software “Tinkercad” demonstration and DIY session.<span style="color:transparent">d</span><br><br>3D printing will provide an entirely new medium and potential mode of communication.The output of the traditional graphic designer will no longer be assumed as two-dimensional, or screen-based, but a tangible, customized, domesticized artifact that emphasizes human centeric design.<br><span style="color:transparent">d</span><br>+ Georgianna Stout is a founding partner and creative director of 2x4 where she leads a wide range of projects from extensive retail and packaging design initiatives to large-scale identity, exhibition and environmental graphics/wayfinding programs.<br><a href="https://2x4.org/people/" target="_blank"><span style="color:transparent">d</span><br>Click for More about the speaker</a></p>
+            </div>
+
+            <div class="col-20 col-offset-75 blockchainadd">
+                <p class="f-10" id="blockchainadd" style="background-color: white; border-top: 0.1vw solid coral">BLOCKCHAIN<br><span style="color:transparent">d</span><br>Screening history of data ownership<br> Step by step guidelines how to access and utilize BITMARK<br><span style="color:transparent">d</span><br>As the development of digital media continues to expand, designers will find themselves confronting issues of privacy and ownership at scales that have yet to be considered or resolved in the design industry. The blockchain is an emerging technology that can help designers “mark” what’s rightfully theirs. By harnessing the power of blockchain technology such as Bitmark, designers can avoid a possible future in which the ownership of all digital portfolios, assets, and files is completely untraceable.<br><span style="color:transparent">d</span><br>+Bitmark Inc. was founded to create a different future where individual internet users will take back ownership of their digital lives – a new digital environment built on individual freedom and empowerment where everyone has a chance at success.<br><a href="https://bitmark.com/resources/faq" target="_blank"><span style="color:transparent">d</span><br>Click for More about the speaker</a></p>
+            </div>
+
+            <div class="col-20 col-offset-75 uiuxadd">
+                <p class="f-10" id="uiuxadd" style="background-color: white; border-top: 0.1vw solid coral">UIUX<br><span style="color:transparent">d</span><br>Role of Storytelling in User Experience<br> Adobe XD demonstration
+                    <br><span style="color:transparent">d</span><br>User interface is the gateway through which users interact with your products or services. Online or offline, it’s the same idea. People must be able to find the information they are looking for – fast: Any network based communication or application must be organized in a consistent, intuitive manner which reflects the desired experience of the product, organization, and/or artifact.<br><span style="color:transparent">d</span><br>+Sarah Doody is passionate about helping companies use the power of storytelling to create products that help solve real problems. She is determined to help teams shift their focus from products to people. Sarah specializes in both product and brand development and is passionate about working with companies to help turn their ideas into thoughtful product experiences.<br><a href="http://www.sarahdoody.com/" target="_blank"><span style="color:transparent">d</span><br>Click for More about the speaker</a></p>
+            </div>
+
+            <div class="col-20 col-offset-75 businessadd">
+                <p class="f-10" id="businessadd" style="background-color: white; border-top: 0.1vw solid coral">Business Design<br><span style="color:transparent">d</span><br>The What, How, and Why
+                    <br>of Business Design<br><span style="color:transparent">d</span><br>Historically, people would study graphic design, industrial design, or interaction design and there were a finite number of crafts out in the world. Now we’re starting to see that design and creativity can be brought to bear on a greater number of things. One is business design, the idea of bringing a creative lens to anything from business models to venture funding.<br><span style="color:transparent">d</span><br>+ Duane Bray is a Partner and Head of global digital business at IDEO, Inc. Mr. Bray joined IDEO in 1995 to lead and develop the discipline of interaction design, now one of its most sought-after capabilities. He has a background in communication design and interaction design.<br><a href="https://www.ideo.com/people/duane-bray" target="_blank"><span style="color:transparent">d</span><br>Click for More about the speaker</a></p>
+            </div>
+
+            <div class="col-20 col-offset-75 automationadd">
+                <p class="f-10" id="automationadd" style="background-color: white; border-top: 0.1vw solid coral">Automation<br><span style="color:transparent">d</span><br>Conference on the Economics of Automation
+                    <br><span style="color:transparent">d</span><br>Designers are typically experts in things you can touch, see and act upon. Now with software eating the world, a lot of the manifest expressions of the design world are giving way to things that are not as see-able, like personalization data that remember who we are. Designers are going to have to think about how a human and a machine will interact. It’s artificial intelligence and all of the decisions are being made using personal data. That is the new kind of design problem.<br><span style="color:transparent">d</span><br>+ Mark was an early pioneer of software user experience, working with clients to leverage emerging technologies and setting the tone for user interface design and mobile platforms. His client roster has featured the world’s largest brands, including Disney, Ford, GE, HP, Microsoft.<br><a href="http://www.argodesign.com/mark-rolston-bio.html" target="_blank"><span style="color:transparent">d</span><br>Click for More about the speaker</a></p>
+            </div>
+            <!--            </p>-->
+
+            <div class="col-20 col-offset-75 designeradd">
+                <p class="f-10" id="designeradd" style="background-color: white; border-top: 0.1vw solid coral">Designer 2025<br><span style="color:transparent">d</span><br>What will a designer and their job look like in 2025?<br><span style="color:transparent">d</span><br>As technology expanded the repertoire of form, collapsed previously separated production tasks, and diversified people’s means for interacting with information, new content competed for curricular space with traditional coursework defined by printed communication. Schools assigned new media instruction to specialized classes, or in some cases, to independent curricula that left communication design programs bereft of instruction in emerging technologies for as much as a decade. At the same time, programs in computer science, psychology, and business took on content suggested by increasingly interactive technology and a knowledge economy. While design programs had little choice but to integrate production software with other studio content and to expand the communication domain from page to screen, most curricula still retain industrial-age, message-centered perspectives on the fundamental principles of design.<br><span style="color:transparent">d</span><br>+I serve as the Executive Director for AIGA, the professional association for design. My career has been focused on imagining and creating remarkable results through imbedding innovation in large and small organizations as a hands-on executive, strategist, catalyst/audience builder, educator and facilitator of enterprise change. Remarkable is a high bar and it’s the only one that interests me! <br><a href="https://www.linkedin.com/in/janixter" target="_blank"><span style="color:transparent">d</span><br>Click for More about the speaker</a></p>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-50 col-offset-25 in">
+                <p id="logo"></p>
+                <p class="about f-10 normal2" onclick="myFunction1()">ABOUT→</p>
+                <p class="f-all"><span class="bold">FROM – TO</span>
+                    <span style="color:transparent">is a welcoming design event opened to the public on</span><br><span class="bold">August 16th, 2018</span> <span style="color:transparent">which seeks to educate, support, and share the shifting paradigms in the field of design,</span> <span class="bold">addressing the evolving role of designers</span><span style="color:transparent">, consumers, educators, and companies in the</span> <span class="bold">21st century</span></p>
+                <p class="f-all" id="aboutreveal"><span class="bold">FROM – TO</span> is a welcoming design event opened to the public on <br><span class="bold">August 16th, 2018</span> which seeks to educate, support, and share the shifting paradigms in the field of design, <span class="bold">addressing the evolving role of designers</span>, consumers, educators, and companies in the <span class="bold"> 21st century</span></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-50 full col-offset-25 in">
+                <p class="program f-10 normal2" onclick="myFunction2()">PROGRAM→</p>
+                <p class="location f-10 normal2" onclick="myFunction5()">MAP→</p>
+
+                <p class="schedule f-10 normal2" onclick="myFunction3()">SCHEDULE→</p>
+
+                <p class="f-all" id="opening">Following an <span class="bold">opening reception</span><span style="color:transparent"><br>10:00 – 11:00</span> programs such as</p>
+
+                <p class="f-all" id="openingtime"><span style="color:transparent">Following an <span class="bold">opening reception</span></span><br>10:00 – 11:00 programs such as</p>
+
+                <p class="f-all printing" id="printing2" onclick="myFunction6()">3D Printing</p>
+                <p class="f-all bc pa" id="bc2" onclick="myFunction7()">Block Chain</p>
+                <p class="f-all uiux pa" id="uiux2" onclick="myFunction8()">UI UX</p>
+                <p class="f-all business" id="business2" onclick="myFunction9()">Business Design</p>
+                <p class="f-all auto pa" id="auto2" onclick="myFunction10()">Automation</p>
+                <p class="f-all designer pa" id="designer2" onclick="myFunction11()">Designer 2025</p>
+            </div>
+
+            <div class="col-50 full col-offset-25 pa" id="programinfo">
+                <p class="f-all">
+                    <span class="bold">Design Workshop</span><br><span style="color:transparent">3D Printing by + Georgianna Stout <br>11:00 – 12:30 16:00 – 17:30 <br><span style="color:transparent">d</span><br>Block Chain + Bitmark <br>13:30 – 14:00 18:30 – 19:00 <br><span style="color:transparent">d</span><br>UI UX by + Sarah Doody<br>14:00 – 15:00 19:00– 20:00<br></span><span style="color:transparent">d</span><span class="bold"><br>Conference</span><br><span style="color:transparent">Business Design + Duane Bray<br>11:00–12:30 16:00–17:30<br><span style="color:transparent">d</span><br>Automation + Mark Rolston<br>13:30–14:00 18:30–19:00<br><span style="color:transparent">d</span><br>Designer 2025 + Juile Anixter<br>14:00–15:00 19:00–20:00</span>
+                </p>
+
+                <p class="f-all" id="time">
+                    <span style="color:transparent">Design Workshop<br>3D Printing by + Georgianna Stout</span><br>11:00 – 12:30 16:00 – 17:30 <br><span style="color:transparent">d</span><br><span style="color:transparent">Block Chain + Bitmark</span><br>13:30 – 14:00 18:30 – 19:00 <br><span style="color:transparent">d</span><br><span style="color:transparent">UI UX by + Sarah Doody</span><br>14:00 – 15:00 19:00– 20:00<br><span style="color:transparent">d</span><span class="bold" style="color:transparent"><br>Conference</span><br><span style="color:transparent">Business Design + Duane Bray</span><br>11:00–12:30 16:00–17:30<br><span style="color:transparent">d</span><br><span style="color:transparent">Automation + Mark Rolston</span><br>13:30–14:00 18:30–19:00<br><span style="color:transparent">d</span><br><span style="color:transparent">Designer 2025 + Juile Anixter</span><br>14:00–15:00 19:00–20:00
+                </p>
+
+                <p class="f-all" id="speakers">
+                    <span style="color:transparent">Design Workshop<br>3D Printing </span>+ Georgianna Stout<br> <span style="color:transparent">11:00 – 12:30 16:00 – 17:30</span><br><span style="color:transparent">d</span><br><span style="color:transparent">Block Chain </span> + Bitmark<br> <span style="color:transparent">13:30 – 14:00 18:30 – 19:00</span><br><span style="color:transparent">d</span><br><span style="color:transparent">UI UX</span> + Sarah Doody<br><span style="color:transparent">14:00 – 15:00 19:00– 20:00</span><br><span style="color:transparent">d</span><span class="bold" style="color:transparent"><br>Conference</span><br><span style="color:transparent">Business Design</span> + Duane Bray<br><span style="color:transparent">11:00–12:30 16:00–17:30</span><br><span style="color:transparent">d</span><br><span style="color:transparent">Automation </span> + Mark Rolston<br><span style="color:transparent">13:30–14:00 18:30–19:00</span><br><span style="color:transparent">d</span><br><span style="color:transparent">Designer 2025</span> + Juile Anixter<br><span style="color:transparent">14:00–15:00 19:00–20:00</span></p>
+
+                <p class="speakers f-10 normal2" onclick="myFunction4()">SPEAKERS→</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-50 blank col-offset-25 in" id="MOMAPS1">
+                <p class="f-all"><span class="bold">MOMA PS1</span></p>
+                <p class="f-all" id="locationspecific"><span class="bold"><span style="color:transparent">MOMA PS1</span></span><br>Queens 22-25 Jackson Avenue on<br>46th Avenue, Long Island City, NY</p>
+                <p class="f-all" id="ending">Come and meet creative artists, professionals, and fellow practitioners of design.</p>
+            </div>
+            <div class="col-50 col-offset-25 pa" id="footer">
+                <p class="f-footer">
+                    Reach out and share<br><span style="color:transparent">b</span><br>fromto@gmail.com twitter.com/from–to https://www.instagram.com/from–to
+                </p>
+            </div>
+
+            <iframe id="iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12091.006570891406!2d-73.9473572!3d40.7454901!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb60d34de1767c837!2sMoMA+PS1!5e0!3m2!1sen!2sus!4v1525426699367" width="45%" height="30%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+        <!-- DO NOT CHANGE CODES BELOW-->
+        <script src="js/jquery-3.1.0.min.js"></script>
+        <script src="js/jquery.lazyload.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                $('div').lazyload(
+                    effect: "fadeIn"
+                );
+            });
+        </script>
+
+        <script>
+            function myFunction1() {
+                document.getElementById("aboutreveal").style.opacity = "1";
+                document.getElementById("logo").style.width = "2.5vw";
+                document.getElementById("logo").style.opacity = "1";
+            }
+
+            function myFunction2() {
+                document.getElementById("logo").style.width = "5.5vw";
+                document.getElementById("logo").style.opacity = "1";
+                document.getElementById("bc2").style.opacity = "1";
+                document.getElementById("printing2").style.opacity = "1";
+                document.getElementById("uiux2").style.opacity = "1";
+                document.getElementById("business2").style.opacity = "1";
+                document.getElementById("auto2").style.opacity = "1";
+                document.getElementById("designer2").style.opacity = "1";
+                document.getElementById("opening").style.opacity = "1";
+            }
+
+            function myFunction3() {
+                document.getElementById("time").style.opacity = "1";
+                document.getElementById("openingtime").style.opacity = "1";
+                document.getElementById("logo").style.width = "10vw";
+                document.getElementById("logo").style.opacity = "1";
+            }
+
+            function myFunction4() {
+                document.getElementById("speakers").style.opacity = "1";
+                document.getElementById("logo").style.width = "9vw";
+                document.getElementById("logo").style.opacity = "1";
+            }
+
+            function myFunction5() {
+                document.getElementById("locationspecific").style.opacity = "1";
+                document.getElementById("iframe").style.opacity = "1";
+                document.getElementById("logo").style.width = "11.2vw";
+                document.getElementById("logo").style.opacity = "1";
+            }
+
+            function myFunction6() {
+                document.getElementById("printingadd").style.opacity = "1";
+                document.getElementById("printingadd").style.zIndex = "10";
+                document.getElementById("blockchainadd").style.zIndex = "0";
+                document.getElementById("uiuxadd").style.zIndex = "0";
+                document.getElementById("businessadd").style.zIndex = "0";
+                document.getElementById("automationadd").style.zIndex = "0";
+                document.getElementById("designeradd").style.zIndex = "0";
+            }
+
+            function myFunction7() {
+                document.getElementById("blockchainadd").style.opacity = "1";
+                document.getElementById("printingadd").style.zIndex = "0";
+                document.getElementById("blockchainadd").style.zIndex = "100";
+                document.getElementById("uiuxadd").style.zIndex = "0";
+                document.getElementById("businessadd").style.zIndex = "0";
+                document.getElementById("automationadd").style.zIndex = "0";
+                document.getElementById("designeradd").style.zIndex = "0";
+            }
+
+            function myFunction8() {
+                document.getElementById("uiuxadd").style.opacity = "1";
+                document.getElementById("printingadd").style.zIndex = "0";
+                document.getElementById("blockchainadd").style.zIndex = "0";
+                document.getElementById("uiuxadd").style.zIndex = "10";
+                document.getElementById("businessadd").style.zIndex = "0";
+                document.getElementById("automationadd").style.zIndex = "0";
+                document.getElementById("designeradd").style.zIndex = "0";
+            }
+
+            function myFunction9() {
+                document.getElementById("businessadd").style.opacity = "1";
+                document.getElementById("printingadd").style.zIndex = "0";
+                document.getElementById("blockchainadd").style.zIndex = "0";
+                document.getElementById("uiuxadd").style.zIndex = "0";
+                document.getElementById("businessadd").style.zIndex = "10";
+                document.getElementById("automationadd").style.zIndex = "0";
+                document.getElementById("designeradd").style.zIndex = "0";
+            }
+
+            function myFunction10() {
+                document.getElementById("automationadd").style.opacity = "1";
+                document.getElementById("printingadd").style.zIndex = "0";
+                document.getElementById("blockchainadd").style.zIndex = "0";
+                document.getElementById("uiuxadd").style.zIndex = "0";
+                document.getElementById("businessadd").style.zIndex = "0";
+                document.getElementById("automationadd").style.zIndex = "10";
+                document.getElementById("designeradd").style.zIndex = "0";
+            }
+
+            function myFunction11() {
+                document.getElementById("designeradd").style.opacity = "1";
+                document.getElementById("printingadd").style.zIndex = "0";
+                document.getElementById("blockchainadd").style.zIndex = "0";
+                document.getElementById("uiuxadd").style.zIndex = "0";
+                document.getElementById("businessadd").style.zIndex = "0";
+                document.getElementById("automationadd").style.zIndex = "0";
+                document.getElementById("designeradd").style.zIndex = "10";
+            }
+        </script>
+    </div>
+</body>
+
+</html>

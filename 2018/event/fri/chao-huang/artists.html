@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MOTION FOR EMOTION</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <style>
+        html {
+            font-family: Apercu, sans-serif;
+
+        }
+
+        body {
+            background-color: black;
+        }
+
+
+        .speaker1 {
+            width: 20%;
+            position: absolute;
+            top: 20vw;
+            left: 15vw;
+
+        }
+
+        .speaker2 {
+            width: 20%;
+            position: absolute;
+            top: 50vw;
+            left: 15vw;
+        }
+
+        .speaker3 {
+            width: 20%;
+            position: absolute;
+            top: 80vw;
+            left: 15vw;
+
+        }
+
+        h1 {
+            font-size: 3vw;
+            color: white;
+            position: absolute;
+            font-weight: 500;
+            letter-spacing: 0.6vw;
+            top: vw;
+            left: 17vw;
+        }
+
+        .speaker-name {
+            font-size: 2vw;
+            color: black;
+            position: absolute;
+            letter-spacing: 1vw;
+
+        }
+
+        .name1 {
+            position: absolute;
+            top: 100vw;
+            left: 31vw;
+
+
+        }
+
+        .name1:hover {
+            animation: shake 2s forwards;
+
+        }
+
+        .name2 {
+            position: absolute;
+            top: 35vw;
+            left: 30vw;
+
+        }
+
+        .name2:hover {
+            animation: shake 2s forwards;
+
+        }
+
+        .name3 {
+            position: absolute;
+            top: 70vw;
+            left: 30vw;
+
+        }
+
+        .name3:hover {
+            animation: shake 2s forwards;
+
+        }
+
+
+
+        .time {
+            font-size: 1.5vw;
+            color: black;
+            position: absolute;
+            left: 16vw;
+            top: 25vw;
+            letter-spacing: 0.3vw;
+        }
+
+        .t1 {
+            position: absolute;
+            top: 16vw;
+
+        }
+
+        .t2 {
+            position: absolute;
+            top: 51vw;
+            left: 15vw;
+
+        }
+
+        .t3 {
+            position: absolute;
+            top: 81vw;
+            left: 15vw;
+
+        }
+
+        .speaker-intro {
+            width: 23vw;
+            font-size: 1.5vw;
+            color: black;
+            position: absolute;
+            left: 16vw;
+            top: 25vw;
+            letter-spacing: 0.1vw;
+            line-height: 2vw;
+        }
+
+        .intro1 {
+            position: absolute;
+            top: 96vw;
+            left: 25vw;
+
+
+        }
+
+        .intro2 {
+            position: absolute;
+            top: 28vw;
+            left: 25vw;
+
+        }
+
+        .intro3 {
+            width: 25vw;
+            position: absolute;
+            top: 61vw;
+            left: 25vw;
+
+        }
+
+        .background-pattern {
+            width: 57%;
+            position: absolute;
+            top: 4vw;
+            left: -5vw;
+
+        }
+
+
+
+        .social-media-icon {
+            position: absolute;
+            top: 149vw;
+            left: 81vw;
+            z-index: 1200;
+            width: 20%;
+        }
+
+        .navi-footer {
+            font-size: 1.2vw;
+            color: white;
+            letter-spacing: 0.2vw;
+            font-weight: 500;
+            position: absolute;
+            top: 155vw;
+            left: 10vw;
+            text-decoration-line: none;
+            z-index: 1400;
+        }
+
+        .f-location {
+            width: 23vw;
+            position: absolute;
+            left: 12vw;
+            color: white;
+        }
+
+        .f-tel {
+            width: 15vw;
+            position: absolute;
+            left: 35vw;
+        }
+
+        .f-email {
+            position: absolute;
+            left: 52vw;
+            color: white;
+        }
+
+        .b-box {
+            background-color: #CE3727;
+            width: 18vw;
+            height: 6vw;
+            position: absolute;
+            top: 153vw;
+            left: 0vw;
+            z-index: 1100;
+        }
+
+        .MOTION-FOR-EMTION {
+            color: red;
+            font-size: 1.5vw;
+            position: absolute;
+            top: 153.5vw;
+            left: 4vw;
+            color: white;
+            letter-spacing: 0.2vw;
+            z-index: 1900;
+        }
+
+
+        .artists-bg {
+            width: 100%;
+            position: absolute;
+            top: ;
+            left: 0vw;
+
+        }
+
+
+        .speakers-2 {
+            width: 30%;
+            position: absolute;
+            top: 25vw;
+            left: 35vw;
+        }
+
+        .speakers-3 {
+            width: 30%;
+            position: absolute;
+            top: 60vw;
+            left: 35vw;
+        }
+
+        .speakers-1 {
+            width: 30%;
+            position: absolute;
+            top: 95vw;
+            left: 35vw;
+        }
+
+        .speaker-intro {}
+
+        @keyframes shake {
+            from,
+            to {
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+
+            10%,
+            30%,
+            50%,
+            70%,
+            90% {
+                -webkit-transform: translate3d(-10px, 0, 0);
+                transform: translate3d(-10px, 0, 0);
+            }
+
+            20%,
+            40%,
+            60%,
+            80% {
+                -webkit-transform: translate3d(10px, 0, 0);
+                transform: translate3d(10px, 0, 0);
+            }
+        }
+
+        .shake {
+            -webkit-animation-name: shake;
+            animation-name: shake;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navi">
+            <a href="about.html" class="navi about">About</a>
+            <a href="artists.html" class="navi artists">Artists</a>
+            <a href="info.html" class="navi info">Info/Contact</a>
+            <a href="schedual.html" class="navi schedual">Schedule</a>
+        </div>
+        <a href="index.html">
+            <img class="small-logo" src="images/img-samll-logo.png" width="5%">
+            <div class="box"></div>
+        </a>
+        <div class="navi-bar"></div>
+        <img class="artists-bg" src="images/img-artists-bg.svg">
+        <img class="S speakers-1" src="images/img-artist-1.svg">
+        <img class="S speakers-2" src="images/img-artist-2.svg">
+        <img class="S speakers-3" src="images/img-artist-3.svg">
+
+
+        <h1>Guest Speaker</h1>
+        <div class="speaker-name">
+            <div class="speaker-name name1">Adrián Somoza</div>
+            <div class="speaker-name name2">Zhenya Rynzhuk</div>
+            <div class="speaker-name name3">Ruslan siiz</div>
+        </div>
+
+        <div class="speaker-intro">
+            <div class="speaker-intro intro1">Adrian is a Senior Visual Designer at R/GA.
+            </div>
+            <div class="speaker-intro intro2">Zhenya is a web design, UI/UX andgraphic designer. </div>
+            <div class="speaker-intro intro3">Ruslan Siiz is an Art Director and Designer living in Warsaw, Poland</div>
+        </div>
+
+        <div class="time">
+            <div class="time t1">13:00 ~ 14:00</div>
+            <div class="time t2">15:00 ~ 16:00</div>
+            <div class="time t3">17:00 ~ 18:00</div>
+        </div>
+
+        <div class="footer">
+            <div class="bottom-box"></div>
+            <img class="social-media-icon" src="images/img-social-media-icon.svg">
+            <div class="navi-footer">
+                <a class="map-link" href="https://www.google.com/maps/place/Main+Bldg,+1300+W+Mt+Royal+Ave,+Baltimore,+MD+21217/@39.3075302,-76.6238553,17z/data=!3m1!4b1!4m5!3m4!1s0x89c804bf0e7279b9:0xf7770f351631cba9!8m2!3d39.3074853!4d-76.6216858" target="_blank">
+                    <div class="f-location">1300 W Mount Royal Ave,Baltimore,MD 21217</div>
+                </a>
+                <div class="f-tel">Contact us:(410)669-9200</div>
+                <a class="email-link" href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession" target="blank">
+                    <div class="f-email">Email:bhorne@mica.edu</div>
+                </a>
+            </div>
+
+
+            <a href="index.html">
+                <div class="MOTION-FOR-EMTION">MOTION<br>FOR<br>EMOTION</div>
+            </a>
+            <div class="b-box"></div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>

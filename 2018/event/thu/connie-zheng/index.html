@@ -1,0 +1,640 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Gravitas+One|Playfair+Display|Vollkorn:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chivo" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
+
+
+    <style>
+        .height-100 {
+            height: 100px;
+        }
+
+        .height-250 {
+            height: 250px;
+        }
+
+        .height-750 {
+            height: 750px;
+        }
+
+        .height-700 {
+            height: 600px;
+        }
+
+        /*---animation----*/
+
+        @keyframes font {
+            0% {
+                font-family: 'Vollkorn:600';
+                color: #81C3B3;
+            }
+            20% {
+                font-family: 'Playfair Display';
+                color: #F4606E;
+            }
+            40% {
+                font-family: 'Lato';
+                color: #FFCC66;
+            }
+            60% {
+                font-family: 'Vollkorn:600';
+                color: #003F9A;
+            }
+            80% {
+                font-family: 'Open Sans';
+                color: black;
+            }
+            90% {
+                font-family: 'Abril Fatface';
+                color: #F4606E;
+            }
+
+        }
+
+        #nav {
+            position: fixed;
+            background-color: white;
+            z-index: 3;
+        }
+
+        .logo {
+            position: relative;
+            top: 2px;
+            left: 50px;
+            height: 110px;
+
+        }
+
+        ul {
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            position: relative;
+            top: -45px;
+            font-size: 15px;
+        }
+
+        li {
+            display: inline;
+            position: relative;
+            left: 1000px;
+            top: -20px;
+            padding: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            font-family: 'Open Sans';
+            color: black;
+        }
+
+        a visited {
+            color: black;
+        }
+
+        a:hover {
+            color: grey;
+        }
+
+        .ticket {
+            background-color: #F4606E;
+            width: 20px;
+            height: 5px;
+            color: white;
+        }
+
+        .ticket:hover {
+            color: white;
+            font-size: 17 px;
+
+        }
+
+        /***hero***/
+
+        .color {
+            animation: font 1.5s ease-in-out infinite;
+            font-size: 120px;
+        }
+
+        .title {
+            font-size: 70px;
+            font-family: 'Chivo', sans-serif;
+            letter-spacing: 2px;
+            font-weight: 700;
+            padding: 20px;
+            position: absolute;
+            left: 160px;
+            top: 200px;
+            text-align: left;
+
+        }
+
+
+        .date {
+            font-size: 30px;
+            font-family: 'Open Sans';
+            font-weight: bold;
+            position: absolute;
+            top: 500px;
+            left: 180px;
+            color: #F4606E;
+        }
+
+        .address {
+            font-size: 20px;
+            font-family: 'Open Sans';
+            font-weight: 600;
+            position: absolute;
+            top: 550px;
+            left: 180px;
+            color: #003F9A;
+            line-height: 1.5;
+        }
+
+        .description {
+            font-size: 20px;
+            font-family: 'Chivo';
+            font-weight: 600;
+            position: absolute;
+            top: 500px;
+            left: 570px;
+            color: black;
+        }
+
+        #stuff {
+            background-color: #003F9A;
+            z-index: 2;
+        }
+
+
+        #graph {
+            background-color: #F4606E;
+            z-index: 2;
+        }
+
+        .statheader {
+            background-color: #F4606E;
+            z-index: 2;
+        }
+
+        .stathead {
+            color: white;
+            font-family: 'Chivo';
+            font-weight: 600;
+            font-size: 36px;
+            position: relative;
+            top: 40px;
+            left: 180px;
+            z-index: 2;
+            letter-spacing: 3;
+        }
+
+        .pie {
+            position: relative;
+            top: 10px;
+            left: 110px;
+            width: 550px;
+        }
+
+        .bar {
+            position: relative;
+            top: -10px;
+            left: 300px;
+            width: 510px;
+        }
+
+        .whyheader {
+            background-color: #81C3B3;
+            z-index: 2;
+        }
+
+        #why {
+            background-color: #81C3B3;
+            z-index: 2;
+        }
+
+        #school {
+            width: 300px;
+            position: relative;
+            top: 60px;
+            left: 150px;
+        }
+
+        .header {
+            font-family: 'Chivo';
+            font-weight: 600;
+            color: white;
+            font-size: 21px;
+            position: relative;
+            top: 70px;
+            left: 150px;
+            z-index: 2;
+            letter-spacing: 1.75px;
+        }
+
+        .artschoolheader {
+            font-family: 'Open Sans';
+            font-weight: 600;
+            color: white;
+            font-size: 21px;
+            position: relative;
+            top: 100px;
+            left: 150px;
+            z-index: 2;
+        }
+
+        .info {
+            font-family: 'Open Sans';
+
+            color: white;
+            font-size: 18px;
+            position: relative;
+            top: 80px;
+            left: 150px;
+            line-height: 1.5;
+            width: 350px;
+            z-index: 2;
+        }
+
+        .artschoolinfo {
+            font-family: 'Open Sans';
+            color: white;
+            font-size: 20px;
+            position: relative;
+            top: 110px;
+            left: 150px;
+            line-height: 1.5;
+            width: 350px;
+            z-index: 2;
+        }
+
+        #role {
+            width: 300px;
+            position: relative;
+            top: 80px;
+            left: 150px;
+        }
+
+        #network {
+            width: 250px;
+            position: relative;
+            top: 35px;
+            left: 170px;
+            z-index: 2;
+        }
+
+        .artschool {
+            width: 220px;
+            position: relative;
+            top: 55px;
+            left: 170px;
+            z-index: 2;
+        }
+
+        #whatheader {
+            background-color: #003F9A;
+            z-index: 5;
+        }
+
+        .design {
+            font-family: 'Chivo';
+            color: white;
+            font-size: 26px;
+            padding: 50px;
+            width: 1150px;
+            position: relative;
+            line-height: 1.5;
+            top: 60px;
+            left: 120px;
+        }
+
+        .white {
+            font-family: 'Lato';
+            color: white;
+            font-size: 26px;
+            padding: 50px;
+            width: 1600px;
+            position: relative;
+            line-height: 1.5;
+            top: 50px;
+            left: 120px;
+        }
+
+        /***---shapes-----***/
+
+        .shapes {
+            z-index: 0;
+        }
+
+        .triangle-up {
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-bottom: 40px solid #81C3B3;
+            position: absolute;
+            top: 150px;
+            left: 400px;
+            transition: width 2s;
+        }
+
+        .triangle-up .hovertext {
+            font-family: 'Lato';
+            font-size: 18px;
+            position: absolute;
+            top: 15px;
+            left: 50px;
+            width: 200px;
+            visibility: hidden;
+
+
+        }
+
+        .triangle-up:hover .hovertext {
+            visibility: visible;
+            transition: opacity 5s;
+            cursor: hand;
+
+        }
+
+        .triangle-yellow {
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-bottom: 40px solid #FFCC66;
+            position: relative;
+            top: 520px;
+            left: 35px;
+        }
+
+        .triangle-yellow .hovertext {
+            font-family: 'Lato';
+            font-size: 18px;
+            position: absolute;
+            top: 15px;
+            left: 50px;
+            width: 600px;
+            visibility: hidden;
+
+
+        }
+
+        .triangle-yellow:hover .hovertext {
+            visibility: visible;
+            transition: opacity 5s;
+            cursor: hand;
+
+        }
+
+        .halfcircle {
+            height: 20px;
+            width: 40px;
+            border-radius: 40px 40px 0 0;
+            background: #F4606E;
+            position: relative;
+            top: 50px;
+            left: 1700px;
+            transform: rotate(-90deg);
+
+        }
+
+        .rectangle {
+            height: 20px;
+            width: 40px;
+            background-color: #003F9A;
+            position: relative;
+            top: 500px;
+            left: 1330px;
+            transform: rotate(-90deg);
+
+        }
+
+
+        .halfcircleyellow {
+            height: 20px;
+            width: 40px;
+            border-radius: 40px 40px 0 0;
+            background: #FFCC66;
+            position: relative;
+            top: 260px;
+            left: 880px;
+            transform: rotate(-90deg);
+        }
+
+        .halfcircleyellow .hovertext {
+            font-family: 'Lato';
+            font-size: 18px;
+            position: absolute;
+            top: 350px;
+            left: 200px;
+            width: 600px;
+            visibility: hidden;
+            transform: rotate(90deg);
+
+
+        }
+
+        .halfcircleyellowl:hover .hovertext {
+            visibility: visible;
+            transition: opacity 5s;
+            cursor: hand;
+
+        }
+
+        .rectangleteal {
+            height: 20px;
+            width: 40px;
+            background-color: #81C3B3;
+            position: relative;
+            top: 560px;
+            left: 550px;
+            transform: rotate(-90deg);
+        }
+
+        .rectangleteal .hovertext {
+            font-family: 'Lato';
+            font-size: 18px;
+            position: absolute;
+            top: 350px;
+            left: -240px;
+            width: 600px;
+            visibility: hidden;
+            transform: rotate(90deg);
+
+
+        }
+
+        .rectangleteal:hover .hovertext {
+            visibility: visible;
+            transition: opacity 5s;
+            cursor: hand;
+
+        }
+
+        .footer {
+            background-color: black;
+            z-index: 10;
+        }
+
+        .footer-text {
+            color: white;
+            padding: 30px;
+            font-family: 'Lato';
+            font-size: 18px;
+            line-height: 1.5;
+            position: relative;
+            top: 120px;
+            left: 150px;
+            z-index: 11;
+        }
+
+        #icon {
+            width: 80px;
+            position: relative;
+            top: 150px;
+            left: 100px;
+            padding: 5px;
+            z-index: 11;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!----nav--->
+
+    <div class="col-12 height-100" id="nav">
+        <img src="icons/adc.png" class="logo">
+        <ul class="nav">
+
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="speakers.html">SPEAKERS</a></li>
+            <li><a href="schedule.html">SCHEDULE</a></li>
+            <li class="ticket"><a href="https://www.eventbrite.com/">TICKETS</a></li>
+        </ul>
+    </div>
+
+    <div class="col-12 height-750" id="hero">
+
+        <div class="triangle-up">
+            <p class="hovertext">- It would be boring</p>
+        </div>
+        <div class="triangle-yellow">
+            <p class="hovertext">- Everything would be Swedish minimalism </p>
+        </div>
+        <div class="halfcircle"> </div>
+        <div class="rectangle"> </div>
+        <div class="halfcircleyellow">
+            <p class="hovertext">- No diversity = no new ideas </p>
+        </div>
+        <div class="rectangleteal">
+            <p class="hovertext">- White designers appropriating minority culture for "aesthetics" </p>
+        </div>
+        <h class="title"> WHAT IS DESIGN WITHOUT
+            <p class="color">COLOR?</p>
+        </h>
+        <p class="date">APRIL 6</p>
+        <p class="address">Palace of Fine Arts, <br> 3301 Lyon St, <br> San Francisco, CA 94123</p>
+        <p class="description">A design and tech conference for people of color</p>
+    </div>
+
+    <div class="col-12 height-700" id="stuff">
+        <p class="design" data-aos="fade-in"> WHAT IS DESIGN WITHOUT COLOR is a design conference dedicated to providing resources and talks specifically for designers of color, from negociating pay to the commonly forgotten contributions black and brown people have made to the design industry.</p>
+        <p class="white" data-aos="fade-in"> Yes, you can succeed and not be a white guy. <br>&#40; Sorry any white guys reading this.&#41; </p>
+    </div>
+
+    <div class="statheader col-12 height-100">
+        <h class="stathead" data-aos="fade-right">THE STATISTICS</h>
+    </div>
+
+    <div class="col-12 height-700" id="graph">
+        <img src="icons/piechart.png" class="pie" data-aos="fade-right">
+        <img src="icons/bar.png" class="bar" data-aos="fade-right">
+    </div>
+
+    <div class="whyheader col-12 height-100">
+        <h class="stathead" data-aos="fade-right">WHY IS THIS THE CASE?</h>
+    </div>
+
+    <div class="col-4 height-700" id="why">
+        <img src="icons/artschool.png" class="artschool" data-aos="fade-right">
+        <p class="artschoolheader" data-aos="fade-right">ART SCHOOL IS $$$$</p>
+        <p class="artschoolinfo" data-aos="fade-right">Design education is only accesible to the financially priviledged. </p>
+
+    </div>
+
+    <div class="col-4 height-700" id="why">
+        <img src="icons/role.png" id="network" data-aos="fade-right">
+        <p class="header" data-aos="fade-right">LACK OF VISIBILITY</p>
+        <p class="info" data-aos="fade-right">Lack of visibility of designers of color in media gives aspiring designers of color nobody to look up to. </p>
+    </div>
+
+    <div class="col-4 height-700" id="why">
+        <img src="icons/network.png" id="network" data-aos="fade-right">
+        <p class="header" data-aos="fade-right">OLD BOYS NETWORK</p>
+        <p class="info" data-aos="fade-right">Less networks available for designers of color, many of whom are the first designers in their families.</p>
+    </div>
+
+    <div class="col-12 height-100" id="whatheader">
+        <h class="stathead" data-aos="fade-right">WHY SHOULD I CARE?</h>
+    </div>
+    <div class="col-4 height-700" id="whatheader">
+        <img src="icons/hole.png" id="network" data-aos="fade-right">
+        <p class="header" data-aos="fade-right">IF YOU'RE NOT AN ASS</p>
+        <p class="info" data-aos="fade-right">Pretty self explanatory</p>
+    </div>
+
+    <div class="col-4 height-700" id="whatheader">
+        <img src="icons/lightbulb.png" id="network" data-aos="fade-right">
+        <p class="header" data-aos="fade-right">BETTER DESIGN</p>
+        <p class="info" data-aos="fade-right">Different experience creates new ideas creates better solutions </p>
+    </div>
+
+    <div class="col-4 height-700" id="whatheader">
+        <img src="icons/graph.png" id="network" data-aos="fade-right">
+        <p class="header" data-aos="fade-right">BETTER FOR BUSINESS</p>
+        <p class="info" data-aos="fade-right">Different experience creates new ideas creates better solutions </p>
+    </div>
+
+    <div class="footer col-4 height-250">
+        <p class="footer-text">Palace of Fine Arts,<br>3301 Lyon St, San Francisco,<br>CA 94123</p>
+
+    </div>
+
+    <div class="footer col-4 height-250">
+        <p class="footer-text">415.522.4072<br>diversitycon@adc.com</p>
+
+    </div>
+
+    <div class="footer col-4 height-250">
+        <img src="icons/Facebook.svg" id="icon">
+        <img src="icons/Instagram.svg" id="icon">
+        <img src="icons/Twitter.svg" id="icon">
+    </div>
+
+    <!----plugin--->
+
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script type="text/javascript">
+        AOS.init({
+            duration: 1200,
+        });
+    </script>
+
+
+    <!----plugin--->
+
+</body>
+
+</html>

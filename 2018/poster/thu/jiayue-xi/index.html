@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Dream or Commercial</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+
+    <style>
+        html {
+            font-family: 'Source Sans Pro', helvetica, sans-serif;
+            background: linear-gradient(258deg, #fb1564, #4f79ff, #2dffe5, #ffc021, #fb675e, #ff8a02, #18fb00, #e054ff);
+            background-size: 10000% 1600%;
+            -webkit-animation: animated-gradient-background 36s ease infinite;
+            animation: animated-gradient-background 36s ease infinite;
+        }
+
+        @-webkit-keyframes animated-gradient-background {
+            0% {
+                background-position: 22% 0%
+            }
+            50% {
+                background-position: 79% 100%
+            }
+            100% {
+                background-position: 22% 0%
+            }
+        }
+
+        @keyframes animated-gradient-background {
+            0% {
+                background-position: 22% 0%
+            }
+            50% {
+                background-position: 79% 100%
+            }
+            100% {
+                background-position: 22% 0%
+            }
+        }
+
+        .img-title {
+            background-image: url(images/title.png);
+            background-size: cover;
+        }
+
+        a {
+            color: snow;
+            text-decoration: none;
+        }
+
+        .row div.filmmaker {
+            position: relative;
+            margin: auto;
+            font-size: 16px;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 2;
+            width: 100%;
+            letter-spacing: 1.2vh;
+            color: snow;
+            font-weight: 100;
+            top: 35px;
+        }
+
+        div.theater {
+            position: absolute;
+            top: 630px;
+            padding-top: 50px;
+            margin: 0 auto;
+            font-size: 12px;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 2;
+            width: 100%;
+            letter-spacing: 2px;
+            color: snow;
+            font-weight: 100;
+        }
+
+        div.date {
+            position: absolute;
+            margin: auto;
+            font-size: 16px;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 2;
+            width: 100%;
+            color: snow;
+            font-weight: thin;
+        }
+
+        .number {
+            position: absolute;
+            font-weight: bold;
+            border: white 1.5px solid;
+            box-sizing: border-box;
+            top: 520px;
+            width: 40px;
+            height: 40px;
+            padding: 1px;
+            border-radius: 50%;
+            transition-duration: 0.4s;
+        }
+
+        .kc-date {
+            left: 465px;
+        }
+
+        .kc-date:hover {
+            background-color: dimgrey;
+        }
+
+        .tfow-date {
+            left: 520px;
+        }
+
+        .tfow-date:hover {
+            background-color: cadetblue;
+        }
+
+        .wgns-date {
+            left: 575px;
+        }
+
+        .wgns-date:hover {
+            background-color: blue;
+        }
+
+        .cogf-date {
+            left: 630px;
+        }
+
+        .cogf-date:hover {
+            background-color: gold;
+        }
+
+        .hofd-date {
+            left: 685px;
+        }
+
+        .hofd-date:hover {
+            background-color: deeppink;
+        }
+
+        .march {
+            position: absolute;
+            width: 1200px;
+            top: 470px;
+            letter-spacing: 12px;
+        }
+
+        div.weblink {
+            margin: 0 auto;
+            width: 180px;
+        }
+
+        div.weblink div.webname {
+            position: absolute;
+            top: 22px;
+            left: 520px;
+            text-decoration: underline;
+            transition: opacity 0.5s;
+            transition-timing-function: ease-in;
+        }
+
+        div.weblink div.website {
+            position: absolute;
+            top: 22px;
+            opacity: 0;
+            transition: opacity 0.5s;
+            transition-timing-function: ease-out;
+        }
+
+        div.weblink:hover div.webname {
+            position: absolute;
+            top: 22px;
+            left: 520px;
+            opacity: 0;
+        }
+
+        div.weblink:hover div.website {
+            position: absolute;
+            top: 22px;
+            opacity: 1;
+        }
+
+        div.infobox {
+            color: snow;
+            position: relative;
+            top: 100px;
+            left: 50px;
+            box-sizing: border-box;
+            width: 800px;
+            height: 450px;
+            border-radius: 20px;
+            margin: auto;
+            margin-top: 100px;
+            margin-bottom: 200px;
+            padding: 20px;
+            padding-left: 80px;
+        }
+
+        .kc {
+            background-color: dimgray;
+            opacity: 1;
+            transition: opacity 2s;
+        }
+
+        .kc:hover {
+            opacity: 0.8;
+        }
+
+        .tfow {
+            background-color: cadetblue;
+            transition: transform 2s;
+        }
+
+        .tfow:hover {
+            transform: rotate(360deg);
+        }
+
+        .wgns {
+            background-color: blue;
+            transition: background-color 2s;
+        }
+
+        .wgns:hover {
+            background-color: hotpink;
+        }
+
+        .cogf {
+            background-color: goldenrod;
+            transition: border 2s;
+        }
+
+        .cogf:hover {
+            border: yellow 15px solid;
+        }
+
+        .hofd {
+            background-color: deeppink;
+            transition: transform 2s;
+        }
+
+        .hofd:hover {
+            transform: rotateY(360deg);
+        }
+
+        div.back {
+            position: relative;
+            font-size: 16px;
+            text-transform: uppercase;
+            top: 370px;
+            left: 600px;
+            text-decoration: underline;
+        }
+
+        div.movie-title {
+            position: absolute;
+            width: 680px;
+            margin: auto;
+            font-size: 32px;
+            letter-spacing: 0.57vw;
+            color: snow;
+            text-align: left;
+            text-transform: uppercase;
+            line-height: 1.75;
+            margin-bottom: 50px;
+            bottom: 100px;
+        }
+
+        div.introtext {
+            position: absolute;
+            width: 600px;
+            font-size: 20px;
+            font-weight: thin;
+            top: 180px;
+            opacity: 0;
+            line-height: 1.6;
+        }
+
+        div.kc:hover .movie-title {
+            animation: title-up 4s forwards;
+        }
+
+        div.kc:hover .introtext {
+            animation: text-down 4s forwards, fade-in 4s forwards;
+        }
+
+        div.tfow:hover .movie-title {
+            animation: title-up 4s forwards;
+        }
+
+        div.tfow:hover .introtext {
+            animation: text-down 4s forwards, fade-in 4s forwards;
+        }
+
+        div.wgns:hover .movie-title {
+            animation: title-up 4s forwards;
+        }
+
+        div.wgns:hover .introtext {
+            animation: text-down 4s forwards, fade-in 4s forwards;
+        }
+
+        div.cogf:hover .movie-title {
+            animation: title-up 4s forwards;
+        }
+
+        div.cogf:hover .introtext {
+            animation: text-down 4s forwards, fade-in 4s forwards;
+        }
+
+        div.hofd:hover .movie-title {
+            animation: title-up 4s forwards;
+        }
+
+        div.hofd:hover .introtext {
+            animation: text-down 4s forwards, fade-in 4s forwards;
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+            20% {
+                opacity: 0;
+            }
+            65% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes title-up {
+            0% {
+                bottom: 100px;
+            }
+            20% {
+                bottom: 100px;
+            }
+            50% {
+                bottom: 200px;
+            }
+            100% {
+                bottom: 200px
+            }
+        }
+
+        @keyframes text-down {
+            0% {
+                top: 180px;
+            }
+            20% {
+                top: 180px;
+            }
+            65% {
+                top: 220px;
+            }
+            100% {
+                top: 220px;
+            }
+        }
+
+        @keyframes showup {
+            0% {
+                opacity: 0;
+            }
+            20% {
+                opacity: 0;
+            }
+            65% {
+                opacity: 0.85;
+            }
+            100% {
+                opacity: 0.85;
+            }
+        }
+
+        .cogf-date:hover .cogf {
+            animation: showup 1s forwards;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="row col-12 hei-10 img-title" id="cover">
+            <div class="filmmaker">
+                <div>zhang yimou</div>
+                <div>张艺谋</div>
+            </div>
+            <div class="date">
+                <div class="march">March</div>
+                <div class="kc-date number"><a href="#kc">10</a></div>
+                <div class="tfow-date number"><a href="#tfow">11</a></div>
+                <div class="wgns-date number"><a href="#wgns">12</a></div>
+                <div class="cogf-date number"><a href="#cogf">13</a></div>
+                <div class="hofd-date number"><a href="#hofd">14</a></div>
+            </div>
+
+            <div class="row theater">
+                <div class="weblink">
+                    <div class="webname">The Charles Theatre</div>
+                    <div class="website"><a href="http://thecharles.com/" target="_blank">http://thecharles.com/</a></div>
+                </div>
+                <div> 1711 N Charles St</div>
+                <div> Baltimore, MD 21201</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row col-12">
+        <div class="infobox kc" id="kc">
+            <div class="movie-title">KEEP COOL |<br>有话好好说</div>
+            <div class="introtext">The film about a bookseller in love in 1990s Beijing. Keep Cool also marked only the second time Zhang placed his film in the modern era and the first time Zhang did not work with actress Gong Li.</div>
+            <div class="back"><a href="#cover">Back</a></div>
+        </div>
+
+        <div class="infobox tfow" id="tfow">
+            <div class="movie-title">The Flowers of War |<br>金陵十三钗</div>
+            <div class="introtext">The story is set in Nanking, China, during the 1937 Nanking Massacre in the Second Sino-Japanese War. A group of escapees, finding sanctuary in a church compound, try to survive the plight and persecution brought on by the violent invasion of the city.</div>
+            <div class="back"><a href="#cover">Back</a></div>
+        </div>
+
+        <div class="infobox wgns" id="wgns">
+            <div class="movie-title">A Woman, a Gun and a Noodle Shop |<br>三枪拍案惊奇</div>
+            <div class="introtext">The film is a mixture of a thriller and screwball comedy. The film has been described as a considerable departure from the director's previous works.</div>
+            <div class="back"><a href="#cover">Back</a></div>
+        </div>
+
+        <div class="infobox cogf" id="cogf">
+            <div class="movie-title">Curse of the Golden Flower |<br>满城尽带黄金甲</div>
+            <div class="introtext">The Mandarin Chinese title of the movie is taken from the last line of Qi Dynasty poem written by the rebel leader Emperor Huang Chao who was also the Emperor of the Qi Dynasty that was at war against the Later Tang Dynasty.</div>
+            <div class="back"><a href="#cover">Back</a></div>
+        </div>
+
+        <div class="infobox hofd" id="hofd">
+            <div class="movie-title">House of Flying Daggers |<br>十面埋伏</div>
+            <div class="introtext">Unlike other wuxia films, it is more of a love story than purely a martial arts film.</div>
+            <div class="back"><a href="#cover">Back</a></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

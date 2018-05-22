@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Taste of Ancient China</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+
+    <style>
+        .h-1000 {
+            height: 1000px;
+        }
+
+        .h-50 {
+            height: 50px;
+            left: 180px;
+        }
+
+        .h-100 {
+            height: 100px;
+            right: 30px;
+        }
+
+        .h-400 {
+            height: 400px;
+        }
+
+        .h-425 {
+            height: 450px;
+            left: 400px;
+        }
+
+        .image {
+            position: absolute;
+            z-index: -1;
+        }
+
+        .TopN {
+            color: #2c383d;
+            margin: auto;
+            position: absolute;
+            text-align: center;
+            font-family: 'Kaushan Script', cursive;
+        }
+
+        .title {
+            left: 16%;
+            top: 30px;
+            font-size: 5vw;
+            text-align: center;
+            font-family: 'Kaushan Script', cursive;
+            font-weight: 150;
+        }
+
+        .director {
+            top: 132px;
+            left: 460px;
+            font-size: 2vw;
+            font-weight: 100;
+        }
+
+        .Setting:hover {
+            background-color: #eadfd9;
+        }
+
+        .Setting {
+            color: #c4ab9d;
+            margin: auto;
+            position: absolute;
+            text-align: center;
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+        .location {
+            color: #c4ab9d;
+            margin: auto;
+            position: absolute;
+            text-align: center;
+            font-family: 'Noto Sans', sans-serif;
+            top: 180px;
+            left: 345px;
+            font-size: 1.4vw;
+            font-weight: 150;
+            line-height: 1.5;
+        }
+
+        .EnglishN {
+            color: #78a8a8;
+            margin: auto;
+            position: absolute;
+            font-size: 2.5vw;
+            text-align: center;
+            font-family: 'Kaushan Script', cursive;
+            font-weight: 200;
+        }
+
+        .ChineseN {
+            color: #78a8a8;
+            margin: auto;
+            position: absolute;
+            font-size: 1.5vw;
+            text-align: center;
+            font-style: normal;
+            font-weight: 400;
+        }
+
+        .dsxs-E {
+            top: 350px;
+            right: 68px;
+        }
+
+        .dsxs-C {
+            top: 400px;
+            right: 255px;
+        }
+
+        .dsxs-D {
+            top: 440px;
+            right: 226px;
+            font-size: 1.8vw;
+            font-weight: 150;
+        }
+
+        .ymz-E {
+            top: 600px;
+        }
+
+        .ymz-C {
+            top: 650px;
+            left: 174px;
+        }
+
+        .ymz-D {
+            top: 690px;
+            left: 140px;
+            font-size: 1.8vw;
+            font-weight: 150;
+        }
+
+        .wj-E {
+            top: 930px;
+            left: 22px;
+        }
+
+        .wj-C {
+            top: 980px;
+            left: 90px;
+        }
+
+        .wj-D {
+            top: 1020px;
+            left: 48px;
+            font-size: 1.8vw;
+            font-weight: 150;
+        }
+
+        .zsge-E {
+            top: 820px;
+            right: 300px;
+        }
+
+        .zsge-C {
+            top: 870px;
+            right: 315px;
+        }
+
+        .zsge-D {
+            top: 910px;
+            right: 285px;
+            font-size: 1.8vw;
+            font-weight: 150;
+        }
+
+        .mlf-E {
+            top: 1190px;
+            right: 360px;
+        }
+
+        .mlf-C {
+            top: 1240px;
+            right: 460px;
+        }
+
+        .mlf-D {
+            top: 1280px;
+            right: 422px;
+            font-size: 1.8vw;
+            font-weight: 150;
+        }
+
+        .Ink1 {
+            top: 850px;
+            left: 170px;
+            position: absolute;
+            animation: shape-change 4s infinite;
+        }
+
+        @keyframes shape-change {
+            from {
+                border-radius: 100px;
+            }
+            to {
+                border-radius: 0px;
+            }
+        }
+
+
+        .Ink2 {
+            top: 580px;
+            right: 160px;
+            position: absolute;
+            animation: rotate 5s infinite;
+        }
+
+        .Ink3 {
+            top: 1200px;
+            left: 110px;
+            position: absolute;
+            animation: rotate 5s infinite;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(180deg);
+            }
+        }
+
+        .Ink4 {
+            top: 1010px;
+            right: 140px;
+            position: absolute;
+            animation: Right 2s infinite alternate;
+        }
+
+        @keyframes Right {
+            from {
+                right: 140px;
+            }
+            to {
+                right: 100px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="grid-container">
+
+        <div class="row">
+            <div class="col-12 h-1000 image">
+                <img src="images/background.jpg">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-8 h-400 TopN title">
+                <p>Taste of Ancient China</p>
+            </div>
+            <div class="col-4 h-400 TopN director">
+                <p>Chen Kaige 陈凯歌</p>
+            </div>
+
+            <div class="col-6 h-400 location">
+                <p>The Charles Theatre<br>1711 N Charles St, <br>Baltimore, MD 21201</p>
+            </div>
+
+        </div>
+
+
+        <div class="row">
+            <div class="col-6 h-100 image">
+                <p class="EnglishN dsxs-E center-h">Monk Comes Down the Mountain</p>
+                <p class="ChineseN dsxs-C center-h">道士下山</p>
+                <p class="Setting dsxs-D center-h">March 10th</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6 h-425 image">
+                <p class="EnglishN ymz-E center-h">The Legend of the Cat Demon</p>
+                <p class="ChineseN ymz-C center-h">妖猫传</p>
+                <p class="Setting ymz-D center-h">March 11th</p>
+                <img class="Ink1" src="images/Ink1.png" width="250px">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4 h-50 image">
+                <p class="EnglishN wj-E center-h">The Promise</p>
+                <p class="ChineseN wj-C center-h">无极</p>
+                <p class="Setting wj-D center-h">March 12th</p>
+                <img class="Ink3" src="images/Ink2.png" width="135px">
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-6 h-100 image">
+                <p class="EnglishN zsge-E center-h">Sacrifice</p>
+                <p class="ChineseN zsge-C center-h">赵氏孤儿</p>
+                <p class="Setting zsge-D center-h">March 13th</p>
+                <img class="Ink4" src="images/Ink3.png" width="135px">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6 h-100 image">
+                <p class="EnglishN mlf-E center-h">Forever Enthralled</p>
+                <p class="ChineseN mlf-C center-h">梅兰芳</p>
+                <p class="Setting mlf-D center-h">March 14th</p>
+                <img class="Ink2" src="images/Ink2.png" width="135px">
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

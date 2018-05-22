@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Info</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <style>
+        html {
+            font-family: Apercu, sans-serif;
+
+        }
+
+        body {
+            background-color: black;
+        }
+
+
+        .background-pattern {
+            position: absolute;
+            top: -3vw;
+            left: -1vw
+        }
+
+        .bg-box {
+            width: 87vw;
+            height: 42vw;
+            background-color: white;
+            position: absolute;
+            top: 12vw;
+            left: 5.5vw
+        }
+
+
+        .time {
+            font-size: 2vw;
+            color: black;
+            letter-spacing: 1vw;
+            z-index: 2000;
+
+
+
+        }
+
+        .t1 {
+            position: absolute;
+            left: 30vw;
+            top: 20vw;
+
+        }
+
+        .t2 {
+            position: absolute;
+            left: 40vw;
+            top: 39vw;
+        }
+
+        .t3 {
+            position: absolute;
+            top: 52vw;
+            left: 55vw;
+        }
+
+
+        .t4 {
+            position: absolute;
+            top: 62vw;
+            left: 29vw;
+        }
+
+
+        .t5 {
+            position: absolute;
+            top: 68vw;
+            left: 57.7vw;
+        }
+
+
+        .t6 {
+            position: absolute;
+            top: 83vw;
+            left: 50vw;
+        }
+
+
+        .t7 {
+            position: absolute;
+            top: 93vw;
+            left: 52vw;
+        }
+
+        .t8 {
+            position: absolute;
+            top: 103vw;
+            left: 50vw;
+
+        }
+
+        .t9 {
+            position: absolute;
+            top: 114vw;
+            left: 69.5vw;
+
+        }
+
+
+        .schedual-time {
+            font-size: 1.5vw;
+            color: black;
+            letter-spacing: 0.1vw;
+            font-weight: 500;
+            opacity: 1;
+            z-index: 2100;
+
+        }
+
+
+
+
+        .s1 {
+            position: absolute;
+            top: 28vw;
+            left: 33vw;
+            opacity: 0;
+            transform: rotate3d(0, 0, 1, -45deg);
+            transition: transform 1s, opacity 1s;
+
+        }
+
+
+
+
+        .s2 {
+            position: absolute;
+            top: 53vw;
+            left: 30vw;
+            opacity: 0;
+            transform: rotate3d(0, 0, 1, -45deg);
+            transition: transform 1s, opacity 1s;
+
+
+
+
+        }
+
+        .s3 {
+            position: absolute;
+            top: 78vw;
+            left: 52vw;
+            opacity: 0;
+            transform: rotate3d(0, 0, 1, -45deg);
+            transition: transform 1s, opacity 1s;
+
+
+
+
+        }
+
+        .s4 {
+            position: absolute;
+            top: 97vw;
+            left: 30vw;
+            opacity: 0;
+            transform: rotate3d(0, 0, 1, -45deg);
+            transition: transform 1s, opacity 1s;
+
+
+
+        }
+
+
+
+
+
+        .s5 {
+            position: absolute;
+            top: 106vw;
+            left: 68vw;
+            opacity: 0;
+            transform: rotate3d(0, 0, 1, -45deg);
+            transition: transform 1s, opacity 1s;
+
+        }
+
+
+        h1 {
+            font-size: 3vw;
+            color: white;
+            position: absolute;
+            top: 10vw;
+            left: 14vw;
+            letter-spacing: 1vw;
+            display: none;
+
+        }
+
+        .bottom-box {
+
+            background-color: black;
+            width: 100vw;
+            height: 6vw;
+            position: absolute;
+            top: 143vw;
+            left: 0vw;
+            z-index: 1100;
+
+
+        }
+
+        .social-media-icon {
+            position: absolute;
+            top: 142vw;
+            left: 84vw;
+            z-index: 1200;
+            width: 13%;
+        }
+
+        .navi-footer {
+            font-size: 1.2vw;
+            color: white;
+            letter-spacing: 0.2vw;
+            font-weight: 500;
+            position: absolute;
+            top: 145vw;
+            left: 10vw;
+            text-decoration-line: none;
+            z-index: 1400;
+        }
+
+        .f-location {
+            width: 23vw;
+            position: absolute;
+            left: 12vw;
+            color: white;
+        }
+
+        .f-tel {
+            width: 15vw;
+            position: absolute;
+            left: 35vw;
+        }
+
+        .f-email {
+            position: absolute;
+            left: 52vw;
+            color: white;
+        }
+
+        .b-box {
+            background-color: #CE3727;
+            width: 18vw;
+            height: 6vw;
+            position: absolute;
+            top: 143vw;
+            left: 0vw;
+            z-index: 1100;
+        }
+
+
+        .MOTION-FOR-EMTION {
+            color: red;
+            font-size: 1.5vw;
+            position: absolute;
+            top: 144vw;
+            left: 4vw;
+            color: white;
+            letter-spacing: 0.1vw;
+            z-index: 1900;
+        }
+
+
+        .schedule-line {
+            width: 51.5%;
+            position: absolute;
+            top: 0.9vw;
+            left: 27.4vw;
+        }
+
+
+        .dots {
+            background-color: black;
+            border-radius: 4vw;
+        }
+
+        .dots-1 {
+            position: absolute;
+            top: 19vw;
+            left: 24.7vw;
+            width: 3vw;
+            height: 3vw;
+            animation: fade-in 3s infinite;
+
+
+        }
+
+        .dots-2 {
+            position: absolute;
+            top: 34.7vw;
+            left: 40vw;
+            width: 2vw;
+            height: 2vw;
+            animation: fade-in 3s infinite;
+
+
+        }
+
+        .dots-3 {
+            position: absolute;
+            top: 45vw;
+            left: 59vw;
+            width: 4vw;
+            height: 4vw;
+            animation: fade-in 3s infinite;
+
+        }
+
+        .dots-4 {
+            position: absolute;
+            top: 57vw;
+            left: 34vw;
+            width: 2.4vw;
+            height: 2.4vw;
+            animation: fade-in 3s infinite;
+        }
+
+        .dots-5 {
+            position: absolute;
+            top: 65vw;
+            left: 55vw;
+            width: 1.7vw;
+            height: 1.7vw;
+            animation: fade-in 3s infinite;
+        }
+
+        .dots-6 {
+            position: absolute;
+            top: 83vw;
+            left: 61.5vw;
+            width: 2.2vw;
+            height: 2.2vw;
+            animation: fade-in 3s infinite;
+        }
+
+        .dots-7 {
+            position: absolute;
+            top: 91vw;
+            left: 46vw;
+            width: 3vw;
+            height: 3vw;
+            animation: fade-in 3s infinite;
+        }
+
+        .dots-8 {
+            position: absolute;
+            top: 100.5vw;
+            left: 60vw;
+            width: 1.5vw;
+            height: 1.5vw;
+            animation: fade-in 3s infinite;
+
+        }
+
+        .dots-9 {
+            position: absolute;
+            top: 113vw;
+            left: 79vw;
+            width: 3vw;
+            height: 3vw;
+            animation: fade-in 3s infinite;
+
+        }
+
+
+
+
+
+
+
+
+        @keyframes fade-in {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+
+        }
+
+        .t1:hover+.s1 {
+            transform: rotate3d(0, 0, 0, 0deg);
+            opacity: 1;
+        }
+
+        .t2:hover+.s1 {
+            transform: rotate3d(0, 0, 0, 0deg);
+            opacity: 1;
+        }
+
+        .t3:hover+.s2 {
+            transform: rotate3d(0, 0, 0, 0deg);
+            opacity: 1;
+        }
+
+        .t4:hover+.s2 {
+            transform: rotate3d(0, 0, 0, 0deg);
+            opacity: 1;
+        }
+
+        .t5:hover+.s3 {
+            transform: rotate3d(0, 0, 0, 0deg);
+            opacity: 1;
+        }
+
+        .t6:hover+.s3 {
+            transform: rotate3d(0, 0, 0, 0deg);
+            opacity: 1;
+        }
+
+        .t7:hover+.s4 {
+            transform: rotate3d(0, 0, 0, 0deg);
+            opacity: 1;
+        }
+
+        .t8:hover+.s5 {
+            transform: rotate3d(0, 0, 0, 0deg);
+            opacity: 1;
+        }
+
+        .t9:hover+.s5 {
+            transform: rotate3d(0, 0, 0, 0deg);
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navi">
+            <a href="about.html" class="navi about">About</a>
+            <a href="artists.html" class="navi artists">Artists</a>
+            <a href="info.html" class="navi info">Infomation</a>
+            <a href="schedual.html" class="navi schedual">Schedule</a>
+        </div>
+        <a href="index.html"><img class="small-logo" src="images/img-samll-logo.png" width="5%">
+        <div class="box"></div></a>
+        <div class="box"></div>
+        <div class="navi-bar"></div>
+
+        <img class="bg" src="images/img-schedule.svg" width="100%">
+        <h1>TIME LINE</h1>
+
+
+    </div>
+    <div class="footer">
+        <div class="bottom-box"></div>
+        <img class="social-media-icon" src="images/img-social-media-icon.svg">
+        <div class="navi-footer">
+            <a class="map-link" href="https://www.google.com/maps/place/Main+Bldg,+1300+W+Mt+Royal+Ave,+Baltimore,+MD+21217/@39.3075302,-76.6238553,17z/data=!3m1!4b1!4m5!3m4!1s0x89c804bf0e7279b9:0xf7770f351631cba9!8m2!3d39.3074853!4d-76.6216858" target="_blank">
+                <div class="f-location">1300 W Mount Royal Ave,Baltimore,MD 21217</div>
+            </a>
+            <div class="f-tel">Contact us:(410)669-9200</div>
+            <a class="email-link" href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession" target="blank">
+                <div class="f-email">Email:bhorne@mica.edu</div>
+            </a>
+
+        </div>
+
+        <a href="index.html">
+            <div class="MOTION-FOR-EMTION">MOTION<br>FOR<br>EMOTION</div>
+        </a>
+        <div class="b-box"></div>
+
+
+
+    </div>
+
+
+    <div class="time t1">11:00</div>
+    <div class="schedual-time s1">Opening Speech</div>
+    <div class="dots dots-1"></div>
+
+
+
+
+
+    <div class="time t2">12:00</div>
+    <div class="schedual-time s1">Opening Speech</div>
+    <div class="dots dots-2"></div>
+
+
+
+
+    <div class="time t3">13:00</div>
+    <div class="schedual-time s2">Zhenya Rynzhuk Presentation</div>
+    <div class="dots dots-3"></div>
+
+
+
+
+    <div class="time t4">14:00</div>
+    <div class="schedual-time s2">Zhenya Rynzhuk Presentation</div>
+    <div class="dots dots-4"></div>
+
+
+
+
+    <div class="time t5">15:00</div>
+    <div class="schedual-time s3">Ruslan Siiz Presentation</div>
+    <div class="dots dots-5"></div>
+
+
+
+    <div class="time t6">16:00</div>
+    <div class="schedual-time s4"> Adrián Somoza Presentation</div>
+    <div class="dots dots-6"></div>
+
+
+
+
+    <div class="time t7">17:00</div>
+    <div class="schedual-time s4">Adrián Somoza Presentation</div>
+    <div class="dots dots-7"></div>
+
+
+
+
+    <div class="time t8">18:00</div>
+    <div class="schedual-time s5">Ending Speech</div>
+    <div class="dots dots-8"></div>
+
+    <div class="time t9">19:00</div>
+    <div class="schedual-time s5">Ending Speech</div>
+    <div class="dots dots-9"></div>
+
+
+
+
+
+
+
+</body>
+
+</html>

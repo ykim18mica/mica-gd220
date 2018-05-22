@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Song Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600" rel="stylesheet">
+
+    <style>
+        /* YOUR CSS CODE HERE */
+
+        body {
+            background-color: #d1d0be;
+        }
+
+        p {
+            font-family: Montserrat, sans-serif;
+        }
+
+        /*images*/
+
+        .img-toptriangle {
+            background-image: url(images/img-toptriangle.png);
+            background-size: cover;
+        }
+
+        .img-centerbar {
+            background-image: url(images/img-centerbar.png);
+            background-size: cover;
+        }
+
+        .img-squarelines {
+            background-image: url(images/img-sqaurelines.png);
+            background-size: cover;
+        }
+
+        .img-redcurve {
+            background-image: url(images/img-redcurve.png);
+            background-size: cover;
+        }
+
+        .img-greytexture {
+            background-image: url(images/img-greytexture.png);
+            background-size: cover;
+        }
+
+        .img-triangletop {
+            background-image: url(images/img-triangletop.png);
+            background-size: cover;
+        }
+
+        .img-trianglebottom {
+            background-image: url(images/img-trianglebottom.png);
+            background-size: cover;
+        }
+
+        .grey {
+            background-color: #87867b;
+        }
+
+        /*type*/
+
+        /*size*/
+
+        .caption-small {
+            font-size: 1.29vw;
+            line-height: 140%;
+        }
+
+        .caption-med {
+            font-size: 1.5vw;
+        }
+
+        .caption-large {
+            font-size: 4.83vw;
+        }
+
+        .main-small {
+            font-size: 2.25vw;
+        }
+
+        .main-med {
+            font-size: 3.08vw;
+        }
+
+        .main-large {
+            font-size: 15vw;
+        }
+
+        /*color*/
+
+        .beige {
+            color: #d1d0be;
+        }
+
+        .black {
+            color: #33060a;
+        }
+
+        .med-brown {
+            color: #6a6a61;
+        }
+
+        /*type weight*/
+
+        .reg {
+            font-weight: 400;
+        }
+
+        .med {
+            font-weight: 500;
+        }
+
+        .semi-bold {
+            font-weight: 600;
+        }
+
+        /*lyrics*/
+
+        .txt-theentire {
+            top: 33%;
+            left: 77%
+        }
+
+        .txt-lemonde {
+            text-transform: uppercase;
+            top: 65%;
+            left: 30.5%;
+        }
+
+        .txt-estun {
+            text-transform: uppercase;
+            top: 68%;
+            left: 25%;
+        }
+
+        .txt-ilest {
+            text-transform: uppercase;
+            top: 97.5%;
+            left: 32.5%;
+        }
+
+        .txt-itis {
+            top: 3%;
+            left: 2%;
+        }
+
+        .txt-inlife {
+            top: 50%;
+            left: 46%;
+        }
+
+        .txt-danslavie {
+            top: 96.5%;
+            left: 40%;
+
+        }
+
+        .txt-ithurts {
+            top: 70%;
+            left: 30%;
+            text-align: right;
+        }
+
+        .txt-moije {
+            top: 53%;
+            left: 35%;
+        }
+
+        .txt-delesavoir {
+            top: 59%;
+            left: 51%;
+        }
+
+        .txt-aie-1 {
+            text-transform: uppercase;
+            letter-spacing: -9px;
+            top: 76%;
+            right: 0;
+        }
+
+        .txt-ouille-1 {
+            text-transform: uppercase;
+            letter-spacing: -9px;
+            top: 12%;
+        }
+
+        .txt-ouch-1 {
+            top: 68%;
+            left: 21%;
+        }
+
+        .txt-oof-1 {
+            top: 10%;
+            left: 175%;
+        }
+
+        .txt-ouch-2 {
+            top: 46%;
+            left: 98%;
+        }
+
+        .txt-aie-2 {
+            text-transform: uppercase;
+            letter-spacing: -9px;
+            top: -15%;
+            right: 0%
+        }
+
+        .txt-hearts {
+            top: 7%;
+            left: 34%
+        }
+
+        .txt-coeurs {
+            text-transform: uppercase;
+            top: 6%;
+            left: -46%
+        }
+
+        .txt-thereare-1 {
+            top: 27%;
+            left: 65.5%
+        }
+
+        .txt-ilya-1 {
+            text-transform: uppercase;
+            top: 26%;
+            left: -14%
+        }
+
+        .txt-wallets {
+            top: 47%;
+            left: -10%
+        }
+
+        .txt-portefeuilles {
+            text-transform: uppercase;
+            top: 46%;
+            left: 11%;
+        }
+
+        .txt-thereare-2 {
+            top: 67%;
+            left: 19%
+        }
+
+        .txt-ilya-2 {
+            text-transform: uppercase;
+            top: 66%;
+            left: 40%;
+        }
+
+        .txt-feet {
+            top: 34.5%;
+            left: 17%
+        }
+
+        .txt-pieds {
+            top: 34%;
+            left: 40%;
+        }
+
+        .txt-ilya-3 {
+            top: 54%;
+            left: 10%
+        }
+
+        .txt-thereare-3 {
+            top: 55%;
+            left: -10%;
+
+        }
+
+        .txt-jackets {
+            top: 74.5%;
+            left: 65%;
+        }
+
+        .txt-gilets {
+            top: 74%;
+            left: -14%
+        }
+
+        .txt-thereare-4 {
+            top: 94%;
+            left: 34%;
+        }
+
+        .txt-ilya-4 {
+            top: 93.5%;
+            left: 54%
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ALL YOUR CODE MUST BE IN CONTAINER -->
+    <div class="container">
+
+        <!-- YOUR HTML CODE BELOW -->
+        <div class="row">
+            <div class="col-100 full img-toptriangle">
+                <p class="txt-theentire beige caption-small">The entire world<br> is a cactus</p>
+                <p class="txt-lemonde black main-small semi-bold">Le monde entier,</p>
+                <p class="txt-estun black main-small semi-bold">est un cactus</p>
+                <p class="txt-ilest black main-med semi-bold">Il est impossible de s'assior</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-100 half img-centerbar">
+                <p class="txt-itis med-brown caption-small reg">It is impossible <br>to sit down</p>
+                <p class="txt-inlife beige caption-med">In life, there are only cacti</p>
+                <p class="txt-danslavie black main-small med">dans la vie, il y a qu'des cactus</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-50 half img-squarelines">
+                <p class="txt-ithurts caption-small beige">It hurts me<br> to know it</p>
+            </div>
+            <div class="col-50 half">
+                <p class="txt-moije main-small black semi-bold">moi, je me pique</p>
+                <p class="txt-delesavoir main-small black semi-bold">de le savoir</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-100 half img-redcurve">
+                <p class="txt-ouch-1 caption-large reg beige">OUCH!</p>
+                <p class="txt-aie-1 black main-large med">aïe aïe aïe</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-50 quarter">
+                <p class="txt-ouille-1 black main-large med">ouille</p>
+                <p class="txt-oof-1 med-brown caption-large reg beige">OOF!</p>
+                <p class="txt-ouch-2 caption-large reg med-brown">OUCH!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-100 quarter">
+                <p class="txt-aie-2 black main-large med"> aïe aïe aïe </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-100 quarter img-greytexture">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-50 half img-triangletop">
+                <p class="txt-hearts beige caption-small reg">In their hearts</p>
+                <p class="txt-thereare-1 beige caption-small reg">there are cacti</p>
+            </div>
+            <div class="col-50 half grey">
+                <p class="txt-coeurs black main-small semi-bold">dans leurs coeurs</p>
+                <p class="txt-ilya-1 black main-small semi-bold">il y a des cactus</p>
+                <p class="txt-wallets beige caption-small reg">In their wallets</p>
+                <p class="txt-portefeuilles black main-small semi-bold">dans leurs portefeuilles</p>
+                <p class="txt-thereare-2 beige caption-small reg">there are cacti</p>
+                <p class="txt-ilya-2 black main-small semi-bold">il y a des cactus</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-50 half img-trianglebottom">
+                <p class="txt-jackets beige caption-small reg">In their jackets</p>
+                <p class="txt-thereare-4 beige caption-small reg">there are cacti</p>
+                <p class="txt-ilya-4 main-small semi-bold">IL Y A DES CACTUS</p>
+            </div>
+            <div class="col-50 half grey">
+                <p class="txt-feet beige caption-small reg">Under their feet</p>
+                <p class="txt-pieds black main-small semi-bold">SOUS LEURS PIEDS</p>
+                <p class="txt-thereare-3 beige caption-small reg">there are cacti</p>
+                <p class="txt-ilya-3 main-small semi-bold">IL Y A DES CACTUS</p>
+                <p class="txt-gilets main-small semi-bold">DANS LEURS GILETS</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- DO NOT CHANGE CODES BELOW-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.lazyload.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('div').lazyload(
+                effect: "fadeIn"
+            );
+        });
+    </script>
+</body>
+
+</html>

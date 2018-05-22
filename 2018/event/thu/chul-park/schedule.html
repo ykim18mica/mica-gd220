@@ -1,0 +1,182 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+    <title>why minimalist design?</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+
+        html {
+            font-family: 'Roboto', sans-serif;
+            letter-spacing: .5px;
+        }
+
+        .red {
+            color: red;
+        }
+
+        .gray {
+            color: gray;
+        }
+
+        .main {
+            font-weight: 500;
+            font-size: 40px;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -48.5%);
+            text-align: center;
+        }
+
+        .h2 {
+            font-weight: 500;
+            font-size: 25px;
+            transform: translate(0, 5%)
+        }
+
+        .nav {
+            position: absolute;
+            list-style: none;
+            line-height: 350%;
+            font-weight: 200;
+        }
+
+        .nav a:link {
+            color: gray;
+            text-decoration: none;
+        }
+
+        .nav a:visited {
+            color: gray;
+            text-decoration: none;
+        }
+
+        .nav a:hover {
+            color: black;
+        }
+
+        .schedule a:link {
+            font-weight: 500;
+            font-size: 40px;
+            color: black;
+        }
+
+        .schedule a:visited {
+            color: black;
+        }
+
+        .footer {
+            position: absolute;
+            font-weight: 200;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 500%);
+            text-align: center;
+            margin-bottom: 2%;
+        }
+
+        .footer a:link {
+            text-decoration: none;
+            color: gray;
+        }
+
+        .footer a:visited {
+            text-decoration: none;
+            color: gray;
+        }
+
+        .footer a:hover {
+            color: black;
+        }
+
+        .contact:hover .contact_hidden {
+            transition: 1s;
+            opacity: 1;
+        }
+
+        .contact_hidden {
+            position: absolute;
+            width: 1000%;
+            font-weight: 200;
+            top: 50%;
+            left: 50%;
+            transform: translate(-30%, -200%);
+            opacity: 0;
+        }
+
+
+        .contact {
+            color: gray;
+            transform: translate(-200%, 300%)
+        }
+
+        .contact:hover {
+            color: black;
+        }
+
+        .facebook {
+            transform: translate(-70%, 200%)
+        }
+
+        .instagram {
+            transform: translate(70%, 100%)
+        }
+
+        .twitter {
+            transform: translate(200%)
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="h1">
+            schedule
+        </div>
+        <div class="h2">
+            11:00 <span class="red">-</span> 12:00 <br>
+            <span class="gray">welcoming with coffee and snacks</span><br><br> 12:00 <span class="red">-</span> 1:00 <br>
+            <span class="gray">jonathan barnbrook<br>history of minimalist design</span><br><br> 1:00 <span class="red">-</span> 1:30 <br>
+            <span class="gray">short break</span><br><br> 1:30 <span class="red">-</span> 2:30 <br>
+            <span class="gray">michael bierut<br>why minimalist design</span><br><br> 2:30 <span class="red">-</span> 3:00 <br>
+            <span class="gray">short break</span><br><br> 3:00 <span class="red">-</span> 4:00 <br>
+            <span class="gray">peter saville<br>futre of minimalist</span>
+        </div>
+    </div>
+
+    <div>
+        <ul class="nav">
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="timeandspeakers.html">talks</a></li>
+            <li class="schedule"><a href="schedule.html">schedule</a></li>
+            <li><a href="location.html">location</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <div class="footer">
+            <div class="contact">
+                contact
+                <div class="contact_hidden">
+                    don’t be afraid to reach out to us with questions or requests. we’d love to hear from you.
+                    <br>bpark01@mica.edu 443-808-6319
+                </div>
+            </div>
+            <div class="facebook"> <a href="https://www.facebook.com/" target="null"> facebook </a> </div>
+            <div class="instagram"> <a href="https://www.instagram.com/?hl=en" target="null"> instagram  </a> </div>
+            <div class="twitter"> <a href="https://twitter.com/?lang=en" target="null"> twitter </a> </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

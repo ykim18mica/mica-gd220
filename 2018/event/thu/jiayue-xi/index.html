@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>WHEN GRAPHIC DESIGN MEETS 3D</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400i" rel="stylesheet">
+    <link rel="shortcut icon" href="images/icon/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+
+    <style>
+        /*  opening animation example  https://codepen.io/jiayue/pen/WJOrGd?editors=1100 */
+
+        .title,
+        h2 {
+            text-transform: uppercase;
+        }
+
+        div.title {
+            position: absolute;
+            font-size: 120px;
+            font-weight: 600;
+            top: 25%;
+            color: white;
+            margin-left: 10%;
+            z-index: 2;
+        }
+
+        div.down-arrow {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-color: white;
+            border-width: 0 0 1px 1px;
+            border-style: solid;
+            transform: rotateZ(-45deg);
+            bottom: 50px;
+            left: 50%;
+            animation: godown 1.5s infinite;
+        }
+
+        @keyframes godown {
+            0% {
+                transform: rotate(-45deg) translate(0, 0);
+            }
+            20% {
+                transform: rotate(-45deg) translate(-10px, 10px);
+            }
+            40% {
+                transform: rotate(-45deg) translate(0, 0);
+            }
+        }
+
+        a.weblink {
+            color: darkgray;
+            font-weight: 300;
+            font-size: 12px;
+            font-family: 'EB Garamond', serif;
+            float: right;
+        }
+
+        div.main {
+            position: relative;
+            height: 100vh;
+            min-height: 700px;
+            background-color: #202020;
+            z-index: 1;
+        }
+
+        @keyframes slowRotate {
+            0% {
+                transform: rotateX(-45deg) rotateY(45deg) rotateZ(20deg);
+            }
+
+            100% {
+                transform: rotateX(-45deg) rotateY(405deg) rotateZ(20deg);
+            }
+        }
+
+        .back-cube {
+            position: absolute;
+            width: 500px;
+            margin: 18% 52%;
+            transform-style: preserve-3d;
+            transform: rotateX(-45deg) rotateY(45deg) rotateZ(20deg);
+            animation: slowRotate linear infinite 20s;
+            z-index: 1;
+        }
+
+        .back-cube .cube div {
+            position: absolute;
+            width: 550px;
+            height: 550px;
+            border: 2px #666 solid;
+        }
+
+
+        .front {
+            transform: translateZ(275px);
+        }
+
+        .back {
+            transform: rotateY(180deg) translateZ(275px);
+        }
+
+        .left {
+            transform: rotateY(90deg) translateZ(275px);
+        }
+
+        .right {
+            transform: rotateY(-90deg) translateZ(275px);
+        }
+
+        .top {
+            transform: rotateX(90deg) translateZ(275px);
+        }
+
+        .bottom {
+            transform: rotateX(-90deg) translateZ(275px)
+        }
+
+        div.info {
+            position: relative;
+            background-color: white;
+            background-position: center;
+            z-index: 5;
+            box-sizing: border-box;
+            padding-top: 100px;
+            padding-left: 20%;
+            padding-right: 20%;
+            overflow: auto;
+        }
+
+        div.intro {
+            position: relative;
+            margin-top: 50px;
+            padding-bottom: 50px;
+            align-items: center;
+            box-sizing: border-box;
+        }
+
+        .intro>li {
+            padding-left: 5%;
+            font-size: 20px;
+            line-height: 2;
+            text-transform: uppercase;
+            position: relative;
+            top: -25px;
+            font-weight: 600;
+        }
+
+        h1.title {
+            padding-bottom: 25px;
+        }
+
+
+        h2.quotation {
+            position: relative;
+            width: 300px;
+            margin-bottom: 30px;
+            float: left;
+            margin-right: 38px;
+            padding-top: 5px;
+            margin-top: 15px;
+            border-right: 2px black solid;
+            padding-bottom: 5px;
+        }
+
+        .body-2 {
+            padding-top: 15px;
+        }
+
+        .footer {
+            margin-top: 200px;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="index.html">
+                <div class="menu-icon">
+                    <div class="cube">
+                        <div class="front"></div>
+                        <div class="back"></div>
+                        <div class="left"></div>
+                        <div class="right"></div>
+                        <div class="top"></div>
+                        <div class="bottom"></div>
+                    </div>
+                </div>
+            </a>
+            <div class="top-link">
+                <a href="index.html" class="menu home-top">home</a>
+                <a href="speaker.html" class="menu speaker-top">speaker</a>
+                <a href="schedule.html" class="menu schedule-top">schedule</a>
+                <a href="location.html" class="menu location-top">location</a>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="title">When<br>graphic design<br>meets 3d</div>
+            <div class="down-arrow"></div>
+            <div class="back-cube">
+                <div class="cube">
+                    <div class="front"></div>
+                    <div class="back"></div>
+                    <div class="left"></div>
+                    <div class="right"></div>
+                    <div class="top"></div>
+                    <div class="bottom"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="info">
+            <h1 class="title">“When graphic design meets 3d”?</h1>
+            <p class="body">Twenty-some years ago, we found ourselves in awe of how computers and the internet changed so many aspects of life. Just when we thought technology had reached its peak, we were also blithely aware that more was going to unfold.Technology now plays a major role in the creation of digital work available in many fields.
+            </p>
+            <h2 class="quotation">Gone are the days when graphic design was solely focused on the obvious graphic elements of a product like its packaging and marketing materials. </h2>
+            <p class="body body-2">
+                In this case, we hold the event and named it "when graphic design meets 3D" in order to introduce one of the new but useful technologies, 3D, to graphic designers. We wish this event could benefit and inspire designers for their future designs.
+            </p>
+            <!--  text from: https://www.forbes.com/sites/forbesagencycouncil/2017/10/09/how-graphic-design-is-evolving/#33ae60401ff3-->
+
+        </div>
+        <div class="info">
+            <h1 class="title">WHY GRAPHIC DESIGNERS SHOULD LEARN 3D</h1>
+            <p class="body">The design industry is changing at a great pace and more and more companies are looking to use 3D to enhance their brand or fuel their creativity. 3D graphic design can open many doors for 2D designers today, from using a greater range of skills to generating more innovative work, to being able to offer a much broader range of work. For those looking for ways to supplement existing skills, there are many reasons why graphic designers should learn 3D.
+            </p>
+            <div class="intro">
+                <li class="reason">MAKE YOURSELF MORE MARKETABLE</li>
+                <li class="reason">REFOCUS YOUR CREATIVITY</li>
+                <li class="reason">keep up with the cutting edge in the DESIGN INDUSTRY</li>
+                <li class="reason">BE BETTER AT WHAT YOU DO</li>
+            </div>
+            <!--
+            text from: http://blog.maxon.co.uk/why-graphic-designers-should-learn-3d" class="weblink" target="_blank">http://blog.maxon.co.uk/why-graphic-designers-should-learn-3d-->
+        </div>
+
+        <div class="footer">
+            <div class="logo-bottom">
+                <div class="cube">
+                    <div class="front"></div>
+                    <div class="back"></div>
+                    <div class="left"></div>
+                    <div class="right"></div>
+                    <div class="top"></div>
+                    <div class="bottom"></div>
+                </div>
+            </div>
+            <div class="title-bottom">when <br>graphic design <br>meets 3d</div>
+            <div class="link">
+                <div class="menu-bottom">
+                    <a href="index.html" class="home-bottom bot-nav">home</a>
+                    <a href="speaker.html" class="speaker-bottom bot-nav">speaker</a>
+                    <a href="schedule.html" class="schedule-bottom bot-nav">schedule</a>
+                    <a href="location.html" class="location-bottom bot-nav">location</a>
+                </div>
+                <div class="socialmedia">
+                    <a href="http://instagram.com" target="_blank"><img src="images/icon/instagram.svg" class="instagram social-link"></a>
+                    <a href="http://facebook.com" target="_blank"><img src="images/icon/facebook-square.svg" class="facebook social-link"></a>
+                    <a href="http://twitter.com" target="_blank"><img src="images/icon/twitter-square.svg" class="twitter social-link"></a>
+                    <a href="http://youtube.com" target="_blank"><img src="images/icon/youtube-square.svg" class="youtube social-link"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

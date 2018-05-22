@@ -1,0 +1,487 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>COLOR 2018</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/cooper-hewitt" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="js/jquery.fullPage.css" />
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+
+
+    <style>
+        .h-827 {
+            height: 827px;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            background-color: white;
+            width: 100%;
+            height: 50px;
+            z-index: 2;
+        }
+
+        #logo {
+            float: left;
+            font-size: 1.5vw;
+            margin: 0;
+            padding: 15px;
+            text-decoration: none;
+            color: black;
+            transition: .5s all;
+            font-family: "opensans", sans-serif;
+            font-weight: 800;
+            letter-spacing: 0.1vw;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 10px;
+        }
+
+        ul li {
+            display: inline;
+            padding: 10px;
+            float: left;
+        }
+
+        ul li a {
+            color: black;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 1.1vw;
+            font-family: "opensans", sans-serif;
+            font-weight: 600;
+            transition: 0.1s;
+            letter-spacing: 0.03vw;
+        }
+
+        ul li a:hover {
+            border-bottom: 2px solid #4443B2;
+            color: #4443B2;
+        }
+
+        .img-1 {
+            width: 100%;
+            height: 100vh;
+            background: url(images/main.jpg);
+            background-size: cover;
+            background-position: center;
+            z-index: 1;
+        }
+
+        .img-2 {
+            background: url(images/about.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .about-head {
+            font-family: 'CooperHewittMedium';
+            font-weight: normal;
+            font-style: normal;
+            letter-spacing: 0.1vw;
+            font-size: 1.3vw;
+            position: absolute;
+            top: 480px;
+            left: 760px;
+        }
+
+        .about-body {
+            font-family: 'CooperHewittBook';
+            font-weight: normal;
+            font-style: normal;
+            letter-spacing: 0.12vw;
+            line-height: 1.4vw;
+            font-size: 1vw;
+            position: absolute;
+            top: 530px;
+            left: 760px;
+        }
+
+        .img-3 {
+            background: url(images/speakers.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .speakers-head {
+            font-family: 'CooperHewittMedium';
+            font-weight: normal;
+            font-style: normal;
+            text-transform: uppercase;
+            letter-spacing: 0.1vw;
+            line-height: 1.7vw;
+            font-size: 1.3vw;
+            position: absolute;
+            top: 420px;
+            left: 1030px;
+        }
+
+        .speakers-body {
+            font-family: 'CooperHewittBook';
+            font-weight: normal;
+            font-style: normal;
+            letter-spacing: 0.12vw;
+            line-height: 1.4vw;
+            font-size: 1vw;
+            position: absolute;
+            top: 495px;
+            left: 1030px;
+        }
+
+        .img-3-1 {
+            background: url(images/speakers-1.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .speaker-GD-head {
+            font-family: 'CooperHewittMedium';
+            font-weight: normal;
+            font-style: normal;
+            text-transform: uppercase;
+            letter-spacing: 0.1vw;
+            line-height: 1.7vw;
+            font-size: 1.3vw;
+            position: absolute;
+            top: 420px;
+            left: 690px;
+        }
+
+        .speaker-GD-body {
+            font-family: 'CooperHewittBook';
+            font-weight: normal;
+            font-style: normal;
+            letter-spacing: 0.12vw;
+            line-height: 1.4vw;
+            font-size: 1vw;
+            position: absolute;
+            top: 470px;
+            left: 690px;
+        }
+
+        .img-3-2 {
+            background: url(images/speakers-2.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .speaker-FD-head {
+            font-family: 'CooperHewittMedium';
+            font-weight: normal;
+            font-style: normal;
+            text-transform: uppercase;
+            letter-spacing: 0.1vw;
+            line-height: 1.7vw;
+            font-size: 1.3vw;
+            position: absolute;
+            top: 180px;
+            left: 160px;
+        }
+
+        .speaker-FD-body {
+            font-family: 'CooperHewittBook';
+            font-weight: normal;
+            font-style: normal;
+            letter-spacing: 0.12vw;
+            line-height: 1.4vw;
+            font-size: 1vw;
+            position: absolute;
+            top: 230px;
+            left: 160px;
+        }
+
+        .img-3-3 {
+            background: url(images/speakers-3.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .speaker-ID-head {
+            font-family: 'CooperHewittMedium';
+            font-weight: normal;
+            font-style: normal;
+            text-transform: uppercase;
+            letter-spacing: 0.1vw;
+            line-height: 1.7vw;
+            font-size: 1.3vw;
+            position: absolute;
+            top: 170px;
+            left: 790px;
+        }
+
+        .speaker-ID-body {
+            font-family: 'CooperHewittBook';
+            font-weight: normal;
+            font-style: normal;
+            letter-spacing: 0.12vw;
+            line-height: 1.4vw;
+            font-size: 1vw;
+            position: absolute;
+            top: 220px;
+            left: 790px;
+        }
+
+        .img-4 {
+            background: url(images/date.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .date-head {
+            font-family: 'CooperHewittMedium';
+            font-weight: normal;
+            font-style: normal;
+            text-transform: uppercase;
+            letter-spacing: 0.1vw;
+            line-height: 2.5vw;
+            font-size: 1.3vw;
+            position: absolute;
+            top: 530px;
+            left: 880px;
+        }
+
+        .img-4-1 {
+            background: url(images/date-1.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .date-body-1 {
+            font-family: 'CooperHewittBook';
+            font-weight: normal;
+            font-style: normal;
+            letter-spacing: 0.12vw;
+            line-height: 1.4vw;
+            font-size: 1vw;
+            position: absolute;
+            top: 230px;
+            left: 840px;
+        }
+
+        .date-body-2 {
+            font-family: 'CooperHewittBook';
+            font-weight: normal;
+            font-style: normal;
+            letter-spacing: 0.12vw;
+            line-height: 1.4vw;
+            font-size: 1vw;
+            position: absolute;
+            top: 350px;
+            left: 85px;
+        }
+
+        .img-5 {
+            background: url(images/location.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+
+        iframe {
+            position: absolute;
+            top: 380px;
+            left: 150px;
+        }
+
+        .location-head {
+            font-family: 'CooperHewittMedium';
+            font-weight: normal;
+            font-style: normal;
+            text-transform: uppercase;
+            letter-spacing: 0.1vw;
+            line-height: 2.5vw;
+            font-size: 1.3vw;
+            position: absolute;
+            top: 420px;
+            left: 680px;
+        }
+
+        .img-6 {
+            background: url(images/contact.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .contact-head {
+            font-family: 'CooperHewittMedium';
+            font-weight: normal;
+            font-style: normal;
+            text-transform: uppercase;
+            letter-spacing: 0.1vw;
+            line-height: 2.5vw;
+            font-size: 1.3vw;
+            position: absolute;
+            top: 240px;
+            left: 740px;
+            color: white;
+        }
+
+        .contact-link-1 {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            margin-top: 467px;
+            margin-left: 737px;
+            background-color: none;
+        }
+
+        .contact-link-2 {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            margin-top: 467px;
+            margin-left: 777px;
+            background-color: none;
+        }
+
+        .contact-link-3 {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            margin-top: 467px;
+            margin-left: 817px;
+            background-color: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a id="logo" href="#1Page">COLOR 2018</a>
+        <ul id="menu">
+            <li data-menuanchor="2Page" class="active"><a href="#2Page">ABOUT</a></li>
+            <li data-menuanchor="3Page"><a href="#3Page">SPEAKERS</a></li>
+            <li data-menuanchor="7Page"><a href="#7Page">DATE &#38; TIME</a></li>
+            <li data-menuanchor="9Page"><a href="#9Page">LOCATION</a></li>
+            <li data-menuanchor="10Page"><a href="#10Page">CONTACT</a></li>
+        </ul>
+    </header>
+    <div id="fullpage">
+        <div class="section">
+            <div class="img-1 h-827"></div>
+        </div>
+
+        <div class="section">
+            <div class="page-2 img-2 h-827">
+                <div class="about-head">COLOR TRENDS OF 2018 DESIGN</div>
+                <div class="about-body">How color has an effect on our design? In this<br>event, we will talk about the color of design<br>trends 2018. Three different parts of designers<br>(Graphic, Fashion, Interior-design) will speak<br>how color affects each design pats.</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="page-3 img-3 h-827">
+                <div class="speakers-head">We invite three different<br>parts of the designers.</div>
+                <div class="speakers-body">Graphic designer<br>Fashion designer<br>Interior designer</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="page-3-1 img-3-1 h-827">
+                <div class="speaker-GD-head">ELLEN LUPTON</div>
+                <div class="speaker-GD-body">Ellen Lupton (born 1963) is a graphic designer, writer, curator, and<br>educator. Well known for her fascination and study within typography,<br>Lupton decided to expand her love for design and took on the graphic<br>design world. Lupton is the curator of contemporary<br>design at Cooper-Hewitt National Design Museum in New York City<br>and is the director of the Graphic Design MFA program at Maryland<br>Institute College of Art (MICA) in Baltimore.</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="page-3-2 img-3-2 h-827">
+                <div class="speaker-FD-head">GRACE CODDINGTON</div>
+                <div class="speaker-FD-body">Grace Coddington (born 20 April 1941) is a Welsh former model<br>and the creative director at large of American Vogue magazine.<br>Coddington is known for the creation of large, complex and<br>dramatic photoshoots. A Guardian profile wrote that she “has<br>produced some of fashion's most memorable imagery. Her<br>pictures might be jolly and decadent or moody and mysterious.”</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="page-3-3 img-3-3 h-827">
+                <div class="speaker-ID-head">KELLY WEARSTLER</div>
+                <div class="speaker-ID-body">Kelly Wearstler (born November 21, 1967) is an interior designer.<br>According to The New York Times, “her playful, elegantly<br>over-the-top designs for the Avalon Beverly Hills changed the look<br>of boutique hotels around the world,” and her designs for the Viceroy<br>hotel chain in the early 2000s have also been noted for their<br>influence on the design industry.</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="page-4 img-4 h-827">
+                <div class="date-head">2018 MAY 16th - 2018 MAY 17th<br>5.pm - 9.pm</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="page-4-1 img-4-1 h-827">
+                <div class="date-body-1">5.pm-6.pm<br>Graphic Design Talk<br><br>6.pm-7.pm<br>Fashion Design Talk<br><br>7.pm-8.pm<br>Interior Design Talk<br><br>8.pm-9.pm<br>Free Talking</div>
+                <div class="date-body-2">5.pm-6.pm<br>Graphic Design Talk<br><br>6.pm-7.pm<br>Fashion Design Talk<br><br>7.pm-8.pm<br>Interior Design Talk<br><br>8.pm-9.pm<br>Free Talking</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="page-5 img-5 h-827">
+                <div class="location-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11034.070853778914!2d-74.00139134565863!3d40.7396090308961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25894ea097337%3A0xc63f52f9d53d7889!2sWhitney+Museum+of+American+Art!5e0!3m2!1sen!2sus!4v1525337316343" width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                <div class="location-head">Whitney Museum of American Art<br>99 Gansevoort St, New York, NY 10014</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="page-6 img-6 h-827">
+                <div class="contact-head">JCHO02@MICA.EDU<br>(443) 931 8087<br><br>120 MCMECHEN STREET,<br>BALTIMORE, MD</div>
+                <a href="https://www.facebook.com/" class="contact-link-1"></a>
+                <a href="https://www.twitter.com//" class="contact-link-2"></a>
+                <a href="https://www.instagram.com/" class="contact-link-3"></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                navigation: false,
+            });
+        });
+
+        $('#fullpage').fullpage({
+            anchors: ['1Page', '2Page', '3Page', '4Page', '5Page', '6Page', '7Page', '8Page', '9Page', '10Page'],
+            menu: '#menu'
+        });
+    </script>
+
+</body>
+
+</html>

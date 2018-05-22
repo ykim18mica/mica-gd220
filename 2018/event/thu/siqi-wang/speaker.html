@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>speaker</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Oswald:500|Teko" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <style>
+        .all {
+            position: fixed;
+            background-color: black;
+            width: 100vw;
+            height: 30px;
+            z-index: 100;
+        }
+
+        a.menu {
+            color: white;
+            text-decoration: none;
+            font-family: 'Teko', sans-serif;
+            font-size: 22px;
+            position: relative;
+            top: 5px;
+            transition: color 0.7s;
+            padding: 110px;
+        }
+
+        a.menu:visited {
+            color: white;
+        }
+
+
+        a.menu:hover {
+            color: lightseagreen;
+            text-decoration: none;
+
+        }
+
+        body {
+            background-color: black
+        }
+
+        p {
+            color: white;
+            position: relative;
+            font-size: 20px;
+            width: 550px;
+            font-family: 'Nunito', sans-serif;
+            line-height: 27px;
+        }
+
+        img {
+            width: 200px;
+            position: relative;
+            filter: grayscale(100%);
+            padding-right: 50px;
+        }
+
+        .imgthree {
+            padding-left: 40px;
+        }
+
+        div.one {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 50px;
+            margin-left: 90px;
+
+        }
+
+        .big {
+            font-size: 34px;
+        }
+
+        @keyframes godown {
+            from {
+                transform: translateY(-1000px)
+            }
+
+            to {
+                transform: translateY(0px)
+            }
+        }
+
+        div.one {
+            animation: godown 2s ease-in-out forwards;
+        }
+
+        /*
+        .david {
+            top: -10px;
+            left: 550px;
+
+        }
+
+        .ruth {
+            top: 180px;
+            left: 240px
+        }
+
+        .michael {
+            top: 330px;
+            left: 500px;
+        }
+
+        .imgone {
+            top: 120px;
+            left: 250px;
+        }
+
+        .imgtwo {
+            top: 700px;
+            left:
+        }
+
+        .imgthree {
+            top: 400px;
+            left: 420px;
+        }
+
+       
+
+        .mone {
+            left: 210px;
+        }
+
+        .mtwo {
+            left: 450px;
+        }
+
+        .mthree {
+            left: 680px;
+        }
+
+        .mfour {
+            left: 900px;
+        }
+*/
+
+    </style>
+</head>
+
+<body>
+    <div class="all">
+        <a href="index.html" class="menu mone">Home</a>
+        <a href="schedule.html" class="menu mtwo">schedule</a>
+        <a href="exhibition.html" class="menu mthree">exhibition</a>
+        <a href="speaker.html" class="menu mfour">speaker</a>
+    </div>
+    <div class="one">
+        <a href="https://www.davidairey.com/"><img src="images/download12.png" alt="" class="imgone"></a>
+        <p class="david"><span class="big">David Airey</span> is an independent designer from Northern Ireland, specialising in logo design and brand identity projects, with clients worldwide since 2005.</p>
+    </div>
+    <div class="one">
+        <p class="ruth"><span class="big">Ruth Kedar</span> is an artist and designer, best known for designing the Google logo. Larry Page and Sergey Brin were looking at designers to design their logo and website and Kedar was asked to present them with some preliminary design ideas. </p>
+        <a href="http://kedardesigns.com/"><img src="images/ruth-kedar-ffefd60c-ab3d-41c0-bc53-43efcfb84a9-resize-750.png" alt="" class="imgthree"></a>
+    </div>
+    <div class="one"> <a href="https://www.pentagram.com/about/michael-bierut"><img src="images/download11.png" alt="" class="imgtwo"></a>
+        <p class="michael"><span class="big">Michael Bierut</span> studied graphic design at the University of Cincinnati’s College of Design, Architecture, Art and Planning, graduating summa cum laude in 1980. He worked for ten years at Vignelli Associates before joining Pentagram as a partner in 1990.</p>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>How To Love</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100" rel="stylesheet">
+
+    <style>
+        html {
+            font-family: 'Work Sans', sans-serif;
+            color: white;
+            letter-spacing: 0.1vw;
+        }
+
+        .img-1moon {
+            background-image: url("images/img-1moon.png");
+            background-size: cover;
+        }
+
+        .img-2sky {
+            background-image: url(images/img-2sky.png);
+            background-size: cover;
+        }
+
+        .img-3ladder {
+            background-image: url(images/img-3ladder.png);
+            background-size: cover;
+        }
+
+        .img-4planets {
+            background-image: url(images/img-4planets.png);
+            background-size: cover;
+        }
+
+        .img-5ladder {
+            background-image: url(images/img-5ladder.png);
+            background-size: cover;
+        }
+
+        .img-6moon {
+            background-image: url(images/img-6moon.png);
+            background-size: cover;
+        }
+
+        .img-7sky {
+            background-image: url(images/img-7sky.png);
+            background-size: cover;
+        }
+
+        .img-8sky {
+            background-image: url(images/img-8sky.png);
+            background-size: cover;
+        }
+
+        .img-9sun {
+            background-image: url(images/img-9sun.png);
+            background-size: cover;
+        }
+
+        .img-10sun {
+            background-image: url(images/img-10sun.png);
+            background-size: cover;
+        }
+
+        .img-11clouds {
+            background-image: url(images/img-11clouds.png);
+            background-size: cover;
+        }
+
+        .small-1 {
+            font-size: 1.45vw;
+            line-height: 2.5;
+        }
+
+        .medium-1 {
+            font-size: 1.8vw;
+            line-height: 1.45;
+        }
+
+        .intermedium {
+            font-size: 2vw;
+            line-height: 1.45;
+        }
+
+        .medium-2 {
+            font-size: 2.3vw;
+        }
+
+        .big-1 {
+            font-size: 4.5vw;
+        }
+
+        .big-2 {
+            font-size: 8vw;
+            font-weight: bold;
+            line-height: 1.3;
+        }
+
+        .title {
+            left: 20%;
+            top: 10%;
+            font-weight: bold;
+        }
+
+        .text-one {
+            left: 64%;
+            top: 51%;
+        }
+
+        .text-ive {
+            left: 20%;
+            top: 70%;
+        }
+
+        .text-see {
+            left: 20%;
+            top: 90%;
+        }
+
+        .text-so {
+            left: 20%;
+            top: 0.5%;
+        }
+
+        .text-you {
+            right: 20%;
+            top: 25%;
+            text-align: right;
+        }
+
+        .text-but {
+            right: 20%;
+            top: 45%;
+            text-align: right;
+        }
+
+        .text-faith1 {
+            right: 20%;
+            top: 55.5%;
+        }
+
+        .text-BIG {
+            left: 17%;
+            margin-top: -2.5vw;
+        }
+
+        .indent {
+            margin-left: 15vw;
+        }
+
+        .text-never {
+            left: 60%;
+            top: 56%;
+
+        }
+
+        .text-pray {
+            left: 60%;
+            top: 73%;
+        }
+
+        .text-know {
+            left: 60%;
+            top: 84%;
+        }
+
+        .text-while {
+            left: 15%;
+            top: 20%;
+            text-align: right;
+        }
+
+        .text-head {
+            left: 16%;
+            top: 30%;
+            text-align: right;
+        }
+
+        .text-say {
+            left: 60%;
+            top: 45%;
+
+        }
+
+        .text-dont {
+            left: 60%;
+            top: 55%;
+        }
+
+        .text-faith2 {
+            left: 60%;
+            top: 60.5%;
+        }
+
+        .text-BIG2 {
+            text-align: right;
+            left: 17%;
+            top: 80%;
+        }
+
+        .indent2 {
+            margin-right: 15vw;
+        }
+
+        .text-never2 {
+            left: 15%;
+            top: 33%;
+            text-align: right;
+
+        }
+
+        .text-pray2 {
+            left: 29.5%;
+            top: 50%;
+            text-align: right;
+        }
+
+        .text-know2 {
+            left: 16.5%;
+            top: 62%;
+            text-align: right;
+        }
+
+        .text-somebody1 {
+            top: 10%;
+        }
+
+        .text-somebody2 {
+            top: 30%;
+        }
+
+        .text-somebody3 {
+            top: 55%;
+        }
+
+        .text-BIG3 {
+            top: 25%;
+        }
+
+        .text-love {
+            top: 10%;
+        }
+
+        .mirror {
+            transform: rotate(180deg);
+        }
+
+        .tv {
+            width: 20%;
+            position: absolute;
+            z-index: 10;
+            top: 80%;
+            left: 13%;
+            opacity: 0.85;
+        }
+
+        .clock {
+            width: 30%;
+            position: absolute;
+            z-index: 11;
+            top: 14%;
+            left: 55%;
+            transform: rotate(-30deg);
+            opacity: 0.9;
+        }
+
+        .clock2 {
+            width: 10%;
+            position: absolute;
+            z-index: 11;
+            top: 70%;
+            left: 80%;
+            transform: rotate(50deg);
+            opacity: 0.9;
+        }
+
+
+        .bike {
+            width: 13%;
+            position: absolute;
+            z-index: 120;
+            top: 110%;
+            left: 67%;
+            opacity: 0.8;
+        }
+
+        .bike2 {
+            width: 6.8%;
+            position: absolute;
+            z-index: 120;
+            top: 55.8%;
+            left: 52%;
+            opacity: 0.9;
+            transform: rotate(50deg);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div style="background-color:#f299a3">
+        <audio controls style="width:100%" ;>
+        <source src="audio/how-to-love.mp3"; type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    </div>
+    <!-- ALL YOUR CODE MUST BE IN CONTAINER -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-50 half img-1moon">
+
+                <p class="small-1 text-one">One, two, three,</p>
+
+                <img src="images/bike.gif" alt="bike" class="bike">
+
+            </div>
+
+            <div class="col-50 half img-2sky">
+
+                <p class="big-1 title">·HOW·TO·LOVE·</p>
+
+
+                <p class="medium-1 text-ive">I've been running from the pain<br>Trying not to feel the same<br>But it's a shame that we're sinking.</p>
+
+                <p class="medium-1 text-see">See, my confidence is shaking<br>And my heart is feeling vacant</p>
+
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-50 half img-3ladder">
+
+                <p class="medium-1 text-you">You say<br>“I could fix the broken in your heart.<br> You're worth saving darling.”</p>
+
+                <p class="medium-1 text-but">But I don't know<br>why you're shooting in the dark
+                </p>
+
+                <p class="medium-1 mirror text-faith1">I got faith in nothing.</p>
+
+            </div>
+
+            <div class="col-50 half img-4planets">
+
+                <p class="medium-1 text-so">So you try to fill it in.</p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 half img-5ladder">
+
+                <p class="big-2 text-BIG">BUT LOVE,<br><span class="indent">PRAY FOR ME.</span></p>
+
+                <p class="medium-1 text-never">I never had somebody<br>So I don't know how to love.</p>
+
+                <p class="medium-1 text-pray">Pray for me.</p>
+
+                <p class="medium-1 text-know">I know I need somebody<br>So I can learn how to love.</p>
+
+                <img src="images/television.gif" alt="television" class="tv">
+
+
+
+            </div>
+        </div>
+
+        <div class=" row ">
+            <div class="col-100 full img-6moon ">
+
+                <p class="medium-1 text-while">I know it's been a while<br>Cause my memory's on trial<br>For the way I used to be.
+                </p>
+
+                <p class="medium-1 text-head">My head is running miles<br>Round in circles and I try<br>To find the little light in me.
+                </p>
+
+                <p class="medium-1 text-say">You say <br>“I could fix the broken in your heart .<br>You're worth saving darling.”</p>
+
+                <p class="medium-1 text-dont">But I don't know<br>why you're shooting in the dark<br>
+                </p>
+
+                <p class="medium-1 mirror text-faith2">I got faith in nothing.</p>
+
+                <p class="big-2 text-BIG2">BUT LOVE,<br><span class="indent2">PRAY FOR ME.</span>
+                </p>
+
+                <img src="images/bike.gif" alt="bike" class="bike2">
+
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-100 half img-7sky ">
+
+                <p class="medium-1 text-never2">I never had somebody<br>So I don't know how to love.</p>
+
+                <p class="medium-1 text-pray2">Pray for me.</p>
+
+                <p class="medium-1 text-know2">I know I need somebody<br>So I can learn how to love.</p>
+
+                <img src="images/clock.gif" alt="clock" class="clock">
+                <img src="images/clock.gif" alt="clock" class="clock2">
+
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-100 quarter img-8sky ">
+
+                <p class="medium-1 center-h text-somebody1">I know I need somebody.</p>
+                <p class="intermedium text-somebody2 center-h">I know I need somebody.</p>
+                <p class="medium-2 text-somebody3 center-h">I know I need somebody.</p>
+
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-100 half img-9sun ">
+
+                <p class="big-2 center-h text-BIG3 ">SO I<br>CAN LEARN<br>HOW TO LOVE</p>
+
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-100 half img-10sun ">
+
+                <p class="small-1 center-h text-love">How to love<br>How to love<br><span class="medium-2">So I can learn how to love</span><br>How to love<br>How to love<br>How to love<br><span class="medium-2">Love, love, love, love, love, love, oh</span><br>I know I need somebody<br>I know I need somebody<br>I know I need somebody<br><span class="medium-2">So I can learn how to love<br></span></p>
+
+            </div>
+        </div>
+
+        <div class="row ">
+
+            <div class="col-100 quarter img-11clouds ">
+                <p class="medium-2 center-h">.<br>.<br>.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- DO NOT CHANGE CODES BELOW-->
+    <script src="js/jquery-3.1.0.min.js "></script>
+    <script src="js/jquery.lazyload.js "></script>
+    <script type="text/javascript ">
+        $(function() {
+            $('div').lazyload(
+                effect: "fadeIn "
+            );
+        });
+
+    </script>
+
+</body>
+
+</html>

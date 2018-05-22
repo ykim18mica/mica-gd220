@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SPEAKERS</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .menu1 {
+            width: 3.2vw;
+            height: 2.7vw;
+            margin-top: 3vw;
+            position: fixed;
+            top: 0.5vw;
+            right: 5vw;
+            display: block;
+        }
+
+        .menu2 {
+            width: 3.2vw;
+            height: 2.7vw;
+            margin-top: 3vw;
+            position: fixed;
+            top: 0.5vw;
+            right: 5vw;
+            display: none;
+            opacity: 0.5;
+        }
+
+        #dropdown {
+            position: fixed;
+            top: 3vw;
+            display: none;
+        }
+
+        body {
+            background: rgb(253, 110, 117);
+            color: white;
+        }
+
+        .title-speakers {
+            text-align: center;
+            margin-top: 5vw;
+            letter-spacing: 2.5vw;
+            position: absolute;
+            left: 38vw;
+            font-size: 1.5vw;
+
+
+        }
+
+        .facebook {
+            position: absolute;
+            top: 135vw;
+            right: 5vw;
+            width: 1.8vw;
+            margin: 1vw;
+
+        }
+
+        .ins {
+            position: absolute;
+            top: 135vw;
+            right: 10vw;
+            width: 1.8vw;
+            margin: 1vw;
+        }
+
+        .twitter {
+            position: absolute;
+            top: 135vw;
+            right: 15vw;
+            width: 1.8vw;
+            margin: 1vw;
+        }
+
+        .youtube {
+            position: absolute;
+            top: 135vw;
+            right: 20.5vw;
+            width: 2vw;
+            margin: 1vw;
+        }
+
+        .moma {
+            position: absolute;
+            top: 136vw;
+            left: 5vw;
+            width: 4.5vw;
+            margin: 1vw;
+        }
+
+        .footbar-address {
+            font-size: 0.8vw;
+            color: white;
+            letter-spacing: 0.1vw;
+            position: absolute;
+            top: 137vw;
+            right: 51vw;
+        }
+
+        .footbar-time {
+            font-size: 0.8vw;
+            color: white;
+            letter-spacing: 0.1vw;
+            position: absolute;
+            top: 137vw;
+            right: 32vw;
+        }
+
+        .s1-img {
+            width: 23vw;
+            position: absolute;
+            top: 15vw;
+            left: 13vw;
+
+        }
+
+        .s1-name {
+
+            font-style: italic;
+            font-size: 2.5vw;
+            letter-spacing: 0.2vw;
+            position: absolute;
+            top: 17vw;
+            left: 34vw;
+
+
+        }
+
+        .s1-info {
+            font-size: 1.5vw;
+            line-height: 2.5vw;
+            letter-spacing: 0.2vw;
+            width: 45vw;
+            position: absolute;
+            top: 22vw;
+            left: 44vw;
+            animation: opacity 3s ease-in-out;
+        }
+
+        .s1-web {
+            font-style: italic;
+            color: white;
+            position: absolute;
+            top: 41vw;
+            letter-spacing: 0.2vw;
+            font-size: 1vw;
+            left: 9vw;
+        }
+
+        .s2-img {
+            width: 24vw;
+            position: absolute;
+            top: 58vw;
+            left: 64vw;
+        }
+
+        .s2-name {
+            font-style: italic;
+            font-size: 2.5vw;
+            letter-spacing: 0.2vw;
+            position: absolute;
+            top: 58vw;
+            left: 53vw;
+        }
+
+        .s2-info {
+            font-size: 1.5vw;
+            line-height: 2.5vw;
+            letter-spacing: 0.2vw;
+            width: 45vw;
+            position: absolute;
+            top: 63vw;
+            left: 13vw;
+            animation: opacity 5s ease-in-out;
+        }
+
+        .s2-web {
+            font-style: italic;
+            color: white;
+            position: absolute;
+            top: 84vw;
+            letter-spacing: 0.1vw;
+            left: 76vw;
+            font-size: 1vw;
+
+        }
+
+        .s3-img3 {
+            width: 15vw;
+            position: absolute;
+            top: 98vw;
+            left: 13vw;
+        }
+
+        .s3-img4 {
+            width: 15.2vw;
+            position: absolute;
+            top: 98vw;
+            left: 29vw;
+        }
+
+        .s3-name {
+            font-style: italic;
+            font-size: 2.5vw;
+            letter-spacing: 0.2vw;
+            position: absolute;
+            top: 99vw;
+            left: 42vw;
+        }
+
+        .s3-info {
+            font-size: 1.5vw;
+            line-height: 2.5vw;
+            letter-spacing: 0.2vw;
+            width: 40vw;
+            position: absolute;
+            top: 103vw;
+            left: 50vw;
+            animation: opacity 8s ease-in-out;
+        }
+
+        .s3-web {
+            font-style: italic;
+            color: white;
+            position: absolute;
+            top: 120.5vw;
+            letter-spacing: 0.1vw;
+            left: 9vw;
+            font-size: 1vw;
+        }
+    </style>
+    <script>
+        function openNav() {
+            document.getElementById("dropdown").style.display = "block";
+            document.getElementById("open").style.display = "none";
+            document.getElementById("close").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("dropdown").style.display = "none";
+            document.getElementById("open").style.display = "block";
+            document.getElementById("close").style.display = "none";
+        }
+    </script>
+
+</head>
+
+<body>
+
+
+    <a href="index.html"><img class="icon" src="images/logo.png"></a>
+    <img class="menu1" id="open" onClick="openNav()" src="images/menu.png">
+    <img class="menu2" id="close" onClick="closeNav()" src="images/menu.png">
+
+
+
+    <div class="menu-open" id="dropdown">
+        <ul>
+            <li><a href="about.html" style="text-decoration:none" class="about">ABOUT</a></li>
+            <li><a href="speakers.html" style="text-decoration:none" class="speakers">SPEAKERS</a></li>
+            <li><a href="schedule.html" style="text-decoration:none" class="schedule">SCHEDULE</a></li>
+            <li><a href="contact.html" style="text-decoration:none" class="contact">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <div class="title-speakers">SPEAKERS
+
+    </div>
+    <img class="s1-img" src="images/S1.jpg">
+    <div class="s1-name">Milton Glaser</div>
+    <div class="s1-info">Milton Glaser (b.1929) is among the most celebrated graphic designers in the United States. He has had the distinction of one-man-shows at the Museum of Modern Art and the Georges Pompidou Center. He was selected for the lifetime achievement award of the Cooper Hewitt National Design Museum (2004) and the Fulbright Association (2011), and in 2009 he was the first graphic designer to receive the National Medal of the Arts award. As a Fulbright scholar, Glaser studied with the painter, Giorgio Morandi in Bologna, and is an articulate spokesman for the ethical practice of design. </div>
+
+
+
+
+    <div class="s1-web">
+        <a href="https://www.miltonglaser.com" target=“_blank”>https://www.miltonglaser.com</a>
+    </div>
+
+
+    <div>
+        <img class="s2-img" src="images/s2.jpg">
+        <div class="s2-name">Paula Scher</div>
+        <div class="s2-info">Paula Scher is an American graphic designer, painter and art educator in design. She also served as the first female principal at Pentagram, which she joined in 1991. For four decades Paula Scher has been at the forefront of graphic design. Described as the “master conjurer of the instantly familiar,” Scher straddles the line between pop culture and fine art in her work. Iconic, smart, and accessible, her images have entered into the American vernacular.
+        </div>
+        <div class="s2-web">
+            <a href="https://www.pentagram.com/about/paula-scher" target=“_blank”>https://www.pentagram.com/about/paula-scher</a>
+        </div>
+    </div>
+
+    <div>
+        <img class="s3-img3" src="images/s3.jpg">
+        <img class="s3-img4" src="images/s4.jpg">
+        <div class="s3-name">Choi Sulki and Choi Sung Min</div>
+        <div class="s3-info">Choi Sulki and Choi Sung Min are graphic designers working around Seoul, South Korea. They met at Yale University where they both earned their MFA degrees. After working as researchers at the Jan van Eyck Academie in Maastricht, they returned to Korea in 2005 to start their own practice. Since then, they have created graphic identities, promotional materials, publications and websites for many cultural institutions and individuals.
+        </div>
+        <div class="s3-web">
+            <a href="http://www.sulki-min.com/wp/index-random/" target=“_blank”>http://www.sulki-min.com/wp/index-random/</a>
+        </div>
+
+    </div>
+    <div>
+        <a href="https://www.facebook.com/MuseumofModernArt/" target=“_blank”><img class="facebook" src="images/facebook.png"></a>
+        <a href="https://www.instagram.com/themuseumofmodernart/" target=“_blank”><img class="ins" src="images/ins.png"></a>
+        <a href="https://twitter.com/museummodernart" target=“_blank”><img class="twitter" src="images/twitter.png"></a>
+        <a href="https://www.youtube.com/user/momavideos" target=“_blank”><img class="youtube" src="images/youtube.png"></a>
+        <a href="https://www.moma.org/visit/" target=“_blank”>
+            <div class="footbar-address">The Museum of Modern Art 11 West 53 Street, New York, NY 10019
+            </div>
+        </a>
+        <div class="footbar-time">TIME : 10/28, 1 p.m - 5:30 p.m </div>
+        <a href="https://www.moma.org" target=“_blank”><img class="moma" src="images/MOMA.png"></a>
+    </div>
+
+
+
+
+</body>
+
+</html>

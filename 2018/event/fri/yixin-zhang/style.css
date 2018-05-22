@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(204, 204, 204);
+    font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+}
+
+
+.icon {
+    width: 5vw;
+    margin-top: 3vw;
+    position: absolute;
+    top: 0.5vw;
+    left: 5vw;
+}
+
+.menu-open {
+    text-align: right;
+    position: fixed;
+    right: 4.6vw;
+    line-height: 3vw;
+    margin-top: 3vw;
+}
+
+.about {
+    letter-spacing: 0.6vw;
+}
+
+.speakers {
+    letter-spacing: 0.3vw;
+}
+
+.schedule {
+    letter-spacing: 0.25vw;
+}
+
+.contact {
+    letter-spacing: 0.3vw;
+}
+
+a:link {
+    font-size: 0.65vw;
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    font-size: 0.65vw;
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 0.65vw;
+    color: #999999;
+    text-decoration: underline;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }

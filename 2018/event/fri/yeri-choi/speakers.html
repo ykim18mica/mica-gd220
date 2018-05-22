@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html {
+            background-color: #D1CACA;
+        }
+
+    </style>
+    <script>
+        function showmore() {
+            document.getElementById("speakersinfo").style.display = "block";
+            document.getElementById("footer-1").style.bottom = "-130vw";
+            document.getElementById("footer-1").style.opacity = "1";
+        }
+
+        function show1() {
+            document.getElementById("identity-1").style.opacity = "1";
+        }
+
+        function show2() {
+            document.getElementById("identity-2").style.opacity = "1";
+        }
+
+        function show3() {
+            document.getElementById("identity-3").style.opacity = "1";
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <div class="menubar-4">
+        <div class="small-bar-4">
+            <div class="menu-name">Design Essentials</div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="speakers.html">Speakers</a>
+            <a href="location.html">Location</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="container-2">
+        <img class="logo-small-2" src="images/logo-small.png" alt="logo">
+        <h1>Speakers</h1>
+        <div class="sub-head">
+            – Infuential artists and designers active today, inside the diverse interdisciplinary media –
+        </div>
+        <div class="speakers-circle">
+            <img id="circle-1" src="images/nick-dark.png" alt="Nick Schaden" onclick="show1()">
+            <img id="circle-2" src="images/libby-dark.png" alt="Libby Bawcombe" onclick="show2()">
+            <img id="circle-3" src="images/dokho-dark.png" alt="Dokho Shin" onclick="show3()">
+            <div class="circle-name">
+                <span class="circle-name-1">Nick Schaden</span>
+                <span class="circle-name-2">Libby Bawcombe</span>
+                <span class="circle-name-3">Dokho Shin</span>
+                <span id="identity-1">UI / UX Engineering</span>
+                <span id="identity-2">PD / Digital Media<br></span>
+                <span id="identity-3">GD / Tygpography</span>
+            </div>
+        </div>
+        <a href="#speakersinfo" onclick="showmore()">
+            <div class="next-page">View More</div>
+            <div class="arrow-parent">
+                <img class="arrow" src="images/arrow.svg" alt="next">
+            </div>
+        </a>
+    </div>
+    <div id="footer-1">
+        <span class="foot-1">DESIGN ESSENTIALS</span>
+        <span class="foot-2">MICA Falvey Hall / 1301 W Mt Royal Ave, Baltimore, MD 21217</span>
+        <span class="foot-3">July 24, 2017 / 12:00 – 19:00</span>
+        <span class="foot-4">CONTACT (410) 669-9200 / Help@MICA.edu</span>
+        <a class="social-1" href="https://twitter.com/"><img src="images/social-1.svg" alt="twitter"></a>
+        <a class="social-2" href="https://facebook.com/"><img src="images/social-2.svg" alt="facebook"></a>
+        <a class="social-3" href="https://instagram.com/"><img src="images/social-3.svg" alt="instagram"></a>
+    </div>
+    <div id="speakersinfo">
+        <img id="profile-1" src="images/profile-1.png" alt="Nick Schaden">
+        <div class="profile-header-1">Nick Schaden</div>
+        <a href="http://www.nickschaden.com/" target="_blank"><img class="portfolio-1" src="images/info.png" alt="info"></a>
+        <div class="profile-descrip-1">Nick is an UI engineer and designer at Square, where he contributes to web initiatives across the company. He was formerly web platform lead at Pocket, a popular save for later service. Prior to Square and Pocket, Nick worked in technology and design at Animoto, Gucci, and Goldman Sachs. He loves coffee, electronic music, and 80s action movies.<br></div>
+        <img id="profile-2" src="images/profile-2.png" alt="Libby Bawcombe">
+        <div class="profile-header-2">Libby Bawcombe</div>
+        <a href="http://www.libbybawcombe.com/" target="_blank"><img class="portfolio-2" src="images/info.png" alt="info"></a>
+        <div class="profile-descrip-2">Libby Bawcombe is a senior visual product designer with the NPR digital media team. She collaborates with designers, developers and editorial teams to bring NPR’s unique storytel ing to readers and listeners across different platforms. Libby was formerly digital design director at The Atlantic, where she led user experience, art direction and responsive design of the digital experiences for TheAtlantic.com and its iOS apps. </div>
+        <img id="profile-3" src="images/profile-3.png" alt="Dokho Shin">
+        <div class="profile-header-3">Dokho Shin</div>
+        <a href="http://shindokho.kr/" target="_blank"><img class="portfolio-3" src="images/info.png" alt="info"></a>
+        <div class="profile-descrip-3">Dokho Shin is a graphic designer focusing on typography. He has worked as a freelance designer in Seoul after he graduated from Dankook University in 2012. He recently moved to Berlin. His work is situated between the desire for a human-scale artistic practice and a hostile economic environment. Shin works collaborativelly at the Typography Workshop in Seoul. He tries to boil a project down to a single word, and from this, his designs—which are extremely simple, almost bare—come forth.</div>
+    </div>
+</body>
+
+
+</html>

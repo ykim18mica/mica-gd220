@@ -1,0 +1,1057 @@
+<head > </script > <style > body html .main {
+    position: absolute;
+    height: 100%;
+}
+
+section {
+    min-height: 100%;
+}
+
+.custom {
+    cursor: url(images/my-cursor.svg), auto;
+}
+
+
+
+.h1 {
+    position: absolute;
+    margin-left: 60vh;
+    margin-top: 88vh;
+    font-size: 3vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+}
+
+a {
+    color: black;
+}
+
+.h1:hover {
+    color: yellow;
+
+}
+
+#arrow1 {
+    position: absolute;
+    margin-left: 87vh;
+    margin-top: 93vh;
+    color: black;
+    font-family: 'Cabin', sans-serif;
+    font-size: 2vh;
+    text-decoration: none
+}
+
+#arrow1:hover {
+    color: yellow;
+}
+
+#arrow2 {
+    position: absolute;
+    margin-left: 87vh;
+    margin-top: 93vh;
+    color: black;
+    font-family: 'Cabin', sans-serif;
+    font-size: 2vh;
+    text-decoration: none
+}
+
+#arrow2:hover {
+    color: yellow;
+}
+
+#arrow3 {
+    position: absolute;
+    margin-left: 87vh;
+    margin-top: 2vh;
+    color: black;
+    font-family: 'Cabin', sans-serif;
+    font-size: 3vh;
+    text-decoration: none
+}
+
+#arrow3:hover {
+    color: yellow;
+}
+
+
+h2 {
+    position: absolute;
+    margin-left: 10vh;
+    margin-top: 88vh;
+    font-size: 3vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+}
+
+
+p6 {
+    position: absolute;
+    margin-left: 140vh;
+    margin-top: 88vh;
+    font-size: 3vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+}
+
+
+h3 {
+    position: absolute;
+    margin-left: 80vh;
+    margin-top: 81vh;
+    font-size: 3vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+}
+
+h4 {
+    position: absolute;
+    margin-left: 123vh;
+    margin-top: 81vh;
+    font-size: 3vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+}
+
+h5 {
+    position: absolute;
+    margin-left: 10vh;
+    margin-top: 88vh;
+    font-size: 3vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+}
+
+h6 {
+    position: absolute;
+    margin-left: 45vh;
+    margin-top: 88vh;
+    font-size: 3vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+}
+
+p1 {
+    position: absolute;
+    margin-left: 10vh;
+    margin-top: 88vh;
+    font-size: 3vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+
+}
+
+p2 {
+    position: absolute;
+    margin-left: 45vh;
+    margin-top: 88vh;
+    font-size: 3vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+
+}
+
+p3 {
+    position: absolute;
+    margin-left: 10vh;
+    margin-top: 88vh;
+    font-size: 3vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+
+}
+
+p4 {
+    position: absolute;
+    margin-left: 10vh;
+    margin-top: 88vh;
+    bottom：45vh;
+    font-size: 3vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+
+}
+
+
+.venue1 {
+    position: absolute;
+    margin-top: 39vh;
+    margin-left: 10vh;
+    font-size: 3vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+}
+
+.venue2 {
+    position: absolute;
+    margin-top: 45vh;
+    margin-left: 10vh;
+    font-size: 2.5vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique
+}
+
+.venue3 {
+    position: absolute;
+    margin-top: 49vh;
+    margin-left: 10vh;
+    font-size: 2vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique
+}
+
+
+.main-box {
+    position: absolute;
+    margin-left: 32vh;
+    margin-top: 20vh;
+    height: 60vh;
+    width: 110vh;
+    border: 0.3vh solid white;
+}
+
+.title-box1 {
+    position: absolute;
+    margin-top: 6vh;
+    margin-left: 10vh;
+    height: 11vh;
+    width: 50vh;
+    padding: 2vh;
+    background-color: black;
+    font-size: 4vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+    color: white;
+}
+
+.title-box2 {
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 10vh;
+    height: 11vh;
+    width: 50vh;
+    padding: 2vh;
+    background-color: black;
+    font-size: 4vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+    color: white;
+}
+
+.title-box3 {
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 10vh;
+    height: 11vh;
+    width: 50vh;
+    padding: 2vh;
+    background-color: black;
+    font-size: 4vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+    color: white;
+}
+
+.title-box4 {
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 10vh;
+    height: 11vh;
+    width: 50vh;
+    padding: 2vh;
+    background-color: black;
+    font-size: 4vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+    color: white;
+}
+
+.title-box5 {
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: 70vh;
+    height: 5vh;
+    width: 14vh;
+    padding: 2vh;
+    border: dotted 4vh;
+    font-size: 4vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+
+}
+
+.title-box5:hover {
+    color: yellow;
+}
+
+.title-box6 {
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 10vh;
+    height: 11vh;
+    width: 50vh;
+    padding: 2vh;
+    background-color: black;
+    font-size: 4vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+    color: white;
+}
+
+.newyork {
+    position: absolute;
+    margin-left: 140vh;
+    margin-top: 88vh;
+    font-size: 3vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+    text-decoration: none;
+}
+
+.newyork:hover {
+    color: yellow;
+}
+
+.pic-1 {
+    display: block;
+    position: absolute;
+    width: 88vh;
+    margin-left: 50vh;
+    margin-top: 20vh;
+}
+
+
+.g1 {
+    display: none;
+    position: absolute;
+    width: 180vh;
+    margin-top: 5vh;
+    opacity: 0;
+
+}
+
+.g2 {
+    position: absolute;
+    width: 30vh;
+    margin-left: 115vh;
+    margin-top: 25vh;
+    opacity: 0;
+
+}
+
+.g3 {
+    position: absolute;
+    width: 30vh;
+    margin-left: 75vh;
+    margin-top: 25vh;
+    opacity: 0;
+}
+
+.g4 {
+    position: absolute;
+    width: 30vh;
+    margin-left: 115vh;
+    margin-top: 49vh;
+    opacity: 0;
+
+}
+
+.g5 {
+    position: absolute;
+    width: 30vh;
+    margin-left: 75vh;
+    margin-top: 49vh;
+    opacity: 0;
+}
+
+.g6 {
+    position: absolute;
+    width: 30vh;
+    margin-left: 115vh;
+    margin-top: 25vh;
+    opacity: 0;
+
+}
+
+.g7 {
+    position: absolute;
+    width: 30vh;
+    margin-left: 75vh;
+    margin-top: 25vh;
+    opacity: 0;
+}
+
+.g8 {
+    position: absolute;
+    width: 30vh;
+    margin-left: 115vh;
+    margin-top: 49vh;
+    opacity: 0;
+
+}
+
+.g9 {
+    position: absolute;
+    width: 30vh;
+    height: 21vh;
+    margin-left: 75vh;
+    margin-top: 49vh;
+    opacity: 0;
+}
+
+
+.g10 {
+    position: absolute;
+    width: 30vh;
+    margin-left: 115vh;
+    margin-top: 25vh;
+    opacity: 0;
+
+}
+
+.g11 {
+    position: absolute;
+    width: 30vh;
+    margin-left: 75vh;
+    margin-top: 25vh;
+    opacity: 0;
+}
+
+.g12 {
+    position: absolute;
+    width: 30vh;
+    margin-left: 115vh;
+    margin-top: 49vh;
+    opacity: 0;
+
+}
+
+.g13 {
+    position: absolute;
+    width: 30vh;
+    height: 21vh;
+    margin-left: 75vh;
+    margin-top: 49vh;
+    opacity: 0;
+}
+
+
+
+
+.logo-1 {
+    position: absolute;
+    width: 30vh;
+    margin-left: 22vh;
+    margin-top: 35vh;
+}
+
+.logo:hover {
+    display: inline;
+}
+
+.logo-2 {
+    position: absolute;
+    width: 30vh;
+    margin-left: 20vh;
+    margin-top: 35vh;
+}
+
+.logo-3 {
+    position: absolute;
+    width: 28vh;
+    margin-left: 20vh;
+    margin-top: 37vh;
+}
+
+.dot1 {
+    position: absolute;
+    font-size: 4vh;
+    margin-left: 88vh;
+    margin-top: 32vh;
+    z-index: 1;
+}
+
+.dot2 {
+    position: absolute;
+    font-size: 4vh;
+    margin-left: 129vh;
+    margin-top: 32vh;
+    z-index: 1;
+}
+
+.dot3 {
+    position: absolute;
+    font-size: 4vh;
+    margin-left: 88vh;
+    margin-top: 56vh;
+    z-index: 1;
+}
+
+.dot4 {
+    position: absolute;
+    font-size: 4vh;
+    margin-left: 129vh;
+    margin-top: 56vh;
+    z-index: 1;
+}
+
+.dot1:hover {
+    color: yellow;
+}
+
+.dot2:hover {
+    color: yellow;
+}
+
+.dot3:hover {
+    color: yellow;
+}
+
+.dot4:hover {
+    color: yellow;
+}
+
+.no1 {
+    position: absolute;
+    margin-left: 10vh;
+    margin-top: 17vh;
+    font-size: 20vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+}
+
+.no2 {
+    position: absolute;
+    margin-left: 9vh;
+    margin-top: 17vh;
+    font-size: 20vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+}
+
+.no3 {
+    position: absolute;
+    margin-left: 10vh;
+    margin-top: 17vh;
+    font-size: 20vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+}
+
+
+.t1 {
+    position: absolute;
+    font-size: 1vh;
+    margin-left: 23vh;
+    margin-top: 26.7vh;
+    color: #262626;
+
+}
+
+.t1-1 {
+    position: absolute;
+    font-size: 1vh;
+    font-style: bold;
+    margin-left: 18.6vh;
+    margin-top: 74.5vh;
+    color: #262626;
+
+}
+
+.platforminfo {
+    position: absolute;
+    font-size: 0.6vh;
+    font-weight: 300;
+    width: 35vh;
+    word-spacing: -0.1vh;
+    line-height: 1.9vh;
+    margin-left: 18.8vh;
+    margin-top: 77vh;
+    color: dimgrey;
+
+}
+
+.studioinfo {
+    position: absolute;
+    font-size: 0.6vh;
+    font-weight: 300;
+    width: 35vh;
+    word-spacing: -0.1vh;
+    line-height: 1.9vh;
+    margin-left: 17vh;
+    margin-top: 77vh;
+    color: dimgrey;
+
+}
+
+.yev {
+    position: absolute;
+    font-size: 0.6vh;
+    font-weight: 300;
+    width: 35vh;
+    word-spacing: -0.1vh;
+    line-height: 1.9vh;
+    margin-left: 17vh;
+    margin-top: 77vh;
+    color: dimgrey;
+
+}
+
+
+
+
+
+.t2 {
+    position: absolute;
+    font-size: 1vh;
+    margin-left: 23vh;
+    margin-top: 26.7vh;
+    color: #262626;
+}
+
+.t2-2 {
+    position: absolute;
+    font-size: 1vh;
+    margin-left: 17vh;
+    margin-top: 74.5vh;
+    color: #262626;
+}
+
+
+
+.t3 {
+    position: absolute;
+    font-size: 1vh;
+    margin-left: 23vh;
+    margin-top: 26.7vh;
+    color: #262626;
+
+}
+
+.t3-3 {
+    position: absolute;
+    font-size: 1vh;
+    margin-left: 17vh;
+    margin-top: 74.5vh;
+    color: #262626;
+}
+
+
+
+.ins-border1 {
+    position: absolute;
+    width: 40vh;
+    margin-left: 17vh;
+    margin-top: 25vh;
+
+}
+
+.ins-border2 {
+    position: absolute;
+    width: 40vh;
+    margin-left: 15vh;
+    margin-top: 25vh;
+
+}
+
+.ins-border3 {
+    position: absolute;
+    width: 40vh;
+    margin-left: 15vh;
+    margin-top: 25vh;
+
+}
+
+
+.eye1 {
+    position: absolute;
+    width: 11vh;
+    margin-left: 44vh;
+    margin-top: 27vh;
+    z-index: 100;
+
+}
+
+.eye1:hover {
+    animation: change 0.3s forwards;
+}
+
+
+.eye1-bg-change {
+    background-image: url("image/g11.jpg");
+    height: 10vh;
+    opacity: 0;
+    margin-left: 410px;
+    margin-top: 163px;
+    width 40px;
+    position: absolute;
+    color: transparent;
+    z-index: 99;
+}
+
+.eye1-bg-change:hover {
+    opacity: 1;
+    height: 140vh;
+    width: 210vh;
+    margin-left: -18vh;
+    margin-top: -8vh;
+}
+
+
+.eye2 {
+    position: absolute;
+    width: 11vh;
+    margin-left: 80vh;
+    margin-top: 27vh;
+    z-index: 100;
+}
+
+.eye2:hover {
+    animation: change 0.3s forwards;
+}
+
+.eye2-bg-change {
+    background-image: url("image/work1.jpg");
+    height: 10vh;
+    opacity: 0;
+    margin-left: 670px;
+    margin-top: 160px;
+    width 40px;
+    position: absolute;
+    color: transparent;
+    z-index: 99;
+}
+
+.eye2-bg-change:hover {
+    opacity: 1;
+    height: 140vh;
+    width: 305vh;
+    margin-left: -110vh;
+    margin-top: -40vh;
+
+}
+
+.eye3 {
+    position: absolute;
+    width: 11vh;
+    margin-left: 117vh;
+    margin-top: 27vh;
+    z-index: 100;
+}
+
+.eye3:hover {
+    animation: change 0.3s forwards;
+}
+
+.eye3-bg-change {
+    background-image: url("image/work2.jpg");
+    height: 10vh;
+    opacity: 0;
+    margin-left: 930px;
+    margin-top: 160px;
+    width 80px;
+    position: absolute;
+    color: transparent;
+    z-index: 99;
+}
+
+.eye3-bg-change:hover {
+    opacity: 1;
+    height: 140vh;
+    width: 305vh;
+    margin-left: -10vh;
+    margin-top: -20vh;
+}
+
+.hand1 {
+    position: absolute;
+    width: 11vh;
+    margin-left: 44vh;
+    margin-top: 45vh;
+    z-index: 100;
+}
+
+.hand1:hover {
+    animation: change 0.3s forwards;
+}
+
+.hand1-bg-change {
+    background-image: url("image/work3.jpg");
+    height: 10vh;
+    opacity: 0;
+    margin-left: 410px;
+    margin-top: 300px;
+    width 80px;
+    position: absolute;
+    color: transparent;
+    z-index: 99;
+}
+
+.hand1-bg-change:hover {
+    opacity: 1;
+    height: 140vh;
+    width: 305vh;
+    margin-left: -110vh;
+    margin-top: -40vh;
+}
+
+.hand2 {
+    position: absolute;
+    width: 13vh;
+    margin-left: 80vh;
+    margin-top: 41vh;
+    z-index: 100;
+}
+
+.hand2:hover {
+    animation: change 0.3s forwards;
+}
+
+.hand2-bg-change {
+    background-image: url("image/work4.jpg");
+    height: 10vh;
+    opacity: 0;
+    margin-left: 670px;
+    margin-top: 300px;
+    width 80px;
+    position: absolute;
+    color: transparent;
+    z-index: 99;
+}
+
+.hand2-bg-change:hover {
+    opacity: 1;
+    height: 140vh;
+    width: 305vh;
+    margin-left: -110vh;
+    margin-top: -40vh;
+}
+
+.hand3 {
+    position: absolute;
+    width: 10.5vh;
+    margin-left: 117vh;
+    margin-top: 45vh;
+    z-index: 100;
+}
+
+.hand3:hover {
+    animation: change 0.3s forwards;
+}
+
+.hand3-bg-change {
+    background-image: url("image/work5.jpg");
+    height: 10vh;
+    opacity: 0;
+    margin-left: 930px;
+    margin-top: 300px;
+    width 80px;
+    position: absolute;
+    color: transparent;
+    z-index: 99;
+}
+
+.hand3-bg-change:hover {
+    opacity: 1;
+    height: 140vh;
+    width: 305vh;
+    margin-left: -110vh;
+    margin-top: -40vh;
+}
+
+
+.hammer1 {
+    position: absolute;
+    width: 11vh;
+    margin-left: 44vh;
+    margin-top: 63vh;
+    z-index: 100;
+}
+
+.hammer1:hover {
+    animation: change 0.3s forwards;
+}
+
+.hammer1-bg-change {
+    background-image: url("image/work6.jpg");
+    height: 10vh;
+    opacity: 0;
+    margin-left: 410px;
+    margin-top: 430px;
+    width 80px;
+    position: absolute;
+    color: transparent;
+    z-index: 99;
+}
+
+.hammer1-bg-change:hover {
+    opacity: 1;
+    height: 140vh;
+    width: 305vh;
+    margin-left: -110vh;
+    margin-top: -40vh;
+}
+
+
+.st0 {
+    position: absolute;
+    width: 11vh;
+    margin-left: 44vh;
+    margin-top: 63vh;
+
+}
+
+.st0:hover {
+    animation: change 0.3s forwards;
+
+}
+
+.hammer2 {
+    position: absolute;
+    width: 9.5vh;
+    margin-left: 81vh;
+    margin-top: 63vh;
+    z-index: 100;
+}
+
+.hammer2:hover {
+    animation: change 0.3s forwards;
+}
+
+.hammer2-bg-change {
+    background-image: url("image/work7.jpg");
+    height: 10vh;
+    opacity: 0;
+    margin-left: 670px;
+    margin-top: 430px;
+    width 80px;
+    position: absolute;
+    color: transparent;
+    z-index: 99;
+}
+
+.hammer2-bg-change:hover {
+    opacity: 1;
+    height: 140vh;
+    width: 305vh;
+    margin-left: -110vh;
+    margin-top: -40vh;
+}
+
+.hammer3 {
+    position: absolute;
+    width: 12.4vh;
+    margin-left: 117vh;
+    margin-top: 64vh;
+    z-index: 100;
+}
+
+.hammer3:hover {
+    animation: change 0.3s forwards;
+}
+
+.hammer3-bg-change {
+    background-image: url("image/work9.png");
+    height: 10vh;
+    opacity: 0;
+    margin-left: 940px;
+    margin-top: 430px;
+    width 80px;
+    position: absolute;
+    color: transparent;
+    z-index: 99;
+}
+
+.hammer3-bg-change:hover {
+    opacity: 1;
+    height: 140vh;
+    width: 305vh;
+    margin-left: -110vh;
+    margin-top: -40vh;
+}
+
+
+iframe {
+    position: absolute;
+    margin-left: 58vh;
+    margin-top: 35vh
+}
+
+#mySidenav a {
+    position: absolute;
+    right: -6px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 190px;
+    text-decoration: none;
+    font-size: 2vh;
+    color: black;
+
+}
+
+#mySidenav a:hover {
+    right: 0;
+    color: yellow;
+}
+
+#home {
+    position: absolute;
+    top: 33vh;
+}
+
+#about {
+    position: absolute;
+    top: 42vh;
+}
+
+
+#speakers {
+    position: absolute;
+    top: 51vh;
+}
+
+
+#contact {
+    position: absolute;
+    top: 60vh;
+}
+
+.intro {
+    position: absolute;
+    width: 72vh;
+    margin-left: 50vh;
+    margin-top: 50vh;
+    font-size: 2vh;
+    font-family: 'Cabin', sans-serif;
+    font-style: oblique;
+
+}
+
+.footer1 {
+    position: absolute;
+    width: 100%;
+    height: 6vh;
+    margin-top: 594vh;
+    border: dotted
+}
+
+
+.footer2 {
+    position: absolute;
+    width: 100%;
+    height: 20vh;
+    margin-top: 600vh;
+    background-color: black;
+}
+
+@keyframes change {
+    0% {
+        fill: black;
+    }
+    100% {
+        fill: yellow;
+    }
+}
+
+.venue1 {}
+
+</style > </head >

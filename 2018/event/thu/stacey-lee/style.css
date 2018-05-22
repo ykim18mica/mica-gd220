@@ -1,0 +1,65 @@
+a.setting {
+    font-family: Didot;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1.2px;
+    position: relative;
+}
+
+a.setting:hover {
+    color: #bc2b30;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    top: 95px;
+
+}
+
+li {
+    width: 300px;
+    height: 20px;
+    float: left;
+}
+
+.year {
+    font-family: arial;
+    font-style: italic;
+    color: #bc2b30;
+    font-size: 11px;
+    letter-spacing: 4px;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 750px;
+    left: 1145px;
+
+}
+
+.line {
+    width: 1px;
+    height: 55px;
+    left: 1165px;
+    top: 670px;
+    background-color: #bc2b30;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.date {
+    font-family: arial;
+    font-style: italic;
+    color: #bc2b30;
+    font-size: 11px;
+    letter-spacing: 4px;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 630px;
+    left: 1145px;
+}

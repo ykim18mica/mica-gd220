@@ -1,0 +1,1742 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>1988:30 years with Hayao Mizayaki</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Berkshire+Swash|Coiny|Orbitron|Pacifico|Squada+One|Teko|Roboto: 300,300i, 400,400i|Barlow:600|Oswald 400|Fjalla+One|Arimo:400i|Nunito:300,300i,200i|Philosopher:700|" rel="stylesheet">
+    <link rel="stylesheet" href="odometer-theme-default.css" />
+    <script src="odometer.js"></script>
+
+    <script>
+        function play() {
+            var audio = document.getElementById("totoromp3");
+            audio.play();
+        }
+
+    </script>
+
+
+    <style>
+        .h-100 {
+            height: 100px;
+        }
+
+        .h-20 {
+            height: 20px;
+        }
+
+        .h-40 {
+            height: 40px;
+        }
+
+        .h-50 {
+            height: 50px;
+        }
+
+        .h-250 {
+            height: 250px;
+        }
+
+        .h-270 {
+            height: 270px;
+        }
+
+        .h-300 {
+            height: 300px;
+        }
+
+        .h-350 {
+            height: 350px;
+        }
+
+        .h-200 {
+            height: 200px;
+        }
+
+        .h-400 {
+            height: 400px;
+        }
+
+        .h-600 {
+            height: 600px;
+        }
+
+        .h-700 {
+            height: 700px;
+        }
+
+        .h-2100 {
+            height: 2100px;
+        }
+
+        .backgroundimage {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        /*.firstpagebg {
+            position: absolute;
+            background-color: white;
+            animation: firstpagebg 2.8s ease-in 20s forwards;
+            height: 130%;
+            z-index: 500;
+        }*/
+
+        .whole {
+            opacity: 0;
+            animation: whole 2.8s ease-in 20s forwards;
+        }
+
+        @keyframes whole {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+
+        /*@keyframes firstpagebg {
+            0% {
+                opacity: 1;
+            }
+
+            30% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }*/
+
+        .firstpage {
+            position: absolute;
+            z-index: 501;
+
+        }
+
+        .arrow-img {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 160px;
+            left: 370px;
+            animation: arrow-img 3s forwards;
+        }
+
+        .arrow-word {
+            color: rgb(190, 207, 191);
+            font-family: 'Nunito', sans-serif;
+            font-size: 20px;
+            font-style: italic;
+            letter-spacing: 1.3px;
+            line-height: 1.2;
+            position: absolute;
+            top: 140px;
+            left: 325px;
+            transform: rotate(8deg);
+            animation: arrow-word 3s forwards;
+        }
+
+        @keyframes arrow-img {
+            0% {
+                opacity: 1;
+                top: 160px;
+            }
+            20% {
+                top: 180px;
+                opacity: 1;
+            }
+            40% {
+                opacity: 1;
+                top: 160px;
+            }
+            60% {
+                top: 180px;
+                opacity: 1;
+            }
+            80% {
+                opacity: 1;
+                top: 160px;
+            }
+            90% {
+                opacity: 1;
+                top: 170px;
+            }
+            100% {
+                opacity: 0;
+                top: 180px;
+            }
+        }
+
+        @keyframes arrow-word {
+            0% {
+                opacity: 1;
+                top: 140px;
+            }
+            20% {
+                top: 160px;
+                opacity: 1;
+            }
+            40% {
+                opacity: 1;
+                top: 140px;
+            }
+            60% {
+                top: 160px;
+                opacity: 1;
+            }
+            80% {
+                opacity: 1;
+                top: 140px;
+            }
+            90% {
+                opacity: 1;
+                top: 150px;
+            }
+            100% {
+                opacity: 0;
+                top: 160px;
+            }
+        }
+
+        .countdown-1 {
+            position: absolute;
+            top: 200px;
+            left: 390px;
+            animation: countdown-visible 0.7s forwards;
+            animation-delay: 19.6s;
+        }
+
+        .countdown-2 {
+            position: absolute;
+            top: 200px;
+            left: 490px;
+            animation: countdown-visible 0.7s forwards;
+            animation-delay: 13.9s;
+        }
+
+        @keyframes countdown-visible {
+            0% {
+                opacity: 1;
+            }
+            99% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+        .countdown-4 {
+            position: absolute;
+            top: 200px;
+            left: 680px;
+            animation: countdown-visible 0.7s forwards;
+            animation-delay: 3s;
+        }
+
+        @keyframes countdown {
+            0% {
+                opacity: 0;
+            }
+            1% {
+                opacity: 1;
+            }
+            99% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+        .count-down {
+            position: absolute;
+        }
+
+        .count-down1 {
+            top: 200px;
+            left: 700px;
+            opacity: 0;
+        }
+
+        .count-down1-1 {
+            position: absolute;
+            top: 200px;
+            left: 680px;
+            animation: countdown 0.7s forwards;
+            animation-delay: 3.7s;
+        }
+
+        .count-down1-2 {
+            position: absolute;
+            top: 200px;
+            left: 680px;
+            animation: countdown 0.7s forwards;
+            animation-delay: 4.4s;
+        }
+
+        .count-down1-3 {
+            position: absolute;
+            top: 200px;
+            left: 680px;
+            animation: countdown 0.7s forwards;
+            animation-delay: 5.1s;
+        }
+
+        .count-down1-4 {
+            position: absolute;
+            top: 200px;
+            left: 680px;
+            animation: countdown 0.7s forwards;
+            animation-delay: 5.8s;
+        }
+
+        .count-down1-5 {
+            position: absolute;
+            top: 200px;
+            left: 680px;
+            animation: countdown 0.6s forwards;
+            animation-delay: 6.5s;
+        }
+
+        .count-down1-6 {
+            position: absolute;
+            top: 200px;
+            left: 680px;
+            animation: countdown 0.6s forwards;
+            animation-delay: 7.1s;
+        }
+
+        .count-down1-7 {
+            position: absolute;
+            top: 200px;
+            left: 680px;
+            animation: countdown 0.6s forwards;
+            animation-delay: 7.7s;
+        }
+
+        .count-down1-8 {
+            position: absolute;
+            top: 200px;
+            left: 680px;
+            animation: countdown 0.6s forwards;
+            animation-delay: 8.3s;
+        }
+
+        .count-down1-9 {
+            animation: countdown 0.5s forwards;
+            animation-delay: 8.9s;
+        }
+
+        .count-down1-10 {
+            animation: countdown 0.5s forwards;
+            animation-delay: 9.4s;
+        }
+
+        .count-down1-11 {
+            animation: countdown 0.5s forwards;
+            animation-delay: 9.9s;
+        }
+
+        .count-down1-12 {
+            animation: countdown 0.5s forwards;
+            animation-delay: 10.4s;
+        }
+
+        .count-down1-13 {
+            animation: countdown 0.5s forwards;
+            animation-delay: 10.9s;
+        }
+
+        .count-down1-14 {
+            animation: countdown 0.5s forwards;
+            animation-delay: 11.4s;
+        }
+
+        .count-down1-15 {
+            animation: countdown 0.5s forwards;
+            animation-delay: 11.9s;
+        }
+
+        .count-down1-16 {
+            animation: countdown 0.5s forwards;
+            animation-delay: 12.4s;
+        }
+
+        .count-down1-17 {
+            animation: countdown 0.5s forwards;
+            animation-delay: 12.9s;
+        }
+
+        .count-down1-18 {
+            animation: countdown 0.5s forwards;
+            animation-delay: 13.4s;
+        }
+
+        .count-down1-19 {
+            animation: countdown 0.5s forwards;
+            animation-delay: 13.9s;
+        }
+
+        .count-down1-20 {
+            animation: countdown 0.5s forwards;
+            animation-delay: 14.4s;
+        }
+
+        .count-down1-21 {
+            animation: countdown 0.5s forwards;
+            animation-delay: 14.9s;
+        }
+
+        .count-down1-22 {
+            animation: countdown 0.5s forwards;
+            animation-delay: 15.4s;
+        }
+
+        .count-down1-23 {
+            animation: countdown 0.5s forwards;
+            animation-delay: 15.9s;
+        }
+
+        .count-down1-24 {
+            animation: countdown 0.6s forwards;
+            animation-delay: 16.4s;
+        }
+
+        .count-down1-25 {
+            animation: countdown 0.6s forwards;
+            animation-delay: 17s;
+        }
+
+        .count-down1-26 {
+            animation: countdown 0.6s forwards;
+            animation-delay: 17.6s;
+        }
+
+        .count-down1-27 {
+            animation: countdown 0.7s forwards;
+            animation-delay: 18.2s;
+        }
+
+        .count-down1-28 {
+            animation: countdown 0.7s forwards;
+            animation-delay: 18.9s;
+        }
+
+        .count-down1-29 {
+            animation: countdown 0.7s forwards;
+            animation-delay: 19.6s;
+        }
+
+        .count-down1-30 {
+            animation: countdown-ending 2s forwards;
+            animation-delay: 20.3s;
+        }
+
+        @keyframes countdown-ending {
+            0% {
+                opacity: 0;
+            }
+            1% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes countdown2 {
+            0% {
+                opacity: 0;
+            }
+            0.5% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .count-down2 {
+            top: 200px;
+            left: 595px;
+            opacity: 0;
+        }
+
+        .count-down2-1 {
+            animation: countdown-visible 5.9s forwards;
+            animation-delay: 3s;
+            opacity: 1;
+            top: 200px;
+            left: 595px;
+        }
+
+        .count-down2-2 {
+            animation: countdown 5s forwards;
+            animation-delay: 8.9s;
+        }
+
+        .count-down2-3 {
+            animation: countdown 5.7s forwards;
+            animation-delay: 13.9s;
+        }
+
+        .count-down2-4 {
+            animation: countdown-ending 2.7s forwards;
+            animation-delay: 19.6s;
+        }
+
+        .count-down3-1 {
+            top: 200px;
+            left: 490px;
+            opacity: 1;
+            animation: countdown-visible 0.5s forwards;
+            animation-delay: 13.4s;
+        }
+
+        .count-down3 {
+            top: 200px;
+            left: 490px;
+            opacity: 0;
+            animation: countdown2 8.4s forwards;
+            animation-delay: 13.9s;
+        }
+
+        .count-down4-1 {
+            top: 200px;
+            left: 400px;
+            opacity: 1;
+            animation: countdown-visible 0.5s forwards;
+            animation-delay: 13.4s;
+        }
+
+        .count-down4 {
+            top: 200px;
+            left: 400px;
+            opacity: 0;
+            animation: countdown2 8.4s forwards;
+            animation-delay: 13.9s;
+        }
+
+        .info1 {
+            color: rgb(190, 207, 191);
+            font-family: 'Roboto', sans-serif;
+            padding: 20px;
+            font-size: 20px;
+            position: absolute;
+            top: 15px;
+            left: 10px;
+        }
+
+        .info2 {
+            color: rgb(190, 207, 191);
+            font-family: 'Roboto', sans-serif;
+            padding-left: 110px;
+            padding-top: 20px;
+            line-height: 1.3;
+            font-size: 18px;
+            position: absolute;
+            top: 15px;
+            left: 900px;
+        }
+
+        .title {
+            font-size: 200px;
+            color: rgb(190, 207, 191);
+            font-family: 'Fjalla One', sans-serif;
+            letter-spacing: 5px;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+
+        .memories {
+            text-align: center;
+            color: rgb(71, 53, 53);
+            font-size: 25px;
+            font-family: 'Nunito', sans-serif;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 1.2;
+            position: absolute;
+            top: 480px;
+            left: 445px;
+        }
+
+        .name {
+            font-size: 75px;
+            text-align: center;
+            word-spacing: 10px;
+            letter-spacing: 10px;
+            color: rgb(190, 207, 191);
+            position: absolute;
+            top: 640px;
+            left: 458px;
+            transition: 1s;
+            /*font*/
+        }
+
+        .name:hover {
+            letter-spacing: 120px;
+            left: 300px;
+        }
+
+        .name:hover+.english-name {
+            word-spacing: 130px;
+            top: 650px;
+            left: 380px;
+            font-size: 30px;
+            color: rgb(190, 207, 191);
+
+        }
+
+        .english-name {
+            font-size: 40px;
+            text-align: center;
+            margin-top: 20px;
+            color: rgb(71, 53, 53);
+            font-family: 'Archer', serif;
+            font-weight: 100;
+            position: absolute;
+            top: 720px;
+            left: 430px;
+            transition: 1s;
+        }
+
+        @keyframes english-name-up {
+            from {
+                top: 720px;
+                word-spacing: 0px;
+            }
+            to {
+                top: 640px;
+                word-spacing: 20px;
+            }
+        }
+
+        .row-bar {
+            position: sticky;
+            top: 1px;
+        }
+
+        .bar {
+            width: 1200px;
+            height: 40px;
+            background-color: #ABD8D8;
+            opacity: 0.2;
+            z-index: 10;
+            position: -webkit-sticky;
+            position: sticky;
+            top: -1px;
+        }
+
+        .bar-info {
+            position: -webkit-sticky;
+            position: sticky;
+            top: -1px;
+        }
+
+        .showtimes {
+            font-family: 'Nunito', sans-serif;
+            font-size: 20px;
+            z-index: 99;
+            position: absolute;
+            top: 10px;
+            left: 325px;
+            opacity: 1;
+            color: rgb(71, 53, 53);
+            transition: 0.5s;
+        }
+
+        .showtimes:hover {
+            color: rgb(190, 207, 191);
+            letter-spacing: 20px;
+            left: 150px;
+        }
+
+        .date {
+            font-family: 'Nunito', sans-serif;
+            font-size: 20px;
+            font-style: italic;
+            color: rgb(71, 53, 53);
+            z-index: 98;
+            position: absolute;
+            top: 10px;
+            left: 475px;
+            opacity: 1;
+        }
+
+        .date:hover {
+            color: rgb(190, 207, 191);
+            text-decoration-line: underline;
+            text-decoration-style: dashed;
+        }
+
+        .time {
+            font-family: 'Nunito', sans-serif;
+            font-size: 20px;
+            font-style: italic;
+            color: rgb(71, 53, 53);
+            z-index: 97;
+            position: absolute;
+            top: 10px;
+            left: 780px;
+            opacity: 1;
+            transition: 0.5s;
+        }
+
+        .time:hover {
+            color: rgb(190, 207, 191);
+            letter-spacing: 20px;
+            left: 780px;
+        }
+
+        .break {
+            width: 2px;
+            height: 50px;
+            background-color: rgb(71, 53, 53);
+            z-index: 9;
+        }
+
+        .line1 {
+            position: absolute;
+            left: 100px;
+            top: -8px;
+        }
+
+        .line2 {
+            position: absolute;
+            left: 300px;
+            top: -8px;
+        }
+
+        .line3 {
+            position: absolute;
+            left: 500px;
+            top: -8px;
+        }
+
+        .line4 {
+            position: absolute;
+            left: 700px;
+            top: -8px;
+        }
+
+        .line5 {
+            position: absolute;
+            left: 900px;
+            top: -8px;
+        }
+
+        .line6 {
+            position: absolute;
+            left: 1100px;
+            top: -8px;
+        }
+
+        .row-mounth {
+            position: relative;
+            vertical-align: middle;
+        }
+
+        .mounth {
+            text-align: center;
+            font-family: 'Archer', serif;
+            font-size: 25px;
+            word-spacing: 4px;
+            visibility: hidden;
+            position: absolute;
+            color: rgb(71, 53, 53);
+        }
+
+        .year {
+            text-align: center;
+            position: absolute;
+            font-family: 'Archer', serif;
+            font-size: 25px;
+            letter-spacing: 2px;
+            width: 150px;
+            height: 50px;
+            color: rgb(71, 53, 53);
+        }
+
+        .y-1988 {
+            left: 130px;
+
+        }
+
+        .y-1989 {
+            left: 330px;
+
+        }
+
+        .y-1997 {
+            left: 530px;
+
+        }
+
+        .y-2001 {
+            left: 730px;
+
+        }
+
+        .y-2004 {
+            left: 930px;
+
+        }
+
+        .march10 {
+            left: 10px;
+        }
+
+        .march11 {
+            left: 20px;
+        }
+
+        .march12 {
+            left: 20px;
+        }
+
+        .march13 {
+            left: 22px;
+        }
+
+        .march14 {
+            left: 21px;
+        }
+
+        @keyframes color_change_1 {
+            0% {
+                color: rgb(71, 53, 53);
+                font-size: 25px;
+            }
+            50% {
+                color: rgb(190, 207, 191);
+                font-size: 27px;
+                left: 8px;
+            }
+            100% {
+                color: rgb(71, 53, 53);
+                font-size: 25px;
+            }
+        }
+
+
+        .march10-1:hover .y-1988 {
+            visibility: hidden;
+        }
+
+        .march10-1:hover .march10 {
+            visibility: visible;
+            animation: color_change_1 1s infinite;
+
+        }
+
+        .march11-1:hover .y-1989 {
+            visibility: hidden;
+        }
+
+        @keyframes color_change_2 {
+            0% {
+                color: rgb(71, 53, 53);
+                font-size: 25px;
+            }
+            50% {
+                color: rgb(190, 207, 191);
+                font-size: 27px;
+                left: 18px;
+            }
+            100% {
+                color: rgb(71, 53, 53);
+                font-size: 25px;
+            }
+        }
+
+        .march11-1:hover .march11 {
+            visibility: visible;
+            animation: color_change_2 1s infinite;
+        }
+
+        .march12-1:hover .y-1997 {
+            visibility: hidden;
+        }
+
+        @keyframes color_change_3 {
+            0% {
+                color: rgb(71, 53, 53);
+                font-size: 25px;
+            }
+            50% {
+                color: rgb(190, 207, 191);
+                font-size: 27px;
+                left: 15px;
+            }
+            100% {
+                color: rgb(71, 53, 53);
+                font-size: 25px;
+            }
+        }
+
+        .march12-1:hover .march12 {
+            visibility: visible;
+            animation: color_change_3 1s infinite;
+        }
+
+        .march13-1:hover .y-2001 {
+            visibility: hidden;
+        }
+
+        @keyframes color_change_4 {
+            0% {
+                color: rgb(71, 53, 53);
+                font-size: 25px;
+            }
+            50% {
+                color: rgb(190, 207, 191);
+                font-size: 27px;
+                left: 18px;
+            }
+            100% {
+                color: rgb(71, 53, 53);
+                font-size: 25px;
+            }
+        }
+
+        .march13-1:hover .march13 {
+            visibility: visible;
+            animation: color_change_4 1s infinite;
+        }
+
+        .march14-1:hover .y-2004 {
+            visibility: hidden;
+        }
+
+
+        .march14-1:hover .march14 {
+            visibility: visible;
+            animation: color_change_4 1s infinite;
+        }
+
+        .clickinfo {
+            text-align: center;
+            font-family: 'Nunito', sans-serif;
+            font-style: italic;
+            font-weight: 200;
+            font-size: 17px;
+            word-spacing: 2px;
+            line-height: 1.4;
+            color: rgb(190, 207, 191);
+            position: absolute;
+            top: -80px;
+            left: 30px;
+            transform: rotate(0deg);
+            animation: clickinfo 2s ease-in-out infinite;
+
+        }
+
+        @keyframes clickinfo {
+            0% {
+                text-decoration: none;
+            }
+            50% {
+                text-shadow: 3px 3px rgb(71, 53, 53);
+                text-decoration-style: dashed;
+                text-decoration-line: underline;
+
+            }
+            100% {
+                text-decoration: none;
+            }
+        }
+
+        .arrow-2 {
+            width: 35px;
+            height: 35px;
+            position: absolute;
+            top: -60px;
+            left: 170px;
+            animation: arrow-2 2s ease-in-out infinite;
+        }
+
+        @keyframes arrow-2 {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .movie-1 {
+            visibility: visible;
+        }
+
+        .row-movies {
+            position: relative;
+        }
+
+        .myneighbor {
+            font-family: "Philosopher", sans-serif;
+            font-size: 35px;
+            position: absolute;
+            top: 130px;
+            left: 490px;
+        }
+
+        .totoro {
+            font-size: 150px;
+            font-family: "Berkshire Swash", cursive;
+            position: absolute;
+            top: 250px;
+            left: 300px;
+        }
+
+        @keyframes shake {
+            10%,
+            90% {
+                transform: translate3d(-1px, 0, 0);
+            }
+
+            20%,
+            80% {
+                transform: translate3d(2px, 0, 0);
+            }
+
+            30%,
+            50%,
+            70% {
+                transform: translate3d(-4px, 0, 0);
+            }
+
+            40%,
+            60% {
+                transform: translate3d(4px, 0, 0);
+            }
+        }
+
+        /*https://css-tricks.com/snippets/css/shake-css-keyframe-animation/*/
+
+        .totoro-t-1 {
+            position: absolute;
+            top: 130px;
+            left: 300px;
+            font-size: 300px;
+        }
+
+        .totoro-t-1:hover {
+            font-size: 300px;
+            color: darkorange;
+            animation: shake 0.72s cubic-bezier(.36, .07, .19, .97) both;
+        }
+
+        .totoro-o-1 {
+            position: absolute;
+            top: 240px;
+            left: 440px;
+            font-size: 140px;
+        }
+
+        .totoro-o-1:hover {
+            font-size: 140px;
+            color: #5095EB;
+            animation: shake 0.72s cubic-bezier(.36, .07, .19, .97) both;
+        }
+
+        .totoro-t-2 {
+            position: absolute;
+            top: 170px;
+            left: 510px;
+            font-size: 190px;
+            transform: rotate(5deg);
+        }
+
+        .totoro-t-2:hover {
+            font-size: 190px;
+            color: #567442;
+            animation: shake 0.72s cubic-bezier(.36, .07, .19, .97) both;
+        }
+
+        .totoro-o-2 {
+            position: absolute;
+            top: 230px;
+            left: 600px;
+            font-size: 160px;
+            transform: rotate(-5deg);
+        }
+
+        .totoro-o-2:hover {
+            font-size: 160px;
+            color: #ECE3D4;
+            transform: rotate(-5deg);
+            animation: shake 0.72s cubic-bezier(.36, .07, .19, .97) both;
+        }
+
+        .totoro-r {
+            position: absolute;
+            top: 120px;
+            left: 658px;
+            font-size: 285px;
+        }
+
+        .totoro-r:hover {
+            font-size: 285px;
+            color: firebrick;
+            animation: shake 0.72s cubic-bezier(.36, .07, .19, .97) both;
+        }
+
+        .totoro-o-3 {
+            position: absolute;
+            top: 240px;
+            left: 870px;
+            font-size: 140px;
+        }
+
+        .totoro-o-3:hover {
+            font-size: 140px;
+            color: #F2EF81;
+            animation: shake 0.72s cubic-bezier(.36, .07, .19, .97) both;
+        }
+
+        .jp1 {
+            font-size: 50px;
+            position: absolute;
+            top: 380px;
+            left: 475px;
+        }
+
+        .critic-all {
+            opacity: 0;
+            animation: fade-in 1s ease-in 1.5s forwards;
+            z-index: 1000;
+        }
+
+        @keyframes fade-in {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .critic {
+            position: absolute;
+            top: 500px;
+            left: 340px;
+            width: 360px;
+            font-family: 'Nunito', sans-serif;
+            font-style: italic;
+            line-height: 1.2;
+            color: rgb(71, 53, 53);
+            font-size: 16px;
+            text-indent: -22px;
+            z-index: 300;
+        }
+
+        .critic-info {
+            position: absolute;
+            top: 600px;
+            left: 360px;
+            width: 360px;
+            font-family: 'Nunito', sans-serif;
+            font-style: italic;
+            line-height: 1.2;
+            color: rgb(71, 53, 53);
+            font-size: 17px;
+            text-indent: -22px;
+            z-index: 300;
+        }
+
+        .critic-date {
+            font-family: 'Nunito', sans-serif;
+            font-size: 40px;
+            color: rgb(71, 53, 53);
+            position: absolute;
+            top: 520px;
+            left: 800px;
+            letter-spacing: 8px;
+            transition: 2s;
+            z-index: 300;
+        }
+
+        .critic-date:hover {
+            transform: rotate(360deg);
+            z-index: 300;
+        }
+
+        .critic-kiki {
+            text-indent: -6px;
+            position: absolute;
+            top: 500px;
+            left: 340px;
+        }
+
+        .kiki {
+            font-family: "Philosopher", sans-serif;
+            font-size: 200px;
+            position: absolute;
+            top: 200px;
+            left: 400px;
+            z-index: 100;
+            transition: 3s;
+        }
+
+        .delivery {
+            font-family: "Philosopher", sans-serif;
+            font-size: 65px;
+            position: absolute;
+            top: 370px;
+            left: 410px;
+            transition: 3s;
+        }
+
+        .jp-2 {
+            font-size: 50px;
+            position: absolute;
+            top: 170px;
+            left: 270px;
+            z-index: 100;
+            transition: 3s;
+        }
+
+        .jp-2:hover {
+            color: #D11539;
+        }
+
+        .jp-2:hover+.delivery {
+            color: #12053F;
+        }
+
+        @keyframes jp-2 {
+            0% {
+                color: black;
+                top: 170px;
+                left: 270px;
+            }
+            10% {
+                color: #B7280C;
+                top: 370px;
+                left: 70px;
+            }
+            30% {
+                color: #B7280C;
+                top: 50px;
+                left: 170px;
+            }
+            60% {
+                color: #B7280C;
+                top: 370px;
+                left: 870px;
+            }
+            75% {
+                color: #B7280C;
+                top: 150px;
+                left: 700px;
+            }
+            90% {
+                color: #B7280C;
+                top: 170px;
+                left: 270px;
+            }
+            100% {
+                color: black;
+                top: 170px;
+                left: 270px;
+            }
+        }
+
+        .bird {
+            width: 700px;
+            height: 700px;
+            position: absolute;
+            left: 230px;
+            top: -20px;
+            z-index: -1;
+        }
+
+        .princess {
+            font-family: "Philosopher", sans-serif;
+            font-size: 100px;
+            position: absolute;
+            top: 200px;
+            left: 350px;
+            line-height: 90px;
+            z-index: 100;
+            transition: 3s;
+        }
+
+        .jp-3 {
+            font-size: 50px;
+            position: absolute;
+            top: 400px;
+            left: 650px;
+            z-index: 100;
+            transition: 3s;
+        }
+
+        .princess:hover {
+            color: #ECE3D4;
+            letter-spacing: 10px;
+        }
+
+        .princess:hover+.jp-3 {
+            color: #B7280C;
+            font-size: 60px;
+        }
+
+        .blood {
+            width: 700px;
+            height: 700px;
+            position: absolute;
+            left: 260px;
+            top: -50px;
+        }
+
+        .critic-princess {
+            text-indent: -5px;
+        }
+
+        .spirited {
+            font-family: "Philosopher", sans-serif;
+            font-size: 50px;
+            position: absolute;
+            top: 350px;
+            left: 300px;
+            transition: 3s;
+            z-index: 100;
+        }
+
+        .spirited:hover {
+            opacity: 0;
+        }
+
+        .spirited:hover+.jp-4 {
+            opacity: 0;
+        }
+
+        .jp-4 {
+            font-size: 100px;
+            position: absolute;
+            top: 250px;
+            left: 240px;
+            transition: 3s;
+            z-index: 100;
+        }
+
+        .critic-date-4 {
+            z-index: 300;
+        }
+
+        img.flower {
+            width: 700px;
+            height: 700px;
+            position: absolute;
+            left: 330px;
+            top: -50px;
+            z-index: -1;
+        }
+
+        .howl {
+            font-family: "Philosopher", sans-serif;
+            font-size: 100px;
+            position: absolute;
+            top: 200px;
+            left: 450px;
+        }
+
+        .moving {
+            font-family: "Philosopher", sans-serif;
+            font-size: 100px;
+            position: absolute;
+            top: 280px;
+            left: 300px;
+        }
+
+        .jp-5 {
+            font-size: 50px;
+            position: absolute;
+            top: 380px;
+            left: 600px;
+        }
+
+        .feather {
+            width: 550px;
+            height: 550px;
+            position: absolute;
+            left: 350px;
+            top: -50px;
+        }
+
+        .footer {
+            font-family: 'Nunito', sans-serif;
+            font-size: 18px;
+            color: #418F91;
+            text-align: center;
+            line-height: 1.2;
+        }
+
+        .secondline {
+            margin-top: 5px;
+        }
+
+        .thirdline {
+            margin-top: 5px;
+        }
+
+        a.a-1:link {
+            text-decoration: none;
+            color: rgb(190, 207, 191);
+        }
+
+        a.a-1:visited {
+            color: rgb(71, 53, 53);
+        }
+
+        a.a-1:hover {
+            text-decoration: underline;
+        }
+
+        a.a-2:link {
+            text-decoration: none;
+        }
+
+        a.a-2:visited {
+            color: rgb(71, 53, 53);
+        }
+
+        a.a-2:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+    <div class="wrap" id="wrap">
+        <div class="grid-container">
+            <div class="row firstpage">
+                <div class="col-12 h-400">
+                    <audio id="timer"><source src="timer-2.m4a" type="audio/mpeg"></audio>
+                    <div class="arrow" onClick="document.getElementById('timer').play(); return false;">
+                        <img src="580b57fcd9996e24bc43c457.png" class="arrow-img">
+                        <p class="arrow-word">click</p>
+                    </div>
+                    <!--<div class="title count countdown-1">2</div>
+                    <div class="title count countdown-2">0</div>-->
+                    <!--<div class="title count countdown-3">1</div>-->
+                    <div class="title count countdown-4">8</div>
+                    <div class="title count-down count-down1 count-down1-1">7</div>
+                    <div class="title count-down count-down1 count-down1-2">6</div>
+                    <div class="title count-down count-down1 count-down1-3">5</div>
+                    <div class="title count-down count-down1 count-down1-4">4</div>
+                    <div class="title count-down count-down1 count-down1-5">3</div>
+                    <div class="title count-down count-down1 count-down1-6">2</div>
+                    <div class="title count-down count-down1 count-down1-7">1</div>
+                    <div class="title count-down count-down1 count-down1-8">0</div>
+                    <div class="title count-down count-down1 count-down1-9">9</div>
+                    <div class="title count-down count-down1 count-down1-10">8</div>
+                    <div class="title count-down count-down1 count-down1-11">7</div>
+                    <div class="title count-down count-down1 count-down1-12">6</div>
+                    <div class="title count-down count-down1 count-down1-13">5</div>
+                    <div class="title count-down count-down1 count-down1-14">4</div>
+                    <div class="title count-down count-down1 count-down1-15">3</div>
+                    <div class="title count-down count-down1 count-down1-16">2</div>
+                    <div class="title count-down count-down1 count-down1-17">1</div>
+                    <div class="title count-down count-down1 count-down1-18">0</div>
+                    <div class="title count-down count-down1 count-down1-19">9</div>
+                    <div class="title count-down count-down1 count-down1-20">8</div>
+                    <div class="title count-down count-down1 count-down1-21">7</div>
+                    <div class="title count-down count-down1 count-down1-22">6</div>
+                    <div class="title count-down count-down1 count-down1-23">5</div>
+                    <div class="title count-down count-down1 count-down1-24">4</div>
+                    <div class="title count-down count-down1 count-down1-25">3</div>
+                    <div class="title count-down count-down1 count-down1-26">2</div>
+                    <div class="title count-down count-down1 count-down1-27">1</div>
+                    <div class="title count-down count-down1 count-down1-28">0</div>
+                    <div class="title count-down count-down1 count-down1-29">9</div>
+                    <div class="title count-down count-down1 count-down1-30">8</div>
+                </div>
+                <div class=" col-12 h-400">
+                    <div class="title count-down count-down2-1">1</div>
+                    <div class="title count-down count-down2 count-down2-2">0</div>
+                    <div class="title count-down count-down2 count-down2-3">9</div>
+                    <div class="title count-down count-down2 count-down2-4">8</div>
+                </div>
+                <div class=" col-12 h-400">
+                    <div class="title count-down count-down3-1">0</div>
+                    <div class="title count-down count-down3">9</div>
+                </div>
+
+                <div class=" col-12 h-400">
+                    <div class="title count-down count-down4-1">2</div>
+                    <div class="title count-down count-down4">1</div>
+                </div>
+
+            </div>
+
+            <div class="whole">
+                <div class="row">
+                    <div class="col-12">
+                        <img class="backgroundimage" src="images/261728_studio-ghibli-hayao-miyazaki-hd-wallpapers-desktop-backgrounds_3840x2160_h%20copy.png">
+                    </div>
+                </div>
+                <div class="row topheader">
+                    <div class="col-3 h-200 info1">
+                        <a href="http://thecharles.com" target="_blank" class="a-1">
+                            <p>The Charles Theatre</p>
+                        </a>
+                    </div>
+                    <div class="col-3 h-200"></div>
+                    <div class="col-3 h-200"></div>
+                    <div class="col-3 h-200 info2">
+                        <a href="https://www.google.com/maps/place/1711+N+Charles+St,+Baltimore,+MD+21201/@39.3092377,-76.6182795,17z/data=!3m1!4b1!4m5!3m4!1s0x89c804eadacd31b5:0x380cd24168ff159d!8m2!3d39.3092377!4d-76.6160908" class="a-1" target="_blank">
+                            <p>1711 N Charles St<br>Baltimore, MD 21201</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-4 h-400"></div>
+                    <div class="col-4 h-400">
+                        <!--<p class="title count">1988</p>-->
+
+                        <p class="memories">Memories from 30 years ago:<br>1988 to 2004 with</p>
+                    </div>
+                    <div class="col-4 h-400"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 h-200">
+                        <p class="name">宮崎 駿</p>
+                        <!-- font choice-->
+                        <p class="english-name">HAYAO MIZAYAKI</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 h-50"></div>
+                </div>
+
+                <div class="row row-bar">
+                    <div class="col-12 h-40">
+                        <p class="showtimes"> SHOWTIMES</p>
+                        <p class="date"> March 10th - March 14th. 2018</p>
+                        <p class="time">Everyday 7pm</p>
+                        <div class="bar-1 bar"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="row">
+                    <div class="col-12 h-200"></div>
+                </div>
+
+                <div class="row row-mounth">
+                    <div class="col-1 h-50">
+                        <div class="break line1"></div>
+                        <div class="break line2"></div>
+                        <div class="break line3"></div>
+                        <div class="break line4"></div>
+                        <div class="break line5"></div>
+                        <div class="break line6"></div>
+                    </div>
+                    <!--https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_show
+                    https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_hide -->
+                    <div class="col-2 h-50 march10-1">
+                        <audio id="totoro-music"><source src="myneighbortotoro-music.mp3" type="audio/mpeg"></audio>
+                        <p class="year y-1988" type="button" onclick="document.getElementById('movie-1').style.display='block';
+                           document.getElementById('movie-2').style.display='none';
+                           document.getElementById('movie-3').style.display='none';
+                           document.getElementById('movie-4').style.display='none';
+                           document.getElementById('movie-5').style.display='none';
+                           document.getElementById('totoro-music').play(); return false;" ondblclick="document.getElementById('totoro-music').pause(); return false;">
+                            1988
+                            <span class="mounth march10">March 10</span>
+                        </p>
+                    </div>
+                    <div class="col-2 h-50 march11-1">
+
+                        <audio id="kiki-music"><source src="kiki'sdeliveryservice-music.mp3" type="audio/mpeg"></audio>
+                        <p class="year y-1989" type="button" onclick="document.getElementById('movie-2').style.display='block';
+                           document.getElementById('movie-1').style.display='none';
+                           document.getElementById('movie-3').style.display='none';
+                           document.getElementById('movie-4').style.display='none';
+                           document.getElementById('movie-5').style.display='none';
+                               document.getElementById('kiki-music').play(); return false;" ondblclick="document.getElementById('kiki-music').pause(); return false;">1989
+                            <span class="mounth march11">March 11</span>
+                        </p>
+                    </div>
+                    <div class="col-2 h-50 march12-1">
+
+                        <audio id="princess-music"><source src="princessmonokoma-music.mp3" type="audio/mpeg"></audio>
+                        <p class="year y-1997" type="button" onclick="document.getElementById('movie-3').style.display='block';
+                           document.getElementById('movie-2').style.display='none';
+                           document.getElementById('movie-1').style.display='none';
+                           document.getElementById('movie-4').style.display='none';
+                           document.getElementById('movie-5').style.display='none';
+                          document.getElementById('princess-music').play(); return false;" ondblclick="document.getElementById('princess-music').pause(); return false;">1997
+                            <span class="mounth march12">March 12</span>
+                        </p>
+                    </div>
+                    <div class="col-2 h-50 march13-1">
+
+                        <audio id="spirited-music"><source src="spiritedaway-music.mp3" type="audio/mpeg"></audio>
+                        <p class="year y-2001" type="button" onclick="document.getElementById('movie-4').style.display='block';
+                           document.getElementById('movie-2').style.display='none';
+                           document.getElementById('movie-3').style.display='none';
+                           document.getElementById('movie-1').style.display='none';
+                           document.getElementById('movie-5').style.display='none';
+                           document.getElementById('spirited-music').play(); return false;" ondblclick="document.getElementById('spirited-music').pause(); return false;">2001
+                            <span class="mounth march13">March 13</span>
+                        </p>
+                    </div>
+                    <div class="col-2 h-50 march14-1">
+
+                        <audio id="howl-music"><source src="howl'smovingcastel-music.mp3" type="audio/mpeg"></audio>
+                        <p class="year y-2004" type="button" onclick="document.getElementById('movie-5').style.display='block';
+                           document.getElementById('movie-2').style.display='none';
+                           document.getElementById('movie-3').style.display='none';
+                           document.getElementById('movie-4').style.display='none';
+                           document.getElementById('movie-1').style.display='none';
+                           document.getElementById('howl-music').play(); return false;" ondblclick="document.getElementById('howl-music').pause(); return false;">2004
+                            <span class="mounth march14">March 14</span>
+
+
+                        </p>
+                        <span>
+                                <p class="clickinfo">Try Clicking<br>& Double Clicking</p>
+                                <img src="580b57fcd9996e24bc43c457.png" class="arrow-2">
+                            </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 h-50"></div>
+                </div>
+
+                <div class="row row-movies">
+                    <div class="col-2 h-700"></div>
+                    <div class="col-8 h-700">
+
+
+                        <span class="movie-1" id="movie-1" style="display:none">
+                           <p class="myneighbor">My Neighbor</p>
+                             <!--<audio id="bounce"><source src="totoro-sound-effect.mp3" type="audio/mpeg"></audio>-->
+                            
+                            <p class="totoro totoro-t-1">T</p>
+                            <p class="totoro totoro-o-1">O</p>
+                            <p class="totoro totoro-t-2">T</p>
+                            <p class="totoro totoro-o-2">O</p>
+                            <p class="totoro totoro-r">R</p>
+                            <p class="totoro totoro-o-3">O</p>
+                            <!--<p class="totoro"> TOTORO</p>-->
+                            <p class="jp1">となりのトトロ</p>
+                            <div class="critic-all">
+                            <p class="critic"> "... it would never have won its worldwide audience just because of its warm heart. ....It is a little sad, a little scary, a little surprising and a little informative, just like life itself."</p>
+                            <p class="critic-info"> Roger Ebert from Chicago Sun-Times</p>
+                            <p class="critic-date">3/<br>10</p>
+                            </div>
+                            </span>
+
+
+                        <span class="movie-2" id="movie-2" style="display:none">
+                               
+                                
+                                <p class="jp-2">魔女の宅急便</p>
+                                <p class="delivery">Delivery Service</p>
+                            <p class="kiki">Kiki's</p>
+                                <img class="bird" src="images/bird-4.gif">
+                                <div class="critic-all">
+                            <p class="critic critic-kiki"> "Kiki's Delivery Service is a heartwarming, gorgeously-rendered tale of a young witch discovering her place in the world."</p>
+                            <p class="critic-info">Rotten Tomatoes</p>
+                            <p class="critic-date">3/<br>11</p>
+                            </div>
+                            </span>
+
+
+                        <span class="movie-3" id="movie-3" style="display:none">
+                                <p class="princess">Princess<br>Mononoke</p>
+                                <p class="jp-3">もののけ姫</p>
+                                <img class="blood" src="images/red-2.gif">
+                                <div class="critic-all">
+                            <p class="critic critic-princess"> "is not only more sharply drawn, it has an extremely complex and adult script...has the soul of a romantic epic, and its lush tones, elegant score by Joe Hisaishi and full-blooded characterizations give it the sweep of cinema's most grand canvases."</p>
+                            <p class="critic-info">Leonard Klady of Variety </p>
+                            <p class="critic-date">3/<br>12</p>
+                            </div>
+                            </span>
+                        <span class="movie-4" id="movie-4" style="display:none">
+                                <p class="spirited">Spirited Away</p>
+                                <p class="jp-4">千と千尋の神隠し</p>
+                                <div class="critic-all">
+                            <p class="critic critic-princess"> "Spirited Away is a dazzling, enchanting, and gorgeously drawn fairy tale that will leave viewers a little more curious and fascinated by our world."</p>
+                            <p class="critic-info">Rotten Tomatoes</p>
+                            <p class="critic-date critic-date-4">3/<br>13</p>
+                            </div>
+                            <img class="flower" src="images/paddle.gif">
+                        </span>
+
+
+                        <span class="movie-5" id="movie-5" style="display:none">
+                                <p class="howl">Howl’s</p>
+                                <p class="moving">Moving Castle</p>
+                                <p class="jp-5">ハウルの動く城</p>
+                                <img class="feather" src="images/feather-2.gif">
+                                <div class="critic-all">
+                            <p class="critic critic-princess"> "At its best, 'Howl's Moving Castle' offers a rich fantasy of adolescent escape, of romance in the old and epic sense. At its worst, it's the most amazing 12-course meal you can't bring yourself to finish."</p>
+                            <p class="critic-info">Ty Burr from The Boston Globe</p>
+                            <p class="critic-date">3/<br>14</p>
+                            </div>
+                            </span>
+
+                    </div>
+                    <div class="col-2 h-700"></div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-12 h-100"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 h-50"></div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-4 h-100"></div>
+                    <div class="col-4 h-100 footer">
+                        <a href="http://thecharles.com" target="_blank" class="a-2">
+                            <p class="firstline">The Charles Theatre</p>
+                        </a>
+                        <a href="https://www.google.com/maps/place/1711+N+Charles+St,+Baltimore,+MD+21201/@39.3092377,-76.6182795,17z/data=!3m1!4b1!4m5!3m4!1s0x89c804eadacd31b5:0x380cd24168ff159d!8m2!3d39.3092377!4d-76.6160908" class="a-2" target="_blank">
+                            <p class="secondline">1711 N Charles St <br>Baltimore, MD 21201</p>
+                        </a>
+                    </div>
+                    <div class="col-4 h-100"></div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

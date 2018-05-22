@@ -1,0 +1,134 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 558.61 425.34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #707070;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-6 {
+        stroke: #ccc;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-18, .cls-7, .cls-8, .cls-9 {
+        isolation: isolate;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-18, .cls-8, .cls-9 {
+        font-size: 20px;
+        fill: #373736;
+      }
+
+      .cls-10, .cls-8, .cls-9 {
+        font-family: AzoSans-Light, Azo Sans;
+      }
+
+      .cls-8 {
+        letter-spacing: 0.05em;
+      }
+
+      .cls-11, .cls-16, .cls-9 {
+        letter-spacing: 0.04em;
+      }
+
+      .cls-10, .cls-13 {
+        letter-spacing: 0.04em;
+      }
+
+      .cls-11, .cls-12, .cls-18 {
+        font-family: AzoSans-Regular, Azo Sans;
+      }
+
+      .cls-12 {
+        letter-spacing: 0.03em;
+      }
+
+      .cls-14 {
+        letter-spacing: 0.04em;
+      }
+
+      .cls-15 {
+        letter-spacing: 0.03em;
+      }
+
+      .cls-17 {
+        letter-spacing: 0.04em;
+      }
+
+      .cls-18 {
+        letter-spacing: -0.06em;
+      }
+
+      .cls-19 {
+        letter-spacing: 0.03em;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="63.96" y1="441.64" x2="63.98" y2="442.64" gradientTransform="matrix(163.52, 0, 0, -362.41, -10284.85, 160425.05)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#eea849"/>
+      <stop offset="1" stop-color="#f46b45"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="63.99" y1="444.71" x2="63.95" y2="445.71" gradientTransform="matrix(163.52, 0, 0, -125.63, -9983.78, 56063.98)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9b9b9b"/>
+      <stop offset="1" stop-color="#797979"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="63.97" y1="446" x2="63.97" y2="445" gradientTransform="matrix(163.52, 0, 0, -118.43, -10148.26, 53076.29)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#36d1dc"/>
+      <stop offset="1" stop-color="#5b86e5"/>
+    </linearGradient>
+  </defs>
+  <title>friday</title>
+  <g id="Rectangle_374" data-name="Rectangle 374">
+    <rect class="cls-1" x="65.82" y="9.19" width="490.26" height="363.4"/>
+    <rect class="cls-2" x="66.32" y="9.69" width="489.26" height="362.4"/>
+  </g>
+  <path id="Path_77" data-name="Path 77" class="cls-3" d="M94,10H257.55V372.36H94Z" transform="translate(-27.46 0.24)"/>
+  <rect id="Rectangle_372" data-name="Rectangle 372" class="cls-4" x="395.09" y="70.19" width="163.52" height="125.63"/>
+  <rect id="Rectangle_373" data-name="Rectangle 373" class="cls-5" x="230.61" y="254.16" width="163.52" height="118.43"/>
+  <line id="Line_5" data-name="Line 5" class="cls-2" x1="66.19" y1="10.31" x2="556.45" y2="10.31"/>
+  <line id="Line_6" data-name="Line 6" class="cls-2" x1="66.19" y1="135.72" x2="556.45" y2="135.72"/>
+  <line id="Line_7" data-name="Line 7" class="cls-2" x1="66.19" y1="254.16" x2="556.45" y2="254.16"/>
+  <line id="Line_8" data-name="Line 8" class="cls-2" x1="66.19" y1="372.6" x2="556.45" y2="372.6"/>
+  <line id="Line_9" data-name="Line 9" class="cls-6" x1="66.19" y1="70.05" x2="556.45" y2="70.05"/>
+  <line id="Line_10" data-name="Line 10" class="cls-6" x1="66.19" y1="195.42" x2="556.45" y2="195.42"/>
+  <line id="Line_11" data-name="Line 11" class="cls-6" x1="66.19" y1="320.03" x2="556.45" y2="320.03"/>
+  <g id="_6pm" data-name=" 6pm" class="cls-7">
+    <text class="cls-8" transform="translate(0 17.24)">6pm</text>
+  </g>
+  <g id="_7pm" data-name=" 7pm" class="cls-7">
+    <text class="cls-9" transform="translate(1.06 138.13)">7pm</text>
+  </g>
+  <g id="_8pm" data-name=" 8pm" class="cls-7">
+    <text class="cls-10" transform="translate(0.24 259.01)">8pm</text>
+  </g>
+  <g id="_9pm" data-name=" 9pm" class="cls-7">
+    <text class="cls-9" transform="translate(0.68 379.9)">9pm</text>
+  </g>
+  <g id="Exhibition" class="cls-7">
+    <text class="cls-11" transform="translate(97.83 419.9)">Exhibition</text>
+  </g>
+  <g id="Performances" class="cls-7">
+    <text class="cls-12" transform="translate(241.98 419.9)">P<tspan class="cls-13" x="13" y="0">e</tspan><tspan class="cls-14" x="25.04" y="0">r</tspan><tspan class="cls-15" x="33.28" y="0">f</tspan><tspan class="cls-16" x="40.84" y="0">orman</tspan><tspan class="cls-17" x="105.22" y="0">c</tspan><tspan class="cls-13" x="116.16" y="0">es</tspan></text>
+  </g>
+  <g id="Talks" class="cls-7">
+    <text class="cls-18" transform="translate(452.37 419.9)">T<tspan class="cls-16" x="11.28" y="0">al</tspan><tspan class="cls-19" x="28.44" y="0">k</tspan><tspan class="cls-16" x="39.56" y="0">s</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>schedule</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Oswald:500|Teko" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <style>
+        div.schedule {
+            position: relative;
+            margin-left: 20%;
+            margin-right: 20%;
+            top: 100px;
+            padding-bottom: 250px;
+        }
+
+        div.line {
+            position: absolute;
+            border-right: 3px white solid;
+            width: 94px;
+            height: 1050px;
+            top: 70px;
+            left: 300px;
+        }
+
+        .time {
+            font-size: 25px;
+            font-family: 'Nunito', sans-serif;
+            display: inline-block;
+            vertical-align: top;
+            position: relative;
+            top: 44px;
+            left: 45px;
+
+        }
+
+        .event {
+            font-family: 'Nunito', sans-serif;
+            font-size: 25px;
+            position: relative;
+            top: 72px;
+            left: 80px;
+        }
+
+        p {
+            color: white;
+            position: relative;
+            font-size: 20px;
+            font-family: 'Nunito', sans-serif;
+            line-height: 27px;
+        }
+
+        .all {
+            position: fixed;
+            background-color: black;
+            width: 100vw;
+            height: 30px;
+        }
+
+        a.menu {
+            color: white;
+            text-decoration: none;
+            font-family: 'Teko', sans-serif;
+            font-size: 22px;
+            position: relative;
+            top: 5px;
+            transition: color 0.7s;
+        }
+
+        a.menu:visited {
+            color: white;
+        }
+
+
+        a.menu:hover {
+            color: lightseagreen;
+            text-decoration: none;
+
+        }
+
+        body {
+            background-color: black
+        }
+
+        .mone {
+            left: 210px;
+        }
+
+        .mtwo {
+            left: 450px;
+        }
+
+        .mthree {
+            left: 680px;
+        }
+
+        .mfour {
+            left: 900px;
+        }
+
+        .box {
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            margin: 60px;
+            padding: 0;
+            border-radius: 30px;
+            position: relative;
+            display: inline-block;
+            margin-left: 375px;
+            vertical-align: top;
+            top: -20px;
+            z-index: 5;
+
+        }
+
+        @keyframes godown {
+            from {
+                transform: translateY(-1000px)
+            }
+
+            to {
+                transform: translateY(0px)
+            }
+        }
+
+        div.schedule {
+            animation: godown 2s ease-in-out forwards;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="all">
+        <a href="index.html" class="menu mone">Home</a>
+        <a href="schedule.html" class="menu mtwo">schedule</a>
+        <a href="exhibition.html" class="menu mthree">exhibition</a>
+        <a href="speaker.html" class="menu mfour">speaker</a>
+    </div>
+
+    <div class="schedule">
+        <div class="line"></div>
+        <div class="first">
+            <p class="event">Breakfast time</p>
+            <div class="box"></div>
+            <p class="time">8 am-10 am</p>
+        </div>
+
+        <div class="two">
+            <p class="event">Artist speech:<br> Ruth Kedar</p>
+            <div class="box"></div>
+            <p class="time">10 am-11:30 am </p>
+        </div>
+        <div class="three">
+            <p class="event">Lunch</p>
+            <div class="box"></div>
+            <p class="time">11:30 am-12:30 pm</p>
+        </div>
+        <div class="four">
+            <p class="event">Artist speech:<br> Michael Bierut</p>
+            <div class="box"></div>
+            <p class="time">12:30 pm-2:00 pm </p>
+        </div>
+        <div class="five">
+            <p class="event">Artist speech:<br> David Airey</p>
+            <div class="box"></div>
+            <p class="time">2:00 pm-3:30 pm
+            </p>
+        </div>
+        <div class="six">
+            <p class="event">Exhibition closing</p>
+            <div class="box"></div>
+            <p class="time">5 pm</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>VCR</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* YOUR CSS CODE HERE */
+
+        @import url('https://fonts.googleapis.com/css?family=Montserrat:800');
+        .html {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .img-1x4-1 {
+            background-image: url("images/img-1x4-1.png");
+            background-size: cover;
+        }
+
+        .img-1x4-2 {
+            background-image: url("images/img-1x4-2.png");
+            background-size: cover;
+        }
+
+        .img-1x4-3 {
+            background-image: url("images/img-1x4-3.png");
+            background-size: cover
+        }
+
+        .img-2x4-1 {
+            background-image: url("images/img-2x4-1.png");
+            background-size: cover
+        }
+
+        .img-1x4-4 {
+            background-image: url("images/img-1x4-4.png");
+            background-size: cover
+        }
+
+        .img-1x4-5 {
+            background-image: url("images/img-1x4-5.png");
+            background-size: cover
+        }
+
+        .img-1x4-6 {
+            background-image: url("images/img-1x4-6.png");
+            background-size: cover
+        }
+
+        .img-1x4-7 {
+            background-image: url("images/img-1x4-7.png");
+            background-size: cover
+        }
+
+        .img-1x4-8 {
+            background-image: url("images/img-1x4-8.png");
+            background-size: cover
+        }
+
+        .img-1x4-9 {
+            background-image: url("images/img-1x4-9.png");
+            background-size: cover
+        }
+
+        .img-1x4-10 {
+            background-image: url("images/img-1x4-10.png");
+            background-size: cover
+        }
+
+        .img-1x4-11 {
+            background-image: url("images/img-1x4-11.png");
+            background-size: cover
+        }
+
+        .img-1x4-12 {
+            background-image: url("images/img-1x4-12.png");
+            background-size: cover
+        }
+
+        .img-1x4-13 {
+            background-image: url("images/img-1x4-13.png");
+            background-size: cover
+        }
+
+        .img-1x4-14 {
+            background-image: url("images/img-1x4-14.png");
+            background-size: cover
+        }
+
+        .img-1x4-15 {
+            background-image: url("images/img-1x4-15.png");
+            background-size: cover
+        }
+
+        .img-1x4-16 {
+            background-image: url("images/img-1x4-16.png");
+            background-size: cover
+        }
+
+        .img-1x4-17 {
+            background-image: url("images/img-1x4-17.png");
+            background-size: cover
+        }
+
+        .img-1x4-18 {
+            background-image: url("images/img-1x4-18.png");
+            background-size: cover
+        }
+
+        .img-4x4 {
+            background-image: url("images/img-4x4.png");
+            background-size: cover
+        }
+
+        .center-h {
+            width: 100%;
+            text-align: center;
+        }
+
+        .center-v {
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .sm-1 {
+            font-size: 1.5vw;
+            font-weight: 100;
+            letter-spacing: 1.5px;
+        }
+
+        .sm-2 {
+            font-size: 2vw;
+            font-weight: 600;
+            letter-spacing: 1.5px;
+        }
+
+        .text-play {
+            font-family: 'Monserrat', sans-serif;
+            font-size: 3.5vw;
+            color: white;
+            left: 6%;
+            letter-spacing: 2px
+        }
+
+        .text-vcr {
+            font-family: 'Monserrat', sans-serif;
+            font-size: 24vw;
+            font-weight: 700;
+            color: white;
+            left: 40%
+        }
+
+        .text-xx {
+            font-family: 'Monserrat', sans-serif;
+            color: white;
+            left: 78%;
+            letter-spacing: 4px;
+        }
+
+        .text-you {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(255, 231, 231);
+            left: 50%;
+        }
+
+        .text-you-1 {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(255, 231, 231);
+            left: 55%;
+            top: 10%;
+        }
+
+        .text-and {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(255, 231, 231);
+            left: 50%;
+            top: 35%;
+        }
+
+        .text-and-1 {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(255, 231, 231);
+            left: 55%;
+            top: 47%;
+        }
+
+        .text-we {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(255, 231, 231);
+            top: 7%;
+            line-height: 2;
+            letter-spacing: 2px;
+        }
+
+        .text-watch {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(255, 231, 231);
+            left: 9%;
+        }
+
+        .text-VCRs {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(255, 231, 231);
+            left: 26%;
+        }
+
+        .text-with {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(255, 231, 231);
+            left: 9%;
+            top: 5%;
+        }
+
+        .text-BIG {
+            font-family: 'Monserrat', sans-serif;
+            font-size: 800;
+            color: rgb(255, 231, 231);
+            top: 4%;
+            left: 34%;
+        }
+
+        .text-think {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(255, 231, 231);
+            top: 15%;
+            left: 35%;
+        }
+
+        .text-stars {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(255, 231, 231);
+            top: 14%;
+            left: 49%;
+        }
+
+        .text-say {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(255, 231, 231);
+            top: 40%;
+            left: 35%;
+        }
+
+        .text-best {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(255, 231, 231);
+            top: 38%;
+            left: 66%;
+        }
+
+        .text-but {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(255, 231, 231);
+            text-align: center;
+        }
+
+        .text-wanna {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(219, 230, 257);
+            top: 65%;
+            left: 10%;
+            line-height: 2.5;
+        }
+
+        .text-sea {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(219, 230, 257);
+            top: 84%;
+            left: 40%;
+        }
+
+        .text-when {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(219, 230, 257);
+            left: 60%;
+            top: 25%;
+            text-align: right;
+            line-height: 2;
+        }
+
+        .text-fear {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(219, 230, 257);
+            left: 88%;
+            top: 39%;
+        }
+
+        .text-because {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(219, 230, 257);
+            left: 7%;
+            top: 60%;
+        }
+
+        .text-watch-1 {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(255, 231, 231);
+            left: 60%;
+            top: 8%;
+        }
+
+        .text-VCRs-1 {
+            font-family: 'Monserrat', sans-serif;
+            font-size: 800;
+            color: rgb(255, 231, 231);
+            left: 77%;
+            top: 8%;
+        }
+
+        .text-with-1 {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(255, 231, 231);
+            left: 60%;
+            top: 25%;
+        }
+
+        .text-BIG-1 {
+            font-family: 'Monserrat', sans-serif;
+            font-size: 800;
+            color: rgb(255, 231, 231);
+            top: 45%;
+            left: 65%;
+        }
+
+        .text-think-1 {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(255, 231, 231);
+            top: 26%;
+            left: 10%;
+        }
+
+        .text-stars-1 {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(255, 231, 231);
+            top: 25%;
+            left: 24%;
+        }
+
+        .text-say-1 {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(255, 231, 231);
+            top: 46%;
+            left: 10%;
+        }
+
+        .text-best-1 {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(255, 231, 231);
+            top: 45%;
+            left: 41%;
+        }
+
+        .text-but-1 {
+            font-family: 'Monserrat', sans-serif;
+            color: rgb(255, 231, 231);
+            left: 45%;
+        }
+
+        .text-date {
+            font-family: 'Monserrat', sans-serif;
+            color: white;
+            top: 90%;
+            left: 5%;
+        }
+
+        .triangle {
+            height: 10%;
+            position: absolute;
+            left: 18%;
+            bottom: 145%;
+            color: black;
+        }
+
+        .stop {
+            height: 20%;
+            position: absolute;
+            left: 21%;
+            bottom: 140%;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ALL YOUR CODE MUST BE IN CONTAINER -->
+    <div class="container">
+
+        <!-- YOUR HTML CODE BELOW -->
+
+
+        <div class="row">
+            <div class="col-100 quarter img-1x4-1">
+                <p class="text-play center-v top-50">PLAY</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 quarter img-1x4-2">
+                <p class="text-vcr center-v">VCR</p>
+
+                <audio id="audio_play" loop>
+                  <source src="audio/The%20xx%20-%20VCR%20(Official%20Video).mp3" type="audio/mpeg">
+               </audio>
+                <img class="triangle" src="images/img-triangle-1.png" onClick="document.getElementById('audio_play').play();return false;" />
+                <img class="stop" src="images/pause-256.png" onClick="document.getElementById('audio_play').pause();return false;" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 quarter img-1x4-3">
+                <p class="text-xx sm-2">THE XX</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 half img-2x4-1"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 quarter img-1x4-4"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 quarter img-1x4-5">
+                <p class="text-you sm-2">YOU,you</p>
+                <p class="text-you-1 sm-1"><br>used to have all the answers</p>
+                <p class="text-and sm-2">AND you</p>
+                <p class="text-and-1 sm-1"><br>you still have them too</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 quarter img-1x4-6"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 quarter img-1x4-7">
+                <p class="text-we center-h sm-2">And we, we live half in the day time<br>And we, we live half at night</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 quarter img-1x4-8">
+                <p class="text-watch center-v sm-1">Watch things on</p>
+                <p class="text-VCRs center-v sm-2">VCRs,</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 quarter img-1x4-9">
+                <p class="text-with sm-1">with me and talk about</p>
+                <p class="text-BIG sm-2">BIG LOVE</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 quarter img-1x4-10">
+                <p class="text-think sm-1">I think we’re</p>
+                <p class="text-stars sm-2">SUPERSTARS,</p>
+                <p class="text-say sm-1">you say you think we are the</p>
+                <p class="text-best sm-2">BEST THING</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 quarter img-1x4-11">
+                <p class="text-but center-h center-v sm-2">BUT you, you just know, you just do. </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 quarter img-1x4-12">
+                <p class="text-wanna sm-1">Wanna find myself by the sea,<br> in another’s company by the</p>
+                <p class="text-sea sm-2"> SEA.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 quarter img-1x4-13">
+                <p class="text-when sm-1">When I go out to the pier,
+                    <br>gonna dive and have no </p>
+                <p class="text-fear sm-2">FEAR.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 quarter img-1x4-14"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 quarter img-1x4-15">
+                <p class="text-because center-v sm-2">BECAUSE you, you just know, you just do.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 quarter img-1x4-16">
+                <p class="text-watch-1 center-v sm-1">Watch things on</p>
+                <p class="text-VCRs-1 center-v sm-2">VCRs,</p>
+                <p class="text-with-1 sm-1">with me and talk about</p>
+                <p class="text-BIG-1 sm-2">BIG LOVE</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 quarter img-1x4-17">
+                <p class="text-think-1 sm-1">I think we’re</p>
+                <p class="text-stars-1 sm-2">SUPERSTARS,</p>
+                <p class="text-say-1 sm-1">you say you think we are the</p>
+                <p class="text-best-1 sm-2">BEST THING</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 quarter img-1x4-18">
+                <p class="text-but-1 sm-1">BUT you, you just know, you just do. </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 full img-4x4">
+                <p class="text-date sm-2">AM 2:00<br>AUG. 14 2009</p>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- DO NOT CHANGE CODES BELOW-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.lazyload.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('div').lazyload(
+                effect: "fadeIn"
+            );
+        });
+    </script>
+</body>
+
+</html>

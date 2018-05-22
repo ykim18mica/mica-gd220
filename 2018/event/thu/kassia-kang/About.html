@@ -1,0 +1,332 @@
+<!doctype html>
+<html>
+<title>About</title>
+<link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+
+<head>
+    <style>
+        html {
+            font-family: 'Muli', sans-serif;
+            margin: 20px;
+            margin-bottom: 500px;
+            max-height: 7000px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 10;
+            padding: 0;
+            overflow: hidden;
+            background-color: transparent;
+        }
+
+        li {
+            float: right;
+            font-size: 16px;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 3px 10px;
+            text-decoration: none;
+        }
+
+        .parent {
+            position: relative;
+        }
+
+        .short {
+            margin: 0 23px;
+        }
+
+        .boxy {
+            visibility: hidden;
+            width: 100%;
+            height: 15px;
+            background-color: #8FCDA5;
+            position: absolute;
+            top: 12px;
+            left: 0px;
+            z-index: -100;
+        }
+
+
+        li:hover .boxy {
+            visibility: visible;
+        }
+
+        .logo {
+            position: absolute;
+            top: 20px;
+            text-decoration: none;
+        }
+
+        .C {
+            font-size: 20px;
+            color: #FBDB60;
+        }
+
+        .D {
+            font-size: 20px;
+            color: #8FCDA5;
+            position: relative;
+            top: 22px;
+            right: 15px;
+            float: right;
+        }
+
+        .titlex {
+            position: absolute;
+            color: #8FCDA5;
+            font-size: 50px;
+            font-weight: 700;
+            top: 200px;
+            left: 200px;
+        }
+
+        svg {
+            position: relative;
+        }
+
+        p {
+            position: absolute;
+            top: 620px;
+            left: 700px;
+            width: 29%;
+            line-height: 2;
+            font-weight: 300;
+            font-size: 15px;
+            margin-bottom: 200px;
+        }
+
+        .box {
+            box-sizing: border-box;
+            background-color: #FBDB60;
+            width: 170px;
+            height: 225px;
+            position: absolute;
+            top: 360px;
+            left: 780px;
+            z-index: -10;
+        }
+
+        .small {
+            position: absolute;
+            top: 355px;
+            left: 780px;
+
+        }
+
+        .C2 {
+            font-size: 60px;
+            color: white;
+            font-weight: 500;
+            position: absolute;
+            left: 20px;
+        }
+
+        .D2 {
+            font-size: 60px;
+            color: white;
+            font-weight: 500;
+            position: absolute;
+            left: 110px;
+            top: 160px;
+        }
+
+        .mini {
+            position: absolute;
+            top: 79px;
+            left: 43px;
+        }
+
+
+        .slides,
+        .slides ul,
+        .slides li {
+            position: relative;
+            overflow: hidden;
+            width: 980px;
+            height: 500px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .slides {
+            position: absolute;
+            top: 1150px;
+            left: 10%;
+            margin: 0 auto;
+        }
+
+        .slides ul li {
+            float: left;
+            list-style: none;
+        }
+
+        a.slide-prev,
+        a.slide-next {
+            position: absolute;
+            top: 380px;
+
+            z-index: 999;
+            display: block;
+            width: 50px;
+            height: 50px;
+            margin-top: -12px;
+            cursor: pointer;
+            font-size: 26px;
+            color: black;
+            font-size: 15px;
+            font-weight: 300i;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 24px;
+        }
+
+        a.slide-prev:hover,
+        a.slide-next:hover {
+            opacity: 0.7;
+            -webkit-transition: all 0.3s ease;
+        }
+
+        a.slide-next {
+            right: 0;
+        }
+
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            var interval;
+
+            $('.slides').hover(function() {
+                if (interval) clearInterval(interval);
+                clearInterval(interval);
+                interval = null;
+            }, function() {
+                interval = setInterval(function() {
+                    slideRight();
+                }, 2000);
+            });
+            var slideCount = $('.slides ul li').length;
+            var slideWidth = $('.slides ul li').width();
+            var slideHeight = $('.slides ul li').height();
+            var sliderWidth = slideCount * slideWidth;
+
+            $('.slides').css({
+                width: slideWidth,
+                height: slideHeight
+            });
+            $('.slides ul').css({
+                width: sliderWidth,
+                marginLeft: -slideWidth
+            });
+            $('.slides ul li:last-child').prependTo('.slides ul');
+
+            function slideLeft() {
+                $('.slides ul').animate({
+                    left: +slideWidth
+                }, 200, function() {
+                    $('.slides ul li:last-child').prependTo('.slides ul');
+                    $('.slides ul').css('left', '');
+                });
+            };
+
+            function slideRight() {
+                $('.slides ul').animate({
+                    left: -slideWidth
+                }, 200, function() {
+                    $('.slides ul li:first-child').appendTo('.slides ul');
+                    $('.slides ul').css('left', '');
+                });
+            };
+            $('a.slide-prev').click(function(e) {
+                e.preventDefault();
+                slideLeft();
+            });
+            $('a.slide-next').click(function(e) {
+                e.preventDefault();
+                slideRight();
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+    <div class="row">
+        <ul>
+            <li class="short">
+                <div class="parent">
+                    <div class="boxy"></div><a href="Contact.html">Contact</a></div>
+            </li>
+            <li class="short">
+                <div class="parent">
+                    <div class="boxy"></div><a href="Schedule.html">Schedule</a></div>
+            </li>
+            <li class="short">
+                <div class="parent">
+                    <div class="boxy"></div><a href="Speakers.html">Speakers</a></div>
+            </li>
+            <li class="short">
+                <div class="parent">
+                    <a href="About.html">About <div class="boxy"></div></a></div>
+            </li>
+        </ul>
+    </div>
+
+    <a href="Home.html" class="logo">
+        <div class="C">C</div>
+
+        <svg height="30" width="40">
+        <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FBDB60;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8FCDA5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <line x1="12" y1="0" x2="24" y2="23" style="stroke:url(#grad1);stroke-width:2" />
+</svg>
+        <div class="D">D</div>
+
+    </a>
+
+    <div class="titlex">Think Colorful<br> Festival</div>
+
+    <div class="slides">
+
+        <ul>
+            <li><img src="images/about1.png" alt=""></li>
+            <li><img src="images/about2.png" alt=""></li>
+            <li><img src="images/about3.png" alt=""></li>
+        </ul>
+        <a href="#" class="slide-next">next</a>
+        <a href="#" class="slide-prev">prev</a>
+    </div>
+
+    <p>Think Colorful Festival celebrates and promotes in the New York as the design capital of the United States. The festival will hold in two more cities, Los Angeles and Chicago from the 13-15 June 2018.<br> A unique collaboration between the contemporary installation to web design. Over the past nine years, Color in Design Festival has spread idea of effective color usage throughout the art. The festival would fill with an unique range of large and small, intricate and majestic designs. <br>Every June, partners from all across the world, from emerging studios to established companies and educational institutions, come together to show off their latest works and ideas. </p>
+
+    <div class="small">
+
+        <div class="C2">C</div>
+
+        <svg class="mini" height="80" width="70">
+  <line x1="16" y1="-5" x2="80" y2="100" style="stroke:white;stroke-width:6" />
+</svg>
+        <div class="D2">D</div>
+    </div>
+
+    <div class="box"></div>
+
+
+
+
+
+
+</body>
+
+</html>

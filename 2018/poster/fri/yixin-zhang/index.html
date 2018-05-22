@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ANG LEE</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+
+    <style>
+        html {
+            box-sizing: border-box;
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+        .backgroundimage {
+
+            position: relative;
+            top: 50px;
+            width: 1200px;
+            opacity: 0;
+            animation: opacity 4s forwards;
+
+
+        }
+
+
+        .lg-1 {
+            font-size: 280px;
+        }
+
+        .lg-2 {
+            font-size: 320px;
+
+        }
+
+        .lg-3 {
+            font-size: 16px;
+        }
+
+        .lg-4 {
+            font-size: 10px;
+        }
+
+        .c1 {
+            color: rgb(126, 138, 165);
+        }
+
+        .c2 {
+            color: rgb(232, 143, 35);
+        }
+
+        .letter-a {
+            position: absolute;
+            top: 45px;
+            left: 40px;
+            color: rgb(232, 143, 35);
+            opacity: 0;
+            animation: opacity 5s forwards;
+
+
+        }
+
+        .letter-a:hover {
+            color: rgb(126, 138, 165);
+        }
+
+        .letter-N {
+            position: absolute;
+            top: 280px;
+            left: 420px;
+            color: rgb(126, 138, 165);
+            opacity: 0;
+            animation: opacity 1.5s forwards, blue-org 2s infinite;
+
+        }
+
+        .letter-N:hover {
+            color: rgb(232, 143, 35);
+        }
+
+
+        .letter-G {
+            position: absolute;
+            top: 150px;
+            right: 45px;
+            color: rgb(232, 143, 35);
+            opacity: 0;
+            animation: opacity 2s forwards;
+        }
+
+        .letter-G:hover {
+            color: rgb(126, 138, 165);
+        }
+
+        .letter-L {
+            position: absolute;
+            color: rgb(126, 138, 165);
+            bottom: 475px;
+            left: 50px;
+            opacity: 0;
+            animation: opacity 3s forwards;
+        }
+
+        .letter-L:hover {
+            color: rgb(232, 143, 35);
+        }
+
+        .letter-e {
+            position: absolute;
+            color: rgb(232, 143, 35);
+            bottom: 600px;
+            left: 480px;
+            opacity: 0;
+            animation: opacity 3.5s forwards;
+        }
+
+        .letter-e:hover {
+            color: rgb(126, 138, 165);
+        }
+
+        .letter-E {
+            position: absolute;
+            bottom: 390px;
+            right: 50px;
+            color: rgb(126, 138, 165);
+            opacity: 0;
+            animation: opacity 4s forwards;
+        }
+
+        .letter-E:hover {
+            color: rgb(232, 143, 35);
+        }
+
+
+        <!-- ///@keyframes blue-org {
+        0% {
+            color: rgb(126, 138, 165);
+        }
+
+        33% {
+            color: lightblue;
+        }
+
+        66% {
+            color: lightsalmon;
+        }
+
+        100% {
+            color: rgb(232, 143, 35);
+
+        }
+
+        }
+
+        -->.img-wedding {
+            position: absolute;
+            bottom: 400px;
+            left: 280px;
+            animation: opacity 4s forwards;
+
+        }
+
+        .img-push {
+            position: absolute;
+            bottom: 220px;
+            left: 510px;
+            animation: opacity 4s forwards;
+        }
+
+        .img-life {
+            position: absolute;
+            top: 60px;
+            right: 340px;
+            animation: opacity 4s forwards;
+        }
+
+        .img-eat {
+            position: absolute;
+            top: 600px;
+            left: 40px;
+            animation: opacity 4s forwards;
+        }
+
+        .img-bm {
+            position: absolute;
+            bottom: 800px;
+            right: 90px;
+            animation: opacity 4s forwards;
+        }
+
+        .eat {
+            position: absolute;
+            top: 668px;
+            left: 65px;
+            letter-spacing: 1.6px;
+            animation-name: down-eat;
+            animation-delay: 3s;
+            animation-duration: 6s;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes down-eat {
+            from {
+                top: 700px;
+                opacity: 0;
+
+            }
+            to {
+                top: 1530px;
+                opacity: 1;
+                color: black;
+            }
+        }
+
+        .wedding {
+            position: absolute;
+            bottom: 436px;
+            left: 326px;
+            letter-spacing: 1.6px;
+            animation-name: down-wedding;
+            animation-delay: 5s;
+            animation-duration: 3.5s;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes down-wedding {
+            from {
+                top: 1200px;
+                opacity: 0;
+
+            }
+            to {
+                top: 1530px;
+                opacity: 1;
+                color: black;
+            }
+        }
+
+        .push {
+            position: absolute;
+            bottom: 280px;
+            left: 550px;
+            letter-spacing: 1.6px;
+            animation-name: down-push;
+            animation-delay: 5s;
+            animation-duration: 4s;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes down-push {
+            from {
+                top: 1380px;
+                opacity: 0;
+
+            }
+            to {
+                top: 1530px;
+                opacity: 1;
+                color: black;
+            }
+        }
+
+        .life {
+            position: absolute;
+            letter-spacing: 1.6px;
+            top: 212px;
+            right: 391px;
+            animation-name: down-life;
+            animation-delay: 2s;
+            animation-duration: 6s;
+            animation-fill-mode: forwards;
+
+
+        }
+
+        @keyframes down-life {
+            from {
+                top: 0p;
+                opacity: 0;
+
+            }
+            to {
+                top: 1530px;
+                opacity: 1;
+                color: black;
+            }
+        }
+
+        .bm {
+            position: absolute;
+            letter-spacing: 1.6px;
+            right: 130px;
+            bottom: 835px;
+            animation-name: down-bm;
+            animation-delay: 3s;
+            animation-duration: 5s;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes down-bm {
+            from {
+                top: 950px;
+
+            }
+            to {
+                top: 1530px;
+                opacity: 1;
+                color: black;
+            }
+        }
+
+        .address {
+            letter-spacing: 2px;
+            color: darkgray;
+            position: absolute;
+            text-align: right;
+            right: 55px;
+            line-height: 1.5;
+        }
+
+        .date1 {
+            color: black;
+            position: absolute;
+            word-spacing: 150px;
+            letter-spacing: 2px;
+            bottom: 100px;
+            left: 65px;
+        }
+
+        .date2 {
+            color: black;
+            position: absolute;
+            word-spacing: 150px;
+            letter-spacing: 2px;
+            bottom: 100px;
+            left: 551px;
+        }
+
+        .date3 {
+            color: black;
+            position: absolute;
+            word-spacing: 150px;
+            letter-spacing: 2px;
+            bottom: 100px;
+            left: 326px;
+        }
+
+        .date4 {
+            color: black;
+            position: absolute;
+            word-spacing: 150px;
+            letter-spacing: 2px;
+            bottom: 100px;
+            left: 730px;
+        }
+
+        .date5 {
+            color: black;
+            position: absolute;
+            word-spacing: 150px;
+            letter-spacing: 2px;
+            bottom: 100px;
+            left: 898px;
+        }
+
+        .date-o {
+            animation: opacity-date 8s forwards;
+            
+        }
+
+        @keyframes opacity {
+            from {
+                opacity: 0;
+                ;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes opacity-date {
+            from {
+                opacity: 0;
+                ;
+            }
+            to {
+                opacity: 0.5;
+            }
+        }
+        @keyframes life-move {
+            0% {
+                top: 80px;
+
+
+            }
+            50% {
+                top: 200px;
+
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="grid-container">
+
+        <div class="row">
+
+            <img class="backgroundimage" src="images/img-background.png">
+            <img class="img-wedding" src="images/img-wedding.png">
+            <img class="img-push" src="images/img-push.png">
+            <img class="img-life" src="images/img-life.png">
+            <img class="img-eat" src="images/img-eat.png">
+            <img class="img-bm" src="images/img-bm.png">
+
+
+
+        </div>
+        <div class="row">
+            <div class="col-2 letter-a lg-2">
+                <p>a</p>
+            </div>
+
+            <div class="col-2 letter-N lg-1">
+                <p>N</p>
+            </div>
+            <div class="col-2 letter-G lg-1">
+                <p>G</p>
+            </div>
+            <div class="col-2 letter-L lg-1">
+                <p>L</p>
+            </div>
+        </div>
+        <div class="col-2 letter-e lg-2">
+            <p>e</p>
+        </div>
+        <div class="col-2 letter-E lg-1">
+            <p>E</p>
+
+        </div>
+        <div class="eat lg-3 c1">
+            <p>Eat Drink Man Woman</p>
+        </div>
+        <div class="wedding lg-3 c1">
+            <p>The Wedding Banquet</p>
+        </div>
+        <div class="push lg-3 c2">
+            <p>Pushing Hands</p>
+        </div>
+        <div class="life lg-3 c1">
+            <p>Life of Pi</p>
+        </div>
+        <div class="bm lg-3 c2">
+            <p>Brokeback Mountain</p>
+        </div>
+        <div class="address lg-4 c3">
+            <p>The Charles Theatre</p>
+            <p>1711 N Charles St, Baltimore, MD 21201</p>
+        </div>
+        <div class=date-o>
+            <div class="date1 lg-3">
+                <p>03/10</p>
+            </div>
+            <div class="date2 lg-3">
+                <p>03/11</p>
+            </div>
+            <div class="date3 lg-3">
+                <p>03/12</p>
+            </div>
+            <div class="date4 lg-3">
+                <p>03/13</p>
+            </div>
+            <div class="date5 lg-3">
+                <p>03/14</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

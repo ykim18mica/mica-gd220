@@ -1,0 +1,408 @@
+<!doctype html>
+<html>
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Titillium+Web" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+
+
+    <style>
+        .home {
+            width: 100%;
+            height: 209vw;
+            background-image: url(images/SPEAKERbackground.svg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        .speakers {
+            color: rgb(19, 27, 33);
+            font-family: 'Do Hyeon', sans-serif;
+            font-size: 2.7vw;
+            -webkit-text-stroke: 1px rgb(154, 184, 210);
+            position: absolute;
+            text-align: center;
+            top: 6.2vw;
+            left: 10vw;
+        }
+
+
+        .logo {
+            width: 7vw;
+            position: absolute;
+            top: 4.8vw;
+            left: 3vw;
+            z-index: 300;
+        }
+
+        .logo:hover {
+            cursor: pointer;
+        }
+
+        .navigation {
+            width: 5%;
+            position: absolute;
+            left: 90vw;
+            top: 5.2vw;
+            display: block;
+        }
+
+        .navigation:hover {
+            cursor: pointer;
+        }
+
+        .navigation1 {
+            width: 5%;
+            position: absolute;
+            top: 5.2vw;
+            left: 90vw;
+            display: block;
+            z-index: 500;
+        }
+
+        .navigation1:hover {
+            cursor: pointer;
+        }
+
+        #close {
+            display: none;
+        }
+
+
+        .menu-dropdown {
+            text-align: center;
+            position: absolute;
+            top: 8vw;
+            right: 4vw;
+            font-family: 'roboto condensed';
+            font-weight: lighter;
+            font-size: 1.2vw;
+            line-height: 2;
+            text-decoration: none;
+        }
+
+        #dropdown {
+            display: none;
+        }
+
+        .snip1168 {
+            box-sizing: border-box;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 10vw;
+            text-align: right;
+            margin-top: 40px;
+            position: relative;
+            top: -30px;
+            right: 1vw;
+            z-index: 100;
+            display: block;
+            text-decoration: none;
+        }
+
+        .snip1168 li {
+            display: block;
+            list-style-type: none;
+            margin-top: 0px;
+            padding: 0;
+            line-height: 40px;
+            color: #648298;
+        }
+
+        .snip1168 a {
+            text-decoration: none;
+            color: #648298;
+        }
+
+        .snip1168 a:hover {
+            color: white;
+        }
+
+        .speaker1 {
+            position: absolute;
+            top: 22vw;
+            left: -12vw;
+        }
+
+        .speaker2 {
+            position: absolute;
+            top: 90vw;
+            left: 55vw;
+        }
+
+        .speaker3 {
+            position: absolute;
+            top: 150vw;
+            left: -5vw;
+            width: 95%;
+        }
+
+        .rec1 {
+            width: 40vw;
+            height: 18vw;
+            background-color: #0C1217;
+            position: absolute;
+            top: 50vw;
+            left: 46vw;
+            z-index: 30;
+            opacity: 0.8;
+        }
+
+        .rec2 {
+            width: 37vw;
+            height: 20vw;
+            background-color: #0C1217;
+            position: absolute;
+            top: 106vw;
+            left: 14vw;
+            z-index: 30;
+            opacity: 0.8;
+        }
+
+        .rec3 {
+            width: 39vw;
+            height: 18vw;
+            background-color: #0C1217;
+            position: absolute;
+            top: 170vw;
+            left: 49vw;
+            z-index: 30;
+            opacity: 0.8;
+        }
+
+        .rec4 {
+            width: 100%;
+            height: 10vw;
+            background-color: #0C1217;
+        }
+
+        .s1-text {
+            width: 37vw;
+            font-family: 'Titillium Web light';
+            font-size: 1.4vw;
+            word-spacing: 0.2vw;
+            color: #A3CBD8;
+            line-height: 1.8;
+            position: absolute;
+            top: 50vw;
+            left: 48vw;
+            z-index: 60;
+        }
+
+        .s1 {
+            font-family: 'Titillium Web';
+            font-size: 2.7vw;
+            font-weight: 900;
+            color: #9AB8D2;
+            position: absolute;
+            top: 41.3vw;
+            left: 54vw;
+        }
+
+        .web1 {
+            font-family: 'Titillium Web light';
+            font-size: 1vw;
+            letter-spacing: 0.4vw;
+            color: #9AB8D2;
+            position: absolute;
+            top: 68vw;
+            left: 54.6vw;
+        }
+
+        .web2 {
+            font-family: 'Titillium Web light';
+            font-size: 1vw;
+            letter-spacing: 0.4vw;
+            color: #9AB8D2;
+            position: absolute;
+            top: 126vw;
+            left: 22vw;
+        }
+
+        .web3 {
+            font-family: 'Titillium Web light';
+            font-size: 1vw;
+            letter-spacing: 0.4vw;
+            color: #9AB8D2;
+            position: absolute;
+            top: 188vw;
+            left: 58.5vw;
+        }
+
+        .s2-text {
+            width: 34vw;
+            font-family: 'Titillium Web light';
+            font-size: 1.4vw;
+            word-spacing: 0.2vw;
+            color: #A3CBD8;
+            line-height: 1.8;
+            word-spacing: 1px;
+            position: absolute;
+            top: 105.6vw;
+            left: 16vw;
+            z-index: 60;
+        }
+
+        .s2 {
+            font-family: 'Titillium Web';
+            font-size: 2.8vw;
+            font-weight: 900;
+            color: #9AB8D2;
+            position: absolute;
+            top: 97vw;
+            left: 23.5vw;
+        }
+
+        .s3-text {
+            width: 36vw;
+            font-family: 'Titillium Web light';
+            font-size: 1.4vw;
+            word-spacing: 0.2vw;
+            color: #A3CBD8;
+            line-height: 1.8;
+            position: absolute;
+            top: 170vw;
+            left: 51vw;
+            z-index: 60;
+        }
+
+        .s3 {
+            font-family: 'Titillium Web';
+            font-size: 2.8vw;
+            font-weight: 900;
+            color: #9AB8D2;
+            position: absolute;
+            top: 161vw;
+            left: 58.5vw;
+        }
+
+        .f1 {
+            font-family: 'Titillium Web';
+            font-size: 1.4vw;
+            color: #A3CBD8;
+            position: absolute;
+            top: 213.8vw;
+            left: 10vw;
+            z-index: 900;
+        }
+
+        #fb {
+            width: 2.6%;
+            position: absolute;
+            top: 213.8vw;
+            left: 88vw;
+        }
+
+        #ins {
+            width: 3%;
+            position: absolute;
+            top: 213.7vw;
+            left: 80vw;
+        }
+
+        #twi {
+            width: 3%;
+            position: absolute;
+            top: 213.7vw;
+            left: 72vw;
+        }
+
+        #footer-logo {
+            width: 8%;
+            position: absolute;
+            top: 211.1vw;
+            left: 2.8vw;
+        }
+
+    </style>
+    <script>
+        function openNav() {
+            document.getElementById("dropdown").style.display = "block";
+            document.getElementById("open").style.display = "none";
+            document.getElementById("close").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("dropdown").style.display = "none";
+            document.getElementById("open").style.display = "block";
+            document.getElementById("close").style.display = "none";
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <div class="home">
+        <div class="speakers">SPEAKERS</div>
+    </div>
+
+    <div class="nav">
+        <img class="logo" src="images/logo.svg">
+        <div class="menu">
+            <div id="open" onClick="openNav()">
+                <img class="navigation" src="images/navigation.svg">
+            </div>
+            <div id="close" onClick="closeNav()">
+                <img class="navigation1" src="images/navigation1.svg">
+            </div>
+            <div class="menu">
+                <a href="index.html"><img class="logo" src="images/logo.svg"></a>
+            </div>
+            <div class="menu-dropdown" id="dropdown">
+                <ul class="snip1168">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="speakers.html">SPEAKERS</a></li>
+                    <li><a href="info.html">SCHEDULE & INFO</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="people">
+        <img class="speaker1" src="images/s1.svg">
+        <img class="speaker2" src="images/s2.jpg">
+        <img class="speaker3" src="images/s3.svg">
+    </div>
+    <div class="RECandTEXT">
+        <div class="rec1"></div>
+        <div class="text">
+            <p class="s1">STEFAN SAGMEISTER</p>
+            <p class="s1-text">Stefan Sagmeister is a New York-based graphic designer, storyteller, and typographer. Sagmeister co-founded a design firm called Sagmeister & Walsh Inc. with Jessica Walsh in New York City. He has designed album covers for Lou Reed, OK Go, The Rolling Stones, David Byrne, Jay Z, Aerosmith and Pat Metheny.</p>
+            <a href="https://sagmeisterwalsh.com/" target="_blank">
+                <p class="web1">https://sagmeisterwalsh.com/</p>
+            </a>
+        </div>
+        <div class="rec2"></div>
+        <div class="text">
+            <p class="s2">SHANE GRIFFIN</p>
+            <p class="s2-text">Shane Griffin is an Irish born Director & Artist. His work spans a broad range of disciplines, from animation and live action, to sculpture and CGI. Shane has created work for some of the worlds leading brands & agencies. He's directed films for Apple, Google, Microsoft, Ford, and Adidas. Shane is currently executive creative director at Los York Studio & director at Los York Films.</p>
+            <a href="http://www.shanegriffin.nyc/" target="_blank">
+                <p class="web2">http://www.shanegriffin.nyc/</p>
+            </a>
+        </div>
+        <div class="rec3"></div>
+        <div class="text">
+            <p class="s3">WANG ZHIHONG</p>
+            <p class="s3-text">Wang Zhi-Hong, a leading graphic designer based in Taiwan and a member of Alliance Graphique Internationale (AGI) since 2015. Born in 1975 in Taipei. Graduated from Fu-Hsin Trade and Art School in 1995. Started his studio in 2000 and offering design solutions in fields of publication, art, architecture, film and music. </p>
+            <a href="http://wangzhihong.com/" target="_blank">
+                <p class="web3">http://wangzhihong.com/</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="rec4"></div>
+        <div class="f1">@DESIGNASATTITUDE</div>
+        <a href="https://www.facebook.com/" target="_blank"><img id="fb" src="images/fb.png"></a>
+        <a href="https://twitter.com" target="_blank"><img id="twi" src="images/twi.png"></a>
+        <a href="https://www.instagram.com/?hl=en" target="_blank"><img id="ins" src="images/ins.png"></a>
+        <a href="index.html"><img id="footer-logo" src="images/footer-logo.svg"></a>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SCHEDULE</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /*        reset*/
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /*
+                .grid-container{
+            width:1200px;
+                    height: 100%;
+            margin:auto;
+            position: relative;
+        }
+*/
+
+        .menu1 {
+            width: 3.2vw;
+            height: 2.7vw;
+            margin-top: 3vw;
+            position: fixed;
+            top: 0.5vw;
+            right: 5vw;
+            display: block;
+        }
+
+        .menu2 {
+            width: 3.2vw;
+            height: 2.7vw;
+            margin-top: 3vw;
+            position: fixed;
+            top: 0.5vw;
+            right: 5vw;
+            display: none;
+            opacity: 0.5;
+        }
+
+
+        #dropdown {
+            position: fixed;
+            top: 3vw;
+            display: none;
+        }
+
+        .title-schedule {
+            text-align: center;
+            margin-top: 5vw;
+            letter-spacing: 2.5vw;
+            position: absolute;
+            left: 39vw;
+            font-size: 1.5vw;
+
+        }
+
+        .border {
+            border-style: solid;
+            border-width: 0.2vw;
+            height: 60vw;
+            color: rgb(253, 110, 117);
+            position: relative;
+            top: 18vw;
+            left: 24vw;
+        }
+
+        .date {
+            letter-spacing: 0.5vw;
+
+            position: absolute;
+            top: 16vw;
+            left: 20vw;
+            font-weight: bold;
+            font-size: 1.5vw;
+        }
+
+        .time1 {
+            color: rgb(128, 128, 128);
+            letter-spacing: 0.3vw;
+            font-style: italic;
+            position: absolute;
+            top: 20vw;
+            left: 20vw;
+            font-size: 1.5vw;
+        }
+
+        .time2 {
+            color: rgb(128, 128, 128);
+            letter-spacing: 0.3vw;
+            font-style: italic;
+            position: absolute;
+            top: 33vw;
+            left: 20vw;
+            font-size: 1.5vw;
+        }
+
+        .time3 {
+            color: ;
+            letter-spacing: 0.3vw;
+            font-style: italic;
+            position: absolute;
+            top: 46vw;
+            left: 20vw;
+            font-size: 1.5vw;
+        }
+
+        .time4 {
+            color: rgb(128, 128, 128);
+            letter-spacing: 0.3vw;
+            font-style: italic;
+            position: absolute;
+            top: 59vw;
+            left: 20vw;
+            font-size: 1.5vw;
+        }
+
+        .name1 {
+            letter-spacing: 0.3vw;
+            font-style: italic;
+            position: absolute;
+            top: 20vw;
+            left: 48vw;
+            font-size: 1.5vw;
+
+        }
+
+        .name2 {
+            letter-spacing: 0.3vw;
+            font-style: italic;
+            position: absolute;
+            top: 33vw;
+            left: 48vw;
+            font-size: 1.5vw;
+        }
+
+        .name3 {
+            color: rgb(128, 128, 128);
+            letter-spacing: 0.3vw;
+            font-style: italic;
+            position: absolute;
+            top: 46vw;
+            left: 48vw;
+            font-size: 1.5vw;
+        }
+
+        .name4 {
+
+            letter-spacing: 0.3vw;
+            font-style: italic;
+            position: absolute;
+            top: 59vw;
+            left: 48vw;
+            font-size: 1.5vw;
+        }
+
+        .facebook {
+            position: absolute;
+            top: 73vw;
+            right: 5vw;
+            width: 1.8vw;
+            margin: 1vw;
+
+        }
+
+        .ins {
+            position: absolute;
+            top: 73vw;
+            right: 10vw;
+            width: 1.8vw;
+            margin: 1vw;
+        }
+
+        .twitter {
+            position: absolute;
+            top: 73vw;
+            right: 15vw;
+            width: 1.8vw;
+            margin: 1vw;
+        }
+
+        .youtube {
+            position: absolute;
+            top: 73vw;
+            right: 20vw;
+            width: 2vw;
+            margin: 1vw;
+        }
+
+        .moma {
+            position: absolute;
+            top: 73.8vw;
+            left: 5vw;
+            width: 4.5vw;
+            margin: 1vw;
+        }
+
+        .footbar-address {
+            font-size: 0.8vw;
+            color: white;
+            letter-spacing: 0.1vw;
+            position: absolute;
+            top: 75vw;
+            right: 51vw;
+        }
+
+        .footbar-time {
+            font-size: 0.8vw;
+            color: white;
+            letter-spacing: 0.1vw;
+            position: absolute;
+            top: 75vw;
+            right: 32vw;
+        }
+
+        .map {
+            width: 75vw;
+            position: absolute;
+            top: 12vw;
+            left: 7vw;
+
+        }
+
+        .moma-address {
+            letter-spacing: 0.2vw;
+            position: absolute;
+            top: 38vw;
+            left: 24vw;
+            line-height: 2vw;
+            color: rgb(253, 110, 117);
+            font-size: 1vw;
+
+        }
+
+        .enter {
+            letter-spacing: 0.2vw;
+            position: absolute;
+            top: 40vw;
+            left: 34vw;
+            line-height: 2vw;
+            color: rgb(128, 128, 128);
+            font-size: 1vw;
+
+        }
+
+        .email {
+            font-size: 1vw;
+            position: absolute;
+            top: 45vw;
+            left: 32vw;
+            letter-spacing: 0.6vw;
+            color: rgb(128, 128, 128);
+        }
+
+    </style>
+    <script>
+        function openNav() {
+            document.getElementById("dropdown").style.display = "block";
+            document.getElementById("open").style.display = "none";
+            document.getElementById("close").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("dropdown").style.display = "none";
+            document.getElementById("open").style.display = "block";
+            document.getElementById("close").style.display = "none";
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+
+    <a href="index.html"><img class="icon" src="images/logo.png"></a>
+    <img class="menu1" id="open" onClick="openNav()" src="images/menu.png">
+    <img class="menu2" id="close" onClick="closeNav()" src="images/menu.png">
+
+
+
+    <div class="menu-open" id="dropdown">
+        <ul>
+            <li><a href="about.html" style="text-decoration:none" class="about">ABOUT</a></li>
+            <li><a href="speakers.html" style="text-decoration:none" class="speakers">SPEAKERS</a></li>
+            <li><a href="schedule.html" style="text-decoration:none" class="schedule">SCHEDULE</a></li>
+            <li><a href="contact.html" style="text-decoration:none" class="contact">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <div class="title-schedule">SCHEDULE
+
+    </div>
+    <div class="border"></div>
+    <div class="time1">1 p.m - 2 p.m </div>
+    <div class="time2">2:30 p.m - 3:30 p.m </div>
+    <div class="time3">3:30 p.m - 4:30 p.m </div>
+    <div class="time4">4:30 p.m - 5:30 p.m </div>
+    <a href="https://www.miltonglaser.com" target=“_blank”>
+        <div class="name1">Milton Glaser</div>
+    </a>
+
+    <a href="https://www.pentagram.com/work" target=“_blank”>
+        <div class="name2">Paula Scher</div>
+    </a>
+    <div class="name3">BREAK</div>
+    <a href="http://www.sulki-min.com/wp/index-random/" target=“_blank”>
+        <div class="name4">Sulki and Min</div>
+    </a>
+    <div class="date">10/28 SUN</div>
+    <div>
+        <a href="https://www.facebook.com/MuseumofModernArt/" target=“_blank”><img class="facebook" src="images/facebook.png"></a>
+        <a href="https://www.instagram.com/themuseumofmodernart/" target=“_blank”><img class="ins" src="images/ins.png"></a>
+        <a href="https://twitter.com/museummodernart" target=“_blank”><img class="twitter" src="images/twitter.png"></a>
+        <a href="https://www.youtube.com/user/momavideos" target=“_blank”><img class="youtube" src="images/youtube.png"></a>
+        <a href="https://www.moma.org/visit/" target=“_blank”>
+            <div class="footbar-address">The Museum of Modern Art 11 West 53 Street, New York, NY 10019
+            </div>
+        </a>
+        <div class="footbar-time">TIME : 10/28, 1 p.m - 5:30 p.m </div>
+        <a href="https://www.moma.org" target=“_blank”><img class="moma" src="images/MOMA.png"></a>
+    </div>
+    <div class="grid-container">
+    </div>
+
+
+</body>
+
+</html>

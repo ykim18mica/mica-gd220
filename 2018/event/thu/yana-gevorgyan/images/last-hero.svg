@@ -1,0 +1,76 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="750" viewBox="0 0 600 750">
+<defs>
+<linearGradient id="gradient1" gradientUnits="userSpaceOnUse" x1="9.167%" y1="0.000%" x2="9.167%" y2="43.733%" >
+<stop offset="0%" stop-color="#56AB2F" />
+<stop offset="100%" stop-color="#A8E063" />
+</linearGradient>
+<filter id="Rectangle-2-fx" filterUnits="userSpaceOnUse">
+<feFlood flood-color="#50AD8D" />
+<feComposite operator="in" in2="SourceAlpha" result="sourceFill" />
+<feBlend mode="normal" in="SourceGraphic" in2="sourceFill" result="gradientFill" />
+</filter>
+<linearGradient id="gradient2" gradientUnits="userSpaceOnUse" x1="18.167%" y1="36.400%" x2="49.167%" y2="36.400%" >
+<stop offset="0%" stop-color="#56AB2F" />
+<stop offset="100%" stop-color="#A8E063" />
+</linearGradient>
+<filter id="Rectangle-2-copy-fx" filterUnits="userSpaceOnUse">
+<feFlood flood-color="#50AD8D" />
+<feComposite operator="in" in2="SourceAlpha" result="sourceFill" />
+<feBlend mode="normal" in="SourceGraphic" in2="sourceFill" result="gradientFill" />
+</filter>
+<linearGradient id="gradient3" gradientUnits="userSpaceOnUse" x1="77.333%" y1="43.733%" x2="77.333%" y2="0.000%" >
+<stop offset="0%" stop-color="#F46B45" />
+<stop offset="100%" stop-color="#EEA849" />
+</linearGradient>
+<filter id="Polygon-1-fx" filterUnits="userSpaceOnUse">
+<feFlood flood-color="#CD6443" />
+<feComposite operator="in" in2="SourceAlpha" result="sourceFill" />
+<feBlend mode="normal" in="SourceGraphic" in2="sourceFill" result="gradientFill" />
+</filter>
+<linearGradient id="gradient4" gradientUnits="userSpaceOnUse" x1="0.000%" y1="73.554%" x2="40.167%" y2="52.846%" >
+<stop offset="0%" stop-color="#36D1DC" />
+<stop offset="100%" stop-color="#5B86E5" />
+</linearGradient>
+<filter id="Rectangle-3-fx" filterUnits="userSpaceOnUse">
+<feFlood flood-color="#A1AD50" />
+<feComposite operator="in" in2="SourceAlpha" result="sourceFill" />
+<feBlend mode="normal" in="SourceGraphic" in2="sourceFill" result="gradientFill" />
+</filter>
+<linearGradient id="gradient5" gradientUnits="userSpaceOnUse" x1="43.429%" y1="65.668%" x2="4.405%" y2="99.932%" >
+<stop offset="0%" stop-color="#36D1DC" />
+<stop offset="100%" stop-color="#5B86E5" />
+</linearGradient>
+<filter id="Rectangle-3-copy-fx" filterUnits="userSpaceOnUse">
+<feFlood flood-color="#A1AD50" />
+<feComposite operator="in" in2="SourceAlpha" result="sourceFill" />
+<feBlend mode="normal" in="SourceGraphic" in2="sourceFill" result="gradientFill" />
+</filter>
+<linearGradient id="gradient6" gradientUnits="userSpaceOnUse" x1="100.000%" y1="54.800%" x2="48.333%" y2="54.800%" >
+<stop offset="0%" stop-color="#9B9B9B" />
+<stop offset="100%" stop-color="#797979" />
+</linearGradient>
+<filter id="Rectangle-4-fx" filterUnits="userSpaceOnUse">
+<feFlood flood-color="#CDA443" />
+<feComposite operator="in" in2="SourceAlpha" result="sourceFill" />
+<feBlend mode="normal" in="SourceGraphic" in2="sourceFill" result="gradientFill" />
+</filter>
+<linearGradient id="gradient7" gradientUnits="userSpaceOnUse" x1="89.917%" y1="96.267%" x2="89.917%" y2="62.667%" >
+<stop offset="0%" stop-color="#9B9B9B" />
+<stop offset="100%" stop-color="#797979" />
+</linearGradient>
+<filter id="Rectangle-4-copy-fx" filterUnits="userSpaceOnUse">
+<feFlood flood-color="#CDA443" />
+<feComposite operator="in" in2="SourceAlpha" result="sourceFill" />
+<feBlend mode="normal" in="SourceGraphic" in2="sourceFill" result="gradientFill" />
+</filter>
+</defs>
+<g id="Group-1-copy">
+<path id="Rectangle-2" d="M-0.000,-0.000 L109.531,-0.000 L109.531,327.688 L-0.000,327.688 L-0.000,-0.000 z" fill="url(#gradient1)" filter="url(#Rectangle-2-fx)" />
+<path id="Rectangle-2-copy" d="M109.531,218.156 L294.375,218.156 L294.375,327.688 L109.531,327.688 L109.531,218.156 z" fill="url(#gradient2)" filter="url(#Rectangle-2-copy-fx)" />
+<path id="Polygon-1" d="M463.992,0.008 L599.992,327.999 L327.991,327.999 L463.992,0.008 z" fill="url(#gradient3)" filter="url(#Polygon-1-fx)" />
+<path id="Rectangle-3" d="M-0.000,530.818 L153.978,345.013 L240.648,417.041 L86.670,602.846 L-0.000,530.818 z" fill="url(#gradient4)" filter="url(#Rectangle-3-fx)" />
+<path id="Rectangle-3-copy" d="M23.340,677.979 L177.318,492.174 L263.988,564.202 L110.010,750.007 L23.340,677.979 z" fill="url(#gradient5)" filter="url(#Rectangle-3-copy-fx)" />
+<path id="Rectangle-4" d="M290.000,351.000 L600.000,351.000 L600.000,470.937 L290.000,470.937 L290.000,351.000 z" fill="url(#gradient6)" filter="url(#Rectangle-4-fx)" />
+<path id="Rectangle-4-copy" d="M479.437,470.938 L599.125,470.938 L599.125,722.000 L479.437,722.000 L479.437,470.938 z" fill="url(#gradient7)" filter="url(#Rectangle-4-copy-fx)" />
+</g>
+</svg>

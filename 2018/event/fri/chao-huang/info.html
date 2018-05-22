@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Info</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <style>
+        html {
+            font-family: Apercu, sans-serif;
+
+        }
+
+        body {
+            background-color: black;
+        }
+
+
+
+        .when {
+            font-size: 4vw;
+            color: black;
+            position: absolute;
+            top: 23vw;
+            left: 23vw;
+            letter-spacing: 0.4vw;
+            font-weight: 500;
+
+        }
+
+        .date {
+            font-size: 2vw;
+            color: black;
+            position: absolute;
+            top: 28vw;
+            left: 23vw;
+            letter-spacing: 0.5vw;
+            font-style: italic;
+
+        }
+
+        .time {
+            font-size: 2vw;
+            color: black;
+            position: absolute;
+            top: 31vw;
+            left: 23vw;
+            letter-spacing: 0.5vw;
+
+        }
+
+        .back-pattern {
+            position: absolute;
+            top: -3.66vw;
+        }
+
+        .background-box {
+            width: 50vw;
+            height: 30vw;
+            background-color: white;
+            position: absolute;
+            top: 15vw;
+            left: 25vw;
+        }
+
+        .where {
+            font-size: 4vw;
+            color: black;
+            position: absolute;
+            top: 35vw;
+            left: 64vw;
+            letter-spacing: 0.4vw;
+            font-weight: 500;
+
+        }
+
+        .location {
+            font-size: 1.7vw;
+            color: black;
+            position: absolute;
+            top: 40vw;
+            left: 52vw;
+            letter-spacing: 0.5vw;
+            text-align: right;
+            line-height: 1.7
+        }
+
+        .x {
+            position: absolute;
+            top: 30vw;
+            left: 47vw;
+            width: 9%;
+            animation: rotateIn 3s forwards;
+        }
+
+        .bottom-box {
+            background-color: black;
+            width: 100vw;
+            height: 10vw;
+            position: absolute;
+            top: 60vw;
+            left: 0vw;
+            z-index: 1100;
+        }
+
+        .social-media-icon {
+            position: absolute;
+            top: 59vw;
+            left: 81vw;
+            z-index: 1200;
+            width: 20%;
+        }
+
+        .navi-footer {
+            font-size: 1.2vw;
+            color: white;
+            letter-spacing: 0.2vw;
+            font-weight: 500;
+            position: absolute;
+            top: 65vw;
+            left: 10vw;
+            text-decoration-line: none;
+            z-index: 1400;
+        }
+
+        .f-location {
+            width: 23vw;
+            position: absolute;
+            left: 12vw;
+            color: white;
+        }
+
+        .f-tel {
+            width: 15vw;
+            position: absolute;
+            left: 35vw;
+        }
+
+        .f-email {
+            position: absolute;
+            left: 52vw;
+            color: white;
+        }
+
+        .b-box {
+            background-color: #CE3727;
+            width: 18vw;
+            height: 6vw;
+            position: absolute;
+            top: 63vw;
+            left: 0vw;
+            z-index: 1100;
+        }
+
+        .MOTION-FOR-EMTION {
+            color: red;
+            font-size: 1.5vw;
+            position: absolute;
+            top: 63.5vw;
+            left: 4vw;
+            color: white;
+            letter-spacing: 0.1vw;
+            z-index: 1900;
+        }
+
+        @keyframes rotateIn {
+            from {
+                -webkit-transform-origin: center;
+                transform-origin: center;
+                -webkit-transform: rotate3d(0, 0, 1, -200deg);
+                transform: rotate3d(0, 0, 1, -200deg);
+                opacity: 0;
+            }
+
+            to {
+                -webkit-transform-origin: center;
+                transform-origin: center;
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+                opacity: 1;
+            }
+        }
+
+        .rotateIn {
+            -webkit-animation-name: rotateIn;
+            animation-name: rotateIn;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navi">
+            <a href="about.html" class="navi about">About</a>
+            <a href="artists.html" class="navi artists">Artists</a>
+            <a href="info.html" class="navi info">Infomation</a>
+            <a href="schedual.html" class="navi schedual">Schedule</a>
+        </div>
+        <a href="index.html"><img class="small-logo" src="images/img-samll-logo.png" width="5%">
+        <div class="box"></div></a>
+        <div class="box"></div>
+        <div class="navi-bar"></div>
+
+
+        <img src="images/img-info-contact.svg" width=100%>
+
+        <h1>Info/Contact</h1>
+        <div class="when">When</div>
+        <div class="date">July 1st 2018</div>
+        <div class="time">Sun:11am - 7 pm</div>
+        <div class="where">Where</div>
+        <a class="brown-center" href="https://www.google.com/maps/place/MICA+%E2%80%93+Brown+Center/@39.308182,-76.6231627,17z/data=!3m1!4b1!4m5!3m4!1s0x89c804bf3c2be327:0x7c01c05830af3cbb!8m2!3d39.308182!4d-76.620974" target="blank">
+            <div class="location">MICA BROWN CENTER <br>1301 W Mt ROYAL AVE.</div>
+        </a>
+        <img class="x" src="images/img-x.svg">
+
+    </div>
+    <div class="footer">
+        <div class="bottom-box"></div>
+        <img class="social-media-icon" src="images/img-social-media-icon.svg">
+        <div class="navi-footer">
+            <a class="map-link" href="https://www.google.com/maps/place/Main+Bldg,+1300+W+Mt+Royal+Ave,+Baltimore,+MD+21217/@39.3075302,-76.6238553,17z/data=!3m1!4b1!4m5!3m4!1s0x89c804bf0e7279b9:0xf7770f351631cba9!8m2!3d39.3074853!4d-76.6216858" target="_blank">
+                <div class="f-location">1300 W Mount Royal Ave,Baltimore,MD 21217</div>
+            </a>
+            <div class="f-tel">Contact us:(410)669-9200</div>
+            <a class="email-link" href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession" target="blank">
+                <div class="f-email">Email:bhorne@mica.edu</div>
+            </a>
+
+        </div>
+
+        <a href="index.html">
+            <div class="MOTION-FOR-EMTION">MOTION<br>FOR<br>EMOTION</div>
+        </a>
+        <div class="b-box"></div>
+
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>

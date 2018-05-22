@@ -1,0 +1,1354 @@
+<!doctype html>
+<html>
+
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+	<!--    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+	<script src="js/jquery.easings.min.js"></script>
+
+	<script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+
+
+
+	<script>
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['01', '02', '03', '04', '05', '06', '07', '08'],
+				navigation: true,
+				navigationPosition: 'left',
+				continuousVertical: false,
+				scrollOverflow: true,
+				resetSliders: true,
+				afterLoad: function(anchorLink, index) {
+					if (index == 8) {
+						$(".arrow-down").addClass("fadeOut");
+					}
+				}
+			});
+		})
+
+		function openNav() {
+			document.getElementById("dropdown").style.display = "block";
+			document.getElementById("open").style.display = "none";
+			document.getElementById("close").style.display = "block";
+		}
+
+		function closeNav() {
+			document.getElementById("dropdown").style.display = "none";
+			document.getElementById("close").style.display = "none";
+			document.getElementById("open").style.display = "block";
+		}
+
+		function circlesidebar() {
+			document.getElementById("circle-1").style.backgroundColor = "#aa8c85";
+			document.getElementById("circle-2").style.backgroundColor = "white";
+			document.getElementById("circle-3").style.backgroundColor = "white";
+			document.getElementById("circle-4").style.backgroundColor = "white";
+			document.getElementById("circle-5").style.backgroundColor = "white";
+			document.getElementById("circle-6").style.backgroundColor = "white";
+			document.getElementById("circle-7").style.backgroundColor = "white";
+		}
+
+		function circlesidebarTwo() {
+			document.getElementById("circle-2").style.backgroundColor = "#aa8c85";
+			document.getElementById("circle-1").style.backgroundColor = "white";
+			document.getElementById("circle-3").style.backgroundColor = "white";
+			document.getElementById("circle-4").style.backgroundColor = "white";
+			document.getElementById("circle-5").style.backgroundColor = "white";
+			document.getElementById("circle-6").style.backgroundColor = "white";
+			document.getElementById("circle-7").style.backgroundColor = "white";
+		}
+
+		function circlesidebarThree() {
+			document.getElementById("circle-3").style.backgroundColor = "#aa8c85";
+			document.getElementById("circle-1").style.backgroundColor = "white";
+			document.getElementById("circle-2").style.backgroundColor = "white";
+			document.getElementById("circle-4").style.backgroundColor = "white";
+			document.getElementById("circle-5").style.backgroundColor = "white";
+			document.getElementById("circle-6").style.backgroundColor = "white";
+			document.getElementById("circle-7").style.backgroundColor = "white";
+		}
+
+		function circlesidebarFour() {
+			document.getElementById("circle-4").style.backgroundColor = "#aa8c85";
+			document.getElementById("circle-1").style.backgroundColor = "white";
+			document.getElementById("circle-2").style.backgroundColor = "white";
+			document.getElementById("circle-3").style.backgroundColor = "white";
+			document.getElementById("circle-5").style.backgroundColor = "white";
+			document.getElementById("circle-6").style.backgroundColor = "white";
+			document.getElementById("circle-7").style.backgroundColor = "white";
+		}
+
+		function circlesidebarFive() {
+			document.getElementById("circle-5").style.backgroundColor = "#aa8c85";
+			document.getElementById("circle-1").style.backgroundColor = "white";
+			document.getElementById("circle-2").style.backgroundColor = "white";
+			document.getElementById("circle-3").style.backgroundColor = "white";
+			document.getElementById("circle-4").style.backgroundColor = "white";
+			document.getElementById("circle-6").style.backgroundColor = "white";
+			document.getElementById("circle-7").style.backgroundColor = "white";
+		}
+
+		function circlesidebarSix() {
+			document.getElementById("circle-6").style.backgroundColor = "#aa8c85";
+			document.getElementById("circle-1").style.backgroundColor = "white";
+			document.getElementById("circle-2").style.backgroundColor = "white";
+			document.getElementById("circle-3").style.backgroundColor = "white";
+			document.getElementById("circle-4").style.backgroundColor = "white";
+			document.getElementById("circle-5").style.backgroundColor = "white";
+			document.getElementById("circle-7").style.backgroundColor = "white";
+		}
+
+		function circlesidebarSeven() {
+			document.getElementById("circle-7").style.backgroundColor = "#aa8c85";
+			document.getElementById("circle-1").style.backgroundColor = "white";
+			document.getElementById("circle-2").style.backgroundColor = "white";
+			document.getElementById("circle-3").style.backgroundColor = "white";
+			document.getElementById("circle-4").style.backgroundColor = "white";
+			document.getElementById("circle-5").style.backgroundColor = "white";
+			document.getElementById("circle-6").style.backgroundColor = "white";
+		}
+	</script>
+
+	<style>
+		.grid-container-1 {
+			display: grid;
+			grid-template-columns: 0.5fr 4fr 1fr;
+			grid-template-rows: 2fr 8fr 1fr;
+			grid-template-areas: "top-left top-place top-right" "pagebar main-place main-place" "bottom bottom bottom";
+			width: 100vw;
+			height: 100vh;
+			top: 0px;
+			min-width: 1140px;
+		}
+
+		body {
+			font-family: 'Nunito', sans-serif;
+			color: white;
+			background: linear-gradient(to bottom right, #e5a7a3, #fbc29c, #fbe3c1, #ccd8e3, #acc3d2);
+			padding: 50px 0;
+		}
+
+
+		.background {
+			min-height: 100%;
+			min-width: 1024px;
+			width: 100%;
+			height: 100vh;
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: -99;
+		}
+
+
+		@media screen and (max-width: 1024px) {
+			.background {
+				left: 50%;
+				margin-left: -512px;
+				/* 50% */
+			}
+		}
+
+		.title-logo {
+			position: fixed;
+			top: 1.5vw;
+			left: 3vw;
+			z-index: 99;
+		}
+
+		.title-logo-1 {
+			font-weight: 600;
+			font-size: 1vw;
+			line-height: 1em;
+			letter-spacing: 0.1em;
+			width: 7vw;
+			text-align: right;
+		}
+
+		.question-logo-1 {
+			font-weight: 300;
+			font-size: 3.7vw;
+			position: fixed;
+			top: -3vw;
+			left: 9.8vw;
+			z-index: 99;
+		}
+
+		.question-logo-2 {
+			font-weight: 300;
+			font-size: 3.7vw;
+			position: fixed;
+			top: -2.9vw;
+			left: 9.95vw;
+			z-index: 98;
+			color: #e5a7a3;
+		}
+
+
+		.menu {
+			box-sizing: border-box;
+			grid-area: top-right;
+			width: 30px;
+			height: 30px;
+			height: auto;
+			margin-top: 20px;
+			position: fixed;
+			top: 0.7vw;
+			right: 5vw;
+			z-index: 99;
+			display: block;
+			transition: 0.5s;
+			opacity: 1;
+		}
+
+		.menu:hover .menu-line-1 {
+			background-color: #e5a7a3;
+			transition: 0.5s;
+			cursor: pointer;
+			/*transform:rotate(45deg);
+            position:absolute;
+            top:1vw;*/
+		}
+
+		.menu:hover .menu-line-2 {
+			background-color: #e5a7a3;
+			transition: 0.5s;
+			cursor: pointer;
+			/*opacity:0;*/
+		}
+
+		.menu:hover .menu-line-3 {
+			background-color: #e5a7a3;
+			transition: 0.5s;
+			cursor: pointer;
+			/*transform:rotate(-45deg);
+            position:absolute;
+            top:0.5vw;*/
+		}
+
+		.menu-line-1 {
+			width: 40px;
+			height: 4px;
+			background-color: white;
+			grid-area: top-right;
+			border-radius: 25px;
+		}
+
+		.menu-line-2 {
+			width: 40px;
+			height: 4px;
+			background-color: white;
+			grid-area: top-right;
+			margin-top: 8px;
+			border-radius: 25px;
+		}
+
+		.menu-line-3 {
+			width: 40px;
+			height: 4px;
+			background-color: white;
+			grid-area: top-right;
+			margin-top: 8px;
+			border-radius: 25px;
+		}
+
+		.menu-line-4 {
+			width: 40px;
+			height: 4px;
+			background-color: white;
+			grid-area: top-right;
+			margin-top: 8px;
+			border-radius: 25px;
+			transform: rotate(45deg);
+			position: fixed;
+			top: 2.2vw;
+			transition: 0.5s;
+		}
+
+		.menu-line-5 {
+			width: 40px;
+			height: 4px;
+			background-color: white;
+			grid-area: top-right;
+			margin-top: 8px;
+			border-radius: 25px;
+			transform: rotate(-45deg);
+			position: fixed;
+			top: 2.2vw;
+			transition: 0.5s;
+		}
+
+		.menu:hover .menu-line-4 {
+			background-color: #e5a7a3;
+			cursor: pointer;
+		}
+
+		.menu:hover .menu-line-5 {
+			background-color: #e5a7a3;
+			cursor: pointer;
+		}
+
+		#close {
+			display: none;
+			transition: 0.5s;
+		}
+
+		.menu-dropdown {
+			text-align: right;
+			grid-area: main;
+			position: absolute;
+			top: 80px;
+			right: 4vw;
+			font-size: 19px;
+			font-weight: 400;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+		}
+
+		#dropdown {
+			display: none;
+		}
+
+		.snip1168 {
+			box-sizing: border-box;
+			margin-top: 40px;
+			position: relative;
+			top: -20px;
+			z-index: 100;
+			display: block;
+			font-weight: 400;
+		}
+
+		.snip1168 li {
+			display: block;
+			list-style-type: none;
+			margin-top: 0px;
+			padding: 0;
+			line-height: 40px;
+		}
+
+		.snip1168 a {
+			padding: 0;
+			color: rgba(255, 255, 255);
+			position: relative;
+			letter-spacing: 1px;
+			text-decoration: none;
+			line-height: 40px;
+		}
+
+		.snip1168 a:before,
+		.snip1168 a:after {
+			position: absolute;
+			-webkit-transition: all 0.35s ease;
+			transition: all 0.35s ease;
+		}
+
+		.snip1168 a:before {
+			top: 30px;
+			left: -2px;
+			display: block;
+			height: 3px;
+			width: 0%;
+			content: "";
+			background-color: #ffffff;
+		}
+
+		.snip1168 a:after {
+			left: 0;
+			top: -7px;
+			position: absolute;
+			content: attr(data-hover);
+			color: #e5a7a3;
+			white-space: nowrap;
+			max-width: 0%;
+			overflow: hidden;
+		}
+
+		.snip1168 a:hover:before,
+		.snip1168 .current a:before {
+			opacity: 1;
+			width: 100%;
+			cursor: pointer;
+		}
+
+		.snip1168 a:hover:after,
+		.snip1168 .current a:after {
+			max-width: 100%;
+			cursor: pointer;
+		}
+
+		/*https://codepen.io/littlesnippets/pen/pjKeyq?editors=1100*/
+
+		.sidebar {
+			grid-area: pagebar;
+			position: fixed;
+			top: 45%;
+			left: 20px;
+			z-index: 99;
+		}
+
+		.circle {
+			width: 0.4vw;
+			height: 0.4vw;
+			border-radius: 0.35vw;
+			background-color: white;
+			margin: 0.8vw;
+		}
+
+		.circle-1 {
+			background-color: white;
+		}
+
+		.circle:active {
+			background-color: #aa8c85;
+		}
+
+		.title {
+			grid-area: main-place;
+			position: relative;
+			top: 7.5vw;
+			left: -4.4vw;
+		}
+
+		.title-1 {
+			font-weight: 600;
+			font-size: 4vw;
+			line-height: 1em;
+			letter-spacing: 0.1em;
+			width: 34vw;
+			text-align: right;
+		}
+
+		.title-2 {
+			font-weight: 600;
+			font-size: 1.6vw;
+			letter-spacing: 0.1em;
+			position: absolute;
+			top: 10.5vw;
+			left: -0.4vw;
+			text-align: right;
+			width: 34vw;
+			color: #806765;
+		}
+
+		.line-under {
+			width: 5.3vw;
+			height: 0.25vw;
+			background-color: #806765;
+			position: absolute;
+			top: 14.1vw;
+			left: 22.2vw;
+			border-radius: 25px;
+		}
+
+		.question-1 {
+			font-weight: 300;
+			font-size: 22vw;
+			position: absolute;
+			top: -30.5vw;
+			left: 31vw;
+			z-index: 99;
+		}
+
+		.question-2 {
+			font-weight: 300;
+			font-size: 22vw;
+			position: absolute;
+			top: -30vw;
+			left: 31.5vw;
+			color: #e5a7a3;
+		}
+
+		.arrow-down {
+			transform: rotate(45deg);
+			-webkit-transform: rotate(45deg);
+			position: absolute;
+			top: 44vw;
+			right: 49.6vw;
+			border: solid white;
+			border-width: 0 0.1vw 0.1vw 0;
+			display: inline-block;
+			padding: 1vw;
+			animation: arrow 1s ease-in-out infinite;
+			opacity: 1;
+		}
+
+		@keyframes arrow {
+			0% {
+				top: 44vw;
+			}
+			50% {
+				top: 44.5vw;
+			}
+			100% {
+				top: 44vw;
+			}
+		}
+
+		.fadeOut {
+			animation: fadeOut 0.2s forwards;
+			animation-delay: 0.2s;
+		}
+
+		@keyframes fadeOut {
+			from {
+				opacity: 1;
+			}
+			to {
+				opacity: 0;
+			}
+		}
+
+		.fadeIn {
+			animation: fadeIn 0.2s forwards;
+		}
+
+		@keyframes fadeIn {
+			from {
+				opacity: 0;
+			}
+			to {
+				opacity: 1;
+			}
+		}
+
+		.about-1 {
+			position: absolute;
+			top: 15vw;
+			left: 10vw;
+		}
+
+		.about-head {
+			font-weight: 400;
+			font-size: 1.7vw;
+			width: 7vw;
+			height: 2.4vw;
+			text-align: center;
+			color: white;
+			border: 0.15vw solid white;
+			border-radius: 3px;
+			position: relative;
+			top: -1vw;
+			left: 5vw;
+		}
+
+		.more-info {
+			font-weight: 300;
+			font-size: 1.3vw;
+			width: 8vw;
+			height: 1.7vw;
+			text-align: center;
+			color: white;
+			border: 1.5px solid white;
+			border-radius: 3px;
+			position: relative;
+			top: 16vw;
+			left: 31.4vw;
+			padding: 1px;
+			-webkit-transition: all 0.35s ease;
+			transition: all 0.35s ease;
+
+		}
+
+		.more-info a {
+			text-decoration: none;
+			color: white;
+			text-align: center;
+		}
+
+		.more-info a:before,
+		.more-info a:after {
+			position: absolute;
+			-webkit-transition: all 0.35s ease;
+			transition: all 0.35s ease;
+		}
+
+		.more-info a:before {
+			top: 30px;
+			left: -2px;
+			display: block;
+			content: "";
+			/*
+            height: 3px;
+            width: 0%;
+            background-color: #ffffff;
+*/
+		}
+
+		.more-info a:after {
+			left: 0.56vw;
+			top: 0.07vw;
+			content: "MORE INFO";
+			font-weight: 400;
+			position: absolute;
+			color: #e5a7a3;
+			white-space: nowrap;
+			max-width: 0%;
+			overflow: hidden;
+			text-decoration: none;
+		}
+
+		.more-info a:hover:before,
+		.more-info .current a:before {
+			opacity: 1;
+			width: 100%;
+			cursor: pointer;
+		}
+
+		.more-info a:hover:after,
+		.more-info .current a:after {
+			max-width: 100%;
+			cursor: pointer;
+		}
+
+		.more-info-1 {
+			top: 14vw;
+		}
+
+		.content {
+			font-weight: 300;
+			font-size: 1.7vw;
+			letter-spacing: 0.1vw;
+			position: absolute;
+			top: 6vw;
+			left: 5vw;
+			text-align: left;
+			width: 36vw;
+			color: white;
+		}
+
+		.page-3 {
+			position: absolute;
+			top: 3.5vw;
+			left: 0.2vw;
+		}
+
+		.speakers {
+			font-weight: 400;
+			font-size: 1.7vw;
+			height: 2.5vw;
+			text-align: center;
+			color: white;
+			border: 0.15vw solid white;
+			border-radius: 3px;
+			width: 10vw;
+			position: absolute;
+			top: 6vw;
+			left: 15vw;
+		}
+
+		.headshots {
+			width: 17vw;
+			height: 17vw;
+			position: absolute;
+		}
+
+		.headshots-1 {
+			width: 19vw;
+			height: 19vw;
+			top: 13vw;
+			left: 12vw;
+			z-index: 98;
+		}
+
+		.headshots-3 {
+			width: 17.5vw;
+			height: 17vw;
+			top: 14vw;
+			left: 40vw;
+			z-index: 98;
+		}
+
+		.headshots-2 {
+			top: 14vw;
+			left: 68vw;
+			z-index: 98;
+		}
+
+		.white-circles:hover {
+			opacity: 0;
+			cursor: pointer;
+		}
+
+		.white-cicle {
+			width: 16.4vw;
+			height: 16.4vw;
+			background-color: white;
+			border-radius: 8.5vw;
+			opacity: 0.3;
+			position: absolute;
+			top: 14.3vw;
+			left: 13.2vw;
+			z-index: 99;
+		}
+
+		.white-cicle-1 {
+			width: 16vw;
+			height: 16.8vw;
+			background-color: white;
+			border-radius: 8.5vw;
+			opacity: 0.3;
+			position: absolute;
+			top: 14.1vw;
+			left: 40.75vw;
+			z-index: 99;
+		}
+
+		.white-cicle-2 {
+			width: 16.4vw;
+			height: 16.4vw;
+			background-color: white;
+			border-radius: 8.5vw;
+			opacity: 0.3;
+			position: absolute;
+			top: 14.3vw;
+			left: 68.3vw;
+			z-index: 99;
+		}
+
+		.names {
+			width: 20vw;
+			color: #aa8c85;
+			position: absolute;
+			letter-spacing: 1.2px;
+			word-spacing: 5px;
+			font-size: 1.5vw;
+			font-weight: 300;
+		}
+
+		.name-1 {
+			top: 33vw;
+			left: 15.2vw;
+		}
+
+		.name-2 {
+			top: 33vw;
+			left: 42.4vw;
+		}
+
+		.name-3 {
+			top: 33vw;
+			left: 69vw;
+		}
+
+		.white-circles:hover+.names {
+			color: #806765;
+		}
+
+		.white-circle:hover+.name-1 {
+			color: #806765;
+		}
+
+		.page-4 {
+			position: absolute;
+			top: -1vw;
+		}
+
+		.headshots-4 {
+			width: 19vw;
+			height: 19vw;
+			top: 13vw;
+			left: 10vw;
+			z-index: 98;
+		}
+
+		.jessica-info {
+			width: 40vw;
+			position: absolute;
+			top: 18vw;
+			left: 38vw;
+			color: #806765;
+			line-height: 1.5;
+			letter-spacing: 0.5px;
+			font-size: 1.3vw;
+			font-weight: 300;
+		}
+
+		i {
+			border: solid white;
+			border-width: 0 0.15vw 0.15vw 0;
+			display: inline-block;
+			padding: 2.8vw;
+		}
+
+		.right {
+			transform: rotate(-45deg);
+			-webkit-transform: rotate(-45deg);
+			position: absolute;
+			top: 23vw;
+			right: 5vw;
+		}
+
+		.left {
+			transform: rotate(135deg);
+			-webkit-transform: rotate(135deg);
+			position: absolute;
+			top: 23vw;
+			left: 9vw;
+		}
+
+		.name-4 {
+			top: 31vw;
+			left: 13vw;
+			color: #806765;
+		}
+
+		.more-info-jessica {
+			font-weight: 300;
+			top: 9vw;
+			left: 52vw;
+			color: white;
+			border: 0.15vw solid white;
+			text-decoration: none;
+			width: 8vw;
+		}
+
+		.more-info-jessica a:after {
+			left: 0.56vw;
+			top: 0.08vw;
+			content: "MORE INFO";
+			font-weight: 400;
+			position: absolute;
+			color: #e5a7a3;
+			white-space: nowrap;
+			max-width: 0%;
+			overflow: hidden;
+			text-decoration: none;
+		}
+
+
+
+		.headshots-5 {
+			width: 17.5vw;
+			height: 17vw;
+			top: 13vw;
+			left: 100vw;
+			z-index: 98;
+		}
+
+		.name-5 {
+			position: absolute;
+			top: 31vw;
+			left: 102vw;
+			color: #806765;
+		}
+
+		.michael-info {
+			width: 38vw;
+			position: absolute;
+			top: 16vw;
+			left: 126.7vw;
+			color: #806765;
+			line-height: 1.5;
+			letter-spacing: 0.5px;
+			font-size: 1.3vw;
+			font-weight: 300;
+		}
+
+		.headshots-6 {
+			width: 17.5vw;
+			height: 17vw;
+			top: 13vw;
+			left: 190.5vw;
+			z-index: 98;
+		}
+
+		.name-6 {
+			position: absolute;
+			top: 31vw;
+			left: 192.1vw;
+			color: #806765;
+		}
+
+		.leta-info {
+			width: 35vw;
+			position: absolute;
+			top: 16vw;
+			left: 220.5vw;
+			color: #806765;
+			line-height: 1.5;
+			letter-spacing: 0.5px;
+			font-size: 1.3vw;
+			font-weight: 300;
+		}
+
+		.schedule {
+			position: absolute;
+			left: 10vw;
+		}
+
+
+		.schedule-head {
+			width: 9.7vw;
+			height: 2.3vw;
+			font-weight: 400;
+			border: 0.15vw solid white;
+			font-size: 1.7vw;
+		}
+
+		.schedule-content {
+			font-weight: 300;
+			font-size: 1.5vw;
+		}
+
+		.location-head {
+			width: 9.7vw;
+			height: 2.3vw;
+			font-weight: 400;
+			border: 0.15vw solid white;
+			position: absolute;
+			left: 50vw;
+			font-size: 1.7vw;
+		}
+
+		.location-content {
+			font-weight: 300;
+			font-size: 1.5vw;
+			position: absolute;
+			left: 50vw;
+		}
+
+		.more-info-05 {
+			font-weight: 300;
+			left: 66vw;
+			border: 0.118vw solid white;
+		}
+
+		.more-info-06 {
+			font-weight: 300;
+			left: 5vw;
+			border: 0.118vw solid white;
+			left: 35vw;
+			top: 7vw;
+		}
+
+
+		.register-head {
+			width: 9.3vw;
+			height: 2.3vw;
+			font-weight: 400;
+			border: 0.15vw solid white;
+			font-size: 1.7vw;
+			left: 10vw;
+			top: 0vw;
+			color: white;
+		}
+
+		.register-content {
+			font-weight: 300;
+			font-size: 1.7vw;
+			top: 9vw;
+			left: 10vw;
+		}
+
+
+		.partner-head {
+			width: 21vw;
+			height: 2.3vw;
+			top: 1vw;
+			left: 9vw;
+			font-weight: 400;
+			border: 0.15vw solid white;
+			letter-spacing: 0.1vw;
+			font-size: 1.7vw;
+		}
+
+
+		.partner-1 {
+			position: absolute;
+			left: 80vw;
+			top: 4.2vw;
+			width: 2vw;
+		}
+
+		.partner-2 {
+			position: absolute;
+			left: 83.5vw;
+			top: 4.1vw;
+			width: 2.2vw;
+		}
+
+		.partner-3 {
+			position: absolute;
+			left: 87vw;
+			top: 4.2vw;
+			width: 2.2vw;
+		}
+
+		.partner-4 {
+			position: absolute;
+			left: 8vw;
+			top: 11vw;
+		}
+
+		.partner-5 {
+			position: absolute;
+			left: 17vw;
+			top: 11.5vw;
+		}
+
+		.partner-6 {
+			position: absolute;
+			left: 26vw;
+			top: 11.5vw;
+			width: 7.5vw;
+		}
+
+		.partner-7 {
+			position: absolute;
+			left: 38.5vw;
+			top: 11vw;
+			width: 4vw;
+		}
+
+		.page-8 {
+			height: 21vh;
+		}
+
+		.endbar {
+			width: 100%;
+			height: 10vw;
+			background-color: lightblue;
+			position: absolute;
+			background-blend-mode: darken;
+			opacity: 0.15;
+			bottom: 0vw;
+		}
+
+		.endbar-content {
+			color: white;
+			position: absolute;
+			bottom: 2.5vw;
+
+		}
+
+		.endbar-1 {
+			left: 43.5vw;
+			top: 3.7vw;
+			font-size: 1.2vw;
+			font-weight: 300;
+		}
+
+		.endbar-2 {
+			left: 43.5vw;
+			top: 1.4vw;
+			font-size: 1.2vw;
+			font-weight: 300;
+		}
+
+		.endbar-3 {
+			left: 90.5vw;
+			top: 3.2vw;
+			font-weight: 300;
+		}
+
+		.endbar-3 a {
+			text-decoration: none;
+			color: white;
+			letter-spacing: 0px;
+		}
+
+		.endbar-3 a:before,
+		.endbar-3 a:after {
+			position: absolute;
+			-webkit-transition: all 0.35s ease;
+			transition: all 0.35s ease;
+		}
+
+		.endbar-3 a:before {
+			top: 1.6vw;
+			left: 0px;
+			display: block;
+			content: "";
+
+			height: 0.1vw;
+			width: 0%;
+			background-color: #ffffff;
+
+		}
+
+		/*
+        .endbar-3 a:after {
+            left: 0vw;
+            top: 0vw;
+            content: "Email Us";
+            letter-spacing: 0px;
+            font-weight: 300;
+            position: absolute;
+            color: #e5a7a3;
+            white-space: nowrap;
+            max-width: 0%;
+            overflow: hidden;
+            text-decoration: none;
+        }
+*/
+
+		.endbar-3 a:hover:before,
+		.endbar-3 .current a:before {
+			opacity: 1;
+			width: 100%;
+			cursor: pointer;
+		}
+
+		.endbar-3 a:hover:after,
+		.endbar-3 .current a:after {
+			max-width: 100%;
+			cursor: pointer;
+		}
+
+
+		.endbar-4 {
+			left: 65vw;
+		}
+
+		.endbar-5 {
+			left: 80vw;
+		}
+
+		.logo-end {
+			margin: 20px;
+			margin-top: 0;
+			position: absolute;
+			bottom: 2vw;
+			left: 1.5vw;
+			z-index: 99;
+		}
+
+
+		.slidesContainer {
+			float: left;
+			position: absolute;
+			top: 2vw;
+			align-content: center;
+			left: 100px;
+			width: 89vw;
+			transition: all 1000ms ease;
+			transform: translate3d(0px, 0px, 0px);
+		}
+
+		.slide {
+			height: 100%;
+			display: block;
+			width: 100%;
+		}
+
+		.mica-logo-end {
+			width: 7vw;
+			position: absolute;
+			top: -2.5vw;
+			left: 1vw;
+		}
+	</style>
+
+</head>
+
+
+<body>
+
+	<div class="background"></div>
+	<div class="title-logo">
+		<p class="title-logo-1">FREELANCE<br>IN-HOUSE</p>
+		<p class="question-logo-1">?</p>
+		<p class="question-logo-2">?</p>
+
+	</div>
+	<div id="nav">
+		<div class="menu" id="open" onClick="openNav()">
+			<!-- <img src="gd2-final-images-copy/Asset%203.svg" width="50">-->
+			<div class="menu-line-1"></div>
+			<div class="menu-line-2"></div>
+			<div class="menu-line-3"></div>
+		</div>
+		<div class="menu" id="close" onClick="closeNav()">
+			<!-- <img src="gd2-final-images-copy/Asset%203.svg" width="50">-->
+			<div class="menu-line-4"></div>
+			<div class="menu-line-5"></div>
+
+		</div>
+
+		<div class="menu-dropdown" id="dropdown">
+			<ul class="snip1168">
+				<li class="current"><a href="index.html" data-hover="Home">Home</a></li>
+				<li><a href="about.html" data-hover="About this event">About this event</a></li>
+				<li><a href="speakers.html" data-hover="speakers">speakers</a></li>
+				<li><a href="schedule.html" data-hover="Schedule / Location">Schedule / Location</a></li>
+				<li><a href="register.html" data-hover="Register">Register</a></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div id="fullpage">
+		<div class="section">
+			<div class="grid-container-1 page page-1">
+
+				<div class="title">
+					<p class="title-1">FREELANCE<br>IN-HOUSE</p>
+					<p class="title-2">What is YOUR choice</p>
+					<p class="question-1">?</p>
+					<p class="question-2">?</p>
+					<div class="line-under"></div>
+				</div>
+				<i class="arrow-down"></i>
+			</div>
+		</div>
+
+		<div class="section">
+
+			<div class="grid-container-1 page page-2">
+
+				<div class="title about-1">
+					<p class="about-head">ABOUT</p>
+					<p class="content">This event is held particularly for design students who are worrying about what to do next after graduate, or in 5 years,<br> or 10 years.</p>
+					<p class="more-info more-info-1"><a href="about.html">MORE INFO</a></p>
+				</div>
+				<i class="arrow-down"></i>
+
+
+			</div>
+
+		</div>
+
+		<div class="section">
+			<div class="grid-container-1 page page-3">
+
+
+				<p class="speakers">SPEAKERS</p>
+
+				<div class="speaker-images">
+					<a href="index.html#04" class="white-circles white-cicle">
+                    </a>
+					<p class="names name-1">JESSICA HISCHE</p>
+					<a href="index.html#04/slide2" class="white-circles white-cicle-1"></a>
+					<p class="names name-2">MICHAEL BIERUT</p>
+					<a href="index.html#04/slide3" class="white-circles white-cicle-2"></a>
+					<p class="names name-3">LETA SOBIERAJSKI </p>
+					<img src="gd2-final-images-copy/helenaprice-crop.png" class="headshots headshots-1">
+					<img src="gd2-final-images-copy/IMG_8217.png" class="headshots headshots-2">
+					<img src="gd2-final-images-copy/maxresdefault%20(1).png" class="headshots headshots-3">
+
+				</div>
+
+			</div>
+			<i class="arrow-down"></i>
+
+
+		</div>
+
+		<div class="section">
+			<div class="grid-container-1 page page-4">
+				<i class="right .fp-controlArrow .fp-next"></i>
+				<i class="left .fp-controlArrow .fp-prev"></i>
+				<div class="slidesContainer">
+					<div class="jessica slide" data-anchor="slide1">
+						<img src="gd2-final-images-copy/helenaprice-crop.png" class="headshots headshots-4">
+						<p class="names name-4">JESSICA HISCHE</p>
+						<p class="jessica-info">
+							Jessica Nicole Hische is an American letterer, illustrator, and<br> type designer. She published "In Progress: See Inside a Lettering Artist's Sketchbook and Process, from Pencil to Vector" in September 2015, which gives insight to her creative process,<br>and work she has completed as a hand lettering artist.
+						</p>
+						<p class="more-info more-info-jessica"><a href="speakers.html#02">MORE INFO</a></p>
+					</div>
+
+					<div class="slide" data-anchor="slide2">
+						<img src="gd2-final-images-copy/maxresdefault%20(1).png" class="headshots headshots-5">
+						<p class="names name-5">MICHAEL BIERUT</p>
+						<p class="michael-info">
+							Michael Bierut studied graphic design at the University<br> of Cincinnati’s College of Design, Architecture, Art and Planning, graduating summa cum laude in 1980. He worked for ten years at Vignelli Associates before joining Pentagram as a partner in 1990.
+						</p>
+						<p class="more-info more-info-jessica"><a href="speakers.html#03">MORE INFO</a></p>
+
+					</div>
+
+					<div class="leta slide" data-anchor="slide3">
+						<img src="gd2-final-images-copy/IMG_8217.png" class="headshots headshots-6">
+						<p class="names name-6">LETA SOBIERAJSKI</p>
+						<p class="leta-info">
+							Leta Sobierajski is an independent designer and art director based in New York City combining traditional graphic design elements with photography, art, and styling to create utterly unique visuals. Her work is incredibly diverse, ranging from conventional identities<br> to brilliantly bizarre compositions.
+
+						</p>
+						<p class="more-info more-info-jessica"><a href="speakers.html#04">MORE INFO</a></p>
+					</div>
+				</div>
+				<i class="arrow-down"></i>
+
+
+			</div>
+		</div>
+		<div class="section">
+			<div class="grid-container-1 page page-5">
+				<div class="title">
+					<p class="about-head schedule-head schedule">SCHEDULE</p>
+					<p class="content schedule-content schedule">Friday<br>May 04, 2018<br>6pm-9pm</p>
+					<p class="about-head location-head">LOCATION</p>
+					<p class="content location-content">MICA Brown Center, Falvey Hall,<br> 1301 W Mt Royal Ave<br> Baltimore, Maryland 21217 </p>
+					<p class="more-info more-info-05 current">
+						<a href="schedule.html" data-hover="MORE INFO">MORE INFO</a>
+					</p>
+				</div>
+				<i class="arrow-down"></i>
+
+			</div>
+		</div>
+		<div class="section">
+			<div class="grid-container-1 page page-6">
+				<div class="background"></div>
+				<div class="title register">
+					<p class="about-head register-head">REGISTER</p>
+					<p class="content register-content">One time ticket<br> Available only for today</p>
+					<p class="more-info more-info-06"><a href="register.html">MORE INFO</a></p>
+				</div>
+				<i class="arrow-down"></i>
+
+			</div>
+		</div>
+		<div class="section">
+			<div class="grid-container-1 page page-7">
+				<div class="background"></div>
+				<div class="title">
+					<p class="about-head partner-head">PARTNERS & FRIENDS</p>
+
+					<img src="gd2-final-images-copy/google-logo-icon-PNG-Transparent-Background%20copy.png" width="70vw" class="partner-4">
+					<img src="gd2-final-images-copy/Artboard%201@2x.png" width="70vw" class="partner-5">
+					<img src="gd2-final-images-copy/yixin.png" width="70vw" class="partner-6">
+					<img src="gd2-final-images-copy/11_kk_apple_128.png" class="partner-7">
+				</div>
+				<i class="arrow-down"></i>
+			</div>
+		</div>
+
+		<div class="section fp-auto-height">
+			<div class="page-8">
+				<div class="endbar">
+				</div>
+				<div class="logo-end">
+					<a href="https://www.mica.edu" target="_blank"> <img src="gd2-final-images-copy/Asset%201.png" class="mica-logo-end"> </a>
+				</div>
+				<p class="endbar-content endbar-1">Freelance / In-House<br>What is your choice?</p>
+				<p class="endbar-content endbar-2">2018 Design Festival</p>
+				<a href="https://www.instagram.com/?hl=en" target="_blank"><img src="gd2-final-images-copy/2000px-Instagram_simple_icon.svg.png" width="70vw" class="partner-1"></a>
+				<a href="https://www.facebook.com/profile.php?id=100004798726768" target="_blank"><img src="gd2-final-images-copy/facebook-f.png" width="70vw" class="partner-2"></a>
+				<a href="https://twitter.com/?lang=en" target="_blank"><img src="gd2-final-images-copy/twitter.png" width="70vw" class="partner-3"></a>
+				<p class="endbar-content endbar-3"><a href="mailto:xyuan@mica.edu">Email Us</a></p>
+				<!--
+                <p class="endbar-content endbar-3">About<br>Contact<br>Register</p>
+                <p class="endbar-content endbar-4">Home<br>Speakers<br>Schedule/Location</p>
+                <p class="endbar-content endbar-5">Join Us</p>
+-->
+
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+</body>
+
+
+</html>

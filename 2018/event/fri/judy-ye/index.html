@@ -1,0 +1,311 @@
+<!doctype html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Titillium+Web" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
+
+    <style>
+        .home {
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(19, 27, 33);
+        }
+
+        .title1 {
+            color: rgb(19, 27, 33);
+            text-shadow: rgb(25, 114, 142) 0px 1px 50px;
+            font-family: 'Do Hyeon', sans-serif;
+            font-size: 6.3vw;
+            position: absolute;
+            top: 38vw;
+            left: 19vw;
+            text-align: center;
+            word-spacing: 2.93vw;
+            -webkit-text-stroke: 1px rgba(154, 184, 210);
+            z-index: 20;
+            animation: opacity 10s forwards,
+            move 5s forwards;
+        }
+
+        @keyframes move {
+            from {
+                top: 38vw;
+            }
+            to {
+                top: 17vw;
+            }
+        }
+
+        .title2 {
+            color: rgb(19, 27, 33);
+            font-family: 'Do Hyeon', sans-serif;
+            font-size: 6.3vw;
+            position: absolute;
+            top: 38vw;
+            left: 19vw;
+            text-align: center;
+            word-spacing: 2.93vw;
+            -webkit-text-stroke: 1px rgb(154, 184, 210, 0.7);
+            z-index: 10;
+            animation: opacity 8s forwards,
+            move-1 4s forwards;
+        }
+
+        @keyframes move-1 {
+            from {
+                top: 38vw;
+            }
+            to {
+                top: 20vw;
+            }
+        }
+
+        .title3 {
+            color: rgb(19, 27, 33);
+            font-family: 'Do Hyeon', sans-serif;
+            font-size: 6.3vw;
+            position: absolute;
+            top: 38vw;
+            left: 19vw;
+            text-align: center;
+            word-spacing: 2.93vw;
+            -webkit-text-stroke: 1px rgba(154, 184, 210, 0.5);
+            z-index: 6;
+            animation: opacity 6s forwards,
+            move-2 3s forwards;
+        }
+
+        @keyframes move-2 {
+            from {
+                top: 38vw;
+            }
+            to {
+                top: 23vw;
+            }
+        }
+
+        .title4 {
+            color: rgb(19, 27, 33);
+            font-family: 'Do Hyeon', sans-serif;
+            font-size: 6.3vw;
+            position: absolute;
+            top: 38vw;
+            left: 19vw;
+            text-align: center;
+            word-spacing: 2.93vw;
+            -webkit-text-stroke: 1px rgba(154, 184, 210, 0.4);
+            z-index: 4;
+            animation: opacity 4s forwards,
+            move-3 2s forwards;
+        }
+
+        @keyframes move-3 {
+            from {
+                top: 38vw;
+            }
+            to {
+                top: 26vw;
+            }
+        }
+
+        .title5 {
+            color: rgb(19, 27, 33);
+            font-family: 'Do Hyeon', sans-serif;
+            font-size: 6.3vw;
+            position: absolute;
+            top: 38vw;
+            left: 19vw;
+            text-align: center;
+            word-spacing: 2.93vw;
+            -webkit-text-stroke: 1px rgba(154, 184, 210, 0.2);
+            z-index: 3;
+            animation: opacity 2s forwards,
+            move-4 1s forwards;
+        }
+
+        @keyframes move-4 {
+            from {
+                top: 38vw;
+            }
+            to {
+                top: 29vw;
+            }
+        }
+
+        .title6 {
+            color: rgb(19, 27, 33);
+            font-family: 'Do Hyeon', sans-serif;
+            font-size: 6.3vw;
+            position: absolute;
+            top: 38vw;
+            left: 19vw;
+            text-align: center;
+            word-spacing: 2.93vw;
+            -webkit-text-stroke: 1px rgba(154, 184, 210, 0.1);
+            animation: opacity 0.5s forwards,
+            move-5 0.5s forwards;
+        }
+
+        @keyframes move-5 {
+            from {
+                top: 38vw;
+            }
+            to {
+                top: 32vw;
+            }
+        }
+
+        @keyframes opacity {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+
+        .logo {
+            width: 7vw;
+            position: absolute;
+            top: 4.8vw;
+            left: 3vw;
+            z-index: 300;
+        }
+
+        .logo:hover {
+            cursor: pointer;
+        }
+
+        .navigation {
+            width: 5%;
+            position: absolute;
+            left: 90vw;
+            top: 5.2vw;
+            display: block;
+        }
+
+        .navigation:hover {
+            cursor: pointer;
+        }
+
+        .navigation1 {
+            width: 5%;
+            position: absolute;
+            top: 5.2vw;
+            left: 90vw;
+            display: block;
+            z-index: 500;
+        }
+
+        .navigation1:hover {
+            cursor: pointer;
+        }
+
+        #close {
+            display: none;
+        }
+
+
+        .menu-dropdown {
+            text-align: center;
+            position: absolute;
+            top: 8vw;
+            right: 4vw;
+            font-family: 'roboto condensed';
+            font-weight: lighter;
+            font-size: 1.2vw;
+            line-height: 2;
+            text-decoration: none;
+        }
+
+        #dropdown {
+            display: none;
+        }
+
+        .snip1168 {
+            box-sizing: border-box;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 10vw;
+            text-align: right;
+            margin-top: 40px;
+            position: relative;
+            top: -30px;
+            right: 1vw;
+            z-index: 100;
+            display: block;
+            text-decoration: none;
+        }
+
+        .snip1168 li {
+            display: block;
+            list-style-type: none;
+            margin-top: 0px;
+            padding: 0;
+            line-height: 40px;
+            color: #648298;
+        }
+
+        .snip1168 a {
+            text-decoration: none;
+            color: #648298;
+        }
+
+        .snip1168 a:hover {
+            color: white;
+        }
+    </style>
+
+    <script>
+        function openNav() {
+            document.getElementById("dropdown").style.display = "block";
+            document.getElementById("open").style.display = "none";
+            document.getElementById("close").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("dropdown").style.display = "none";
+            document.getElementById("close").style.display = "none";
+            document.getElementById("open").style.display = "block";
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="home"></div>
+    <div class="menu">
+        <a href="index.html"><img class="logo" src="images/logo.svg"></a>
+    </div>
+    <div class="TITLE">
+        <div class="title1">DESIGN AS ATTITUDE</div>
+        <div class="title2">DESIGN AS ATTITUDE</div>
+        <div class="title3">DESIGN AS ATTITUDE</div>
+        <div class="title4">DESIGN AS ATTITUDE</div>
+        <div class="title5">DESIGN AS ATTITUDE</div>
+        <div class="title6">DESIGN AS ATTITUDE</div>
+    </div>
+    <div class="menu">
+        <div id="open" onClick="openNav()">
+            <img class="navigation" src="images/navigation.svg">
+        </div>
+        <div id="close" onClick="closeNav()">
+            <img class="navigation1" src="images/navigation1.svg">
+        </div>
+        <div class="menu-dropdown" id="dropdown">
+            <ul class="snip1168">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="speakers.html">SPEAKERS</a></li>
+                <li><a href="info.html">SCHEDULE & INFO</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Somebody That I Used To Know</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        html {
+            font-family: "helvetica";
+            letter-spacing: .3p;
+        }
+
+        .sm-1 {
+            font-size: 2.5vw;
+        }
+
+        .sm-2 {
+            font-size: 2vw;
+        }
+
+        .sm-3 {
+            font-size: 2.3vw
+        }
+
+        .sm-4 {
+            font-size: 12px;
+            font-size: 0.83vw;
+            letter-spacing: 1.2px;
+        }
+
+        .sm-5 {
+            font-size: 15px;
+            font-size: 1.05vw;
+            letter-spacing: 1.5px;
+        }
+
+        .blue {
+            color: rgb(52, 132, 180);
+        }
+
+        .red {
+            color: rgb(166, 20, 20)
+        }
+
+        .green {
+            color: rgb(44, 85, 48)
+        }
+
+        .title {
+            font-size: 2vw;
+            text-align: right;
+            letter-spacing: 1.5px;
+            top: 35%;
+            right: 15%;
+            line-height: 1.5;
+        }
+
+        .Now-5-7 {
+            top: 70%;
+            left: 15%;
+            text-align: left;
+            height: 100%;
+            width: 100%;
+        }
+
+        .Like-5-7 {
+            top: 85%;
+            left: 15%;
+            text-align: left;
+            height: 100%;
+            width: 100%;
+        }
+
+        .Told-9-11 {
+            top: -1.5%;
+            left: 10%;
+            text-align: left;
+            height: 100%;
+            width: 100%;
+            line-height: 1.6;
+        }
+
+        .But-9-11 {
+            top: 14%;
+            left: 10%;
+            text-align: left;
+            height: 100%;
+            width: 100%;
+        }
+
+        .You-14-16 {
+            top: 30%;
+            right: 10%;
+            text-align: right;
+            height: 100%;
+            width: 100%;
+        }
+
+        .Like-14-16 {
+            top: 45%;
+            right: 10%;
+            text-align: right;
+            height: 100%;
+            width: 100%;
+        }
+
+        .So-14-16 {
+            top: 60%;
+            right: 10%;
+            text-align: right;
+            height: 100%;
+            width: 100%;
+        }
+
+        .Well-18-20 {
+            top: -25%;
+            right: 10%;
+            text-align: right;
+            height: 100%;
+            width: 100%;
+        }
+
+        .But-18-20 {
+            top: -10%;
+            right: 10%;
+            text-align: right;
+            height: 100%;
+            width: 100%;
+        }
+
+        .But-21-23 {
+            top: 10%;
+            left: 7.5%;
+            text-align: left;
+            height: 100%;
+            width: 100%;
+            line-height: 1.6;
+        }
+
+        .Make-21-23 {
+            top: 27%;
+            left: 7.5%;
+            text-align: left;
+            height: 100%;
+            width: 100%;
+            line-height: 1.6;
+        }
+
+        .And-21-23 {
+            top: 43.5%;
+            left: 7.5%;
+            text-align: left;
+            height: 100%;
+            width: 100%;
+            line-height: 1.6;
+        }
+
+        .But-21-23-2 {
+            top: 60%;
+            left: 7.5%;
+            text-align: left;
+            height: 100%;
+            width: 100%;
+            line-height: 1.6;
+        }
+
+        .No-21-23 {
+            top: 77%;
+            left: 7.5%;
+            text-align: left;
+            height: 100%;
+            width: 100%;
+            line-height: 1.6;
+        }
+
+        .Have-21-23 {
+            top: 94%;
+            left: 7.5%;
+            text-align: left;
+            height: 100%;
+            width: 100%;
+            line-height: 1.6;
+        }
+
+        .I-25-27 {
+            top: 11%;
+            left: 10%;
+            text-align: left;
+            height: 100%;
+            width: 100%;
+            line-height: 1.6;
+        }
+
+        .Now-25-27 {
+            top: 26%;
+            left: 10%;
+            text-align: left;
+            height: 100%;
+            width: 100%;
+            line-height: 1.5;
+        }
+
+        .Now-35-36 {
+            top: -50%;
+            right: 15%;
+            text-align: right;
+            height: 100%;
+            width: 100%;
+            line-height: 1.6;
+        }
+
+        .But-35-36 {
+            top: -35%;
+            right: 15%;
+            text-align: right;
+            height: 100%;
+            width: 100%;
+            line-height: 1.6;
+        }
+
+        .But-35-36-2 {
+            top: -19.5%;
+            right: 15%;
+            text-align: right;
+            height: 100%;
+            width: 100%;
+            line-height: 1.6;
+        }
+
+        .You-35-36 {
+            top: -6.2%;
+            right: 15%;
+            text-align: right;
+            height: 100%;
+            width: 100%;
+            line-height: 1.5;
+        }
+
+        .But-37-38 {
+            top: 60%;
+            left: 15%;
+            text-align: left;
+            height: 100%;
+            width: 100%;
+            line-height: 3.9;
+        }
+
+        .And-41-42 {
+            top: -6.8%;
+            left: 15%;
+            text-align: left;
+            height: 100%;
+            width: 100%;
+            line-height: 3.9;
+        }
+
+        .No-45-47 {
+            top: -75%;
+            left: 10%;
+            text-align: left;
+            height: 100%;
+            width: 100%;
+            line-height: 3.9;
+        }
+
+        .Now-45-47 {
+            font-size: 12px;
+            top: -20%;
+            left: 10%;
+            text-align: left;
+            width: 100%;
+            line-height: 1.5;
+        }
+
+        .I-45-47 {
+            font-size: 12px;
+            top: 22%;
+            left: 10%;
+            text-align: left;
+            width: 100%;
+            line-height: 1.6;
+        }
+
+        <!--사진-->.img-1-2 {
+            background-image: url("/images/img-1-2.png");
+            background-size: cover;
+        }
+
+        .img-3-4 {
+            background-image: url("/images/img-3-4.png");
+            background-size: cover;
+        }
+
+        .img-5-7 {
+            background-image: url("/images/img-5-7.png");
+            background-size: cover;
+        }
+
+        .img-8 {
+            background-image: url("/images/img-8.png");
+            background-size: cover;
+        }
+
+        .img-9-11 {
+            background-image: url("images/img-9-11.png");
+            background-size: cover;
+        }
+
+        .img-12 {
+            background-image: url("images/img-12.png");
+            background-size: cover;
+        }
+
+        .img-14-16 {
+            background-image: url("images/img-14-16.png");
+            background-size: cover;
+        }
+
+        .img-17 {
+            background-image: url("images/img-17.png");
+            background-size: cover;
+        }
+
+        .img-18-20 {
+            background-image: url("images/img-18-20.png");
+            background-size: cover;
+        }
+
+        .img-21-23 {
+            background-image: url("images/img-21-23.png");
+            background-size: cover;
+        }
+
+        .img-24 {
+            background-image: url("images/img-24.png");
+            background-size: cover;
+        }
+
+        .img-25-27 {
+            background-image: url("images/img-25-27.png");
+            background-size: cover;
+        }
+
+        .img-28 {
+            background-image: url("images/img-28.png");
+            background-size: cover;
+        }
+
+        .img-29-31 {
+            background-image: url("images/img-29-31.png");
+            background-size: cover;
+
+        }
+
+        .img-33-34 {
+            background-image: url("images/img-33-34.png");
+            background-size: cover;
+        }
+
+        .img-35-36 {
+            background-image: url("images/img-35-36.png");
+            background-size: cover;
+        }
+
+        .img-37-38 {
+            background-image: url("images/img-37-38.png");
+            background-size: cover;
+        }
+
+        .img-39-40 {
+            background-image: url("images/img-39-40.png");
+            background-size: cover;
+        }
+
+        .img-41-42 {
+            background-image: url("images/img-41-42.png");
+            background-size: cover;
+        }
+
+        .img-43-44 {
+            background-image: url("images/img-43-44.png");
+            background-size: cover;
+        }
+
+        .img-45-47 {
+            background-image: url("images/img-45-47.png");
+            background-size: cover;
+        }
+
+        .img-48 {
+            background-image: url("images/img-48.png");
+            background-size: cover;
+        }
+
+        .img-49-52 {
+            background-image: url("images/img-49-52.png");
+            background-size: cover;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- ALL YOUR CODE MUST BE IN CONTAINER -->
+    <div class="container">
+        <div class="row">
+            <div class="col-50 quarter img-1-2"> </div>
+            <div class="col-50 quarter img-3-4">
+                <p class="title sm-1"> <span class="blue">Somebody</span> That <span class="red">I</span> Used To Know<br> - Gotye (feat. Kimbra)
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-50 quarter img-5-7">
+                <p class="Now-5-7 sm-4">Now and then <span class="red">I</span> think of when <span class="green">we</span> were together</p>
+                <p class="Like-5-7 sm-4">Like when <span class="blue">you</span> said you felt so happy <span class="blue">you</span> could die</p>
+            </div>
+            <div class="col-offset-25 col-25 quarter img-8"> </div>
+        </div>
+
+        <div class="row">
+            <div class="col-75 quarter img-9-11">
+                <p class="Told-9-11 sm-4">Told <span class="red">myself</span> that <span class="blue">you</span> were right for <span class="red">me</span> but felt so lonely in <span class="blue">your</span> <span class="red">company</span></p>
+                <p class="But-9-11 sm-4">But that was love and it's an ache <span class="red">I</span> still remember</p>
+            </div>
+            <div class="col-25 quarter img-12"> </div>
+        </div>
+
+        <div class="row">
+            <div class="col-offset-25 col-75 quarter img-14-16">
+                <p class="You-14-16 sm-4"> <span class="blue">You</span> can get addicted to a certain kind of sadness
+                    <p class="Like-14-16 sm-4"> Like resignation to the end, always the end</p>
+                    <p class="So-14-16 sm-4">So when <span class="green">we</span> found that <span class="green">we</span> could not make sense</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25 quarter img-17"> </div>
+            <div class="col-75 quarter img-18-20">
+                <p class="Well-18-20 sm-4">Well <span class="blue">you</span> said that <span class="green">we</span> would still be friends</p>
+                <p class="But-18-20 sm-4">But <span class="red">I'll</span> admit that <span class="red">I</span> was glad it was over</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-75 quarter img-21-23"> </div>
+            <p class="But-21-23 sm-5"> But <span class="blue">you</span> didn't have to cut <span class="red">me</span> off</p>
+            <p class="Make-21-23 sm-5">Make out like it never happened and that <span class="green">we</span> were nothing</p>
+            <p class="And-21-23 sm-5"> And <span class="red">I</span> don't even need <span class="blue">your</span> love</p>
+            <p class="But-21-23-2 sm-5">But <span class="blue">you</span> treat <span class="red">me</span> like a <span class="red">stranger</span> and that feels so rough</p>
+            <p class="No-21-23 sm-5">No, <span class="blue">you</span> didn't have to stoop so low</p>
+            <p class="Have-21-23 sm-5">Have <span class="blue">your</span> friends collect <span class="blue">your</span> records and then change <span class="blue">your</span> number</p>
+            <div class="col-25 quarter img-24"> </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-75 quarter img-25-27">
+            <p class="I-25-27 sm-5"> <span class="red">I</span> guess that <span class="red">I</span> don't need that though </p>
+            <p class="Now-25-27 sm-5">Now <span class="blue">you're</span> just <span class="blue">somebody</span> that <span class="red">I</span> used to know<br>Now <span class="blue">you're</span> just <span class="blue">somebody</span> that <span class="red">I</span> used to know<br>Now <span class="blue">you're</span> just <span class="blue">somebody</span> that <span class="red">I</span> used to know</p>
+        </div>
+        <div class="col-25 quarter img-28"> </div>
+    </div>
+
+    <div class="row">
+        <div class="col-75 quarter img-29-31"> </div>
+    </div>
+
+    <div class="row">
+        <div class="col-50 quarter img-33-34"> </div>
+        <div class="col-50 quarter img-35-36">
+            <p class="Now-35-36 sm-4"> Now and then <span class="blue">I</span> think of all the times <span class="red">you</span> screwed <span class="blue">me</span> over</p>
+            <p class="But-35-36 sm-4">But had <span class="blue">me</span> believing it was always something that <span class="blue">I'd</span> done </p>
+            <p class="But-35-36-2 sm-4">But <span class="blue">I</span> don't wanna live that way reading into every word <span class="red">you</span> say</p>
+            <p class="You-35-36 sm-5"><span class="red">You</span> said that <span class="red">you</span> could let it go and <span class="blue">I</span> wouldn't catch <span class="red">you</span> hung up on<br><span class="blue">Somebody</span> that <span class="red">you</span> used to know</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-50 quarter img-37-38">
+            <p class="But-37-38 sm-5">But <span class="blue">you</span> didn't have to cut <span class="red">me</span> off <br>Make out like it never happened and that <span class="green">we</span> were nothing</p>
+        </div>
+        <div class="col-50 quarter img-39-40"> </div>
+    </div>
+
+    <div class="row">
+        <div class="col-50 quarter img-41-42">
+            <p class="And-41-42 sm-5">And <span class="red">I</span> don't even need <span class="blue">your</span> love <br>But <span class="blue">you</span> treat <span class="red">me</span> like a stranger and that feels so rough</p>
+        </div>
+        <div class="col-50 quarter img-43-44"> </div>
+    </div>
+
+    <div class="row">
+        <div class="col-75 quarter img-45-47">
+            <p class="No-45-47 sm-5">No, <span class="blue">you</span> didn't have to stoop so low <br>Have <span class="blue">your</span> friends collect <span class="blue">your</span> records and then change <span class="blue">your</span> number <br><span class="red">I</span> guess that <span class="red">I</span> don't need that though</p>
+            <p class="Now-45-47 sm-4"><span class="sm-5">Now</span> <span class="blue sm-5">you're</span> <span class="sm-5">just</span> <span class="blue sm-5">soebody</span> <span class="sm-5">that</span> <span class="red sm-5">I</span> <span class="sm-5">used to know</span> <br><span class="blue sm-5">Somebody</span> <span class="red sm-4">I</span> <span class="sm-4">used to know</span> <br><span class="blue sm-5">Somebody</span> <span class="sm-5">Now</span> <span class="blue sm-5">you're</span> <span class="sm-5">just</span> <span class="blue sm-5">somebody</span> <span class="sm-5">that</span> <span class="red sm-5">I</span> <span class="sm-5">used to know </span><br><span class="blue sm-5">Somebody</span> <span class="red sm-4">I</span> <span class="sm-4">used to know</span> <br><span class="blue sm-5">Somebody</span> <span class="sm-5">Now</span> <span class="blue sm-5">you're</span> <span class="sm-5">just</span> <span class="blue sm-5">somebody</span> <span class="sm-5">that</span> <span class="red sm-5">I</span> <span class="sm-5">used to know </span>
+            </p>
+            <p class="I-45-47 sm-4"><span class="red sm-4">I</span> <span class="sm-4">used to know, that </span><span class="red sm-4">I</span> <span class="sm-4">used to know,</span> <span class="red sm-4">I</span> <span class="sm-4">used to know</span> <span class="blue sm-4">somebody</span></p>
+        </div>
+        <div class="col-25 quarter img-48"> </div>
+    </div>
+
+    <div class="row">
+        <div class="col-100 quarter img-49-52"> </div>
+    </div>
+
+    <!-- DO NOT CHANGE CODES BELOW-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.lazyload.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('div').lazyload(
+                effect: "fadeIn"
+            );
+        });
+
+    </script>
+</body>
+
+</html>

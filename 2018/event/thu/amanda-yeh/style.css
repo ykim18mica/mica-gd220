@@ -1,0 +1,432 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background: linear-gradient(to right, #E5CBFF, #CDFFCB);
+    color: white;
+    position: relative;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgba(30, 0, 50, 0.6);
+    height: 5vw;
+    width: 100%;
+}
+
+.top-nav {
+    font-family: 'Exo', sans-serif;
+}
+
+.top-logo,
+.top-logo-home {
+    width: 7%;
+    display: inline-block;
+    position: relative;
+    left: 6%;
+    top: 0.8vw;
+}
+
+.nav {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    left: 50%;
+    top: -0.5vw;
+}
+
+.nav > div,
+.nav > a {
+    display: inline-block;
+    margin-left: 7%;
+    font-size: 1.2vw;
+}
+
+.nav-a:hover {
+    color: #06FF23;
+    text-decoration: underline;
+}
+
+.registar {
+    background-color: rgb(109, 55, 163);
+    padding: 2.6%;
+    position: relative;
+    left: -1.2vw;
+    padding-bottom: 2.4%;
+    transition: 0.5s;
+    left: -1.5vw;
+}
+
+.registar:hover {
+    color: white;
+    background: linear-gradient(to right, rgb(109, 55, 163), #00058B);
+    transition: 0.8s;
+}
+
+#registar-id {
+    margin-left: 4%;
+    background-color: none;
+    padding: 1.7%;
+    padding-top: 1.8%;
+    padding-left: 3.6%;
+}
+
+#registar-id:hover {
+    color: #06FF23;
+    text-decoration: underline;
+}
+
+
+.background-vid {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.hero {
+    font-family: 'Exo', sans-serif;
+}
+
+.green-logo {
+    position: absolute;
+    width: 10%;
+    left: 15%;
+    top: 7vw;
+    z-index: 1;
+}
+
+.title {
+    font-size: 6vw;
+    width: 50%;
+    font-weight: bold;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 6vw;
+    padding: 4%;
+    padding-right: 2%;
+    border: 1px solid white;
+    border-left: 3vw solid white;
+    line-height: 1.1;
+}
+
+.title-info {
+    position: absolute;
+    padding: 1.5%;
+    background: rgb(109, 55, 163);
+    left: 70%;
+    top: 35vw;
+    font-size: 1.2vw;
+    line-height: 1.5;
+}
+
+.info {
+    width: 100%;
+    height: 24vw;
+    background: linear-gradient(to right, #E5CBFF, #CDFFCB);
+
+    position: relative;
+    top: 20vw;
+    padding: 8%;
+    font-family: 'Exo', sans-serif;
+    color: #343434;
+}
+
+.info-left {
+    position: relative;
+    width: 36%;
+    top: 5vw;
+}
+
+.info-title {
+    margin-bottom: 1vw;
+}
+
+.info-right {
+    position: relative;
+    left: 45%;
+    width: 36%;
+    top: -12.5vw;
+
+}
+
+.right-info {
+    padding-bottom: 2vw;
+}
+
+div > .h2 {
+    padding-bottom: 0.5vw;
+}
+
+.schedule {
+    font-family: 'Exo', sans-serif;
+    height: 60vw;
+    position: relative;
+}
+
+.schedule-title {
+    position: relative;
+    top: 30vw;
+    left: 27%;
+}
+
+.schedule-table {
+    position: relative;
+    left: 27%;
+    top: 32vw;
+    text-align: left;
+    width: 46%;
+}
+
+.table-main {
+    height: 2.7vw;
+    font-weight: bold
+}
+
+.table-time {
+    padding-right: 10%;
+}
+
+tr {
+    height: 4vw;
+}
+
+table td {
+    border-top: 2px solid white;
+    padding-top: 1.3vw;
+}
+
+.event-venue {
+    height: 50vw;
+    font-family: 'Exo', sans-serif;
+}
+
+.img-moscone {
+    width: 40%;
+    position: relative;
+    top: 10vw;
+    left: 10%;
+    display: inline-block;
+}
+
+
+.venue-info {
+    position: relative;
+    left: 15%;
+    display: inline-block;
+    top: 0vw;
+}
+
+.venue-title {
+    margin-bottom: 4vw;
+}
+
+.venue-details {
+    padding-bottom: 1vw;
+}
+
+
+.footer {
+    font-family: 'Exo', sans-serif;
+    background: #666666;
+    height: 5vw;
+}
+
+.hashtag {
+    position: relative;
+    left: 10%;
+    display: inline-block;
+    padding: 0 1.2vw;
+    top: 1.4vw;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -2.4vw;
+    left: 65%;
+}
+
+.find {
+    margin-right: 3%;
+}
+
+.social-icon {
+    height: 1.6vw;
+    padding: 1.5vw;
+    margin-right: 1vw;
+}
+
+.social-icon:hover {
+    background: linear-gradient(to right, rgb(109, 55, 163), #00058B);
+    transition: 0.3s;
+
+}
+
+/*TYPOGRAPHy*/
+
+.h2 {
+    font-weight: bold;
+    font-size: 2vw;
+    line-height: 1.3;
+}
+
+.p {
+    font-size: 1.2vw;
+    line-height: 1.4;
+}
+
+.fifty {
+    height: 100%;
+}
+
+/********************
+
+ABOUT
+
+********************/
+
+.about-info {
+    font-family: 'Exo', sans-serif;
+    position: relative;
+    left: 10%;
+    top: 8.2vw;
+    width: 40%;
+    color: #343434;
+}
+
+.about-title {
+    margin-bottom: 2vw;
+}
+
+.about-p {
+    margin-bottom: 2vw;
+}
+
+.here {
+    color: rgb(109, 55, 163);
+    font-weight: 700;
+}
+
+.here:hover {
+    text-decoration: underline;
+}
+
+.img-about {
+    float: right;
+    width: 35%;
+    position: relative;
+    left: -10%;
+    top: -10vw;
+}
+
+.line {
+    background: grey;
+    width: 80%;
+    height: 0.1vw;
+    margin: 0 auto;
+    position: relative;
+    top: 15vw;
+}
+
+.extra-info {
+    font-family: 'Exo', sans-serif;
+    display: flex;
+    position: relative;
+    top: 1.3vw;
+    left: 10%;
+    width: 90%;
+    align-content: space-between;
+    height: 20vw;
+    color: #343434;
+}
+
+.organizers {
+    margin-right: 17%;
+}
+
+.speakers-foot {
+    margin-right: 17%;
+}
+
+.special-thanks {
+    margin-right: 17%;
+}
+
+.extra-info-title {
+    margin-bottom: 2vw;
+    font-weight: bold;
+    color: #343434;
+}
+
+.extra-info-body {
+    margin-bottom: 1vw;
+}
+
+
+/********************
+
+SPEAKERS
+
+********************/
+
+.speakers-page {
+    position: relative;
+    top: 5vw;
+    font-family: 'Exo', sans-serif;
+    height: 99vw;
+    color: #343434;
+    padding-left: 12%;
+}
+
+.speakers-title {
+    margin-bottom: 4vw;
+}
+
+.speaker-group {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.img-speaker {
+    width: 25%;
+    display: inline-block;
+}
+
+.mike-all,
+.chris-all,
+.anshuman-all {
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    top: -3.2vw;
+}
+
+.speaker-sec {
+    padding-bottom: 8vw;
+}
+
+.speaker-name {
+    font-weight: 700;
+    color: rgb(109, 55, 163);
+    font-size: 3vw;
+    padding-bottom: 1.5vw;
+    text-decoration: underline;
+}
+
+.mike-all {
+    padding-left: 5%;
+}
+
+.img-chris {
+    padding-left: 5%;
+}
+
+.anshuman-all {
+    padding-left: 5%;
+}

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>The Moon Song</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+
+
+
+	<style>
+		/* YOUR CSS CODE HERE */
+
+		html {
+			font-family: 'Apercu', sans-serif;
+			font-style: normal;
+			background-color: black;
+		}
+
+		.sm-1 {
+			font-size: 2vw;
+			letter-spacing: 0.3vw;
+			line-height: 4vw;
+
+		}
+
+
+		.md-1 {
+			font-size: 3vw;
+			letter-spacing: 2.34vw;
+			color: white;
+			left: 12%;
+		}
+
+
+
+		.lg-1 {
+
+			font-size: 4vw;
+			color: white;
+
+
+
+		}
+
+		.img-1 {
+			background-image: url("images/img-1.png");
+			background-size: cover;
+
+		}
+
+		.img-2 {
+			background-image: url("images/img-2.png");
+			background-size: cover;
+		}
+
+		.img-3 {
+			background-image: url("images/img-3.png");
+			background-size: cover;
+		}
+
+
+		.img-4 {
+			background-image: url("images/img-4.png");
+			background-size: cover;
+		}
+
+		.img-5 {
+			background-image: url("images/img-5.png");
+			background-size: cover;
+		}
+
+		.img-6 {
+			background-image: url("images/img-6.png");
+			background-size: cover;
+		}
+
+		.head {
+			letter-spacing: 0.14vw;
+			font-size: 5vw;
+			right: 27%;
+			top: 52%;
+
+		}
+
+		.sm-lyrics {
+			color: rgb(105, 105, 105);
+			text-align: left;
+
+
+		}
+
+		.chapter1 {
+			top: 25%;
+			left: 17%;
+		}
+
+		.amma1 {
+			top: 14.4%;
+			color: rgb(105, 105, 105);
+		}
+
+		.amma2 {
+			top: 15%;
+		}
+
+		.chapter2 {
+			top: 55%;
+			left: 50%
+		}
+
+		.amma3 {
+			top: 29.5%;
+			color: rgb(105, 105, 105);
+		}
+
+		.amma4 {
+			top: 30%;
+		}
+
+		.chapter3 {
+			top: 75%;
+			left: 10%
+		}
+
+		.amma6 {
+			top: 50%
+		}
+
+		.amma5 {
+			top: 49%;
+			color: rgb(105, 105, 105);
+		}
+
+		.music-play {
+			position: absolute;
+			top: 3%;
+			left: 86%;
+		}
+
+		.music-pause {
+			position: absolute;
+			top: 3%;
+			left: 93%;
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- ALL YOUR CODE MUST BE IN CONTAINER -->
+	<div class="container">
+
+		<!-- YOUR HTML CODE BELOW -->
+
+		<div class="row">
+			<div class="col-100 seventy-fifth img-1">
+				<p class="head center-h lg-1 top-50">The Moon Song</p>
+
+				<!--MUSIC AUDIO IMPORT-->
+				<audio id="audio-play" loop><source src="audio/Karen%20O%20-%20The%20Moon%20Song%20(Studio%20Version%20Duet).mp3" type="audio/mpeg"></audio>
+
+				<img src="images/img-7.png" alt="music-play" width="5%" class="music-play" onclick="document.getElementById('audio-play').play(); return false;" />
+
+				<img src="images/img-8.png" alt="music-pause" width="5%" class="music-pause" onclick="document.getElementById('audio-play').pause();return false" />
+
+
+			</div>
+		</div>
+
+
+
+
+		<div class="row">
+			<div class="col-100 seventy-fifth img-2">
+				<p class="chapter1 sm-lyrics sm-1 ">I'm lying on the moon <br>My dear, I will be there soon<br>It's a quiet and starry place<br>Time's we're swallowed up<br>In the place we're here</p>
+
+
+			</div>
+		</div>
+
+		<div class="row">
+
+			<div class="col-100 seventy-fifth img-3">
+				<p class="amma1 md-1">A MILLION MILES AWAY</p>
+				<p class="amma2 md-1">A MILLION MILES AWAY</p>
+				<p class="chapter2 sm-lyrics sm-1">There's thing I wish I know<br>There's no thing I keep from you<br>It's dark and shiny place<br>But with you my dear<br>I'm safe and we're</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-100 full img-4">
+				<p class="amma3 md-1">A MILLION MILES AWAY</p>
+				<p class="amma4 md-1">A MILLION MILES AWAY</p>
+				<p class="chapter3 sm-lyrics sm-1">We're lying on the moon<br>It's a perfect afternoon<br>Your shadow follows me all day<br>Making sure that I'm okay</p>
+
+
+
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-100 half img-5"></div>
+			<p class="amma5 md-1">A MILLION MILES AWAY</p>
+			<P class="amma6 md-1">A MILLION MILES AWAY</P>
+		</div>
+
+		<div class="row">
+			<div class="col-100 half img-6"></div>
+		</div>
+
+
+	</div>
+
+
+
+
+	<!-- DO NOT CHANGE CODES BELOW-->
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/jquery.lazyload.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$('div').lazyload(
+				effect: "fadeIn"
+			);
+		});
+	</script>
+
+
+
+
+</body>
+
+</html>

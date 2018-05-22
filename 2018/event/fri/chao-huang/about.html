@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<title>
+    <meta charset="utf-8">
+    <title>ABOUT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+</title>
+
+<head>
+    <style>
+        html {
+            font-family: Apercu, sans-serif;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .background {
+            position: absolute;
+            top: -3.66vw;
+        }
+
+
+
+
+        .why {
+            font-size: 18vw;
+            font-weight: bold;
+            color: white;
+            position: absolute;
+            top: 20vw;
+            left: 25vw;
+            letter-spacing: 1vw;
+            animation: flip 2s forwards;
+
+        }
+
+        .question {
+            font-size: 20vw;
+            font-weight: bold;
+            color: #FBA922;
+            position: absolute;
+            top: 19vw;
+            left: 68vw;
+
+        }
+
+
+        .interactions {
+            font-size: 2vw;
+            color: white;
+            position: absolute;
+            top: 37vw;
+            left: 28vw;
+            letter-spacing: 1vw;
+
+        }
+
+        .home-page {
+            z-index: 1000;
+            position: fixed;
+        }
+
+
+
+        .scroll-down {
+            position: absolute;
+            top: 53vw;
+            left: 45vw;
+            z-index: 800;
+        }
+
+        p {
+            font-weight: 100;
+            opacity: 0.7;
+            width: 55vw;
+            font-size: 1.5vw;
+            letter-spacing: 0.06vw;
+            line-height: 2.5vw;
+            color: black;
+            position: absolute;
+            top: 90vw;
+            left: 24vw;
+            text-align: left;
+
+        }
+
+        .subtitle {
+
+            font-size: 3vw;
+            color: black;
+            font-weight: 500;
+            position: absolute;
+            top: 77vw;
+            left: 30vw;
+            letter-spacing: 0.3vw;
+            line-height: 3.5vw;
+
+
+        }
+
+        h1 {
+            color: black;
+            font-size: 1.6vw;
+            letter-spacing: 0.3vw;
+            position: absolute;
+            top: 85vw;
+            left: 30vw;
+            font-style: italic;
+        }
+
+        .organic-shape {
+            width: 100%;
+            position: absolute;
+            top: 55vw;
+            z-index: -100;
+        }
+
+        .bottom-box {
+            background-color: black;
+            width: 100vw;
+            height: 6vw;
+            position: absolute;
+            top: 173vw;
+            left: 0vw;
+            z-index: 1100;
+        }
+
+        .social-media-icon {
+            position: absolute;
+            top: 171vw;
+            left: 81vw;
+            z-index: 1200;
+            width: 20%;
+        }
+
+        .navi-footer {
+            font-size: 1.2vw;
+            color: white;
+            letter-spacing: 0.2vw;
+            font-weight: 500;
+            position: absolute;
+            top: 177vw;
+            left: 10vw;
+            text-decoration-line: none;
+            z-index: 1400;
+        }
+
+        .f-location {
+            width: 23vw;
+            position: absolute;
+            left: 12vw;
+            color: white;
+        }
+
+        .f-tel {
+            width: 15vw;
+            position: absolute;
+            left: 35vw;
+        }
+
+        .f-email {
+            position: absolute;
+            left: 52vw;
+            color: white;
+        }
+
+        .b-box {
+            background-color: #CE3727;
+            width: 18vw;
+            height: 6vw;
+            position: absolute;
+            top: 175vw;
+            left: 0vw;
+            z-index: 1100;
+        }
+
+        .MOTION-FOR-EMTION {
+            color: red;
+            font-size: 1.5vw;
+            position: absolute;
+            top: 176vw;
+            left: 4vw;
+            color: white;
+            letter-spacing: 0.2vw;
+            z-index: 1900;
+        }
+
+        @keyframes flip {
+            from {
+                -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+                transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+                -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+            }
+
+            40% {
+                -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+                transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+                -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+            }
+
+            50% {
+                -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+                transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+                -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+            }
+
+            80% {
+                -webkit-transform: perspective(400px) scale3d(0.95, 0.95, 0.95);
+                transform: perspective(400px) scale3d(0.95, 0.95, 0.95);
+                -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+            }
+
+            to {
+                -webkit-transform: perspective(400px);
+                transform: perspective(400px);
+                -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+            }
+        }
+
+        .animated.flip {
+            -webkit-backface-visibility: visible;
+            backface-visibility: visible;
+            -webkit-animation-name: flip;
+            animation-name: flip;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+
+
+</body>
+<div class="grid-container">
+    <div class="navi">
+        <a href="about.html" class="navi about">About</a>
+        <a href="artists.html" class="navi artists">Artists</a>
+        <a href="info.html" class="navi info">Infomation</a>
+        <a href="schedual.html" class="navi schedual">Schedule</a>
+    </div>
+    <a href="index.html">
+       <img class="small-logo" src="images/img-samll-logo.png" width="5%">
+       <div class="box"></div>
+    </a>
+    <div class="navi-bar"></div>
+    <div id="page-home" class="row">
+        <img class="background" src="images/img-partten-2.svg" width="100%">
+        <div class="why">WHY</div>
+        <div class="question">?</div>
+        <div class="interactions">MICROINTERACTIONS</div>
+
+        <img class="scroll-down" src="images/img-arrow.png">
+        <img class="organic-shape" src="images/img-organic-shape-.svg">
+
+
+
+        <div class="subtitle">Why We Care About <br>Microinteractions?</div>
+        <h1>by Svetlana Lazareva</h1>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is likely that you started your day with &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;microinteractions. By turning off the alarm on your &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;smartphone, you engaged with a user interface &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in a single moment.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; And you continue to engage in these moments &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;throughout the day: when playing your favorite track &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;on Apple Music, checking your email, answering your &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;phone - various actions which do not force us to &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ponder over what outcome we are going to get. Each of &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;these moments is so small that you probably do not even <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;care much about. They are so tied into our everyday life so <br>&nbsp; became invisible - if you are an average user and have a little deal <br>with web design, you could hardly say how they work or look. But once you face with a clumsy feedback form, you will surprise how much such small details matter for an overall positive feel of a website.<br><br>Trust to a product comes from experience. Lack of trust comes from either lack of understanding or lack of control. So it looks like all roads lead to a customer-centric design when everything is spinning around a user. Being Motion Designer, I agree that paying attention to every detail of any product we create is as important as the design of these<br> products.</p>
+
+    </div>
+    <div class="footer">
+        <div class="bottom-box"></div>
+        <img class="social-media-icon" src="images/img-social-media-icon.svg">
+        <div class="navi-footer">
+            <a class="map-link" href="https://www.google.com/maps/place/Main+Bldg,+1300+W+Mt+Royal+Ave,+Baltimore,+MD+21217/@39.3075302,-76.6238553,17z/data=!3m1!4b1!4m5!3m4!1s0x89c804bf0e7279b9:0xf7770f351631cba9!8m2!3d39.3074853!4d-76.6216858" target="_blank">
+                <div class="f-location">1300 W Mount Royal Ave,Baltimore,MD 21217</div>
+            </a>
+            <div class="f-tel">Contact us:(410)669-9200</div>
+            <a class="email-link" href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession" target="blank">
+                <div class="f-email">Email:bhorne@mica.edu</div>
+            </a>
+
+        </div>
+
+        <a href="index.html">
+            <div class="MOTION-FOR-EMTION">MOTION<br>FOR<br>EMOTION</div>
+        </a>
+        <div class="b-box"></div>
+
+
+    </div>
+</div>
+
+
+
+</html>

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>dis.place.ment</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/template.css">
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+
+	<style>
+		html {
+			font-family: 'Nanum Gothic', sans-serif;
+			background-color: white;
+			font-size: 15px;
+
+		}
+
+		ul {
+			list-style-type: none;
+			text-decoration: none;
+			position: absolute;
+			font-weight: 575;
+		}
+
+		li {
+			display: inline-block;
+			margin: 3em;
+			left: 3px;
+
+		}
+
+		.info-1 {
+			position: absolute;
+		}
+
+		/* unvisited link */
+
+		a:link {
+			color: #333333;
+			text-decoration: none;
+		}
+
+		/* visited link */
+
+		a:visited {
+			color: #132639;
+			text-decoration: none;
+		}
+
+		/* mouse over link */
+
+		a:hover {
+			color: #3A3A3A;
+		}
+
+		/*use absolute value to stagger song title*/
+
+		.title {
+			position: relative;
+			font-size: 30px;
+			letter-spacing: 40px;
+			font-weight: 600;
+			width: 100%;
+			height: 600px;
+			margin: 0px, 0;
+			text-align: left;
+			left: 170px;
+			top: 550px;
+			padding-bottom: 12%;
+		}
+
+		span {
+			position: relative;
+
+		}
+
+		.push-1 {
+			position: absolute;
+			top: -15%;
+			left: 5%;
+		}
+
+		.push-2 {
+			position: absolute;
+			top: -15%;
+			left: 10%;
+		}
+
+		.push-3 {
+			position: absolute;
+			top: -15%;
+			left: 14%;
+		}
+
+		.push-3-5 {
+			position: absolute;
+			top: -15%;
+			left: 18%;
+		}
+
+		.push-4 {
+			position: absolute;
+			top: -15%;
+			left: 26%;
+		}
+
+		.push-5 {
+			position: absolute;
+			top: -15%;
+			left: 31%;
+		}
+
+		.push-6 {
+			position: absolute;
+			top: -15%;
+			left: 36%;
+		}
+
+		.push-7 {
+			position: absolute;
+			top: -15%;
+			left: 41%;
+		}
+
+		.push-8 {
+			position: absolute;
+			top: -15%;
+			left: 46%;
+		}
+
+		.push-8-5 {
+			position: absolute;
+			top: -15%;
+			left: 50%;
+		}
+
+		.push-9 {
+			position: absolute;
+			top: -15%;
+			left: 58%;
+		}
+
+		.push-10 {
+			position: absolute;
+			top: -15%;
+			left: 63%;
+		}
+
+		.push-11 {
+			position: absolute;
+			top: -15%;
+			left: 68%;
+		}
+
+		.push-12 {
+			position: absolute;
+			top: -15%;
+			left: 73%;
+		}
+
+		.push-12-5 {
+			position: absolute;
+			top: -15%;
+			left: 77%;
+		}
+
+
+		.movie {
+			width: 100%;
+			height: 1000px;
+			margin: 0px, 0;
+			text-align: left;
+			line-height: 30px;
+			font-size: 18px;
+			font-weight: 525;
+			padding-left: 400px;
+			padding-top: 350px;
+			color: #333333;
+			animation: moveright-back 9s infinite;
+
+		}
+
+		p {
+			position: absolute;
+			left: 30%;
+
+		}
+
+		.title-filmaker {
+			font-size: 15px;
+			font-weight: 545;
+			line-height: 5px;
+			color: #004d66;
+			padding-bottom: 50px;
+			position: fixed;
+			bottom: 0px;
+			right: 0px;
+			margin-right: 3.5em;
+			font-weight: 575;
+			animation: moveleft-back 7s infinite;
+		}
+
+		.span {}
+
+
+		.title-1 {
+			font-weight: 700;
+			color: #0569e2;
+			font-size: 22px;
+		}
+
+		.info-1 {
+			display: inline-block;
+
+		}
+
+		.title-2 {
+			display: inline-block;
+			font-weight: 700;
+			color: #065abf;
+			font-size: 22px;
+		}
+
+		.info-2 {
+			display: inline-block;
+			padding-left: -170px;
+
+		}
+
+		.title-3 {
+			display: inline-block;
+			font-weight: 700;
+			color: #02428e;
+			font-size: 22px;
+		}
+
+		.info-3 {
+			display: inline-block;
+			padding-left: -170px;
+		}
+
+		.title-4 {
+			display: inline-block;
+			font-weight: 700;
+			color: #013068;
+			font-size: 22px;
+
+		}
+
+		.info-4 {
+			display: inline-block;
+			padding-left: -170px;
+		}
+
+		.title-5 {
+			display: inline-block;
+			font-weight: 700;
+			color: #001f4d;
+			font-size: 22px;
+		}
+
+		.info-5 {
+			display: inline-block;
+			padding-left: -170px;
+		}
+
+		.title-group-1 {
+			animation: moveright-back 9s infinite;
+		}
+
+		.title-group-1-5 {
+			animation: moveright-back 9s infinite;
+		}
+
+		.title-group-3 {
+			animation: moveright-back 6s infinite;
+		}
+
+		.title-group-3-5 {
+			animation: moveright-back 6s infinite;
+		}
+
+		.title-group-4 {
+			animation: moveright-back 7s infinite;
+		}
+
+		.title-group-4-5 {
+			animation: moveright-back 7s infinite;
+		}
+
+
+		@keyframes moveright-back {
+			from {
+				left: -200px;
+			}
+		}
+
+		@keyframes moveleft-back {
+			from {
+				right: -200px;
+			}
+
+		}
+
+		.location {
+			font-size: 14px;
+			padding-top: 30px;
+			padding-left: 3em;
+			padding-bottom: 30px;
+			font-weight: 545;
+			color: #333333;
+	</style>
+</head>
+
+<body>
+
+	<!-- horizontal navigation bar-->
+	<ul>
+		<li><a href="#one">3.10</a></li>
+		<li><a href="#two">3.11</a></li>
+		<li><a href="#three">3.12</a></li>
+		<li><a href="#four">3.13</a></li>
+		<li><a href="#five">3.14</a></li>
+	</ul>
+
+	<div class="row">
+		<p class="title">
+
+			<span class="push-1 title-group-1"> D </span><br>
+			<span class="push-2 title-group-1"> I </span><br>
+			<span class="push-3 title-group-1"> S </span><br>
+			<span class="push-3-5 title-group-1-5">.</span><br>
+			<span class="push-4 title-group-3"> P </span><br>
+			<span class="push-5 title-group-3"> L </span><br>
+			<span class="push-6 title-group-3"> A </span><br>
+			<span class="push-7 title-group-3"> C </span><br>
+			<span class="push-8 title-group-3"> E </span><br>
+			<span class="push-8-5 title-group-3-5">.</span><br>
+			<span class="push-9 title-group-4"> M </span><br>
+			<span class="push-10 title-group-4"> E </span><br>
+			<span class="push-11 title-group-4"> N</span><br>
+			<span class="push-12 title-group-4"> T</span><br>
+			<span class="push-12-5 title-group-4-5"> .</span><br>
+		</p>
+	</div>
+
+	<div class="row">
+		<p class="director-name">
+
+			<span class="push 1 title-filmaker"> So Young Kim / 김소영</span>
+
+		</p>
+	</div>
+
+	<div id="one" class="movie">
+		<div class="title-1"> In Between Days / 방황의 날들</div>
+		<p class="info-1"> <br>A Korean immigrant falls in love with her best friend while navigating <br> her way through the challenges of living in a new country</p>
+	</div>
+
+
+	<div id="two" class="movie">
+		<div class="title-2"> Treeless Mountain / 나무없는 산</div>
+		<p class="info-2"> <br><br>In Seoul, Korea, two sisters must look after each other when <br> their mother leaves them to search for their estranged father</p>
+	</div>
+
+	<div id="three" class="movie">
+		<div class="title-3">Spark and Light</div><br>
+		<p class="info-3"><br> Dreams, memory and reality all merge when one woman turns <br> her moments alone into a hypnotic emotional journey</p>
+	</div>
+
+	<div id="four" class="movie">
+		<div class="title-4">For Ellen</div>
+		<p class="info-4"> <br>A struggling musician takes an overnight long distance drive in order <br> to fight his estranged wife for custody of their young daughter</p>
+	</div>
+
+	<div id="five" class="movie">
+		<div class="title-5">Lovesong</div>
+		<p class="info-5"><br> The relationship between two friends deepens during an impromptu <br> road trip. Along the way, the dynamic between the two friends <br> intensifies before circumstances force them apart </p>
+	</div>
+
+
+	<div class="location"><a href="http://thecharles.com/" style="text-decoration:none"> The Charles Theater</a><br>1711 N Charles St<br>Baltimore, MD 21201</div>
+
+	<audio controls autoplay>
+			<source src="ASilverLining3" type="audio/mpeg">
+			
+			
+		</audio>
+
+
+</body>
+
+</html>

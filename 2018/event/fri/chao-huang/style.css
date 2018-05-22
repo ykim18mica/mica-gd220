@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+
+}
+
+.navi {
+    font-size: 1.5vw;
+    color: white;
+    letter-spacing: 0.4vw;
+    font-weight: 500;
+    position: fixed;
+    top: 2vw;
+    text-decoration-line: none;
+    z-index: 1000;
+}
+
+.about {
+    position: fixed;
+    left: 15vw;
+}
+
+.about:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.artists {
+    position: fixed;
+    left: 35vw;
+}
+
+.artists:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.info {
+    position: fixed;
+    left: 55vw;
+}
+
+.info:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.schedual {
+    position: fixed;
+    left: 80vw;
+}
+
+.schedual:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.navi-bar {
+    width: 100vw;
+    height: 4.9vw;
+    z-index: -1000;
+    background-color: black;
+    position: fixed;
+    top: 0vw;
+    left: 0vw;
+    z-index: 900;
+}
+
+.box {
+    background-color: #CE3727;
+    width: 5vw;
+    height: 5vw;
+    position: fixed;
+    top: 0vw;
+    left: 0vw;
+    z-index: 1100;
+}
+
+.small-logo {
+    position: fixed;
+    top: 0vw;
+    left: 0vw;
+    z-index: 1600;
+}
+
+
+background-color: white;
+width: 100vw;
+height: 10vw;
+position: absolute;
+top: 170vw;
+left: 0vw;
+z-index: 1100;
+
+
+}
+
+a {
+    text-decoration: none;
+}

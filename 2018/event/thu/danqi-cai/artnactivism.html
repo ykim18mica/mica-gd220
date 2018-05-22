@@ -1,0 +1,138 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:900,900i|Open+Sans:400,600" rel="stylesheet">
+
+    <script src="js/script.js"></script>
+
+    <style>
+        body {
+            background-image: url(images/img-background.png);
+            background-size: auto;
+            background-repeat: repeat-x;
+        }
+
+        .title {
+            left: 50px;
+        }
+
+        .info {
+            top: 80px;
+            left: 50px;
+        }
+
+        .text-1 {
+            top: 110px;
+        }
+
+        .text-2 {
+            bottom: 433px;
+        }
+
+        .sholette {
+            width: 357px;
+            height: 531px;
+            top: 117px;
+        }
+
+        .about-1 {
+            top: 90px;
+        }
+
+        .about-2 {
+            left: 346px;
+            bottom: 640px;
+        }
+
+        .about-speaker {
+            top: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="orange-screen fixed" id="orange-screen"></div>
+    <div class="grid-container">
+        <div class="nav">
+            <div class="nav-button fixed" onclick="expandNav()" id="nav-button">
+                <div class="bar bar1"></div>
+                <div class="bar bar2"></div>
+                <div class="bar bar3"></div>
+            </div>
+            <div class="nav-expand fixed" id="nav-expand">
+                <div class="nav-close relative" onclick="closeNav()">
+                    <div class="line line1 relative"></div>
+                    <div class="line line2 relative"></div>
+                </div>
+                <div class="nav-text-block lato size-60 uppercase weight-black relative">
+                    <div class="nav-text"><a class="home black-link" href="index.html">home</a></div>
+                    <div class="nav-text"><a class="about black-link" href="about.html">about</a></div>
+                    <div class="nav-text"><a class="schedule black-link" href="schedule.html">schedule</a></div>
+                    <div class="nav-text"><a class="exhibit black-link" href="exhibition.html">exhibition</a></div>
+                    <div class="nav-text talk" id="talk"><a class="talk-link black-link">talk/panel</a>
+                        <div class="talk talk-extra fixed"></div>
+                        <div class="talk-expand fixed" id="talk-expand">
+                            <div class="talk-expand-text-block lato color-black size-40 weight-black capitalize">
+                                <div class="talk-expand-text relative"><a class="artnactivism black-link" href="art&activism.html">art &amp; activism</a></div>
+                                <div class="talk-expand-text relative"><a class="printmakingasprotest black-link" href="printmakingasprotest.html">printmaking as protest</a></div>
+                                <div class="talk-expand-text relative"><a class="cruel black-link" href="crueldesign.html">cruel design/disobedient design</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-text"><a class="location black-link" href="location.html">location</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="row col-12 h-1">
+        </div>
+        <div class="row col-12 h-7">
+            <div class="col-2 h-7"></div>
+            <div class="col-8 h-7">
+                <div class="title lato color-white size-60 capitalize line-height-60 relative">Art &amp; Activism:<br>Repossessing History
+                </div>
+                <div class="info open-sans size-20 line-height-33 color-white weight-semi-bold relative">Time: 11:30 am - 1 pm<br>Speaker: Gregory Sholette</div>
+                <div>
+                    <div class="text-box-1 text-1 color-white open-sans size-18 weight-semi-bold line-height-33 relative">Gregory Sholette:<br>
+                        <p class="color-orange weight-bold">&ldquo;After the statues come down what happens next? Histories that disturb the present.&rdquo;</p>
+                        <br>The current &ldquo;monument wars&rdquo; are only the latest manifestation of a decades-old debate about how to represent our troubled, often violent past in public space. One possible answer to this social and artistic problem comes from the artists&rsquo; collective REPOhistory who, between 1989 and 2000, installed dozens of temporary, metal street signs in NYC and Atlanta in order to &ldquo;repossess&rdquo; and &ldquo;remap&rdquo; the unknown histories of working</div>
+                    <div class="text-box-1 text-2 float-right color-white open-sans size-18 weight-semi-bold line-height-33 relative">women, men and children; LGBTQ and Native peoples; African Americans; Latinos, Asian Americans and the disabled among other marginalized groups typically absent from public memory (see Holland Cotter&rsquo;s recent commentary in the New York Times Half-Measures Won&rsquo;t Erase the Painful Past of Our Monuments). Dr. Sholette will discuss REPOhistory&rsquo;s projects, as well as current conflicts involving historical representation in public spaces.</div>
+                </div>
+            </div>
+            <div class="col-2 h-7"></div>
+        </div>
+        <div class="row col-12 h-1">
+            <div class="col-5 h-1"></div>
+            <div class="col-2 h-1">
+                <div class="diag relative">
+                    <a class="diag-link" href="#here">
+                        <div class="diag-link diag-line diag-line1 relative"></div>
+                        <div class="diag-link diag-line diag-line2 relative"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-5 h-1"></div>
+        </div>
+        <div class="row col-12 h-1"></div>
+        <div class="row col-12 h-7">
+            <div class="col-1 h-7"></div>
+            <div class="col-4 h-7">
+                <img class="sholette relative" alt="sholette" src="images/img-sholette.png">
+            </div>
+            <div class="col-7 h-7">
+                <div class="about-speaker relative">ABOUT GREGORY SHOLETTE
+                </div>
+                <div id="here" class="about-1 text-box-2 open-sans color-white size-18 weight-semi-bold line-height-33 relative">Dr. Gregory Sholette is a founding member of REPOhistory, as well as a professor of art at Queens College, City University of New York whose wide-ranging art, activist, teaching and writing practice develops a self-described &ldquo;viable, democratic, counter-narrative that, bit-by-bit, gains descriptive power within the larger public discourse.&rdquo; In dozens of essays, four edited volumes, and his own two books including Art as Social Action (with Chlo&#235; Bass, 2018, forthcoming from Skyhorse Publishers); Delirium &amp; Resistance: Art Activism &amp; the Crisis of Capitalism (2017) and Dark Matter: Art and Politics in an Age of Enterprise Culture (2011, both Pluto Press), Sholette documents and reflects upon decades of</div>
+                <div class="about-2 text-box-3 open-sans color-white size-18 weight-semi-bold line-height-33 relative">activist art, much of which might otherwise remain invisible. A co-director of Social Practice Queens at Queens College CUNY, he holds a PhD from the University of Amsterdam, a BFA from The Cooper Union, MFA from the University of California, San Diego, and is a graduate of the The Whitney Independent Studies Program in Critical Theory.</div>
+            </div>
+        </div>
+        <div class="row col-12 h-1"></div>
+    </div>
+
+</body>
+
+</html>

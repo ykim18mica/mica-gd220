@@ -1,0 +1,134 @@
+ @import url('https://fonts.googleapis.com/css?family=Cousine:400,700');
+
+ .test {
+     box-sizing: border-box;
+     border: 2px solid red;
+ }
+
+ .apercu {
+     font-family: apercu;
+ }
+
+ .mono {
+     font-family: 'Cousine';
+ }
+
+ .white {
+     color: #f7f6f2;
+ }
+
+ .red {
+     color: #bd081c;
+ }
+
+ .grey {
+     color: #b2b2b2;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ a.white {
+     text-decoration: none;
+     color: #f7f6f2;
+ }
+
+ div.home-nav {
+     height: 7%;
+     width: 100%;
+     box-sizing: border-box;
+     border-bottom: 1px solid #f7f6f2;
+     overflow: auto;
+     clear: both;
+ }
+
+ ul.nav-links {
+     display: inline-block;
+     list-style-type: none;
+     float: right;
+ }
+
+ /*menu reveal nav*/
+
+ div.other-nav {
+     height: 7%;
+     width: 100%;
+     margin-left: 0;
+     box-sizing: border-box;
+     border-bottom: 1.3px solid #bd081c;
+     overflow: auto;
+     clear: both;
+     z-index: 1;
+ }
+
+ .nav-reveal {
+     width: 8%;
+     height: 4vw;
+     margin: 0;
+     display: inline-block;
+     overflow: hidden;
+     box-sizing: border-box;
+     transition: 2s;
+ }
+
+ .nav-reveal li {
+     opacity: 0;
+     transition: 2s;
+ }
+
+ .nav-reveal li:nth-child(1) {
+     transition-delay: 200ms;
+ }
+
+ .nav-reveal li:nth-child(2) {
+     transition-delay: 400ms;
+ }
+
+ .nav-reveal li:nth-child(3) {
+     transition-delay: 600ms;
+ }
+
+ .nav-reveal li:nth-child(4) {
+     transition-delay: 800ms;
+ }
+
+
+ .nav-reveal:hover li {
+     opacity: 1;
+ }
+
+ .nav-reveal:hover {
+     width: 100%;
+     display: inline-block;
+     overflow: hidden;
+ }
+
+
+ .txt-menu {
+     font-size: 1.2vw;
+     font-weight: 600;
+     display: inline;
+     float: left;
+
+ }
+
+
+ ul.hidden-links {
+     display: inline-block;
+     position: absolute;
+     list-style-type: none;
+     position: relative;
+ }
+
+
+
+
+ li {
+     display: inline;
+     margin-right: 2vw;
+     font-family: avenir;
+     font-size: 1.2vw;
+     margin-top: 40em;
+
+ }

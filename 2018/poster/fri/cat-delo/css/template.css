@@ -1,0 +1,684 @@
+/*-- all elements will use border-box --*/
+
+html {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/* cover and navbar */
+
+.h1 {
+    font-family: "impact";
+    color: rgb(255, 204, 49);
+    font-size: 95px;
+    text-align: center;
+    position: relative;
+    top: 350px;
+}
+
+.subtitle {
+    font-family: "Poppins", sans-serif;
+    color: rgb(255, 204, 49);
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.2;
+    font-size: 18px;
+    position: relative;
+    top: 217px;
+}
+
+.quentin-tarantino {
+    font-family: "impact";
+    color: rgb(255, 204, 49);
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    top: 230px;
+}
+
+
+.navbar {
+    height: 80px;
+    background-color: rgb(228, 0, 2);
+    position: relative;
+    top: 650px;
+}
+
+/* paragraph text */
+
+.intro-text {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    background-color: rgb(228, 0, 2);
+    font-family: "Palatino", Palatino, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+    padding: 50px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    color: black;
+}
+
+.navbar ul {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    word-spacing: 20px;
+}
+
+li {
+    display: inline-block;
+    color: black;
+
+}
+
+
+.dot-1 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(228, 0, 2);
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+}
+
+.dot-3 {
+    height: 70px;
+    width: 70px;
+    background-color: rgb(228, 0, 2);
+    border-radius: 50%;
+    position: absolute;
+    top: 230px;
+    left: 150px;
+    animation: mymove-1 4s infinite;
+}
+
+.dot-3-1 {
+    height: 70px;
+    width: 70px;
+    background-color: rgb(228, 0, 2);
+    border-radius: 50%;
+    position: absolute;
+    top: 230px;
+    left: 150px;
+    animation: mymove 4s infinite;
+}
+
+@keyframes mymove {
+    from {
+        top: 230px;
+    }
+    to {
+        top: 248px;
+    }
+    to {
+        left: 155px;
+    }
+    0% {
+        height: 70px;
+        width: 70px;
+    }
+
+    100% {
+        height: 100px;
+        width: 60px;
+    }
+}
+
+@keyframes mymove-1 {
+    0% {
+        height: 70px;
+    }
+
+    100% {
+        height: 100px;
+    }
+}
+
+
+.dot-4 {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(228, 0, 2);
+    border-radius: 50%;
+    position: absolute;
+    top: 500px;
+    right: 100px;
+}
+
+
+
+.dot-5 {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(228, 0, 2);
+    border-radius: 50%;
+    position: absolute;
+    top: 550px;
+    right: 150px;
+}
+
+.dot-6 {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(228, 0, 2);
+    border-radius: 50%;
+    position: absolute;
+    top: 1050px;
+    left: 130px;
+}
+
+.dot-7 {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(228, 0, 2);
+    border-radius: 50%;
+    position: absolute;
+    top: 1060px;
+    left: 160px;
+}
+
+.dot-8 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(228, 0, 2);
+    border-radius: 50%;
+    position: absolute;
+    top: 1250px;
+    right: 500px;
+}
+
+.dot-9 {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(228, 0, 2);
+    border-radius: 50%;
+    position: absolute;
+    top: 1300px;
+    right: 150px;
+}
+
+.dot-10 {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(228, 0, 2);
+    border-radius: 50%;
+    position: absolute;
+    top: 1700px;
+    left: 500px;
+    animation: mymove-2 4s infinite;
+}
+
+.dot-10-1 {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(228, 0, 2);
+    border-radius: 50%;
+    position: absolute;
+    top: 1700px;
+    left: 500px;
+    animation: mymove-2 4s infinite;
+}
+
+@keyframes mymove-2 {
+    from {
+        top: 1700px;
+    }
+    to {
+        top: 1730px;
+    }
+}
+
+.dot-11 {
+    height: 70px;
+    width: 70px;
+    background-color: rgb(228, 0, 2);
+    border-radius: 50%;
+    position: absolute;
+    top: 1800px;
+    left: 400px;
+}
+
+.dot-12 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(228, 0, 2);
+    border-radius: 50%;
+    position: absolute;
+    top: 2000px;
+    right: 80px;
+}
+
+.dot-13 {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(228, 0, 2);
+    border-radius: 50%;
+    position: absolute;
+    top: 2250px;
+    left: 250px;
+}
+
+.dot-14 {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(228, 0, 2);
+    border-radius: 50%;
+    position: absolute;
+    top: 2400px;
+    left: 450px;
+}
+
+.dot-15 {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(228, 0, 2);
+    border-radius: 50%;
+    position: absolute;
+    top: 2700px;
+    right: 350px;
+}
+
+.film-1 {
+    font-family: "impact";
+    color: black;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(228, 0, 2);
+    border-radius: 50%;
+    text-align: center;
+    padding: 90px 0;
+    position: absolute;
+    top: 1100px;
+    right: 200px;
+}
+
+.date-1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: black;
+    padding-top: 10px;
+}
+
+.text-1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 20px;
+    visibility: hidden;
+}
+
+div.film-1:hover {
+    color: rgb(255, 204, 49);
+    font-size: 30px;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+}
+
+div.film-1:hover .text-1 {
+    visibility: visible;
+}
+
+.film-2 {
+    font-family: "impact";
+    color: black;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(228, 0, 2);
+    border-radius: 50%;
+    text-align: center;
+    padding: 90px 0;
+    position: absolute;
+    top: 1400px;
+    left: 200px;
+}
+
+.date-2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: black;
+    padding-top: 10px;
+}
+
+.text-2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 25px;
+    visibility: hidden;
+}
+
+div.film-2:hover {
+    color: rgb(255, 204, 49);
+    font-size: 30px;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+}
+
+div.film-2:hover .text-2 {
+    visibility: visible;
+}
+
+.film-3 {
+    font-family: "impact";
+    color: black;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(228, 0, 2);
+    border-radius: 50%;
+    text-align: center;
+    padding: 90px 0;
+    position: absolute;
+    top: 1700px;
+    right: 300px;
+}
+
+.date-3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: black;
+    padding-top: 10px;
+}
+
+.text-3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color: black;
+    padding-top: 20px;
+    visibility: hidden;
+}
+
+div.film-3:hover {
+    color: rgb(255, 204, 49);
+    font-size: 30px;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+}
+
+div.film-3:hover .text-3 {
+    visibility: visible;
+}
+
+.film-4 {
+    font-family: "impact";
+    color: black;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(228, 0, 2);
+    border-radius: 50%;
+    text-align: center;
+    padding: 90px 0;
+    position: absolute;
+    top: 1950px;
+    left: 280px;
+}
+
+.date-4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: black;
+    padding-top: 10px;
+}
+
+.text-4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: black;
+    padding-top: 20px;
+    visibility: hidden;
+}
+
+div.film-4:hover {
+    color: rgb(255, 204, 49);
+    font-size: 30px;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+}
+
+div.film-4:hover .text-4 {
+    visibility: visible;
+}
+
+.film-5 {
+    font-family: "impact";
+    color: black;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(228, 0, 2);
+    border-radius: 50%;
+    text-align: center;
+    padding: 90px 0;
+    position: absolute;
+    top: 2300px;
+    right: 150px;
+}
+
+.date-5 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: black;
+    padding-top: 10px;
+}
+
+.text-5 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: black;
+    padding-top: 20px;
+    visibility: hidden;
+}
+
+div.film-5:hover {
+    color: rgb(255, 204, 49);
+    font-size: 30px;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+}
+
+div.film-5:hover .text-5 {
+    visibility: visible;
+}
+
+.time {
+    background-color: rgb(228, 0, 2);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    height: 200px;
+    padding: 70px;
+    line-height: 1.5;
+    font-family: "Palatino";
+    font-weight: bold;
+}
+
+a.link-1,
+a.link-2 {
+    color: black;
+}
+
+a.link-1:hover,
+a.link-2:hover {
+    color: rgb(255, 204, 49);
+}
+
+a.march-10-1 {
+    text-decoration: none;
+    color: black;
+}
+
+a.march-11-1 {
+    text-decoration: none;
+    color: black;
+}
+
+a.march-12-1 {
+    text-decoration: none;
+    color: black;
+}
+
+a.march-13-1 {
+    text-decoration: none;
+    color: black;
+}
+
+a.march-14-1 {
+    text-decoration: none;
+    color: black;
+}
+
+*,
+:before,
+:after {
+    box-sizing: inherit;
+}
+
+/*-- container for all the columns --*/
+
+.grid-container {
+    width: 1200px;
+    height: 3000px;
+    margin: 0 auto;
+    position: relative;
+    display: grid;
+
+}
+
+/*-- our cleafix hack -- */
+
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*='col-'] {
+    float: left;
+    min-height: 1px;
+    width: 8.33%;
+
+
+    /*-- our gutter -- */
+    padding: 0 0px;
+    /* top-bottom right-left */
+}
+
+/*-- columns with different widths --*/
+
+.col-1 {
+    width: 8.333333%;
+}
+
+.col-2 {
+    width: 16.666666%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.333333%;
+}
+
+.col-5 {
+    width: 41.666667%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.333333%;
+}
+
+.col-8 {
+    width: 66.666666%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.333333%;
+}
+
+.col-11 {
+    width: 91.666667%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/*-- use thse to offset columns --*/
+
+.col-offset-1 {
+    margin-left: 8.333333%;
+}
+
+.col-offset-2 {
+    margin-left: 16.666666%;
+}
+
+.col-offset-3 {
+    margin-left: 25%;
+}
+
+.col-offset-4 {
+    margin-left: 33.333333%;
+}
+
+.col-offset-5 {
+    margin-left: 41.666667%;
+}
+
+.col-offset-6 {
+    margin-left: 50%;
+}
+
+.col-offset-7 {
+    margin-left: 58.333333%;
+}
+
+.col-offset-8 {
+    margin-left: 66.666666%;
+}
+
+.col-offset-9 {
+    margin-left: 75%;
+}
+
+.col-offset-10 {
+    margin-left: 83.333333%;
+}
+
+.col-offset-11 {
+    margin-left: 91.666667%;
+}
+
+
+/*-- helpers 
+
+.test,
+.outline {
+    outline: 1px solid red;
+}
+--*/

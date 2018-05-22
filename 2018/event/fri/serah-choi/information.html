@@ -1,0 +1,397 @@
+<!doctype html>
+
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style>
+        /*presetting*/
+
+        html {
+            background-color: #f4e6d7;
+        }
+
+        .home {
+            font-family: roboto;
+            color: #f4e6d7;
+            text-decoration: none;
+            position: fixed;
+            left: 100px;
+            top: 20px;
+            z-index: 3;
+        }
+
+        .about {
+            font-family: roboto;
+            color: #f4e6d7;
+            text-decoration: none;
+            position: fixed;
+            left: 300px;
+            top: 20px;
+            z-index: 3;
+        }
+
+        .speakers {
+            font-family: roboto;
+            color: #f4e6d7;
+            text-decoration: none;
+            position: fixed;
+            left: 500px;
+            top: 20px;
+            z-index: 3;
+        }
+
+        .information {
+            font-family: roboto;
+            color: #f4e6d7;
+            text-decoration: none;
+            position: fixed;
+            left: 700px;
+            top: 20px;
+            z-index: 3;
+        }
+
+        .redbox {
+            width: 1300px;
+            background-color: #ff3600;
+            height: 50px;
+            position: fixed;
+            z-index: 2;
+
+        }
+
+        .information-main {
+            width: 1300px;
+            position: absolute;
+            top: 40px;
+        }
+
+        .information-1 {
+            color: #ff3600;
+            position: absolute;
+            top: 800px;
+            font-size: 50px;
+            font-weight: bold;
+            left: 100px;
+        }
+
+        .red-line {
+            width: 300px;
+            height: 3px;
+            top: 880px;
+            left: 100px;
+            position: absolute;
+            background-color: #ff3600;
+        }
+
+        /*schedule*/
+
+        .schedule {
+            color: #ff3600;
+            position: absolute;
+            top: 990px;
+            font-size: 37px;
+            font-weight: bold;
+            left: 140px;
+        }
+
+        .vertical-line {
+            width: 5px;
+            height: 1500px;
+            position: absolute;
+            background-color: #ff3600;
+            top: 1100px;
+            left: 140px;
+
+        }
+
+        .beforelecture {
+            position: absolute;
+            color: #ff3600;
+            font-size: 37px;
+            top: 1100px;
+            left: 180px;
+            font-weight: bold;
+
+        }
+
+        .twopm {
+            position: absolute;
+            color: #ff3600;
+            font-size: 37px;
+            left: 180px;
+            top: 1250px;
+            font-weight: bold;
+        }
+
+        .twopm-explain {
+            position: absolute;
+            color: #ff3600;
+            font-size: 30px;
+            left: 180px;
+            top: 1330px;
+            font-weight: bold;
+        }
+
+        .fourpm {
+            position: absolute;
+            color: #ff3600;
+            font-size: 37px;
+            left: 180px;
+            top: 1500px;
+            font-weight: bold;
+        }
+
+        .fourpm-explain {
+            position: absolute;
+            color: #ff3600;
+            font-size: 30px;
+            left: 180px;
+            top: 1580px;
+            font-weight: bold;
+        }
+
+        .fivepm {
+            position: absolute;
+            color: #ff3600;
+            font-size: 37px;
+            left: 180px;
+            top: 1750px;
+            font-weight: bold;
+        }
+
+        .fivepm-explain {
+            position: absolute;
+            color: #ff3600;
+            font-size: 30px;
+            left: 180px;
+            top: 1830px;
+            font-weight: bold;
+        }
+
+        .afterlecture {
+            position: absolute;
+            color: #ff3600;
+            font-size: 37px;
+            top: 2000px;
+            left: 180px;
+            font-weight: bold;
+        }
+
+        .sevenpm {
+            position: absolute;
+            color: #ff3600;
+            font-size: 37px;
+            left: 180px;
+            top: 2150px;
+            font-weight: bold;
+        }
+
+        .sevenpm-explain {
+            position: absolute;
+            color: #ff3600;
+            font-size: 30px;
+            left: 180px;
+            top: 2230px;
+            font-weight: bold;
+        }
+
+        .eightpm {
+            position: absolute;
+            color: #ff3600;
+            font-size: 37px;
+            left: 180px;
+            top: 2400px;
+            font-weight: bold;
+        }
+
+        .eightpm-explain {
+            position: absolute;
+            color: #ff3600;
+            font-size: 30px;
+            left: 180px;
+            top: 2480px;
+            font-weight: bold;
+        }
+
+        .location {
+            color: #ff3600;
+            position: absolute;
+            top: 2700px;
+            font-size: 37px;
+            font-weight: bold;
+            left: 140px;
+        }
+
+        .map {
+            width: 500px;
+            position: absolute;
+            top: 2800px;
+            left: 140px;
+            z-index: 1;
+        }
+
+        .location-mica {
+            color: #ff3600;
+            position: absolute;
+            font-size: 25px;
+            font-weight: bold;
+            top: 2800px;
+            left: 720px;
+            text-decoration: none;
+
+        }
+
+        .location-mica:hover {
+            color: black;
+        }
+
+        .location-falvey {
+            color: #ff3600;
+            position: absolute;
+            font-size: 25px;
+            top: 2840px;
+            left: 720px;
+
+
+        }
+
+        .location-address {
+            color: #ff3600;
+            position: absolute;
+            font-size: 25px;
+            top: 2900px;
+            left: 720px;
+
+
+        }
+
+        /*banner*/
+
+        .redbox-about {
+            width: 1300px;
+            background-color: #ff3600;
+
+            position: absolute;
+            top: 3500px;
+        }
+
+        .address {
+            top: 3550px;
+        }
+
+        .mica {
+            top: 3600px;
+        }
+
+        .mica-address {
+            top: 3650px;
+        }
+
+        .contact {
+            top: 3550px;
+        }
+
+        .contact-number {
+            top: 3600px;
+        }
+
+        .email {
+            top: 3650px;
+        }
+
+        .sponsors {
+            top: 3550px;
+        }
+
+        .sponsors-list1 {
+
+            top: 3600px;
+        }
+
+        .sponsors-list2 {
+            top: 3650px;
+        }
+
+        .sponsors-list3 {
+            top: 3700px;
+        }
+
+        .mica-logo {
+            top: 3720px;
+        }
+
+
+
+        .wait {
+            color: #ff3600;
+            font-size: 40px;
+            position: absolute;
+            top: 3000px;
+            left: 180px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="index.html" class="home">/ Home</a>
+    <a href="about.html" class="about">/ About</a>
+    <a href="speakers.html" class="speakers">/ Speakers</a>
+    <a href="information.html" class="information">/ Information</a>
+
+    <div class="grid-container">
+        <div class="redbox"></div>
+        <img src="images/information-main.jpg" class="information-main">
+        <div class="love">/LOVE</div>
+        <div class="talk">/TALK</div>
+        <div class="ideation">/IDEATION</div>
+        <div class="information-1">Information</div>
+        <div class="red-line"></div>
+        <div class="schedule">Schedule</div>
+        <div class="vertical-line"></div>
+        <div class="beforelecture">BEFORE LECTURE</div>
+        <div class="twopm">/ 2PM </div>
+        <div class="twopm-explain">Small Talk with graduated students</div>
+        <div class="fourpm">/ 4PM</div>
+        <div class="fourpm-explain">Snack Time with small groups</div>
+        <div class="fivepm">/ 5PM</div>
+        <div class="fivepm-explain">Lecture Start </div>
+        <div class="afterlecture">AFTER LECTURE</div>
+        <div class="sevenpm">/ 7PM</div>
+        <div class="sevenpm-explain">Dinner time with your dream</div>
+        <div class="eightpm">/ 8PM</div>
+        <div class="eightpm-explain">Feedback from your dream</div>
+        <div class="location">Location</div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3087.120941779582!2d-76.62316268575286!3d39.30818197950933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c804bf3c2be327%3A0x7c01c05830af3cbb!2sMICA+%E2%80%93+Brown+Center!5e0!3m2!1sen!2sus!4v1524778692220" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="map"></iframe>
+        <a href="http://www.mica.edu" class="location-mica">Maryland Institute College of Art</a>
+
+        <div class="location-falvey">Brown center Falvey Hall</div>
+        <div class="location-address">1300 W Mount Royal Avenue<br> Baltimore MD, 21217-4134</div>
+        <div class="redbox-about"></div>
+
+        <a href="http://www.mica.edu" class="mica">Maryland Institute College of Art</a>
+        <div class="mica-address">1300 W Mount Royal Avenue <br> Baltimore MD, 21217-4134</div>
+
+        <div class="contact-number">(410)669-9200</div>
+
+        <div class="link"><a href="https://www.ideo.com/" class="sponsors-list1">/ IDEO</a>
+            <a href="https://www.pentagram.com/" class="sponsors-list2">/ Pentagram</a>
+            <a href="https://landor.com/" class="sponsors-list3">/ Landor</a></div>
+        <a href="http://www.mica.edu" class="mica-logo"><img src="images/mica-logo.png"></a>
+        <div class="address">Address</div>
+        <div class="contact">Contact Us</div>
+        <div class="sponsors">Sponsors</div>
+
+        <div class="wait">Please wait a moment!</div>
+        <div class="email">schoi09@mica.edu</div>
+
+
+    </div>
+</body>
+
+</html>

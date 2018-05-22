@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+
+
+
+/*reset*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    line-height: 1.5
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #80111b;
+}
+
+/*nav*/
+
+.nav {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    padding: 2em 2.5em;
+    letter-spacing: 0.19vw;
+}
+
+.nav a,
+.nav button {
+    font-family: 'Raleway';
+    font-weight: 200;
+    font-size: 0.8vw;
+    font-weight: 300;
+    display: inline-block;
+    margin-left: 2em;
+    position: relative;
+}
+
+.nav .menu {
+    display: inline-block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.nav .menu:hover {
+    text-decoration: none;
+}
+
+.nav .menu:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: -0.0vw;
+    height: 4px;
+    background-color: #fff;
+    letter-spacing: 0.5vw;
+}
+
+.nav a {
+    opacity: 0;
+    transform: translateX(5px);
+    transition: all 0.3s linear;
+}
+
+.nav:hover a {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.date {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: type 3.2s infinite steps(30, end) forwards;
+}
+
+@keyframes type {
+    100% {
+        width: 100%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+
+/*content-item*/
+
+.content-item {
+    width: 30vw;
+    position: absolute;
+}
+
+.content-item .pic {
+    position: absolute;
+    top: 0;
+}
+
+.content-item .pic img {
+    display: block;
+    width: 100%;
+}
+
+.content-item .name {
+    font-size: 2.45vw;
+    font-family: 'Raleway';
+    font-weight: 300;
+    color: #80071b;
+    position: relative;
+}
+
+.content-item .tiao {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0.5vw;
+    height: 2vw;
+    background: #80071c;
+    margin-right: 1vw;
+    margin-top: -0.5vw;
+}
+
+.content-item .info {
+    font-family: Gill Sans;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 1.333vw;
+    margin-top: 1vw;
+}
+
+.content-item .link {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 0.95vw;
+    letter-spacing: 0.01vw;
+    margin-top: 2.5vw;
+}
+
+.content-item .link,
+.content-item .link a {
+    color: #333333;
+}
+
+.content-item .link a:hover {
+    text-decoration: underline;
+}
+
+.content-item .cc {
+    font-family: Gill Sans;
+    font-weight: lighter;
+    color: #666666;
+    font-size: 0.76vw;
+    text-align: center;
+}
+
+.content-item-hara {
+    top: 103vw;
+    left: 15vw;
+    padding-left: 21.5vw;
+}
+
+.content-item-hara .pic {
+    left: 0;
+    width: 18vw;
+}
+
+.content-item-hara .cc {
+    padding-top: 1vw;
+}
+
+
+.content-item-leonard {
+    top: 150vw;
+    right: 8vw;
+    padding-right: 23.5vw;
+    text-align: right
+}
+
+.content-item-leonard .pic {
+    right: 0;
+    width: 22.4vw;
+}
+
+.content-item-tom {
+    top: 203vw;
+    left: 5.5vw;
+    padding-left: 30vw;
+}
+
+.content-item-tom .pic {
+    width: 34vw;
+    left: 0;
+}
+
+.content-item-tom .cc {
+    padding-top: 1vw;
+}

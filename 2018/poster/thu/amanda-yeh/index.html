@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>FILMS OF PHIL LORD & CHRIS MILLER</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/template.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300, 400, 600" rel="stylesheet">
+	<style>
+		body {
+			font-family: 'Oswald', sans-serif;
+		}
+
+		/*****CONTAINER******/
+
+		.h-500 {
+			height: 578px;
+		}
+
+		.h-0 {
+			height: 0px;
+		}
+
+		.grid-container {
+			overflow: hidden;
+			margin-top: 35px;
+			margin-bottom: 35px;
+			box-shadow: 0 0 60px #A0A0A0;
+		}
+
+		/*****BACKGROUND******/
+
+		.img-2 {
+			background-image: url("images/map_02.png");
+			background-size: cover;
+		}
+
+		.img-3 {
+			background-image: url("images/map_03.png");
+			background-size: cover;
+		}
+
+		.img-5 {
+			background-image: url("images/map_05.png");
+			background-size: cover;
+		}
+
+		.img-7 {
+			background-image: url("images/map_07.png");
+			background-size: cover;
+		}
+
+		.img-10 {
+			background-image: url("images/map_10.png");
+			background-size: cover;
+		}
+
+		.img-11 {
+			background-image: url("images/map_11.png");
+			background-size: cover;
+		}
+
+		/*****ELEMENTS******/
+
+		.red-header {
+			width: 600px;
+			position: relative;
+			left: 1240px;
+			top: -70px;
+			animation: slide-left 1s forwards;
+		}
+
+		@keyframes slide-left {
+			from {
+				left: 1240px;
+				top: -70px;
+			}
+			to {
+				left: 550px;
+				top: 0;
+			}
+		}
+
+		.yellow-flag {
+			width: 200px;
+			position: relative;
+			top: 100px;
+			left: 150px;
+			animation: fade-in 1s forwards;
+		}
+
+		.grass {
+			position: relative;
+			width: 220px;
+			z-index: 3;
+			left: -580px;
+			top: 400px;
+		}
+
+		.meatball {
+			position: absolute;
+			width: 200px;
+			top: 800px;
+			left: 400px;
+		}
+
+
+		.movie-group+.movie-info {
+			font-family: sans-serif;
+			visibility: hidden;
+			width: 350px;
+			font-weight: 300;
+			line-height: 1.4;
+			font-size: 18px;
+			background-color: rgba(40, 40, 40, 0.7);
+			color: white;
+			padding: 20px;
+			box-shadow: 0px 20px 45px -15px rgba(0, 0, 0, 0.4);
+			border-left: 10px solid red;
+			position: relative;
+		}
+
+		.movie-group:hover+.movie-info {
+			visibility: visible;
+			animation: fade-in 0.6s forwards;
+		}
+
+		@keyframes fade-in {
+			from {
+				opacity: 0;
+			}
+			to {
+				opacity: 1;
+			}
+		}
+
+		.meatball-info {
+			top: 240px;
+			left: 620px;
+		}
+
+		.bow {
+			position: absolute;
+			width: 180px;
+			top: 1400px;
+			left: 570px;
+		}
+
+		.m21-info {
+			top: 210px;
+			left: 790px;
+		}
+
+		.glasses {
+			width: 200px;
+			position: absolute;
+			top: 1850px;
+			left: 200px;
+		}
+
+		.m22-info {
+			top: -180px;
+			left: 450px
+		}
+
+		.grass-2 {
+			width: 300px;
+			position: relative;
+			top: 150px;
+			left: 200px;
+		}
+
+		.lego-head {
+			width: 140px;
+			position: absolute;
+			left: 940px;
+			top: 2130px;
+		}
+
+		.lego-info {
+			top: -190px;
+			left: 540px;
+		}
+
+		.batman {
+			width: 300px;
+			position: absolute;
+			left: 250px;
+			top: 2600px;
+		}
+
+		.bat-info {
+			top: 60px;
+			left: 580px;
+		}
+
+
+		/*****TYPOGRAPHY******/
+
+		.red-header {
+			color: white;
+			width: 700px;
+			transform: skewX(-9deg) rotate(-9deg);
+		}
+
+		.small-header {
+			background: red;
+			font-size: 30px;
+			height: 55px;
+			margin-bottom: 30px;
+			padding-top: 11px;
+			padding-left: 35px;
+			position: relative;
+			top: 80px;
+		}
+
+
+		.large-header {
+			background: red;
+			height: 280px;
+			padding-left: 35px;
+			position: relative;
+			top: 80px;
+		}
+
+		.large-header-1 {
+			padding-top: 21px;
+			padding-bottom: 10px;
+			font-size: 30px;
+		}
+
+		.large-header-2 {
+			font-size: 90px;
+			font-weight: 600;
+			line-height: 100px;
+		}
+
+		a {
+			color: white;
+		}
+
+		a:hover {
+			color: #DDD;
+		}
+
+		.date-background {
+			position: relative;
+			background: red;
+			width: 90px;
+			height: 30px;
+			transform: skewX(-20deg);
+
+		}
+
+		.date {
+			transform: skewX(20deg);
+			padding-top: 5.5px;
+			padding-left: 9px;
+			color: white;
+			font-size: 18px;
+			font-weight: 300;
+		}
+
+		.date-10 {
+			position: absolute;
+			top: 1020px;
+			left: 370px;
+		}
+
+		.movie {
+			font-size: 35px;
+			width: 320px;
+			position: relative;
+		}
+
+		.movie-cloudy {
+			position: absolute;
+			top: 1060px;
+			left: 370px;
+		}
+
+		.date-11 {
+			position: absolute;
+			top: 1510px;
+			left: 550px;
+		}
+
+		.movie-21 {
+			position: absolute;
+			top: 1550px;
+			left: 550px;
+		}
+
+		.date-12 {
+			position: absolute;
+			top: 2050px;
+			left: 195px;
+		}
+
+		.movie-22 {
+			position: absolute;
+			top: 2090px;
+			left: 195px;
+		}
+
+		.date-13 {
+			position: absolute;
+			left: 900px;
+			top: 2330px;
+		}
+
+		.movie-lego {
+			position: absolute;
+			left: 900px;
+			top: 2370px;
+		}
+
+		.date-14 {
+			position: absolute;
+			left: 270px;
+			top: 2740px;
+		}
+
+		.movie-bat {
+			position: absolute;
+			left: 270px;
+			top: 2780px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="grid-container">
+
+		<div class="row">
+			<div class="col-12 h-500 img-2">
+				<div class="red-header">
+					<div class="small-header">FIVE DAY FILM FEST AT <a href="https://www.w3schools.com/html/">THE CHARLES THEATRE</a></div>
+					<div class="large-header">
+						<div class="large-header-1">PRESENTING THE FILMS OF</div>
+						<div class="large-header-2">PHIL LORD &amp;<br> CHRIS MILLER</div>
+					</div>
+				</div>
+				<img class="yellow-flag" src=images/yellow-flag-04.png>
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-12 h-500 img-3">
+				<div class="movie-group">
+					<img class="meatball movie-img" src="images/meatball-02.png">
+					<div class="date-background date-10">
+						<div class="date">MARCH 10</div>
+					</div>
+					<div class="movie movie-cloudy">CLOUDY WITH A CHANCE OF MEATBALLS</div>
+				</div>
+				<div class="movie-info meatball-info">A local scientist is often regarded as a failure until he invents a machine that can make food fall from the sky. But little does he know, that things are about to take a turn for the worst.</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12 h-500 img-5">
+				<div class="movie-group">
+					<img class="bow movie-img" src="images/Bow.png">
+					<div class="date-background date-11">
+						<div class="date">MARCH 11</div>
+					</div>
+					<div class="movie movie-21">21 JUMP STREET</div>
+				</div>
+				<div class="movie-info m21-info">A pair of underachieving cops are sent back to a local high school to blend in and bring down a synthetic drug ring.</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12 h-500 img-7">
+				<div class="movie-group">
+					<img class="grass-2" src="images/grass-05.png">
+					<img class="glasses movie-img" src="images/glasses.png">
+					<div class="date-background date-12">
+						<div class="date">MARCH 12</div>
+					</div>
+					<div class="movie movie-22">22 JUMP STREET</div>
+				</div>
+				<div class='movie-info m22-info'>After making their way through high school (twice), big changes are in store for officers Schmidt and Jenko when they go deep undercover at a local college.</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12 h-500 img-10">
+				<div class="movie-group">
+					<img class="lego-head movie-img" src="images/lego-head.png">
+					<div class="date-background date-13">
+						<div class="date">MARCH 13</div>
+					</div>
+					<div class="movie movie-lego">THE LEGO MOVIE</div>
+				</div>
+				<div class="movie-info lego-info">An ordinary LEGO construction worker, thought to be the prophesied as "special", is recruited to join a quest to stop an evil tyrant from gluing the LEGO universe into eternal stasis.</div>
+
+				<div class="movie-group">
+					<img class="batman movie-img" src="images/batman.png">
+					<div class="date-background date-14">
+						<div class="date">MARCH 14</div>
+					</div>
+					<div class="movie movie-bat">THE LEGO BATMAN MOVIE</div>
+				</div>
+				<div class="movie-info bat-info">A cooler-than-ever Bruce Wayne must deal with the usual suspects as they plan to rule Gotham City, while discovering that he has accidentally adopted a teenage orphan who wishes to become his sidekick.</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12 h-500 img-11"></div>
+		</div>
+
+
+	</div>
+
+
+</body>
+
+</html>

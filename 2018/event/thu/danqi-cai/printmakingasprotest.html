@@ -1,0 +1,169 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:900,900i|Open+Sans:400,600" rel="stylesheet">
+
+    <script src="js/script.js"></script>
+
+    <style>
+        body {
+            background-image: url(images/img-background.png);
+            background-size: auto;
+            background-repeat: repeat-x;
+        }
+
+        .title {
+            left: 50px;
+        }
+
+        .info {
+            left: 50px;
+        }
+
+        .text-1 {
+            top: 52px;
+        }
+
+        .text-2 {
+            bottom: 492px;
+        }
+
+        .caponigro {
+            width: 385.13px;
+            height: 340.64px;
+        }
+
+        .panel {
+            width: 113.11px;
+            height: 99.86px;
+            object-fit: cover;
+            margin-top: 140px;
+            margin-right: 20px;
+
+        }
+
+        .photos {
+            left: 50px;
+        }
+
+        .about-caponigro {
+            top: -35px;
+        }
+
+        .about-chair-1 {
+            top: -30px;
+        }
+
+        .about-chair-2 {
+            top: 1190px;
+            left: 846px;
+        }
+
+        .about-panel {
+            top: -7px;
+        }
+
+        .about-panel-2 {
+            left: 346px;
+            top: -200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="orange-screen fixed" id="orange-screen"></div>
+    <div class="grid-container">
+        <div class="nav">
+            <div class="nav-button fixed" onclick="expandNav()" id="nav-button">
+                <div class="bar bar1"></div>
+                <div class="bar bar2"></div>
+                <div class="bar bar3"></div>
+            </div>
+            <div class="nav-expand fixed" id="nav-expand">
+                <div class="nav-close relative" onclick="closeNav()">
+                    <div class="line line1 relative"></div>
+                    <div class="line line2 relative"></div>
+                </div>
+                <div class="nav-text-block lato size-60 uppercase weight-black relative">
+                    <div class="nav-text"><a class="home black-link" href="index.html">home</a></div>
+                    <div class="nav-text"><a class="about black-link" href="about.html">about</a></div>
+                    <div class="nav-text"><a class="schedule black-link" href="schedule.html">schedule</a></div>
+                    <div class="nav-text"><a class="exhibit black-link" href="exhibition.html">exhibition</a></div>
+                    <div class="nav-text talk" id="talk"><a class="talk-link black-link">talk/panel</a>
+                        <div class="talk talk-extra fixed"></div>
+                        <div class="talk-expand fixed" id="talk-expand">
+                            <div class="talk-expand-text-block lato color-black size-40 weight-black capitalize">
+                                <div class="talk-expand-text relative"><a class="artnactivism black-link" href="artnactivism.html">art &amp; activism</a></div>
+                                <div class="talk-expand-text relative"><a class="printmakingasprotest black-link" href="printmakingasprotest.html">printmaking as protest</a></div>
+                                <div class="talk-expand-text relative"><a class="cruel black-link" href="crueldesign.html">cruel design/disobedient design</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-text"><a class="location black-link" href="location.html">location</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="row col-12 h-1">
+        </div>
+        <div class="row col-12 h-7">
+            <div class="col-2 h-7"></div>
+            <div class="col-8 h-7">
+                <div class="title lato weight-black color-white line-height-60 relative">
+                    <p class="size-60 inline">Printmaking as Protest:</p><br>
+                    <p class="size-40 inline">Harnessing Power of the
+                    </p>
+                    <p class="color-orange size-40 inline">Multiple
+                    </p>
+                </div>
+                <div class="info open-sans size-20 line-height-33 color-white weight-semi-bold relative">Time: 1:30 pm - 3 pm<br>Chair: Jessica Caponigro<br>Panel: Paloma Barhaugh-Bordas, Christina Long, Corinne Teed</div>
+                <div>
+                    <div class="text-1 text-box-1 open-sans color-white size-18 weight-semi-bold line-height-33 relative">Often used to address social and political themes, the history of printmaking as a form of dissent is well documented. From protest posters to zines to leaflets, printmaking possesses the unique ability to disseminate information camouflaged as art. Innately more egalitarian and accessible, and therefore less precious and valuable, the production of prints is often a community activity that can also easily enter the public sphere. This panel will discuss how printmaking, which historically has been used to bring attention to inequality, can generate transformative social justice.</div>
+                    <div class="text-2 text-box-1 float-right open-sans color-white size-18 weight-semi-bold line-height-33 relative">Panelists will discuss both their personal practices and how print fits into a larger historical framework.</div>
+                </div>
+            </div>
+            <div class="col-2 h-7"></div>
+        </div>
+        <div class="row col-12 h-1">
+            <div class="col-5 h-1"></div>
+            <div class="col-2 h-1">
+                <div class="diag relative">
+                    <a class="diag-link" href="#here">
+                        <div class="diag-link diag-line diag-line1 relative"></div>
+                        <div class="diag-link diag-line diag-line2 relative"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-5 h-1"></div>
+        </div>
+        <div class="row col-12 h-1"></div>
+        <div class="row col-12 h-7">
+            <div class="col-5 h-7">
+                <div class="photos relative">
+                    <img class="caponigro relative" alt="caponigro" src="images/img-caponigro.jpg">
+                    <img class="bordas panel relative" alt="bordas" src="images/img-bordas.jpg">
+                    <img class="long panel relative" alt="long" src="images/img-long.jpg">
+                    <img class="teed panel relative" alt="teed" src="images/img-teed.jpg">
+                </div>
+            </div>
+            <div class="col-7 h-7">
+                <div class="about-speaker about-caponigro relative">about jessica caponigro
+                </div>
+                <div class="about-chair-1 text-box-3 open-sans color-white size-18 weight-semi-bold line-height-33 relative" id="here">Before receiving her MFA from the School of the Art Institute of Chicago, Jessica Caponigro attended Bryn Mawr College where she earned her BA in the History of Art. In her interdisciplinary practice, Caponigro blends egalitarian concepts with ritual, and explores ideas of restriction through repetition, reproduction, and accessibility. Before its dissolution, she was a member of the non-anonymous W.I.T.C.H.</div>
+                <div class="about-chair-2 text-box-3 open-sans color-white size-18 weight-semi-bold line-height-33 absolute"> Chicago well as the feminist art collective Tracers, and frequently participates in workshops, most recently at the Museum of Contemporary Art Chicago and NYU Florence. She currently lives and works in Boston, Massachusetts, where she operates Snake Hair Press, an independent publisher of prints, zines, and artist books.</div>
+                <div class="about-speaker about-panel relative">about the panel</div>
+                <div class="about-panel-1 text-box-4 open-sans color-white size-18 weight-semi-bold line-height-33">Paloma Barhaugh-Bordas is a Visiting Assistant Professor at the University of Rochester. Christina Long is known for #Blkgrlswurld Zine, for heavy girls who love</div>
+                <div class="about-panel-2 relative text-box-4 open-sans color-white size-18 weight-semi-bold line-height-33 relative">heavy music. Corinne Teed is a Visiting Assistant Professor at Oberlin College.</div>
+
+            </div>
+        </div>
+        <div class="row col-12 h-1"></div>
+    </div>
+
+</body>
+
+</html>

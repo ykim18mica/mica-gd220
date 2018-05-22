@@ -1,0 +1,145 @@
+/*
+MAIN STYLE SHEET
+*/
+
+/********** images **********/
+
+.img-head {
+	background-image: url("../images/img-head.png");
+	background-size: cover;
+
+}
+
+.img-world {
+	background-image: url("../images/img-world.png");
+	background-size: cover;
+}
+
+.img-vr {
+	background-image: url("../images/img-vr.png");
+	background-size: cover;
+}
+
+.img-internet {
+	background-image: url("../images/img-internet.png");
+	background-size: cover;
+}
+
+.img-surf {
+	background-image: url("../images/img-surf.png");
+	background-size: cover;
+}
+
+
+
+/********** General Typography style **********/
+
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #333333;
+}
+
+
+.lg {
+	font-size: 9vw;
+	font-weight: 700;
+}
+
+.lg-1 {
+	font-size: 6vw;
+	font-weight: 700;
+}
+
+.md-1 {
+	font-size: 3.5vw;
+	font-weight: 700;
+}
+
+.md-2 {
+	font-size: 4.5vw;
+}
+
+.sm-1 {
+	font-size: 2vw;
+}
+
+.sm-2 {
+	font-size: 1.3vw;
+}
+
+
+/********** Custom Typography style **********/
+
+.head {
+	color: white;
+	padding-left: 8%;
+
+}
+
+.on-your {
+	padding-left: 70.5%;
+	padding-top: 6%;
+}
+
+.get-set {
+	padding-left: 67.4%;
+	padding-top: 0.5%;
+}
+
+.txt-world-1 {
+	padding-left: 62%;
+}
+
+.txt-world-2 {
+	padding-left: 69%;
+}
+
+.txt-world-3 {
+	padding-left: 70.2%;
+}
+
+.txt-vr-1 {
+	color: #43D7FF;
+	padding-left: 54%;
+	padding-top: 3%;
+}
+
+.txt-vr-2 {
+	color: #43D7FF;
+	padding-left: 54%;
+	padding-top: 5%;
+}
+
+.txt-internet-1 {
+	padding-left: 11%;
+	padding-top: 2%;
+}
+
+.txt-internet-2 {
+	padding-left: 39%;
+	padding-top: 2%;
+}
+
+.txt-internet-3 {
+	padding-left: 69%;
+	text-align: center;
+	padding-top: 2%;
+}
+
+.txt-surf-2 {
+	padding-top: 8%;
+}
+
+.txt-surf-3 {
+	padding-top: 6%;
+}
+
+.txt-surf-4 {
+	padding-top: 10%;
+}
+
+
+.txt-surf-5 {
+	padding-top: 7.4%;
+	color: white;
+}

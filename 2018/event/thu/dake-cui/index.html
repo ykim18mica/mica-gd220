@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="google" value="notranslate">
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<title>m design festival</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/mappage.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/annnn.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+	<link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<!--
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/jquery.localscroll@2.0.0/jquery.localScroll.min.js"></script>
+-->
+	<!-- <script>
+        (document).ready(function() {
+    if(localStorage.getItem('popState') != 'shown'){
+        $("#tutor").delay(2000).fadeIn();
+        localStorage.setItem('popState','shown')
+    }
+
+    $('#bubu').click(function(e) // You are clicking the close button
+    {
+    $('#tutor').fadeOut(); // Now the pop up is hiden.
+    });
+    $('#tutpr').click(function(e) 
+    {
+    $('#tutor').fadeOut(); 
+    });
+            
+            $('#tutor').addClass('dn');
+});
+        
+    </script> --!>
+
+    <!--    typekit load-->
+	<script src="https://use.typekit.net/deg7woh.js"></script>
+	<script>
+		try {
+			Typekit.load({
+				async: true
+			});
+		} catch (e) {}
+	</script>
+
+	<!--    Scroll from left to right-->
+
+
+	<!--
+    <script>
+        jQuery(function($) {
+            $.fn.hScroll = function(amount) {
+                amount = amount || 120;
+                $(this).bind("DOMMouseScroll mousewheel", function(event) {
+                    var oEvent = event.originalEvent,
+                        direction = oEvent.detail ? oEvent.detail * -amount : oEvent.wheelDelta,
+                        position = $(this).scrollLeft();
+                    position += direction > 0 ? -amount : amount;
+                    $(this).scrollLeft(position);
+                    event.preventDefault();
+                })
+            };
+        });
+
+        $(document).ready(function() {
+            $('html, body').hScroll(20); // You can pass (optionally) scrolling amount
+        });
+    </script>
+-->
+
+
+	<script>
+		$(document).on('click', 'a[href^="#"]', function(event) {
+			event.preventDefault();
+
+			$('html, body').animate({
+				scrollLeft: $($.attr(this, 'href')).offset().left
+			}, 500);
+		});
+	</script>
+
+	<script>
+		$(document).ready(function() {
+			if (Cookies.get('noShowWelcome')) {
+				$('#page1title').removeClass('fadeIn')
+				//                $('#tutor').hide();
+				//                $('#tutor').removeClass('dn')
+			} else {
+				// Run code
+				//                $('#page1title').removeClass('fadeIn')
+				//                $("#tutor").addClass('flickr');
+				Cookies.set('noShowWelcome', true);
+
+			};
+		});
+	</script>
+
+	<script>
+		$(document).on('click', function(e) {
+			$('#menuver2').removeClass('menu');
+			$('#menuver2').addClass('menuafterclick');
+		});
+	</script>
+	<!--
+    <script>
+        document.getElementById("m111").addEventListener("click", function() {
+            document.getElementById("tutor").addClass('dn');
+        });
+    </script>
+-->
+	<script>
+		// Set the date we're counting down to
+		var countDownDate = new Date("May 15, 2018 00:00:00 EDT").getTime();
+
+		// Update the count down every 1 second
+		var x = setInterval(function() {
+
+			// Get todays date and time
+			var now = new Date().getTime();
+
+			// Find the distance between now an the count down date
+			var distance = countDownDate - now;
+
+			// Time calculations for days, hours, minutes and seconds
+			var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+			// Display the result in the element with id="demo"
+			document.getElementById("countdown").innerHTML = days + "d " + hours + "h " +
+				minutes + "m " + seconds + "s ";
+
+			// If the count down is finished, write some text 
+			if (distance < 0) {
+				clearInterval(x);
+				document.getElementById("countdown").innerHTML = "EXPIRED";
+			}
+		}, 1000);
+	</script>
+	<script>
+		$(document).ready(function() {
+			$('.menuwords').mouseenter(function() {
+				$('#menuver2').addClass('animated fadeOut');
+				$('#menuver1').removeClass('dn animated fadeOut');
+				$('#menuver1').addClass('animated fadeIn anide');
+			});
+			$('.menuwords').mouseout(function() {
+				$('#menuver1').addClass('animated fadeOut');
+				$('#menuver2').removeClass('animated fadeOut');
+				$('#menuver2').addClass('animated fadeIn anide');
+			});
+		});
+	</script>
+
+	<script>
+		function myFunction() {
+			$('#tutor').addClass('dn');
+		}
+	</script>
+
+</head>
+
+<body>
+	<div class="lineanimation">
+		<div class="anip1 dn">
+		</div>
+	</div>
+	<div id="m111">
+		<div id="menuver1" class="menu2 dn">
+			<a href="#p1">
+				<div class="menuwords">HOME</div>
+			</a>
+			<a href="#p2">
+				<div class="menuwords">INTRO</div>
+			</a>
+			<a href="#p3">
+				<div class="menuwords">JUNE1</div>
+			</a>
+			<a href="#p4">
+				<div class="menuwords">JUNE2</div>
+			</a>
+			<a href="#p5">
+				<div class="menuwords">JUNE3</div>
+			</a>
+			<a href="#p6">
+				<div class="menuwords">LOCATION</div>
+			</a>
+			<a href="#p7">
+				<div class="menuwords">TICKETS</div>
+			</a>
+		</div>
+		<div id="menuver2" class="menu">
+			<a href="#p1">
+				<div class="menuwords bga">HOME</div>
+			</a>
+			<a href="#p2">
+				<div class="menuwords bga">INTRO</div>
+			</a>
+			<a href="#p3">
+				<div class="menuwords bga">JUNE1</div>
+			</a>
+			<a href="#p4">
+				<div class="menuwords bga">JUNE2</div>
+			</a>
+			<a href="#p5">
+				<div class="menuwords bga">JUNE3</div>
+			</a>
+			<a href="#p6">
+				<div class="menuwords bga">LOCATION</div>
+			</a>
+			<a href="#p7">
+				<div class="menuwords bga">TICKETS</div>
+			</a>
+		</div>
+		<!--
+        <div id="tutor" class="dn">
+            <div class="usemenu">use menu to switch pages &#8594;<br><br>
+
+                <div id="ppbutton">
+                    <button onclick="myFunction()" class="buttontext">Close this</button>
+                </div>
+
+            </div>
+        </div>
+-->
+	</div>
+
+	<div id="page">
+		<!--
+        <div class="count">
+            <div class="kozukagp titlefontsetup fcount fcount3">3</div>
+            <div class="kozukagp titlefontsetup fcount fcount2">2</div>
+            <div class="kozukagp titlefontsetup fcount fcount1">1</div>
+-->
+		<!--
+            <div class="gradientanimation1">
+            </div>
+            <div class="gradientanimation2">
+            </div>
+            <div class="gradientanimation3">
+            </div>
+-->
+		<!--       <div id="circle1" class="covercircle circleanimation dddd"></div>-->
+		<!--       <div class="covercircle2"></div>-->
+		<!--        </div>-->
+
+		<div class="page1 pps" id="p1">
+			<div id="page1title" class="kozukagp titlefontsetup animated fadeIn">m design festival</div>
+		</div>
+		<div class="page2 pps mm" id="p2">
+			<div class="paragraph1">
+				<p><strong>m design festival</strong> is a discussion of minimalism. As a design style and also a life style, Minimalism exists everywhere. It is one of the design trends that just never gets old. The simplicity of it makes minimalism easy to incorporate into a number of other styles and trends. It is classic and classy.</p>
+				<p>We invite three japanese deisgners from different design areas to talk about their works, their principles and their ways to see this world. We think these background differences are valuable and can bring us a more versatile consideration about minimalism.</p>
+			</div>
+			<div class="paragraph2">
+				<p><strong>Speaker's Lectures</strong><br></p>
+				<p><a href="#p3">June 1</a>&nbsp;&nbsp;19:00&emsp;&emsp;Yohji Yamamoto&nbsp;&nbsp;&nbsp;&nbsp;山本&emsp;耀司
+					<br><a href="#p4">June 2</a>&nbsp;&nbsp;19:00&emsp;&emsp;Naoto Fukasawa&nbsp;&nbsp;&nbsp;&nbsp;深澤&emsp;直人
+					<br><a href="#p5">June 3</a>&nbsp;&nbsp;19:00&emsp;&emsp;Tadao Ando&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;安藤&emsp;忠雄<br><br>
+				</p>
+				<p><strong>Location</strong></p>
+				<p>Falvey Hall | Brown Center, lower level <br>1301 W. Mt. Royal Ave. Baltimore, MD<br>
+					<a href="#p6">Map</a></p><br>
+			</div>
+			<div class="paragraph3 presentby">
+				<p><strong class="greytitle">Presented by</strong></p>
+				<a href="//yh.is" target="_blank"><img class="dlogo" src="images/DAKECUI-logo.svg" alt="DAKECUI"></a>
+				<p class="matop20"><strong class="greytitle">Supporter</strong></p>
+				<a href="//mica.edu" target="_blank"><img class="mlogo" src="images/micaloogo.svg" alt="MICA"></a>
+			</div>
+			<div class="anibox">
+				<div class="anip3">
+					<div class="anip3-2"></div>
+					<div class="anip3-3"></div>
+					<div class="anip3-4"></div>
+				</div>
+				<div class="anip2">
+					<div class="anip2-2"></div>
+					<div class="anip2-3"></div>
+					<div class="anip2-4"></div>
+				</div>
+				<div class="anip4">
+					<div class="anip4-2"></div>
+					<div class="anip4-3"></div>
+					<div class="anip4-4"></div>
+				</div>
+			</div>
+		</div>
+		<div class="page3 pps" id="p3">
+			<img class="sp" src="images/259078-12732741-Neil_Bedford_Yohji_Yamamoto_High_Snobiety_2_jpg.jpg" alt="Yohji Yamamoto">
+			<div class="words1ofintro">
+				<div class="kozukagp st">
+					<p class="engtitle">Yohji Yamamoto</p>山&emsp;&emsp;&emsp;本&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;耀&emsp;&emsp;&emsp;司</div>
+			</div>
+			<div class="words2ofintro">
+				<div class="kozukagp slashit">/</div>
+				<div class="kozukagp si">
+					<p class="engtitle2">Fashion Designer</p>ファッションデザイナー</div>
+			</div>
+		</div>
+		<div class="page4 pps" id="p4">
+			<img class="sp" src="images/naotofukasawatrimy.jpg" alt="Naoto Fukasawa">
+			<div class="words1ofintro">
+				<div class="kozukagp st">
+					<p class="engtitle">Naoto Fukasawa</p>深&emsp;&emsp;&emsp;澤&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;直&emsp;&emsp;&emsp;人</div>
+			</div>
+			<div class="words2ofintro">
+				<div class="kozukagp slashit">/</div>
+				<div class="kozukagp si">
+					<p class="engtitle2">Product Designer</p>プロダクトデザイナー</div>
+			</div>
+		</div>
+		<div class="page5 pps" id="p5">
+			<img class="sp" src="images/tadao%20ando%20flip.jpg" alt="Tadao Ando">
+			<div class="words1ofintro">
+				<div class="kozukagp st">
+					<p class="engtitle">Tadao Ando</p>安&emsp;&emsp;&emsp;藤&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;忠&emsp;&emsp;&emsp;雄</div>
+			</div>
+			<div class="words2ofintro">
+				<div class="kozukagp slashit">/</div>
+				<div class="kozukagp si">
+					<p class="engtitle2">Architect</p>建築家</div>
+			</div>
+		</div>
+		<div class="page6 pps" id="p6">
+			<div id="map"></div>
+			<script>
+				function CenterControl(controlDiv, map) {
+
+					// Set CSS for the control border.
+					var controlUI = document.createElement('div');
+					controlUI.id = 'infoonthemap';
+					controlUI.className = 'animated fadeIn';
+
+					//            controlUI.title = 'Click to recenter the map';
+					controlDiv.appendChild(controlUI);
+
+					// Set CSS for the control interior.
+					var controlText = document.createElement('div');
+					controlText.id = 'trinfo';
+					controlText.innerHTML = '<strong class="bbb">Falvey Hall &nbsp;&nbsp;| &nbsp;&nbsp;Brown Center, lower level</strong><br>1301 W. Mt. Royal Ave. &nbsp;Baltimore, MD<br><a class="getdirection" target="_blank" href="https://goo.gl/maps/hCr3UjCXdzv">Get Direction</a> ';
+					controlUI.appendChild(controlText);
+
+					// Setup the click event listeners: simply set the map to Chicago.
+					//            controlUI.addEventListener('click', function() {
+					//                map.setCenter(chicago);
+					//            });
+
+				}
+
+				function initMap() {
+
+					// Create a new StyledMapType object, passing it an array of styles,
+					// and the name to be displayed on the map type control.
+					var styledMapType = new google.maps.StyledMapType(
+						[{
+								"elementType": "geometry",
+								"stylers": [{
+									"color": "#f5f5f5"
+								}]
+							},
+							{
+								"elementType": "labels.icon",
+								"stylers": [{
+									"visibility": "off"
+								}]
+							},
+							{
+								"elementType": "labels.text.fill",
+								"stylers": [{
+									"color": "#616161"
+								}]
+							},
+							{
+								"elementType": "labels.text.stroke",
+								"stylers": [{
+									"color": "#f5f5f5"
+								}]
+							},
+							{
+								"featureType": "administrative.land_parcel",
+								"elementType": "labels.text.fill",
+								"stylers": [{
+									"color": "#bdbdbd"
+								}]
+							},
+							{
+								"featureType": "poi",
+								"elementType": "geometry",
+								"stylers": [{
+									"color": "#eeeeee"
+								}]
+							},
+							{
+								"featureType": "poi",
+								"elementType": "labels.text.fill",
+								"stylers": [{
+									"color": "#757575"
+								}]
+							},
+							{
+								"featureType": "poi.park",
+								"elementType": "geometry",
+								"stylers": [{
+									"color": "#e5e5e5"
+								}]
+							},
+							{
+								"featureType": "poi.park",
+								"elementType": "labels.text.fill",
+								"stylers": [{
+									"color": "#9e9e9e"
+								}]
+							},
+							{
+								"featureType": "road",
+								"elementType": "geometry",
+								"stylers": [{
+									"color": "#ffffff"
+								}]
+							},
+							{
+								"featureType": "road.arterial",
+								"elementType": "labels.text.fill",
+								"stylers": [{
+									"color": "#757575"
+								}]
+							},
+							{
+								"featureType": "road.highway",
+								"elementType": "geometry",
+								"stylers": [{
+									"color": "#dadada"
+								}]
+							},
+							{
+								"featureType": "road.highway",
+								"elementType": "labels.text.fill",
+								"stylers": [{
+									"color": "#616161"
+								}]
+							},
+							{
+								"featureType": "road.local",
+								"elementType": "labels.text.fill",
+								"stylers": [{
+									"color": "#9e9e9e"
+								}]
+							},
+							{
+								"featureType": "transit.line",
+								"elementType": "geometry",
+								"stylers": [{
+									"color": "#e5e5e5"
+								}]
+							},
+							{
+								"featureType": "transit.station",
+								"elementType": "geometry",
+								"stylers": [{
+									"color": "#eeeeee"
+								}]
+							},
+							{
+								"featureType": "water",
+								"elementType": "geometry",
+								"stylers": [{
+									"color": "#c9c9c9"
+								}]
+							},
+							{
+								"featureType": "water",
+								"elementType": "labels.text.fill",
+								"stylers": [{
+									"color": "#9e9e9e"
+								}]
+							}
+						], {
+							name: 'Styled Map'
+						});
+
+
+					// Create a map object, and include the MapTypeId to add
+					// to the map type control.
+					var FalveyHall = {
+						lat: 39.308455,
+						lng: -76.620789
+					};
+					var map = new google.maps.Map(document.getElementById('map'), {
+						center: FalveyHall,
+						zoom: 15,
+						streetViewControl: false,
+						fullscreenControl: false,
+						gestureHandling: 'cooperative',
+						mapTypeControlOptions: {
+							//'roadmap', 'satellite', 'hybrid', 'terrain','styled_map'
+							mapTypeIds: []
+						}
+					});
+					var marker = new google.maps.Marker({
+						position: FalveyHall,
+						map: map
+					});
+					//Associate the styled map with the MapTypeId and set it to display.
+					map.mapTypes.set('styled_map', styledMapType);
+					map.setMapTypeId('styled_map');
+					// Create the DIV to hold the control and call the CenterControl()
+					// constructor passing in this DIV.
+					var centerControlDiv = document.createElement('div');
+					var centerControl = new CenterControl(centerControlDiv, map);
+
+					centerControlDiv.index = 1;
+					map.controls[google.maps.ControlPosition.TOP_LEFT].push(centerControlDiv);
+				}
+			</script>
+			<script src="js/mappage.js"></script>
+			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAidmWVKsiJ6b-y7QWB9aouQeTlWNjljBs
+&callback=initMap">
+			</script>
+		</div>
+		<div class="page7 pps" id="p7">
+			<div class="kozukagp ticketsinfo">
+				tickets available in&emsp;
+				<p class="countdown" id="countdown"></p>&emsp; on May 15
+			</div>
+		</div>
+	</div>
+</body>
+
+
+
+</html>

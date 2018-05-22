@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Event/</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .menu1 {
+            width: 3.2vw;
+            height: 2.7vw;
+            margin-top: 3vw;
+            position: fixed;
+            top: 0.5vw;
+            right: 5vw;
+            display: block;
+        }
+
+        .menu2 {
+            width: 3.2vw;
+            height: 2.7vw;
+            margin-top: 3vw;
+            position: fixed;
+            top: 0.5vw;
+            right: 5vw;
+            display: none;
+            opacity: 0.5;
+        }
+
+        #dropdown {
+            position: fixed;
+            top: 3vw;
+            display: none;
+        }
+
+
+
+
+        .border {
+            border-style: solid;
+            border-width: 0.2vw;
+            height: 30vw;
+            width: 30vw;
+            color: rgb(253, 110, 117);
+            position: relative;
+            top: 15vw;
+            left: 36vw;
+        }
+
+        .title1 {
+            font-size: 1.5vw;
+            letter-spacing: 1vw;
+            position: absolute;
+            top: 28vw;
+            left: 39.5vw;
+            animation: opacity 4s ease-in-out;
+        }
+
+        .title2 {
+            font-size: 3vw;
+            letter-spacing: 1.5vw;
+            position: absolute;
+            top: 31vw;
+            left: 26vw;
+            font-weight: 500;
+            animation: opacity 6s ease-in-out;
+        }
+
+        .date {
+            font-size: 1.5vw;
+            letter-spacing: 0.5vw;
+            font-style: italic;
+            position: absolute;
+            top: 18vw;
+            left: 28.5vw;
+            -webkit-transform: rotate(90deg);
+            animation: opacity 7s ease-in-out;
+
+
+        }
+
+
+        .facebook {
+            position: absolute;
+            top: 53vw;
+            right: 5vw;
+            width: 1.8vw;
+            margin: 1vw;
+
+        }
+
+        .ins {
+            position: absolute;
+            top: 53vw;
+            right: 10vw;
+            width: 1.8vw;
+            margin: 1vw;
+        }
+
+        .twitter {
+            position: absolute;
+            top: 53vw;
+            right: 15vw;
+            width: 1.8vw;
+            margin: 1vw;
+        }
+
+        .youtube {
+            position: absolute;
+            top: 53vw;
+            right: 20.5vw;
+            width: 2vw;
+            margin: 1vw;
+        }
+
+        .moma {
+            position: absolute;
+            top: 53.8vw;
+            left: 5vw;
+            width: 4.5vw;
+            margin: 1vw;
+        }
+
+        .footbar-address {
+            font-size: 0.8vw;
+            color: white;
+            letter-spacing: 0.1vw;
+            position: absolute;
+            top: 55vw;
+            right: 51vw;
+        }
+
+        .footbar-time {
+            font-size: 0.8vw;
+            color: white;
+            letter-spacing: 0.1vw;
+            position: absolute;
+            top: 55vw;
+            right: 32vw;
+        }
+
+        @keyframes opacity {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+    </style>
+    <script>
+        function openNav() {
+            document.getElementById("dropdown").style.display = "block";
+            document.getElementById("open").style.display = "none";
+            document.getElementById("close").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("dropdown").style.display = "none";
+            document.getElementById("open").style.display = "block";
+            document.getElementById("close").style.display = "none";
+        }
+
+    </script>
+
+
+</head>
+
+<body>
+
+
+    <img class="icon" src="images/logo.png">
+    <img class="menu1" id="open" onClick="openNav()" src="images/menu.png">
+    <img class="menu2" id="close" onClick="closeNav()" src="images/menu.png">
+
+
+
+    <div class="menu-open" id="dropdown">
+        <ul>
+            <li><a href="about.html" style="text-decoration:none" class="about">ABOUT</a></li>
+            <li><a href="speakers.html" style="text-decoration:none" class="speakers">SPEAKERS</a></li>
+            <li><a href="schedule.html" style="text-decoration:none" class="schedule">SCHEDULE</a></li>
+            <li><a href="contact.html" style="text-decoration:none" class="contact">CONTACT</a></li>
+        </ul>
+    </div>
+    <div class="border"></div>
+    <div class="title">
+        <div class="title1">Staying true to </div>
+        <div class="title2">Design Fundamentals</div>
+    </div>
+
+    <div class="date">
+        10/28 SUN
+    </div>
+    <div>
+        <a href="https://www.facebook.com/MuseumofModernArt/" target=“_blank”><img class="facebook" src="images/facebook.png"></a>
+        <a href="https://www.instagram.com/themuseumofmodernart/" target=“_blank”><img class="ins" src="images/ins.png"></a>
+        <a href="https://twitter.com/museummodernart" target=“_blank”><img class="twitter" src="images/twitter.png"></a>
+        <a href="https://www.youtube.com/user/momavideos" target=“_blank”><img class="youtube" src="images/youtube.png"></a>
+        <a href="https://www.moma.org/visit/" target=“_blank”>
+            <div class="footbar-address">The Museum of Modern Art 11 West 53 Street, New York, NY 10019
+            </div>
+        </a>
+
+        <div class="footbar-time">TIME : 10/28, 1 p.m - 5:30 p.m </div>
+        <a href="https://www.moma.org" target=“_blank”><img class="moma" src="images/MOMA.png"></a>
+    </div>
+
+
+
+
+</body>
+
+</html>

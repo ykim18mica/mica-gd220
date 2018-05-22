@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Cancer_Twenty One Pilots</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* YOUR CSS CODE HERE */
+
+        /* SETTINGS */
+
+        body {
+            background-color: black;
+        }
+
+        /* IMAGES */
+
+        .img-01 {
+            background-image: url("images/img-01.png");
+            background-size: cover;
+            -webkit-animation: fade-in 6s 1;
+        }
+
+        .img-02 {
+            background-image: url("images/img-02.png");
+            background-size: cover;
+            -webkit-animation: fade-in 6s 1;
+        }
+
+        .img-03 {
+            background-image: url("images/img-03.png");
+            background-size: cover;
+            -webkit-animation: fade-in 6s 1;
+        }
+
+        .img-04 {
+            background-image: url("images/img-04.png");
+            background-size: cover;
+            -webkit-animation: fade-in 6s 1;
+        }
+
+        .img-05 {
+            background-image: url("images/img-05.png");
+            background-size: cover;
+            -webkit-animation: fade-in 6s 1;
+        }
+
+        .img-06 {
+            background-image: url("images/img-06.png");
+            background-size: cover;
+            -webkit-animation: fade-in 6s 1;
+        }
+
+        .img-07 {
+            background-image: url("images/img-07.png");
+            background-size: cover;
+            -webkit-animation: fade-in 6s 1;
+        }
+
+        .img-08 {
+            background-image: url("images/img-08.png");
+            background-size: cover;
+            -webkit-animation: fade-in 6s 1;
+        }
+
+        .img-09 {
+            background-image: url("images/img-09.png");
+            background-size: cover;
+            -webkit-animation: fade-in 6s 1;
+        }
+
+        .img-10 {
+            background-image: url("images/img-10.png");
+            background-size: cover;
+            -webkit-animation: fade-in 6s 1;
+        }
+
+        .img-11 {
+            background-image: url("images/img-11.png");
+            background-size: cover;
+            -webkit-animation: fade-in 6s 1;
+        }
+
+        .img-12 {
+            background-image: url("images/img-12.png");
+            background-size: cover;
+            -webkit-animation: fade-in 6s 1;
+        }
+
+ .img-13 {            background-image: url("images/img-13.png");
+            background-size: cover;
+            -webkit-animation: fade-in 6s 1;
+        }
+
+        .img-14 {
+            background-image: url("images/img-14.png");
+            background-size: cover;
+            -webkit-animation: fade-in 6s 1;
+        }
+
+        .img-15 {
+            background-image: url("images/img-15.png");
+            background-size: cover;
+            -webkit-animation: fade-in 6s 1;
+        }
+
+        .img-16 {
+            background-image: url("images/img-16.png");
+            background-size: cover;
+            -webkit-animation: fade-in 6s 1;
+        }
+
+
+
+        /* FONT-GENERAL */
+
+        html {
+            font-family: "Arial Regular", Helvetica, sans-serif;
+            color: #ff6700;
+            font-style: normal;
+        }
+
+        /* FONT-SIZE */
+
+        .sm-0 {
+            font-size: 1.6vw;
+        }
+
+        .sm-1 {
+            font-size: 2.4vw;
+        }
+
+        .sm-2 {
+            font-size: 4vw;
+        }
+
+        .md-1 {
+            font-size: 6vw;
+        }
+
+        .md-2 {
+            font-size: 8vw;
+        }
+
+        .lg-1 {
+            font-size: 12vw;
+        }
+
+        /* ANIMATION-Settings */
+
+        @-webkit-keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 0.7;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-webkit-keyframes left-fade-in-out {
+
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 0.7;
+            }
+
+            100% {
+                opacity: 1;
+            }
+            from {
+                margin-left: 40%;
+            }
+            to {
+                margin-left: 50%;
+            }
+        }
+
+
+        @-webkit-keyframes right-fade-in-out {
+
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 0.7;
+            }
+
+            100% {
+                opacity: 1;
+            }
+            from {
+                margin-left: 50%;
+            }
+            to {
+                margin-left: 40%;
+            }
+        }
+
+        /* ANIMATION-Elements*/
+
+        .img-songtitle {
+            opacity: 0;
+            width: 30%;
+            margin: 13.5vw auto 13.5vw auto;
+            display: block;
+            -webkit-animation: fade-in 10s 1 forwards;
+            -webkit-animation-delay: 2s;
+        }
+
+        .text-21 {
+            opacity: 0;
+            -webkit-animation: fade-in 8s 1 forwards;
+            -webkit-animation-delay: 5s;
+        }
+
+        .text-V1-turn {
+            opacity: 0;
+            margin: 67vw 5vw 5vw 5vw;
+            -webkit-animation: left-fade-in-out 6s 1 forwards;
+            -webkit-animation-delay: 12.5s;
+        }
+
+        .text-V1-if {
+            opacity: 0;
+            margin: 89vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 6.5s 1 forwards;
+            -webkit-animation-delay: 15.8s;
+        }
+
+        .text-V1-me {
+            opacity: 0;
+            margin: 17vw 5vw 5vw 5vw;
+            -webkit-animation: left-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 17s;
+        }
+
+        .text-V1-of {
+            opacity: 0;
+            margin: 31vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 6.5s 1 forwards;
+            -webkit-animation-delay: 20s;
+        }
+
+        .text-V1-my-lips {
+            opacity: 0;
+            margin: 49.1vw 5vw 5vw 5vw;
+            -webkit-animation: left-fade-in-out 7s 1 forwards;
+            -webkit-animation-delay: 21s;
+        }
+
+        .text-V1-call {
+            opacity: 0;
+            margin: 73vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 7s 1 forwards;
+            -webkit-animation-delay: 24s;
+        }
+
+        .text-V1-help {
+            opacity: 0;
+            margin: 90vw 5vw 5vw 5vw;
+            -webkit-animation: left-fade-in-out 6s 1 forwards;
+            -webkit-animation-delay: 28.7s;
+
+        }
+
+        .text-V1-all {
+            opacity: 0;
+            margin: 16vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 30s;
+
+        }
+
+        .text-V1-and-bury {
+            opacity: 0;
+            margin: 23.4vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 33s;
+
+        }
+
+        .text-V1-in {
+            opacity: 0;
+            margin: 49vw 5vw 5vw 5vw;
+            -webkit-animation: left-fade-in-out 7s 1 forwards;
+            -webkit-animation-delay: 34s;
+
+        }
+
+        .text-V1-my-sisters {
+            opacity: 0;
+            margin: 68vw 5vw 5vw 5vw;
+            -webkit-animation: left-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 37s;
+
+        }
+
+        .text-V1-and {
+            opacity: 0;
+            margin: 70vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 38s;
+
+        }
+
+        .text-V1-my-brothers {
+            opacity: 0;
+            margin: 80.5vw 5vw 5vw 5vw;
+            -webkit-animation: left-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 39s;
+
+        }
+
+        .text-V1-still {
+            opacity: 0;
+            margin: 89vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 40s;
+
+        }
+
+        .text-V1-I {
+            opacity: 0;
+            margin: 10vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 42s;
+
+        }
+
+        .text-V1-will {
+            opacity: 0;
+            margin: 18.3vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 43s;
+
+        }
+
+        .text-V1-kiss {
+            opacity: 0;
+            margin: 35.8vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 44s;
+
+        }
+
+        .text-V1-cause {
+            opacity: 0;
+            margin: 50vw 5vw 5vw 5vw;
+            -webkit-animation: left-fade-in-out 7s 1 forwards;
+            -webkit-animation-delay: 47s;
+
+        }
+
+        .text-V1-part {
+            opacity: 0;
+            margin: 55.2vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 6s 1 forwards;
+            -webkit-animation-delay: 49s;
+
+        }
+
+
+        .text-V1-is {
+            opacity: 0;
+            margin: 77vw 5vw 5vw 5vw;
+            -webkit-animation: left-fade-in-out 8s 1 forwards;
+            -webkit-animation-delay: 52s;
+
+        }
+
+        .text-C1-I {
+            opacity: 0;
+            margin: 40vw 5vw 5vw 5vw;
+            -webkit-animation: left-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 64s;
+
+        }
+
+        .text-C1-will {
+            opacity: 0;
+            margin: 50vw 5vw 5vw 5vw;
+            -webkit-animation: left-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 65s;
+
+        }
+
+        .text-C1-not {
+            opacity: 0;
+            margin: 60vw 5vw 5vw 5vw;
+            -webkit-animation: left-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 66s;
+
+        }
+
+        .text-C1-kiss-1 {
+            opacity: 0;
+            margin: 74vw 5vw 5vw 5vw;
+            -webkit-animation: left-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 67.4s;
+        }
+
+        .text-C1-turn-1 {
+            opacity: 0;
+            margin: 80vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 68s;
+        }
+
+        .text-C1-lips-1 {
+            opacity: 0;
+            margin: 84.5vw 5vw 5vw 5vw;
+            -webkit-animation: left-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 69s;
+
+        }
+
+        .text-C1-call-1 {
+            opacity: 0;
+            margin: 92.5vw 5vw 5vw 5vw;
+            -webkit-animation: left-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 72s;
+        }
+
+        .text-C1-turn-2 {
+            opacity: 0;
+            margin: 4.5vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 6s 1 forwards;
+            -webkit-animation-delay: 73s;
+        }
+
+        .text-C1-lips-2 {
+            opacity: 0;
+            margin: 14vw 5vw 5vw 5vw;
+            -webkit-animation: left-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 76s;
+        }
+
+        .text-C1-faded-1 {
+            opacity: 0;
+            margin: 24.5vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 78s;
+        }
+
+        .text-C1-kiss-2 {
+            opacity: 0;
+            margin: 48.5vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 79s;
+        }
+
+        .text-C1-turn-3 {
+            opacity: 0;
+            margin: 53.4vw 5vw 5vw 5vw;
+            -webkit-animation: left-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 80s;
+        }
+
+        .text-C1-lips-3 {
+            opacity: 0;
+            margin: 57vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 82s;
+        }
+
+        .text-C1-call-2 {
+            opacity: 0;
+            margin: 66.7vw 5vw 5vw 5vw;
+            -webkit-animation: left-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 85s;
+        }
+
+        .text-C1-turn-4 {
+            opacity: 0;
+            margin: 78.5vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 86s;
+        }
+
+        .text-C1-lips-4 {
+            opacity: 0;
+            margin: 5vw 5vw 5vw 5vw;
+            -webkit-animation: left-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 89s;
+        }
+
+        .text-C1-faded-2 {
+            opacity: 0;
+            margin: 10vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 90s;
+        }
+
+        .text-V2-now {
+            opacity: 0;
+            margin: 80vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 90s;
+        }
+
+        .text-V2-cause {
+            opacity: 0;
+            margin: 80vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 90s;
+        }
+
+        .text-V2-just {
+            opacity: 0;
+            margin: 80vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 90s;
+        }
+
+        .text-V2-and-all {
+            opacity: 0;
+            margin: 80vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 90s;
+        }
+
+        .text-V2-all-my-body {
+            opacity: 0;
+            margin: 80vw 5vw 5vw 5vw;
+            -webkit-animation: right-fade-in-out 5s 1 forwards;
+            -webkit-animation-delay: 90s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ALL YOUR CODE MUST BE IN CONTAINER -->
+
+
+    <div class="container">
+        <!-- YOUR HTML CODE BELOW -->
+        <div class="row">
+            <div class="col-100 full img-01">
+                <p class="text-21 sm-1 center-h top-40">Twenty One Pilots</p>
+                <p class="text-V1-turn sm-1">Turn away</p>
+                <p class="text-V1-if sm-1">if you could get </p>
+                <p><img src="images/img-songtitle.png" class="img-songtitle"></p>
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-100 full img-02">
+                <p class="text-V1-me sm-1">me a drink</p>
+                <p class="text-V1-of sm-1">of water cause</p>
+                <p class="text-V1-my-lips sm-1">my lips are chapped and faded</p>
+                <p class="text-V1-call sm-1">Call my aunt Mary</p>
+                <p class="text-V1-help sm-1">help her gather</p>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-100 full img-03"></div>
+            <p class="text-V1-all sm-1">all my things</p>
+            <p class="text-V1-and-bury sm-1">and bury me</p>
+            <p class="text-V1-in sm-1">in all my favorite colors</p>
+            <p class="text-V1-my-sisters sm-1">my sisters</p>
+            <p class="text-V1-and sm-1">and</p>
+            <p class="text-V1-my-brothers sm-1">my brothers</p>
+            <p class="text-V1-still sm-1">still</p>
+        </div>
+        <div class="row">
+            <div class="col-100 full img-04"></div>
+            <p class="text-V1-I sm-1">I</p>
+            <p class="text-V1-will sm-1">will not</p>
+            <p class="text-V1-kiss sm-1">kiss you</p>
+            <p class="text-V1-cause sm-1">'Cause the hardest</p>
+            <p class="text-V1-part sm-1">part of this</p>
+            <p class="text-V1-is sm-1">is leaving you</p>
+        </div>
+
+        <div class="row">
+            <div class="col-100 full img-05"></div>
+            <p class="text-C1-I sm-1">I</p>
+            <p class="text-C1-will sm-1">will</p>
+            <p class="text-C1-not sm-1">not</p>
+            <p class="text-C1-kiss-1 sm-1">kiss you</p>
+            <p class="text-C1-turn-1 sm-0">turn away</p>
+            <p class="text-C1-lips-1 sm-1">Lips are chapped and faded</p>
+            <p class="text-C1-call-1 sm-1">call my</p>
+
+        </div>
+
+        <div class="row">
+            <div class="col-100 full img-06"></div>
+            <p class="text-C1-turn-2 sm-0">turn away</p>
+            <p class="text-C1-lips-2 sm-1">Lips are chapped and faded</p>
+            <p class="text-C1-faded-1 sm-0 ">faded</p>
+            <p class="text-C1-kiss-2 sm-1">kiss you</p>
+            <p class="text-C1-turn-3 sm-0">turn away</p>
+            <p class="text-C1-lips-3 sm-1">Lips are chapped and faded</p>
+            <p class="text-C1-call-2 sm-1">call my</p>
+            <p class="text-C1-turn-4 sm-0">turn away</p>
+
+        </div>
+
+        <div class="row">
+            <div class="col-100 full img-07"></div>
+            <p class="text-C1-lips-4 sm-1">Lips are chapped and faded</p>
+            <p class="text-C1-faded-2 ">faded</p>
+
+            <p class="text-V2-now sm-1">Turn away</p>
+            <p class="text-V2-cause sm-1">cause I'm awful</p>
+            <p class="text-V2-just sm-1">just to see</p>
+            <p class="text-V2-and-all sm-1">and all my hairs abandoned</p>
+            <p class="text-V2-all-my-body sm-1">all my body</p>
+        </div>
+
+        <div class="row">
+            <div class="col-100 full img-08">
+                <p class="text-V2-all-my-agony sm-1">All my agony </p>
+                <p class="text-V2-know sm-1">Know that I will</p>
+                <p class="text-V2-never sm-1">never marry</p>
+                <p class="text-V2-Baby">Baby, I'm just soggy from the chemo</p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-100 full img-09"></div>
+            <p class="text-V2-I'm">I'm counting down</p>
+            <p class="text-V2-the">the days to go</p>
+            <p class="text-V2-this">this</p>
+            <p class="text-V2-just-ain't">just ain't</p>
+            <p class="text-V2-living">living</p>
+            <p class="text-V2-and-I">And I just hope you know</p>
+
+
+        </div>
+        <div class="row">
+            <div class="col-100 full img-10"></div>
+            <p class="text-C2-I sm-1">I</p>
+            <p class="text-C2-will">will</p>
+            <p class="text-C2-not sm-1">not</p>
+            <p class="text-C2-kiss-1 sm-1">kiss you</p>
+            <p class="text-C2-turn-1 sm-1">turn away</p>
+            <p class="text-C2-lips-1 sm-1">Lips are chapped and faded</p>
+            <p class="text-C2-call-1 sm-1">call my</p>
+            <p class="text-C2-turn-2 sm-1">turn away</p>
+
+        </div>
+
+        <div class="row">
+            <div class="col-100 full img-11"></div>
+            <p class="text-C2-lips-2 sm-1">Lips are chapped and faded</p>
+            <p class="text-C2-faded-1 sm-1">faded</p>
+            <p class="text-C2-kiss-2 sm-1">kiss you</p>
+            <p class="text-C2-turn-3 sm-1">turn away</p>
+            <p class="text-C2-lips-3 sm-1">Lips are chapped and faded</p>
+            <p class="text-C2-call-2 sm-1">call my</p>
+            <p class="text-C2-turn-4 sm-1">turn away</p>
+            <p class="text-C2-lips-1 sm-1">Lips are chapped and faded</p>
+            <p class="text-C2-faded-2 sm-1">faded</p>
+
+        </div>
+
+
+        <div class="row">
+            <div class="col-100 full img-12"></div>
+            <p class="text-B-if sm-1">if you say</p>
+            <p class="text-B-goodbye sm-1">goodbye today</p>
+            <p class="text-B-I'll sm-1">I'll ask you</p>
+            <p class="text-B-to sm-1">to be true</p>
+
+        </div>
+        <div class="row">
+            <div class="col-100 full img-13"></div>
+            <p class="text-B-cause sm-1">'Cause the hardest</p>
+            <p class="text-B-part-1 sm-1">part of this</p>
+            <p class="text-B-is-1 sm-1">is leaving you</p>
+
+        </div>
+        <div class="row">
+            <div class="col-100 full img-14"></div>
+            <p class="text-B-cause sm-1">Yes, the hardest</p>
+            <p class="text-B-part sm-1">part of this</p>
+            <p class="text-B-I sm-1">I</p>
+            <p class="text-B-will">will</p>
+            <p class="text-B-not sm-1">not</p>
+            <P class="text-C3-kiss sm-1">kiss you</P>
+            <p class="text-C3-lips-3 sm-1">Lips are chapped and faded</p>
+            <p class="text-C3-call-2 sm-1">call my</p>
+        </div>
+
+        <div class="row">
+            <div class="col-100 half img-15"></div>
+            <p class="text-C3-lips-1 sm-1">Lips are chapped and faded</p>
+            <p class="text-C3-faded-2 sm-1">faded</p>
+
+        </div>
+        <div class="row">
+            <div class="col-100 quarter img-16"></div>
+        </div>
+    </div>
+
+    <audio autoplay>
+    <source src="/assets/Cancer.mp3" type="audio/mpeg">
+    <source src="/assets/Cancer.wav" type="audio/wav">
+    <source src="/assets/Cancer.ogg" type="audio/ogg">
+    </audio>
+
+
+    <!-- DO NOT CHANGE CODES BELOW-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.lazyload.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('div').lazyload(
+                effect: "fadeIn"
+            );
+        });
+    </script>
+
+</body>
+
+</html>

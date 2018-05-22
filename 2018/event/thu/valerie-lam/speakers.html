@@ -1,0 +1,548 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Speakers</title>
+    <link rel="shortcut icon" type="image/png" href="/Images/favicon.png" />
+
+    <script>
+        //        window.onscroll = function() {
+        //            myFunction()
+        //        };
+        //        var header = document.getElementById("meet");
+        //        var sticky = navbar.offsetTop;
+        //
+        //        function myFunction() {
+        //            if (window.pageYOffset > 300 = sticky) {
+        //                header.classList.add("absolute")
+        //            } else {
+        //                header.classList.remove("absolute");
+        //            }
+        //        }
+
+
+
+        window.onscroll = function() {
+            myFunction()
+        };
+        var height = document.documentElement.clientHeight;
+
+        var height90 = height * 0.9;
+        //        credit to amanda yeh
+
+
+        function myFunction() {
+
+            if (document.body.scrollTop > height90 || document.documentElement.scrollTop > height90) {
+                var el = document.getElementById("meet");
+                var el2 = document.getElementById("get");
+                el.className = "absolute";
+                el2.className = "absolute";
+            } else {
+                var el = document.getElementById("meet");
+                var el2 = document.getElementById("get");
+                el.className = "fixed";
+                el2.className = "fixed";
+            }
+
+        }
+
+    </script>
+    <script>
+        var toggle = false;
+
+        function toggleNav() {
+            if (toggle === false) { // is it closed?
+                document.getElementById("navbar").style.left = "0vw";
+                toggle = true; // set it open
+            } else if (toggle === true) { // it is closed?
+                document.getElementById("navbar").style.left = "-15vw";
+                toggle = false; // set it closed
+            }
+        }
+
+    </script>
+    <style>
+        body {
+            background: linear-gradient(90deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+            height: 100vw;
+        }
+
+        html {
+            color: white;
+            font-family: "Proxima Nova", sans-serif;
+        }
+
+        #navbar {
+            font-family: "Proxima Nova", sans-serif;
+            position: fixed;
+            background-color: white;
+            width: 20vw;
+            height: 100%;
+            top: 0vw;
+            left: -15vw;
+            transition: 0.3s;
+            z-index: 4;
+            box-shadow: .1vw .1vw .5vw grey;
+        }
+
+        .fixed {
+            transition: 0.5s;
+        }
+
+        .absolute {
+            opacity: 0;
+            transition: 0.5s;
+        }
+
+        #bars {
+            cursor: pointer;
+        }
+
+        .bars {
+            left: 16vw;
+            top: 50%;
+            position: absolute;
+        }
+
+        .bar {
+            background-color: #1FC8DB;
+            width: 2.5vw;
+            height: .19vw;
+            margin: .4vw;
+            left: 0vw;
+            top: 0vw;
+            position: relative;
+        }
+
+        .ddlogo2 {
+            content: url("images/DigitalDesignLogo.png");
+            position: absolute;
+            width: 9vw;
+            top: 3vw;
+            left: 2vw;
+        }
+
+        .year {
+            font-size: 1.5vw;
+            font-weight: 500;
+            color: #2CB5E8;
+            position: absolute;
+            left: 2vw;
+            bottom: 3vw;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            text-transform: uppercase;
+            position: relative;
+            color: #15AEBF;
+            font-size: 1.3vw;
+            font-weight: 100;
+            display: block;
+            margin-left: 2vw;
+            margin-top: 3vw;
+            top: 9vw;
+            width: 7vw;
+        }
+
+        .nav-link:hover {
+            opacity: .25;
+        }
+
+        .particles2png {
+            content: url("images/particles2.png");
+            position: fixed;
+            width: 45vw;
+            opacity: .75;
+            left: 2vw;
+            top: 1vw;
+            transform: rotate(-15deg);
+        }
+
+        #meet {
+            text-shadow: .05vw .05vw .5vw grey;
+            font-size: 5vw;
+            font-weight: 700;
+            text-transform: uppercase;
+            width: 34vw;
+            position: fixed;
+            left: 15vw;
+            top: 15vw;
+            letter-spacing: .8vw;
+            z-index: 3;
+        }
+
+        #get {
+            color: #D3F1FC;
+            width: 25vw;
+            font-size: 1.3vw;
+            position: fixed;
+            left: 24vw;
+            top: 30vw;
+            letter-spacing: .2vw;
+            font-weight: 300;
+        }
+
+        .caseypic {
+            content: url("/images/casey_reas.jpg");
+            position: absolute;
+            width: 23vw;
+            left: 60vw;
+            top: 7vw;
+        }
+
+        a.caseyreas {
+            position: absolute;
+            font-weight: 600;
+            font-size: 1.6vw;
+            letter-spacing: .2vw;
+            left: 60vw;
+            top: 33vw;
+            text-decoration: none;
+            color: white;
+        }
+
+        .bar1 {
+            width: 8.5vw;
+            height: .05vw;
+            position: absolute;
+            background-color: white;
+            top: 35.5vw;
+            left: 60vw;
+        }
+
+        .caseyinfo {
+            position: absolute;
+            font-size: 1vw;
+            font-weight: 100;
+            width: 24vw;
+            line-height: 1.5vw;
+            left: 60vw;
+            top: 37vw;
+            letter-spacing: .05vw;
+        }
+
+        .jaypic {
+            content: url("/images/jay_wong.jpg");
+            position: absolute;
+            width: 23vw;
+            left: 60vw;
+            top: 58vw;
+        }
+
+        a.jaywong {
+            position: absolute;
+            font-weight: 600;
+            font-size: 1.6vw;
+            letter-spacing: .2vw;
+            left: 60vw;
+            top: 84vw;
+            text-decoration: none;
+            color: white;
+        }
+
+        .bar2 {
+            width: 8.5vw;
+            height: .05vw;
+            position: absolute;
+            background-color: white;
+            top: 86.7vw;
+            left: 60vw;
+        }
+
+        .jayinfo {
+            position: absolute;
+            font-size: 1vw;
+            font-weight: 100;
+            width: 24vw;
+            line-height: 1.5vw;
+            left: 60vw;
+            top: 88.5vw;
+            letter-spacing: .05vw;
+        }
+
+        .noahpic {
+            content: url("/images/noah_levin.png");
+            position: absolute;
+            width: 23vw;
+            left: 60vw;
+            top: 111vw;
+        }
+
+        a.noahlevin {
+            position: absolute;
+            font-weight: 600;
+            font-size: 1.6vw;
+            letter-spacing: .2vw;
+            left: 60vw;
+            top: 137vw;
+            text-decoration: none;
+            color: white;
+        }
+
+        .bar3 {
+            width: 8.5vw;
+            height: .06vw;
+            position: absolute;
+            background-color: white;
+            top: 139.5vw;
+            left: 60vw;
+        }
+
+        .noahinfo {
+            position: absolute;
+            font-size: 1vw;
+            font-weight: 100;
+            width: 23.5vw;
+            line-height: 1.5vw;
+            left: 60vw;
+            top: 141.5vw;
+            letter-spacing: .05vw;
+        }
+
+        /*        footer*/
+
+        .footer {
+            background-color: white;
+            width: 100%;
+            left: 0vw;
+            position: absolute;
+            overflow: hidden;
+            height: 12vw;
+            top: 160vw;
+            z-index: 3;
+            font-family: "Proxima Nova";
+            color: #2CB5E8;
+        }
+
+        .ddlogo {
+            content: url("images/DigitalDesignLogo.png");
+            position: absolute;
+            width: 17vw;
+            left: 8vw;
+            top: 2vw;
+        }
+
+        .festival {
+            font-weight: 600;
+            font-size: .9vw;
+            left: 30vw;
+            top: 2vw;
+            position: relative;
+        }
+
+        .list1 {
+            left: 30vw;
+            position: relative;
+            top: 3vw;
+            font-weight: 300;
+            font-size: .9vw;
+            display: block;
+            line-height: 1.3vw;
+            width: 5vw;
+        }
+
+        .general {
+            font-weight: 600;
+            font-size: .9vw;
+            left: 43vw;
+            top: 2vw;
+            position: absolute;
+        }
+
+        .list2 {
+            left: 43vw;
+            position: relative;
+            top: 1vw;
+            font-weight: 300;
+            font-size: .9vw;
+            display: block;
+            line-height: 1.3vw;
+            left: 0vw;
+            width: 5vw;
+        }
+
+        .updates {
+            font-weight: 600;
+            font-size: .9vw;
+            left: 56vw;
+            top: 2vw;
+            position: absolute;
+        }
+
+        .join {
+            top: 4vw;
+            font-weight: 300;
+            font-size: .9vw;
+            display: block;
+            position: absolute;
+            left: 56vw;
+        }
+
+        .email-slot {
+            background-color: #D3F1FC;
+            position: absolute;
+            left: 56vw;
+            height: 1.4vw;
+            width: 12vw;
+            top: 6vw;
+            border: none;
+            color: #2cb5e8;
+        }
+
+        ::placeholder {
+            color: white;
+            font-size: .8vw;
+        }
+
+        .email {
+            color: white;
+            position: absolute;
+            left: 56.5vw;
+            font-size: .8vw;
+            top: 6vw;
+            z-index: 1;
+        }
+
+        button.okbutton {
+            background-color: #2CB5E8;
+            position: absolute;
+            left: 68.5vw;
+            height: 1.5vw;
+            width: 2vw;
+            top: 6vw;
+            color: white;
+            border: none;
+            font-size: .7vw;
+        }
+
+        button.okbutton:active {
+            background-color: #2CB5F8;
+            box-shadow: 0 5px #fff;
+            transform: translateY(.1vw);
+        }
+
+        .connect {
+            font-weight: 600;
+            font-size: .9vw;
+            left: 75vw;
+            top: 2vw;
+            position: absolute;
+        }
+
+        .foot-link {
+            text-decoration: none;
+            color: #2CB5E8;
+        }
+
+        .foot-link:hover {
+            opacity: .25;
+        }
+
+        .facebook {
+            content: url("images/facebook.png");
+            position: absolute;
+            width: 1.5vw;
+            left: 75vw;
+            top: 4.3vw;
+        }
+
+        .facebook:hover {
+            opacity: .25;
+        }
+
+        .twitter {
+            content: url("images/twitter.png");
+            position: absolute;
+            width: 1.5vw;
+            left: 78vw;
+            top: 4.5vw;
+        }
+
+        .twitter:hover {
+            opacity: .25;
+        }
+
+        .instagram {
+            content: url("images/instagram.png");
+            position: absolute;
+            width: 1.6vw;
+            left: 80.8vw;
+            top: 4.3vw;
+        }
+
+        .instagram:hover {
+            opacity: .25;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="navbar">
+        <a class="ddlogo2" href="index.html"></a>
+        <a href="/" class="home nav-link">Home</a>
+        <a href="/about.html" class="about nav-link">About</a>
+        <a href="/speakers.html" class="speakers nav-link">Speakers</a>
+        <a href="/schedule.html" class="schedule nav-link">Schedule</a>
+        <a href="/register.html" class="register nav-link">Register</a>
+        <a href="/partners.html" class="partners nav-link">Partners</a>
+        <div class="year">2018</div>
+        <div id="bars" class="bars" onclick="toggleNav()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+    </div>
+
+    <div class="particles2png"></div>
+    <div id="meet">Meet the speakers</div>
+    <div id="get">Get to know more about the speakers, their work and process, and ask questions!</div>
+    <div class="caseypic">
+        <div class="blue"></div>
+    </div>
+    <a href="http://reas.com/" class="caseyreas">Casey Reas</a>
+    <div class="bar1"></div>
+    <div class="caseyinfo">A computational artist and co-developer of Processing, a programming language geared towards the visual arts. His conceptual, procedural and minimal artworks explore ideas through the contemporary lens of software. He has featured work in numerous museums and galleries in the United States, Europe and Asia.</div>
+    <div class="jaypic"></div>
+    <a href="https://www.jaywong.co/" class="jaywong">Jay Wong</a>
+    <div class="bar2"></div>
+    <div class="jayinfo">A user experience designer with a passion for creating beautiful experiences that connect humans with technology, and teaching others to love design as much she does. She has worked as the Design Lead on Project Fi, Google’s wireless carrier service, and started Omnomnom Studios, a creative collective that builds apps for large companies.</div>
+    <div class="noahpic"></div>
+    <a href="http://nlevin.dribbble.com/" class="noahlevin">Noah Levin</a>
+    <div class="bar3"></div>
+    <div class="noahinfo">A Senior Interaction Designer at Google who led the design of the iOS Google Search app with voice search and Google Now. He also lead prototyping workshops regularly for start ups, agencies, and large companies. He received both his undergraduate and master’s degrees at Carnegie Mellon in Human-Computer Interaction.</div>
+
+    <!--    footer-->
+
+    <div class="footer" id="footerid">
+        <a class="ddlogo" href="index.html"></a>
+        <div class="festival">2018 Festival</div>
+        <a class="list1 foot-link" href="/speakers.html">Speakers</a>
+        <a class="list1 foot-link" href="/schedule.html">Schedule</a>
+        <a class="list1 foot-link" href="/register.html">Register</a>
+        <a class="list1 foot-link" href="/partners.html">Partners</a>
+        <div class="general">General Info
+            <a class="list2 foot-link" href="/about.html">About</a>
+            <a class="list2 foot-link" href="https://www.google.com/maps/place/MoMA+PS1/@40.7454901,-73.9473572,15z/data=!4m2!3m1!1s0x0:0xb60d34de1767c837?sa=X&ved=0ahUKEwi-yJWU8sbaAhUDnFkKHUj8BrcQ_BIIlAEwCg">Location</a>
+            <a class="list2 foot-link" href="mailto:vlam01@mica.edu">Contact</a>
+        </div>
+        <div class="updates">Get Updates</div>
+        <div class="join">Join our mailing list!</div>
+        <div class="email-slot"></div>
+        <input class="email-slot" placeholder="Enter your email address" type="text">
+        <button class="okbutton">OK</button>
+        <div class="connect">Connect With Us</div>
+        <a href="https://www.facebook.com/" class="facebook"></a>
+        <a href="https://www.instagram.com/" class="instagram"></a>
+        <a href="https://twitter.com/" class="twitter"></a>
+    </div>
+
+
+
+</body>
+
+</html>

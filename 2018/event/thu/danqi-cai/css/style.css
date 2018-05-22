@@ -1,0 +1,377 @@
+body {
+    background-color: black;
+}
+
+/*-- navigation --*/
+
+.orange-screen {
+    width: 100%;
+    height: 100%;
+    background-color: #F86320;
+    opacity: 0;
+    z-index: -5;
+    transition: .5s;
+}
+
+.nav-button {
+    width: 87px;
+    height: 61px;
+    top: 10px;
+    right: 22px;
+    z-index: 150;
+    display: block;
+    transition: .5s;
+}
+
+.nav-button:hover {
+    cursor: pointer;
+}
+
+.nav-button:hover .bar {
+    background-color: #F86320;
+}
+
+.nav-button:active .bar {
+    background-color: #F86320;
+    opacity: 0.5;
+}
+
+.bar {
+    width: 87px;
+    height: 8px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.nav-expand {
+    right: 0px;
+    width: 454px;
+    height: 100%;
+    background-color: white;
+    z-index: -100;
+    opacity: 0;
+    transition: .5s;
+}
+
+.nav-close {
+    top: 10px;
+    left: 390px;
+}
+
+.nav-close:hover {
+    cursor: pointer;
+}
+
+.nav-close:hover .line {
+    background-color: #F86320;
+}
+
+.nav-close:active .line {
+    background-color: #F86320;
+    opacity: 0.5;
+}
+
+.line {
+    background-color: black;
+    width: 45px;
+    height: 3px;
+}
+
+.line1 {
+    top: 2px;
+    transform: translateY(20px) translateX(5px) rotate(45deg);
+}
+
+.line2 {
+    transform: translateY(20px) translateX(5px) rotate(-45deg);
+}
+
+.nav-text-block {
+    margin-top: 90px;
+}
+
+.nav-text {
+    margin: 30px;
+}
+
+.talk-extra {
+    width: 365px;
+    height: 300px;
+    right: 455px;
+    top: 400px;
+}
+
+.talk-expand {
+    width: 373px;
+    height: 50%;
+    background-color: white;
+    right: 454px;
+    top: 380px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.talk-expand-text {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#talk:hover #talk-expand {
+    opacity: 1;
+}
+
+#talk-expand:hover {
+    display: block;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.black-link:link {
+    color: black;
+}
+
+.black-link:visited {
+    color: black;
+}
+
+.black-link:hover {
+    color: #F86320;
+}
+
+.black-link:active {
+    color: #F86320;
+    opacity: 0.5;
+}
+
+.white-link:link {
+    color: white;
+}
+
+.white-link:visited {
+    color: white;
+}
+
+.white-link:hover {
+    color: #F86320;
+}
+
+.white-link:active {
+    color: #F86320;
+    opacity: 0.5;
+}
+
+/*-- jump-to arrow --*/
+
+.diag {
+    width: 58.23px;
+    height: 33.23px;
+    left: 80px;
+    top: 20px;
+}
+
+.diag-line {
+    background-color: white;
+    width: 41px;
+    height: 6px;
+}
+
+.diag-line1 {
+    top: 26px;
+    right: 25px;
+    transform: translateY(20px) translateX(5px) rotate(45deg);
+}
+
+.diag-line2 {
+    top: 20px;
+    transform: translateY(20px) translateX(5px) rotate(-45deg);
+}
+
+.diag-link:link {
+    background-color: white;
+}
+
+.diag:hover .diag-line1,
+.diag:hover .diag-line2 {
+    background-color: #F86320;
+}
+
+.diag:active .diag-line1,
+.diag:active .diag-line2 {
+    background-color: #F86320;
+    opacity: 0.8;
+}
+
+/*-- font styles --*/
+
+.about-speaker {
+    color: white;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.lato {
+    font-family: "Lato";
+}
+
+.open-sans {
+    font-family: "Open Sans";
+}
+
+.size-17 {
+    font-size: 17px;
+}
+
+.size-18 {
+    font-size: 18px;
+}
+
+.size-20 {
+    font-size: 20px;
+}
+
+.size-24 {
+    font-size: 24px;
+}
+
+.size-25 {
+    font-size: 25px;
+}
+
+.size-28 {
+    font-size: 28px;
+}
+
+.size-30 {
+    font-size: 30px;
+}
+
+.size-40 {
+    font-size: 40px;
+}
+
+.size-43 {
+    font-size: 43px;
+}
+
+.size-55 {
+    font-size: 55px;
+}
+
+.size-60 {
+    font-size: 60px;
+}
+
+.size-80 {
+    font-size: 80px;
+}
+
+.size-100 {
+    font-size: 100px;
+}
+
+.size-150 {
+    font-size: 150px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.italicize {
+    font-style: italic;
+}
+
+.weight-bold {
+    font-weight: bold;
+}
+
+.weight-black {
+    font-weight: 900;
+}
+
+.weight-semi-bold {
+    font-weight: 600;
+}
+
+.color-white {
+    color: white;
+}
+
+.color-orange {
+    color: #F86320;
+}
+
+.line-height-30 {
+    line-height: 30px;
+}
+
+.line-height-33 {
+    line-height: 33px;
+}
+
+.line-height-35 {
+    line-height: 35px;
+}
+
+.line-height-40 {
+    line-height: 40px;
+}
+
+.line-height-45 {
+    line-height: 45px;
+}
+
+.line-height-55 {
+    line-height: 55px;
+}
+
+.line-height-60 {
+    line-height: 60px;
+}
+
+/*-- text boxes --*/
+
+.text-box-1 {
+    width: 370px;
+    height: 543px;
+}
+
+.text-box-2 {
+    width: 306px;
+    height: 730px;
+}
+
+.text-box-3 {
+    width: 306px;
+    height: 430px;
+}
+
+.text-box-4 {
+    width: 306px;
+    height: 200px;
+}
+
+.text-box-5 {
+    width: 306px;
+    height: 231px;
+}
+
+.text-box-6 {
+    width: 306px;
+    height: 220px;
+}
+
+.text-box-7 {
+    width: 306px;
+    height: 170px;
+}

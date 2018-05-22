@@ -1,0 +1,529 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title> EYE CATCHING </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            background-color: #c3c0bd;
+            width: 1200px;
+            height: 825px;
+
+        }
+
+        a.time {
+            color: #bc2b30;
+        }
+
+
+        .lecture_1 {
+            font-family: Didot;
+            text-decoration: none;
+            color: white;
+            font-size: 22px;
+            font-weight: 550;
+            text-align: left;
+            letter-spacing: 1px;
+            position: absolute;
+            top: 300px;
+            left: 140px;
+        }
+
+        .lecture_2 {
+            text-decoration: none;
+            font-family: Didot;
+            color: white;
+            font-size: 22px;
+            font-weight: 550;
+            text-align: left;
+            letter-spacing: 1px;
+            position: absolute;
+            top: 450px;
+            left: 140px;
+        }
+
+        .lecture_3 {
+            text-decoration: none;
+            font-family: Didot;
+            color: white;
+            font-size: 22px;
+            font-weight: 550;
+            text-align: left;
+            letter-spacing: 1px;
+            position: absolute;
+            top: 600px;
+            left: 140px;
+        }
+
+        .hour_1 {
+            text-decoration: none;
+            font-family: Didot;
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+            font-weight: 550;
+            text-align: left;
+            letter-spacing: 1px;
+            position: absolute;
+            top: 335px;
+            left: 141px;
+        }
+
+        .hour_2 {
+            text-decoration: none;
+            font-family: Didot;
+            color: white;
+            font-size: 14px;
+            font-weight: 550;
+            text-align: left;
+            letter-spacing: 1px;
+            position: absolute;
+            top: 485px;
+            left: 141px;
+        }
+
+        .hour_3 {
+            text-decoration: none;
+            font-family: Didot;
+            color: white;
+            font-size: 14px;
+            font-weight: 550;
+            text-align: left;
+            letter-spacing: 1px;
+            position: absolute;
+            top: 635px;
+            left: 141px;
+        }
+
+        .choi {
+            text-decoration: none;
+            font-family: Didot;
+            text-decoration: none;
+            color: white;
+            width: 280px;
+            font-size: 22px;
+            font-weight: 550;
+            text-align: left;
+            letter-spacing: 1px;
+            position: absolute;
+            top: 300px;
+            left: 920px;
+        }
+
+        .jang {
+            text-decoration: none;
+            font-family: Didot;
+            color: white;
+            font-size: 22px;
+            font-weight: 550;
+            width: 280px;
+            text-align: left;
+            letter-spacing: 1px;
+            position: absolute;
+            top: 450px;
+            left: 905px;
+        }
+
+        .oh {
+            text-decoration: none;
+            font-family: Didot;
+            color: white;
+            font-size: 22px;
+            font-weight: 550;
+            width: 280px;
+            text-align: left;
+            letter-spacing: 1px;
+            position: absolute;
+            top: 600px;
+            left: 940px;
+        }
+
+        .show {
+            font-family: Didot;
+            color: white;
+            font-size: 22px;
+            font-weight: 550;
+            text-align: center;
+            letter-spacing: 1px;
+            position: absolute;
+            top: 710px;
+            left: 520px;
+        }
+
+        .circle {
+            border: 3px solid #FFF;
+            border-radius: 500px;
+            height: 350px;
+            width: 350px;
+            position: absolute;
+            top: 300px;
+            left: 415px;
+        }
+
+        .pink {
+            background-color: #c5ada7;
+            border-radius: 500px;
+            height: 120px;
+            width: 120px;
+            position: absolute;
+            top: 460px;
+            left: 640px;
+        }
+
+        .blue {
+            background-color: #8eacad;
+            border-radius: 500px;
+            height: 80px;
+            width: 80px;
+            position: absolute;
+            top: 375px;
+            left: 485px;
+        }
+
+        .red {
+            background-color: #ba8e96;
+            border-radius: 500px;
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            top: 560px;
+            left: 520px;
+        }
+
+
+        /*-LECUTRE 1-*/
+
+        .lecture_1:hover~.hour_1,
+        .lecture_1:hover~.choi,
+        .lecture_1:hover {
+            color: #bc2b30;
+        }
+
+        .lecture_1:hover~.pink2,
+        .lecture_1:hover~.p_name,
+        .lecture_1:hover~.p_graphic,
+        .lecture_1:hover~.p_describe {
+            display: block;
+        }
+
+        .lecture_1:hover~.circle,
+        .lecture_1:hover~.blue,
+        .lecture_1:hover~.red,
+        .lecture_1:hover~.pink {
+            display: none;
+        }
+
+        .choi:hover~.hour_1,
+        .choi:hover~.lecture_1,
+        .choi:hover {
+            color: #bc2b30;
+        }
+
+        .choi:hover~.pink2,
+        .choi:hover~.p_name,
+        .choi:hover~.p_graphic,
+        .choi:hover~.p_describe {
+            display: block;
+        }
+
+        .choi:hover~.circle,
+        .choi:hover~.blue,
+        .choi:hover~.red,
+        .choi:hover~.pink {
+            display: none;
+        }
+
+        .pink2 {
+            background-color: #c5ada7;
+            border: 3px solid #bc2b30;
+            border-radius: 500px;
+            height: 350px;
+            width: 350px;
+            position: absolute;
+            top: 300px;
+            left: 415px;
+            display: none;
+        }
+
+        .p_name {
+            display: none;
+            font-family: Didot;
+            color: white;
+            font-size: 24px;
+            font-weight: 550;
+            text-align: center;
+            letter-spacing: 3px;
+            position: absolute;
+            top: 415px;
+            left: 500px;
+        }
+
+        .p_graphic {
+            display: none;
+            font-family: arial;
+            text-decoration: underline;
+            color: white;
+            font-size: 8px;
+            font-weight: 550;
+            text-align: center;
+            letter-spacing: 3px;
+            position: absolute;
+            top: 460px;
+            left: 525px;
+        }
+
+        .p_describe {
+            display: none;
+            font-family: arial;
+            color: white;
+            font-size: 9px;
+            text-align: center;
+            letter-spacing: .6px;
+            line-height: 18px;
+            position: absolute;
+            top: 495px;
+            left: 465px;
+        }
+
+        /*-LECUTRE 2-*/
+
+        .lecture_2:hover~.hour_2,
+        .lecture_2:hover~.jang,
+        .lecture_2:hover {
+            color: #bc2b30;
+        }
+
+        .lecture_2:hover~.blue2,
+        .lecture_2:hover~.b_name,
+        .lecture_2:hover~.b_graphic,
+        .lecture_2:hover~.b_describe {
+            display: block;
+        }
+
+        .lecture_2:hover~.circle,
+        .lecture_2:hover~.blue,
+        .lecture_2:hover~.red,
+        .lecture_2:hover~.pink {
+            display: none;
+        }
+
+        .jang:hover~.hour_2,
+        .jang:hover~.lecture_2,
+        .jang:hover {
+            color: #bc2b30;
+        }
+
+        .jang:hover~.blue2,
+        .jang:hover~.b_name,
+        .jang:hover~.b_graphic,
+        .jang:hover~.b_describe {
+            display: block;
+        }
+
+        .jang:hover~.circle,
+        .jang:hover~.blue,
+        .jang:hover~.red,
+        .jang:hover~.pink {
+            display: none;
+        }
+
+        .blue2 {
+            background-color: #8eacad;
+            border: 3px solid #bc2b30;
+            border-radius: 500px;
+            height: 350px;
+            width: 350px;
+            position: absolute;
+            top: 300px;
+            left: 415px;
+            display: none;
+        }
+
+        .b_name {
+            display: none;
+            font-family: Didot;
+            color: white;
+            font-size: 24px;
+            font-weight: 550;
+            text-align: center;
+            letter-spacing: 3px;
+            position: absolute;
+            top: 430px;
+            left: 493px;
+        }
+
+        .b_graphic {
+            display: none;
+            font-family: arial;
+            text-decoration: underline;
+            color: white;
+            font-size: 8px;
+            font-weight: 550;
+            text-align: center;
+            letter-spacing: 3px;
+            position: absolute;
+            top: 475px;
+            left: 528px;
+        }
+
+        .b_describe {
+            display: none;
+            font-family: arial;
+            color: white;
+            font-size: 9px;
+            text-align: center;
+            letter-spacing: .6px;
+            line-height: 18px;
+            position: absolute;
+            top: 505px;
+            left: 468px;
+        }
+
+        /*-LECUTRE 3-*/
+
+        .lecture_3:hover~.hour_3,
+        .lecture_3:hover~.oh,
+        .lecture_3:hover {
+            color: #bc2b30;
+        }
+
+        .lecture_3:hover~.red2,
+        .lecture_3:hover~.r_name,
+        .lecture_3:hover~.r_graphic,
+        .lecture_3:hover~.r_describe {
+            display: block;
+        }
+
+        .lecture_3:hover~.circle,
+        .lecture_3:hover~.blue,
+        .lecture_3:hover~.red,
+        .lecture_3:hover~.pink {
+            display: none;
+        }
+
+        .oh:hover~.hour_3,
+        .oh:hover~.lecture_3,
+        .oh:hover {
+            color: #bc2b30;
+        }
+
+        .oh:hover~.red2,
+        .oh:hover~.r_name,
+        .oh:hover~.r_graphic,
+        .oh:hover~.r_describe {
+            display: block;
+        }
+
+        .oh:hover~.circle,
+        .oh:hover~.blue,
+        .oh:hover~.red,
+        .oh:hover~.pink {
+            display: none;
+        }
+
+        .red2 {
+            background-color: #ba8e96;
+            border: 3px solid #bc2b30;
+            border-radius: 500px;
+            height: 350px;
+            width: 350px;
+            position: absolute;
+            top: 300px;
+            left: 415px;
+            display: none;
+        }
+
+        .r_name {
+            display: none;
+            font-family: Didot;
+            color: white;
+            font-size: 24px;
+            font-weight: 550;
+            text-align: center;
+            letter-spacing: 3px;
+            position: absolute;
+            top: 412px;
+            left: 515px;
+        }
+
+        .r_graphic {
+            display: none;
+            font-family: arial;
+            text-decoration: underline;
+            color: white;
+            font-size: 8px;
+            font-weight: 550;
+            text-align: center;
+            letter-spacing: 3px;
+            position: absolute;
+            top: 455px;
+            left: 524px;
+        }
+
+        .r_describe {
+            display: none;
+            font-family: arial;
+            color: white;
+            font-size: 9px;
+            text-align: center;
+            letter-spacing: .6px;
+            line-height: 18px;
+            position: absolute;
+            top: 490px;
+            left: 468px;
+        }
+    </style>
+
+    <body>
+        <div class="container">
+            <ul>
+                <li><a class="setting" href="1_home.html">HOME</a></li>
+                <li><a class="setting time" href="2_time.html">TIME</a></li>
+                <li><a class="setting" href="3_speaker_1.html">SPEAKER</a></li>
+                <li><a class="setting" href="4_info.html">INFO</a></li>
+            </ul>
+            <div class="year">2018</div>
+            <div class="line"></div>
+            <div class="date">0516</div>
+
+            <div class="lecture_1">Lecture 1</div>
+            <div class="hour_1">1:20 - 2:40</div>
+            <div class="choi">Jiwoong Choi</div>
+            <div class="pink"></div>
+            <div class="pink2"></div>
+            <div class="p_name">Jiwoong Choi</div>
+            <div class="p_graphic">GRAPHIC DESIGNER</div>
+            <div class="p_describe">"The poster fascinates the audience to come to the<br>theater to watch the movie. Therefore, it is more<br>important to show the mood of the movie rather than the<br>poster that highlights the faces of the actors."</div>
+
+
+
+            <div class="lecture_2">Lecture 2</div>
+            <div class="hour_2">3:00 - 4:00</div>
+            <div class="jang">Seongeun Jang</div>
+            <div class="blue"></div>
+            <div class="blue2"></div>
+            <div class="b_name">Seongeun Jang</div>
+            <div class="b_graphic">CREATIVE DESIGNER</div>
+            <div class="b_describe">"It is my job to visualize the music. A new design is a <br>gift to a consumer for its collection value. I think design<br>is designing the customer's lifestyle witha vocation."</div>
+
+
+            <div class="lecture_3">Lecture 3</div>
+            <div class="hour_3">4:40 - 6:00</div>
+            <div class="oh">Joonsik Oh</div>
+            <div class="red"></div>
+            <div class="red2"></div>
+            <div class="r_name">Joonsik Oh</div>
+            <div class="r_graphic">CREATIVE DESIGNER</div>
+            <div class="r_describe">"Consumers who experience certain products or <br>services go through the process simultaneously. This<br>means that each package, store, and home page is not<br>recognized separately. When a company becomes<br>character, It becomes a brand."</div>
+
+
+            <div class="show">May 16, 2018</div>
+
+            <div class="circle"></div>
+        </div>
+    </body>
+</head>
+
+</html>

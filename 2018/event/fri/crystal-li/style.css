@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:200|PT+Sans+Narrow|Satisfy');
+
+body {
+    background-color: #f8f6f4;
+}
+
+.grid-container {
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-family: "Satisfy";
+    font-size: 75px;
+    z-index: 99;
+}
+
+.title2 {
+    position: absolute;
+    font-family: "Satisfy";
+    font-size: 55px;
+    top: 50px;
+    left: 55px;
+    z-index: 99;
+}
+
+.title2:hover + .title {
+    transform: rotate(-20deg);
+    color: darkgray;
+}
+
+a:link {
+    font-family: "PT Sans Narrow";
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 81px;
+    color: black;
+    z-index: 99;
+}
+
+a:visited {
+    color: black;
+}
+
+.home {
+    right: 400px;
+}
+
+.about {
+    right: 300px;
+}
+
+.speakers {
+    right: 180px;
+}
+
+.info {
+    right: 50px;
+}
+
+.home:hover + .line {
+    animation: line 1s forwards;
+}
+
+.about:hover + .line2 {
+    animation: line 1s forwards;
+}
+
+.speakers:hover + .line3 {
+    animation: line 1s forwards;
+}
+
+.info:hover + .line4 {
+    animation: line 1s forwards;
+}
+
+.line {
+    position: absolute;
+    top: 88px;
+    right: 400px;
+    background-color: #d9d9d9;
+    width: 53px;
+    height: 18px;
+    opacity: 0;
+}
+
+.line2 {
+    position: absolute;
+    top: 88px;
+    right: 300px;
+    background-color: #d9d9d9;
+    width: 54px;
+    height: 18px;
+    opacity: 0;
+}
+
+.line3 {
+    position: absolute;
+    top: 88px;
+    right: 180px;
+    background-color: #d9d9d9;
+    width: 78px;
+    height: 18px;
+    opacity: 0;
+}
+
+.line4 {
+    position: absolute;
+    top: 88px;
+    right: 50px;
+    background-color: #d9d9d9;
+    width: 98px;
+    height: 18px;
+    opacity: 0;
+}
+
+.side {
+    font-family: "PT Sans Narrow";
+    font-size: 22px;
+    transform: rotate(90deg);
+    position: absolute;
+    color: #333333;
+    opacity: 0.7;
+    top: 470px;
+    right: 0px;
+}
+
+.side2 {
+    font-family: "PT Sans Narrow";
+    font-size: 17px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 475px;
+    color: darkgray;
+    right: 80px;
+}
+
+.side3 {
+    font-family: "PT Sans Narrow";
+    font-size: 17px;
+    transform: rotate(-90deg);
+    position: absolute;
+    color: #333333;
+    opacity: 0.7;
+    top: 475px;
+    left: 0px;
+}
+
+@keyframes line {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+.abouttext {
+    font-family: "PT Sans Narrow";
+}
+
+/*
+.bannertext {
+    font-size: 100px;
+    color: #d9d9d9;
+    position: absolute;
+    top: 210px;
+    left: 80px;
+    font-weight: 100;
+    text-align: center;
+}
+*/
+
+.abouttext1 {
+    width: 450px;
+    position: absolute;
+    top: 485px;
+    right: 50px;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.abouttext3 {
+    font-size: 17px;
+    color: darkgray;
+    position: absolute;
+    top: 750px;
+    right: 50px;
+    text-align: right;
+}
+
+.whyposter {
+    font-size: 65px;
+    position: absolute;
+    color: #333333;
+    opacity: 0.7;
+    top: 350px;
+    right: 50px;
+}
+
+.img-about {
+    width: 500px;
+}
+
+.containerslide {
+    position: absolute;
+    left: 110px;
+    top: 300px;
+    width: 35%;
+    height: auto;
+    overflow: hidden;
+}
+
+.slide {
+    position: relative;
+    animation: goleft 100s infinite;
+}
+
+@keyframes goleft {
+    0% {
+        right: 0px;
+    }
+    50% {
+        right: 2900px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+
+a.jump {
+    position: absolute;
+    right: 50px;
+    top: 820px;
+    font-size: 15px;
+    border: dashed 2px #d9d9d9;
+    padding: 8px;
+    color: #d9d9d9;
+}
+
+a.jump:hover {
+    color: white;
+    background-color: #d9d9d9;
+    /*    border: double 2px black;*/
+    transition: 1s;
+}
+
+/*
+Page Speakers
+*/
+
+.park {
+    width: 35%;
+    position: absolute;
+    top: 300px;
+    left: 110px;
+}
+
+.box1 {
+    width: 410px;
+    height: 560px;
+    background-color: #d9d9d9;
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    z-index: -1;
+
+}
+
+.Jpark,
+.Rmineto,
+.pouya {
+    font-family: "PT Sans Narrow";
+}
+
+.parkkumjun {
+    font-size: 65px;
+    color: #333333;
+    opacity: 0.7;
+    position: absolute;
+    top: 350px;
+    right: 50px;
+}
+
+
+.parkdiscrip {
+    position: absolute;
+    top: 470px;
+    right: 50px;
+    width: 450px;
+    height: 200px;
+}
+
+.dispark {
+    font-size: 22px;
+    text-align: justify;
+
+
+}
+
+.quotepark {
+    font-size: 17px;
+    color: darkgray;
+    position: absolute;
+    top: 280px;
+    right: 0px;
+    text-align: right;
+}
+
+.parkposter {
+    width: 100%;
+    position: absolute;
+    top: -10px;
+    opacity: 0;
+}
+
+.boxposter {
+    width: 420px;
+    height: 563px;
+    position: absolute;
+    top: 300px;
+    left: 110px;
+    overflow: hidden;
+    z-index: 99;
+}
+
+div.boxposter:hover .parkposter {
+    opacity: 1;
+}
+
+.ryu {
+    width: 35%;
+    position: absolute;
+    top: 1200px;
+    right: 110px;
+}
+
+.box2 {
+    width: 410px;
+    height: 560px;
+    background-color: #d9d9d9;
+    position: absolute;
+    top: 1250px;
+    right: 50px;
+    z-index: -1;
+}
+
+.ryuname {
+    font-size: 65px;
+    position: absolute;
+    top: 1250px;
+    left: 50px;
+    color: #333333;
+    opacity: 0.7;
+}
+
+.ryudiscrip {
+    position: absolute;
+    top: 1380px;
+    left: 50px;
+    width: 450px;
+    height: 500px;
+}
+
+.ryudis {
+    font-size: 22px;
+    text-align: justify;
+}
+
+.ryuquote {
+    font-size: 17px;
+    color: darkgray;
+    position: absolute;
+    top: 280px;
+    right: 0px;
+}
+
+.boxposter1 {
+    width: 420px;
+    height: 563px;
+    position: absolute;
+    top: 1200px;
+    right: 110px;
+    overflow: hidden;
+    z-index: 999
+}
+
+.ryuposter {
+    width: 100%;
+    position: absolute;
+    top: -10px;
+    opacity: 0;
+}
+
+div.boxposter1:hover .ryuposter {
+    opacity: 1;
+}
+
+.pou {
+    width: 35%;
+    position: absolute;
+    top: 2100px;
+    left: 110px;
+}
+
+.box3 {
+    width: 410px;
+    height: 560px;
+    background-color: #d9d9d9;
+    position: absolute;
+    top: 2150px;
+    left: 50px;
+    z-index: -1;
+}
+
+.pouname {
+    font-size: 65px;
+    position: absolute;
+    top: 2150px;
+    right: 50px;
+    color: #333333;
+    opacity: 0.7;
+}
+
+.poudiscrip {
+    position: absolute;
+    top: 2270px;
+    right: 50px;
+    width: 450px;
+    height: 200px;
+}
+
+.poudis {
+    font-size: 22px;
+    text-align: justify;
+}
+
+.pouquote {
+    font-size: 17px;
+    color: darkgray;
+    position: absolute;
+    top: 290px;
+    right: 0px;
+    text-align: right
+}
+
+.boxposter2 {
+    width: 420px;
+    height: 563px;
+    position: absolute;
+    top: 2100px;
+    left: 110px;
+    overflow: hidden;
+    z-index: 999
+}
+
+.poposter {
+    width: 100%;
+    position: absolute;
+    top: -20px;
+    opacity: 0;
+}
+
+div.boxposter2:hover .poposter {
+    opacity: 1;
+}
+
+.foot {
+    background-color: #d9d9d9;
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    top: 1210px;
+
+}
+
+.foot a {
+    font-size: 18px;
+}
+
+.foot .about1 {
+    position: absolute;
+    top: 45px;
+    right: 470px;
+}
+
+.foot .speakers1 {
+    position: absolute;
+    top: 45px;
+    right: 376px;
+}
+
+.foot .info1 {
+    position: absolute;
+    top: 45px;
+    right: 270px;
+}
+
+a .icon {
+    position: absolute;
+    width: 60px;
+    left: 965px;
+    top: -55px;
+}
+
+a .icon2 {
+    position: absolute;
+    width: 60px;
+    left: 1022px;
+    top: -55px;
+}
+
+a .icon3 {
+    position: absolute;
+    width: 60px;
+    left: 1078px;
+    top: -55px;
+}
+
+div.foot .title {
+    font-size: 50px;
+    position: absolute;
+    top: 15px;
+    left: 40px;
+}
+
+div.foot .title2 {
+    font-size: 45px;
+    position: absolute;
+    top: 30px;
+    font-family: "Satisfy";
+}
+
+a .mica {
+    position: absolute;
+    width: 150px;
+    left: 220px;
+    top: -45px;
+}

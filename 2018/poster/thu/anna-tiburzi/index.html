@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Show Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+
+    <style>
+        body {
+            background-color: #F9EDED;
+            height: 700px;
+        }
+
+        .Title {
+            font-family: Avenir LT Std;
+            color: #AAAAAA;
+            font-weight: 100;
+            position: absolute;
+            top: 616px;
+            left: 145px;
+            font-size: 22px;
+        }
+
+        .Title-2 {
+            font-family: "somatic", sans-serif;
+            color: #AAAAAA;
+            font-weight: 100;
+            letter-spacing: .5px;
+            font-size: 42px;
+            position: absolute;
+            top: 640px;
+            left: 145px;
+        }
+        
+
+        .The-Charles-Theatre {
+            font-family: avenir;
+            font-weight: bold;
+            position: absolute;
+            top: 618px;
+            left: 440px;
+            color: #AAAAAA;
+
+        }
+
+        .Address {
+            font-family: avenir;
+            font-weight: 100;
+            position: absolute;
+            top: 637px;
+            left: 440px;
+            color: #AAAAAA;
+            font-size: 13px;
+        }
+
+        .Dates-1 {
+            font-family: avenir;
+            font-weight: bold;
+            position: absolute;
+            top: 661px;
+            left: 440px;
+            color: #AAAAAA;
+        }
+
+        .March-10 {
+            font-family: avenir;
+            font-weight: bold;
+            position: absolute;
+            top: 615px;
+            left: 710px;
+            color: #AAAAAA;
+            font-size: 13px;
+        }
+
+        .Totoro {
+            font-family: avenir;
+            font-weight: 100;
+            position: absolute;
+            top: 629px;
+            left: 710px;
+            color: #AAAAAA;
+            font-size: 12px;
+        }
+
+        .March-11 {
+            font-family: avenir;
+            font-weight: bold;
+            position: absolute;
+            top: 653px;
+            left: 710px;
+            color: #AAAAAA;
+            font-size: 13px;
+        }
+
+        .Spirited {
+            font-family: avenir;
+            font-weight: 100;
+            position: absolute;
+            top: 666px;
+            left: 710px;
+            color: #AAAAAA;
+            font-size: 12px;
+        }
+
+        .March-12 {
+            font-family: avenir;
+            font-weight: bold;
+            position: absolute;
+            top: 615px;
+            left: 848px;
+            color: #AAAAAA;
+            font-size: 13px;
+        }
+
+        .Kiki {
+            font-family: avenir;
+            font-weight: 100;
+            position: absolute;
+            top: 629px;
+            left: 848px;
+            color: #AAAAAA;
+            font-size: 12px;
+        }
+
+        .March-13 {
+            font-family: avenir;
+            font-weight: bold;
+            position: absolute;
+            top: 653px;
+            left: 848px;
+            color: #AAAAAA;
+            font-size: 13px;
+        }
+
+        .Mononoke {
+            font-family: avenir;
+            font-weight: 100;
+            position: absolute;
+            top: 666px;
+            left: 848px;
+            color: #AAAAAA;
+            font-size: 12px;
+        }
+
+        .March-14 {
+            font-family: avenir;
+            font-weight: bold;
+            position: absolute;
+            top: 615px;
+            left: 1000px;
+            color: #AAAAAA;
+            font-size: 13px;
+        }
+
+        .Ponyo {
+            font-family: avenir;
+            font-weight: 100;
+            position: absolute;
+            top: 629px;
+            left: 1000px;
+            color: #AAAAAA;
+            font-size: 12px;
+        }
+        
+        .url-1 {
+            font-family: avenir;
+            font-weight: 100;
+            font-size: 13px;
+            position: absolute;
+            top: 653px;
+            left: 1000px;
+            color: #AAAAAA;
+        }
+
+        .txt {
+            left: 900px;
+        }
+
+        .box-7 {
+            width: 2px;
+            height: 75px;
+            background-color: #B2B2B2;
+            border-radius: 65px;
+            position: absolute;
+            left: 413px;
+            top: 610px;
+        }
+
+        .box-8 {
+            width: 2px;
+            height: 75px;
+            background-color: #B2B2B2;
+            border-radius: 65px;
+            position: absolute;
+            left: 688px;
+            top: 610px;
+        }
+        
+        .totoro-pic {
+            background-image: url("images/totoro.jpg.png");
+            background-size: cover;
+            position: absolute;
+            height: 400px; 
+            width: 400px;
+            left: 130px;
+            top: -40px;
+            filter: drop-shadow(5px 10px 5px #E0D1D1) ; 
+            
+        }
+        
+        .totoro-pic:hover {
+            background-image:url("images/totoroBG.png");
+            background-size:cover;
+            height: 400px;
+            width: 400px;
+        }
+        
+        .spirited-pic {
+            background-image:url("images/spiritedaway.png");
+            background-size:cover;
+            position: absolute;
+            height: 318px;
+            width: 390px;
+            left: 410px;
+            top: -44px;
+            filter: drop-shadow(5px 10px 5px #E0D1D1) ; 
+             
+        }
+        
+        .spirited-pic:hover {
+            background-image:url("images/spiritedBG.png");
+            height: 400px;
+            width: 400px;
+            background-size:cover;
+        }
+        
+        .kiki-pic {
+            background-image: url("images/kikis.png");
+            background-size: cover;
+            position: absolute;
+            height: 390px;
+            width: 390px;
+            top: -42px;
+            left: 690px;
+            filter: drop-shadow(5px 10px 5px #E0D1D1) ; 
+        }
+        
+        .kiki-pic:hover {
+            background-image: url("images/kikiBG.png");
+            height: 400px;
+            width: 400px;
+            background-size: cover;
+        }
+        
+        .mononoke-pic {
+            background-image: url("images/mononoke.png");
+            background-size: cover;
+            position: absolute;
+            height: 390px;
+            width: 390px;
+            top: 260px;
+            left: 85px;
+            image-resolution: from-image;
+            filter: drop-shadow(5px 10px 5px #E0D1D1) ; 
+        }
+        
+        .mononoke-pic:hover {
+            background-image: url("images/mononokeBG.png");
+            height: 370px;
+            width: 410px;
+            left: 120px;
+            background-size: cover;
+            
+        }
+        
+        .ponyo-pic {
+            background-image:url("images/ponyo.png");
+            background-size: cover;
+            position: absolute;
+            height: 390px;
+            width: 390px;
+            top: 252px;
+            left: 397px;
+            image-resolution:from-image;
+            filter: drop-shadow(5px 10px 5px #E0D1D1) ; 
+        }
+        
+        .ponyo-pic:hover {
+            background-image: url("images/ponyoBG.png");
+            height: 415px;
+            width: 410px;
+            left: 400px;
+            background-size: cover;
+        }
+        
+        .studio-pic {
+            background-image: url("images/studioghibli.png");
+            background-size: cover;
+            position: absolute;
+            height: 385px;
+            width: 385px;
+            top: 256px;
+            left: 700px;
+            image-resolution: from-image;
+            filter: drop-shadow(5px 10px 5px #E0D1D1) ; 
+        }
+        
+        .studio-pic:hover {
+            background-image: url("images/ghibliBG.png");
+            height: 415px;
+            width: 410px;
+            left: 700px;
+            background-size: cover;
+        }
+        
+        a:link {
+            color: darkgrey; 
+            background-color: transparent; 
+            text-decoration: underline;
+        }
+        a:visited {
+            color: maroon;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="grid-container">
+       
+        <div class="Title">Hayao Miyazaki</div>
+        <div class="Title-2">Ghibli Night</div>
+        <div class="The-Charles-Theatre">The Charles Theatre</div>
+        <div class="Address">1711 N Charles St. Baltimore, MD 21201</div>
+        <div class="Dates-1">March 10th ~ March 14th</div>
+        <div class="March-10">March 10</div>
+        <div class="March-11">March 11</div>
+        <div class="March-12">March 12</div>
+        <div class="March-13">March 13</div>
+        <div class="March-14">March 14</div>
+        <div class="Totoro">My Neighbor Totoro</div>
+        <div class="Spirited">Spirited Away</div>
+        <div class="Kiki">Kiki's Delivery Service</div>
+        <div class="Mononoke">Princess Mononoke</div>
+        <div class="Ponyo">Ponyo</div>
+        <div class="box-7"></div>
+        <div class="box-8"></div>
+        
+        <div class="box-1"><div class="totoro-pic"></div></div>
+        <div class="spirited-pic"></div>
+        <div class="kiki-pic"></div>
+        <div class="mononoke-pic"></div>
+        <div class="ponyo-pic"></div>
+        <div class="studio-pic"></div>
+        
+        <div class="url-1"><a href="http://thecharles.com" target="_blank">http://thecharles.com/</a></div>
+        
+        </div>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+
+
+<head>
+    <title>Posters</title>
+    <link rel="shortcut icon" href="Image/title.png">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+        .homebox {
+            width: 450px;
+            height: 600px;
+            background-color: #d9d9d9;
+            position: absolute;
+            top: 300px;
+            left: 250px;
+            opacity: 0.6
+        }
+
+        #slider {
+            position: absolute;
+            overflow: hidden;
+            margin-top: 200px;
+            margin-left: 300px;
+            border-radius: 4px;
+            max-width: 650px;
+
+        }
+
+        #slider ul {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            height: 200px;
+            list-style: none;
+        }
+
+        #slider ul li {
+            position: relative;
+            display: block;
+            float: left;
+            margin: 0;
+            padding: 0;
+            width: 950px;
+            height: 633px;
+            background: transparent;
+            text-align: center;
+            line-height: 300px;
+        }
+
+        a.control_prev,
+        a.control_next {
+            position: absolute;
+            top: 40%;
+            z-index: 999;
+            display: block;
+            padding: 4% 3%;
+            width: auto;
+            height: auto;
+            background: #d9d9d9;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            opacity: 0.2;
+            cursor: pointer;
+        }
+
+        a.control_prev:hover,
+        a.control_next:hover {
+            opacity: 0.8;
+            -webkit-transition: all 0.2s ease;
+        }
+
+        a.control_prev {
+            border-radius: 0 2px 2px 0;
+        }
+
+        a.control_next {
+            right: 0;
+            border-radius: 2px 0 0 2px;
+        }
+
+        .slider_option {
+            position: relative;
+            margin: 10px auto;
+            width: 160px;
+            font-size: 18px;
+    </style>
+    <script>
+        jQuery(document).ready(function($) {
+
+            $('#checkbox').change(function() {
+                setInterval(function() {
+                    moveRight();
+                }, 3000);
+            });
+
+            var slideCount = $('#slider ul li').length;
+            var slideWidth = $('#slider ul li').width();
+            var slideHeight = $('#slider ul li').height();
+            var sliderUlWidth = slideCount * slideWidth;
+
+            $('#slider').css({
+                width: slideWidth,
+                height: slideHeight
+            });
+
+            $('#slider ul').css({
+                width: sliderUlWidth,
+                marginLeft: -slideWidth
+            });
+
+            $('#slider ul li:last-child').prependTo('#slider ul');
+
+            function moveLeft() {
+                $('#slider ul').animate({
+                    left: +slideWidth
+                }, 200, function() {
+                    $('#slider ul li:last-child').prependTo('#slider ul');
+                    $('#slider ul').css('left', '');
+                });
+            };
+
+            function moveRight() {
+                $('#slider ul').animate({
+                    left: -slideWidth
+                }, 200, function() {
+                    $('#slider ul li:first-child').appendTo('#slider ul');
+                    $('#slider ul').css('left', '');
+                });
+            };
+
+            $('a.control_prev').click(function() {
+                moveLeft();
+            });
+
+            $('a.control_next').click(function() {
+                moveRight();
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+    <div class="grid-container">
+
+        <a class="home" href="index.html">Home</a>
+        <div class="line"></div>
+        <a class="about" href="about.html">About</a>
+        <div class="line2"></div>
+        <a class="speakers" href="speakers.html">Speakers</a>
+        <div class="line3"></div>
+        <a class="info" href="information.html">Information</a>
+        <div class="line4"></div>
+        <div class="title2">Posters</div>
+        <div class="title">!</div>
+
+        <div class="side">Poster Open Exhibition </div>
+        <div class="side2">April. 9th - 14th</div>
+        <div class="side3">The explor of poster design</div>
+        <div class="homebox"></div>
+
+
+
+        <div id="slider">
+            <a href="#" class="control_next">>></a>
+            <a href="#" class="control_prev">
+        &#60;&#60; </a>
+            <ul>
+                <li style="background-image:url(Image/img-one.png);"></li>
+                <li style="background-image:url(Image/WBYK.png);"></li>
+                <li style="background-image:url(Image/imgthree.png);"></li>
+                <li style="background-image:url(Image/imgfour.png);"></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

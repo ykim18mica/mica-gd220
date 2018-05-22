@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Square and Story</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|EB+Garamond|Old+Standard+TT|Quattrocento');
+
+        html {
+
+            height: 1740px;
+        }
+
+        .h-145 {
+            height: 145px;
+        }
+
+        .h-870 {
+            height: 870px;
+        }
+
+        p {
+            font-family: cormorant garamond;
+        }
+
+        .address {
+            font-size: 17px;
+            line-height: 1.3;
+            text-align: center;
+            position: relative;
+            top: 23px
+        }
+
+        .name {
+            font-size: 17px;
+            line-height: 1;
+            text-align: center;
+            position: relative;
+            top: 36px;
+            font-weight: bold;
+
+        }
+
+        .end {
+            font-size: 17px;
+            line-height: 1.5;
+            text-align: center;
+            position: relative;
+            top: 280px;
+            font-weight: bold;
+
+        }
+
+        .title {
+            font-size: 22px;
+            line-height: 1.2;
+            text-align: center;
+            position: relative;
+            top: -5px;
+            font-weight: bold;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            position: relative;
+            text-align: center;
+            top: 2px;
+        }
+
+        .bawang {
+            font-size: 13px;
+            position: absolute;
+            line-height: 1.4;
+            text-align: center;
+            top: 1640px;
+            left: 138px;
+
+        }
+
+        .mei {
+            font-size: 13px;
+            position: absolute;
+            line-height: 1.4;
+            text-align: center;
+            top: 1640px;
+            left: 350px;
+        }
+
+        .zhao {
+            font-size: 13px;
+            position: absolute;
+            line-height: 1.4;
+            text-align: center;
+            top: 1640px;
+            left: 578px;
+        }
+
+        .daoshi {
+            font-size: 13px;
+            position: absolute;
+            line-height: 1.4;
+            text-align: center;
+            top: 1640px;
+            left: 711px;
+        }
+
+        .yaomao {
+            font-size: 13px;
+            position: absolute;
+            line-height: 1.4;
+            text-align: center;
+            top: 1640px;
+            left: 933px;
+        }
+
+        .box-1 {
+            width: 190px;
+            height: 190px;
+            background-color: gray;
+            transform: rotate(45deg);
+            position: absolute;
+            top: 45px;
+            left: 922px;
+            transition: transform 4s,
+            background-color 4s;
+        }
+
+        .box-1:hover {
+            transform: rotate(225deg);
+            background-image: url(images/daoshi.png);
+        }
+
+        .box-s {
+            width: 18px;
+            height: 18px;
+            background-color: black;
+            position: absolute;
+            top: 250px;
+            left: 593px;
+            transition: transform 4s,
+            background-color 2s;
+            transform: rotate(45deg);
+
+        }
+
+        .box-s:hover {
+            transform: rotate(225deg);
+            background-color: lightcoral;
+        }
+
+        .box-2 {
+            width: 145px;
+            height: 145px;
+            position: absolute;
+            top: 143px;
+            left: 870px;
+            transition: transform 4s,
+            background-color 4s;
+            transform: rotate(45deg);
+            background-color: rgb(243, 186, 169);
+        }
+
+        .box-2:hover {
+            transform: rotate(225deg);
+            background-image: url(images/bawang.png)
+        }
+
+        .box-3 {
+            width: 35px;
+            height: 35px;
+            transform: rotate(45deg);
+            position: absolute;
+            top: 367px;
+            left: 236.5px;
+            animation: color 4s infinite,
+            shape-size 4s infinite;
+        }
+
+        @keyframes spintwo {
+            0% {
+                transform: rotate(0deg)
+            }
+            50% {
+                transform: rotate(180deg)
+            }
+            100% {
+                transform: rotate(360deg)
+            }
+        }
+
+        @keyframes color {
+            0% {
+                background-color: rgb(243, 186, 169)
+            }
+            50% {
+                background-color: lightcoral
+            }
+            100% {
+                background-color: rgb(243, 186, 169)
+            }
+        }
+
+
+        @keyframes shape-size {
+
+            50% {
+                transform: scale(.5);
+            }
+
+            100% {
+                transform: rotate(45deg);
+            }
+
+        }
+
+        .box-4 {
+            width: 230px;
+            height: 230px;
+            background-color: darkgray;
+            position: absolute;
+            top: 458px;
+            left: 138.5px;
+            transition: transform 4s,
+            background-color 4s;
+            transform: rotate(45deg);
+        }
+
+        .box-4:hover {
+            transform: rotate(225deg);
+            background-image: url(images/cat.png);
+        }
+
+        .box-5 {
+            width: 160px;
+            height: 160px;
+            background-color: lightgray;
+            transform: rotate(45deg);
+            position: absolute;
+            top: 559px;
+            left: 250px;
+            transition: transform 4s,
+            background-color 4s;
+
+            /*            background-color: gray;*/
+        }
+
+        .box-5:hover {
+            transform: rotate(225deg);
+            background-image: url(images/meilangfang.png);
+            /*            images file need rework*/
+        }
+
+
+
+        .box-6 {
+            width: 115px;
+            height: 115px;
+            background-color: black;
+            transform: rotate(45deg);
+            position: absolute;
+            top: 359px;
+            left: 919px;
+            transition: transform 4s;
+        }
+
+        .box-6:hover {
+            transform: rotate(225deg);
+            background-image: url(images/zhaoshi.png);
+            /*            images file need rework*/
+        }
+
+
+
+        .img1-1 {
+            background-image: url(images/1-1.png)
+        }
+
+        .img1-2 {
+            background-image: url(images/1-1.png)
+        }
+
+        .img1-3 {
+            background-image: url(images/1-1.png)
+        }
+
+        .img2-1 {
+            background-image: url(images/2-1.png)
+        }
+
+        .img2-2 {
+            background-image: url(images/1-1.png)
+        }
+
+        .img2-3 {
+            background-image: url(images/1-1.png)
+        }
+
+        .img2-4 {
+            background-image: url(images/1-1.png)
+        }
+
+        .img3-1 {
+            background-image: url(images/1-1.png)
+        }
+
+        .img3-2 {
+            background-image: url(images/3-2.png)
+        }
+
+        .img3-3 {
+            background-image: url(images/3-3.png)
+        }
+
+        .img3-4 {
+            background-image: url(images/1-1.png)
+        }
+
+        .img3-5 {
+            background-image: url(images/3-5.png)
+        }
+
+        .img4-1 {
+            background-image: url(images/4-1.png)
+        }
+
+        .img4-2 {
+            background-image: url(images/1-1.png)
+        }
+
+        .img4-3 {
+            background-image: url(images/4-3.png)
+            /*                need a new png file*/
+        }
+
+        .img4-4 {
+            background-image: url(images/1-1.png)
+        }
+
+        .img4-5 {
+            background-image: url(images/4-5.png)
+        }
+
+        .img5-1 {
+            background-image: url(images/5-1.png)
+        }
+
+        .img5-2 {
+            background-image: url(images/1-1.png)
+        }
+
+        .img5-3 {
+            background-image: url(images/1-1.png)
+        }
+
+        .img5-4 {
+            background-image: url(images/5-4.png)
+        }
+
+        .img6-1 {
+            background-image: url(images/1-1.png)
+        }
+
+        .img6-2 {
+            background-image: url(images/1-1.png)
+        }
+
+        .img6-3 {
+            background-image: url(images/6-3.png)
+        }
+
+        .img7 {
+            background-image: url(images/7.png)
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="grid-container">
+
+        <div class="row">
+            <div class="box-1"></div>
+            <div class="box-s"></div>
+            <div class="box-2"></div>
+            <div class="col-8 h-145 img1-1"></div>
+            <div class="col-1 h-145 img1-2"></div>
+            <div class="col-3 h-145 img1-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-4 h-145 img2-1"></div>
+            <div class="col-4 h-145 img2-2"></div>
+            <div class="col-2 h-145 img2-3"></div>
+            <div class="col-2 h-145 img2-4"></div>
+        </div>
+        <div class="row">
+            <div class="box-3"></div>
+            <div class="box-4"></div>
+            <div class="box-5"></div>
+            <div class="box-6"></div>
+            <div class="col-4 h-145 img3-1"></div>
+            <div class="col-4 h-145 img3-2">
+                <p class="title">STORY<br>AND SQUARE</p>
+                <p class="subtitle">34 years of life</p>
+                <p class="address">The Charles Theatre, 1711 N Charles St, Baltimore, MD 21201<br> March 10th ~ March 14th<br>http://thecharles.com/
+                </p>
+                <p class="name">CHEN KAIGE</p>
+            </div>
+            <div class="col-1 h-145 img3-3"></div>
+            <div class="col-2 h-145 img3-4"></div>
+            <div class="col-1 h-145 img3-5"></div>
+        </div>
+        <div class="row">
+            <div class="col-1 h-145 img4-1"></div>
+            <div class="col-3 h-145 img4-2"></div>
+            <div class="col-5 h-145 img4-3"></div>
+            <div class="col-2 h-145 img4-4"></div>
+            <div class="col-1 h-145 img4-5"></div>
+        </div>
+        <div class="row">
+            <div class="col-1 h-145 img5-1"></div>
+            <div class="col-2 h-145 img5-2"></div>
+            <div class="col-2 h-145 img5-3"></div>
+            <div class="col-7 h-145 img5-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-3 h-145 img6-1"></div>
+            <div class="col-1 h-145 img6-2"></div>
+            <div class="col-8 h-145 img6-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-12 h-870 img7">
+                <p class="end">To be continue</p>
+                <p class="bawang">霸王別姬<br>Farewell My Concubine<br>1993</p>
+                <p class="mei">梅蘭芳<br>Forever Enthralled<br>2008</p>
+                <p class="zhao">趙氏孤兒<br>Sacrifice<br>2010</p>
+                <p class="daoshi">道士下山<br>Monk Comes Down the Moutains<br>2015</p>
+                <p class="yaomao">妖貓傳<br>Legend of the Demon Cat<br>2017</p>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,556 @@
+<!doctype html>
+<html>
+<link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+<head>
+    <style>
+        html {
+            font-family: 'Muli', sans-serif;
+            margin: 20px;
+            margin-bottom: 200px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 10;
+            padding: 0;
+            overflow: hidden;
+            background-color: transparent;
+
+        }
+
+        li {
+            float: right;
+            font-size: 16px;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 3px 10px;
+            text-decoration: none;
+        }
+
+        .boxy {
+            visibility: hidden;
+            width: 100%;
+            height: 15px;
+            background-color: #8FCDA5;
+            position: absolute;
+            top: 12px;
+            left: 0px;
+            z-index: -100;
+        }
+
+        .short {
+            margin: 0 23px;
+        }
+
+        .parent {
+            position: relative;
+        }
+
+
+        li:hover .boxy {
+            visibility: visible;
+        }
+
+
+        .logo {
+            position: absolute;
+            top: 20px;
+            text-decoration: none;
+        }
+
+        .C {
+            font-size: 20px;
+            color: #FBDB60;
+        }
+
+        .D {
+            font-size: 20px;
+            color: #8FCDA5;
+            position: relative;
+            top: 22px;
+            right: 15px;
+            float: right;
+        }
+
+        svg {
+            position: relative;
+        }
+
+        .col {
+            font-weight: 100;
+            letter-spacing: 1px;
+            line-height: 2;
+            width: 29%;
+            font-size: 15px;
+        }
+
+        .name {
+            position: absolute;
+            font-weight: 700;
+            font-size: 50px;
+            color: #8FCDA5;
+        }
+
+        .chris {
+            width: 25%;
+            top: 200px;
+            left: 220px;
+        }
+
+        .veronica {
+            width: 50%;
+            position: relative;
+            top: 1500px;
+            left: 180px;
+        }
+
+        .lotta {
+            width: 50%;
+            position: absolute;
+            top: 2950px;
+            left: 190px;
+        }
+
+        .pg1 {
+            position: absolute;
+            top: 550px;
+            left: 700px;
+        }
+
+        .pg2 {
+            position: absolute;
+            top: 1880px;
+            left: 700px;
+
+        }
+
+        .pg3 {
+            position: absolute;
+            top: 3350px;
+            left: 700px;
+        }
+
+
+        .slides1,
+        .slides1 ul,
+        .slides1 li,
+        .slides2,
+        .slides2 ul,
+        .slides2 li,
+        .slides3,
+        .slides3 ul,
+        .slides3 li {
+            position: relative;
+            overflow: hidden;
+            width: 1000px;
+            height: 380px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .slides1,
+        .slides2,
+        .slides3 {
+            position: absolute;
+            top: 150px;
+            left: 14px;
+            margin: 0 auto;
+        }
+
+        .slides1 ul li,
+        .slides2 ul li .slides3 ul li {
+            float: left;
+            list-style: none;
+        }
+
+        a.slide-prev,
+        a.slide-next {
+            position: absolute;
+            top: 50%;
+            z-index: 999;
+            display: block;
+            width: 30px;
+            height: 50px;
+            margin-top: -12px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 300i;
+            color: black;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 24px;
+        }
+
+
+        a.slide-prev:hover,
+        a.slide-next:hover {
+            opacity: 0.7;
+            -webkit-transition: all 0.9s ease;
+        }
+
+        a.slide-next {
+            right: 0;
+        }
+
+        .first {
+            position: absolute;
+            top: 1090px;
+            left: 10%;
+        }
+
+        .second {
+            position: absolute;
+            top: 2400px;
+            left: 8%;
+        }
+
+        .third {
+            position: absolute;
+            top: 4090px;
+            left: 8%;
+        }
+
+        .firstkey {
+            position: relative;
+            top: 1400px;
+            left: 8%;
+        }
+
+        .secondkey {
+            position: relative;
+            top: 2730px;
+            left: 8%;
+        }
+
+        .thirdkey {
+            position: relative;
+            top: 4480px;
+            left: 8%;
+
+        }
+
+        .chrisimg {
+            position: absolute;
+            top: 310px;
+            left: 760px;
+        }
+
+        .veroimg {
+            position: absolute;
+            top: 1640px;
+            left: 740px;
+        }
+
+        .lottaimg {
+            position: absolute;
+            top: 3100px;
+            left: 750px;
+        }
+
+        .two {
+            position: relative;
+            top: 190px;
+        }
+
+        .three {
+            position: relative;
+            top: 190px;
+        }
+
+        .scroll {
+            transform: rotate(90deg);
+            position: fixed;
+            font-size: 13px;
+            top: 490px;
+            left: 14px;
+            color: #8FCDA5;
+        }
+
+        .linego {
+            box-sizing: border-box;
+            left: 27px;
+            width: 1.5px;
+            height: 58px;
+            background: linear-gradient(#8FCDA5, #FBDB60);
+            position: fixed;
+            top: 530px;
+
+        }
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            var interval;
+
+            $('.slides1').hover(function() {
+                if (interval) clearInterval(interval);
+                clearInterval(interval);
+                interval = null;
+            }, function() {
+                interval = setInterval(function() {
+                    slideRight();
+                }, 5000);
+            });
+            var slideCount = $('.slides1 ul li').length;
+            var slideWidth = $('.slides1 ul li').width();
+            var slideHeight = $('.slides1 ul li').height();
+            var sliderWidth = slideCount * slideWidth;
+
+            $('.slides1').css({
+                width: slideWidth,
+                height: slideHeight
+            });
+            $('.slides1 ul').css({
+                width: sliderWidth,
+                marginLeft: -slideWidth
+            });
+            $('.slides1 ul li:last-child').prependTo('.slides1 ul');
+
+            function slideLeft() {
+                $('.slides1 ul').animate({
+                    left: +slideWidth
+                }, 2000, function() {
+                    $('.slides1 ul li:last-child').prependTo('.slides1 ul');
+                    $('.slides1 ul').css('left', '');
+                });
+            };
+
+            function slideRight() {
+                $('.slides1 ul').animate({
+                    left: -slideWidth
+                }, 200, function() {
+                    $('.slides1 ul li:first-child').appendTo('.slides1 ul');
+                    $('.slides1 ul').css('left', '');
+                });
+            };
+            $('a.slide-prev').click(function(e) {
+                e.preventDefault();
+                slideLeft();
+            });
+            $('a.slide-next').click(function(e) {
+                e.preventDefault();
+                slideRight();
+            });
+        });
+
+        /*second*/
+
+        jQuery(document).ready(function($) {
+            var interval;
+
+            $('.slides2').hover(function() {
+                if (interval) clearInterval(interval);
+                clearInterval(interval);
+                interval = null;
+            }, function() {
+                interval = setInterval(function() {
+                    slideRight();
+                }, 5000);
+            });
+            var slideCount = $('.slides2 ul li').length;
+            var slideWidth = $('.slides2 ul li').width();
+            var slideHeight = $('.slides2 ul li').height();
+            var sliderWidth = slideCount * slideWidth;
+
+            $('.slides2').css({
+                width: slideWidth,
+                height: slideHeight
+            });
+            $('.slides2 ul').css({
+                width: sliderWidth,
+                marginLeft: -slideWidth
+            });
+            $('.slides2 ul li:last-child').prependTo('.slides2 ul');
+
+            function slideLeft() {
+                $('.slides2 ul').animate({
+                    left: +slideWidth
+                }, 2000, function() {
+                    $('.slides2 ul li:last-child').prependTo('.slides2 ul');
+                    $('.slides2 ul').css('left', '');
+                });
+            };
+
+            function slideRight() {
+                $('.slides2 ul').animate({
+                    left: -slideWidth
+                }, 200, function() {
+                    $('.slides2 ul li:first-child').appendTo('.slides2 ul');
+                    $('.slides2 ul').css('left', '');
+                });
+            };
+            $('a.slide-prev').click(function(e) {
+                e.preventDefault();
+                slideLeft();
+            });
+            $('a.slide-next').click(function(e) {
+                e.preventDefault();
+                slideRight();
+            });
+        });
+
+        /* third */
+
+        jQuery(document).ready(function($) {
+            var interval;
+
+            $('.slides3').hover(function() {
+                if (interval) clearInterval(interval);
+                clearInterval(interval);
+                interval = null;
+            }, function() {
+                interval = setInterval(function() {
+                    slideRight();
+                }, 5000);
+            });
+            var slideCount = $('.slides3 ul li').length;
+            var slideWidth = $('.slides3 ul li').width();
+            var slideHeight = $('.slides3 ul li').height();
+            var sliderWidth = slideCount * slideWidth;
+
+            $('.slides3').css({
+                width: slideWidth,
+                height: slideHeight
+            });
+            $('.slides3 ul').css({
+                width: sliderWidth,
+                marginLeft: -slideWidth
+            });
+            $('.slides3 ul li:last-child').prependTo('.slides3 ul');
+
+            function slideLeft() {
+                $('.slides3 ul').animate({
+                    left: +slideWidth
+                }, 2000, function() {
+                    $('.slides3 ul li:last-child').prependTo('.slides3 ul');
+                    $('.slides3 ul').css('left', '');
+                });
+            };
+
+            function slideRight() {
+                $('.slides3 ul').animate({
+                    left: -slideWidth
+                }, 200, function() {
+                    $('.slides3 ul li:first-child').appendTo('.slides3 ul');
+                    $('.slides3 ul').css('left', '');
+                });
+            };
+            $('a.slide-prev').click(function(e) {
+                e.preventDefault();
+                slideLeft();
+            });
+            $('a.slide-next').click(function(e) {
+                e.preventDefault();
+                slideRight();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="linego"></div>
+    <div class="scroll">
+        scroll
+    </div>
+    <div class="row">
+        <ul>
+            <li class="short">
+                <div class="parent">
+                    <div class="boxy"></div><a href="Contact.html">Contact</a></div>
+            </li>
+            <li class="short">
+                <div class="parent">
+                    <div class="boxy"></div><a href="Schedule.html">Schedule</a></div>
+            </li>
+            <li class="short">
+                <div class="parent">
+                    <div class="boxy"></div><a href="Speakers.html">Speakers</a></div>
+            </li>
+            <li class="short">
+                <div class="parent">
+                    <a href="About.html">About <div class="boxy"></div></a></div>
+            </li>
+        </ul>
+    </div>
+    <a href="Home.html" class="logo">
+        <div class="C">C</div>
+
+        <svg height="30" width="40">
+        <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FBDB60;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8FCDA5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <line x1="12" y1="0" x2="24" y2="23" style="stroke:url(#grad1);stroke-width:2" />
+</svg>
+        <div class="D">D</div>
+
+    </a>
+
+    <div class="one">
+        <div class="name chris">Chris Wood</div>
+        <img class="chrisimg" src="images/chris.png" height="250" width="250">
+        <p class="col pg1">Chris Wood’s medium is light. She uses a range of high and low-tech optical materials to harness patterns of light that suggest ephemeral glimpsed moments in the natural world. Her sculptures are simple arrangements creating kinetic patterns in response to the environments in which they are placed. Wood orders the accidental and makes us reflect on the experience of seeing.<br> Chris often uses a material called dichroic which was originally developed by NASA space agency. Dichroic is a colourless material that filters and reflects wavelengths of light producing a huge variety of rainbow coloured shadows and projections.</p>
+
+        <div class="slides1 first">
+            <ul>
+                <li><img src="images/chris1.png" alt=""></li>
+                <li><img src="images/chris2.png" alt=""></li>
+                <li><img src="images/chris3.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="firstkey">
+            <a href="#" class="slide-next" style="left: 970px">next</a>
+            <a href="#" class="slide-prev">prev</a>
+        </div>
+    </div>
+
+    <div class="two">
+        <div class="name veronica">Veronica Fuerte</div>
+        <img class="veroimg" src="images/vero.png" height="250" width="250">
+        <p class="col pg2">Veronica Fuerte is the founder of the ‘Hey Studio.’ Playful concepts are realised with strong type, joyful color palettes and wonderfully bold geometric shapes: the work is fresh, exciting and demands attention. In fact, so successful is Hey Studio’s energetic marriage of color and concept that a host of big-name clients have come a-calling over the studio’s 10-year history, including Apple, Nokia, Microsoft, Monocle, the Wall Street Journal and more. And over that time, the studio has developed a cult-like status among its hundreds of thousands of social media fans.</p>
+
+
+        <div class="slides2 second">
+            <ul>
+                <li><img src="images/fuerte1.png" alt=""></li>
+                <li><img src="images/fuerte2.png" alt=""></li>
+                <li><img src="images/fuerte3.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="secondkey">
+            <a href="#" class="slide-next" style="left: 970px">next</a>
+            <a href="#" class="slide-prev">prev</a>
+        </div>
+    </div>
+
+
+    <div class="three">
+        <div class="name lotta">Lotta Nieminen</div>
+        <img class="lottaimg" src="images/lotta.png" height="250" width="250">
+        <p class="col pg3">Lotta Nieminen is a graphic designer, art director and illustrator creating holistic visual solutions for clients across disciplines. Passionate about finding the best tools to execute content-driven visuals, she works as a creative partner in all aspects branding, bringing visual identities to life through thoughtfully crafted print and digital implementations. <br> Originally from Finland, Lotta Nieminen studied graphic design and illustration at the University of Art and Design Helsinki and the Rhode Island School of Design, before founding her New York-based studio in 2012. She has been nominated for Forbes magazine’s annual 30 Under 30 list, the Art Directors Club Young Guns award and Print magazine’s New Visual Artist, and has given talks at conferences and educational institutions across the United States and Europe.</p>
+
+        <div class="slides3 third">
+            <ul>
+                <li><img src="images/lotta1.png" alt=""></li>
+                <li><img src="images/lotta2.png" alt=""></li>
+                <li><img src="images/lotta3.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="thirdkey">
+            <a href="#" class="slide-next" style="left: 970px">next</a>
+            <a href="#" class="slide-prev">prev</a>
+        </div>
+    </div>
+
+</body>
+
+
+</html>

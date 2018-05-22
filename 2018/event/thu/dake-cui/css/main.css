@@ -1,0 +1,475 @@
+html {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            display: block;
+            float: left;
+            overflow: hidden;
+        }
+
+        p {
+            font-family: 'Kozuka Gothic Pro';
+        }
+
+        .menu {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            z-index: 10;
+            text-decoration-color: aqua;
+        }
+
+        .menu2 {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            z-index: 10;
+        }
+
+        .menuafterclick {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            z-index: 10;
+            text-decoration-color: aqua;
+        }
+
+        /* .menuline {
+            width: 40px;
+            height: 1.5px;
+            background-color: black;
+            margin: 20px 20px 20px 20px;
+        } */
+
+        @-webkit-keyframes AnimationName {
+            0% {
+                background-position: 92% 0%
+            }
+            50% {
+                background-position: 9% 100%
+            }
+            100% {
+                background-position: 92% 0%
+            }
+        }
+
+        @-moz-keyframes AnimationName {
+            0% {
+                background-position: 92% 0%
+            }
+            50% {
+                background-position: 9% 100%
+            }
+            100% {
+                background-position: 92% 0%
+            }
+        }
+
+        @keyframes AnimationName {
+            0% {
+                background-position: 92% 0%
+            }
+            50% {
+                background-position: 9% 100%
+            }
+            100% {
+                background-position: 92% 0%
+            }
+        }
+
+        .menuwords {
+            padding: 20px 20px 20px;
+            background-size: 10px 1px;
+        }
+
+        .mm {
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        .page1 {
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .page2 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .page3 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 200%;
+            display: flex;
+            align-items: center;
+        }
+
+        .page4 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 300%;
+            display: flex;
+            align-items: center;
+        }
+
+        .page5 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 400%;
+            display: flex;
+            align-items: center;
+        }
+
+        .page6 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 500%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .page7 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 600%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .paragraph1 {
+            width: 180px;
+            line-height: 1.5;
+            font-size: 10pt;
+            height: 450px;
+        }
+
+        .paragraph2 {
+            width: 300px;
+            margin-left: 5vw;
+            line-height: 1.5;
+            font-size: 10pt;
+            height: 450px;
+        }
+
+        .paragraph3 {
+            width: 300px;
+            margin-left: 5vw;
+            line-height: 1.5;
+            font-size: 10pt;
+            height: 450px;
+        }
+
+        .dlogo {
+            margin-top: 10px;
+            width: 85%;
+        }
+
+        .mlogo {
+            margin-top: 10px;
+            width: 55%;
+
+        }
+
+        .matop20 {
+            margin-top: 40px;
+        }
+
+        .greytitle {
+            color: #7D7D7D;
+        }
+
+        .anibox {
+            margin-left: 5vw;
+            line-height: 1.5;
+            font-size: 10pt;
+        }
+
+        .annniboxparent {
+            align-items: center;
+            justify-content: center;
+        }
+
+        .paragraph1 p {
+            color: #5f5f5f;
+        }
+
+        .paragraph2 p {
+            font-family: 'Kozuka Gothic Pro';
+            color: #000;
+            font-weight: 400;
+            line-height: 2;
+        }
+
+
+        strong {
+            font-family: 'Kozuka Gothic Pro';
+            color: #000;
+        }
+
+        .kozukagp {
+            font-family: 'Kozuka Gothic Pro';
+            z-index: 0;
+        }
+
+        .titlefontsetup {
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+        }
+
+        .white {
+            color: aliceblue;
+        }
+
+        .sp {
+            width: 17vw;
+            margin-left: 18vw;
+        }
+
+        .st {
+            margin-left: -30px;
+            font-weight: 600;
+            font-size: 1.2vw;
+            text-align: right;
+        }
+
+        .si {
+            margin-left: 50px;
+            font-weight: 600;
+            font-size: 0.9vw;
+            text-align: left;
+        }
+
+        .slashit {
+            position: absolute;
+            margin-left: 38px;
+            font-weight: 600;
+            font-size: 0.9vw;
+            text-align: left;
+        }
+
+        .engtitle {
+            font-size: 1.1vw;
+            line-height: 0.5;
+        }
+
+        .engtitle2 {
+            font-size: 0.8vw;
+            line-height: 0.1;
+        }
+
+        .words2ofintro {
+            padding-top: 1.8vh;
+            margin-left: 13vw;
+        }
+
+        #map {
+            width: 95%;
+            height: 85%;
+            margin: auto;
+
+        }
+
+        /* Optional: Makes the sample page fill the window. */
+
+        #infoonthemap {
+            background-color: #fff;
+            border: 2px solid #fff;
+            border-radius: 3px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
+            cursor: default;
+            margin-top: 20px;
+            padding: 10px;
+        }
+
+        #trinfo {
+            color: black;
+            font-family: 'Source Sans Pro';
+            font-size: 13px;
+            line-height: 2;
+            font-weight: 00;
+        }
+
+        .bbb {
+            font-weight: 600;
+        }
+
+        .getdirection a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .menu a {
+            text-decoration-line: none;
+            text-decoration: line-through;
+            color: white;
+            animation-name: flickrline;
+            animation-delay: 0.5s;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        .menuafterclick a {
+            text-decoration-line: none;
+            text-decoration: black line-through;
+            color: white;
+        }
+
+        .bga {
+            /*
+        background: linear-gradient(66deg, #00ffbd, #ffa3e7, #ffe67f);
+        background-size: 600% 600%;
+
+        -webkit-animation: AnimationName 7s ease infinite;
+        -moz-animation: AnimationName 7s ease infinite;
+        animation: AnimationName 7s ease infinite;
+*/
+        }
+
+        .menu2 a {
+            text-decoration-line: none;
+        }
+
+
+
+        .ticketsinfo {
+            font-family: 'Source Sans Pro';
+            font-weight: 600;
+            font-size: 1.2vw;
+        }
+
+        .countdown {
+            display: inline;
+            font-family: 'Source Sans Pro';
+            font-weight: 600;
+            font-size: 1.2vw;
+            /*            color: #5f5f5f;*/
+        }
+
+        .dn {
+            display: none;
+        }
+
+        .anide {
+            animation-delay: 0.2s;
+        }
+
+        .anide2 {
+            animation-delay: 0.6s;
+        }
+
+        .menuwords {
+            font-size: 10px;
+            font-family: 'Kozuka Gothic pro'
+        }
+
+        .fadeIn,
+        .fadeOut {
+            animation-duration: 0.5s;
+        }
+
+        #tutor {
+            position: fixed;
+            z-index: 10;
+            padding: 20px;
+            font-size: 10px;
+            margin-left: 7vw;
+            color: black;
+            z-index: 2;
+        }
+
+        #menuver2 {
+            z-index: 1;
+        }
+
+        button {
+            margin-top: 5px;
+            background-color: rgb(255, 255, 255, 0);
+        }
+
+        .buttontext {
+            color: black;
+            line-height: 1.5;
+        }
+
+        .flickr {
+            animation-name: flickr;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        #p1>.fadeIn {
+            animation-delay: 6s;
+        }
+
+        @keyframes flickr {
+            0% {
+                color: black;
+            }
+            50% {
+                color: white;
+            }
+            100% {
+                color: black;
+            }
+        }
+
+        @keyframes flickrline {
+            0% {
+                text-decoration: line-through;
+            }
+            50% {
+                text-decoration: black line-through;
+            }
+            100% {
+                text-decoration: line-through;
+            }
+        }
+
+        .lineanimation {
+            position: fixed;
+        }
+
+        .fcount {
+            position: absolute;
+            left: 48vw;
+            top: 48vh;
+        }
+
+        .count {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        #circle1>.dddd {
+            animation-duration: 5s;
+            animation: 2s normal;
+        }

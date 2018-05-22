@@ -1,0 +1,440 @@
+<!doctype html>
+
+
+<html>
+
+
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+
+    <style>
+        body {
+            background-color: #efeade;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+
+
+
+
+        }
+
+        .container {
+            width: 100%;
+        }
+
+
+        .logoc {
+            position: absolute;
+            position: absolute;
+            width: 4.25vw;
+            top: 2vw;
+            left: 2vw;
+            z-index: 2;
+        }
+
+
+        div.down-arrow {
+            position: absolute;
+            width: 16px;
+            height: 10px;
+            border-color: #666666;
+            border-width: 0 0 1px 1px;
+            border-style: solid;
+            transform: rotateZ(-45deg);
+            bottom: -810px;
+            z-index: 20;
+            left: 50%;
+            animation: godown 1.5s infinite;
+            /*            why cannot scroll down-add animation*/
+            transition: border-color 1s;
+        }
+
+        @keyframes godown {
+            0% {
+                transform: rotate(-45deg) translate(0, 0);
+            }
+            20% {
+                transform: rotate(-45deg) translate(-10px, 10px);
+            }
+            40% {
+                transform: rotate(-45deg) translate(0, 0);
+            }
+        }
+
+        div.down-arrow:hover {
+            cursor: pointer;
+            border-color: dimgrey;
+        }
+
+
+
+        div.down-arroww {
+            position: absolute;
+            width: 13px;
+            height: 10px;
+            border-color: white;
+            border-width: 0 0 1px 1px;
+            border-style: solid;
+            transform: rotateZ(-45deg);
+            bottom: -1830px;
+            left: 50%;
+            animation: godown 1.5s infinite;
+            /*            why cannot scroll down-add animation*/
+            transition: border-color 1s;
+        }
+
+        @keyframes godown {
+            0% {
+                transform: rotate(-45deg) translate(0, 0);
+            }
+            20% {
+                transform: rotate(-45deg) translate(-10px, 10px);
+            }
+            40% {
+                transform: rotate(-45deg) translate(0, 0);
+            }
+        }
+
+        div.down-arroww:hover {
+            cursor: pointer;
+            border-color: dimgrey;
+        }
+
+        .venue {
+            position: relative;
+            bottom: 1800px;
+            width: 31px;
+            left: -230px;
+
+        }
+
+        .map {
+            position: absolute;
+            width: 50px;
+        }
+
+        .l {
+            position: absolute;
+            width: 8vw;
+            left: 46vw;
+            top: 30.95vw;
+
+        }
+
+        .t {
+            position: absolute;
+            width: 8vw;
+            left: 25vw;
+            top: 64.1vw;
+
+        }
+
+        .k {
+            position: absolute;
+            width: 8vw;
+            left: 67.5vw;
+            top: 64.1vw;
+
+        }
+
+
+        .center {
+            position: absolute;
+            left: 35vw;
+            bottom: -40vw;
+        }
+
+        .yi {
+            position: absolute;
+            font-size: 1.22vw;
+            width: 55vw;
+            font-family: Gill Sans;
+            font-weight: lighter;
+            font-style: normal;
+            color: #333333;
+            top: 41vw;
+            text-align: center;
+            left: 21vw;
+        }
+
+        .er {
+            position: absolute;
+            font-size: 1.22vw;
+            width: 35vw;
+            font-family: Gill Sans;
+            font-weight: 100;
+            font-style: ;
+            color: #333333;
+            top: 75vw;
+            text-align: center;
+            left: 11vw;
+
+        }
+
+        .san {
+            position: absolute;
+            font-size: 1.22vw;
+            width: 29vw;
+            font-family: Gill Sans;
+            font-weight: 100;
+
+            color: #333333;
+            top: 75vw;
+            text-align: center;
+            left: 57vw;
+
+        }
+
+
+        .venue {
+            position: absolute;
+            font-family: Gill Sans;
+            font-weight: bolder;
+            color: #80071b;
+            top: 250.2vw;
+            font-size: 3.97vw;
+            left: 45vw;
+            letter-spacing: 0.05vw;
+
+        }
+
+        .brown {
+            position: absolute;
+            width: 62vw;
+            left: 21.5vw;
+            top: 260vw;
+        }
+
+        .LANDMARK {
+            position: absolute;
+            width: 1.23vw;
+            bottom: -248.5vw;
+            left: 21.3vw;
+
+        }
+
+        .location {
+            position: absolute;
+            font-family: 'raleway';
+            font-weight: 300;
+            color: #666666;
+            font-size: 1.25vw;
+            bottom: -248.95vw;
+            left: 23.1vw;
+
+        }
+
+        .browncentera {
+            position: absolute;
+            font-family: 'raleway';
+            font-weight: 400;
+            color: #666666;
+            font-size: 2.56vw;
+            bottom: -252.9vw;
+            left: 22.8vw;
+            letter-spacing: 0.046vw;
+            opacity: 0.75;
+
+
+        }
+
+        .browncentera a {
+            text-decoration: none;
+            color: #666666;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: #666666;
+        }
+
+        .browncentera a:hover {
+            text-decoration: none;
+            color: #80111b;
+        }
+
+        .footer {
+            position: absolute;
+            font-family: 'Raleway';
+            color: black;
+            font-weight: 200;
+            bottom: -266.5vw;
+            font-size: 0.9vw;
+            left: 0.2vw;
+            letter-spacing: 1.3px;
+            z-index: 5;
+            padding: 1.6em 1.5em;
+            letter-spacing: 0.14vw;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: black;
+        }
+
+        .footer a:hover {
+            text-decoration: none;
+            color: #80111b;
+        }
+
+        .twig {
+            position: absolute;
+
+            font-weight: 100;
+            bottom: -266vw;
+            width: 1.1vw;
+            left: 95vw;
+            letter-spacing: 1.3px;
+            z-index: 5;
+            padding: 1.6em 1.5em;
+            letter-spacing: 0.14vw;
+
+        }
+
+        .ing {
+            position: absolute;
+            font-weight: 100;
+            bottom: -264vw;
+            width: 1.1vw;
+            left: 95vw;
+            letter-spacing: 1.3px;
+            z-index: 5;
+            padding: 1.6em 1.5em;
+            letter-spacing: 0.14vw;
+
+        }
+
+        .fg {
+            position: absolute;
+            font-weight: 100;
+            bottom: -262vw;
+            width: 1.1vw;
+            left: 95vw;
+            letter-spacing: 1.3px;
+            z-index: 5;
+            padding: 1.6em 1.5em;
+            letter-spacing: 0.14vw;
+
+        }
+
+        .hehe {
+            position: absolute;
+            bottom: -3.5vw;
+            left: 8vw;
+        }
+
+        .heihei {
+            position: absolute;
+            bottom: -18.5vw;
+        }
+
+        .yes {
+            position: absolute;
+            bottom: -13.5vw;
+        }
+
+        .ll {
+            position: absolute;
+            bottom: -1vw;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <img class="logoc" src="images/logoc.svg">
+        <img class="l" src="images/l.svg" align="middle" sss>
+        <img class="t" src="images/t.svg">
+        <img class="k" src="images/k.svg">
+
+
+        <nav class="nav">
+            <a class="home" href="index.html">HOME</a>
+            <a class="about" href="about.html">ABOUT</a>
+            <a class="speaker" href="speakers.html">SPEAKERS</a>
+            <a class="schedule" href="schedule.html">SCHEDULE</a>
+            <button class="menu">MENU</button>
+        </nav>
+
+
+        <h1 class="footer"><a href=http://www.taaalks.com/ target="_blank">TAAALKS@into.cn</a></h1>
+
+        <div class="down-arrow"></div>
+
+
+        <div class="content-item content-item-hara">
+            <div class="pic">
+                <img src="images/hara.png">
+                <p class="cc">President, Japan Design Committee Co., Ltd.</p>
+            </div>
+            <p class="name"><i class="tiao"></i>KENYA HARA</p>
+            <p class="info">Kenya Hara has helped mold the face of contemporary Japanese design alongside the equally influential industrial designer . His work is deeply rooted in Japanese culture, as demonstrated by the programmes he designed for the opening and closing ceremonies of the 1998 Nagano Winter Olympic Games.</p>
+            <p class="link">© <a href="https://www.ndc.co.jp/hara/en/works/" target="_blank">https://www.ndc.co.jp/hara/en/works/</a></p>
+        </div>
+
+        <div class="content-item content-item-leonard">
+            <div class="pic">
+                <img src="images/leonard.png">
+                <p class="cc">Chair for Sustainable Urbanism, Prof. Mark Michaeli</p>
+            </div>
+            <p class="name"><i class="tiao"></i>LEONARD SCHRAGE</p>
+            <p class="info">I am an interdisciplinary designer and product manager, who is particularly interested in user-centered experiences,and their interface with technology. Amongst other things, I value interdisciplinary and design-driven problem solving with a focus on sustainability. I worked for ingenhoven architects, HENN and Auer Weberand won the 2nd prize in the Drawing of Year 2014 Competition</p>
+            <p class="link hehe">© <a href="http://pr2014.aaschool.ac.uk/Leonard-Schrage" target="_blank">http://pr2014.aaschool.ac.uk/Leonard-Schrage</a></p>
+
+        </div>
+
+        <div class="content-item content-item-tom">
+            <div class="pic">
+                <img src="images/tom.png">
+                <p class="cc">Chief executive officer of the global design firm IDEO</p>
+            </div>
+            <p class="name ll"><i class="tiao"></i>TOM KELLEY</p>
+            <p class="info yes">I work with dozens of clients a year, using the power of storytelling to spark creative confidence in leaders and organizations all over the world. Although based in the Silicon Valley, I have a global role. These days, I’m helping IDEO Tokyo on its mission of refreshing Japan’s creative leadership.</p>
+            <p class="link heihei">© <a href="https://www.ideo.com/people/tom-kelley" target="_blank">https://www.ideo.com/people/tom-kelley</a></p>
+        </div>
+
+        <img class="LANDMARK" src="images/LANDMARK.svg">
+        <p class="location">1301 W Mt Royal Ave, Baltimore, MD 21217, USA</p>
+        <p class="browncentera"><a href=h ttps://www.google.com/maps/place/MICA+%E2%80%93+Brown+Center/@39.308182,-76.620974,15z/data=!4m5!3m4!1s0x0:0x7c01c05830af3cbb!8m2!3d39.308182!4d-76.620974/target="_blank">BROWN CENTER</a>
+        </p>
+        <div class="quotes">
+            <p class="yi">"Prototyping approach supports a greater number of iteration and enables designers to select the best solution to a design challenge without large amouts of sunk cost, i.e. time and money, invested."<br><br>-Leonard Schrage</p>
+            <p class="er">“It’s not about just coming up with the one genius idea that solves the problem, but trying and failing at a hundred other solutions before arriving at the best one.”<br><br>-Tom Kelley</p>
+
+            <p class="san">“We are going through a change, from having to create products to having to create value.”
+                <br><br>-Kenya Hara</p>
+
+        </div>
+        <img class="brown" src="images/brown.png">
+        <p class="venue">VENUE</p>
+        <a href=https://twitter.com/gotaaalk?lang=en/ target="_blank"><img class="twig" src="images/twig.svg"> </a>
+        <a href=https://www.instagram.com/p/BhOSDhUHqDr/ target="_blank"><img class="ing" src="images/ing.svg"> </a>
+        <a href=https://www.facebook.com/events/465136253901398/ target="_blank"><img class="fg" src="images/fg.svg"></a>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

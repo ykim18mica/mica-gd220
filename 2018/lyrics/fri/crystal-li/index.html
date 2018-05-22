@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Mr.Raindrop</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa:300" rel="stylesheet">
+	<style>
+		/* YOUR CSS CODE HERE */
+
+		html {
+			color: #41486c;
+			font-family: "Noteworthy", sans-serif;
+		}
+
+		.img-umbrella {
+			background-image: url("images/img-umbrella.png");
+			background-size: cover;
+		}
+
+		.img-rain {
+			background-image: url("images/img-rain.png");
+			background-size: cover;
+		}
+
+		.img-girl {
+			background-image: url("images/img-girl.png");
+			background-size: cover;
+
+		}
+
+
+		.img-flower {
+			background-image: url("images/img-flower.png");
+			background-size: cover;
+		}
+
+		.img-falling {
+			background-image: url("images/img-falling.png");
+			background-size: cover;
+		}
+
+		.img-rainbow {
+			background-image: url("images/img-rainbow.png");
+			background-size: cover;
+		}
+
+		.text {
+			font-size: 1.3vw;
+			line-height: 2em;
+			font-family: 'Josefin Sans', sans-serif;
+		}
+
+		.title {
+			font-size: 4vw;
+			font-family: 'Comfortaa', cursive;
+			left: 25%;
+			top: 80%;
+		}
+
+
+		.t1 {
+			left: 64%;
+			top: 47%;
+		}
+
+		.t2 {
+			left: 16%;
+			top: 57%;
+		}
+
+		.t3 {
+			left: 58%;
+			top: 35%;
+		}
+
+		.t4 {
+			left: 63%;
+			top: 39%;
+			color: #7a96a1;
+		}
+
+		.t5 {
+			left: 58%;
+			top: 43%;
+		}
+
+		.t6 {
+			left: 63%;
+			top: 47%;
+			color: #7a96a1;
+		}
+
+		.t7 {
+			left: 20%;
+			top: 0%;
+		}
+
+		.t8 {
+			left: 24.1%;
+			top: 10%;
+			color: #656e88;
+			opacity: 0.8
+		}
+
+		.t9 {
+			left: 30%;
+			top: 25%;
+			color: #6b7492;
+			opacity: 0.8
+		}
+
+		.t10 {
+			left: 37.5%;
+			top: 40%;
+			color: #7a96a1;
+			opacity: 0.8
+		}
+
+		.t11 {
+			left: 43.75%;
+			top: 56%;
+			color: #b4c6ce;
+			opacity: 0.8
+		}
+
+		.t12 {
+			left: 51.6%;
+			top: 88%;
+			color: #b4c6ce;
+			opacity: 0.5
+		}
+
+		.t13 {
+			left: 38%;
+			top: 65%;
+			opacity: 0.2;
+			text-align: right;
+		}
+
+		.t14 {
+			left: 52%;
+			top: 80%;
+			opacity: 0.1
+		}
+
+		.t15 {
+			left: 63%;
+			top: 95%;
+			opacity: 0.05
+		}
+
+		#raindrop {
+			position: absolute;
+			top: 35%;
+			left: 40%;
+			height: 15%;
+			transform: rotate(15deg);
+		}
+
+		#flower {
+			position: absolute;
+			top: 13%;
+			left: 16%;
+			height: 11%;
+		}
+
+		#flower2 {
+			position: absolute;
+			top: 4%;
+			left: 7%;
+			height: 7%;
+			transform: rotate(75deg);
+		}
+
+		#pental {
+			position: absolute;
+			top: 52%;
+			left: 63%;
+			height: 25%;
+		}
+
+		#rainbow {
+			position: absolute;
+			top: 42%;
+			left: 15%;
+			height: 69%;
+		}
+
+		.music {
+			position: absolute;
+			top: 58%;
+			left: 84%;
+			height: 12%;
+			transform: rotate(15deg);
+		}
+
+		.music2 {
+			position: absolute;
+			top: 72%;
+			left: 88%;
+			height: 12%;
+			transform: rotate(15deg);
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- ALL YOUR CODE MUST BE IN CONTAINER -->
+	<div class="container">
+
+		<!-- YOUR HTML CODE BELOW -->
+		<div class="row">
+			<div class="col-100 half img-umbrella">
+				<h1 class="title">
+					Mr. Raindrop
+				</h1>
+			</div>
+			<audio id="audio_play" loop>
+         <source src="MrRaindrop.mp3" type="audio/mpeg">
+            </audio>
+			<img src="images/music.png" class="music" onclick="document.getElementById('audio_play').play(); return false;" />
+			<img src="images/music2.png" class="music2" onclick="document.getElementById('audio_play').pause(); return false;" />
+		</div>
+
+		<div class="row">
+			<div class="col-100 half img-rain">
+				<p class="t1 text">
+					Mr. Raindrop, fallin' away from me now <br> Mr. Raindrop, fallin' away from me now <br> Mr. Raindrop, fallin' away from me now <br> Mr. Raindrop, fallin' away from me now <br></p>
+			</div>
+			<img id="raindrop" src="images/gif-raindrop.gif">
+		</div>
+
+		<div class="row">
+			<div class="col-100 half img-girl">
+				<p class="t2 text">
+					Do you know how much you mean to me? <br> Why must you leave? <br> I'm just a flower on a tree. <br> Why must you leave? <br>
+				</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-100 full img-flower">
+				<p class="t3 text">Do you know how much you mean to me?</p>
+				<p class="t4 text"> Why must you leave?</p>
+				<p class="t5 text">I'm just a flower on a tree.</p>
+				<p class="t6 text"> Why must you leave?</p>
+			</div>
+			<img id="flower" src="images/gif-flower.gif">
+			<img id="flower2" src="images/gif-flower.gif">
+			<img id="pental" src="images/gif-pental.gif">
+		</div>
+
+		<div class="row">
+			<div class="col-100 half img-falling">
+				<p class="t7 text">
+					Mr. Raindrop, fallin' away from me now
+				</p>
+				<p class="t8 text">
+					Mr. Raindrop, fallin' away from me now
+				</p>
+				<p class="t9 text">Mr. Raindrop, fallin' away from me now</p>
+				<p class="t10 text">Mr. Raindrop, fallin' away from me now</p>
+				<p class="t11 text">Mr. Raindrop, fallin' away from me now</p>
+				<p class="t12 text">Mr. Raindrop, fallin' away from me now</p>
+				<p class="t13 text">
+					You make my day, don't go away <br> He's falling, falling...
+				</p>
+				<p class="t14 text">
+					You make my day, don't go away
+				</p>
+				<p class="t15 text"> He's falling, falling...</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-100 half img-rainbow">
+				<img id="rainbow" src="images/gif-rainbow.gif">
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- DO NOT CHANGE CODES BELOW-->
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/jquery.lazyload.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$('div').lazyload(
+				effect: "fadeIn"
+			);
+		});
+	</script>
+</body>
+
+</html>

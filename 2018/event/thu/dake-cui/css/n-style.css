@@ -1,0 +1,58 @@
+/* html, body
+--------------------------------------------------*/
+/*
+
+html,
+body {
+    min-height: 100vh;
+}
+*/
+
+body {
+    background: #ffffff;
+}
+
+
+.navi ul {
+    list-style: none;
+}
+
+.navi li {
+    /*    float: left;*/
+    width: 100px;
+}
+
+/*
+.menu {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+*/
+
+.mhome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.navigation {
+    opacity: 0;
+}
+
+.navigation2 {
+    opacity: 1;
+}
+
+.back {
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    /*    z-index: -10;*/
+}
+
+.dn {
+    display: none;
+}

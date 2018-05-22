@@ -1,0 +1,264 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+    <title>why minimalist design?</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+
+        html {
+            font-family: 'Roboto', sans-serif;
+            letter-spacing: .5px;
+        }
+
+        .red {
+            color: red;
+        }
+
+        .main {
+            font-weight: 500;
+            font-size: 40px;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -400%);
+            text-align: center;
+        }
+
+        .h1 {
+            font-weight: 500;
+            font-size: 40px;
+        }
+
+        .h2 {
+            font-weight: 500;
+            font-size: 25px;
+            transform: translate(0, 90%)
+        }
+
+        .jonathan {
+            position: absolute;
+            top: 50%;
+            left: 45%;
+            transform: translate(-100%, -35%);
+        }
+
+        .jonathan_info {
+            font-weight: 500;
+            font-size: 20px;
+            position: absolute;
+            top: 54%;
+            left: 45%;
+            transform: translate(10%, -65%);
+        }
+
+        .jonathan_time {
+            position: absolute;
+            top: 130%
+        }
+
+        .michael {
+            position: absolute;
+            top: 50%;
+            left: 45%;
+            transform: translate(-100%, 100%);
+        }
+
+        .michael_info {
+            font-weight: 500;
+            font-size: 20px;
+            position: absolute;
+            top: 54%;
+            left: 45%;
+            transform: translate(10%, 125%);
+        }
+
+        .michael_time {
+            position: absolute;
+            top: 130%;
+        }
+
+        .peter {
+            position: absolute;
+            top: 50%;
+            left: 45%;
+            transform: translate(-100%, 240%);
+        }
+
+        .peter_info {
+            font-weight: 500;
+            font-size: 20px;
+            position: absolute;
+            top: 54%;
+            left: 45%;
+            transform: translate(10%, 290%);
+        }
+
+        .peter_time {
+            position: absolute;
+            top: 118%;
+        }
+
+        .nav {
+            position: absolute;
+            list-style: none;
+            line-height: 350%;
+            font-weight: 200;
+        }
+
+        .nav a:link {
+            color: gray;
+            text-decoration: none;
+        }
+
+        .nav a:visited {
+            color: gray;
+            text-decoration: none;
+        }
+
+        .nav a:hover {
+            color: black;
+        }
+
+        .talks a:link {
+            font-weight: 500;
+            font-size: 40px;
+            color: black;
+        }
+
+        .talks a:visited {
+            color: black;
+        }
+
+        .footer {
+            position: absolute;
+            font-weight: 200;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 1500%);
+            text-align: center;
+            margin-bottom: 2%;
+        }
+
+        .footer a:link {
+            text-decoration: none;
+            color: gray;
+        }
+
+        .footer a:visited {
+            text-decoration: none;
+            color: gray;
+        }
+
+        .footer a:hover {
+            color: black;
+        }
+
+        .contact:hover .contact_hidden {
+            transition: 1s;
+            opacity: 1;
+        }
+
+        .contact_hidden {
+            position: absolute;
+            width: 1000%;
+            font-weight: 200;
+            top: 50%;
+            left: 50%;
+            transform: translate(-30%, -200%);
+            opacity: 0;
+        }
+
+        .contact {
+            color: gray;
+            transform: translate(-200%, 300%)
+        }
+
+        .contact:hover {
+            color: black;
+        }
+
+        .facebook {
+            transform: translate(-70%, 200%)
+        }
+
+        .instagram {
+            transform: translate(70%, 100%)
+        }
+
+        .twitter {
+            transform: translate(200%)
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="h1">
+            2018 10 15 </div>
+        <div class="h2">
+            11:00 - 4:00 </div>
+    </div>
+
+    <div class="jonathan">
+        <img src="imgs/Jonathan%20Barnbrook.png" height="300px" width="300px">
+    </div>
+
+    <div class="michael">
+        <img src="imgs/Michael%20Bierut.jpg" height="300px" width="300px">
+    </div>
+
+    <div class="peter">
+        <img src="imgs/Peter%20saville.png" height="300px" width="300px">
+    </div>
+
+    <div class="jonathan_info">
+        <div class="jonathan_time">12:00 - 1:00</div><span class="name">
+        jonathan barnbrook</span><br><br><span class="red">1966 (age 52 years)</span><br><br>british graphic designer<br><br>he is a british graphic designer, filmmaker and typog-<br>rapher. he trained at saint martin's school of art and<br> at the royal college of art, both in London.
+    </div>
+    <div class="michael_info">
+        <div class="michael_time">1:30 - 2:30</div><span>
+        michael bierut</span><br><br><span class="red">1957 (age 61 years)</span><br><br>graphic designer<br><br>he is a graphic designer, design critic and educator who<br>designed the logo for hillary clinton's 2016 presidential<br>campaign. bierut was born in cleveland, ohio.
+    </div>
+    <div class="peter_info">
+        <div class="peter_time">3:00 - 4:00</div><span>
+        peter saville</span><br><br><span class="red">1955 (age 62 years)</span><br><br>art director<br><br>peter saville is an english art director and graphic designer.
+        <br>he came to prominence for the many record sleeves he designed
+        <br>for factory records, which he co-founded in 1978 alongside<br>tony wilson and alan erasmus.
+
+    </div>
+
+    <div>
+        <ul class="nav">
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li class="talks"><a href="timeandspeakers.html">talks</a></li>
+            <li><a href="schedule.html">schedule</a></li>
+            <li><a href="location.html">location</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <div class="footer">
+            <div class="contact">
+                contact
+                <div class="contact_hidden">
+                    don’t be afraid to reach out to us with questions or requests. we’d love to hear from you.
+                    <br>bpark01@mica.edu 443-808-6319
+                </div>
+            </div>
+            <div class="facebook"> <a href="https://www.facebook.com/" target="null"> facebook </a> </div>
+            <div class="instagram"> <a href="https://www.instagram.com/?hl=en" target="null"> instagram  </a> </div>
+            <div class="twitter"> <a href="https://twitter.com/?lang=en" target="null"> twitter </a> </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>IMAGINATOR</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/template.css">
+	<link rel="stylesheet" href="https://use.typekit.net/zif0fao.css">
+
+
+
+	<style>
+		.grid-container {
+			width: 1200px;
+			height: 3500px;
+			margin: 0 auto;
+		}
+
+		.col-1 {
+			width: 100px;
+			height: 3500px;
+			margin: 0 auto;
+		}
+
+		.title-1 {
+			font-family: gin;
+			position: absolute;
+			font-size: 180px;
+			top: 120px;
+			left: 200px;
+			letter-spacing: 0.3vw;
+			animation: colorchange 6s infinite alternate;
+		}
+
+
+		@keyframes colorchange {
+			0% {
+				color: black;
+			}
+			50% {
+				color: white;
+			}
+			100% {
+				color: black;
+			}
+		}
+
+		/*background images*/
+
+		.background_1 {
+			background-image: url("images/background_1.png");
+			background-size: cover;
+
+		}
+
+		.background_2 {
+			background-image: url("images/background_2.png");
+			background-size: cover;
+		}
+
+		.background_3 {
+			background-image: url("images/background_3.png");
+			background-size: cover;
+		}
+
+		.background_4 {
+			background-image: url("images/background_4.png");
+			background-size: cover;
+		}
+
+		.background_5 {
+			background-image: url("images/background_5.png");
+			background-size: cover;
+		}
+
+		.background_6 {
+			background-image: url("images/background_6.png");
+			background-size: cover;
+		}
+
+		.background_7 {
+			background-image: url("images/background_7.png");
+			background-size: cover;
+		}
+
+		.background_8 {
+			background-image: url("images/background_8.png");
+			background-size: cover;
+		}
+
+		.background_9 {
+			background-image: url("images/background_9.png");
+			background-size: cover;
+		}
+
+		.background_10 {
+			background-image: url("images/background_10.png");
+			background-size: cover;
+		}
+
+		.background_11 {
+			background-image: url("images/background_11.png");
+			background-size: cover;
+		}
+
+		.background_12 {
+			background-image: url("images/background_12.png");
+			background-size: cover;
+		}
+
+		/*texts*/
+
+		.text-director {
+			font-family: gin, serif;
+			font-size: 120px;
+			position: absolute;
+			top: 530px;
+			left: 140px;
+
+		}
+
+		/*charles*/
+
+		.charles {
+			font-family: franklin gothic, serif;
+			color: white;
+			position: absolute;
+			top: 770px;
+			left: 695px;
+			font-size: 4vw;
+		}
+
+		.location {
+			font-family: franklin gothic, serif;
+			color: white;
+			position: absolute;
+			top: 860px;
+			left: 700px;
+			font-size: 1.75vw;
+		}
+
+		.website {
+			font-family: franklin gothic, serif;
+			color: white;
+			position: absolute;
+			top: 900px;
+			left: 700px;
+			font-size: 1.8vw;
+		}
+
+		.charlesbox {
+			width: 450px;
+			height: 4px;
+			position: absolute;
+			top: 830px;
+			left: 700px;
+			background-color: white;
+		}
+
+		/*film1*/
+
+		.film-1 {
+			font-family: gin, serif;
+			position: absolute;
+			font-size: 40px;
+			top: 1360px;
+			left: 400px;
+		}
+
+		.number-1 {
+			font-family: gin, serif;
+			position: absolute;
+			font-size: 40px;
+			top: 1360px;
+			left: 280px;
+			color: white;
+		}
+
+		.date-1 {
+			font-family: DIN condensed, serif;
+			position: absolute;
+			font-size: 20px;
+			top: 1320px;
+			left: 283px;
+			background-color: white;
+			color: #ffc200;
+			text-align: center;
+			padding: 2px;
+			padding-top: 6px;
+			letter-spacing: 0.05vw;
+
+		}
+
+		.pixelstory {
+			font-family: gin, serif;
+			font-size: 1.5vw;
+			font-style: italic;
+			color: #ffc200;
+			background-color: white;
+			position: absolute;
+			text-align: center;
+			padding: 18px;
+			top: 1100px;
+			left: 150px;
+			letter-spacing: 0.09vw;
+			line-height: 1.3;
+			animation: box-8 9s ease-in-out;
+		}
+
+
+
+		/*film2*/
+
+		.night {
+			font-family: gin, serif;
+			font-size: 1.5vw;
+			font-style: italic;
+			color: #ffc200;
+			background-color: white;
+			position: absolute;
+			text-align: center;
+			padding: 18px;
+			top: 1620px;
+			left: 600px;
+			letter-spacing: 0.09vw;
+			line-height: 1.3;
+			animation: box-8 19s ease-in-out;
+		}
+
+		.film-2 {
+			font-family: gin, serif;
+			position: absolute;
+			font-size: 40px;
+			top: 1850px;
+			left: 330px;
+		}
+
+		.number-2 {
+			font-family: gin, serif;
+			position: absolute;
+			font-size: 40px;
+			color: white;
+			top: 1850px;
+			left: 210px;
+		}
+
+		.date-2 {
+			font-family: DIN condensed, serif;
+			position: absolute;
+			font-size: 20px;
+			background-color: white;
+			color: #ffc200;
+			text-align: center;
+			padding: 2px;
+			padding-top: 6px;
+			top: 1810px;
+			left: 213px;
+			letter-spacing: 0.05vw;
+
+		}
+
+		/*film3*/
+
+		.help {
+			font-family: gin, serif;
+			font-size: 1.5vw;
+			font-style: italic;
+			color: #ffc200;
+			background-color: white;
+			position: absolute;
+			text-align: center;
+			padding: 18px;
+			top: 2030px;
+			left: 150px;
+			letter-spacing: 0.09vw;
+			line-height: 1.3;
+			animation: box-8 29s ease-in-out;
+		}
+
+		.film-3 {
+			font-family: gin, serif;
+			position: absolute;
+			font-size: 40px;
+			top: 2140px;
+			left: 850px;
+		}
+
+		.number-3 {
+			font-family: gin, serif;
+			position: absolute;
+			font-size: 40px;
+			color: white;
+			top: 2140px;
+			left: 740px;
+		}
+
+		.date-3 {
+			font-family: DIN condensed, serif;
+			position: absolute;
+			font-size: 20px;
+			background-color: white;
+			color: #ffc200;
+			text-align: center;
+			padding: 2px;
+			padding-top: 6px;
+			top: 2100px;
+			left: 742px;
+			letter-spacing: 0.05vw;
+		}
+
+		/*film4*/
+
+		.ohharry {
+			font-family: gin, serif;
+			font-size: 1.5vw;
+			font-style: italic;
+			color: #ffc200;
+			background-color: white;
+			position: absolute;
+			text-align: center;
+			padding: 16px;
+			top: 2600px;
+			left: 740px;
+			letter-spacing: 0.09vw;
+			line-height: 1.3;
+			animation: box-8 35s ease-in-out;
+		}
+
+		.film-4 {
+			font-family: gin, serif;
+			position: absolute;
+			font-size: 40px;
+			top: 2550px;
+			left: 360px;
+
+		}
+
+		.number-4 {
+			font-family: gin, serif;
+			position: absolute;
+			font-size: 40px;
+			top: 2550px;
+			color: white;
+			left: 240px;
+		}
+
+		.date-4 {
+			font-family: DIN condensed, serif;
+			position: absolute;
+			font-size: 20px;
+			background-color: white;
+			color: #ffc200;
+			text-align: center;
+			padding: 2px;
+			padding-top: 6px;
+			top: 2500px;
+			left: 242px;
+			letter-spacing: 0.05vw;
+		}
+
+		/*film5*/
+
+		.alone {
+			font-family: gin, serif;
+			font-size: 1.5vw;
+			font-style: italic;
+			color: #ffc200;
+			background-color: white;
+			position: absolute;
+			text-align: center;
+			padding: 20px;
+			top: 2930px;
+			left: 240px;
+			letter-spacing: 0.09vw;
+			line-height: 1.3;
+			animation: box-8 43s ease-in-out;
+		}
+
+		.film-5 {
+			font-family: gin, serif;
+			position: absolute;
+			font-size: 40px;
+			top: 3210px;
+			left: 650px;
+		}
+
+		.number-5 {
+			font-family: gin, serif;
+			position: absolute;
+			font-size: 40px;
+			top: 3210px;
+			left: 520px;
+			color: white;
+		}
+
+		.date-5 {
+			font-family: DIN condensed, serif;
+			position: absolute;
+			font-size: 20px;
+			background-color: white;
+			color: #ffc200;
+			text-align: center;
+			padding: 2px;
+			padding-top: 6px;
+			top: 3166px;
+			left: 521px;
+			letter-spacing: 0.05vw;
+		}
+
+		/*boxes(pixel)*/
+
+		.box-1 {
+			width: 50px;
+			height: 50px;
+			background-color: black;
+			position: relative;
+			top: 1350px;
+			left: 700px;
+
+		}
+
+		div.parent:hover div.box-1 {
+			animation: moving1 4s infinite, color1 4s infinite;
+			animation-delay: 0s;
+		}
+
+		.box-2 {
+			width: 50px;
+			height: 50px;
+			background-color: black;
+			position: relative;
+			top: 1300px;
+			left: 770px;
+			animation: colorchange-2 20s infinite alternate;
+
+		}
+
+		div.parent:hover div.box-2 {
+			animation: moving2 4s infinite, color1 1s infinite;
+			animation-delay: 0.2s;
+		}
+
+		.box-3 {
+			width: 40px;
+			height: 40px;
+			background-color: black;
+			position: relative;
+			top: 1220px;
+			left: 720px;
+		}
+
+		div.parent:hover div.box-3 {
+			animation: moving3 4s infinite, color1 7s infinite;
+			animation-delay: 0.4s;
+		}
+
+		.box-4 {
+			width: 35px;
+			height: 35px;
+			background-color: black;
+			position: relative;
+			top: 1160px;
+			left: 780px;
+		}
+
+		div.parent:hover div.box-4 {
+			animation: moving4 5s infinite, color1 4s infinite;
+		}
+
+		.box-5 {
+			width: 20px;
+			height: 20px;
+			background-color: black;
+			position: relative;
+			top: 1110px;
+			left: 830px;
+		}
+
+		div.parent:hover div.box-5 {
+			animation: moving5 2s infinite, color1 4s infinite;
+		}
+
+		.box-6 {
+			width: 60px;
+			height: 60px;
+			background-color: black;
+			position: relative;
+			top: 1130px;
+			left: 650px;
+		}
+
+		div.parent:hover div.box-6 {
+			animation: moving6 4s infinite, color1 4s infinite;
+		}
+
+		.box-7 {
+			width: 35px;
+			height: 35px;
+			background-color: black;
+			position: relative;
+			top: 1000px;
+			left: 630px;
+		}
+
+		div.parent:hover div.box-7 {
+			animation: moving7 3s infinite, color1 4s infinite;
+		}
+
+		.box-8 {
+			width: 15px;
+			height: 15px;
+			background-color: white;
+			position: relative;
+			top: 1084px;
+			left: 795px;
+			animation: box-8 1s infinite;
+		}
+
+		/*benches*/
+
+		.bench-1 {
+			width: 180px;
+			height: 70px;
+			position: relative;
+			background-color: black;
+			top: 1640px;
+			left: 740px;
+		}
+
+		div.parent:hover div.bench-1 {
+			animation: left1 4s infinite, color-bench1 2s infinite;
+		}
+
+		.bench-2 {
+			width: 240px;
+			height: 15px;
+			position: relative;
+			background-color: black;
+			top: 1645px;
+			left: 710px;
+		}
+
+		div.parent:hover div.bench-2 {
+			animation: left2 4s infinite, color-bench1 3s infinite;
+		}
+
+		.bench-3 {
+			width: 15px;
+			height: 30px;
+			background-color: black;
+			position: relative;
+			top: 1650px;
+			left: 740px;
+		}
+
+		div.parent:hover div.bench-3 {
+			animation: down1 4s infinite, color-bench1 4s infinite;
+		}
+
+		.bench-4 {
+			width: 15px;
+			height: 30px;
+			background-color: black;
+			position: relative;
+			top: 1620px;
+			left: 906px;
+		}
+
+		div.parent:hover div.bench-4 {
+			animation: down2 4s infinite, color-bench1 1s infinite;
+		}
+
+		.bench-41 {
+			width: 15px;
+			height: 30px;
+			background-color: white;
+			position: relative;
+			top: 1590px;
+			left: 906px;
+			animation: box-8 1s infinite;
+		}
+
+		/*harry*/
+
+		.harry-1 {
+			width: 200px;
+			height: 20px;
+			position: relative;
+			background-color: black;
+			left: 550px;
+			top: 2000px;
+		}
+
+		.harry-2 {
+			width: 20px;
+			height: 35px;
+			position: relative;
+			background-color: black;
+			left: 710px;
+			top: 1972px;
+		}
+
+		.harry-3 {
+			width: 80px;
+			height: 10px;
+			position: relative;
+			background-color: black;
+			left: 760px;
+			top: 1950px;
+		}
+
+		.harry-4 {
+			width: 80px;
+			height: 10px;
+			position: relative;
+			background-color: black;
+			left: 780px;
+			top: 1925px;
+			animation: harry4 4s infinite;
+		}
+
+		.harry-5 {
+			width: 80px;
+			height: 10px;
+			position: relative;
+			background-color: black;
+			left: 800px;
+			top: 1900px;
+			animation: harry5 2s infinite;
+		}
+
+		.harry-6 {
+			width: 80px;
+			height: 10px;
+			position: relative;
+			background-color: black;
+			left: 780px;
+			top: 1935px;
+			animation: harry6 3s infinite;
+		}
+
+		.harry-7 {
+			width: 80px;
+			height: 10px;
+			position: relative;
+			background-color: black;
+			left: 800px;
+			top: 1940px;
+			animation: harry7 3s infinite;
+		}
+
+		/*dino*/
+
+		.dino-1 {
+			width: 80px;
+			height: 40px;
+			position: relative;
+			background-color: black;
+			left: 200px;
+			top: 1050px;
+			transform: rotate(30deg);
+		}
+
+		div.parent:hover div.dino-1 {
+			animation: color-dino 2s infinite;
+		}
+
+		.dino-2 {
+			width: 60px;
+			height: 40px;
+			position: relative;
+			background-color: black;
+			left: 235px;
+			top: 1044px;
+			transform: rotate(90deg)
+		}
+
+		div.parent:hover div.dino-2 {
+			animation: color-dino 2s infinite;
+		}
+
+		.dino-3 {
+			width: 90px;
+			height: 49px;
+			position: relative;
+			background-color: black;
+			left: 251px;
+			top: 1040px;
+			transform: rotate(40deg)
+		}
+
+		div.parent:hover div.dino-3 {
+			animation: color-dino 2s infinite;
+		}
+
+		.dino-4 {
+			width: 41px;
+			height: 55px;
+			position: relative;
+			background-color: black;
+			left: 334px;
+			top: 993px;
+			animation: dino-4 1s infinite;
+		}
+
+		div.parent:hover div.dino-4 {
+			animation: color-dino 2s infinite;
+		}
+
+		.dino-5 {
+			width: 20px;
+			height: 40px;
+			position: relative;
+			background-color: black;
+			left: 380px;
+			top: 990px;
+			transform: rotate(20deg);
+			animation: dino-5 2s infinite;
+		}
+
+		div.parent:hover div.dino-5 {
+			animation: color-dino 2s infinite;
+		}
+
+		.dino-6 {
+			width: 15px;
+			height: 34px;
+			position: relative;
+			background-color: black;
+			left: 435px;
+			top: 955px;
+			transform: rotate(60deg);
+			animation: dino-6 3s infinite;
+		}
+
+		div.parent:hover div.dino-6 {
+			animation: color-dino 2s infinite;
+		}
+
+		.dino-7 {
+			width: 20px;
+			height: 15px;
+			position: relative;
+			background-color: black;
+			left: 520px;
+			top: 870px;
+			animation: dino-7 2s infinite;
+		}
+
+		div.parent:hover div.dino-7 {
+			animation: color-dino 2s infinite;
+		}
+
+		.dino-8 {
+			width: 43px;
+			height: 20px;
+			position: relative;
+			background-color: black;
+			left: 222px;
+			top: 850px;
+			transform: rotate(18deg);
+		}
+
+		div.parent:hover div.dino-8 {
+			animation: color-dino 2s infinite;
+		}
+
+		.dino-9 {
+			width: 12px;
+			height: 34px;
+			position: relative;
+			background-color: black;
+			left: 228px;
+			top: 835px;
+			transform: rotate(17deg);
+		}
+
+		div.parent:hover div.dino-9 {
+			animation: color-dino 2s infinite;
+		}
+
+		.dino-10 {
+			width: 12px;
+			height: 20px;
+			position: relative;
+			background-color: black;
+			left: 220px;
+			top: 802px;
+			transform: rotate(19deg);
+		}
+
+		div.parent:hover div.dino-10 {
+			animation: color-dino 2s infinite;
+		}
+
+		.dino-11 {
+			width: 9px;
+			height: 9px;
+			position: relative;
+			background-color: white;
+			left: 250px;
+			top: 725px;
+			transform: rotate(28deg);
+			z-index: 1;
+		}
+
+		/*homealone*/
+
+		.home-1 {
+			width: 50px;
+			height: 90px;
+			position: absolute;
+			background-color: black;
+			left: 330px;
+			top: 3173px;
+		}
+
+		.home-2 {
+			width: 94px;
+			height: 70px;
+			position: relative;
+			background-color: black;
+			left: 308px;
+			top: 2152px;
+		}
+
+		.home-3 {
+			width: 17px;
+			height: 17px;
+			border-radius: 2vw;
+			position: relative;
+			background-color: white;
+			left: 324px;
+			top: 2100px;
+		}
+
+		.home-4 {
+			width: 17px;
+			height: 17px;
+			border-radius: 1vw;
+			position: relative;
+			background-color: white;
+			left: 366px;
+			top: 2083px;
+		}
+
+		.home-5 {
+			width: 25px;
+			height: 25px;
+			border-radius: 2vw;
+			position: relative;
+			background-color: white;
+			left: 342px;
+			top: 2088px;
+			animation: box-8 2s infinite;
+		}
+
+		div.home-5:hover {
+			animation: home-5 0.1s infinite;
+		}
+
+
+		.home-6 {
+			width: 25px;
+			height: 50px;
+			position: relative;
+			background-color: black;
+			left: 310px;
+			top: 2075px;
+			transform: rotate(40deg);
+		}
+
+		.home-7 {
+			width: 25px;
+			height: 50px;
+			position: relative;
+			background-color: black;
+			left: 375px;
+			top: 2025px;
+			transform: rotate(320deg);
+		}
+
+		/*home*/
+
+		@keyframes home-5 {
+			0% {
+				left: 339px;
+			}
+			50% {
+				left: 347px;
+			}
+			100% {
+				left: 342px;
+			}
+		}
+
+		/*keyframes-dino*/
+
+		@keyframes dino-4 {
+			from {
+				transform: rotate(0deg);
+			}
+			to {
+				transform: rotate(360deg);
+			}
+		}
+
+		@keyframes dino-5 {
+			from {
+				transform: rotate(0deg);
+			}
+			to {
+				transform: rotate(360deg);
+			}
+		}
+
+		@keyframes dino-6 {
+			from {
+				transform: rotate(0deg);
+			}
+			to {
+				transform: rotate(360deg);
+			}
+		}
+
+		@keyframes dino-7 {
+			from {
+				transform: rotate(0deg);
+			}
+			to {
+				transform: rotate(360deg);
+			}
+		}
+
+		@keyframes color-dino {
+			0% {
+				background-color: #8c4727;
+			}
+			25% {
+				background-color: #fddb57;
+			}
+			50% {
+				background-color: #3e4d5e;
+			}
+			100% {
+				background-color: #f2d66c;
+			}
+		}
+
+
+
+		/*keyframes-harry*/
+
+		@keyframes harry4 {
+			0% {
+				left: 780px;
+			}
+			50% {
+				left: 810px;
+			}
+			100% {
+				left: 750px;
+			}
+		}
+
+		@keyframes harry5 {
+			0% {
+				left: 800px;
+			}
+			50% {
+				left: 750px;
+			}
+			100% {
+				left: 820px;
+			}
+		}
+
+		@keyframes harry6 {
+			0% {
+				left: 780px;
+			}
+			50% {
+				left: 810px;
+			}
+			100% {
+				left: 750px;
+			}
+		}
+
+		@keyframes harry7 {
+			0% {
+				left: 800px;
+			}
+			50% {
+				left: 830px;
+			}
+			100% {
+				left: 750px;
+			}
+		}
+
+
+		/*keyframes-bench*/
+
+		@keyframes color-bench1 {
+			0% {
+				background-color: #874c9e;
+			}
+			25% {
+				background-color: #f3d925;
+			}
+			50% {
+				background-color: #d8b4ba;
+			}
+			100% {
+				background-color: #296c2e;
+			}
+
+
+		}
+
+		@keyframes left1 {
+			0% {
+				left: 300px;
+			}
+			100% {
+				left: 740px;
+			}
+		}
+
+		@keyframes left2 {
+			0% {
+				left: 300px;
+			}
+			100% {
+				left: 710px;
+			}
+		}
+
+		@keyframes down1 {
+			0% {
+				top: 1300px;
+			}
+			100% {
+				top: 1650px;
+			}
+		}
+
+		@keyframes down2 {
+			0% {
+				top: 1300px;
+			}
+			100% {
+				top: 1620px;
+			}
+		}
+
+		/*keyframes-pixels*/
+
+		@keyframes color1 {
+			0% {
+				background-color: #2fc4e3;
+			}
+			25% {
+				background-color: #2057a2;
+			}
+			50% {
+				background-color: #f2de22;
+			}
+			100% {
+				background-color: #cc2737;
+			}
+		}
+
+		@keyframes box-8 {
+			0% {
+				display: none;
+				opacity: 0;
+			}
+			1% {
+				display: block;
+				opacity: 0;
+			}
+			100% {
+				display: block;
+				opacity: 1;
+			}
+		}
+
+		@keyframes moving1 {
+			0% {
+				top: 1000px;
+			}
+			100% {
+				top: 1350px
+			}
+
+		}
+
+		@keyframes moving2 {
+			0% {
+				top: 1000px;
+			}
+			100% {
+				top: 1300px;
+			}
+		}
+
+		@keyframes moving3 {
+			0% {
+				top: 900px;
+			}
+			100% {
+				top: 1220px;
+			}
+		}
+
+		@keyframes moving4 {
+			0% {
+				top: 900px;
+			}
+			100% {
+				top: 1160px;
+			}
+		}
+
+		@keyframes moving5 {
+			0% {
+				top: 900px;
+			}
+			100% {
+				top: 1110px;
+			}
+		}
+
+		@keyframes moving6 {
+			0% {
+				top: 900px;
+			}
+			100% {
+				top: 1130px;
+			}
+		}
+
+		@keyframes moving7 {
+			0% {
+				top: 700px;
+			}
+			100% {
+				top: 1000px;
+			}
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="grid-container">
+
+		<div class="row">
+			<div class="col-1 background_1"></div>
+			<div class="col-1 background_2"></div>
+			<div class="col-1 background_3"></div>
+			<div class="col-1 background_4"></div>
+			<div class="col-1 background_5"></div>
+			<div class="col-1 background_6"></div>
+			<div class="col-1 background_7"></div>
+			<div class="col-1 background_8"></div>
+			<div class="col-1 background_9"></div>
+			<div class="col-1 background_10"></div>
+			<div class="col-1 background_11"></div>
+			<div class="col-1 background_12"></div>
+			<div class="title-1">IMAGINATOR</div>
+			<div class="text-director">CHRIS <br>COLUMBUS</div>
+			<div class="charles">The Charles Theatre</div>
+			<div class="location">1711 N Charles St, Baltimore, MD 21201</div>
+			<div class="website">http://thecharles.com</div>
+			<div class="charlesbox"></div>
+			<div class="film-1">PIXELS</div>
+			<div class="number-1">2015</div>
+			<div class="date-1">March 10th 3PM</div>
+			<div class="pixelstory">When aliens intercept video feeds of classic<br> arcade games and misinterpret them as a<br> declaration of war, they attack Earth, using<br> the games as models.</div>
+			<div class="film-2">NIGHT AT THE MUSEUM<br>:SECRET OF THE TOMB</div>
+			<div class="number-2">2014</div>
+			<div class="date-2">March 11th 3PM</div>
+			<div class="night">In Secret of the Tomb, security guard Larry Daley must<br> travel to London to return the tablet of Ahkmenrah, an<br> Egyptian artifact which causes the exhibits to come to<br> life, before the magic disappears.</div>
+			<div class="film-3">THE HELP</div>
+			<div class="number-3">2011</div>
+			<div class="date-3">March 12th 3PM</div>
+			<div class="help">The Help is a story about exposing the racism they<br> are faced with as they work for white families. </div>
+			<div class="film-4">HARRY POTTER AND<br>PRISONER OF AZKABAN</div>
+			<div class="number-4">2004</div>
+			<div class="date-4">March 13th 3PM</div>
+			<div class="ohharry">A mysterious new teacher helps Harry<br>learn to defend himself, but what is his <br>secret tie to Sirius Black?</div>
+			<div class="film-5">HOME ALONE</div>
+			<div class="number-5">1990</div>
+			<div class="date-5">March 14th 3PM</div>
+			<div class="alone">When bratty 8-year-old Kevin McCallister acts<br> out the night before a family trip to Paris, his<br> mother makes him sleep in the attic.</div>
+
+
+			<div class="parent">
+				<div class="box-1"></div>
+				<div class="box-2"></div>
+				<div class="box-3"></div>
+				<div class="box-4"></div>
+				<div class="box-5"></div>
+				<div class="box-6"></div>
+				<div class="box-7"></div>
+				<div class="box-8"></div>
+			</div>
+
+			<div class="parent">
+				<div class="bench-1"></div>
+				<div class="bench-2"></div>
+				<div class="bench-3"></div>
+				<div class="bench-4"></div>
+				<div class="bench-41"></div>
+			</div>
+
+			<div class="parent">
+				<div class="harry-1"></div>
+				<div class="harry-2"></div>
+				<div class="harry-3"></div>
+				<div class="harry-4"></div>
+				<div class="harry-5"></div>
+				<div class="harry-6"></div>
+				<div class="harry-7"></div>
+			</div>
+
+			<div class="parent">
+				<div class="dino-1"></div>
+				<div class="dino-2"></div>
+				<div class="dino-3"></div>
+				<div class="dino-4"></div>
+				<div class="dino-5"></div>
+				<div class="dino-6"></div>
+				<div class="dino-7"></div>
+				<div class="dino-8"></div>
+				<div class="dino-9"></div>
+				<div class="dino-10"></div>
+				<div class="dino-11"></div>
+				<div class="dino-12"></div>
+			</div>
+
+
+			<div class="parent">
+				<div class="home-1"></div>
+				<div class="home-2"></div>
+				<div class="home-3"></div>
+				<div class="home-4"></div>
+				<div class="home-5"></div>
+				<div class="home-6"></div>
+				<div class="home-7"></div>
+			</div>
+
+
+		</div>
+	</div>
+
+
+</body>
+
+</html>

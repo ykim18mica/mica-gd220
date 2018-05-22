@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" class="style">
+
+    <style>
+        .body {
+            background-color: #f7f6f2;
+        }
+
+        .main {
+            padding: 10em;
+        }
+
+        .txt-about {
+            font-size: 2.6vw;
+        }
+
+        .text-explore {
+            font-size: 2.6vw;
+        }
+
+        #carat {
+            transform: rotate(180deg);
+        }
+
+        div.div-tracks {
+            padding-top: 12vw;
+            padding-bottom: 33vw;
+            font-family: aper
+        }
+
+        ul.txt-tracks {
+            width: 80%;
+            margin: auto;
+        }
+
+        ul.txt-tracks:hover li.txt-tracks-size {
+            opacity: .2;
+            transition: opacity .5s ease-out;
+        }
+
+        ul.txt-tracks:hover li.txt-tracks-size:hover {
+            opacity: 1;
+            transition: opacity .5s ease-out;
+        }
+
+        li.txt-tracks-size {
+            display: inline;
+            font-size: 2.6vw;
+            font-weight: 600;
+            text-align: center;
+            margin: .6em;
+        }
+
+        /*descriptions*/
+
+        .des-enviornment {
+            opacity: 0;
+            display: inline-block;
+            transition: opacity .2s;
+            margin-top: -20em;
+
+        }
+
+        .des-enviornment:hover {
+            opacity: 1;
+            transition: opacity .2s
+        }
+
+        .p-environment {
+            font-size: 1vw;
+            font-weight: 100;
+            line-height: 1.8;
+            width: 16vw;
+            position: relative;
+            left: 13em;
+
+        }
+
+        .feature-en {
+            text-transform: uppercase;
+            font-size: .9vw;
+            margin-left: 14.5em;
+            margin-bottom: -.45em;
+        }
+
+        .time-en {
+            color: #c2c2c2;
+            text-transform: uppercase;
+            display: inline-block;
+            font-size: .9vw;
+            margin-left: 4em;
+        }
+
+        .event-en {
+            text-transform: uppercase;
+            display: inline;
+            font-size: .9vw;
+            margin-left: 2.5em;
+        }
+
+        .des-lang {
+            display: inline-block;
+            opacity: 0;
+            transition: opacity .2s;
+        }
+
+        .des-lang:hover {
+            opacity: 1;
+            transition: opacity .2s
+        }
+
+        .p-lang {
+            font-size: 1vw;
+            font-weight: 100;
+            line-height: 1.8;
+            width: 13vw;
+            position: relative;
+            left: 4.5em;
+
+        }
+
+        .feature-la {
+            text-transform: uppercase;
+            font-size: .9vw;
+            margin-left: 5em;
+            margin-bottom: -.45em;
+        }
+
+        .time-la {
+            color: #c2c2c2;
+            text-transform: uppercase;
+            display: inline-block;
+            font-size: .9vw;
+            margin-left: -4em;
+        }
+
+        .event-la {
+            text-transform: uppercase;
+            display: inline;
+            font-size: .9vw;
+            margin-left: 0em;
+        }
+
+        .bg2 {
+            width: 100%;
+            position: absolute;
+            z-index: -10;
+            top: 0;
+            left: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="other-nav">
+        <div class="nav-reveal">
+            <p class="txt-menu apercu red">LOOK INSIDE</p>
+            <ul class="hidden-links">
+                <li class="home list-1 red"><a class="red" href="index.html">HOME</a></li>
+                <li class="schedule list-3 red"><a class="red" href="speakers.html">SPEAKERS</a></li>
+                <li class="speakers list-4 red"><a class="red" href="logic.html">LOGISTICS</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="div-tracks">
+        <ul class="apercu red txt-tracks">
+            <li class="txt-tracks-size">Environment</li>
+            <li class="txt-tracks-size">Language</li>
+            <li class="txt-tracks-size">Haptics</li>
+            <li class="txt-tracks-size">Discipline</li>
+            <li class="txt-tracks-size">Subversion</li>
+        </ul>
+        <div class="des-enviornment">
+            <p class="p-environment apercu grey">After all this digital interaction, we need blue tinted glasses to adjust our eyes by the sun. This track explores physical space - both through finding beautiful serendipity through what’s found around us, and making our own assaults onto the physical world.</p>
+            <p class="feature-en apercu red">featured <br>session</p>
+            <p class="time-en apercu">3PM main stage</p>
+            <p class="event-en apercu grey">deconstructing cafe culture</p>
+        </div>
+        <div class="des-lang">
+            <p class="p-lang apercu grey">What is it about the way words are crafted that creates such an effect on how we perceive them? This track explores one of the most fundamental areas of communication, and how its idiosyncrasies lead to new conclusions. </p>
+            <p class="feature-la apercu red">featured <br>session</p>
+            <p class="time-la apercu">10AM THEATER 2</p>
+            <p class="event-la apercu grey">PHILLIP LARKIN</p>
+        </div>
+
+        <img class="bg2" src="images/env-bg.png">
+    </div>
+</body>
+
+
+</html>

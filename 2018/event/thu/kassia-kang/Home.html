@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<title>Think Colorful</title>
+<link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+<head>
+    <style>
+        html {
+            font-family: 'Muli', sans-serif;
+            margin: 20px;
+        }
+
+        .box {
+            background: linear-gradient(-35deg, #FBDB60, #FBDB60, #F2C8C0, #CDD8E8, #E7C0CD, #FBDB60, #FBDB60);
+            background-size: 600% 600%;
+            -webkit-animation: Gradient 20s ease infinite;
+            -moz-animation: Gradient 30s ease infinite;
+            animation: Gradient 30s ease infinite;
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            left: 500px;
+            top: 190px;
+        }
+
+        @-webkit-keyframes Gradient {
+            0% {
+                background-position: 0% 50%
+            }
+            50% {
+                background-position: 50% 100%
+            }
+            100% {
+                background-position: 100% 50%
+            }
+        }
+
+        @-moz-keyframes Gradient {
+            0% {
+                background-position: 0% 50%
+            }
+            50% {
+                background-position: 100% 50%
+            }
+            100% {
+                background-position: 0% 50%
+            }
+        }
+
+        @keyframes Gradient {
+            0% {
+                background-position: 0% 50%
+            }
+            50% {
+                background-position: 100% 50%
+            }
+            100% {
+                background-position: 0% 50%
+            }
+        }
+
+        .parent {
+            position: relative;
+        }
+
+        li:hover .boxy {
+            visibility: visible;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 8;
+            padding: 0;
+            overflow: hidden;
+            background-color: transparent;
+        }
+
+        .short {
+            margin: 0 23px;
+        }
+
+        li {
+
+            float: right;
+            font-size: 16px;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 3px 10px;  text-decoration: none;
+        }
+
+        .boxy {
+            visibility: hidden;
+            width: 100%;
+            height: 15px;
+            background-color: #8FCDA5;
+            position: absolute;
+            top: 12px;
+            left: 0px;
+            z-index: -100;
+        }
+
+
+        .Think {
+            font-size: 70px;
+            font-weight: 700;
+            color: #8FCDA5;
+            letter-spacing: 1.2px;
+            position: absolute;
+            left: 435px;
+            top: 370px;
+        }
+
+        .year {
+            font-size: 60px;
+            font-weight: 700;
+            color: #8FCDA5;
+            position: absolute;
+            right: 8px;
+            bottom: 60px;
+            transform: rotate(-90deg);
+        }
+
+        .color {
+            position: absolute;
+            font-size: 10px;
+            font-weight: 200;
+            bottom: 35px;
+            left: 590px;
+        }
+
+        .address {
+            font-size: 10px;
+            font-weight: 200;
+            transform: rotate(-90deg);
+            position: absolute;
+            left: -40px;
+            top: 380px;
+        }
+
+        .latitude {
+            color: #8FCDA5;
+            font-size: 40px;
+            font-weight: 600;
+            transform: rotate(90deg);
+            position: absolute;
+            top: 250px;
+            left: 740px;
+        }
+
+        .logo {
+            position: absolute;
+            top: 20px;
+            text-decoration: none;
+
+        }
+
+        .C {
+            font-size: 20px;
+            color: #FBDB60;
+
+        }
+
+        .D {
+            font-size: 20px;
+            color: #8FCDA5;
+            position: relative;
+            top: 22px;
+            right: 15px;
+            float: right;
+        }
+
+        svg {
+            position: relative;
+        }
+    </style>
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="row">
+        <ul>
+            <li class="short">
+                <div class="parent">
+                    <div class="boxy"></div><a href="Contact.html">Contact</a></div>
+            </li>
+            <li class="short">
+                <div class="parent">
+                    <div class="boxy"></div><a href="Schedule.html">Schedule</a></div>
+            </li>
+            <li class="short">
+                <div class="parent">
+                    <div class="boxy"></div><a href="Speakers.html">Speakers</a></div>
+            </li>
+            <li class="short">
+                <div class="parent">
+                    <a href="About.html">About <div class="boxy"></div></a></div>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="box"></div>
+
+    <div class="Think">Think<br> Colorful</div>
+    <div class="year">2018</div>
+    <div class="color">color in design</div>
+    <div class="address">11 W 53rd St, New York, NY 10019</div>
+    <div class="latitude">-74.006</div>
+
+    <a href="Home.html" class="logo">
+        <div class="C">C</div>
+        <svg height="30" width="40">
+        <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FBDB60;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8FCDA5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <line x1="12" y1="0" x2="24" y2="23" style="stroke:url(#grad1);stroke-width:2" />
+</svg>
+        <div class="D">D</div>
+
+    </a>
+
+</body>
+
+</html>

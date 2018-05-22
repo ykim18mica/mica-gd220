@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+    <style>
+        #nav {
+            width: 100px;
+            height: 400px;
+            background-color: greenyellow;
+            position: fixed;
+            left:-60px;
+            transition: 0.5s;
+        }
+        #nav #open {
+            position:relative;
+            left:60px;
+            display:block;
+        }
+        #nav #open:hover {
+            cursor:pointer;
+            color:red;
+        }
+        #nav #close {
+            position:relative;
+            left:60px;
+            display:none;
+        }
+        #nav #close:hover {
+            cursor:pointer;
+            color:red;
+        }
+        a{
+            clear:both;
+        }
+    
+    </style>
+    
+    <script>
+        function openNav() {
+            document.getElementById("nav").style.left = "0px";
+            document.getElementById("open").style.display = "none";
+            document.getElementById("close").style.display = "block";
+        }
+        function closeNav() {
+            document.getElementById("nav").style.left = "-60px";
+            document.getElementById("close").style.display = "none";
+            document.getElementById("open").style.display = "block";
+        }
+    </script>
+</head>
+
+<body>
+   
+   <div id="nav">
+      
+       <div id="open" onclick="openNav()">open</div>
+       <div id="close" onclick="closeNav()">close</div>
+       
+       <a href="">home</a>
+       <a href="">about</a>
+       <a href="">work</a>
+   </div>
+    
+</body>
+
+</html>

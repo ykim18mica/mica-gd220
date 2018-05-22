@@ -1,0 +1,317 @@
+<!doctype html>
+<html>
+    
+    <head>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600" rel="stylesheet">
+
+    <style>
+        .grid-container-1 {
+            display: grid;
+            grid-template-columns: 0.5fr 4fr 1fr;
+            grid-template-rows: 2fr 8fr 1fr;
+            grid-template-areas: "top-left top-place top-right" "pagebar main-place main-place" "bottom bottom bottom";
+        }
+
+        body {
+            height: 500px;
+            font-family: 'Nunito', sans-serif;
+            color: white;
+        }
+
+        .background {
+            min-height: 100%;
+            min-width: 1024px;
+            width: 100%;
+            height: auto;
+            background: linear-gradient(to bottom right, #e5a7a3, #fbc29c, #fbe3c1, #ccd8e3, #acc3d2);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        @media screen and (max-width: 1024px) {
+            .background {
+                left: 50%;
+                margin-left: -512px;
+                /* 50% */
+            }
+        }
+
+        .logo {
+            grid-area: top-left;
+            margin: 20px;
+            margin-top: 0;
+            position: relative;
+            top: -20px;
+        }
+
+        .mica-logo {
+            width: 130px;
+        }
+
+        .menu {
+            box-sizing: border-box;
+            grid-area: top-right;
+            width: 10px;
+            height: auto;
+            margin-top: 20px;
+            position: relative;
+            top: -40px;
+            right: -255px;
+            z-index: 99;
+            display: block;
+        }
+
+        .menu:hover .menu-line-1 {
+            background-color: #e5a7a3;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+
+        .menu:hover .menu-line-2 {
+            background-color: #e5a7a3;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+
+        .menu:hover .menu-line-3 {
+            background-color: #e5a7a3;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+
+        .menu-line-1 {
+            width: 40px;
+            height: 4px;
+            background-color: white;
+            grid-area: top-right;
+            border-radius: 25px;
+        }
+
+        .menu-line-2 {
+            width: 40px;
+            height: 4px;
+            background-color: white;
+            grid-area: top-right;
+            margin-top: 8px;
+            border-radius: 25px;
+        }
+
+        .menu-line-3 {
+            width: 40px;
+            height: 4px;
+            background-color: white;
+            grid-area: top-right;
+            margin-top: 8px;
+            border-radius: 25px;
+        }
+
+        .menu-dropdown {
+            text-align: right;
+            grid-area: main;
+            position: absolute;
+            top: 80px;
+            right: 50px;
+            font-size: 19px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .snip1168 {
+            box-sizing: border-box;
+            margin-top: 40px;
+            position: relative;
+            top: -20px;
+            z-index: 100;
+            display: block;
+            font-weight: 400;
+        }
+
+        .snip1168 li {
+            display: block;
+            list-style-type: none;
+            margin-top: 0px;
+            padding: 0;
+            line-height: 40px;
+        }
+
+        .snip1168 a {
+            padding: 0;
+            color: rgba(255, 255, 255);
+            position: relative;
+            letter-spacing: 1px;
+            text-decoration: none;
+            line-height: 40px;
+        }
+
+        .snip1168 a:before,
+        .snip1168 a:after {
+            position: absolute;
+            -webkit-transition: all 0.35s ease;
+            transition: all 0.35s ease;
+        }
+
+        .snip1168 a:before {
+            top: 30px;
+            left: -2px;
+            display: block;
+            height: 3px;
+            width: 0%;
+            content: "";
+            background-color: #ffffff;
+        }
+
+        .snip1168 a:after {
+            left: 0;
+            top: -7px;
+            position: absolute;
+            content: attr(data-hover);
+            color: #e5a7a3;
+            white-space: nowrap;
+            max-width: 0%;
+            overflow: hidden;
+        }
+
+        .snip1168 a:hover:before,
+        .snip1168 .current a:before {
+            opacity: 1;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .snip1168 a:hover:after,
+        .snip1168 .current a:after {
+            max-width: 100%;
+            cursor: pointer;
+        }
+
+        /*https://codepen.io/littlesnippets/pen/pjKeyq?editors=1100*/
+
+        body {
+            background-color: #212121;
+            padding: 50px 0;
+        }
+
+        .sidebar {
+            grid-area: pagebar;
+            position: relative;
+            top: 200px;
+            left: 5px;
+        }
+
+        .circle {
+            width: 10px;
+            height: 10px;
+            border-radius: 5px;
+            background-color: white;
+            margin: 25px;
+        }
+
+        .circle-2 {
+            background-color: #aa8c85;
+        }
+
+        .title {
+            grid-area: main-place;
+            position: relative;
+            top: 130px;
+            left: 150px;
+        }
+
+        .about-head {
+            font-weight: 600;
+            font-size: 30px;
+            width: 120px;
+            height: 39px;
+            text-align: center;
+            color: #aa8c85;
+            border: 3px solid #aa8c85;
+            border-radius: 3px;
+        }
+
+        .content {
+            font-weight: 400;
+            font-size: 27px;
+            letter-spacing: 2px;
+            position: absolute;
+            top: 130px;
+            text-align: left;
+            width: 460px;
+            color: white;
+        }
+    </style>
+    <script>
+        var state = 0;
+
+        function greeting() {
+            if (state === 0) {
+                document.getElementById("box").style.backgroundColor = "orange";
+                document.getElementById("box").style.opacity = "0.2";
+            } else if (state === 1) {
+                document.getElementById("box").style.opacity = "1";
+                state === 0;
+            }
+        }
+    </script>
+</head>
+
+
+<body>
+
+    <!--<div id="box" onClick="greeting()">box</div>-->
+    <div class="docScroller">
+        <div class="grid-container-1 page page-1">
+            <div class="logo">
+                <img src="gd2-final-images-copy/Asset%201.png" class="mica-logo">
+            </div>
+            <div class="menu">
+                <!-- <img src="gd2-final-images-copy/Asset%203.svg" width="50">-->
+                <div class="menu-line-1"></div>
+                <div class="menu-line-2"></div>
+                <div class="menu-line-3"></div>
+            </div>
+
+            <div class="menu-dropdown">
+                <ul class="snip1168">
+                    <li class="current"><a href="#" data-hover="Home">Home</a></li>
+                    <li><a href="#" data-hover="About Us">About Us</a></li>
+                    <li><a href="#" data-hover="Blog">Blog</a></li>
+                    <li><a href="#" data-hover="Services">Services</a></li>
+                    <li><a href="#" data-hover="Products">Products</a></li>
+                    <li><a href="#" data-hover="Contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="background"></div>
+
+            <div class="title">
+                <p class="about-head">ABOUT</p>
+                <p class="content">This event is held particularly for design students who are worrying about what to do next after graduate, or in 5 years, or 10 years.</p>
+            </div>
+
+            <div class="sidebar">
+                <div class="circle circle-1"></div>
+                <div class="circle circle-2"></div>
+                <div class="circle circle-3"></div>
+                <div class="circle circle-4"></div>
+                <div class="circle circle-5"></div>
+                <div class="circle circle-6"></div>
+                <div class="circle circle-7"></div>
+            </div>
+        </div>
+
+        <div class="grid-container-1 page page-2">
+            <div class="background"></div>
+
+            <div class="about">
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+    
+    
+</html>

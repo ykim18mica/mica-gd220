@@ -1,0 +1,749 @@
+@font-face {
+    font-family: "Azo Sans Black";
+    src: url("fonts/RUI ABREU - AZOSANS-BLACK_0.WOFF") format('woff');
+}
+
+@font-face {
+    font-family: "Azo Sans Regular";
+    src: url("fonts/RUI ABREU - AZOSANS-REGULAR_0.WOFF") format('woff');
+}
+
+@font-face {
+    font-family: "Azo Sans Light";
+    src: url("fonts/RUI ABREU - AZOSANS-LIGHT_0.WOFF") format('woff');
+}
+
+@font-face {
+    font-family: "Azo Sans Light Italic";
+    src: url("fonts/RUI ABREU - AZOSANS-LIGHTITALIC_0.WOFF") format('woff');
+}
+
+@font-face {
+    font-family: "Azo Sans Italic";
+    src: url("fonts/RUI ABREU - AZOSANS-ITALIC_0.WOFF") format('woff');
+}
+
+
+.container-fluid {
+    padding: 0px;
+}
+
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body {}
+
+h1 {
+    font-family: "Azo Sans Black", sans-serif;
+    font-style: normal;
+    font-size: 15pt;
+    letter-spacing: 0.125em;
+    color: #ffff;
+    z-index: 1;
+}
+
+
+h3 {
+    font-family: "Azo Sans Black", sans-serif;
+    font-style: normal;
+    font-size: 10pt;
+    letter-spacing: 1pt;
+    color: #373736;
+}
+
+h4 {
+    font-family: "Azo Sans Regular", sans-serif;
+    font-style: normal;
+    font-size: 10pt;
+    letter-spacing: 0.5pt;
+    position: relative;
+    top: -0.35vw;
+    color: #373736;
+}
+
+.txt-head-c {
+    position: relative;
+    top: -3vw;
+}
+
+.center-txt {
+    margin: auto;
+    text-align: center;
+}
+
+.rule-c-b {
+    height: 4pt;
+    width: 35pt;
+    background-color: #373736;
+    margin: 1pt auto;
+    position: relative;
+    top: -0.1vw;
+    animation: rule-c-b 1s ease;
+}
+
+@keyframes rule-c-b {
+    0% {
+        width: 0pt;
+    }
+    100% {
+        width: 35pt;
+    }
+}
+
+@keyframes rule-c-w {
+    0% {
+        width: 0pt;
+    }
+    100% {
+        width: 50pt;
+    }
+}
+
+.rule-l-b {
+    height: 4pt;
+    width: 35pt;
+    background-color: #373736;
+    position: relative;
+    top: -0.5vw;
+}
+
+.rule-c-w {
+    height: 4pt;
+    width: 50pt;
+    background-color: #ffff;
+    margin: 1vw auto;
+    position: relative;
+    animation: rule-c-w 1s ease;
+}
+
+
+.subhead a {
+    color: #ffff;
+}
+
+.subhead a:hover {
+    color: #ffff;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+a {
+    font-family: "Azo Sans Regular", sans-serif;
+    font-style: normal;
+    font-size: 9pt;
+    letter-spacing: 0.5pt;
+    color: #707070;
+}
+
+p {
+    font-family: "Azo Sans Regular", sans-serif;
+    font-style: normal;
+    font-size: 9pt;
+    letter-spacing: 0.5pt;
+    color: #707070;
+}
+
+.location {
+    position: relative;
+    top: -2.25vw;
+}
+
+.active-about {
+    position: relative;
+    border-bottom: 0.5em solid #373736;
+}
+
+.active-schedule {
+    position: relative;
+    border-bottom: 0.5em solid #a8e063;
+}
+
+.active-exhibit {
+    position: relative;
+    border-bottom: 0.5em solid #eea849;
+}
+
+.active-perf {
+    position: relative;
+    border-bottom: 0.5em solid #36d1dc;
+}
+
+.active-talks {
+    position: relative;
+    border-bottom: 0.5em solid #9b9b9b;
+}
+
+a.hover-about:hover {
+    border-bottom: 0.5em solid #373736;
+    transition: 0.2s ease;
+}
+
+a.hover-schedule:hover {
+    border-bottom: 0.5em solid #a8e063;
+    transition: 0.2s ease;
+}
+
+a.hover-exhibit:hover {
+    border-bottom: 0.5em solid #eea849;
+    transition: 0.2s ease;
+}
+
+a.hover-perf:hover {
+    border-bottom: 0.5em solid #36d1dc;
+    transition: 0.2s ease;
+}
+
+a.hover-talks:hover {
+    border-bottom: 0.5em solid #9b9b9b;
+    transition: 0.2s ease;
+}
+
+.navtext {
+    display: flex;
+    justify-content: center;
+}
+
+.navitem {
+    margin-left: 3em;
+    padding-bottom: 1.6em;
+}
+
+.navbar {
+    margin-top: 2vw;
+    margin-bottom: 0.75vw;
+}
+
+.btn {
+    font-family: "Azo Sans Regular", sans-serif;
+    font-style: normal;
+    font-size: 9pt;
+    letter-spacing: 0.5pt;
+    color: #707070;
+    position: relative;
+    top: -5vw;
+    left: -8vw;
+    background-color: #fff !important;
+    width: 7%;
+    height: 25pt;
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+    line-height: 25pt;
+    text-align: center;
+    border-color: #ccc;
+}
+
+.btn:hover {
+    background-color: #eee !important;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #373736;
+    text-decoration: none;
+}
+
+.hr-thin {
+    position: relative;
+    border: none;
+    height: 1pt;
+    /* Set the hr color */
+    color: #ccc;
+    /* old IE */
+    background-color: #ccc;
+    /* Modern Browsers */
+    top: -5vw;
+}
+
+.hr-thick {
+    position: relative;
+    border: none;
+    height: 1pt;
+    color: ##707070;
+    background-color: #ccc;
+    top: -2vw;
+}
+
+
+
+.last-nav {
+    position: absolute;
+    padding-left: 10vw;
+    padding-top: 1.5vw;
+    float: none;
+    z-index: 1;
+}
+
+.last-nav:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.sponsor {
+    opacity: 0.3;
+    height: 2vw;
+    margin: 1.5vw;
+}
+
+.sponsor:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.footer {
+    display: flex;
+}
+
+.social-main {
+    position: relative;
+    left: 54%;
+    top: -2vw;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.social {
+    margin: 0.75vw;
+}
+
+.social:hover {
+    opacity: 0.75;
+    transition: 0.3s;
+}
+
+.sponsors {
+    position: relative;
+    top: -2.5vw;
+    width: 0%;
+    left: 32vw;
+    display: flex;
+    justify-content: center;
+}
+
+.silicon {
+    margin-left: 8vw;
+}
+
+.last-hero embed {
+    position: relative;
+    top: -4vw;
+    width: 250px;
+    display: table;
+    margin: 0 auto;
+}
+
+.main-up {
+    position: relative;
+    top: -3.5em
+}
+
+.icon {
+    font-size: 1em;
+    padding-right: 0.5em;
+}
+
+/* ABOUT */
+
+.mission {
+    font-family: "Azo Sans Light", sans-serif;
+    font-style: normal;
+    font-size: 9.5pt;
+    letter-spacing: 0.5pt;
+    line-height: 15pt;
+    color: #ffff;
+    padding-right: 25vw;
+    padding-left: 25vw;
+    text-align: left;
+    text-indent: 2vw;
+}
+
+.about-header {
+    background-color: #373736;
+    padding-top: 2.5em;
+    padding-bottom: 3.5em;
+}
+
+.team {
+    display: inline-block;
+    margin-left: 6vw;
+    width: 75%;
+    padding-left: 10vw;
+    padding-top: 3em;
+    position: relative;
+}
+
+.team-module {
+    display: inline-block;
+    width: 20%
+}
+
+.team-name {
+    position: relative;
+    top: -1vw;
+}
+
+.team-role {
+    position: relative;
+    top: -0.25vw;
+}
+
+.friends {
+    position: relative;
+    right: 10vw;
+    width: 15%;
+    padding-top: 1.5em
+}
+
+.friends-head {
+    padding-bottom: 0.5em;
+}
+
+.friend-item {
+    line-height: -1em;
+}
+
+/* SCHEDULE */
+
+.subhead-schedule:hover {
+    opacity: 0.5;
+    transition: 0.3s ease;
+}
+
+.schedule-header {
+    padding-top: 2.5em;
+    padding-bottom: 3.5em;
+    background: linear-gradient(to bottom, #62a336 0%, #a8e063 100%);
+    background-size: 100% 200%;
+    animation: header-animate 10s ease infinite;
+}
+
+.schedule {
+    padding: 2em;
+}
+
+/* EXHIBIT */
+
+.quote {
+    text-align: left;
+    color: white;
+    font-family: "Azo Sans Light Italic"
+}
+
+.quote-icon {
+    padding-left: 14em;
+    position: relative;
+    top: -0.25em;
+}
+
+.quote-name {
+    text-align: left;
+}
+
+.q-text {
+    color: white;
+}
+
+.rule-l-w {
+    height: 4pt;
+    width: 35pt;
+    background-color: white;
+    position: relative;
+    top: -0.5vw;
+}
+
+.exhibit-header {
+    padding-top: 2.5em;
+    padding-bottom: 3.5em;
+    background: linear-gradient(to bottom, #F46B45 0%, #EEA849 100%);
+    background-size: 100% 200%;
+    animation: header-animate 10s ease infinite;
+}
+
+.art {
+    display: inline-block;
+
+}
+
+.art-module {
+    position: relative;
+    padding: 2.5vw;
+}
+
+
+.img-art {
+    position: absolute;
+    clip: rect(0px, 200px, 200px, 0px);
+    z-index: -1;
+}
+
+
+.tint {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    clip-path: circle(50px at center);
+    z-index: 3;
+}
+
+.tint:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(155, 155, 155, 0.5);
+    transition: all .3s linear;
+    clip-path: circle(50px at center);
+    z-index: 10;
+}
+
+.tint:hover:before {
+    background: none;
+}
+
+.t2:before {
+    background: rgba(121, 121, 121, 0.5);
+}
+
+.t3 {
+    background: rgba(237, 167, 73, 0.9);
+    opacity: 0.4;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    top: 13vw;
+    left: 12vw;
+    z-index: 10;
+}
+
+.t3:hover {
+    opacity: 0;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+
+.art-shadow {
+    background: linear-gradient(to bottom, #F46B45 0%, #EEA849 100%);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -1em;
+    left: -1em;
+    z-index: -3;
+    background-size: 100% 200%;
+    animation: header-animate 5s ease infinite;
+}
+
+.img-artist {
+    position: absolute;
+    clip-path: circle(50px at center);
+    top: 13vw;
+    left: 12vw;
+
+}
+
+.artist-shadow {
+    background: linear-gradient(to bottom, #F46B45 0%, #EEA849 100%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    top: 12.5vw;
+    left: 11.5vw;
+    background-size: 100% 200%;
+    animation: header-animate 5s ease infinite;
+}
+
+.art-caption {
+    position: relative;
+    color: #373736;
+    font-family: "Azo Sans Light";
+    text-align: right;
+    left: -6vw;
+    top: 0.75vw;
+}
+
+em {
+    font-family: "Azo Sans Italic";
+}
+
+.art-col {
+    padding-right: 21vw;
+}
+
+.artists {
+    margin-bottom: 5vw;
+}
+
+/* PERFORMANCES */
+
+.perf-header {
+    padding-top: 2.5em;
+    padding-bottom: 3.5em;
+    background: linear-gradient(#5B86E5 0%, #36D1DC 100%);
+    background-size: 100% 200%;
+    animation: header-animate 10s ease infinite;
+}
+
+.t4 {
+    background: rgba(78, 165, 219, 1);
+    opacity: 0.5;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    top: 13vw;
+    left: 12vw;
+    z-index: 10;
+}
+
+.t4:hover {
+    opacity: 0;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+
+.img-perfist {
+    position: absolute;
+    clip-path: circle(50px at center);
+    top: 13vw;
+    left: 12vw;
+}
+
+.perfist {
+    position: absolute;
+    top: -2vw;
+}
+
+.perfist-shadow {
+    background: linear-gradient(to bottom, #5B86E5 0%, #36D1DC 100%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    top: 12.5vw;
+    left: 11.5vw;
+    background-size: 100% 200%;
+    animation: header-animate 5s ease infinite;
+}
+
+
+.perf-module {
+    padding-left: 5vw;
+}
+
+.perf-txt-module {
+    display: inline-block;
+    width: 30%
+}
+
+.perf-row {
+    margin-bottom: 7em;
+    margin-top: 2em;
+}
+
+.img-perf {
+    position: absolute;
+    clip: rect(0px, 200px, 200px, 0px);
+    z-index: -1
+}
+
+.perf-shadow {
+    background: linear-gradient(#5B86E5 0%, #36D1DC 100%);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -1em;
+    left: -1em;
+    z-index: -3;
+    background-size: 100% 200%;
+    animation: header-animate 5s ease infinite;
+}
+
+
+/* TALKS */
+
+.talks-header {
+    padding-top: 2.5em;
+    padding-bottom: 3.5em;
+    background: linear-gradient(to bottom, #636363 0%, #9B9B9B 100%);
+    background-size: 100% 200%;
+    animation: header-animate 10s ease infinite;
+}
+
+
+
+.img-talks {
+    position: relative;
+    clip-path: circle(50px at center);
+
+}
+
+
+.img-talks:hover {
+    position: relative;
+    clip-path: circle(50px at center);
+
+}
+
+.talks-shadow {
+    background: linear-gradient(to bottom, #797979 0%, #9B9B9B 100%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    top: 0vw;
+    right: 0.25vw;
+    background-size: 100% 200%;
+    animation: header-animate 5s ease infinite;
+}
+
+.talks-module {
+    width: 25%;
+    padding-top: 1.5vw;
+    padding-left: 1.5vw;
+}
+
+.talks-row {
+    margin-bottom: 3vw;
+}
+
+/* GENERAL SUBPAGE ASSETS */
+
+.subhead {
+    font-family: "Azo Sans Regular", sans-serif;
+    font-style: normal;
+    font-size: 11pt;
+    letter-spacing: 0.8pt;
+    line-height: 14pt;
+    color: #ffff;
+    padding-right: 25vw;
+    padding-left: 25vw;
+    text-align: center;
+}
+
+
+@keyframes header-animate {
+    0% {
+        background-position: 50% 0%
+    }
+    50% {
+        background-position: 50% 100%
+    }
+    100% {
+        background-position: 50% 0%
+    }
+}

@@ -1,0 +1,406 @@
+<!doctype html>
+
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style>
+        html {
+            background-color: #f4e6d7;
+            width: 200%;
+        }
+
+        /*preset*/
+
+        .home {
+            font-family: roboto;
+            color: #f4e6d7;
+            text-decoration: none;
+            position: fixed;
+            left: 100px;
+            top: 20px;
+            z-index: 2;
+        }
+
+        .about {
+            font-family: roboto;
+            color: #f4e6d7;
+            text-decoration: none;
+            position: fixed;
+            left: 300px;
+            top: 20px;
+            z-index: 2;
+        }
+
+        .speakers {
+            font-family: roboto;
+            color: #f4e6d7;
+            text-decoration: none;
+            position: fixed;
+            left: 500px;
+            top: 20px;
+            z-index: 2;
+        }
+
+        .information {
+            font-family: roboto;
+            color: #f4e6d7;
+            text-decoration: none;
+            position: fixed;
+            left: 700px;
+            top: 20px;
+            z-index: 2;
+        }
+
+        .about1 {
+            width: 1300px;
+        }
+
+        .redbox {
+            width: 1300px;
+            background-color: #ff3600;
+            height: 50px;
+            position: fixed;
+            z-index: 1;
+
+
+        }
+
+        .love {
+            font-family: roboto;
+            font-size: 100px;
+            font-weight: bold;
+            color: #f4e6d7;
+            position: absolute;
+            top: 180px;
+            left: 100px;
+
+            text-shadow: 3px 3px 4px #333;
+
+        }
+
+        .talk {
+            font-family: roboto;
+            font-size: 100px;
+            font-weight: bold;
+            color: #f4e6d7;
+            position: absolute;
+            top: 380px;
+            left: 100px;
+
+            text-shadow: 3px 3px 4px #333;
+        }
+
+        .ideation {
+            font-family: roboto;
+            font-size: 100px;
+            font-weight: bold;
+            color: #f4e6d7;
+            position: absolute;
+            top: 580px;
+            left: 100px;
+
+            text-shadow: 3px 3px 4px #333;
+        }
+
+        /*intro about*/
+
+        .text-about {
+            color: #ff3600;
+            position: absolute;
+            top: 810px;
+            font-size: 50px;
+            font-weight: bold;
+            left: 100px;
+        }
+
+        .red-line {
+            width: 170px;
+            height: 3px;
+            top: 890px;
+            left: 100px;
+            position: absolute;
+            background-color: #ff3600;
+        }
+
+        .text-doyou {
+            color: #ff3600;
+            position: absolute;
+            top: 970px;
+            font-size: 30px;
+            font-weight: bold;
+            left: 100px;
+        }
+
+        .text-doyou1 {
+            color: #ff3600;
+            position: absolute;
+            top: 1060px;
+            font-weight: 600;
+            font-size: 22px;
+            left: 100px;
+            z-index: 1;
+            text-align: inherit;
+        }
+
+        .about2 {
+            width: 500px;
+            position: absolute;
+            top: 1040px;
+            left: 600px;
+        }
+
+
+        .text-supporting {
+            color: #ff3600;
+            position: absolute;
+            top: 1600px;
+            font-size: 50px;
+            font-weight: bold;
+            left: 100px;
+        }
+
+        .red-line1 {
+            width: 450px;
+            height: 3px;
+            top: 1680px;
+            left: 100px;
+            position: absolute;
+            background-color: #ff3600;
+        }
+
+        .IDEO {
+            color: #ff3600;
+            position: absolute;
+            top: 1800px;
+            font-size: 40px;
+            font-weight: bold;
+            left: 100px;
+            text-decoration: none;
+        }
+
+        .IDEO:hover {
+            letter-spacing: 10px;
+            color: black;
+        }
+
+        .ideo-1 {
+            color: #ff3600;
+            position: absolute;
+            top: 1950px;
+            font-weight: 600;
+            font-size: 22px;
+            left: 100px;
+            z-index: 1;
+            text-align: justify;
+        }
+
+
+
+        .ideo-2 {
+            width: 500px;
+            position: absolute;
+            top: 1850px;
+            left: 600px;
+        }
+
+
+
+        .pentagram-1 {
+            color: #ff3600;
+            position: absolute;
+            font-size: 40px;
+            font-weight: bold;
+            left: 100px;
+            top: 2450px;
+            text-decoration: none;
+        }
+
+        .pentagram-1:hover {
+            letter-spacing: 10px;
+            color: black;
+        }
+
+        .pentagram-2 {
+            color: #ff3600;
+            position: absolute;
+            font-weight: 600;
+            font-size: 22px;
+            left: 100px;
+            z-index: 1;
+            text-align: justify;
+            top: 2600px;
+        }
+
+        .pentagram-3 {
+            width: 500px;
+            left: 600px;
+            position: absolute;
+            top: 2510px;
+        }
+
+
+
+        .landor-1 {
+            color: #ff3600;
+            position: absolute;
+            font-size: 40px;
+            font-weight: bold;
+            left: 100px;
+            top: 3100px;
+            text-decoration: none;
+        }
+
+        .landor-1:hover {
+            letter-spacing: 10px;
+            color: black;
+        }
+
+        .landor-2 {
+            color: #ff3600;
+            position: absolute;
+            font-weight: 600;
+            font-size: 22px;
+            left: 100px;
+            z-index: 1;
+            text-align: justify;
+            top: 3250px;
+        }
+
+        .landor-3 {
+            width: 500px;
+            position: absolute;
+            left: 600px;
+            top: 3170px;
+        }
+
+
+
+        /*redbox info*/
+
+        .redbox-about {
+            width: 1300px;
+            background-color: #ff3600;
+            height: 340px;
+            position: absolute;
+            top: 3700px;
+        }
+
+        .address {
+            top: 3750px;
+            z-index: 1;
+            left: 100px;
+        }
+
+        .mica {
+            top: 3800px;
+        }
+
+        .mica-address {
+            top: 3850px;
+        }
+
+        .contact {
+            top: 3750px;
+            z-index: 1;
+            left: 550px;
+        }
+
+        .contact-number {
+            top: 3800px;
+        }
+
+        .email {
+            top: 3850px;
+        }
+
+        .sponsors {
+            top: 3750px;
+            z-index: 1;
+            left: 1000px;
+        }
+
+        .sponsors-list1 {
+
+            top: 3800px;
+        }
+
+        .sponsors-list2 {
+            top: 3850px;
+        }
+
+        .sponsors-list3 {
+            top: 3900px;
+        }
+
+        .mica-logo {
+            top: 3920px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="index.html" class="home">/ Home</a>
+    <a href="about.html" class="about">/ About</a>
+    <a href="speakers.html" class="speakers">/ Speakers</a>
+    <a href="information.html" class="information">/ Information</a>
+    <div class="grid-container">
+        <div class="redbox"></div>
+        <img src="images/About%201.jpg" class="about1">
+        <div class="love">/LOVE</div>
+        <div class="talk">/TALK</div>
+        <div class="ideation">/IDEATION</div>
+        <div class="box"></div>
+
+        <div class=text-about>About</div>
+        <div class="red-line"></div>
+        <div class="text-doyou">DO YOU WANT TO MEET YOUR DREAM?</div>
+        <div class="text-doyou1">Ideation is the most important part to designers. Each design <br>Agency has their own methods of ideation. This is opportunity <br>to get a feedback of ideation from top design agencies! Share <br>your ideation and meet your dreams. Each design Agency has <br>their own methods of ideation. This is opportunity to get a <br>feedback of ideation from top design agencies! Share your <br>ideation and meet your dreams.</div>
+        <img src="images/about2.png" class="about2">
+        <div class="text-supporting">Supporting Firms</div>
+        <div class="red-line1"></div>
+
+        <a href="http://www.ideo.com" class="IDEO">IDEO</a>
+        <div class="ideo-1">IDEO is one of the most innovative and award-winning design firms in<br> the world. They’re like the secret weapon of innovation for compa-<br>nies like Microsoft, Hewlett-Packard, Pepsi, and Samsung. Over the <br>last few decades, they’ve designed hundreds of products, like the <br>first computer mouse for Applein 1980, the Palm Pilot in 1998, a <br> school system in Peru, and the 25-foot mechanical whale used in the<br> movie Free Willy—to name a few.
+        </div>
+        <img src="images/IDEO-2.png" class="ideo-2">
+
+        <a href="http://www.pentagram.com" class="pentagram-1">Pentagram</a>
+        <div class="pentagram-2">Pentagram is the world’s largest independently owned design <br>studio. Their work encompasses graphics and identity, architecture<br> and interiors, products and packaging, exhibitions and installations,<br> websites and digital experiences, advertising and communications.<br> Our 19 partners are all practicing designers, and whether they are<br> working collaboratively or independently, they always do so in <br>friendship.</div>
+        <img src="images/pentagram-1.png" class="pentagram-3">
+
+        <a href="http://www.landor.com" class="landor-1">Landor</a>
+        <div class="landor-2">Landor is “the world’s preeminent brand consulting firm.” Head-<br>quartered in San Francisco with 36 offices in 20 countries, this <br>design giant has one of the most enviable client lists on the planet.<br><br> “We design for the future—in ways that make sense right now. <br>We’re strategic experts and creative explorers committed to solv-<br>ing complex challenges. With smart tools and global resources, we <br>examine the implications of every brand choice, create new experi-<br>ences, and open doors to opportunity.”</div>
+        <img src="images/landor-1.png" class="landor-3">
+        <div class="redbox-about"></div>
+
+        <a href="http://www.mica.edu" class="mica">Maryland Institute College of Art</a>
+        <div class="mica-address">1300 W Mount Royal Avenue <br> Baltimore MD, 21217-4134</div>
+
+        <div class="contact-number">(410)669-9200</div>
+
+        <div class="link"><a href="https://www.ideo.com/" class="sponsors-list1">/ IDEO</a>
+            <a href="https://www.pentagram.com/" class="sponsors-list2">/ Pentagram</a>
+            <a href="https://landor.com/" class="sponsors-list3">/ Landor</a></div>
+        <a href="http://www.mica.edu" class="mica-logo"><img src="images/mica-logo.png"></a>
+        <div class="address">Address</div>
+        <div class="contact">Contact Us</div>
+        <div class="sponsors">Sponsors</div>
+        <div class="email">schoi09@mica.edu</div>
+
+
+
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Show Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="plugins/aos/aos.css">
+    <link href="https://fonts.googleapis.com/css?family=Gravitas+One" rel="stylesheet">
+    <style>
+        @import url("https://use.typekit.net/tca5qjd.css");
+
+
+        body {
+            background-color: black;
+        }
+
+
+        .resevoir {
+            background-image: url(images/resevoir.png);
+            background-position: center;
+            background-size: contain;
+
+        }
+
+        .pulp {
+            background-image: url(images/pulp.png);
+            background-position: center;
+            background-size: 103%;
+            top: 10px;
+        }
+
+        .jackie {
+            background-image: url(images/jackie.png);
+            background-position: center;
+            background-size: 99%;
+        }
+
+        .killbill {
+            background-image: url(images/killbill.png);
+            background-position: center;
+            background-size: contain;
+        }
+
+        .inglourious {
+            background-image: url(images/inglourious.png);
+            background-position: center;
+            background-size: contain;
+        }
+
+        .img1 {
+            background-image: url(images/img1.png);
+            background-size: cover;
+        }
+
+        .img2 {
+            background-image: url(images/img2.png);
+            background-size: cover;
+        }
+
+        .img3 {
+            background-image: url(images/img3.png);
+            background-size: cover;
+        }
+
+        .img4 {
+            background-image: url(images/img4.png);
+            background-size: cover;
+        }
+
+        .red {
+            background-image: url(images/red.png)
+        }
+
+        .cream {
+            background-image: url(images/cream.png)
+        }
+
+        .brown {
+            background-image: url(images/brown.png)
+        }
+
+        .black {
+            background-image: url(images/black.png)
+        }
+
+        .height-100 {
+            height: 100px;
+        }
+
+        .height-169 {
+            height: 169px;
+        }
+
+        .height-369 {
+            height: 369px;
+        }
+
+        .height-500 {
+
+            height: 500px;
+
+        }
+
+        .height-590 {
+            height: 590px;
+        }
+
+        /*-----animations------*/
+
+        @keyframes fall {
+            from {
+                top: -1000px;
+            }
+            to {
+                top: 0px;
+            }
+        }
+
+        .title {
+            color: #fad584;
+            font-size: 90px;
+            text-align: center;
+            padding: 100px;
+            position: relative;
+            font-family: 'Gravitas One', cursive;
+            letter-spacing: 3px;
+            animation: fall 2s ease-in-out forwards;
+        }
+
+        .tag {
+            color: #ffffff;
+            font-size: 18px;
+            font-family: serif;
+            text-transform: bold;
+            text-align: center;
+            position: relative;
+            letter-spacing: 1.1px;
+            animation: fall 2s ease-in-out forwards;
+
+        }
+
+        .date {
+            color: #fad584;
+            font-size: 36px;
+            text-align: center;
+            padding: 10px;
+            font-family: "cooper-black-std";
+
+        }
+
+
+
+        div.resevoirdogs:hover {
+            background-image: url(images/overlay_res.png);
+        }
+
+        div.resevoirdogs:hover p.date {
+            color: white;
+        }
+
+        div.pulp:hover {
+            background-image: url(images/overlay_pulp.png);
+        }
+
+        div.pulp:hover p {
+            color: white;
+        }
+
+        div.jackie:hover {
+            background-image: url(images/overlay_jackie.png);
+        }
+
+        div.jackie:hover p {
+            color: white;
+        }
+
+        div.killbill:hover {
+            background-image: url(images/overlay_kill.png);
+        }
+
+        div.killbill:hover p {
+            color: white;
+        }
+
+        div.inglourious:hover {
+            background-image: url(images/overlay_bas.png);
+        }
+
+        div.inglourious:hover p {
+            color: white;
+        }
+
+        .time {
+            color: white;
+            font-size: 36px;
+            text-align: center;
+            padding: 30px;
+            font-family: 'Gravitas One', cursive;
+            letter-spacing: 3px;
+            top: 10px;
+        }
+
+        .address {
+            color: white;
+            font-size: 14px;
+            text-align: center;
+            font-family: serif;
+            letter-spacing: 3px;
+            text-transform: bold;
+            top: 10px;
+        }
+
+        .quote1 {
+            color: #fad584;
+            font-size: 45px;
+            font-family: "cooper-black-std";
+            text-align: left;
+            position: relative;
+            padding: 5%;
+            padding-left: 8%;
+            line-height: 1.2;
+        }
+
+        .pulp_quote {
+            color: #bf2026;
+            font-size: 50px;
+            font-family: 'Gravitas One', cursive;
+            text-align: center;
+            padding-top: 15%;
+            line-height: 1.3;
+        }
+
+        .jackie_quote {
+            color: white;
+            font-size: 43px;
+            font-family: "cooper-black-std";
+            text-align: left;
+            padding-top: 10%;
+            padding-left: 12%;
+            padding-right: 10%;
+            line-height: 1.5;
+        }
+
+        .kill_quote {
+            color: #bf2026;
+            font-size: 45px;
+            font-family: 'Gravitas One', cursive;
+            text-align: center;
+            padding-top: 8%;
+            line-height: 1.3;
+        }
+
+        .inglourious_quote {
+            color: white;
+            font-size: 40px;
+            font-family: 'Gravitas One', cursive;
+            text-align: left;
+            padding-top: 5%;
+            padding-left: 7%;
+            padding-right: 5%;
+            line-height: 1.3;
+
+        }
+
+        .movietitle {
+            color: white;
+            text-align: center;
+            font-size: 25px;
+            padding: 10px;
+            font-family: 'Gravitas One', cursive;
+        }
+
+        .pulp_movietitle {
+            color: #bf2026;
+            text-align: center;
+            font-size: 25px;
+            padding: 10px;
+            font-family: ;
+            position: relative;
+            top: 20%;
+            font-family: 'Gravitas One', cursive;
+        }
+
+        .jackie_movietitle {
+            color: white;
+            text-align: center;
+            font-size: 25px;
+            padding: 10px;
+            font-family: 'Gravitas One', cursive;
+            position: relative;
+            top: 20%;
+
+        }
+
+        .inglourious_movietitle {
+            color: white;
+            text-align: center;
+            font-size: 25px;
+            padding: 10px;
+            font-family: 'Gravitas One', cursive;
+            position: relative;
+            top: 20%;
+        }
+
+        .description {
+            color: white;
+            text-align: center;
+            font-size: 14px;
+            padding: 1%;
+        }
+
+        .pulp_description {
+            color: black;
+            text-align: center;
+            font-size: 14px;
+            padding: 1%;
+            position: relative;
+            top: 19%;
+        }
+
+        .jackie_description {
+            color: white;
+            text-align: center;
+            font-size: 14px;
+            padding: 1%;
+            position: relative;
+            top: 19%;
+        }
+
+        .smalldate {
+            color: #fad584;
+            text-align: center;
+            font-size: 18px;
+            padding: 10px;
+            font-family: 'Gravitas One', cursive;
+        }
+
+        .pulp_smalldate {
+            color: #bf2026;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Gravitas One', cursive;
+            position: relative;
+            top: 20%;
+        }
+
+        .jackie_smalldate {
+            color: white;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Gravitas One', cursive;
+            position: relative;
+            top: 20%;
+            padding: 10px;
+        }
+
+        a {
+            color: #fad584;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: indianred;
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer {
+            background-color: #fad584;
+            padding: 20px;
+        }
+
+        .top {
+            color: black;
+            font-size: 14px;
+            text-align: center;
+            font-family: serif;
+            letter-spacing: 3px;
+            text-transform: bold;
+            padding: 10px;
+            padding-top: 20px;
+        }
+
+        .top:hover {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="grid-container">
+
+        <div class="row col-12 height-590 img1" id="header">
+            <h1 class="title"> TARANTINO<br> TONIGHT</h1>
+            <p class="tag">A 5 day celebration of everything Quentin Tarantino at <a href="http://thecharles.com/">The Charles Theature</a></p>
+
+        </div>
+
+        <div class="row col-12 height-369 img2">
+            <a href=#res>
+                <div class="resevoirdogs col-4 height-369 resevoir ">
+                    <p class="date">MAY 10</p>
+                </div>
+            </a>
+
+            <a href=#pulp>
+                <div class="pulp col-4 height-369 pulp">
+                    <p class="date">MAY 11</p>
+                </div>
+            </a>
+            <a href=#jackie>
+                <div class="jackie col-4 height-369 jackie">
+                    <p class="date">MAY 12</p>
+                </div>
+            </a>
+        </div>
+
+
+
+        <div class="row col-12 height-369 img3">
+            <div class=" col-1 height-369"></div>
+
+
+            <a href=#killbill>
+                <div class="killbill col-4 height-369">
+                    <p class="date">MAY 13</p>
+                </div>
+            </a>
+
+            <div class="col-2 height-369 "></div>
+
+            <a href=#killbill>
+                <div class="inglourious col-4 height-369">
+                    <p class="date">MAY 14</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-12 height-169 img4">
+            <p class="time"> 7PM EVERY NIGHT</p>
+            <p class="address">The Charles Theatre, 1711 N Charles St, Baltimore, MD 21201</p>
+        </div>
+
+        <div class="row col-12 height-500 red" id="res">
+
+            <p class="quote1" data-aos="fade-right">“Let me tell you what 'Like a Virgin' is about. It's all about a girl who digs a guy with a big dick. The entire song. It's a metaphor for big dicks.”</p>
+            <script src="plugins/aos/aos.js"></script>
+            <script type="text/javascript">
+                AOS.init({
+                    duration: 1200,
+                });
+            </script>
+            <p class="movietitle" data-aos="fade-out"> Resevoir Dogs</p>
+            <p class="description" data-aos="fade-out">After a simple jewelry heist goes terribly wrong, the surviving criminals begin to suspect that one of them is a police informant.</p>
+            <p class="smalldate" data-aos="fade-out"> MAY 10</p>
+        </div>
+
+
+        <div class="col-12 height-500 cream" id="pulp">
+            <p class="pulp_quote" data-aos="fade-right">“Zed's dead, baby. Zed's dead.”</p>
+            <p class="pulp_movietitle" data-aos="fade-out">Pulp Fiction</p>
+            <p class="pulp_description" data-aos="fade-out">The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.</p>
+            <p class="pulp_smalldate" data-aos="fade-out">MAY 11</p>
+
+        </div>
+
+        <div class="col-12 height-500 brown" id="jackie">
+            <p class="jackie_quote" data-aos="fade-right">“You know, a good cop will never let<br> you know he knows you're full of shit.”</p>
+            <p class="jackie_movietitle" data-aos="fade-out">Jackie Brown</p>
+            <p class="jackie_description" data-aos="fade-out">A middle-aged woman finds herself in the middle of a huge conflict that will either make her a profit or cost her life.</p>
+            <p class="jackie_smalldate" data-aos="fade-out">MAY 12</p>
+
+        </div>
+
+        <div class="col-12 height-500 black" id="killbill">
+            <p class="kill_quote" data-aos="fade-right">“Silly Caucasian girl, likes to <br> play with Samurai swords.”</p>
+            <p class="pulp_movietitle" data-aos="fade-out"> Kill Bill Vol.I</p>
+            <p class="jackie_description" data-aos="fade-out">The Bride wakens from a four-year coma. The child she carried in her womb is gone. <br> Now she must wreak vengeance on the team of assassins who betrayed her - a team she was once part of.</p>
+            <p class="pulp_smalldate" data-aos="fade-out">MAY 13</p>
+
+
+        </div>
+
+        <div class="col-12 height-500 red" id="killbill">
+
+            <p class="inglourious_quote" data-aos="fade-right">“You probably heard we ain't in the prisoner-takin' business; we in the killin' Nazi business. And cousin, business is a-boomin'.”</p>
+            <p class="inglourious_movietitle" data-aos="fade-out"> Inglourious Basterds</p>
+            <p class="jackie_description" data-aos="fade-out">In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders <br> by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.</p>
+            <p class="jackie_smalldate" data-aos="fade-out"> MAY 14</p>
+
+        </div>
+
+        <div class="footer row col-12 height-100">
+            <a href=#top>
+                <p class="top">Back to the Top</p>
+            </a>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

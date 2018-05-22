@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>| Tim Burton |</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Racing+Sans+One" rel="stylesheet">
+
+   
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            }
+        
+        .title-1 {
+            position: absolute;
+            margin-left: 420px;
+            top: 50px;
+            font-size: 30px;
+            letter-spacing: 20px;
+            font-family: 'Racing Sans One', cursive;
+        }
+
+        .p1{  
+            margin-left: 290px;
+            margin-top:175px;
+            font-size: 3px;
+            font-family: 'Poiret One', cursive;
+        }
+        
+         .p2{
+            margin-left: 420px;
+            margin-top:-25px;
+            font-size: 5px;
+            font-family:'Poiret One', cursive;
+        }
+        
+         .p3{
+            margin-left: 530px;
+            margin-top:-35px;
+            font-size: 5px;
+            font-family: 'Poiret One', cursive;
+        }
+        
+         .p4{
+            margin-left: 640px;
+            margin-top:-35px;
+            font-size: 5px;
+            font-family: 'Poiret One', cursive;
+        }
+        
+         .p5{
+            margin-left: 770px;
+            margin-top:-35px;
+            font-size:5px;
+            font-family: 'Poiret One', cursive;
+        }
+        .venue {
+            font-size: 5px;
+            font-family: 'Poiret One', cursive;
+            margin-top: 570px;
+            margin-bottom: 40px;
+            text-align: center
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: aqua
+        }
+
+        a:link {
+            color: black
+        }
+
+        .img-02 { 
+            animation: spin 10s linear infinite;
+            transform: scale(0.4);
+            background-image: url(/img/img-black.png);
+            background-repeat: no-repeat;
+            height: 100%;
+            position: absolute;
+            top: 54px;
+            left: 10px;
+            transition: bottom 1s;
+        }
+
+        .img-02:hover {
+            animation: move 0.7s linear forwards;
+        }
+
+        .img-03 {
+            animation: spin 14s linear infinite;
+            transform: scale(0.35);
+            background-repeat: no-repeat;
+            background-image: url(/img/img-blue.png);
+            height: 100%;
+            position: absolute;
+            top: 100px;
+            left: 240px;
+            transition: bottom 1s;
+        }
+
+        .img-03:hover {
+            animation: move 0.7s linear forwards;
+        }
+
+        .img-04 {
+             animation: spin 7s linear infinite;
+            transform: scale(0.4);
+            background-image: url(/img/img-orange.png);
+            background-repeat: no-repeat;
+            height: 100%;
+            position: absolute;
+            top: 110px;
+            left: 125px;
+            transition: bottom 1s;
+        }
+
+        .img-04:hover {
+            transition: left 1s;
+            animation: move 0.7s linear forwards;
+        }
+
+
+        .img-05 {
+             animation: spin 5s linear infinite;
+            transform: scale(0.4);
+            background-image: url(/img/img-grey.png);
+            background-repeat: no-repeat;
+            height: 100%;
+            position: absolute;
+            top: 110px;
+            left: 10px;
+            transition: bottom 1s;
+        }
+
+        .img-05:hover {
+            animation: move 0.7s linear forwards;
+        }
+
+        .img-06 {
+            animation: spin 10s linear infinite;
+            transform: scale(0.4);
+            background-image: url(/img/img-red.png);
+            background-repeat: no-repeat;
+            height: 100%;
+            position: absolute;
+            top: 120px;
+            left: -220px;
+            transition: bottom 1s;
+        }
+
+        .img-06:hover {
+            animation: move 0.7s linear forwards;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg) scale(0.35)
+            }
+            100% {
+                transform: rotate(360deg) scale(0.35);
+            }
+        }
+
+        @keyframes move {
+            0% {
+                top: 100px;
+
+            }
+            100% {
+                top: 0px;
+
+            }
+        }
+        
+          @keyframes change {
+            0% {
+                color:white;
+
+            }
+            100% {
+               color:black;
+
+            }
+        }
+
+
+     
+        .h-100 {
+            height: 2219px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+     
+      <div class="row">
+       <p class="title-1">TIM BURTON</p>
+      
+       <div class="group1">
+            <p class="p1">Alice in Wonderland <br>Mar . 10th . 7pm</p>
+            <div class="col-4 col-offset-4 img-06"></div> 
+       </div>
+        
+        <div class="group2">
+            <p class="p2">corpse bride<br> Mar . 11th . 7pm</p>
+            <div class="col-4 col-offset-3 img-05"></div>
+        </div>
+    
+        <div class="group3">
+             <p class="p3">Edward<br> Scissorhands<br> Mar . 12th . 7pm</p>
+             <div class="col-4 col-offset-4 img-02"></div>
+        </div>
+    
+        <div class="group4">
+             <p class="p4">the nightmare before<br> christmas <br>Mar . 13th . 7pm</p>
+             <div class="col-4 col-offset-4 img-04"></div>
+        </div>
+    
+        <div class="group5">
+             <p class="p5">Charlie and the<br>Chocolate Factory<br> Mar . 14th . 7pm</p>
+             <div class="col-4 col-offset-4 img-03"></div>
+        </div>
+
+        <p class="venue"> <a href="http://thecharles.com/" target="blank">The Charles Theatre,</a> 1711 N Charles St, Baltimore, MD 21201</p>
+      </div>
+    </div>
+   
+</body>
+
+</html>
