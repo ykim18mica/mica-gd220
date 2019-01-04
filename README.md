@@ -135,9 +135,4 @@
 ### Week 16
 - Final critique
 
-<!--
-- [Hosting Your Website](lectures/w13/hosting-website.md)
--->
-
-
 -->
