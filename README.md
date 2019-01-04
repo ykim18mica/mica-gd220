@@ -3,10 +3,13 @@
 ## Course information
 - GD220
 - 3 credits
-- Spring 2018
+- Spring 2019
 - Instructor: [Dae In Chung](http://paperdove.com)
 - email: [dchung01@mica.edu](mailto:dchung01@mica.edu)
 - Office: BR303
+
+<!--
+
 - Office hours: Tue, Thur & Fridays (email for an appointment)
 - [Syllabus](files/MICA-18SP-GD2-Syllabus.pdf)
 
@@ -136,3 +139,5 @@
 - [Hosting Your Website](lectures/w13/hosting-website.md)
 -->
 
+
+-->
