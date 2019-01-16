@@ -14,14 +14,16 @@
 - GD220.03, Wed 8:30am-2pm, BR304
 - GD220.04, Thu 9am-3pm, BR304
 
-<!--
-
 ## Resources
-- [Submit assignments here](https://drive.google.com/drive/folders/1FL4Xx3JmJ5GCiPo8ZYH_FHtI-Rg6dmSY?usp=sharing) - you don't need to request permissions. Just sign in with your MICA email.
+- [Submit assignments here](https://drive.google.com/drive/folders/1L1erixjRVolRxHVgLNYEJQtIWOHqKXme?usp=sharing) - you don't need to request permissions. Just sign in with your MICA email.
 - [General resources for web design](resources.md)
+
+
 
 ## Weekly
 ### Week 1
+
+<!--
 - [Survey](https://goo.gl/forms/VVXaOns6NjjY6fwz1) - sign in with your MICA email account.
 - [Intro](lectures/w1-intro.md)
 - [How the Internet Works](lectures/w1-how-the-internet-works.md)
