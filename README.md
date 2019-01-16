@@ -7,15 +7,14 @@
 - Instructor: [Dae In Chung](http://paperdove.com)
 - email: [dchung01@mica.edu](mailto:dchung01@mica.edu)
 - Office: BR303
-
-<!--
-
-- Office hours: Tue, Thur & Fridays (email for an appointment)
-- [Syllabus](files/MICA-18SP-GD2-Syllabus.pdf)
+- Office hours: Tue, Wed & Thursdays (email for an appointment)
+- [Syllabus](files/MICA-19SP-GD2-Syllabus.pdf)
 
 ## Section information
-- GD220.02, Fri 9am-3pm, BR306
-- GD220.04, Thu 9am-3pm, BR206
+- GD220.03, Wed 8:30am-2pm, BR304
+- GD220.04, Thu 9am-3pm, BR304
+
+<!--
 
 ## Resources
 - [Submit assignments here](https://drive.google.com/drive/folders/1FL4Xx3JmJ5GCiPo8ZYH_FHtI-Rg6dmSY?usp=sharing) - you don't need to request permissions. Just sign in with your MICA email.
