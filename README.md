@@ -23,7 +23,6 @@
 ## Weekly
 ### Week 1
 - [Survey](https://goo.gl/forms/JBcNToebZ27gAgH52) - sign in with your MICA email account.
-<!--
 - [Intro](lectures/w1-intro.md)
 - [How the Internet Works](lectures/w1-how-the-internet-works.md)
 - group exercise: [Structure Analysis](lectures/w1-structure-analysis.md)
@@ -36,6 +35,8 @@
   1. to follow along, create an empty folder "w1-html-basics" on your desktop, and drag the folder into the Brackets window.
   1. create a new file in Brackets, and save as "index.html"
 - [Assignments](lectures/w1-assignments.md)
+
+<!--
 
 ### Week 2
 - HTML Basics cont'd
