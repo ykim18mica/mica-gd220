@@ -1,7 +1,7 @@
 # Week 1 assignments
 
 ## Google survey
-Please fill out the survey.
+Fill out the survey. (link on the main page)
 
 ## Khanacademy Lessons
 1. Sign up on http://khanacademy.org (it's free.)
