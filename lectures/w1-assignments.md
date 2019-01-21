@@ -6,7 +6,7 @@ Fill out the survey. (link on the main page)
 ## Khanacademy Lessons
 1. Sign up on http://khanacademy.org (it's free.)
 1. Visit this lesson page: https://www.khanacademy.org/computing/computer-programming/html-css
-1. Watch the videos and follow the exercises from *Intro to HTML* and *Intro to CSS*.
+1. Watch the videos and follow the exercises from 2 chapters - *Intro to HTML* and *Intro to CSS*.
 1. Post screenshots of your progress and your study notes (digital or paper) on Google Drive Week 1 folder. (the ones you watched will be filled with green.)
 1. Bring back any questions you have to next class.
 
