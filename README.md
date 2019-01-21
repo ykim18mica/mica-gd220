@@ -37,7 +37,6 @@
 - [Assignments](lectures/w1-assignments.md)
 
 <!--
-
 ### Week 2
 - HTML Basics cont'd
 - [CSS Basics](lectures/w2-css-basics.md)
