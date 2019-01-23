@@ -13,3 +13,5 @@
 - [Towards a Theory of Color Reading](http://www.stephaniesyjuco.com/projects/towards-a-new-theory-of-color-reading-el-dia-houston-forward-times-manila-headline)
 - [Abstract Browsing](http://www.abstractbrowsing.net)
 - [Wireframe](https://duckduckgo.com/?q=wireframe&bext=msl&atb=v97-3&iax=images&ia=images)
+
+![examples](../images/w1-structure-exercise-examples.jpg)
