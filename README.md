@@ -37,9 +37,11 @@
 - [Lecture video recording](https://www.youtube.com/watch?v=NcXlFrxA1-8&feature=youtu.be)
 - [Assignments](lectures/w1-assignments.md)
 
-<!--
+
 ### Week 2
 - HTML Basics cont'd
+
+<!--
 - [CSS Basics](lectures/w2-css-basics.md)
 - [CSS Text Properties](lectures/w2-css-text.md)
 - [CSS Colors](lectures/w2-css-colors.md)
