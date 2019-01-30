@@ -27,7 +27,7 @@ You are going to have to do a fair amount of your own research to find proper CS
 1. It is also important to visit as many different websites/blogs as possible to get ideas for making your design better.
 
 #### Tips
-1. To control the width of your contents, first, contain the entire contents block within `<div class="container"> ... </div>` in your HTML file. In other words, `<div class="container">` block will be the parent element of all the other contents. Then, using CSS, add this rule:
+1. To control the width of your entire contents, first, contain the entire contents block within `<div class="container"> ... </div>` in your HTML file. In other words, `<div class="container">` block will be the parent element of all the other contents. Then, using CSS, add this rule:
 
   ```css
   div.container {
