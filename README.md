@@ -46,10 +46,12 @@
 - [Structure Analysis Part 2](lectures/w2-structure-analysis-2.md)
 - [Assignments](lectures/w2-assignments.md)
 
-<!--
+
 ### Week 3
 - [Having problems with your code?](lectures/w3-problem-solving-tips.md)
-- [Box Model](lectures/w3-box-model.md): Everything is a box!!
+
+<!--
+- [Box Model](lectures/w3-box-model.md): Everything is a rectangular box!!
 - Drawing with CSS 
   - [reference](https://css-tricks.com/examples/ShapesOfCSS/)
   - [example 1](https://codepen.io/cdaein/pen/GrxLgw), [example 2](https://codepen.io/cdaein/pen/OWvjJY), [example 3](https://codepen.io/cdaein/pen/zNWBvG)
