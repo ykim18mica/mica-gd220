@@ -18,7 +18,7 @@
 1. Every element in the text *must* be given a proper HTML tag.
 
 ### Second, styling
-You are going to have to do a fair amount of your own research to find proper CSS properties and how to use them. There are [far too many of them](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) to cover in class. When you design for the web, you usually rely on a lot of google searches to find different techniques and examples. Look at the [Resources page](../../resources.md) as well.
+You are going to have to do a fair amount of your own research to find proper CSS properties and how to use them. There are [far too many of them](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) to cover in class. When you design for the web, you usually rely on a lot of google searches to find different techniques and examples. Look at the [Resources page](resources.md) as well.
 
 1. Once you have all the html ready, now it's time to add styling.
 1. Add CSS rules to give your audience good reading experience. This is a blog article, so you have to consider that the text is meant to be read on screen.
