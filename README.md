@@ -44,6 +44,7 @@
 - [CSS Text Properties](lectures/w2-css-text.md)
 - [CSS Colors](lectures/w2-css-colors.md)
 - [Structure Analysis Part 2](lectures/w2-structure-analysis-2.md)
+- [Lecture video recording](https://youtu.be/q5beO6AILgg)
 - [Assignments](lectures/w2-assignments.md)
 
 
