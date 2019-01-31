@@ -50,9 +50,9 @@
 
 ### Week 3
 - [Having problems with your code?](lectures/w3-problem-solving-tips.md)
+- [Box Model](lectures/w3-box-model.md): Everything is a rectangular box!!
 
 <!--
-- [Box Model](lectures/w3-box-model.md): Everything is a rectangular box!!
 - Drawing with CSS 
   - [reference](https://css-tricks.com/examples/ShapesOfCSS/)
   - [example 1](https://codepen.io/cdaein/pen/GrxLgw), [example 2](https://codepen.io/cdaein/pen/OWvjJY), [example 3](https://codepen.io/cdaein/pen/zNWBvG)
@@ -63,7 +63,6 @@
 - [Assignments](lectures/w3-assignments.md)
 
 ### Week 4
-- [Rails Girls Summer of Code](https://railsgirlssummerofcode.org): 3 month paid fellowship for women. if interested, let me know.
 - [Slicing PSD mockup](lectures/w4-slice-psd-mockup.md)
 - [HTML/CSS template walkthrough](lectures/w4-lyrics-template-walkthrough.md)
 - [Assignments](lectures/w4-assignments.md)
