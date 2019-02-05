@@ -45,3 +45,6 @@ project due
 - [Burton](http://mica-gd2.paperdove.com/2017/lyrics/wed/Burton-Booz/)
 - [Hannah](http://mica-gd2.paperdove.com/2017/lyrics/wed/Hananh-Meng/)
 - [Yana](http://mica-gd2.paperdove.com/2018/lyrics/thu/yana-gevorgyan/)
+- [Freya](http://mica-gd2.paperdove.com/2018/lyrics/thu/freya-qi/)
+- [Yeri](http://mica-gd2.paperdove.com/2018/lyrics/fri/yeri-choi/)
+- [Carida](http://mica-gd2.paperdove.com/2018/lyrics/fri/carida-yuan/)
