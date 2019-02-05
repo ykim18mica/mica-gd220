@@ -57,10 +57,10 @@
 - Drawing with CSS practice
   - try drawing one of the simple [national flags](https://duckduckgo.com/?q=national+flag&atb=v97-3&iar=images&iax=images&ia=images) using CSS.
   - try drawing one of the [De Stijl](http://www.designishistory.com/1920/de-stijl/) artworks.
-  
-<!--
 - **[Project 1: Lyrical Mapping](lectures/proj-lyrical-mapping.md)**
 - [Assignments](lectures/w3-assignments.md)
+
+<!--
 
 ### Week 4
 - [Slicing PSD mockup](lectures/w4-slice-psd-mockup.md)
