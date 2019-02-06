@@ -31,7 +31,8 @@ work on design mockups
 
 ### Week 4
 review and edit mockups  
-work on HTML and CSS
+prepare image slices  
+set up HTML and CSS
 
 ### Week 5
 HTML and CSS cont'd
