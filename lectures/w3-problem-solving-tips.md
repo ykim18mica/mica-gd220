@@ -1,7 +1,7 @@
 # Having problems with your code?
 Here are the things you should try if you are having problems with your html/css codes.
 
-1. **Save often and test often.** - Whenever you add a few lines of code, save and preview to make sure everything look okay.
+1. **Save often and test often.** - Whenever you add a few lines of code, save and preview to make sure everything looks okay.
 1. **Identify the problem.** - Take your time and look at your code again. Try to find what is causing the problem. Which area of the page do you see the problem? Go to the same section in HTML and CSS. Look for any mistakes.
 1. **Isolate the problem.** - Use HTML comments `<!-- -->` and CSS comments `/* */` to isolate the problem. Try adding comments to blocks of code so that the browser will skip the commented area. If the problem goes away, then, the problem must be somewhere within the commented area.
 1. **Organize your code.** - When you don't have proper line breaks and bad indentation, it is much harder to find the problem. Actually, bad formatting of the code itself is a problem. Before you do anything else, fix the indentation, make it easy to look at your code.
