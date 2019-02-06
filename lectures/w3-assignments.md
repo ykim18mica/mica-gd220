@@ -24,4 +24,4 @@ This week, you will design the Photoshop mockup for your Lyrical Mapping project
 1. After you finish creating the mockup, post the image file on Google Drive Week 3 folder. Please **export as PNG** as the original PSD may be too big.
 
 ### Using the PSD template
-There is a *text folder* in the layer setup. All the text layers you create will go into this layer folder. All the images should be placed outside this folder. Keep the multiple layers - do not merge them unless you have to. If you need to go taller, increase the *canvas size* by the multiple of 300 pixels, and set the *guides* properly.
+In the PSD file, there is a *text folder* in the layer setup. All the text layers you create will go into this layer folder. All the images should be placed outside this folder. Keep the multiple layers - do not merge them unless you have to. If you need to go taller, increase the *canvas size* by the multiple of 300 pixels, and set the *guides* properly.
