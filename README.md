@@ -58,6 +58,9 @@
   - draw one of the simple [national flags](https://duckduckgo.com/?q=national+flag&atb=v97-3&iar=images&iax=images&ia=images) using CSS.
   - then, draw one of the [De Stijl](http://www.designishistory.com/1920/de-stijl/) artworks.
 - **[Project 1: Lyrical Mapping](lectures/proj-lyrical-mapping.md)**
+- Lecture videos:
+  - [box model](https://youtu.be/kefB0qUZWsk)
+  - [css drawing](https://youtu.be/qiXGNoP7x1k)
 - [Assignments](lectures/w3-assignments.md)
 
 <!--
