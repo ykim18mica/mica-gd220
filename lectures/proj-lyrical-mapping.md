@@ -15,7 +15,7 @@
 - All text must be set in HTML and CSS, not as images.
 - Fonts you use must be either web safe font or Google Font.
 - No interaction beside scrolling.
-- Do NOT include music in your project. This is about your interpretation.
+- Do NOT include music file in your project.
 - 1200 pixels width; minimum of 4200 pixels height
 
 ## Deliverables
