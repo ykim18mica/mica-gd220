@@ -17,6 +17,7 @@
 - No interaction beside scrolling.
 - Do NOT include music file in your project.
 - Do NOT include photos of musicians.
+- Do NOT use any original artworks (ie. cover, etc.)
 - 1200 pixels width; minimum of 4200 pixels height
 
 ## Deliverables
