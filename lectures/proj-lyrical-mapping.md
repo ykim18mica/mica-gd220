@@ -22,20 +22,23 @@
 - HTML and CSS webpage
 
 ## Weekly schedule
-We have 4 weeks for this project so keep the timeframe in mind and plan accordingly. You want to challenge yourself with something new, but your goal needs to be realistic.
+We have 5 weeks for this project so keep the timeframe in mind and plan accordingly. You want to challenge yourself with something new, but your goal needs to be realistic.
 
 ### Week 3
 project begins  
 work on design mockups
 
 ### Week 4
-review mockups  
+review and edit mockups  
 work on HTML and CSS
 
 ### Week 5
 HTML and CSS cont'd
 
 ### Week 6
+HTML and CSS cont'd
+
+### Week 7
 project due
 
 -----
