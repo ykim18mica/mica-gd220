@@ -78,17 +78,14 @@
 
 ### Week 6
 - Work on Project 1
+- [CSS Layout: Position](lectures/w6-css-layout-position.md)
 
 ### Week 7
 - Review Project: Lyrical Mapping
 - **[Project 2: Poster design for the web](lectures/proj-poster.md)**
 
 
-
-### Week 6
-
-- [CSS Layout: Position](lectures/w6-css-layout-position.md)
-
+//////
 - [Assignments](lectures/w6-assignments.md)
 
 ### Week 7
