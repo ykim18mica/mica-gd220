@@ -53,7 +53,7 @@
 - [Box Model](lectures/w3-box-model.md): Everything is a rectangular box!!
 - Drawing with CSS
   - use `position: absolute;` to be able to set position manually.
-  - then, use `top: xx px; left: xx px;` to move vertically and horizontally;
+  - then, use `top: xx px; left: xx px;` to set position vertically and horizontally;
   - [reference](https://css-tricks.com/examples/ShapesOfCSS/)
   - [example 1](https://codepen.io/cdaein/pen/GrxLgw), [example 2](https://codepen.io/cdaein/pen/OWvjJY), [example 3](https://codepen.io/cdaein/pen/zNWBvG)
 - Drawing with CSS practice
