@@ -65,10 +65,11 @@
   - [css drawing](https://youtu.be/qiXGNoP7x1k)
 - [Assignments](lectures/w3-assignments.md)
 
-<!--
 ### Week 4
 - [Slicing PSD mockup](lectures/w4-slice-psd-mockup.md)
 - [HTML/CSS template walkthrough](lectures/w4-lyrics-template-walkthrough.md)
+
+<!--
 - [Assignments](lectures/w4-assignments.md)
 
 ### Week 5
@@ -76,9 +77,18 @@
 - [Assignments](lectures/w5-assignments.md)
 
 ### Week 6
+- Work on Project 1
+
+### Week 7
 - Review Project: Lyrical Mapping
-- [CSS Layout: Position](lectures/w6-css-layout-position.md)
 - **[Project 2: Poster design for the web](lectures/proj-poster.md)**
+
+
+
+### Week 6
+
+- [CSS Layout: Position](lectures/w6-css-layout-position.md)
+
 - [Assignments](lectures/w6-assignments.md)
 
 ### Week 7
