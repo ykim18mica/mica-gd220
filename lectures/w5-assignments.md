@@ -8,6 +8,5 @@
 - Just because it worked on your machine one day does not mean it will work on other people's computers.
 
 ## Deliverables
-- Rename your folder with your first-last name. i.e.`DaeIn-Chung`
 - The html page name should be kept `index.html`
 - Upload the entire project folder on Google Drive.
