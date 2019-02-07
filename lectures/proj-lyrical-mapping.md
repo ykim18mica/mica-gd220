@@ -6,7 +6,7 @@
 3. Analyze the rhythm and sequence of the lyrics. Is it even throughout? Are there more powerful moments? Does it build? Do any elements repeat? Is there a transformation?
 4. Sketch vertical compositions that visually represent your analysis and interpretation of the lyrics. What do lateral or vertical movement communicate? What do white space and gaps communicate? What does size communicate? What does density communicate?
 5. Create symbols, images and/or typography to represent your interpretation of the song lyrics.
-6. Translate sketches into a modular composition that utilizes scale, form, and counter form to visually communicate your interpretation of the lyrics. Build on the [PSD template file](../files/proj1-psd-mockup-template.psd).
+6. Translate sketches into a modular composition that utilizes scale, form, and counter form to visually communicate your interpretation of the lyrics. Build on the [PSD template file](../files/proj1-psd-mockup-template.psd)(right-click and open in new tab to download the file).
 7. Combine modular structure, symbol, image, and text into a coded (HTML and CSS) map for your interpretation of the song lyrics.
 8. Refine your lyrical map based on feedback from classmates.
 
@@ -21,7 +21,7 @@
 - 1200 pixels width; minimum of 4200 pixels height
 
 ## Deliverables
-- Photoshop mockup file; Download the [PSD template file](../files/proj1-psd-mockup-template.psd).
+- Photoshop mockup file; Download the [PSD template file](../files/proj1-psd-mockup-template.psd)(right-click and open in new tab to download the file).
 - HTML and CSS webpage
 
 ## Weekly schedule
