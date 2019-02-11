@@ -68,7 +68,8 @@
 ### Week 4
 - More CSS text properties:
   - http://html-css-js.com/css/generator/font/
-  - http://angrytools.com/css-generator/transform/
+  - outlined text: `text-stroke-color`
+  
 - [Slicing PSD mockup](lectures/w4-slice-psd-mockup.md)
 - [HTML/CSS template walkthrough](lectures/w4-lyrics-template-walkthrough.md)
 
