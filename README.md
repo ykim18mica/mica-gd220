@@ -66,6 +66,9 @@
 - [Assignments](lectures/w3-assignments.md)
 
 ### Week 4
+- Add a few more Brackets extensions...
+  - HTMLHint
+  - CSSLint
 - More CSS text properties:
   - http://html-css-js.com/css/generator/font/
   - outlined text: `text-stroke-color`
