@@ -3,6 +3,9 @@
 - Improve your design mockup based on feedbacks from class. 
 - Restructure your mockup so that it works better with the template. (ie. using grid, column width, web fonts)
 - From your PSD mockup, cut images(only images. text will be treated as html later) into slices and start laying down as `background-image` in css. Each image should have its own class.
+- Use HTML/CSS template provided. Do NOT start from scratch. Download and build on the template.
+- Here is a [tutorial video]() on how to turn PSD to HTML/CSS.
+
 ```css
 .img-flower {
   background-image: url("/images/img-flower.png");
