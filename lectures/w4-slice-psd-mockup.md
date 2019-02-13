@@ -30,7 +30,7 @@ When you name the image slices, choose something descriptive. I prefer using the
 
 Next, turn off all the text layers.
 
-Go to *File > Export > Save for Web*. Use PNG as file format, and then Save.
+Go to *File > Export > Save for Web*. Use PNG-24 (or JPEG) as file format, and then Save.
 
 From the save dialog, choose All User Slices.
 
