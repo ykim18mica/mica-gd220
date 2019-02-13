@@ -1,7 +1,7 @@
 # Slicing PSD Mockup
 You have your full design in Photoshop file. As a first step in converting PSD into HTML/CSS, we will look at how to slice the images according to the column grids.
 
-There are a few different reasons why we want to slice out the images instead of just exporting one giant image. A big image file will take forever to download in the browser. Small images also take time to download but they are more flexible to deal with in HTML/CSS/JavaScript. It also helps you think in terms of modules, which is a crucial concept to understand in web design. With that said, this is not the only way to treat images.
+*Note that this is not a typical way of preparing your images or your layout for most websites. We do this to start thinking about the grid system and hierarchy of webpage elements. It also helps you think in terms of modules, which is a crucial concept to understand in web design. With that said, again, this is not the only way to treat images.*
 
 ## Cleaning up your PSD
 A few things to check...
