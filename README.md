@@ -74,7 +74,7 @@
   - outlined text: `text-stroke-color`
 - [Slicing PSD mockup](lectures/w4-slice-psd-mockup.md)
 - [HTML/CSS template walkthrough](lectures/w4-lyrics-template-walkthrough.md)
-  - watch [PSD mockup to HTML/CSS code] video
+  - watch [PSD mockup to HTML/CSS code](https://www.youtube.com/watch?v=_Gj_Dm_05Qg) video
 - [Assignments](lectures/w4-assignments.md)
 
 <!--
