@@ -11,7 +11,7 @@ A few things to check...
 - Is your PSD canvas size set to the multiple of 300 pixels? (300pixel is the column width and height) Hit COMMAND+OPTION+C to check it out.
 - Did you name all your image layers properly so that it's easy to find what you need? 
 
-We will use [this file](../files/p1-template-ex2.psd) as an example.
+We will use [this file](../files/p1-template-ex2.psd)(right-click and open in new tab) as an example.
 
 ## Create slices
 You will mainly use Slice Tool and Slice Select Tool.
