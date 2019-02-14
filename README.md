@@ -75,6 +75,8 @@
 - [Slicing PSD mockup](lectures/w4-slice-psd-mockup.md)
 - [HTML/CSS template walkthrough](lectures/w4-lyrics-template-walkthrough.md)
   - watch [PSD mockup to HTML/CSS code](https://www.youtube.com/watch?v=_Gj_Dm_05Qg) video
+- Lecture video
+  - [PDF slicing](https://youtu.be/bG6ufEGxdg4)
 - [Assignments](lectures/w4-assignments.md)
 
 <!--
