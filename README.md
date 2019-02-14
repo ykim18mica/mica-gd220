@@ -77,6 +77,7 @@
   - watch [PSD mockup to HTML/CSS code](https://www.youtube.com/watch?v=_Gj_Dm_05Qg) video
 - Lecture video
   - [PDF slicing](https://youtu.be/bG6ufEGxdg4)
+  - [project template](https://youtu.be/eZragps6h48)
 - [Assignments](lectures/w4-assignments.md)
 
 <!--
