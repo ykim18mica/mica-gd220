@@ -80,9 +80,11 @@
   - [project template](https://youtu.be/eZragps6h48)
 - [Assignments](lectures/w4-assignments.md)
 
-<!--
+
 ### Week 5
 - Work on Project 1
+
+<!--
 - [Assignments](lectures/w5-assignments.md)
 
 ### Week 6
