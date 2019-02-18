@@ -85,9 +85,9 @@
 - More on project [template code](lectures/w4-lyrics-template-walkthrough.md)
   - watch videos from week 4 for more information.
 - Work on Project 1
+- Assignment: continue to work on your project and post all the updates to Google Drive.
 
 <!--
-- [Assignments](lectures/w5-assignments.md)
 
 ### Week 6
 - Work on Project 1
