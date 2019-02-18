@@ -83,10 +83,11 @@
 
 ### Week 5
 - More on project [template code](lectures/w4-lyrics-template-walkthrough.md)
-  - watch videos from week 4 for more information.
+  
 - Work on Project 1
 - Assignments: 
   - continue to work on your project and post all the updates to Google Drive.
+  - watch videos from week 4 for more information on how to use Project 1 coding template.
 
 <!--
 
