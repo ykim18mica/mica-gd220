@@ -82,6 +82,8 @@
 
 
 ### Week 5
+- More on project [template code](lectures/w4-lyrics-template-walkthrough.md)
+  - watch videos from week 4 for more information.
 - Work on Project 1
 
 <!--
