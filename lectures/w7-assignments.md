@@ -1,4 +1,4 @@
-# Week 6 assignments
+# Week 7 assignments
 
 ## CSS lessons
 Watch, read and follow along the examples on CSS layouts. Take notes as well:
