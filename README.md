@@ -93,7 +93,7 @@
   - watch videos from week 4 for more information on how to use Project 1 coding template.
 
 ### Week 6
-- Work on Project 1
+- Work on Project 1 - the dealine is next week.
 
 <!--
 - [CSS Layout: Position](lectures/w6-css-layout-position.md)
