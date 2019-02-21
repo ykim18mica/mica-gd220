@@ -86,8 +86,8 @@
 - More on project [template code](lectures/w4-lyrics-template-walkthrough.md)
 - Continue working on Project 1
 - Lecture videos
-  - [project 1 template box filling exercise](https://youtu.be/-PK8CtUMZnw)
-  - 
+  - [template code: box filling exercise](https://youtu.be/-PK8CtUMZnw)
+  - [template code: type setting](https://youtu.be/qt1v1IxiDek)
 - Assignments: 
   - continue to work on your project and post all the updates to Google Drive. (mockup, image placement, typography)
   - watch videos from week 4 for more information on how to use Project 1 coding template.
