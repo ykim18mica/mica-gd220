@@ -85,13 +85,13 @@
 - More on project [template code](lectures/w4-lyrics-template-walkthrough.md)
 - Continue working on Project 1
 - Assignments: 
-  - continue to work on your project and post all the updates to Google Drive.
+  - continue to work on your project and post all the updates to Google Drive. (mockup, image placement, typography)
   - watch videos from week 4 for more information on how to use Project 1 coding template.
-
-<!--
 
 ### Week 6
 - Work on Project 1
+
+<!--
 - [CSS Layout: Position](lectures/w6-css-layout-position.md)
 
 ### Week 7
