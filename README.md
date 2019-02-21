@@ -85,6 +85,9 @@
 - Run "Beautify" first before doing any problem solving or asking questions. 
 - More on project [template code](lectures/w4-lyrics-template-walkthrough.md)
 - Continue working on Project 1
+- Lecture videos
+  - https://youtu.be/-PK8CtUMZnw - how to use project 1 template code.
+  - 
 - Assignments: 
   - continue to work on your project and post all the updates to Google Drive. (mockup, image placement, typography)
   - watch videos from week 4 for more information on how to use Project 1 coding template.
