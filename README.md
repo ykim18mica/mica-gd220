@@ -82,7 +82,7 @@
 
 
 ### Week 5
-- Run "Beautify" first before asking questions. 
+- Run "Beautify" first before doing any problem solving or asking questions. 
 - More on project [template code](lectures/w4-lyrics-template-walkthrough.md)
 - Continue working on Project 1
 - Assignments: 
