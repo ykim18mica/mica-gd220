@@ -94,18 +94,15 @@
 
 ### Week 6
 - Work on Project 1 - the deadline is next week.
-
-<!--
 - [CSS Layout: Position](lectures/w6-css-layout-position.md)
+- [Assignments](lectures/w6-assignments.md)
 
 ### Week 7
 - Review Project: Lyrical Mapping
 - Trevor Pryce (former Ravens football player), author and creator of the animated series Kulipari: An Army of Frogs (Netflix) has a VX animation studio here in Baltimore and will give a presentation / looking for talent (Mar 6th 11:30a-12:30p in Brown 320 with pizza)
+
+<!--
 - **[Project 2: Poster design for the web](lectures/proj-poster.md)**
-
-
-//////
-- [Assignments](lectures/w6-assignments.md)
 
 ### Week 7
 - Layout practice: do not change HTML code. only add your own CSS rules to recreate the same layout.
