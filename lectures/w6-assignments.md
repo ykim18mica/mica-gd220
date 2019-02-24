@@ -11,4 +11,5 @@
 
 ## Deliverables
 - The html page name should be kept `index.html`
+- Change the folder name to your name without any space. ie. `DaeIn-Chung`
 - Upload the entire project folder on Google Drive.
