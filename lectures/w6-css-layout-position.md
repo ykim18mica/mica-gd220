@@ -98,10 +98,8 @@ To make the box positioned relative to its positioned ancestor, change the code 
 
 ```css
 div {
-  box-sizing: border-box;
-  background-color: lightgrey;
+  background-color: grey;
   margin: 20px;
-  border: 1px solid black;
   width: 200px;
   height: 50px;
 }
@@ -133,10 +131,8 @@ To see what `fixed` position does, we will use a different code example.
 
 ```css
 div {
-  box-sizing: border-box;
-  background-color: lightgrey;
+  background-color: grey;
   margin-bottom: 600px;
-  border: 1px solid black;
   width: 400px;
   height: 150px;
 }
