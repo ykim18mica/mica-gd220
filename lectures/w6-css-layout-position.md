@@ -14,7 +14,6 @@ Below is a code template we will use for this posting, so let's set that up on [
 div {
   background-color: grey;
   margin: 20px;
-  border: 1px solid black;
   width: 200px;
   height: 50px;
 }
