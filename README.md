@@ -97,7 +97,7 @@
 - [CSS Layout: Position](lectures/w6-css-layout-position.md)
 - Lecture videos
   - [css block/inline, specificity, inheritance, a few more selectors](https://youtu.be/FJD6aqp8E88)
-  - [position relative/absolute basics]()
+  - [position relative/absolute basics](https://youtu.be/CPGhULgjgNA)
 - [Assignments](lectures/w6-assignments.md)
 
 ### Week 7
