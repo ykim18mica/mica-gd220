@@ -106,8 +106,6 @@
 
 <!--
 - **[Project 2: Poster design for the web](lectures/proj-poster.md)**
-
-### Week 7
 - Layout practice: do not change HTML code. only add your own CSS rules to recreate the same layout.
   - [code to start with](http://codepen.io/cdaein/pen/vxNPme?editors=1000)
   - [desired result 1](images/layout-practice-sample-1.png)
