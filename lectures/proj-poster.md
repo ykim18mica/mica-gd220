@@ -1,4 +1,4 @@
-# Project 2: Type Poster design
+# Project 2: Type Poster
 You will design a type poster for the retrospective of your favorite filmmaker. Pick five films directed by the filmmaker based on the criteria you set. This poster is supposed to live on the web. How is it similar to and different from the printed poster design? What possibilities and limitations do you have? What visual language will you use to represent the filmmaker's body of work? How do you relate the contents, form and interactions? Experiment with the medium and technologies. Use the technologies to create and control meanings, not just to show off the skills.
 
 ### Things to include in your poster
