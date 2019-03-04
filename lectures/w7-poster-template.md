@@ -6,8 +6,9 @@ First, download the template [here](../files/web-poster-code-template.zip). This
 
 1. For the poster project, we will use **the fixed width of 1200px (no responsive design)** so DO NOT use `vw` or `%`. Simply, use `px` to set your layout.
 1. There are no classes for setting heights in the template (ie. `full`, `half` and `quarter`). So, you will have to create your own classes for setting different heights. You have more flexibility this time, but! instead of creating many, many classes, think systematically and decide how many different heights your design will require.
-1. The use of `.row` is the same but now we have 12 different column classes such as `col-1`, `col-2`, etc.
-1. In addition to using `background-image`, you can now also use `<img>` to display images and use `position` to place them where you want.
+1. The use of `.row` is the same.
+1. We now have 12 different column classes for setting column widths. From `col-1`, `col-2`, ... , `col-11` and `col-12`.
+1. In addition to using `background-image`, you can now also use `<img>` to display images as HTML elements. Use `position` to place them where you want.
 1. The template grid is here to *help* you organize and structure your contents, but using `position:relative` and `position:absolute` will give you more freedom.
 
 Let's have a deeper look at the new template:
