@@ -6,34 +6,34 @@ You will design a type poster for the retrospective of your favorite filmmaker. 
 - The name of the filmmaker
 - Location: The Charles Theatre, 1711 N Charles St, Baltimore, MD 21201
 - Website: http://thecharles.com/
-- Date: March 10th ~ March 14th
+- Date: March 15th ~ March 22nd
 - The information on five different film screenings: for each film, include the title and screening date/time
 
 ### Requirements
-- Use type + image (photo, graphics, illustration, etc.)
-- Use the template provided. (This is different from Project 1 template.)
-- Base your design on 1200 pixel width.
+- Use type only (+ basic geometric shapes are allowed)
+- Use the template provided. (This is different from Project 1 template!)
+- Base your design on the fixed width of 1200px. (We are not doing responsive/rescalable layout!)
 - Use `:hover`, `animation` and `transition` to create more engaging experience.
-- **Do not use** the images of the filmmaker or performers in the films.
-- Don't be *literal* with your design! For example, showing a screenshot from each film - too literal. Add your interpretation of the filmmaker.
+- **Do not use** any images.
+- Interpret the filmmaker and visually express the ideas through type, animation and interaction.
 
 ### Weekly schedule
 
-#### Week 6
+#### Week 7
 - Project 1 review
 - Project 2 begins
 
-#### Week 7
+#### Week 8
 - Review mockup design (PSD/AI)
 - Revise the design and start coding
-
-#### Week 8
-- Review work-in-progress (html and css)
 
 #### Week 9
 - No class (Spring break)
 
 #### Week 10
+- Review work-in-progress (html and css)
+
+#### Week 11
 - Project 2 review
 
 ### Inspirations
