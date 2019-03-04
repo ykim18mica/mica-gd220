@@ -14,7 +14,7 @@ You will design a type poster for the retrospective of your favorite filmmaker. 
 - Use the template provided. (This is different from Project 1 template!)
 - Base your design on the fixed width of 1200px. (We are not doing responsive/rescalable layout!)
 - Use `:hover`, `animation` and `transition` to create more engaging experience.
-- **Do not use** any images.
+- **Do not use** any images or illustrations.
 - Interpret the filmmaker and visually express the ideas through type, animation and interaction.
 
 ### Weekly schedule
