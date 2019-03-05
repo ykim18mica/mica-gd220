@@ -44,7 +44,8 @@ You will design a type poster for the retrospective of your favorite filmmaker. 
 
 
 ### Students work examples
-*These are not exactly the same as our project.*
+*These are not exactly the same as our project. Not that we will not use images/illustrations.*
 - [Burton](http://mica-gd2.paperdove.com/2017/poster/wed/Burton-Booz/)
 - [Camille](http://mica-gd2.paperdove.com/2017/poster/thu/Camille-GomeraTavarez/)
 - [Yeri](http://mica-gd2.paperdove.com/2018/poster/fri/yeri-choi/)
+- [Yana](http://mica-gd2.paperdove.com/2018/poster/thu/yana-gevorgyan/)
