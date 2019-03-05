@@ -4,8 +4,8 @@ You will design a type poster for the retrospective of your favorite filmmaker. 
 ### Things to include in your poster
 - The title of the show (you will come up with this.)
 - The name of the filmmaker
-- Location: The Charles Theatre, 1711 N Charles St, Baltimore, MD 21201
-- Website: http://thecharles.com/
+- Location: Parkway Theatre, 5 W North Ave, Baltimore, MD 21201
+- Website: https://mdfilmfest.com
 - Date: March 15th ~ March 22nd
 - The information on 3-5 different film screenings: for each film, include the title and screening date/time
 
