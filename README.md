@@ -102,21 +102,18 @@
 
 ### Week 7
 - Review Project: Lyrical Mapping
-- *Trevor Pryce (former Ravens football player), author and creator of the animated series Kulipari: An Army of Frogs (Netflix) has a VX animation studio here in Baltimore and will give a presentation / looking for talent (Mar 6th 11:30a-12:30p in Brown 320 with pizza)*
-- **[Project 2: Poster design for the web](lectures/proj-poster.md)**
 - Layout practice: do not change HTML code. only add your own CSS rules to recreate the same layout.
   - [code to start with](http://codepen.io/cdaein/pen/vxNPme?editors=1000)
   - [desired result 1](images/layout-practice-sample-1.png)
   - [desired result 2](images/layout-practice-sample-2.png)
-
-
-<!--
-
-- [CSS Hover](lectures/w6-css-hover.md)
-- [Poster design coding template](lectures/w7-poster-template.md)
+- *Trevor Pryce (former Ravens football player), author and creator of the animated series Kulipari: An Army of Frogs (Netflix) has a VX animation studio here in Baltimore and will give a presentation / looking for talent (Mar 6th 11:30a-12:30p in Brown 320 with pizza)*
+- **[Project 2: Poster design for the web](lectures/proj-poster.md)**
 - [Assignments](lectures/w7-assignments.md)
 
 ### Week 8
+<!--
+- [CSS Hover](lectures/w6-css-hover.md)
+- [Poster design coding template](lectures/w7-poster-template.md)
 - [CSS Animation Basics](lectures/w8-css-animation-basics.md)
 - [CSS Selectors](lectures/w8-css-selectors.md)
 - [Assignments](lectures/w8-assignments.md)
