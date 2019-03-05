@@ -6,8 +6,9 @@ Watch, read and follow along the examples on CSS layouts. Take notes as well:
   - [Learn Layout](http://learnlayout.com/) - page 1 to 8. multiple languages available.
 
 ## Project: Interactive Type Poster design
-- Create a mockup for your poster using the template file: download [PSD](../files/web-poster-mockup-template.psd), [AI](../files/web-poster-mockup-template.ai)
-- Although you will only present the mockup design next week, do follow other steps such as researching, mood boards, sketching, etc.
-- You can make the design as long as you want. Just extend the size.
-- Remember that the final webpage will be interactive. Although we cannot show any movements on PSD/AI, you should develop ideas for animation and interaction.
-- Post the mockup file (PNG file) on Google Drive.
+- First, research on the filmmaker/films and develop visual concepts. You should be able to explain your concept next week when you present your idea.
+- Find visual references and bring them back (images, websites, prints, etc.)
+- Create two different mockups(ideas) for your poster using the template file: download [PSD](../files/web-poster-mockup-template.psd), [AI](../files/web-poster-mockup-template.ai). 
+- You can go as tall as you need but keep the width 1200px.
+- Remember that the final webpage will have movements and interactions. If necessary, design multiple mockups to show different states.
+- Post the mockup file (PNG) on Google Drive.
