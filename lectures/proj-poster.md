@@ -1,5 +1,5 @@
 # Project 2: Type Poster
-You will design a type poster for the retrospective of your favorite filmmaker. Pick five films directed by the filmmaker based on the criteria you set. This poster is supposed to live on the web. How is it similar to and different from the printed poster design? What possibilities and limitations do you have? What visual language will you use to represent the filmmaker's body of work? How do you relate the contents, form and interactions? Experiment with the medium and technologies. Use the technologies to create and control meanings, not just to show off the skills.
+You will design a type poster for the retrospective of your favorite filmmaker. Pick 3-5 films directed by the filmmaker based on the criteria you set. This poster is supposed to live on the web. How is it similar to and different from the printed poster design? What possibilities and limitations do you have? What visual language will you use to represent the filmmaker's body of work? How do you relate the contents, form and interactions? Experiment with the medium and technologies. Use the technologies to create and control meanings, not just to show off the skills.
 
 ### Things to include in your poster
 - The title of the show (you will come up with this.)
@@ -7,12 +7,13 @@ You will design a type poster for the retrospective of your favorite filmmaker. 
 - Location: The Charles Theatre, 1711 N Charles St, Baltimore, MD 21201
 - Website: http://thecharles.com/
 - Date: March 15th ~ March 22nd
-- The information on five different film screenings: for each film, include the title and screening date/time
+- The information on 3-5 different film screenings: for each film, include the title and screening date/time
 
 ### Requirements
 - Use type only (+ basic geometric shapes are allowed)
 - Use the template provided. (This is different from Project 1 template!)
-- Base your design on the fixed width of 1200px. (We are not doing responsive/rescalable layout!)
+- Base your design on the fixed width of 1200px. (We are not doing responsive/rescalable layout this time!)
+- use `px`, not `vw`.
 - Use `:hover`, `animation` and `transition` to create more engaging experience.
 - **Do not use** any images or illustrations.
 - Interpret the filmmaker and visually express the ideas through type, animation and interaction.
@@ -45,3 +46,4 @@ You will design a type poster for the retrospective of your favorite filmmaker. 
 ### Students work examples
 - [Burton](http://mica-gd2.paperdove.com/2017/poster/wed/Burton-Booz/)
 - [Camille](http://mica-gd2.paperdove.com/2017/poster/thu/Camille-GomeraTavarez/)
+- [Yeri](http://mica-gd2.paperdove.com/2018/poster/fri/yeri-choi/)
