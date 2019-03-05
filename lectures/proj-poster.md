@@ -41,6 +41,13 @@ You will design a type poster for the retrospective of your favorite filmmaker. 
 - [A New Poster Movement](https://eyeondesign.aiga.org/a-new-poster-movement/)
 - [Studio Feixen](http://www.studiofeixen.ch) and [their instagram](https://www.instagram.com/studiofeixen/)
 - [Typographic Posters](https://www.typographicposters.com/posters)
+- some of my past work: [1](https://www.instagram.com/p/Bjze9JFDd3M/), [2](https://www.instagram.com/p/BjYbPgDBjSq/), [3](https://www.instagram.com/p/BjUB2-FjSd9/)
+- Some random instagrams...
+  - https://www.instagram.com/nikitaiziev/
+  - https://www.instagram.com/stefanhuerlemann/
+  - https://www.instagram.com/p/Bo86BP_DxUR/
+  - https://www.instagram.com/instagggramlich/
+  - https://www.instagram.com/schultzschultzgrafik/
 
 
 ### Students work examples
