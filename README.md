@@ -102,16 +102,16 @@
 
 ### Week 7
 - Review Project: Lyrical Mapping
-- Layout practice: do not change HTML code. only add your own CSS rules to recreate the same layout.
-  - [code to start with](http://codepen.io/cdaein/pen/vxNPme?editors=1000)
-  - [desired result 1](images/layout-practice-sample-1.png)
-  - [desired result 2](images/layout-practice-sample-2.png)
 - Lecture video: [css position](https://youtu.be/k2aa4Q344pg)
 - **[Project 2: Poster design for the web](lectures/proj-poster.md)**
 - [Assignments](lectures/w7-assignments.md)
 
 ### Week 8
 <!--
+- Layout practice: do not change HTML code. only add your own CSS rules to recreate the same layout.
+  - [code to start with](http://codepen.io/cdaein/pen/vxNPme?editors=1000)
+  - [desired result 1](images/layout-practice-sample-1.png)
+  - [desired result 2](images/layout-practice-sample-2.png)
 - [CSS Hover](lectures/w6-css-hover.md)
 - [Poster design coding template](lectures/w7-poster-template.md)
 - [CSS Animation Basics](lectures/w8-css-animation-basics.md)
