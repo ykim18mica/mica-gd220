@@ -106,7 +106,7 @@
   - [code to start with](http://codepen.io/cdaein/pen/vxNPme?editors=1000)
   - [desired result 1](images/layout-practice-sample-1.png)
   - [desired result 2](images/layout-practice-sample-2.png)
-- *Trevor Pryce (former Ravens football player), author and creator of the animated series Kulipari: An Army of Frogs (Netflix) has a VX animation studio here in Baltimore and will give a presentation / looking for talent (Mar 6th 11:30a-12:30p in Brown 320 with pizza)*
+- Lecture video: [css position](https://youtu.be/k2aa4Q344pg)
 - **[Project 2: Poster design for the web](lectures/proj-poster.md)**
 - [Assignments](lectures/w7-assignments.md)
 
