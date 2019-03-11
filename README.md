@@ -122,11 +122,11 @@
 *No class - Spring Break*
 
 ### Week 10
-- Review project: Poster
+- Continue to work on Interactive Type Poster project
 - [assignments](lectures/w10-assignments.md)
 
 ### Week 11
-- Tutorial sharing
+- Review project: Poster
 - [CSS Layout: Float](lectures/w11-css-layout-float.md)
 - **[Project 3: Event Website](lectures/proj-event.md)**
 - Wireframing: 
@@ -138,7 +138,7 @@
 
 ### Week 12
 - review idea/research
-- work in class
+- Tutorial sharing
 - [assignments](lectures/w12-assignments.md)
 
 ### Week 13
