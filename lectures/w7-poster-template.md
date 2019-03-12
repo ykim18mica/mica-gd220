@@ -30,7 +30,7 @@ html {
 `*` is called a wildcard. It selects *all the elements*.
 
 ## Grid container
-We will use 1200 pixels for the width of the page. The height of the page is up to you. `.grid-container` class will set the width to 1200px. We don't make it responsive for this project. `margin: 0 auto` is to center the contents in case the window is larger than 1200px.
+We will use 1200 pixels for the width of the page. The height of the page is up to you. `.grid-container` class will set the width to 1200px. We don't make it responsive for this project. `margin: 0 auto` is to center the contents in case the user's browser window is larger than 1200px. The extra space will use `body` background color.
 
 ```css
 /*-- container for all the columns --*/
