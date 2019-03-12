@@ -112,9 +112,9 @@
   - [desired result 1](images/layout-practice-sample-1.png)
   - [desired result 2](images/layout-practice-sample-2.png)
 - [CSS Hover](lectures/w6-css-hover.md)
-- [Poster design coding template](lectures/w7-poster-template.md)
 - [CSS Animation Basics](lectures/w8-css-animation-basics.md)
 - [CSS Selectors](lectures/w8-css-selectors.md)
+- [Poster design coding template](lectures/w7-poster-template.md)
 - [Assignments](lectures/w8-assignments.md)
 
 ### Week 9
