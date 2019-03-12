@@ -115,13 +115,12 @@
 - [Poster design coding template](lectures/w7-poster-template.md)
 - [CSS Animation Basics](lectures/w8-css-animation-basics.md)
 - [CSS Selectors](lectures/w8-css-selectors.md)
-
-<!--
 - [Assignments](lectures/w8-assignments.md)
 
 ### Week 9
 *No class - Spring Break*
 
+<!--
 ### Week 10
 - Continue to work on Interactive Type Poster project
 - [assignments](lectures/w10-assignments.md)
