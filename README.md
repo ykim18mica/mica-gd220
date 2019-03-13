@@ -120,9 +120,11 @@
 ### Week 9
 *No class - Spring Break*
 
-<!--
+
 ### Week 10
 - Continue to work on Interactive Type Poster project
+
+<!--
 - [assignments](lectures/w10-assignments.md)
 
 ### Week 11
