@@ -115,6 +115,8 @@
 - [CSS Animation Basics](lectures/w8-css-animation-basics.md)
 - [CSS Selectors](lectures/w8-css-selectors.md)
 - [Poster design coding template](lectures/w7-poster-template.md) - download the template [here](https://github.com/cdaein/mica-gd220/raw/spring2019/files/web-poster-code-template.zip).
+- Lecture video:
+  - [positioning exercise](https://youtu.be/K52orIlCA58)
 - [Assignments](lectures/w8-assignments.md)
 
 ### Week 9
