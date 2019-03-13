@@ -114,7 +114,7 @@
 - [CSS Hover](lectures/w6-css-hover.md)
 - [CSS Animation Basics](lectures/w8-css-animation-basics.md)
 - [CSS Selectors](lectures/w8-css-selectors.md)
-- [Poster design coding template](lectures/w7-poster-template.md)
+- [Poster design coding template](lectures/w7-poster-template.md) - download the template [here](../files/web-poster-code-template.zip).
 - [Assignments](lectures/w8-assignments.md)
 
 ### Week 9
