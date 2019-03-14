@@ -91,7 +91,7 @@ div.box {
              moveleft 2s infinite;
 }
 
-@keyframes fade-out {
+@keyframes fadeout {
   from { opacity: 1; }
   to { opacity: 0; }
 }
