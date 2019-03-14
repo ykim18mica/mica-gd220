@@ -27,7 +27,7 @@ div.box {
 Now, I want to fade out the background color of the box. First, I create a keyframe animation rule. A keyframe defines a state. When you have more than two keyframes, your browser will automatically animate all the inbetween values. This is not only for the box, but also can be used for other elements.
 
 ```css
-@keyframes fade-out {
+@keyframes fadeout {
   from { opacity: 1; }
   to { opacity: 0; }
 }
