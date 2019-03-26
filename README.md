@@ -124,19 +124,18 @@
 
 
 ### Week 10
-- Continue to work on Interactive Type Poster project
+- [CSS Layout: Float](lectures/w11-css-layout-float.md)
+- Assignment: Finish Interactive Type Poster project
 
 <!--
-- [assignments](lectures/w10-assignments.md)
-
 ### Week 11
 - Review project: Poster
-- [CSS Layout: Float](lectures/w11-css-layout-float.md)
 - **[Project 3: Event Website](lectures/proj-event.md)**
 - Wireframing: 
   - [video 1](https://www.youtube.com/watch?v=8-vTd7GRk-w), 
   - [video 2](https://www.youtube.com/watch?v=PmmQjLqJQlY)
 - Assignments
+  - [assignments](lectures/w10-assignments.md)
   - Prepare a PDF idea/research presentation for the final project. Refer to the brief above for more details.
   - [Presentation examples](http://mica-gd405.paperdove.com/2017/) from a different class (look at the final project PDFs.)
 
