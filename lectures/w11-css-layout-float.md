@@ -88,20 +88,16 @@ It looks strange. That's because when you float an element, its parent does not 
   overflow: auto;
 }
 ```
-Anytime you use a floating element, make sure you add `overflow: auto;` to its parent to correctly calculate the height. And because this is a very common situation, you might as well add a class just to handle the clearfix:
+or,
 ```css
-.clearfix {
-  overflow: auto
+.article:after {
+  content: "";
+  clear: both;
+  display: table;
 }
 ```
 
-And use the class in your HTML:
-```html
-<div class="article clearfix">
-...
-```
-
-
+Anytime you use a floating element, make sure you add `overflow: auto;` to its parent to correctly calculate the height. The technique is called *clearfix* if you want to look up on the internet.
 
 ## Page layout with float
 
