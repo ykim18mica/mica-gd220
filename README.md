@@ -125,6 +125,9 @@
 
 ### Week 10
 - [CSS Layout: Float](lectures/w11-css-layout-float.md)
+- Lecture videos:
+  - [float](https://youtu.be/4RxAswB9Pk8)
+  - [project-related questions](https://youtu.be/5aAB1pczNLw)
 - Assignment: Finish Interactive Type Poster project
 
 <!--
