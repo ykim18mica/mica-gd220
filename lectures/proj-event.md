@@ -79,7 +79,8 @@ Make sure you are spending enough time to learn different web technologies on yo
 ## Student work examples
 - [Lorna](http://mica-gd2.paperdove.com/2017/event/wed/LornaPittaway/)
 - [Juliette](http://mica-gd2.paperdove.com/2017/event/thu/JulietteWang/)
-- [Jaeyoung](http://mica-gd2.paperdove.com/2017/event/thu/JaeyoungCheong/)
+- [Yana](http://mica-gd2.paperdove.com/2018/event/thu/yana-gevorgyan/)
+
 
 ## Further Learning
 - [Adobe XD CC](https://www.adobe.com/products/xd.html)
