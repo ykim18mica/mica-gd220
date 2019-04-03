@@ -134,9 +134,9 @@
 ### Week 11
 - Review project: Poster
 - *Brett Renfer (Visiting Designer of Bluecadet), April 3, 12–1pm, Brown 320*
+- **[Project 3: Event Website](lectures/proj-event.md)**
 
 <!--
-- **[Project 3: Event Website](lectures/proj-event.md)**
 - Wireframing: 
   - [video 1](https://www.youtube.com/watch?v=8-vTd7GRk-w), 
   - [video 2](https://www.youtube.com/watch?v=PmmQjLqJQlY)
