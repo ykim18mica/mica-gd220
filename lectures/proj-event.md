@@ -80,6 +80,8 @@ Make sure you are spending enough time to learn different web technologies on yo
 - [Lorna](http://mica-gd2.paperdove.com/2017/event/wed/LornaPittaway/)
 - [Juliette](http://mica-gd2.paperdove.com/2017/event/thu/JulietteWang/)
 - [Yana](http://mica-gd2.paperdove.com/2018/event/thu/yana-gevorgyan/)
+- [Amanda](http://mica-gd2.paperdove.com/2018/event/thu/amanda-yeh/)
+
 
 
 ## Further Learning
