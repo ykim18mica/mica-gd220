@@ -122,7 +122,6 @@
 ### Week 9
 *No class - Spring Break*
 
-
 ### Week 10
 - [CSS Layout: Float](lectures/w11-css-layout-float.md)
 - Lecture videos:
@@ -130,21 +129,20 @@
   - [project-related questions](https://youtu.be/5aAB1pczNLw)
 - Assignment: Finish Interactive Type Poster project
 
-
 ### Week 11
 - Review project: Poster
 - *Brett Renfer (Visiting Designer of Bluecadet), April 3, 12–1pm, Brown 320*
 - **[Project 3: Event Website](lectures/proj-event.md)**
+- Assignments
+  - Prepare a PDF idea/research presentation for the final project. Refer to the brief above for more details.
+  - [Presentation examples](http://mica-gd405.paperdove.com/2017/) from a different class (look at the final project PDFs.)
 
 <!--
 - Wireframing: 
   - [video 1](https://www.youtube.com/watch?v=8-vTd7GRk-w), 
   - [video 2](https://www.youtube.com/watch?v=PmmQjLqJQlY)
-- Assignments
   - [assignments](lectures/w10-assignments.md)
-  - Prepare a PDF idea/research presentation for the final project. Refer to the brief above for more details.
-  - [Presentation examples](http://mica-gd405.paperdove.com/2017/) from a different class (look at the final project PDFs.)
-
+  
 ### Week 12
 - review idea/research
 - Tutorial sharing
