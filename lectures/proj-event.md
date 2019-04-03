@@ -14,6 +14,7 @@ Make sure you are spending enough time to learn different web technologies on yo
 ## Process
 1. Come up with a unique theme for your event. What do you think is the most important issue in design field now?
 1. Come up with the name/date/time/location of the event. Choose 3 people you want to invite as speakers. 
+1. (If you want to add more people and/or activities to your event, discuss with me when you present the ideas.)
 1. Research on the topic/speakers. Collect as many materials as possible.
 1. Think about what the contents of the website should be. What would visitors want to know? (ex. location, speaker bio, schedule for each talk, contents of the event, general info on the event, etc.)
 1. Think about the structure of the website. *How* do you present it? How clear and easy is it to navigate? Look at your design from the users' perspective.
