@@ -74,9 +74,6 @@ Make sure you are spending enough time to learn different web technologies on yo
 - [Graphic Design Festival Scotland](http://graphicdesignfestivalscotland.com/)
 - [타이포잔치 / Typojanchi](http://typojanchi.org/)
 - [The Lucerne Poster Festival](http://weltform.at/)
-----
-- [Burning Man](https://burningman.org)
-- [Coachella](https://www.coachella.com)
 
 
 ## Student work examples
