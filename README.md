@@ -142,11 +142,9 @@
 - Wireframing: 
   - [video 1](https://www.youtube.com/watch?v=8-vTd7GRk-w), 
   - [video 2](https://www.youtube.com/watch?v=PmmQjLqJQlY)
-  
-<!--
 - [assignments](lectures/w12-assignments.md)
 
-
+<!--
 ### Week 13
 - Review wireframes/mockups
 - [How to show/hide elements using JavaScript](lectures/w13-show-hide.md)
