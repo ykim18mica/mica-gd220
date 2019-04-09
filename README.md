@@ -136,17 +136,17 @@
 - Assignments
   - Prepare a PDF idea/research presentation for the final project. Refer to the brief above for more details.
   - [Presentation examples](http://mica-gd405.paperdove.com/2017/) from a different class (look at the final project PDFs.)
+  
+### Week 12
+- review project idea/research
 
 <!--
+- [assignments](lectures/w12-assignments.md)
+
 - Wireframing: 
   - [video 1](https://www.youtube.com/watch?v=8-vTd7GRk-w), 
   - [video 2](https://www.youtube.com/watch?v=PmmQjLqJQlY)
   - [assignments](lectures/w10-assignments.md)
-  
-### Week 12
-- review idea/research
-- Tutorial sharing
-- [assignments](lectures/w12-assignments.md)
 
 ### Week 13
 - Review wireframes/mockups
