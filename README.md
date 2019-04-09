@@ -139,6 +139,7 @@
   
 ### Week 12
 - review project idea/research
+- work in class
 - Wireframing: 
   - [video 1](https://www.youtube.com/watch?v=8-vTd7GRk-w), 
   - [video 2](https://www.youtube.com/watch?v=PmmQjLqJQlY)
