@@ -139,14 +139,13 @@
   
 ### Week 12
 - review project idea/research
-
-<!--
-- [assignments](lectures/w12-assignments.md)
-
 - Wireframing: 
   - [video 1](https://www.youtube.com/watch?v=8-vTd7GRk-w), 
   - [video 2](https://www.youtube.com/watch?v=PmmQjLqJQlY)
-  - [assignments](lectures/w10-assignments.md)
+  
+<!--
+- [assignments](lectures/w12-assignments.md)
+
 
 ### Week 13
 - Review wireframes/mockups
