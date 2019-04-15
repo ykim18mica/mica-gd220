@@ -146,9 +146,10 @@
 - Lecture video: [linking multiple pages](https://youtu.be/zRsPyfDMbXY)
 - [assignments](lectures/w12-assignments.md)
 
-<!--
 ### Week 13
 - Review wireframes/mockups
+
+<!--
 - [How to show/hide elements using JavaScript](lectures/w13-show-hide.md)
   - basic info: https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
   - more info: https://www.w3schools.com/howto/howto_js_sidenav.asp
