@@ -148,12 +148,13 @@
 
 ### Week 13
 - Review wireframes/mockups
+- [Assignments](lectures/w13-assignments.md)
 
 <!--
 - [How to show/hide elements using JavaScript](lectures/w13-show-hide.md)
   - basic info: https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
   - more info: https://www.w3schools.com/howto/howto_js_sidenav.asp
-- [Assignments](lectures/w13-assignments.md)
+
 
 ### Week 14
 - Review work-in-progress
