@@ -154,12 +154,11 @@
 - [Assignments](lectures/w13-assignments.md)
 
 ### Week 14
-
-<!--
 - Review work-in-progress
 - Work in class
 - Assignments: Continue to work on the project. Build web pages with HTML/CSS. Do most work this week so that you have next week for problem solving and refinements.
 
+<!--
 ### Week 15
 - Course evaluation: check your email for the link.
 - Review work-in-progress
