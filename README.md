@@ -158,18 +158,14 @@
 - Work in class
 - Assignments: Continue to work on the project. Build web pages with HTML/CSS. Do most work this week so that you have next week for problem solving and refinements.
 
-<!--
 ### Week 15
-- Course evaluation: check your email for the link.
 - Review work-in-progress
 - Work in class
 - Assignments:
   - Finish the project.
-  - Make sure you **test** before you submit. Test with different window size. Test on different computers.
+  - Make sure you **test** before you submit. Test with different window sizes. Test on different computers.
   - Do not just show your website, but prepare to *talk* about your process and project (content and design). Pretend the audience doesn't know anything about your work.
   - Upload the finished project folder on Google Drive **before** class starts.
   
 ### Week 16
 - Final critique
-
--->
