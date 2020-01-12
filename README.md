@@ -8,11 +8,11 @@
 - email: [dchung01@mica.edu](mailto:dchung01@mica.edu)
 - Office: BR303
 - Office hours: Wed, Thu and Fridays (email for an appointment)
-- [Syllabus](files/MICA-19SP-GD2-Syllabus.pdf)
+- [Syllabus](files/MICA-20SP-GD2-Syllabus.pdf)
 
 ## Section information
-- GD220.03, Wed 8:30am-2pm, BR304
-- GD220.04, Thu 9am-3pm, BR304
+- GD220.02, Thu 9am-3pm, BR306
+- GD220.04, Fri 9am-3pm, BR308
 
 ## Resources
 - [Submit assignments here](https://drive.google.com/drive/folders/1L1erixjRVolRxHVgLNYEJQtIWOHqKXme?usp=sharing) - you don't need to request permissions. Just sign in with your MICA email.
