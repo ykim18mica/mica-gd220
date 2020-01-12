@@ -22,7 +22,7 @@
 
 ## Weekly
 ### Week 1
-- [Survey](https://goo.gl/forms/JBcNToebZ27gAgH52) - sign in with your MICA email account.
+- [Survey](https://forms.gle/mjNwF8fvnij5JHcp6) - sign in with your MICA email account.
 - [Intro](lectures/w1-intro.md)
 - [How the Internet Works](lectures/w1-how-the-internet-works.md)
 - group exercise: [Structure Analysis](lectures/w1-structure-analysis.md)
