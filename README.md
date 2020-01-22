@@ -34,9 +34,9 @@
 - [HTML Basics](lectures/w1-html-basics.md)
   1. to follow along, create an empty folder "w1-html-basics" on your desktop, and drag the folder into the Brackets window.
   1. create a new file in Brackets, and save as "index.html"
-- [Lecture video recording](https://www.youtube.com/watch?v=NcXlFrxA1-8&feature=youtu.be)
 - [Assignments](lectures/w1-assignments.md)
 
+<!--
 
 ### Week 2
 - HTML Basics cont'd
@@ -169,3 +169,5 @@
   
 ### Week 16
 - Final critique
+
+-->
