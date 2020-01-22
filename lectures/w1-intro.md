@@ -15,7 +15,7 @@ Everything you do with computers are made with codes. We tend to forget that bec
 
 There are many tools available that claim you can create a website without any coding. It is up to you (and what you are trying to achieve) to decide whether you should use these tools or not. You may consider time and cost associated with learning to code or learning the tools. You may focus on the quality of your work and see if any tools will give you enough flexibility. After all, everything will be converted to codes that your computer can understand. 
 
-What we are going to learn - html and css languages - are not in fact programming languages. HTML and CSS are used to describe and style elements but there is no logic to do any advanced interactions or automations.
+What we are going to learn - html and css languages - are not in fact programming languages. HTML and CSS are used to describe and style contents but there is no logic to do any advanced interactions or automations.
 
 
 
