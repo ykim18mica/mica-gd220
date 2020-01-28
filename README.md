@@ -47,8 +47,6 @@
 ### Week 3
 - [Having problems with your code?](lectures/w3-problem-solving-tips.md)
 - [Box Model](lectures/w3-box-model.md): Everything is a rectangular box!!
-
-<!--
 - Drawing with CSS
   - use `position: absolute;` to be able to set position manually.
   - then, use `top: xx px; left: xx px;` to set position vertically and horizontally;
@@ -57,10 +55,9 @@
 - Drawing with CSS practice
   - draw one of the simple [national flags](https://duckduckgo.com/?q=national+flag&atb=v97-3&iar=images&iax=images&ia=images) using CSS.
   - then, draw one of the [De Stijl](http://www.designishistory.com/1920/de-stijl/) artworks.
+
+<!--
 - **[Project 1: Lyrical Mapping](lectures/proj-lyrical-mapping.md)**
-- Lecture videos:
-  - [box model](https://youtu.be/kefB0qUZWsk)
-  - [css drawing](https://youtu.be/qiXGNoP7x1k)
 - [Assignments](lectures/w3-assignments.md)
 
 ### Week 4
