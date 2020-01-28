@@ -46,9 +46,9 @@
 
 ### Week 3
 - [Having problems with your code?](lectures/w3-problem-solving-tips.md)
+- [Box Model](lectures/w3-box-model.md): Everything is a rectangular box!!
 
 <!--
-- [Box Model](lectures/w3-box-model.md): Everything is a rectangular box!!
 - Drawing with CSS
   - use `position: absolute;` to be able to set position manually.
   - then, use `top: xx px; left: xx px;` to set position vertically and horizontally;
