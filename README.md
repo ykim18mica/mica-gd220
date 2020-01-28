@@ -36,20 +36,18 @@
   1. create a new file in Brackets, and save as "index.html"
 - [Assignments](lectures/w1-assignments.md)
 
-<!--
-
 ### Week 2
 - HTML Basics cont'd
 - [CSS Basics](lectures/w2-css-basics.md)
 - [CSS Text Properties](lectures/w2-css-text.md)
 - [CSS Colors](lectures/w2-css-colors.md)
 - [Structure Analysis Part 2](lectures/w2-structure-analysis-2.md)
-- [Lecture video recording](https://youtu.be/q5beO6AILgg)
 - [Assignments](lectures/w2-assignments.md)
-
 
 ### Week 3
 - [Having problems with your code?](lectures/w3-problem-solving-tips.md)
+
+<!--
 - [Box Model](lectures/w3-box-model.md): Everything is a rectangular box!!
 - Drawing with CSS
   - use `position: absolute;` to be able to set position manually.
