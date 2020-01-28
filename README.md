@@ -41,7 +41,7 @@
 - [CSS Basics](lectures/w2-css-basics.md)
 - [CSS Text Properties](lectures/w2-css-text.md)
 - [CSS Colors](lectures/w2-css-colors.md)
-- [Structure Analysis Part 2](lectures/w2-structure-analysis-2.md)
+- Exercise: [Structure Analysis Part 2](lectures/w2-structure-analysis-2.md)
 - [Assignments](lectures/w2-assignments.md)
 
 ### Week 3
