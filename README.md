@@ -37,7 +37,7 @@
 - [Assignments](lectures/w1-assignments.md)
 
 ### Week 2
-- HTML Basics cont'd
+- [HTML Basics](lectures/w1-html-basics.md) cont'd
 - [CSS Basics](lectures/w2-css-basics.md)
 - [CSS Text Properties](lectures/w2-css-text.md)
 - [CSS Colors](lectures/w2-css-colors.md)
