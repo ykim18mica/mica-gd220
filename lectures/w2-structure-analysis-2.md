@@ -1,6 +1,7 @@
 # Structure Analysis Part 2
 
 1. You will be given a news article in plain text file. Download [w2-exercise folder](../files/w2-exercise.zip).
+1. You will convert the plain text file into proper HTML document using the `index.html` template. Keep the code in there and add your own code on top of it.
 1. Assign names to each element such as title, caption, paragraph, section title, etc. to describe each content and its role.
 1. Every element must be given a place in the structure. You are working on a single article here, but if you think about this article as a module in the entire newspaper, then this module can be used for other articles as well.
 1. Download and open up the HTML template folder for this exercise in Brackets.
