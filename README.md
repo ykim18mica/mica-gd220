@@ -36,7 +36,7 @@
   1. create a new file in Brackets, and save as "index.html"
 - [Assignments](lectures/w1-assignments.md)
 
-### Week 2
+### Week 2 (Jan.27~)
 - [HTML Basics](lectures/w1-html-basics.md) cont'd
 - [CSS Basics](lectures/w2-css-basics.md)
 - [CSS Text Properties](lectures/w2-css-text.md)
@@ -44,7 +44,7 @@
 - Exercise: [Structure Analysis Part 2](lectures/w2-structure-analysis-2.md)
 - [Assignments](lectures/w2-assignments.md)
 
-### Week 3
+### Week 3 (Feb.3~)
 - [Having problems with your code?](lectures/w3-problem-solving-tips.md)
 - [Box Model](lectures/w3-box-model.md): Everything is a rectangular box!!
 - Drawing with CSS
@@ -60,7 +60,7 @@
 - **[Project 1: Lyrical Mapping](lectures/proj-lyrical-mapping.md)**
 - [Assignments](lectures/w3-assignments.md)
 
-### Week 4
+### Week 4 (Feb.10~)
 - Add a few more Brackets extensions...
   - HTMLHint
   - CSSLint
@@ -75,8 +75,7 @@
   - [project template](https://youtu.be/eZragps6h48)
 - [Assignments](lectures/w4-assignments.md)
 
-
-### Week 5
+### Week 5 (Feb.17~)
 - Run "Beautify" first before doing any problem solving or asking questions. 
 - More on project [template code](lectures/w4-lyrics-template-walkthrough.md)
 - Continue working on Project 1
@@ -87,7 +86,7 @@
   - continue to work on your project and post any and all the updates to Google Drive. (mockup, image placement, typography)
   - watch videos from week 4 for more information on how to use Project 1 coding template.
 
-### Week 6
+### Week 6 (Feb.24~)
 - Work on Project 1 - the deadline is next week.
 - [CSS Layout: Position](lectures/w6-css-layout-position.md)
 - Lecture videos
@@ -95,13 +94,13 @@
   - [position relative/absolute basics](https://youtu.be/VKe-k76PjHU)
 - [Assignments](lectures/w6-assignments.md)
 
-### Week 7
+### Week 7 (Mar.2~)
 - Review Project: Lyrical Mapping
 - Lecture video: [css position](https://youtu.be/k2aa4Q344pg)
 - **[Project 2: Poster design for the web](lectures/proj-poster.md)**
 - [Assignments](lectures/w7-assignments.md)
 
-### Week 8
+### Week 8 (Mar.9~)
 - Layout practice: do not change HTML code. only add your own CSS rules to recreate the same layout.
   - [code to start with](http://codepen.io/cdaein/pen/vxNPme?editors=1000)
   - [desired result 1](images/layout-practice-sample-1.png)
@@ -114,7 +113,7 @@
   - [positioning exercise](https://youtu.be/K52orIlCA58)
 - [Assignments](lectures/w8-assignments.md)
 
-### Week 9
+### Week 9 (Mar.16~)
 *No class - Spring Break*
 
 ### Week 10
